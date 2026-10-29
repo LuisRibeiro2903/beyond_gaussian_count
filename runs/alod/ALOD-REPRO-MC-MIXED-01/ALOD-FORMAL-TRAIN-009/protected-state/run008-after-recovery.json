@@ -1,7 +1,0 @@
-{
-  "entries": 36,
-  "fingerprint_sha256": "42acf58eab8bf362ad79db9da9ea2f7b90fa39bbc2f93ddd69f8acdcd4f0ae78",
-  "gate": "PASS",
-  "root": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-008",
-  "total_file_bytes": 416008
-}

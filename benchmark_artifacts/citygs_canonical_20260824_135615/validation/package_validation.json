@@ -1,8 +1,0 @@
-{
-  "ambiguous_timing_fields_absent": true,
-  "configuration_count": 7,
-  "measured_frame_count": 30240,
-  "repetition_count": 3,
-  "status": "pass",
-  "validated_utc": "2026-08-24T13:21:38.297550+00:00"
-}

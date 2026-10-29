@@ -1,9 +1,0 @@
-{
-  "launcher_parent_pid": 317,
-  "launcher_pid": 4216,
-  "launcher_process_group_id": 4216,
-  "launcher_session_id": 4216,
-  "systemd_invocation_id": "06d93c59d3624028b543d48e8f3d7181",
-  "systemd_unit": "alod-formal-run009.service",
-  "timestamp": 1787362284
-}

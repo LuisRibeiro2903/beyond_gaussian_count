@@ -4,7 +4,7 @@
 Reads frozen records; checks raw CityGaussian frames and saved ALoD analyses.
 No model, renderer, training, GPU, or network code is imported or executed.
 """
-import argparse, gzip, hashlib, json, os, platform
+import argparse, hashlib, json, os, platform, sys
 from pathlib import Path
 os.environ.setdefault('MPLCONFIGDIR', '/tmp/final-empirical-matplotlib')
 import matplotlib
@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import numpy as np
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT/'tools'))
+from evidence_store import EvidenceStore
 CG = 'benchmark_artifacts/citygs_canonical_20260824_135615'
 CACHE = 'benchmark_artifacts/alod_ext_run009_closure_001'
 SYNTH = 'runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001'
@@ -24,15 +26,13 @@ IDS = ['CG-FINEST-FLAT','CG-FIXED-FINEST-ALL','CG-FIXED-FINEST-VISIBILITY',
 LABELS = ['Finest: flat','Finest: all cells','Finest: visibility','Adaptive LoD',
           'Fused: flat','Fused: all cells','Fused: visibility']
 class Evidence:
-    def __init__(self): self.sources = {}
-    def path(self, rel):
-        p = ROOT/rel
-        self.sources[str(rel)] = hashlib.sha256(p.read_bytes()).hexdigest()
-        return p
-    def json(self, rel): return json.loads(self.path(rel).read_text())
+    def __init__(self): self.sources = {}; self.archive = EvidenceStore()
+    def json(self, rel):
+        raw = self.archive.read(rel)
+        self.sources[str(rel)] = hashlib.sha256(raw).hexdigest()
+        return json.loads(raw)
     def jsonl(self, rel):
-        p = ROOT / rel
-        raw = p.read_bytes() if p.exists() else gzip.decompress(Path(str(p)+'.gz').read_bytes())
+        raw = self.archive.jsonl_bytes(rel)
         self.sources[str(rel)] = hashlib.sha256(raw).hexdigest()
         return [json.loads(s) for s in raw.decode().splitlines() if s]
 def same(a,b): np.testing.assert_allclose(a,b,rtol=1e-9,atol=1e-7)
@@ -60,9 +60,9 @@ def city_data(e):
         processes=[]; summaries=[]
         for rep in range(1,4):
             base=f'{CG}/runs/{cid}/repeat_{rep:02d}'
-            p=e.path(f'{base}/summary.json')
+            s=e.json(f'{base}/summary.json')
             assert e.sources[f'{base}/summary.json']==c['repetitions'][rep-1]['summary_sha256']
-            s=json.loads(p.read_text()); rows=e.jsonl(f'{base}/frames.jsonl')
+            rows=e.jsonl(f'{base}/frames.jsonl')
             assert len(rows)==s['frame_count']==1440
             assert s['warmup_policy']['frame_count']==1 and not s['warmup_policy']['included_in_aggregates']
             assert s['warmup_policy']['memory_peaks_reset_after_warmup']

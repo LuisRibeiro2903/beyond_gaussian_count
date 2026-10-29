@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """Recompute the final natural ALoD-Exec table statistics from included traces."""
-import gzip
 import json
 import math
 import statistics
 from pathlib import Path
+from evidence_store import EvidenceStore
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGE = ROOT / 'benchmark_artifacts/alod_ext_natural_previous_completion_001'
+PACKAGE = Path('benchmark_artifacts/alod_ext_natural_previous_completion_001')
+ARCHIVE = None
 
 def rows(path):
-    raw = path.read_bytes() if path.exists() else gzip.decompress(Path(str(path)+'.gz').read_bytes())
+    raw = ARCHIVE.jsonl_bytes(path.as_posix())
     return [json.loads(line) for line in raw.decode().splitlines() if line]
 
 def require(actual, expected, label):
@@ -20,7 +21,9 @@ def require(actual, expected, label):
         raise ValueError(f'{label}: {actual} != {expected}')
 
 def main():
-    summary = json.loads((PACKAGE/'tables/completion_summary.json').read_text())
+    global ARCHIVE
+    ARCHIVE = EvidenceStore()
+    summary = json.loads((ROOT/'results/alod_exec/natural_completion.json').read_text())
     checks = processes = frames = 0
     for dataset, content in summary['datasets'].items():
         for mode, table in content['modes'].items():

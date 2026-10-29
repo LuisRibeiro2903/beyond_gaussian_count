@@ -1,7 +1,0 @@
-{
-  "entries": 79,
-  "fingerprint_sha256": "babf2ed8c262607a5eb421ff782912d7a2031c63060cf7930209fbbd31b2f4eb",
-  "gate": "PASS",
-  "root": "/home/luis/tese/benchmark_artifacts/alod_materialization_aware_residency_benchmark_001",
-  "total_file_bytes": 10534482
-}

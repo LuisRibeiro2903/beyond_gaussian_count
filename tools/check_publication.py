@@ -10,6 +10,7 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from evidence_store import EvidenceStore
 
 ROOT = Path(__file__).resolve().parents[1]
 PATTERNS = {
@@ -40,8 +41,8 @@ def main():
     parser.add_argument('--history', action='store_true', help='Also scan all reachable Git commits')
     args = parser.parse_args()
     files = tracked_and_new()
-    mapping = {x['path']: x for x in json.loads((ROOT/'release/licensing.json').read_text())['files']}
-    excluded = {x['path'] for x in json.loads((ROOT/'release/public_exclusions.json').read_text())['files']}
+    mapping = {x['path']: x for x in json.loads((ROOT/'companion.json').read_text())['files']}
+    excluded = {x['path'] for x in EvidenceStore().json('release/public_exclusions.json')['files']}
     errors = []
     for name in files:
         if name not in mapping:

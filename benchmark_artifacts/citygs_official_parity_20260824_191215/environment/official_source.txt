@@ -1,5 +1,0 @@
-CityGaussian commit: e16c526f78ab01d377b13b3e6862dcc93ddbe953
-diff-gaussian-rasterization: 59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d
-GraphDECO nested GLM: 5c46b9c07008ae65cb81ab79cd677ecc1934b903
-simple-knn: 44f764299fa305faf6ec5ebd99939e0508331503
-CUDA 12.9 compatibility-only changes: add <cstdint> to rasterizer_impl.h; add <cfloat> to simple_knn.cu.

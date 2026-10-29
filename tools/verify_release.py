@@ -1,35 +1,36 @@
 #!/usr/bin/env python3
 """Verify packaged file identities and recoverable trace hashes; no GPU needed."""
-import gzip
 import hashlib
 import json
 from pathlib import Path
+from evidence_store import EvidenceStore
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def digest(path, compressed=False):
+def digest(path):
     h = hashlib.sha256()
-    opener = gzip.open if compressed else open
-    with opener(path, 'rb') as handle:
+    with open(path, 'rb') as handle:
         for block in iter(lambda: handle.read(1024 * 1024), b''):
             h.update(block)
     return h.hexdigest()
 
 def main():
     errors = []
-    manifest = json.loads((ROOT / 'release/export_manifest.json').read_text())
+    manifest = json.loads((ROOT / 'companion.json').read_text())
     for item in manifest['files']:
+        if item['path'] == 'companion.json':
+            continue  # A manifest cannot include its own byte hash; Git records it.
         path = ROOT / item['path']
         if not path.is_file() or digest(path) != item['sha256']:
             errors.append(item['path'])
-    traces = json.loads((ROOT / 'release/trace_index.json').read_text())
-    for item in traces:
-        path = ROOT / item['compressed_path']
-        if not path.is_file() or digest(path, True) != item['sha256']:
-            errors.append(item['compressed_path'] + ': original trace identity')
+    archive = EvidenceStore()
+    for item in manifest['results']:
+        raw = archive.read(item['archived_source'])
+        if hashlib.sha256(raw).hexdigest() != item['sha256'] or (ROOT/item['path']).read_bytes() != raw:
+            errors.append(item['path'] + ': original result identity')
     if errors:
         raise SystemExit('FAILED\n' + '\n'.join(errors))
-    print(f"PASS: {len(manifest['files'])} packaged files; {len(traces)} original trace hashes.")
+    print(f"PASS: {len(manifest['files'])} reader files; {len(manifest['results'])} unchanged original result records; pinned archive manifest.")
     print('This checks release integrity, not GPU measurements or redistribution rights.')
 
 if __name__ == '__main__':

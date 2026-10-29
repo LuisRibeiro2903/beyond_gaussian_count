@@ -2,79 +2,63 @@
 
 **Runtime Analysis and Materialization-Aware Execution in Large-Scale 3D Gaussian Splatting**
 
-Code and experimental evidence for Luis Ribeiro's Master's dissertation on
-reproducing, instrumenting, and evaluating large-scale Gaussian rendering on
-consumer hardware.
+Reader companion to Luis Ribeiro's Master's dissertation. This view contains
+the runtime implementation, focused correctness tests, thirteen key result
+records, and commands to verify the numerical analyses.
 
-A research companion with source code, numerical evidence and reproducible
-analyses. Original project contributions use MIT; upstream-derived portions
-retain their research/noncommercial, share-alike or Apache terms. See
-[licence scope](LICENSE.md) before reuse.
+## Read the results
 
-The [repository](https://github.com/LuisRibeiro2903/beyound_gaussian_count) is
-prepared for public companion use within the documented scope. Its visibility
-is controlled by the author. No DOI or public archive is claimed.
-
-## Start here
-
-Inspect the evidence with Python 3.10 or newer; no GPU or downloaded scene is
-needed:
+Start with [results/README.md](results/README.md). It maps the thesis topics to
+the relevant records and code. The JSON result files are unchanged copies of
+the original campaign tables; their source identities are in
+[companion.json](companion.json).
 
 ```bash
 python tools/verify_release.py
 python tools/verify_natural_results.py
-python tools/check_publication.py
-python tools/results.py
-python tools/results.py --table benchmark_artifacts/citygs_canonical_20260824_135615/tables/config_summary.json
 ```
 
-Read the [evidence guide](docs/EVIDENCE.md),
-[reproduction matrix](evidence/REPRODUCTION_MATRIX.md), and
-[comparison rules](evidence/COMPARISON_VALIDITY.md) before interpreting results.
-ALoD reproduction, ALoD-Exec extensions (`ALOD-EXT` artifact identifiers), and
-synthetic controls answer different questions. The experiments do not establish
-a cross-method ranking or reproduce the original papers' headline FPS.
+These commands need Python and Git, with no GPU or downloaded scene.
 
-## Contents
-
-| Location | Purpose |
-| --- | --- |
-| `gs_framework/` | Runtime, independent/reference implementations, benchmark tools, tests and experiment configurations |
-| `benchmark_artifacts/` | Twelve main numerical campaigns plus selected supporting records, with original protocols and validation records |
-| `runs/alod/` | Selected training, negative-preflight and oracle metadata; no trained hierarchies or bulk oracle arrays |
-| `evidence/` | Experiment index, comparison boundaries and reproducibility assessment |
-| `reproduction/figures/` | Portable numerical figure generator with recorded typography change |
-| `release/` | File hashes, source-state record, thesis-reference map and omitted-artifact inventory |
-
-Numerical frame traces are compressed losslessly. To restore their original
-paths and bytes for existing analysis scripts:
+## Reproduce the analyses
 
 ```bash
-python tools/restore_traces.py
+python -m pip install -r requirements-evidence.txt
+python reproduction/figures/generate_final_empirical_figures.py --output local/figures
 ```
 
-## Reproduce analyses and run software
+This regenerates five empirical figures from the saved numerical records.
+[REPRODUCING.md](docs/REPRODUCING.md) covers installation, focused tests,
+synthetic GPU rendering, and external inputs for real-scene experiments.
 
-[REPRODUCING.md](docs/REPRODUCING.md) separates offline evidence inspection,
-CPU tests, a synthetic GPU smoke test, and numerical figure generation from experiments requiring CUDA,
-external reference source and scene assets. Download locations, pinned source
-revisions and input identity records are in [EXTERNAL_INPUTS.md](docs/EXTERNAL_INPUTS.md).
+## Detailed evidence
 
-The source snapshot includes relevant working files that were untracked in the
-development repository. Historical numerical records retain their original
-commit and per-file identities; this packaging commit is a different identity.
-Read the [reproducibility limits](docs/REPRODUCIBILITY_LIMITS.md) and [source coverage](release/historical_source_coverage.json).
-Some historical launch scripts retain machine-specific paths and are evidence
-of the executed procedure, rather than portable launchers.
+The [complete audited record at v1.0.0](https://github.com/LuisRibeiro2903/beyound_gaussian_count/tree/v1.0.0)
+preserves the full numerical traces, protocols, validation reports, historical
+source snapshots, auxiliary tools and development documentation. The analysis
+commands read those records from the pinned Git revision without expanding
+thousands of files into this working tree. Standard Git clones include it.
 
-## Attribution and reuse
+For a shallow clone, fetch it once with `git fetch origin tag v1.0.0`.
+For a ZIP download, also obtain the [full-record ZIP](https://github.com/LuisRibeiro2903/beyound_gaussian_count/archive/refs/tags/v1.0.0.zip)
+and set `BEYOND_EVIDENCE_DIR` to its extracted root. The expected revision is
+`42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c`.
 
-CityGaussian and A LoD of Gaussians are methods by their respective authors.
-The project contributes reproduction, validation, instrumentation, controlled
-evaluation, and explicitly labelled extensions. Full upstream repositories,
-datasets, checkpoints, imagery and thesis fonts are obtained separately.
-Campus/Sci-Art raw camera payloads are also excluded; local reconstruction scripts remain available.
+## Scope and reuse
 
-See [LICENSE.md](LICENSE.md) and [the licensing review](docs/LICENSE_REVIEW.md).
-The release does **not** apply one blanket licence to all third-party or
-source-derived material. Citation metadata are in [CITATION.cff](CITATION.cff).
+CityGaussian and ALoD algorithms belong to their original authors. This work
+provides reproduction, instrumentation, controlled evaluation and the explicitly
+identified ALoD-Exec extension. Results are compared within their stated
+protocols, not used as a cross-method ranking or a reproduction of paper FPS.
+
+Images, scene models, trained hierarchies and restricted raw camera payloads
+must be obtained separately. Negative findings remain visible in the result
+guide. Five older natural-association source versions were not recovered;
+their exact historical replay is not claimed. The final natural campaign's
+sealed files and recovered canonical CityGaussian sources are documented in
+the full record. Numerical evidence can still be inspected and checked.
+
+Original contributions use MIT. Upstream-derived portions retain their
+noncommercial/research, share-alike or Apache terms; see [LICENSE.md](LICENSE.md)
+and [NOTICE](NOTICE). Citation metadata are in [CITATION.cff](CITATION.cff).
+No DOI is claimed. Repository visibility remains the author's choice.

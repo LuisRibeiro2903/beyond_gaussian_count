@@ -1,0 +1,1106 @@
+{
+  "version": "1.1.0",
+  "evidence": {
+    "tag": "v1.0.0",
+    "commit": "42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c",
+    "url": "https://github.com/LuisRibeiro2903/beyound_gaussian_count/tree/v1.0.0",
+    "purpose": "Complete audited numerical, protocol, provenance and auxiliary-code record; kept intact.",
+    "manifest_sha256": "bca167e1737be522a3bb89309f90f8f3c5bbb807ac26fdd20f00b10e1a326e29"
+  },
+  "results": [
+    {
+      "path": "results/citygaussian/controlled_ladder.json",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/config_summary.json",
+      "sha256": "ce086cdff5963135a3ab022ed138a37734f39a43a9b8955b53c4f1c32b1fb1c0",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/citygaussian/memory.json",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/memory_summary.json",
+      "sha256": "f532cc1ef7f06fd733a437ce70e7ea5d5875e6ae9950f314a8aac6a1e3b830b1",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/citygaussian/gaussian_counts.json",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/selected_workload_summary.json",
+      "sha256": "3ed8b4a2e468241ebe67d8b97fab5bcc895bab513579dea4cdeae85a26d3da00",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/citygaussian/official_comparison.json",
+      "archived_source": "benchmark_artifacts/citygs_official_clean_full_20260825_163319/tables/official_vs_gsplat.json",
+      "sha256": "d911db9a9f377078a096020e559fb2f481f136f26b75d7bbecbe91a4987e6199",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/citygaussian/backend_timing.json",
+      "archived_source": "benchmark_artifacts/citygs_backend_microbench_20260824_213420/tables/backend_timing.json",
+      "sha256": "379d1e3e8b6c605247289398ddaff5a43782e00e1518e868f4c6d2de5a0a898e",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/citygaussian/backend_attribution.json",
+      "archived_source": "benchmark_artifacts/citygs_12camera_attribution_20260824_222048/tables/attribution_summary.json",
+      "sha256": "2ed86661ab291d3b3e3c2e099aebd95f7856ab3f1ffc08c46d6b834271e5bcc8",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod/rendering.json",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/tables/rendering_summary.json",
+      "sha256": "87370d1d8ef08e37a5c95e8c048f5ecd57e4d5705b379ec0454dcc2f76e0f3bf",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod/frustum_ablation.json",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/tables/frustum_ablation.json",
+      "sha256": "8a553699b62e0e3ee73668638f9fc2e4ec7f3e6bd277c510885505f8ce7af332",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod/quality.json",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/quality/results/summary.json",
+      "sha256": "3b7fc482fd17ac8d9d48fd6992fb8948152a13c5f3e1edb24bf4b116f1f2e8cf",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod/uni10k_negative_preflight.json",
+      "archived_source": "runs/alod/ALOD-REPRO-UNI10K-01/ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT-RUN005-CLOSURE/closure.json",
+      "sha256": "135b8e68fcd40ff7249119d16c1c7f299a9001e93657a6c78dffa24c92f19607",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod_exec/matrixcity_formal.json",
+      "archived_source": "benchmark_artifacts/alod_ext_formal_run009_001/tables/formal_summary.json",
+      "sha256": "b950be3598955de7d302ade898ee6360024256c0b66a5355b9f71bbf1d6a01df",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod_exec/natural_completion.json",
+      "archived_source": "benchmark_artifacts/alod_ext_natural_previous_completion_001/tables/completion_summary.json",
+      "sha256": "c4a46b1e6dafc494929a7b2aac4fd00ecc31ee5b943222b586650f147c3596e1",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod_exec/synthetic_multiset.json",
+      "archived_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/tables/aggregate.json",
+      "sha256": "3690d4f0972e1eb9e13fcbeaac81c9883ed024d3096c9c864c62613c40c62980",
+      "license_expression": "MIT"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "db35a173601586c54b215f311c994044adbcbec7d21564850802911d42f6f22f",
+      "license_expression": "MIT",
+      "archived_source": ".gitattributes"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "311324c95829c97d627081b90e776155126d25b05a4aa6bd1ed8dfdf8799dccf",
+      "license_expression": "MIT",
+      "archived_source": ".github/workflows/check.yml"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3c6cdf1f0abbb867bacaca657189399c35cdb79b4547739390847b00d075c300",
+      "license_expression": "MIT",
+      "archived_source": ".gitignore"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "5c68d81ac48c0a00bf9f4b566af6b4611d0780cd63d32fb0d41f9b5b28628ad5",
+      "license_expression": "MIT",
+      "archived_source": "CITATION.cff"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "f98a131df903d1f1576be2984f1a00086ba4b39dde77570ba8f63348963fa461",
+      "license_expression": "License-text",
+      "archived_source": "LICENSE"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "9a96368e75af73815cf01d7b946200d7b38f931a624a56a0126a14013000a6ba",
+      "license_expression": "MIT",
+      "archived_source": "LICENSE.md"
+    },
+    {
+      "path": "LICENSES/ALoD-upstream.txt",
+      "sha256": "52702534e8fbd20c98d5c6621e5692434f2f3ea235c51c6e15727c7d9fdc4f84",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/ALoD-upstream.txt"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "96a4f89293c0df19880da9b0e35f67589f5885ea61b224ef16bb2bd599a8a44d",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/Apache-2.0.txt"
+    },
+    {
+      "path": "LICENSES/BSD-3-Clause-COLMAP.txt",
+      "sha256": "3c72d08ab8bb3b60d2349b1aeeedfbb6cd9f63feb7d22e2e7eb002f0810736eb",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/BSD-3-Clause-COLMAP.txt"
+    },
+    {
+      "path": "LICENSES/CityGaussian-CC-BY-NC-SA-4.0.txt",
+      "sha256": "d86cec613d51c730662885d5bacea1a3db760d8b7921428a9a09b84871872820",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/CityGaussian-CC-BY-NC-SA-4.0.txt"
+    },
+    {
+      "path": "LICENSES/GraphDECO-rasterizer.txt",
+      "sha256": "cd5c95b3cfff3acc1bd412420c770f88809331c3db6872df11a970147aa8e81f",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/GraphDECO-rasterizer.txt"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "sha256": "f98a131df903d1f1576be2984f1a00086ba4b39dde77570ba8f63348963fa461",
+      "license_expression": "License-text",
+      "archived_source": "LICENSES/MIT.txt"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "3f7d0d6e3458b9fd7c4950b3f5baff14b01708f7d79e09252b9cc466634f9611",
+      "license_expression": "MIT",
+      "archived_source": "NOTICE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "04b085b8c17c8866ee5018b3d551c28581a05cc4effc2fe3c7bd7b5c3f13523e",
+      "license_expression": "MIT",
+      "archived_source": "README.md"
+    },
+    {
+      "path": "companion.json",
+      "sha256": null,
+      "license_expression": "MIT"
+    },
+    {
+      "path": "docs/EXTERNAL_INPUTS.md",
+      "sha256": "4b7021959d7110bf44275ca725de837eaf59504bc95357c6e11c30230aed29e1",
+      "license_expression": "MIT",
+      "archived_source": "docs/EXTERNAL_INPUTS.md"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "sha256": "39fd5ae59804bb7d109bb2398cdc7aab0e49023612d3de1807a43ffd1a32d6b3",
+      "license_expression": "MIT",
+      "archived_source": "docs/REPRODUCING.md"
+    },
+    {
+      "path": "gs_framework/alod_dhier/__init__.py",
+      "sha256": "7162bcf23de2da3c7b42ca7bb0c4c4736ebf0190487acad7091c3baf4df65b96",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_dhier/__init__.py"
+    },
+    {
+      "path": "gs_framework/alod_dhier/format.py",
+      "sha256": "4274f47452038c410dc217174a2b1a6fd092766292e5e08183400bfa8f096e68",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_dhier/format.py"
+    },
+    {
+      "path": "gs_framework/alod_dhier/report.py",
+      "sha256": "043566220cc0cde6fe2a565401aff1808cbca243d26e803e9c64c0781f3173df",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_dhier/report.py"
+    },
+    {
+      "path": "gs_framework/alod_dhier/validation.py",
+      "sha256": "12b7d25a86c0b3dc5438dd0b195d2a40e2ea05339e7d7a6db0013568a9ff206d",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_dhier/validation.py"
+    },
+    {
+      "path": "gs_framework/alod_reference/__init__.py",
+      "sha256": "57db00efb942c42026fe086780062d8e5441f17113fc2d8ddb058fb154b41a8a",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_reference/__init__.py"
+    },
+    {
+      "path": "gs_framework/alod_reference/frustum.py",
+      "sha256": "d5de328377aaaede6d53581107e32ed414c5215a26c4ef2642d9bd7f57fed01f",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/frustum.py"
+    },
+    {
+      "path": "gs_framework/alod_reference/frustum.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/frustum.py.license"
+    },
+    {
+      "path": "gs_framework/alod_reference/hspt.py",
+      "sha256": "20be8814be75c3d91bfb3c8de25e8b9ab021cc2b04bb984f45701d906b19afec",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/hspt.py"
+    },
+    {
+      "path": "gs_framework/alod_reference/hspt.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/hspt.py.license"
+    },
+    {
+      "path": "gs_framework/alod_reference/selection.py",
+      "sha256": "b20942f2956f3b8f961267ada68da5a3661f86398c8be64df19e5b94c5c0673e",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/selection.py"
+    },
+    {
+      "path": "gs_framework/alod_reference/selection.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/alod_reference/selection.py.license"
+    },
+    {
+      "path": "gs_framework/alod_reference/types.py",
+      "sha256": "9e4560f2e2bbb6fd8d06ceee0295a1794d821332485bbb0b2ac6605942485b34",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_reference/types.py"
+    },
+    {
+      "path": "gs_framework/alod_selection_oracle/__init__.py",
+      "sha256": "2cab51b9967e5ce851a36725c2e12b3106b092e70ff60a010ef25ad03da66dad",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_selection_oracle/__init__.py"
+    },
+    {
+      "path": "gs_framework/alod_selection_oracle/format.py",
+      "sha256": "ce6388dc1865a7b378f213bfc73fb7b0a97b9a8897be0f73407a6ea4983258d3",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/alod_selection_oracle/format.py"
+    },
+    {
+      "path": "gs_framework/benchmarks/__init__.py",
+      "sha256": "cbbe7795182b0c4e40f8433a0dddcf7e5a1f5867a47f46602a2e7094dfa16d6f",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/__init__.py"
+    },
+    {
+      "path": "gs_framework/benchmarks/benchmark_real_scene.py",
+      "sha256": "c789d854ec06ed629582d00fb46173b59102d885aa6d9611aa072d069c9c22c0",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/benchmark_real_scene.py"
+    },
+    {
+      "path": "gs_framework/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+      "sha256": "c20ea29cfacd8331a808eec08840cf814d908de7e7e2f8715763b89d5e1605b9",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/camera_paths/matrixcity_1m2_navigation_v1.json",
+      "sha256": "e3ca6da771d99d85c6691df7cbe97d5eb697cd90b44a0c759f7f594b7de3f232",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/camera_paths/matrixcity_1m2_navigation_v1.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cpu_practical.json",
+      "sha256": "263a9da230d25bf3ce61a2a634a1e8a38a555483fdb00bd51700cd6477d3f0e1",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cpu_practical.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_large.json",
+      "sha256": "310d4bfbec420cbfdd64f56c0c34cc44eb4cf47a81e804da9bb00d9ee4132257",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_large.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_minimum.json",
+      "sha256": "3a63d66c71fe1d017f53ef4d1a9c7865d68413a7ec7eca7e86ff1cff26fb964d",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_minimum.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_practical.json",
+      "sha256": "e34d80e335f0c0a9f45d9741192ea7b3f55c9b9e164ee7122a1889c664eb23a9",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_practical.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_previous.json",
+      "sha256": "37af594026a08fffc6ea92492e361544d5c2018fa4e9e0806cf59808bd25da46",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_prematerialization_cuda_previous.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_ext_run009_row_lru_practical.json",
+      "sha256": "503c82a340dd3aedb35044b320130b3ead34c104813b947aa96fd771a63cb5ab",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_ext_run009_row_lru_practical.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_hier_finest_resident.json",
+      "sha256": "d5539de672fc16e9980da39166c098bae55e66635f8454c171a90c39e9b2b55f",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_hier_finest_resident.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_hier_lod_frustum.json",
+      "sha256": "f5e3ecacd765b42c75da35126ba868bf846f8a40f3a5b9d27b0fdab1494099ba",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_hier_lod_frustum.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_hier_lod_resident.json",
+      "sha256": "979c2eafa47aee5a209285250ef06e1275c33f6751438de279ecb4e213d7d645",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_hier_lod_resident.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_bounded_cache.json",
+      "sha256": "2b9a17f0481ff4a6b7a916d3dc9a148442fc5476df1239c44f3e0446772ebdb0",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_bounded_cache.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_bounded_cache_fast_prematerialization.json",
+      "sha256": "419c1017e1a705d8b9507a7a58d17864133a0b8a9f8286dafcb949eef9098b38",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_bounded_cache_fast_prematerialization.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_bounded_cache_prematerialization.json",
+      "sha256": "b99ec619f5935a24075497342dc5bf9630094714b2d581a053b0bee4f7da7f2d",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_bounded_cache_prematerialization.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_bounded_cache_reduced.json",
+      "sha256": "691bfcd70d4bacfc1fef46ef194854c71f8178fba204a66413aaeb87284ed487",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_bounded_cache_reduced.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_nocache.json",
+      "sha256": "8a35edb5fc15dd6ff944adfee15a4ef49f9b9386f7e27145d968dff6e6c97142",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_nocache.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_previous_reuse.json",
+      "sha256": "e97f3dc68b9d28bb24d6f4d7e64a475238a5def1670b676d2be6a1e5158885cf",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_previous_reuse.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_host_previous_reuse_fast_prematerialization.json",
+      "sha256": "6550230bf31e009156f193e554dc5dc219c0d564fb1f2c9a5a2566ed7818995d",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_host_previous_reuse_fast_prematerialization.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_repro_host_nocache.json",
+      "sha256": "50056f471a4029724cb58185ea51f2260525dd76b7e7cefc74479d13e41ab4db",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_repro_host_nocache.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_repro_nofrustum.json",
+      "sha256": "96a948e3243b14b126badea6331d2e3b5e9342fc94fafd619dfd380c5be472e8",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_repro_nofrustum.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/alod_repro_previous_reuse.json",
+      "sha256": "2aa1ca61a2b01426d78e788b8274ae2112632e571b83a197999d3c52ea8b6666",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/alod_repro_previous_reuse.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_finest_flat.json",
+      "sha256": "60cb8202e7ac7e66a0898e735e3e14f90d885d5fe94ab5dd845d3ef707620fe9",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_finest_flat.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_fixed_finest_all.json",
+      "sha256": "7920c33e8e6fa145b1ce287362db774d2325726621d2494081ce4be7540aec0e",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_fixed_finest_all.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_fixed_finest_visibility.json",
+      "sha256": "cc1452e76c04568f640eb47aea40ee9634073a65ee6b7586fba46cf5b6c67a61",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_fixed_finest_visibility.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_fused_cells_all.json",
+      "sha256": "7351ae24dc87800d6c3462c92bce1a4667f30299d50021037d0df694f8f4088f",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_fused_cells_all.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_fused_visibility.json",
+      "sha256": "13fcf9265e1b50141a4279800825be95bd9a32bfb1cc65bb2b99a30b07f61c13",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_fused_visibility.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/cg_lod_release.json",
+      "sha256": "1c7c910e9997d37ef69ce89f6da063105fb674f6ad18381df253abbbdcc486dc",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/cg_lod_release.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/flat_citygs_full.json",
+      "sha256": "499ce86ff38f0fed22a5f9cd36783706960c74c6299db9a3338ccf3fcb0f8617",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/flat_citygs_full.json"
+    },
+    {
+      "path": "gs_framework/benchmarks/configs/flat_real_fit.json",
+      "sha256": "463d2aacd648b810545b423b192e1c66df486833fc9e140ad00c63ed96696214",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/benchmarks/configs/flat_real_fit.json"
+    },
+    {
+      "path": "gs_framework/block_manager.py",
+      "sha256": "3a9b3c0427415edf7c20e825a16390a741cc3ad0a8dce06fb46353419201d3a5",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/block_manager.py"
+    },
+    {
+      "path": "gs_framework/citygaussian_assets.py",
+      "sha256": "f6127b03e83bc7bc810ad590d7a38342cfe6d2e6407f6bc7651575f8b61bf0c0",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/citygaussian_assets.py"
+    },
+    {
+      "path": "gs_framework/citygaussian_assets.py.license",
+      "sha256": "464038da90b11778b38fe37fd692da7480c16a162da057be018037d3119a9236",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/citygaussian_assets.py.license"
+    },
+    {
+      "path": "gs_framework/cleanup_gaussian_checkpoint.py",
+      "sha256": "790410a4ba1fe9c0696d8f934245697f3e04659d0ffc54c00cc9d9443fb1bca2",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/cleanup_gaussian_checkpoint.py"
+    },
+    {
+      "path": "gs_framework/datasets/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/evaluation-cameras.json",
+      "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/datasets/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/evaluation-cameras.json"
+    },
+    {
+      "path": "gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json",
+      "sha256": "4c77176a4f9e72baf806ceb358c8cad800941c1e7fb5036244a003d2e35d4ceb",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json"
+    },
+    {
+      "path": "gs_framework/gaussian_cleanup.py",
+      "sha256": "f537daead5c3a3a71b598f4d9193cf0c455d4abe9e0ddad987a907cabf4ff1dc",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/gaussian_cleanup.py"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RELOCATE-TOPOLOGY-FIX.patch",
+      "sha256": "a7412fff7315153774c93b504105804c2a182308807a2c6ec8de34672b9cd7d6",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RELOCATE-TOPOLOGY-FIX.patch"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RELOCATE-TOPOLOGY-FIX.patch.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RELOCATE-TOPOLOGY-FIX.patch.license"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RELOCATE-VALIDATION-INSTRUMENTATION.patch",
+      "sha256": "98fa8f6c6d0cdde9a96d03ad04b1485efd8576c9e841a921b5a4661da3ef79d7",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RELOCATE-VALIDATION-INSTRUMENTATION.patch"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RELOCATE-VALIDATION-INSTRUMENTATION.patch.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RELOCATE-VALIDATION-INSTRUMENTATION.patch.license"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RUN005-SELECTION-ORACLE-INSTRUMENTATION.patch",
+      "sha256": "930b3945b89a4f33128197e0e4b0603561aad1e7869324042fc65201d0ba3dbd",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RUN005-SELECTION-ORACLE-INSTRUMENTATION.patch"
+    },
+    {
+      "path": "gs_framework/patches/alod/ALOD-RUN005-SELECTION-ORACLE-INSTRUMENTATION.patch.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/ALOD-RUN005-SELECTION-ORACLE-INSTRUMENTATION.patch.license"
+    },
+    {
+      "path": "gs_framework/patches/alod/cmake-cuda-architectures-sm120.patch",
+      "sha256": "d57e1f7e28b2c779f5a07a8de5807b953f22979f83fd53d0c0853da01cd5d7af",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/cmake-cuda-architectures-sm120.patch"
+    },
+    {
+      "path": "gs_framework/patches/alod/cmake-cuda-architectures-sm120.patch.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/patches/alod/cmake-cuda-architectures-sm120.patch.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/__init__.py",
+      "sha256": "a3b280ade4fccbff58d80241a1eb2dcaa2bdd2693f1aa1f97cf594b46e1c7f86",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/__init__.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/__init__.py",
+      "sha256": "8ec5cad921350771a3f81813cbe1595b73363566e1dd7c03acd9def0a2530a29",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/__init__.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/cache_simulation.py",
+      "sha256": "a28636210c800c36e4a3f8046cceedac29b6b22db996276512049c4913921e01",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/cache_simulation.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/camera.py",
+      "sha256": "d46b3630e89344e707b25de9b4ef21f4d1fb48ee4bca2b919b907351dd607cd0",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/camera.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/camera.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/camera.py.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/frustum.py",
+      "sha256": "e0c161e9b437fce5b2b0d2bb851f71d9c1b16abeb36c947ccfb538ab2178470f",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/frustum.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/frustum.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/frustum.py.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/host.py",
+      "sha256": "7b3b545fc514aa4de9ad8cae897b23381057115683151b1e28ff27e6aad19fce",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/host.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/host_scene.py",
+      "sha256": "b1fe33752ec72870e0f11411dfadca69332c98d84b491a08146a7f517bb093fa",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/host_scene.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/hspt.py",
+      "sha256": "b5d4533fb15e30cb2cd6d008fd8b3f99dad964ec4146ebc937f4d301854f0b26",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/hspt.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/hspt.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/hspt.py.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/materialization.py",
+      "sha256": "b3b40be33c5c02cc3140e87417a8dbd46f201d3c90e283373156d7b4fdfabbb2",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/materialization.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/residency.py",
+      "sha256": "297d026cc121c5be2b6e7f491e500c56bd1be126bb557b3c576d0fe6c3c7a473",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/residency.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/resident.py",
+      "sha256": "57e4bae3aa1d5d7581dc57f45758aecefaa8c10af730bfa1a64a4ab0c507107e",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/resident.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/scene.py",
+      "sha256": "b54d1046638c676fdb6c9d1143cf82c0fae342f01eac9d8a85243e56b48a67ce",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/scene.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/selection.py",
+      "sha256": "f893713fd0f51d8e4defe962052bf5b03682df09b8c527dc763b7b3bc122d55e",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/selection.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/selection.py.license",
+      "sha256": "6cf0308c6bb0d45c13920521067b286f5550f351d9b68f5695c72bbfcaeb2bf1",
+      "license_expression": "MIT AND LicenseRef-ALoD AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/alod/selection.py.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/types.py",
+      "sha256": "01d49baf020772ffeb0947df067bac5487b1a7f91a7d5cc9c56a2193e2f75c7f",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/types.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/alod/viewer_reuse.py",
+      "sha256": "c657cae54825b889d48efe34b6158227aeee69eeefb2087dea8f625c87ad7608",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/alod/viewer_reuse.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/citygaussian.py",
+      "sha256": "f40b88ab6e5045df12ee7316199479e605e9217cf94d0538fc469a67276e7040",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/citygaussian.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/citygaussian.py.license",
+      "sha256": "464038da90b11778b38fe37fd692da7480c16a162da057be018037d3119a9236",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scene_runtime/citygaussian.py.license"
+    },
+    {
+      "path": "gs_framework/scene_runtime/gsplat_compat.py",
+      "sha256": "74e8b957a2227e44860d18b69c3dcb739d784ac5c52002e70dadda2d56e1eb67",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/gsplat_compat.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/loader.py",
+      "sha256": "91c744db485bfe3649b0f52a21d9757bb99dcb93bd05009ac70fd5b0afd341ca",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/loader.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/ply_splats.py",
+      "sha256": "8dab79970629ef13c303edf6f80e11d3e08d76af9d628f9da99c00404c0fe053",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/ply_splats.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/renderer.py",
+      "sha256": "472e861ffd2c606c09790a293d9935060aefa07b4a4ed086b9cf0b04ae3a9dba",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/renderer.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/scenes.py",
+      "sha256": "fcf619325a419b896e9550313be3a0513f9f66de66cad71aae9991b4012f21c0",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/scenes.py"
+    },
+    {
+      "path": "gs_framework/scene_runtime/types.py",
+      "sha256": "821db12c83e329ca3081197f1270172be4ea0cd62f0aaf105e67488ebde38f8d",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scene_runtime/types.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/compare_reference_selection_oracle.py",
+      "sha256": "512eb96766c6c33d1d4dabefe008072bc7295fa23d5a394bdc981237066d8c1b",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/compare_reference_selection_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/inspect_dhier.py",
+      "sha256": "913fd198340aaf0c041263f25bb08d9028e1ab237315da42a16a065138562819",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/inspect_dhier.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/official_selection_oracle_hooks.py",
+      "sha256": "1aef660cbd5177fdb296b65a2b90d0a35bdd9d0e453862c7c7527093d93fa32f",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/official_selection_oracle_hooks.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/reproduce_relocate_topology.py",
+      "sha256": "c5c3be872b1c00f48b8485a081c029505a6f4b1fbb5bb444043f82b4c05bb6dc",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/reproduce_relocate_topology.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/topology_invariants.py",
+      "sha256": "0cca7f1e04c3f14d4cb0ecfc822ee392b57a04d8fbd6e622ebb22e502c3964ed",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/topology_invariants.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/validate_dhier_oracle.py",
+      "sha256": "93c7fa809fcd85f9fbe5af6f253586c5029861ed8f8654ab86fdeec54371fd5a",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/validate_dhier_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/alod/validate_official_selection_oracle.py",
+      "sha256": "0ba9a7249577ed9133e0f2aeb3405f87455e8eed0ff18ada23db3c5b795e7054",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/alod/validate_official_selection_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/extract_citygaussian_cell_oracle.py",
+      "sha256": "6701cdc48935c318fa7e10ef63853fbc6d4bf3654e12cbdf009f18d31685f311",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scripts/extract_citygaussian_cell_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/extract_citygaussian_cell_oracle.py.license",
+      "sha256": "464038da90b11778b38fe37fd692da7480c16a162da057be018037d3119a9236",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scripts/extract_citygaussian_cell_oracle.py.license"
+    },
+    {
+      "path": "gs_framework/scripts/extract_citygaussian_lod_oracle.py",
+      "sha256": "2e9e6927b8dff868cdebddf9e189780b461ba1625fec9ccd520faa44e339aba8",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scripts/extract_citygaussian_lod_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/extract_citygaussian_lod_oracle.py.license",
+      "sha256": "464038da90b11778b38fe37fd692da7480c16a162da057be018037d3119a9236",
+      "license_expression": "MIT AND CC-BY-NC-SA-4.0 AND LicenseRef-GraphDECO",
+      "archived_source": "gs_framework/scripts/extract_citygaussian_lod_oracle.py.license"
+    },
+    {
+      "path": "gs_framework/scripts/validate_citygaussian_lod_oracle.py",
+      "sha256": "d16729ba9b7ddeb3e7c7beb40dcdfc952dfafb27a88ab4cd72279b68611f94c5",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/validate_citygaussian_lod_oracle.py"
+    },
+    {
+      "path": "gs_framework/scripts/validate_citygaussian_visibility_oracle.py",
+      "sha256": "defff0bd87c66a81d3297b92bed81d6e8b7784e87723d75d38ae62a282fa1e90",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/scripts/validate_citygaussian_visibility_oracle.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/alod_dhier/run004_initial_degree3_official_loader_v1.json",
+      "sha256": "73888b4d4638d9ed37fed66338cc2a5c8effefbcbdf64a8d8c47969dae5c96e6",
+      "license_expression": "MIT AND CC-BY-NC-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/alod_dhier/run004_initial_degree3_official_loader_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/alod_dhier/run005_final_degree1_official_loader_v1.json",
+      "sha256": "9c9c33c67f264fa7ee8bc87e69b0743586be8a4e0f559b88597ac75b96af8619",
+      "license_expression": "MIT AND CC-BY-NC-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/alod_dhier/run005_final_degree1_official_loader_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/alod_selection_oracle/formal-mixed-run009-selection-oracle-v1.json",
+      "sha256": "0395463e455e7d613f77e31db0b0d93fb9fac9a17c72e868e8e590d957899c6b",
+      "license_expression": "MIT AND CC-BY-NC-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/alod_selection_oracle/formal-mixed-run009-selection-oracle-v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/alod_selection_oracle/run005-camera1-reference-spt-regression-v1.json",
+      "sha256": "eab13bfea56066589bb0d996c1a6fba733c08a3075f3c88a4aaf0604272c2893",
+      "license_expression": "MIT AND CC-BY-NC-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/alod_selection_oracle/run005-camera1-reference-spt-regression-v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/alod_selection_oracle/run005-selection-oracle-v1.json",
+      "sha256": "a439b2fcedbf39c92301f69c2ec65419f0fb475f7ec66590490624140332e798",
+      "license_expression": "MIT AND CC-BY-NC-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/alod_selection_oracle/run005-selection-oracle-v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/citygaussian_lod/paper_lod_oracle_v1.json",
+      "sha256": "acbb5a5d6433d84608f090be9ca03932c5b8ec6f02d747a3b885937e16b54b92",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/citygaussian_lod/paper_lod_oracle_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/citygaussian_lod/release_lod_oracle_v1.json",
+      "sha256": "6202f66717508f6861bb11b4aa9edeb4b6af510dd422bde2dc1dbc1505a654b7",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/citygaussian_lod/release_lod_oracle_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/citygaussian_visibility/finest_visibility_oracle_v1.json",
+      "sha256": "804eb816836a8baadc8067a6c577b8067de5251da2237f89c44f8f7f4e85c4aa",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/citygaussian_visibility/finest_visibility_oracle_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/fixtures/citygaussian_visibility/fused_visibility_oracle_v1.json",
+      "sha256": "57c50130b291f4bf8f20823a17cfab8a632c1fa0ecaa413055af48524b817730",
+      "license_expression": "MIT AND CC-BY-NC-4.0 AND CC-BY-NC-SA-4.0",
+      "archived_source": "gs_framework/unit_tests/fixtures/citygaussian_visibility/fused_visibility_oracle_v1.json"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_cache_simulation.py",
+      "sha256": "0d76119a3491d7f9d560886b3f1c4fc13c5c2a1527d61a2f4ead9e84a87225b4",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_cache_simulation.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_dhier_format.py",
+      "sha256": "b5a92068a58e8447bbe6e8cad2af6bf48f48e989f9cb391267591f2dc19e6940",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_dhier_format.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_host_residency.py",
+      "sha256": "54de028396e1a98c6406014a7b1b709dad5ceff368426d3d3f43a70fbb2cb5c3",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_host_residency.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_materialization.py",
+      "sha256": "b6619922323a0dd38f7c2b9ada84349bfaa4b32b0061162df77775f0bc32ce8c",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_materialization.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_production_runtime.py",
+      "sha256": "d60fb7152a1043b2474bd12a95fc6a35fb5802da723818b3799dbbe99b39775a",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_production_runtime.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_reference_frustum.py",
+      "sha256": "40096553404fd5dc66949c78d37c5030381de222a51aa25abeb0d3f097bb4375",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_reference_frustum.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_reference_hspt.py",
+      "sha256": "2fe7fad865d750885886a8695cc17ac8b1eb4b2ad12d29e8120e846a435d7033",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_reference_hspt.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_reference_selection.py",
+      "sha256": "7ed0678149ea981aa3d90d804c5d89e0c70d1bbabdbeded07703cce19b7433f9",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_reference_selection.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_selection_oracle.py",
+      "sha256": "09fa5ecbffe7482bf5e884211d7a90ce8180a3b51d2b73d09ee12965e99c26ae",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_selection_oracle.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_alod_viewer_reuse.py",
+      "sha256": "fe37f08172eb5de19057cb178188e372a502e783f5ddc3c5b27e14e6cf1d6993",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_alod_viewer_reuse.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_block_manager.py",
+      "sha256": "6ab70cd7c464e975ce5cde7a00a40d77f6b53356f089cec771d07350e491c202",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_block_manager.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_assets.py",
+      "sha256": "3abf8da26adf07106c95f972a7907849a9df01d1d1adecb641df162b0eb22d14",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_assets.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_lod_oracle.py",
+      "sha256": "b1a9bf912f616fa549d4e32722b546794a0b404513f1c267d961c64f896f79f1",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_lod_oracle.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_lod_runtime.py",
+      "sha256": "5c36dbb9082bc33e288d91ab5a8fedd7c4508519f6245083bc9291b28f83e2a0",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_lod_runtime.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_runtime.py",
+      "sha256": "8bdd657c62c8f59ccaca21704cf1be044d6c493b7c59b67e98369d4cc7399472",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_runtime.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_visibility_oracle.py",
+      "sha256": "698460c1c224a3c8c0796b7e0a5ca3353cb6597469c892bb6e4b038b26e03963",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_visibility_oracle.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_citygaussian_visibility_runtime.py",
+      "sha256": "e4600bb4c3769bebf32b4fd54375bcc10da10d30b8a05c0540ff473641889eed",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_citygaussian_visibility_runtime.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_gaussian_cleanup.py",
+      "sha256": "1001d9a6bb9bd1a3b89dcdb5163994bbef3d5c512cda87ce1d4d7faed03198e0",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_gaussian_cleanup.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_real_scene_benchmark.py",
+      "sha256": "ff8d34f5ef2b6c4b975d77ee18c3446ff6535f80c3a9c7e72398cb905d149580",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_real_scene_benchmark.py"
+    },
+    {
+      "path": "gs_framework/unit_tests/test_scene_runtime.py",
+      "sha256": "d2e9ba5adaa449a10aa3bbbb483281dd8b04a9775c84a40ecb7068c23b3be3a2",
+      "license_expression": "MIT",
+      "archived_source": "gs_framework/unit_tests/test_scene_runtime.py"
+    },
+    {
+      "path": "reproduction/figures/generate_final_empirical_figures.py",
+      "sha256": "c3fa853c4db27681700356d2e71bf908e131c3ce71902502c34d729a180e48c7",
+      "license_expression": "MIT",
+      "archived_source": "reproduction/figures/generate_final_empirical_figures.py"
+    },
+    {
+      "path": "requirements-evidence.txt",
+      "sha256": "ddbb893d45090259cf5f3e9f2c935c088712465041833b63139a1f3fd3d72c52",
+      "license_expression": "MIT",
+      "archived_source": "requirements-evidence.txt"
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "sha256": "21e18d5787d4ac06095e6d75891aefa59f9b700463b99c67801d0ef4fdddd7d1",
+      "license_expression": "MIT",
+      "archived_source": "requirements-runtime.txt"
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "70cc9f74cf6e53d5219e6e8aa0e1fe94ee3d87b4799344873e68b8c6ae9d1f6c",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "results/alod/frustum_ablation.json",
+      "sha256": "8a553699b62e0e3ee73668638f9fc2e4ec7f3e6bd277c510885505f8ce7af332",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/tables/frustum_ablation.json"
+    },
+    {
+      "path": "results/alod/quality.json",
+      "sha256": "3b7fc482fd17ac8d9d48fd6992fb8948152a13c5f3e1edb24bf4b116f1f2e8cf",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/quality/results/summary.json"
+    },
+    {
+      "path": "results/alod/rendering.json",
+      "sha256": "87370d1d8ef08e37a5c95e8c048f5ecd57e4d5705b379ec0454dcc2f76e0f3bf",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_faithful_reproduction_001/tables/rendering_summary.json"
+    },
+    {
+      "path": "results/alod/uni10k_negative_preflight.json",
+      "sha256": "135b8e68fcd40ff7249119d16c1c7f299a9001e93657a6c78dffa24c92f19607",
+      "license_expression": "MIT",
+      "archived_source": "runs/alod/ALOD-REPRO-UNI10K-01/ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT-RUN005-CLOSURE/closure.json"
+    },
+    {
+      "path": "results/alod_exec/matrixcity_formal.json",
+      "sha256": "b950be3598955de7d302ade898ee6360024256c0b66a5355b9f71bbf1d6a01df",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_ext_formal_run009_001/tables/formal_summary.json"
+    },
+    {
+      "path": "results/alod_exec/natural_completion.json",
+      "sha256": "c4a46b1e6dafc494929a7b2aac4fd00ecc31ee5b943222b586650f147c3596e1",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_ext_natural_previous_completion_001/tables/completion_summary.json"
+    },
+    {
+      "path": "results/alod_exec/synthetic_multiset.json",
+      "sha256": "3690d4f0972e1eb9e13fcbeaac81c9883ed024d3096c9c864c62613c40c62980",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/tables/aggregate.json"
+    },
+    {
+      "path": "results/citygaussian/backend_attribution.json",
+      "sha256": "2ed86661ab291d3b3e3c2e099aebd95f7856ab3f1ffc08c46d6b834271e5bcc8",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_12camera_attribution_20260824_222048/tables/attribution_summary.json"
+    },
+    {
+      "path": "results/citygaussian/backend_timing.json",
+      "sha256": "379d1e3e8b6c605247289398ddaff5a43782e00e1518e868f4c6d2de5a0a898e",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_backend_microbench_20260824_213420/tables/backend_timing.json"
+    },
+    {
+      "path": "results/citygaussian/controlled_ladder.json",
+      "sha256": "ce086cdff5963135a3ab022ed138a37734f39a43a9b8955b53c4f1c32b1fb1c0",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/config_summary.json"
+    },
+    {
+      "path": "results/citygaussian/gaussian_counts.json",
+      "sha256": "3ed8b4a2e468241ebe67d8b97fab5bcc895bab513579dea4cdeae85a26d3da00",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/selected_workload_summary.json"
+    },
+    {
+      "path": "results/citygaussian/memory.json",
+      "sha256": "f532cc1ef7f06fd733a437ce70e7ea5d5875e6ae9950f314a8aac6a1e3b830b1",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_canonical_20260824_135615/tables/memory_summary.json"
+    },
+    {
+      "path": "results/citygaussian/official_comparison.json",
+      "sha256": "d911db9a9f377078a096020e559fb2f481f136f26b75d7bbecbe91a4987e6199",
+      "license_expression": "MIT",
+      "archived_source": "benchmark_artifacts/citygs_official_clean_full_20260825_163319/tables/official_vs_gsplat.json"
+    },
+    {
+      "path": "tools/check_publication.py",
+      "sha256": "333a00c63b7c859585752880a2068f0c5822f10b27fe9bfc917f1f679a031a42",
+      "license_expression": "MIT",
+      "archived_source": "tools/check_publication.py"
+    },
+    {
+      "path": "tools/evidence_store.py",
+      "sha256": "4bf149c90817b12ccb3ce0240a7851bcb2a5a23d1484d107c689a52797c05274",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "tools/fetch_citygaussian_reference.py",
+      "sha256": "c9117927ddb9e30ed8475825042315fd94bb819b81590f793a181d418bd5efac",
+      "license_expression": "MIT",
+      "archived_source": "tools/fetch_citygaussian_reference.py"
+    },
+    {
+      "path": "tools/smoke_render.py",
+      "sha256": "392f4709579738ee6e6f32e0152943b853db35dfc43cd297e23aa14b01ba0bdd",
+      "license_expression": "MIT",
+      "archived_source": "tools/smoke_render.py"
+    },
+    {
+      "path": "tools/verify_natural_results.py",
+      "sha256": "9993bb939c38119134bdccca5f07c6c4ab8fdbc4dfffeaa547345c67bc328127",
+      "license_expression": "MIT",
+      "archived_source": "tools/verify_natural_results.py"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "d288737c1f55711dd45379a56edd5e6a7df581cc9da5bdf0fac6a298a2001035",
+      "license_expression": "MIT",
+      "archived_source": "tools/verify_release.py"
+    }
+  ],
+  "validation": {
+    "status": "IN_PROGRESS"
+  }
+}

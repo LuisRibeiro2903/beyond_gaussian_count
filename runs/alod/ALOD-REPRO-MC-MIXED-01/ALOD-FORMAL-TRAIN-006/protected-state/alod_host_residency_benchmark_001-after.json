@@ -1,7 +1,0 @@
-{
-  "entries": 199,
-  "fingerprint_sha256": "9e15c48e4b910f64b67b154d83984dc9f99360edbe1cca9450b5673e1f753a60",
-  "gate": "PASS",
-  "root": "/home/luis/tese/benchmark_artifacts/alod_host_residency_benchmark_001",
-  "total_file_bytes": 24893124
-}

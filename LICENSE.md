@@ -13,13 +13,13 @@ CityGaussian and ALoD portions retain noncommercial/research restrictions.
 | Material | Terms preserved |
 | --- | --- |
 | Original project contributions | MIT |
-| gsplat-derived viewer/trainer helpers and Viser patch | Apache-2.0, plus MIT for project additions |
-| COLMAP `read_write_model.py` | Original BSD-3-Clause notice |
+| Archived gsplat viewer/trainer helpers and Viser patch (`v1.0.0`) | Apache-2.0, plus MIT for project additions |
+| Archived COLMAP utility (`v1.0.0`) | Original BSD-3-Clause notice |
 | CityGaussian-derived code and patches | CC BY-NC-SA 4.0; GraphDECO terms additionally apply to inherited portions |
 | ALoD-derived selection/HSPT code and official-source patches | Original ALoD/H3DGS and inherited GraphDECO research/noncommercial terms |
 | MatrixCity-derived camera metadata | Original CC BY-NC 4.0 terms, or CC BY-NC-SA where supplied through CityGaussian |
 
-The explicit file-level map is [release/licensing.json](release/licensing.json).
+The explicit file-level map is [companion.json](companion.json).
 It distinguishes the project's contributions from upstream expression; placing
 an MIT file alongside a restricted component does not remove that component's
 conditions. Downstream users must follow every applicable term.
@@ -33,4 +33,4 @@ combined expression records all applicable terms, not a choice between them.
 Full upstream repositories, imagery, trained models and binary oracle payloads
 are external. Campus/Sci-Art raw camera payloads are also excluded because
 redistribution rights have not been established. See [NOTICE](NOTICE) and
-[the completed redistribution review](docs/LICENSE_REVIEW.md).
+[the completed redistribution review](https://github.com/LuisRibeiro2903/beyound_gaussian_count/blob/v1.0.0/docs/LICENSE_REVIEW.md).
