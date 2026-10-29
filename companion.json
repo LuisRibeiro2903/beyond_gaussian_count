@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "evidence": {
     "tag": "v1.0.0",
     "commit": "42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c",
@@ -108,7 +108,7 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "5c68d81ac48c0a00bf9f4b566af6b4611d0780cd63d32fb0d41f9b5b28628ad5",
+      "sha256": "2ea67e4e67eb3632d0d97c72d8dd2f4f58b6b4f2a7b666ad16016f96c6c085af",
       "license_expression": "MIT",
       "archived_source": "CITATION.cff"
     },
@@ -168,7 +168,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "04b085b8c17c8866ee5018b3d551c28581a05cc4effc2fe3c7bd7b5c3f13523e",
+      "sha256": "9ce26c80a38c637825a5f99baffad3a78ae6a29d0c0d42587181c45582089a65",
       "license_expression": "MIT",
       "archived_source": "README.md"
     },
@@ -184,10 +184,25 @@
       "archived_source": "docs/EXTERNAL_INPUTS.md"
     },
     {
+      "path": "docs/METRICS.md",
+      "sha256": "676da14587f374e69406749cce2ddc6937806e9e58eeff08971266cb1c9912cc",
+      "license_expression": "MIT"
+    },
+    {
+      "path": "docs/RELEASING.md",
+      "sha256": "de2eb1782da5abd3d1e8b96c71d5bb3307ed5984f075f281d2a7a032d8fe8453",
+      "license_expression": "MIT"
+    },
+    {
       "path": "docs/REPRODUCING.md",
-      "sha256": "39fd5ae59804bb7d109bb2398cdc7aab0e49023612d3de1807a43ffd1a32d6b3",
+      "sha256": "94f13343ab4d12b79d188e981398388b8e44c8f6ca2184e805906bc259dbae05",
       "license_expression": "MIT",
       "archived_source": "docs/REPRODUCING.md"
+    },
+    {
+      "path": "docs/figures/citygaussian_timing_components.png",
+      "sha256": "fd510e16d46b45931c501bee1313b7edf9e14d6ec07a61ea6b1cf6dd2b5191d7",
+      "license_expression": "MIT"
     },
     {
       "path": "gs_framework/alod_dhier/__init__.py",
@@ -965,7 +980,7 @@
     },
     {
       "path": "reproduction/figures/generate_final_empirical_figures.py",
-      "sha256": "c3fa853c4db27681700356d2e71bf908e131c3ce71902502c34d729a180e48c7",
+      "sha256": "69ef10758ecc47ce289edaa3ef1bc618d00b843642c0885eb1b0c3f645ffce09",
       "license_expression": "MIT",
       "archived_source": "reproduction/figures/generate_final_empirical_figures.py"
     },
@@ -983,7 +998,7 @@
     },
     {
       "path": "results/README.md",
-      "sha256": "70cc9f74cf6e53d5219e6e8aa0e1fe94ee3d87b4799344873e68b8c6ae9d1f6c",
+      "sha256": "8a7c1dee2be5253219cff41772d3c557f76aa941d17f8dd88594ab92984476f0",
       "license_expression": "MIT"
     },
     {
@@ -1103,132 +1118,85 @@
   "validation": {
     "status": "PASS",
     "date": "2026-10-29",
-    "tested_commit": "7d02fcf5582bde4cc688883f57599f6aa87b04f2",
-    "tracked_files": 169,
-    "core_python_files_unchanged_from_v1": 70,
-    "unchanged_result_records": 13,
-    "focused_unit_suite": {
-      "run": 199,
-      "skipped": 1,
-      "failures": 0,
-      "errors": 0
+    "tested_state": "The 1.1.1 working-tree file inventory identified by this manifest; the final commit also records this validation metadata.",
+    "previous_validation": {
+      "tag": "v1.1.0",
+      "commit": "7ebd4e8034a68d99161491932ce78ef2a0b36e8e",
+      "path": "companion.json"
     },
-    "figure_inputs_verified": 126,
-    "figures_generated": 5,
-    "natural_statistics_verified": 876,
-    "checks_passed": 16,
+    "software": {
+      "matplotlib": "3.10.8",
+      "numpy": "1.26.4",
+      "python": "3.12.12"
+    },
     "checks": [
       {
-        "check": "Clean reader checkout with complete pinned evidence history",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": ""
-      },
-      {
-        "check": "Reader file identities and original result copies",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "PASS: 169 reader files; 13 unchanged original result records; pinned archive manifest.\nThis checks release integrity, not GPU measurements or redistribution rights."
+        "check": "Reader integrity and unchanged original results",
+        "status": "PASS",
+        "classified_files": 172,
+        "unchanged_result_records": 13
       },
       {
         "check": "Independent natural-campaign statistics",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "{\n  \"status\": \"PASS\",\n  \"fresh_process_records\": 18,\n  \"measured_frames\": 405,\n  \"table_statistics_checked\": 876,\n  \"scope\": \"saved numerical evidence; no GPU, camera payload or scene required\"\n}"
+        "status": "PASS",
+        "fresh_process_records": 18,
+        "measured_frames": 405,
+        "table_statistics_checked": 876
       },
       {
-        "check": "Regenerate five figures through pinned Git evidence",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "Verified 126 evidence files; generated five vector figures."
+        "check": "Figure generation and published preview provenance",
+        "status": "PASS",
+        "evidence_files_verified": 126,
+        "vector_figures": 5,
+        "png_previews": 1,
+        "existing_pdfs_byte_identical_to_previous_generation": true
       },
       {
-        "check": "Obtain pinned optional official-source reference",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "{\"status\": \"PASS\", \"revision\": \"e16c526f78ab01d377b13b3e6862dcc93ddbe953\", \"sha256\": \"3fcdd9d97304cf0f2447be016ff16790460396732b7d575c6e214297fec7d75c\", \"source\": \"local/reference-citygaussian/utils/large_utils.py\", \"terms\": \"CityGaussian CC BY-NC-SA 4.0; obtain full upstream licence from the official repository\"}"
+        "check": "Focused unit suite with pinned official-source reference",
+        "status": "PASS",
+        "run": 199,
+        "skipped": 1,
+        "failures": 0,
+        "errors": 0,
+        "skip_reason": "CUDA unavailable"
       },
       {
-        "check": "Focused CPU suite in minimal dependency environment",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "Cleanup metadata written to /tmp/tmp21oflcj2/metadata.json\nBounds-valid Gaussians: 2/2; excluded from bounds: 0 (0.00%).\nCleanup metadata written to /tmp/tmpakbqgcbj/metadata.json\nBounds-valid Gaussians: 3/4; excluded from bounds: 1 (25.00%).\n............................................s..........................................................................................................................................................\n----------------------------------------------------------------------\nRan 199 tests in 0.983s\n\nOK (skipped=1)"
-      },
-      {
-        "check": "Core benchmark argument contract",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "IALIZATION-CUDA-LARGE,ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM,ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL,ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS,ALOD-EXT-ROW-LRU-PRACTICAL,ALOD-HIER-FINEST-RESIDENT,ALOD-HIER-LOD-FRUSTUM,ALOD-HIER-LOD-RESIDENT,ALOD-HOST-BOUNDED-CACHE,ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-REDUCED,ALOD-HOST-NOCACHE,ALOD-HOST-PREVIOUS-REUSE,ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION,ALOD-REPRO-HOST-NOCACHE,ALOD-REPRO-NOFRUSTUM,ALOD-REPRO-PREVIOUS-REUSE,CG-FINEST-FLAT,CG-FIXED-FINEST-ALL,CG-FIXED-FINEST-VISIBILITY,CG-FUSED-CELLS-ALL,CG-FUSED-VISIBILITY,CG-LOD-RELEASE,FLAT-CITYGS-FULL,FLAT-REAL-FIT}\n  --asset ASSET         External checkpoint or PLY path.\n  --lod-finest-asset LOD_FINEST_ASSET\n                        Released light_50_vq PLY path.\n  --lod-middle-asset LOD_MIDDLE_ASSET\n                        Released light_66_vq PLY path.\n  --lod-coarsest-asset LOD_COARSEST_ASSET\n                        Released light_75_vq PLY path.\n  --camera-path CAMERA_PATH\n                        Override tracked camera path.\n  --output-dir OUTPUT_DIR\n  --max-frames MAX_FRAMES\n                        Measured-frame cap for short validation.\n  --num-warmup NUM_WARMUP\n                        Override warmup frame count.\n  --num-repeat NUM_REPEAT\n                        Override repeat count.\n  --sample-frames SAMPLE_FRAMES\n                        Render an evenly spaced non-formal camera sample\n                        instead of the default run.\n  --formal              Use record_kind=formal_benchmark.\n  --device-index DEVICE_INDEX\n  --log-gpu-events\n  --record-warmup-frames\n                        Write warmup_frames.jsonl for cold-to-steady cache\n                        characterization."
+        "check": "Three documented camera-sample commands",
+        "status": "PASS",
+        "scope": "Argument parsing, real config/camera loading and routing to camera_sample_validation; GPU scene execution mocked. Both ALoD commands use identical frozen camera IDs, per-camera resolutions and intrinsics."
       },
       {
         "check": "Whole reachable-history publication gate",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "{\n  \"status\": \"PASS\",\n  \"classified_files\": 169,\n  \"reachable_commits_scanned\": 4,\n  \"excluded_camera_payloads\": 183,\n  \"credential_patterns\": [\n    \"private key\",\n    \"GitHub token\",\n    \"AWS access key\",\n    \"Hugging Face token\",\n    \"Google API key\"\n  ]\n}"
+        "status": "PASS",
+        "classified_files": 172,
+        "reachable_commits_scanned": 5,
+        "excluded_camera_payloads": 183,
+        "scope": "Working tree plus reachable history before the documentation-update commit."
       },
       {
-        "check": "Source-ZIP workflow without a Git working tree",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "PASS: 169 reader files; 13 unchanged original result records; pinned archive manifest.\nThis checks release integrity, not GPU measurements or redistribution rights."
+        "check": "Documentation links, release metadata and research-overview claims",
+        "status": "PASS",
+        "scope": "Local Markdown file targets, archived Run009 training target, version agreement, preview output hash, and qualitative claims checked against canonical result records."
       },
       {
-        "check": "Regenerate figures from extracted full-record ZIP",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "Verified 126 evidence files; generated five vector figures."
+        "check": "Runtime, configurations, numerical results and pinned evidence unchanged from v1.1.0",
+        "status": "PASS"
       },
       {
-        "check": "Git and ZIP evidence produce byte-identical five PDFs",
-        "passed": true
-      },
-      {
-        "check": "Reject modified archived evidence",
-        "passed": true,
-        "expected_exit": 1,
-        "actual_exit": 1,
-        "output": "Traceback (most recent call last):\n  File \"/tmp/beyond-reader-release-5hl2vq0b/reader/tools/verify_release.py\", line 37, in <module>\n    main()\n  File \"/tmp/beyond-reader-release-5hl2vq0b/reader/tools/verify_release.py\", line 28, in main\n    raw = archive.read(item['archived_source'])\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/beyond-reader-release-5hl2vq0b/reader/tools/evidence_store.py\", line 37, in read\n    raise ValueError('Archived evidence identity mismatch: '+name)\nValueError: Archived evidence identity mismatch: benchmark_artifacts/citygs_canonical_20260824_135615/tables/config_summary.json"
-      },
-      {
-        "check": "Shallow-reader setup",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": ""
-      },
-      {
-        "check": "Missing archive has explicit recovery instruction",
-        "passed": true,
-        "expected_exit": 1,
-        "actual_exit": 1,
-        "output": "Traceback (most recent call last):\n  File \"/tmp/beyond-reader-release-5hl2vq0b/shallow/tools/verify_release.py\", line 37, in <module>\n    main()\n  File \"/tmp/beyond-reader-release-5hl2vq0b/shallow/tools/verify_release.py\", line 26, in main\n    archive = EvidenceStore()\n              ^^^^^^^^^^^^^^^\n  File \"/tmp/beyond-reader-release-5hl2vq0b/shallow/tools/evidence_store.py\", line 16, in __init__\n    manifest = self._load('release/export_manifest.json')\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/beyond-reader-release-5hl2vq0b/shallow/tools/evidence_store.py\", line 29, in _load\n    raise FileNotFoundError(f'Pinned evidence unavailable: {relative}. Run \"git fetch origin tag v1.0.0\", or set BEYOND_EVIDENCE_DIR to the extracted v1.0.0 archive.')\nFileNotFoundError: Pinned evidence unavailable: release/export_manifest.json. Run \"git fetch origin tag v1.0.0\", or set BEYOND_EVIDENCE_DIR to the extracted v1.0.0 archive."
-      },
-      {
-        "check": "Recover pinned evidence in a shallow clone",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": ""
-      },
-      {
-        "check": "Recovered shallow reader verifies unchanged results",
-        "passed": true,
-        "expected_exit": 0,
-        "actual_exit": 0,
-        "output": "PASS: 169 reader files; 13 unchanged original result records; pinned archive manifest.\nThis checks release integrity, not GPU measurements or redistribution rights."
+        "check": "git diff --check",
+        "status": "PASS"
       }
     ],
-    "gpu_scope": "Runtime source and analytic GPU smoke tool unchanged from the GPU-validated v1.0.0; no formal GPU campaign rerun.",
-    "scope_note": "Auxiliary workflows, detailed traces, full protocols and prior validation remain in the pinned audited v1.0.0 record. Final validation-record commit changes metadata only."
+    "gpu_scope": "No GPU rendering or formal campaign rerun; GPU access is unavailable in this session.",
+    "external_checks": {
+      "github_ci": "Not verified; the GitHub connector cannot access this repository.",
+      "repository_rename": "Not performed; an authenticated GitHub admin session is required."
+    }
+  },
+  "reader_update": {
+    "base_tag": "v1.1.0",
+    "base_commit": "7ebd4e8034a68d99161491932ce78ef2a0b36e8e",
+    "scope": "Research overview, metric glossary, ALoD-Exec sample commands, generated timing preview, and release/citation guidance. Runtime source, configurations, result records and pinned evidence are unchanged.",
+    "archived_source_note": "File archived_source fields name historical predecessors; only the results inventory claims byte identity with that archive."
   }
 }

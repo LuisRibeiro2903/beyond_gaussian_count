@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CPU-only final empirical figures. See thesis_notes/FIGURES_PHASE3B.md.
+"""CPU-only final empirical figures. See docs/REPRODUCING.md.
 
 Reads frozen records; checks raw CityGaussian frames and saved ALoD analyses.
 No model, renderer, training, GPU, or network code is imported or executed.
@@ -45,7 +45,10 @@ def style(e):
         'pdf.fonttype':42,'path.simplify':False,'axes.spines.top':False,
         'axes.spines.right':False,'axes.axisbelow':True})
 def save(fig,out,name):
-    fig.savefig(out/(name+'.pdf'),metadata=META); plt.close(fig)
+    fig.savefig(out/(name+'.pdf'),metadata=META)
+    if name == 'citygaussian_timing_components':
+        fig.savefig(out/(name+'.png'),dpi=180,metadata={'Software':'Beyond Gaussian Count'})
+    plt.close(fig)
 def grid(ax,axis='x'): ax.grid(axis=axis,color='#E4E4E4',lw=.5)
 
 def city_data(e):
@@ -248,12 +251,13 @@ def main():
     timing(args.output,data); workload(args.output,data); residency(args.output,data)
     synth=synthetic(e,args.output); cache=capacity(e,args.output)
     names=['citygaussian_timing_components','citygaussian_selected_survivors','citygaussian_residency_workload','alod_synthetic_response','alod_cache_capacity']
-    report={'generator':'thesis_latex/scripts/generate_final_empirical_figures.py','generator_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+    outputs=[n+'.pdf' for n in names]+['citygaussian_timing_components.png']
+    report={'generator':Path(__file__).relative_to(ROOT).as_posix(),'generator_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'software':{'python':platform.python_version(),'matplotlib':matplotlib.__version__,'numpy':np.__version__},
         'sources_sha256':dict(sorted(e.sources.items())),
         'citygaussian':{'protocol':protocol,'configurations':data,'timing_stack':['preparation_time_ms','render_call_time_ms'],
             'CUDA_time_nested_not_stacked':True,'radii_survivors_are_not_final_pixel_contributors':True,'population_counts_are_not_VRAM_measurements':True},
-        'synthetic':synth,'capacity':cache,'outputs_sha256':{n+'.pdf':hashlib.sha256((args.output/(n+'.pdf')).read_bytes()).hexdigest() for n in names}}
+        'synthetic':synth,'capacity':cache,'outputs_sha256':{name:hashlib.sha256((args.output/name).read_bytes()).hexdigest() for name in outputs}}
     (args.output/'provenance.json').write_text(json.dumps(report,indent=2,sort_keys=True)+'\n')
-    print(f'Verified {len(e.sources)} evidence files; generated five vector figures.')
+    print(f'Verified {len(e.sources)} evidence files; generated five vector figures and one PNG preview.')
 if __name__=='__main__': main()

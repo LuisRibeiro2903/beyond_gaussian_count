@@ -5,6 +5,10 @@ of measurements. `companion.json` records each source path and hash in the
 complete v1.0.0 record. Detailed protocols, per-frame traces, validation gates,
 rejected runs and historical context remain available there.
 
+Start with the [research overview and figure](../README.md#research-question-and-findings),
+the [metric glossary](../docs/METRICS.md), or the
+[ALoD-Exec runtime example](../docs/REPRODUCING.md#alod-exec-example).
+
 | Thesis topic | Key records | Main implementation |
 | --- | --- | --- |
 | CityGaussian controlled ladder | [Timing](citygaussian/controlled_ladder.json), [counts](citygaussian/gaussian_counts.json), [memory](citygaussian/memory.json) | `gs_framework/scene_runtime/citygaussian.py` |

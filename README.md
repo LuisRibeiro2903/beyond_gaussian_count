@@ -6,6 +6,37 @@ Reader companion to Luis Ribeiro's Master's dissertation. This view contains
 the runtime implementation, focused correctness tests, thirteen key result
 records, and commands to verify the numerical analyses.
 
+## Research question and findings
+
+How well does Gaussian count explain the cost of rendering a large scene?
+This work examines where time and memory go between scene selection and
+rasterization, using CityGaussian and ALoD reproductions and the project-specific
+ALoD-Exec materialization and residency extension.
+
+- **Selection has a cost.** In the CityGaussian controlled ladder, reducing
+  selected Gaussians does not consistently reduce total frame time. Selection,
+  assembly and renderer behavior must be measured together. See the
+  [timing](results/citygaussian/controlled_ladder.json) and
+  [population](results/citygaussian/gaussian_counts.json) records.
+- **Selected and materialized populations differ.** ALoD-Exec filters rows
+  after semantic selection, before gathering and transferring Gaussian
+  properties. Semantic selection stays unchanged, and retained rows preserve
+  their order and duplicate occurrences. See the
+  [MatrixCity comparison](results/alod_exec/matrixcity_formal.json) and
+  [ordered-multiset control](results/alod_exec/synthetic_multiset.json).
+- **Reuse policy depends on the workload.** The bounded cache is faster than
+  previous-working-set reuse on both final natural trajectories; the synthetic
+  control exhibits a different policy ordering. See the
+  [natural-workload comparison](results/alod_exec/natural_completion.json).
+
+![CityGaussian frame time split into preparation and renderer call, with between-process standard deviation](docs/figures/citygaussian_timing_components.png)
+
+CityGaussian controlled ladder using the project's gsplat renderer. Bars show
+preparation plus renderer-call time; whiskers show the standard deviation
+between fresh processes. The figure is regenerated from pinned numerical
+evidence by the command below. These are project measurements within this
+protocol, not a ranking of the original papers.
+
 ## Read the results
 
 Start with [results/README.md](results/README.md). It maps the thesis topics to
@@ -27,9 +58,12 @@ python -m pip install -r requirements-evidence.txt
 python reproduction/figures/generate_final_empirical_figures.py --output local/figures
 ```
 
-This regenerates five empirical figures from the saved numerical records.
+This regenerates five empirical figures and the PNG preview above from the
+saved numerical records.
 [REPRODUCING.md](docs/REPRODUCING.md) covers installation, focused tests,
-synthetic GPU rendering, and external inputs for real-scene experiments.
+synthetic GPU rendering, an [ALoD-Exec example](docs/REPRODUCING.md#alod-exec-example),
+and external inputs for real-scene experiments. Read the
+[metric glossary](docs/METRICS.md) before interpreting counts, FPS or memory.
 
 ## Detailed evidence
 
@@ -61,4 +95,6 @@ the full record. Numerical evidence can still be inspected and checked.
 Original contributions use MIT. Upstream-derived portions retain their
 noncommercial/research, share-alike or Apache terms; see [LICENSE.md](LICENSE.md)
 and [NOTICE](NOTICE). Citation metadata are in [CITATION.cff](CITATION.cff).
-No DOI is claimed. Repository visibility remains the author's choice.
+Cite an immutable release tag and its full commit in the dissertation. See
+[release and citation notes](docs/RELEASING.md) for the repository rename and
+publication steps. No DOI is claimed.

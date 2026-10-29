@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Ribeiro
     given-names: Luis
-version: 1.1.0
+version: 1.1.1
 date-released: 2026-10-29
 repository-code: "https://github.com/LuisRibeiro2903/beyound_gaussian_count"
 abstract: "Reproduction, instrumentation, controlled evaluation, and project-specific extensions for large-scale Gaussian rendering. Research companion; upstream-derived portions retain their original terms. No persistent archive identifier is assigned."
