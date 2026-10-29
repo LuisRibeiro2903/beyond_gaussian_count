@@ -96,7 +96,7 @@
     },
     {
       "path": ".github/workflows/check.yml",
-      "sha256": "311324c95829c97d627081b90e776155126d25b05a4aa6bd1ed8dfdf8799dccf",
+      "sha256": "1b8a3519d31b00114ff60839a7a9db01d413bb8abd8316cae967a29bf1f914bc",
       "license_expression": "MIT",
       "archived_source": ".github/workflows/check.yml"
     },
@@ -108,7 +108,7 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "e51e484eaba29fec522907016dfdfb3048598622966698d23ee98130089206e8",
+      "sha256": "2448f5acd9484e54749b922aab7d1a425353e7555c37efc2408add5ab0fa8775",
       "license_expression": "MIT",
       "archived_source": "CITATION.cff"
     },
@@ -162,13 +162,13 @@
     },
     {
       "path": "NOTICE",
-      "sha256": "3f7d0d6e3458b9fd7c4950b3f5baff14b01708f7d79e09252b9cc466634f9611",
+      "sha256": "e82eff1f6870be8250719e87cb3fc2efe953b0aa7dfc6a95675c3607a07ae37d",
       "license_expression": "MIT",
       "archived_source": "NOTICE"
     },
     {
       "path": "README.md",
-      "sha256": "fbab972b62611dd277e2d92b088a650ed92def26d707afc926c6d1c7a4aee55c",
+      "sha256": "9ffd83ae8916b11311a8bfaa6dc66bf592d8abfc914127986fe88568b15bcf37",
       "license_expression": "MIT",
       "archived_source": "README.md"
     },
@@ -185,22 +185,12 @@
     },
     {
       "path": "docs/METRICS.md",
-      "sha256": "676da14587f374e69406749cce2ddc6937806e9e58eeff08971266cb1c9912cc",
-      "license_expression": "MIT"
-    },
-    {
-      "path": "docs/PUBLICATION_AUDIT_1.1.2.md",
-      "sha256": "17ae652b7cbf301a52b37e27585527edda043ddf9cce539a317d68b7f2f64fd3",
-      "license_expression": "MIT"
-    },
-    {
-      "path": "docs/RELEASING.md",
-      "sha256": "aaa27b9a90ce56773bee2ecaf29155bb750098d0230a710f806866c38f358a7e",
+      "sha256": "55fb20a00bd736fb4eb949741035f866f610fae697e7f3379f00c0a08bce5ed6",
       "license_expression": "MIT"
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "1d00959a5f1f79440c3ca9ac7abdcdcaa64847101f2f4473dfe8c02e6f5d46a2",
+      "sha256": "6c3386ec2584ec12612cf1b075493fad2cc8e582ef392c2245ce8471dcbb310d",
       "license_expression": "MIT",
       "archived_source": "docs/REPRODUCING.md"
     },
@@ -1003,7 +993,7 @@
     },
     {
       "path": "results/README.md",
-      "sha256": "8a7c1dee2be5253219cff41772d3c557f76aa941d17f8dd88594ab92984476f0",
+      "sha256": "91da211304807f435a112a7fe53b1184df3ec7d0f781cc678eaf054409672247",
       "license_expression": "MIT"
     },
     {
@@ -1123,7 +1113,7 @@
   "validation": {
     "status": "PASS",
     "date": "2026-10-29",
-    "tested_state": "The proposed 1.1.2 reader inventory identified by this manifest; no publication or GPU campaign rerun.",
+    "tested_state": "Version 1.1.2 reader inventory identified by this manifest; saved evidence verification, without new GPU measurements.",
     "previous_validation": {
       "tag": "v1.1.1",
       "commit": "be099fae09c89a78178d1e0df210899f8e6f9a5b",
@@ -1133,7 +1123,7 @@
       {
         "check": "Reader integrity and unchanged original results",
         "status": "PASS",
-        "classified_files": 173,
+        "classified_files": 171,
         "unchanged_result_records": 13
       },
       {
@@ -1142,22 +1132,6 @@
         "fresh_process_records": 18,
         "measured_frames": 405,
         "table_statistics_checked": 876
-      },
-      {
-        "check": "Whole reachable-history publication gate",
-        "status": "PASS",
-        "classified_files": 173,
-        "reachable_commits_scanned": 6,
-        "excluded_camera_payloads": 183,
-        "scope": "Working tree plus all public-ref history before the patch commit; repeated after commit creation."
-      },
-      {
-        "check": "Independent Gitleaks history scan",
-        "status": "PASS",
-        "version": "8.30.1",
-        "reachable_commits_scanned": 6,
-        "findings": 0,
-        "scope": "Default ruleset, all refs and full history, archive depth 2, full redaction; repeated after commit creation."
       },
       {
         "check": "All pinned archive file hashes",
@@ -1169,41 +1143,21 @@
         "status": "PASS",
         "evidence_files_verified": 126,
         "vector_figures": 5,
-        "png_previews": 1,
-        "outputs_byte_identical_to_previous_generation": true
+        "png_previews": 1
       },
       {
-        "check": "Repository links, citation/version agreement and local Markdown file links",
+        "check": "Focused CPU runtime and source-oracle tests",
         "status": "PASS",
-        "anonymous_public_links_checked": 6,
-        "local_markdown_file_links_checked": 46
-      },
-      {
-        "check": "Existing tags, licences, results, runtime, configs, fixtures, source snapshots and workflows preserved",
-        "status": "PASS"
-      },
-      {
-        "check": "git diff --check",
-        "status": "PASS"
+        "tests_run": 199,
+        "skipped": 1
       }
     ],
-    "external_checks": {
-      "repository": "Renamed repository verified public; anonymous corrected links return HTTP 200.",
-      "github_ci": "Not run for this unpublished local patch.",
-      "publication": "No commit or tag pushed; v1.1.2 is proposed."
-    },
-    "software": {
-      "python": "3.12.12",
-      "numpy": "1.26.4",
-      "matplotlib": "3.10.8",
-      "gitleaks": "8.30.1"
-    },
-    "gpu_scope": "No GPU measurements or runtime tests rerun; documentation and metadata only. Previous release validation remains available via previous_validation."
+    "gpu_scope": "No GPU measurements rerun for this documentation update. The focused CPU suite was rerun; previous GPU validation remains available via previous_validation."
   },
   "reader_update": {
     "base_tag": "v1.1.1",
     "base_commit": "be099fae09c89a78178d1e0df210899f8e6f9a5b",
-    "scope": "Corrected repository URLs, completed-rename release guidance and historical-path privacy/provenance audit. Runtime, configs, fixtures, result bytes and pinned evidence unchanged.",
+    "scope": "Reader documentation and citation metadata, corrected repository URLs, consistent ALoD-Ext terminology, and publication of verified tags through CI. Runtime, configs, fixtures, result bytes and pinned evidence unchanged.",
     "archived_source_note": "File archived_source fields name historical predecessors; only the results inventory claims byte identity with that archive."
   }
 }

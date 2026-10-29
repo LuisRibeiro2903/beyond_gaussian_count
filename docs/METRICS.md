@@ -42,7 +42,7 @@ and repetition policy.
 | `resident_gaussian_count` / `resident_gaussians` | Rows retained by the scene's GPU residency policy, which can include rows unused by the current frame. It is neither allocated cache capacity nor a VRAM measurement. |
 
 Packed survivor counting deduplicates backend input-row IDs. Duplicate stable
-global IDs can still occupy different input rows. In ALoD-Exec, the cache can
+global IDs can still occupy different input rows. In ALoD-Ext, the cache can
 store unique property rows while frame assembly reconstructs the ordered
 occurrences. Keep those two populations separate when interpreting cache and
 renderer counts.

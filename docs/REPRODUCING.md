@@ -42,8 +42,7 @@ break verification or obscure which environment produced a measurement.
 Paths alone do not supply an external asset or establish its identity. This
 also applies to historical runnable configurations: inspect their recorded
 protocol, then provide local input paths for a new experiment rather than
-editing the archived record. See the [publication audit](PUBLICATION_AUDIT_1.1.2.md)
-for scope, privacy findings and retained-history limits.
+editing the archived record.
 
 ## Focused runtime tests
 
@@ -107,7 +106,7 @@ input identities, warmup, repetition and timing policies for formal experiments.
 Different inputs, hardware or retraining define a new experiment. See
 [EXTERNAL_INPUTS.md](EXTERNAL_INPUTS.md) for acquisition and licensing boundaries.
 
-## ALoD-Exec example
+## ALoD-Ext example
 
 This example uses the formal MatrixCity Run009 hierarchy with the tracked
 71-camera evaluation path. It compares the source-faithful evaluator-style

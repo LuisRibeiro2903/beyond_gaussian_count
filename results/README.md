@@ -7,7 +7,7 @@ rejected runs and historical context remain available there.
 
 Start with the [research overview and figure](../README.md#research-question-and-findings),
 the [metric glossary](../docs/METRICS.md), or the
-[ALoD-Exec runtime example](../docs/REPRODUCING.md#alod-exec-example).
+[ALoD-Ext runtime example](../docs/REPRODUCING.md#alod-ext-example).
 
 | Thesis topic | Key records | Main implementation |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ the [metric glossary](../docs/METRICS.md), or the
 | Released runtime and backend attribution | [Official comparison](citygaussian/official_comparison.json), [backend timing](citygaussian/backend_timing.json), [attribution](citygaussian/backend_attribution.json) | `gs_framework/benchmarks/benchmark_real_scene.py`; exact official harnesses in the full record |
 | ALoD source-faithful evaluation | [Rendering](alod/rendering.json), [frustum ablation](alod/frustum_ablation.json), [quality](alod/quality.json) | `gs_framework/alod_reference/`, `gs_framework/scene_runtime/alod/`, and oracle validation scripts |
 | Resource-feasibility negative finding | [Uni10K preflight closure](alod/uni10k_negative_preflight.json) | Full-record dataset/preflight tools; no fine-training or performance result is inferred |
-| ALoD-Exec on the formal MatrixCity hierarchy | [Formal comparison](alod_exec/matrixcity_formal.json) | `gs_framework/scene_runtime/alod/materialization.py` and `residency.py` |
+| ALoD-Ext on the formal MatrixCity hierarchy | [Formal comparison](alod_exec/matrixcity_formal.json) | `gs_framework/scene_runtime/alod/materialization.py` and `residency.py` |
 | Final natural workloads | [Campus/Sci-Art completion](alod_exec/natural_completion.json) | Same runtime and benchmark; `tools/verify_natural_results.py` recomputes 876 saved statistics |
 | Ordered-multiset synthetic control | [Synthetic closure](alod_exec/synthetic_multiset.json) | Selection, materialization and residency modules; synthetic construction and campaign tools in the full record |
 

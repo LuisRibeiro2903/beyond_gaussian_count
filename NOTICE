@@ -19,7 +19,7 @@ https://team.inria.fr/graphdeco; all rights reserved. Noncommercial research
 and evaluation use under the upstream licence. The original licence identifies
 Inria/TUW and the inherited 3DGS licence identifies Inria/MPII.
 The companion contains source-aligned HSPT/selection adaptations, observation
-hooks, the project topology correction, and separately identified ALoD-Exec
+hooks, the project topology correction, and separately identified ALoD-Ext
 materialization/residency extensions. Apply upstream conditions to inherited
 expression; MIT covers only the author's original contributions.
 

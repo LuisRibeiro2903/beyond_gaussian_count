@@ -8,4 +8,5 @@ authors:
 version: 1.1.2
 date-released: 2026-10-29
 repository-code: "https://github.com/LuisRibeiro2903/beyond_gaussian_count"
+url: "https://github.com/LuisRibeiro2903/beyond_gaussian_count/tree/v1.1.2"
 abstract: "Reproduction, instrumentation, controlled evaluation, and project-specific extensions for large-scale Gaussian rendering. Research companion; upstream-derived portions retain their original terms. No persistent archive identifier is assigned."

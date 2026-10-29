@@ -11,14 +11,14 @@ records, and commands to verify the numerical analyses.
 How well does Gaussian count explain the cost of rendering a large scene?
 This work examines where time and memory go between scene selection and
 rasterization, using CityGaussian and ALoD reproductions and the project-specific
-ALoD-Exec materialization and residency extension.
+ALoD-Ext materialization and residency extension.
 
 - **Selection has a cost.** In the CityGaussian controlled ladder, reducing
   selected Gaussians does not consistently reduce total frame time. Selection,
   assembly and renderer behavior must be measured together. See the
   [timing](results/citygaussian/controlled_ladder.json) and
   [population](results/citygaussian/gaussian_counts.json) records.
-- **Selected and materialized populations differ.** ALoD-Exec filters rows
+- **Selected and materialized populations differ.** ALoD-Ext filters rows
   after semantic selection, before gathering and transferring Gaussian
   properties. Semantic selection stays unchanged, and retained rows preserve
   their order and duplicate occurrences. See the
@@ -36,6 +36,15 @@ preparation plus renderer-call time; whiskers show the standard deviation
 between fresh processes. The figure is regenerated from pinned numerical
 evidence by the command below. These are project measurements within this
 protocol, not a ranking of the original papers.
+
+The independent CityGaussian reproduction covers runtime cell organization,
+released visibility and adaptive LoD, with source-derived oracle checks. The
+ALoD reproduction covers hierarchy decoding, HSPT, camera-dependent selection
+and source-faithful evaluation, including an instrumented topology correction.
+ALoD-Ext adds filtering before materialization and GPU residency policies;
+it is a project contribution separate from those reproduced algorithms.
+Historical `ALOD-EXT-*` experiment identifiers and paths under `alod_exec/`
+retain their original names.
 
 ## Read the results
 
@@ -61,7 +70,7 @@ python reproduction/figures/generate_final_empirical_figures.py --output local/f
 This regenerates five empirical figures and the PNG preview above from the
 saved numerical records.
 [REPRODUCING.md](docs/REPRODUCING.md) covers installation, focused tests,
-synthetic GPU rendering, an [ALoD-Exec example](docs/REPRODUCING.md#alod-exec-example),
+synthetic GPU rendering, an [ALoD-Ext example](docs/REPRODUCING.md#alod-ext-example),
 and external inputs for real-scene experiments. Read the
 [metric glossary](docs/METRICS.md) before interpreting counts, FPS or memory.
 
@@ -82,7 +91,7 @@ and set `BEYOND_EVIDENCE_DIR` to its extracted root. The expected revision is
 
 CityGaussian and ALoD algorithms belong to their original authors. This work
 provides reproduction, instrumentation, controlled evaluation and the explicitly
-identified ALoD-Exec extension. Results are compared within their stated
+identified ALoD-Ext extension. Results are compared within their stated
 protocols, not used as a cross-method ranking or a reproduction of paper FPS.
 
 Images, scene models, trained hierarchies and restricted raw camera payloads
@@ -94,7 +103,16 @@ the full record. Numerical evidence can still be inspected and checked.
 
 Original contributions use MIT. Upstream-derived portions retain their
 noncommercial/research, share-alike or Apache terms; see [LICENSE.md](LICENSE.md)
-and [NOTICE](NOTICE). Citation metadata are in [CITATION.cff](CITATION.cff).
-Cite an immutable release tag and its full commit in the dissertation. See
-[release and citation notes](docs/RELEASING.md) for publication steps and the
-historical-path audit. No DOI is claimed.
+and [NOTICE](NOTICE). Dataset and asset acquisition restrictions are documented
+in [EXTERNAL_INPUTS.md](docs/EXTERNAL_INPUTS.md).
+
+## Citation
+
+Citation metadata are in [CITATION.cff](CITATION.cff). For this reader companion,
+cite Luis Ribeiro, *Beyond Gaussian Count: thesis code and experimental
+evidence*, version **1.1.2** (29 October 2026),
+[`LuisRibeiro2903/beyond_gaussian_count`](https://github.com/LuisRibeiro2903/beyond_gaussian_count)
+at tag `v1.1.2`. The complete historical evidence is separately identified by
+`v1.0.0`, commit `42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c`.
+Cite the original CityGaussian and ALoD publications when using their methods.
+No DOI is assigned.
