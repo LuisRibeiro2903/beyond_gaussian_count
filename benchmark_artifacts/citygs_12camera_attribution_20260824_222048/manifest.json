@@ -1,0 +1,111 @@
+{
+  "assets_cameras_resolution_and_selection_unchanged": true,
+  "camera_indices": [
+    0,
+    131,
+    262,
+    392,
+    523,
+    654,
+    785,
+    916,
+    1047,
+    1177,
+    1308,
+    1439
+  ],
+  "campaign_id": "citygs_12camera_attribution_20260824_222048",
+  "classification": "CITYGS-12CAM-ATTRIBUTION; frozen-oracle-camera direct-backend and historical high-level attribution",
+  "compiled_binaries": {
+    "graphdeco": {
+      "architecture": "four native sm_120 cubins; no PTX",
+      "path": "/home/luis/tese/CityGaussian_official_parity/.official_extensions/diff_gaussian_rasterization/_C.cpython-310-x86_64-linux-gnu.so",
+      "sha256": "cc2ada2c5875c272771ebe4624208c0a5f4004fc150cc9914d553274d02fffd8"
+    },
+    "gsplat": {
+      "architecture": "twenty native sm_120 cubins plus compute_120 PTX",
+      "path": "/home/luis/.cache/torch_extensions/py312_cu129/gsplat_cuda/gsplat_cuda.so",
+      "sha256": "fc0ceb5237b25a95f78d1641a79a564bf7f2ed22bfa69835e7012fc7eb1971a7",
+      "version": "1.5.3"
+    }
+  },
+  "created_date": "2026-08-24",
+  "ephemeral_canonical_inputs": {
+    "file_count": 12,
+    "path_during_campaign": "/tmp/citygs_12camera_attribution_20260824_222048",
+    "retention": "Removed after package validation to reclaim temporary space; deterministic tensor/file hashes, source asset hashes, selection records, per-process re-hashing, raw results, and reconstruction harnesses are preserved in the artifact.",
+    "total_bytes": 7428052512
+  },
+  "external_gpu_workload_baseline": {
+    "nvidia_process_snapshot": "environment/gpu_baseline_full.txt",
+    "nvidia_query": "environment/gpu_baseline_query.csv",
+    "windows_app_record": "environment/windows_open_apps_baseline.json"
+  },
+  "focused_followup": {
+    "clean_official_oracle_replay": "tables/clean_official_oracle_replay.json",
+    "scope": "three-stage-probe cameras and three fresh twelve-oracle-frame official-wrapper processes; not a full trajectory rerun",
+    "wrapper_stage_probe": "tables/wrapper_stage_probe.json"
+  },
+  "no_backend_or_method_optimization": true,
+  "outcome": "B \u2014 the isolated backend ratio varies materially with camera",
+  "pinned_reference_checkout_modified": false,
+  "pinned_sources": {
+    "CityGaussian": "e16c526f78ab01d377b13b3e6862dcc93ddbe953",
+    "diff_gaussian_rasterization": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+    "gs_framework": "cfc2136459dd63cc47dc3acfde55a3d72a4d8bba"
+  },
+  "protocol": {
+    "backend_order": [
+      "repeat 1 GraphDECO\u2192gsplat",
+      "repeat 2 gsplat\u2192GraphDECO",
+      "repeat 3 GraphDECO\u2192gsplat"
+    ],
+    "historical_camera_values": "mean and sample SD of each frozen camera's value across the three existing formal repetitions",
+    "independent_processes_per_camera_backend": 3,
+    "measured_renders_per_process": 100,
+    "primary_metric": "backend_gpu_time_ms",
+    "secondary_metric": "backend_synchronized_wall_time_ms",
+    "warmup_renders_per_process": 10
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "source_evidence": {
+    "canonical_gsplat": "/home/luis/tese/benchmark_artifacts/citygs_canonical_20260824_135615",
+    "official_parity": "/home/luis/tese/benchmark_artifacts/citygs_official_parity_20260824_191215",
+    "single_camera_microbenchmark": "/home/luis/tese/benchmark_artifacts/citygs_backend_microbench_20260824_213420"
+  },
+  "source_harnesses": [
+    {
+      "path": "/home/luis/tese/backend_microbench/prepare_inputs.py",
+      "sha256": "b6c941784375c691d63ae16b98086952d8e28b899ca88b16f1d311021fdcb4c1"
+    },
+    {
+      "path": "/home/luis/tese/backend_microbench/run_backend.py",
+      "sha256": "24c322acf337965246b2a90849178253647e18cb0aada628f345e8d7386bfe18"
+    },
+    {
+      "path": "/home/luis/tese/backend_attribution_12cam/run_campaign.sh",
+      "sha256": "a574201d874ba5a3e1ec5bf60cf483dc3c62e397d63cb06bcebec25b5f33985f"
+    },
+    {
+      "path": "/home/luis/tese/backend_attribution_12cam/aggregate.py",
+      "sha256": "d66f5c0c416584f88de0f186adb7de700ba6635673d5107e4a4ddefeaa699569"
+    },
+    {
+      "path": "/home/luis/tese/backend_attribution_12cam/wrapper_probe.py",
+      "sha256": "ad1ec5ce4cdb8c466d55aa9c197aec1ca8e3bfd975aacf58806f859b09d2a2f1"
+    },
+    {
+      "path": "/home/luis/tese/backend_attribution_12cam/run_wrapper_probe.sh",
+      "sha256": "67dc02bc9e345718b80d210466347dc2a8e4d25ca674ed79b1025207fd0bd8ec"
+    },
+    {
+      "path": "/home/luis/tese/backend_attribution_12cam/run_official_oracle_replay.sh",
+      "sha256": "31814a3d0349f9d907ca18bf99a56d861c291ace0497f71a92be19e98c0a189c"
+    }
+  ],
+  "status": "complete",
+  "thesis_latex_modified": false
+}

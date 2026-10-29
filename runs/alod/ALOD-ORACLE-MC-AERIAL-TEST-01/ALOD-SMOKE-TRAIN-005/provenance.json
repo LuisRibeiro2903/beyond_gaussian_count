@@ -1,0 +1,18 @@
+{
+  "algorithm_patch_sha256": "a7412fff7315153774c93b504105804c2a182308807a2c6ec8de34672b9cd7d6",
+  "coarse_ply_sha256": "ffcbd2b12d60cbfd2260845e432421ee2af2f552d10818c0ae8d1f067ab4d143",
+  "end_timestamp": 1786117731,
+  "fidelity_classification": "official source plus ALOD-RELOCATE-TOPOLOGY-FIX correctness patch and separable validation instrumentation",
+  "final_dhier_sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c",
+  "initial_dhier_sha256": "a7862de91cd3620ab7be1296a50b9030aa1c2cca2b4fe15d79abaf55f4664d17",
+  "instrumentation_patch_sha256": "98fa8f6c6d0cdde9a96d03ad04b1485efd8576c9e841a921b5a4661da3ef79d7",
+  "official_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "protected_state_unchanged": true,
+  "rejected_run004_final_reused": false,
+  "reuse_reason": "accepted coarse and initial hierarchy isolate fine relocation correctness without repeating coarse training or hierarchy creation",
+  "run_id": "ALOD-SMOKE-TRAIN-005",
+  "schema_version": 1,
+  "source_run": "ALOD-SMOKE-TRAIN-004",
+  "start_timestamp": 1786115998,
+  "status": "PASS-ALOD-FIRST-DHIER"
+}

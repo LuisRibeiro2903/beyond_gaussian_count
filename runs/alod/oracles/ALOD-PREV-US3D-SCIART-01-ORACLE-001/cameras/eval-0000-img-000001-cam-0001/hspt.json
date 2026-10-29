@@ -1,0 +1,288 @@
+{
+  "arrays": {
+    "spt_max": {
+      "byte_count": 19895336,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 4973834,
+      "finite_count": 4973834,
+      "max": 999999995904.0,
+      "min": 102.92687225341797,
+      "payload_file_sha256": "93a8f81012202a72da5652a34883cf14679878793c25e5626228b1a67f2fa2b8",
+      "payload_path": "payloads/hspt/spt_max.npy",
+      "raw_cpu_c_order_sha256": "57027e72b9535f2f56de567555aa30af576182feb55a619d907f9545e7742280",
+      "shape": [
+        4973834
+      ]
+    },
+    "spt_min": {
+      "byte_count": 19895336,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 4973834,
+      "finite_count": 4973834,
+      "max": 514663.34375,
+      "min": -1000000000.0,
+      "payload_file_sha256": "cdbfafea26d4a5c38585970f7fae6934f48445bc3493be32e8df857476e29ea6",
+      "payload_path": "payloads/hspt/spt_min.npy",
+      "raw_cpu_c_order_sha256": "6170b39b907baa4f9b7c40b5e206b5d57be97ae90bbda0b2da2df1f1ba837d12",
+      "shape": [
+        4973834
+      ]
+    },
+    "spt_root_global_node_ids": {
+      "byte_count": 496,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 62,
+      "finite_count": null,
+      "max": 4341250.0,
+      "min": 100079.0,
+      "payload_file_sha256": "2fef64b9549461f1675a814cd93db09e942f120f70c0a7be95c75b4ef0843c16",
+      "payload_path": "payloads/hspt/spt_root_global_node_ids.npy",
+      "raw_cpu_c_order_sha256": "0150597417fa30e1e4f070c5caacd2d15301c89a4b2183cc9a49d557c617683f",
+      "shape": [
+        62
+      ]
+    },
+    "spt_sizes": {
+      "byte_count": 248,
+      "device_during_official_execution": null,
+      "dtype": "int32",
+      "element_count": 62,
+      "finite_count": null,
+      "max": 639565.0,
+      "min": 101.0,
+      "payload_file_sha256": "5995fd90b6430627ada8077f782fd91c2c2ec377278edcd5413f0743b7775018",
+      "payload_path": "payloads/hspt/spt_sizes.npy",
+      "raw_cpu_c_order_sha256": "a9510f6b8d5b8e5a977d34884c274a85a4e71a189cfc6cc706ff1c5054e237d6",
+      "shape": [
+        62
+      ]
+    },
+    "spt_starts": {
+      "byte_count": 252,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 63,
+      "finite_count": null,
+      "max": 4973834.0,
+      "min": 0.0,
+      "payload_file_sha256": "221d5d6a0242a8a652477fbd0397a6c229a7eb5e728c7f959d0f05a2820ced14",
+      "payload_path": "payloads/hspt/spt_starts.npy",
+      "raw_cpu_c_order_sha256": "608cfa39a1cc3f08fd22ad225dd1e5782b9985a1ed6142ad518b9c6c4cfaa1e0",
+      "shape": [
+        63
+      ]
+    },
+    "spt_to_global_node_id": {
+      "byte_count": 19895336,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 4973834,
+      "finite_count": null,
+      "max": 5074184.0,
+      "min": 100019.0,
+      "payload_file_sha256": "37b311d87a35bae2eac4ee56f363340c3878478ccae43d146e9170e83a638578",
+      "payload_path": "payloads/hspt/spt_to_global_node_id.npy",
+      "raw_cpu_c_order_sha256": "66e011174302d2e322b32f19bbb078eac1bddc40add24f75c95fffb1bd6bb315",
+      "shape": [
+        4973834
+      ]
+    },
+    "upper_min_distance_squared": {
+      "byte_count": 1652,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 413,
+      "finite_count": 413,
+      "max": 2689796407296.0,
+      "min": 20448794.0,
+      "payload_file_sha256": "70a05e69e62438a26f10ec2a13eb90d2da5d9706bad465769212235362abc9a7",
+      "payload_path": "payloads/hspt/upper_min_distance_squared.npy",
+      "raw_cpu_c_order_sha256": "cc22885e46509447afb971b9f2f724c9dc013331be3a4e523242090d8fa0c561",
+      "shape": [
+        413
+      ]
+    },
+    "upper_to_global_node_id": {
+      "byte_count": 1652,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 413,
+      "finite_count": null,
+      "max": 5049528.0,
+      "min": 100000.0,
+      "payload_file_sha256": "a51629cecaa7e197071e54020ae68db4ed34f6a217390f0747febf733344776b",
+      "payload_path": "payloads/hspt/upper_to_global_node_id.npy",
+      "raw_cpu_c_order_sha256": "cb25955623163b976438f32cea44b08692ff56d0aef1ab4d651622b98a3b422c",
+      "shape": [
+        413
+      ]
+    },
+    "upper_tree_log_scaling": {
+      "byte_count": 4956,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1239,
+      "finite_count": 1239,
+      "max": 6.981295108795166,
+      "min": -0.6369582414627075,
+      "payload_file_sha256": "568188f19be9a7ebea6a39c0d736ba9a9575e415878d5b2ef22230a81fc2712b",
+      "payload_path": "payloads/hspt/upper_tree_log_scaling.npy",
+      "raw_cpu_c_order_sha256": "c00af778a9b6a47b9eddc996f795606584e811754ea22012028823518472c748",
+      "shape": [
+        413,
+        3
+      ]
+    },
+    "upper_tree_nodes": {
+      "byte_count": 9912,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 2478,
+      "finite_count": null,
+      "max": 5049528.0,
+      "min": -1.0,
+      "payload_file_sha256": "c5b968192b3379e0ec15237361f43b14eaef661eb5103aacca60045ee0d97df0",
+      "payload_path": "payloads/hspt/upper_tree_nodes.npy",
+      "raw_cpu_c_order_sha256": "e5e68b09e5eed4f31fb386ca8463f9992b1390ec8fb77c4f2d8aff977a84d792",
+      "shape": [
+        413,
+        6
+      ]
+    },
+    "upper_tree_xyz": {
+      "byte_count": 4956,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1239,
+      "finite_count": 1239,
+      "max": 3080.0224609375,
+      "min": -5382.1015625,
+      "payload_file_sha256": "5ae98862998d79f7275d341fd5ea9353150ceecbad8af6a480bd72c93db5cf64",
+      "payload_path": "payloads/hspt/upper_tree_xyz.npy",
+      "raw_cpu_c_order_sha256": "6bc05eb29c58f0f3d767a9449b61c327be8b51345d5027686a988e0b218a081c",
+      "shape": [
+        413,
+        3
+      ]
+    }
+  },
+  "configuration": {
+    "SPT_root_volume": 1228800.0,
+    "base_focal_length_original_colmap_pixels": 3698.65087890625,
+    "conceptual_target_granularity_pixels": 2.0,
+    "min_SPT_size_effective_evaluation_default": 100,
+    "min_SPT_size_training_not_used": 256,
+    "resolved_target_granularity": 0.0005407377082833597,
+    "use_bounding_spheres": false
+  },
+  "counts": {
+    "flattened_spt_metadata_rows": 4973834,
+    "maximum_spt_size": 639565,
+    "minimum_spt_size": 101,
+    "spt_count": 62,
+    "total_hspt_metadata_rows": 4974247,
+    "upper_hierarchy_rows": 413
+  },
+  "global_node_id_contract": "serialized .dhier row index",
+  "mappings": {
+    "spt_id": "interval index into SPT_starts",
+    "spt_local_to_global": "SPT_gaussian_indices[SPT_starts[spt_id] + local_index]",
+    "spt_roots": "SPT_gaussian_indices[SPT_starts[:-1]]",
+    "upper_local_id": "row index into upper_tree_nodes",
+    "upper_local_to_global": "upper_tree_nodes[:, 5]"
+  },
+  "schema_version": "alod_selection_oracle_hspt.v1",
+  "spt_size_histogram": {
+    "101": 2,
+    "10495": 1,
+    "115": 1,
+    "11525": 1,
+    "11669": 1,
+    "117": 1,
+    "125": 1,
+    "131": 1,
+    "145651": 1,
+    "146215": 1,
+    "148205": 1,
+    "1489": 1,
+    "1553": 1,
+    "1589": 1,
+    "1635": 1,
+    "17785": 1,
+    "18355": 1,
+    "19025": 1,
+    "191455": 1,
+    "195": 1,
+    "1957": 1,
+    "197": 1,
+    "20069": 1,
+    "2007": 1,
+    "203": 1,
+    "217": 1,
+    "225": 1,
+    "263415": 1,
+    "279561": 1,
+    "3147": 1,
+    "32343": 1,
+    "3323": 1,
+    "3329": 1,
+    "33489": 1,
+    "3429": 1,
+    "364397": 1,
+    "366925": 1,
+    "3729": 1,
+    "37329": 1,
+    "39887": 1,
+    "411": 1,
+    "431": 1,
+    "445": 1,
+    "4855": 1,
+    "493": 1,
+    "505": 1,
+    "5473": 1,
+    "591465": 1,
+    "6145": 1,
+    "614559": 1,
+    "619821": 1,
+    "639565": 1,
+    "6539": 1,
+    "67935": 1,
+    "68379": 1,
+    "69571": 1,
+    "7029": 1,
+    "80839": 1,
+    "815": 1,
+    "861": 1,
+    "989": 1
+  },
+  "upper_hierarchy_depth_distribution": {
+    "0": 1,
+    "1": 2,
+    "10": 10,
+    "11": 10,
+    "12": 10,
+    "13": 8,
+    "14": 10,
+    "15": 10,
+    "16": 10,
+    "17": 8,
+    "18": 16,
+    "19": 32,
+    "2": 4,
+    "20": 56,
+    "21": 64,
+    "22": 70,
+    "23": 30,
+    "24": 6,
+    "3": 8,
+    "4": 8,
+    "5": 8,
+    "6": 8,
+    "7": 8,
+    "8": 8,
+    "9": 8
+  }
+}

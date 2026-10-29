@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "amendment_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001-AMENDMENT-001",
+  "status": "FROZEN-BEFORE-EXECUTION-002",
+  "reason": "The first timing attempt exposed that the new multiset runtime fields were present in SceneFrameMetrics but were not copied into frames.jsonl, leaving required count and reindex timing distributions null.",
+  "authorized_scope": "instrumentation only",
+  "change": "Copy semantic-unique, duplicate-occurrence, unique-materialization, assembled-occurrence, unique-extraction, occurrence-propagation, and occurrence-reindex fields into benchmark frame records.",
+  "scientific_inputs_changed": false,
+  "selector_changed": false,
+  "filter_mathematics_changed": false,
+  "cache_policy_or_capacity_rule_changed": false,
+  "timing_boundaries_changed": false,
+  "first_attempt_preserved_at": "attempts/instrumentation_missing_001",
+  "first_attempt_used_for_final_performance": false,
+  "before_benchmark_runner_sha256": "f82b618ec13c2003e8ca8143fa60c929351278dc78cd919c9dc57c430638678d",
+  "after_benchmark_runner_sha256": "c789d854ec06ed629582d00fb46173b59102d885aa6d9611aa072d069c9c22c0",
+  "campaign_runner_sha256": "f4715e771c33ba611f8f01723159a69771a1ca7974b49cb0ac5b463bc1936aee",
+  "configuration_sha256": "f40a7868d67934021c2ab5954c0521f87ed9c781834ca6ad9887695e4854a8b1",
+  "correctness_and_regression_gates_remain_valid": true,
+  "fresh_process_performance_rerun_required": true
+}

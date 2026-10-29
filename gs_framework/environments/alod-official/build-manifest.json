@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-05T17:30:00+01:00",
+  "upstream": {
+    "url": "https://github.com/FelixWindisch/LoDOfGaussians.git",
+    "commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "canonical_checkout": "/home/luis/tese/LoDOfGaussians",
+    "worktree": "/home/luis/tese/alod_official_worktree_73f5473"
+  },
+  "environment": {
+    "path": "/home/luis/miniconda3/envs/alod_official",
+    "python": "3.10.20",
+    "python_abi": "cp310",
+    "pytorch": "2.11.0+cu128",
+    "pytorch_cuda": "12.8",
+    "torchvision": "0.26.0+cu128",
+    "gsplat": "1.5.3",
+    "nvcc": "12.8.93",
+    "cxx": "x86_64-conda-linux-gnu-g++ 13.4.0",
+    "cuda_host_cxx": "GNU 13.3.0 selected by nvcc during CMake CUDA compiler detection",
+    "cmake": "4.4.2",
+    "gpu": "NVIDIA GeForce RTX 5080",
+    "compute_capability": "12.0"
+  },
+  "architecture": {
+    "torch_cuda_arch_list": "12.0",
+    "cmake_cuda_architectures": "120",
+    "verification": "cuobjdump --list-elf reported sm_120 cubins in all three Python extensions and libGaussianHierarchy.a"
+  },
+  "build_patch": {
+    "path": "patches/alod/cmake-cuda-architectures-sm120.patch",
+    "sha256": "d57e1f7e28b2c779f5a07a8de5807b953f22979f83fd53d0c0853da01cd5d7af",
+    "scope": "one-line CMake CUDA architecture replacement; build-only"
+  },
+  "components": [
+    {
+      "name": "simple_knn._C",
+      "source": "submodules/simple-knn",
+      "build_system": "setuptools CUDAExtension",
+      "python_abi": "cp310",
+      "cuda": "12.8.93 / sm_120",
+      "tracked_precompiled_binary": false,
+      "rebuilt_locally": true,
+      "wheel": "/home/luis/tese/alod_official_build/wheels/simple_knn-0.0.0-cp310-cp310-linux_x86_64.whl",
+      "wheel_sha256": "c3b521c0416ccf6ef49abb35c07dec7bd82c323ff18bca49d67aff03b6d5403e",
+      "binary": "/home/luis/miniconda3/envs/alod_official/lib/python3.10/site-packages/simple_knn/_C.cpython-310-x86_64-linux-gnu.so",
+      "binary_size": 2504400,
+      "binary_sha256": "9d1eb044a30d255a0e0e8e74d6dcaf2f2a002b01b64e6235e29becac806a28d7",
+      "smoke": "distCUDA2 on four CUDA points; finite nonnegative output"
+    },
+    {
+      "name": "gaussian_hierarchy._C",
+      "source": "submodules/gaussianhierarchy",
+      "build_system": "setuptools CUDAExtension",
+      "python_abi": "cp310",
+      "cuda": "12.8.93 / sm_120",
+      "tracked_precompiled_binary": true,
+      "tracked_binary_sha256": "17b2d3779b479fe5ee5d79aae5b2e57e446661333cecc577c6e8af4c0c069d6a",
+      "rebuilt_locally": true,
+      "wheel": "/home/luis/tese/alod_official_build/wheels/gaussian_hierarchy-0.0.0-cp310-cp310-linux_x86_64.whl",
+      "wheel_sha256": "ae278a0b49dfe7709d89315d139252317e09e9cc583b49a6d87b9fd9dc84c758",
+      "binary": "/home/luis/miniconda3/envs/alod_official/lib/python3.10/site-packages/gaussian_hierarchy/_C.cpython-310-x86_64-linux-gnu.so",
+      "binary_size": 1337344,
+      "binary_sha256": "e66843c387355f93e55bf0856550f3c6a0a916f372aab5c5f240db7312a73ab5",
+      "smoke": "compute_relocation on one CUDA Gaussian; analytic opacity and scale matched"
+    },
+    {
+      "name": "fused_ssim_cuda",
+      "source": "https://github.com/rahul-goel/fused-ssim.git",
+      "source_commit": "a7c48d6dd7ac6dc39a7958c7c4452e0b10418f38",
+      "build_system": "setuptools CUDAExtension",
+      "python_abi": "cp310",
+      "cuda": "12.8.93 / sm_120",
+      "tracked_precompiled_binary": false,
+      "rebuilt_locally": true,
+      "wheel": "/home/luis/tese/alod_official_build/wheels/fused_ssim-1.0.0-cp310-cp310-linux_x86_64.whl",
+      "wheel_sha256": "6892bdf25788926578615e7bf5106cac40bd0dcbb2f722c947ffbfb43f0a45c1",
+      "binary": "/home/luis/miniconda3/envs/alod_official/lib/python3.10/site-packages/fused_ssim_cuda.cpython-310-x86_64-linux-gnu.so",
+      "binary_size": 373464,
+      "binary_sha256": "19c9cc925cd20a3fd00bc553710e91b879fee830f0a3d76df680e8b529e2e9d5",
+      "smoke": "fused_ssim on identical 16x16 CUDA images; result 1.0"
+    },
+    {
+      "name": "GaussianHierarchy static library",
+      "source": "submodules/gaussianhierarchy",
+      "build_system": "CMake",
+      "python_abi": null,
+      "cuda": "12.8.93 / sm_120",
+      "rebuilt_locally": true,
+      "binary": "/home/luis/tese/alod_official_build/cmake/libGaussianHierarchy.a",
+      "binary_size": 1461964,
+      "binary_sha256": "3642268fb3efda618c3b0074a7fd43f5f60582cad63514f6b3b6ade7cb3f241e"
+    },
+    {
+      "name": "GaussianHierarchyCreator",
+      "source": "submodules/gaussianhierarchy/mainHierarchyCreator.cpp",
+      "build_system": "CMake",
+      "rebuilt_locally": true,
+      "binary": "/home/luis/tese/alod_official_build/cmake/GaussianHierarchyCreator",
+      "binary_size": 131776,
+      "binary_sha256": "4f885d890dfd831324d850caf71899a96a3c44840df8a87e0ae779b130914fe7",
+      "smoke": "startup reached source-defined missing-argument diagnostic; exit 134; no input processed"
+    },
+    {
+      "name": "GaussianHierarchyMerger",
+      "source": "submodules/gaussianhierarchy/mainHierarchyMerger.cpp",
+      "build_system": "CMake",
+      "rebuilt_locally": true,
+      "binary": "/home/luis/tese/alod_official_build/cmake/GaussianHierarchyMerger",
+      "binary_size": 1780776,
+      "binary_sha256": "f32e9bbd502e3672a171327cb3670896ac48911b2ec6d6f29828d20c45498771",
+      "smoke": "startup reached source-defined missing-filename diagnostic; exit 134; no input processed"
+    },
+    {
+      "name": "gsplat",
+      "source": "PyPI requirement resolved from the pinned repository",
+      "version": "1.5.3",
+      "build_system": "package import; native backend is lazy",
+      "rebuilt_locally": false,
+      "smoke": "Python import and official gaussian_renderer import only; rendering was intentionally prohibited"
+    }
+  ]
+}

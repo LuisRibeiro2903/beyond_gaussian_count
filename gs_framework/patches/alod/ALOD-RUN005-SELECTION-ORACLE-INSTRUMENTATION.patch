@@ -1,0 +1,173 @@
+diff --git a/eval_hierarchy.py b/eval_hierarchy.py
+index e97ede8..4f992d8 100644
+--- a/eval_hierarchy.py
++++ b/eval_hierarchy.py
+@@ -21,7 +21,9 @@ from utils.general_utils import safe_state
+ import uuid
+ from tqdm import tqdm
+ from torch.utils.data import DataLoader
++from torch.utils.data import Subset
+ from argparse import ArgumentParser, Namespace
++from official_selection_oracle_hooks import OracleCapture, selected_camera_index
+ from arguments import ModelParams, PipelineParams, OptimizationParams
+ from utils.general_utils import strip_symmetric, build_scaling_rotation
+ import math
+@@ -103,7 +105,8 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+         
+     gaussians.compact_gaussians(opt.storage_device, None,  False, False)
+ 
+-    gaussians.build_hierarchical_SPT(opt.SPT_root_volume, SPT_Target_Granularity, use_bounding_spheres=opt.use_bounding_spheres)
++    SPT_root_global_ids = gaussians.build_hierarchical_SPT(opt.SPT_root_volume, SPT_Target_Granularity, use_bounding_spheres=opt.use_bounding_spheres)
++    oracle_capture = OracleCapture.from_environment(gaussians=gaussians, scene=scene, optimization=opt, dataset=dataset, spt_root_global_ids=SPT_root_global_ids, base_focal_length=base_focal_length, target_granularity=SPT_Target_Granularity)
+     print(f"Built {len(gaussians.SPT_starts)} SPTs")
+ 
+     bg_color = [1, 1, 1] if dataset.white_background else [0, 0, 0]
+@@ -128,7 +131,11 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+                                                     max_steps=opt.position_lr_max_steps)
+     if len(scene.getTestCameras()) == 0:
+         test_set = True
+-    training_generator = DataLoader(scene.getTestCameras() if test_set else scene.getTrainCameras(), num_workers = 8, prefetch_factor = 1, persistent_workers = True, collate_fn=direct_collate, shuffle=False)
++    camera_dataset = scene.getTestCameras() if test_set else scene.getTrainCameras()
++    oracle_camera_index = selected_camera_index()
++    if oracle_camera_index is not None:
++        camera_dataset = Subset(camera_dataset, [oracle_camera_index])
++    training_generator = DataLoader(camera_dataset, num_workers = 8, prefetch_factor = 1, persistent_workers = True, collate_fn=direct_collate, shuffle=False)
+     psnrs = 0.0
+     ssims = 0.0
+     lpipss = 0.0
+@@ -156,6 +163,8 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+             #viewpoint_cam.projection_matrix = viewpoint_cam.projection_matrix.cuda()
+             viewpoint_cam.full_proj_transform = viewpoint_cam.full_proj_transform.cuda()
+             viewpoint_cam.camera_center = viewpoint_cam.camera_center.cuda()
++            if oracle_capture is not None:
++                oracle_capture.record_camera(viewpoint_cam)
+             ############# SPT Cache
+             if opt.use_bounding_spheres:
+                 bounds = gaussians.bounding_sphere_radii
+@@ -178,6 +187,20 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+             upper_tree_nodes_to_render = gaussians.upper_tree_nodes[coarse_cut][gaussians.upper_tree_nodes[coarse_cut, 3] <= 0, 5]
+             SPT_upper_tree_indices = cut_leaf_nodes[gaussians.upper_tree_nodes[cut_leaf_nodes, 3] >= 0]
+             SPT_distances = (gaussians.upper_tree_xyz[SPT_upper_tree_indices] - camera_position).pow(2).sum(1).sqrt() * distance_multiplier
++
++            if oracle_capture is not None:
++                oracle_capture.record_upper_traversal(
++                    camera=viewpoint_cam,
++                    frustum_planes=planes,
++                    scale_derived_bounds=bounds,
++                    coarse_cut_upper_local_ids=coarse_cut,
++                    cut_leaf_upper_local_ids=cut_leaf_nodes,
++                    candidate_spt_ids=SPT_indices,
++                    candidate_spt_upper_local_ids=SPT_upper_tree_indices,
++                    candidate_spt_distances=SPT_distances,
++                    upper_render_global_ids=upper_tree_nodes_to_render,
++                    distance_multiplier=distance_multiplier,
++                )
+             
+             
+             # Keep all the gaussians that are contained in an STP that is reused and close enough
+@@ -193,9 +216,13 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+                 #LOAD SPT CUT
+                 #load_SPT_distances = torch.full((len(load_SPT_indices),), 10000.0).cuda()
+                 load_SPT_gaussian_indices, load_SPT_starts = get_spt_cut_cuda(len(load_SPT_indices), gaussians.SPT_gaussian_indices, gaussians.SPT_starts, gaussians.SPT_max, gaussians.SPT_min, load_SPT_indices, load_SPT_distances)
++                raw_cuda_spt_global_ids = load_SPT_gaussian_indices.clone()
++                raw_cuda_spt_prefix_starts = load_SPT_starts.clone()
+             else:
+                 print("No SPTs loaded")
+                 load_SPT_gaussian_indices, load_SPT_starts = torch.empty(0, dtype=torch.int32, device='cuda'), torch.empty(0, dtype=torch.int32, device='cuda')
++                raw_cuda_spt_global_ids = load_SPT_gaussian_indices.clone()
++                raw_cuda_spt_prefix_starts = load_SPT_starts.clone()
+             if len(load_SPT_starts) > 0:    
+                 if len(load_SPT_gaussian_indices) == load_SPT_starts[-1]:
+                     print("Last SPT empty")
+@@ -204,6 +231,16 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+                     load_SPT_indices = load_SPT_indices[:-1]
+             #    
+             ### BAND AID FIX
++            if oracle_capture is not None:
++                oracle_capture.record_spt_cut(
++                    candidate_spt_ids=SPT_indices,
++                    candidate_spt_distances=SPT_distances,
++                    raw_cuda_spt_global_ids=raw_cuda_spt_global_ids,
++                    raw_cuda_spt_prefix_starts=raw_cuda_spt_prefix_starts,
++                    post_adjust_spt_ids=load_SPT_indices,
++                    post_adjust_spt_distances=load_SPT_distances,
++                    upper_render_global_ids=upper_tree_nodes_to_render,
++                )
+             
+             load_from_disk_indices = torch.cat((upper_tree_nodes_to_render, load_SPT_gaussian_indices))
+             load_from_disk_indices = load_from_disk_indices.to(opt.storage_device)
+@@ -219,6 +256,16 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+             features_dc = nn.Parameter(torch.cat((features_dc[:gaussians.skybox_points], load_tensor[:, features1:features2].cuda(non_blocking=non_blocking).unsqueeze(1))).contiguous())
+             features_rest = nn.Parameter(torch.cat((features_rest[:gaussians.skybox_points], load_tensor[:, features_rest1:features_rest2].cuda(non_blocking=non_blocking).reshape(len(load_tensor), SH_properties_single, 3))).contiguous())
+             torch.cuda.empty_cache()
++            if oracle_capture is not None:
++                oracle_capture.record_working_set(
++                    load_from_disk_global_ids=load_from_disk_indices,
++                    means=means3D,
++                    opacity_logits=opacity,
++                    log_scales=scales,
++                    raw_quaternions=rotations,
++                    features_dc=features_dc,
++                    features_rest=features_rest,
++                )
+                 
+                 
+             
+@@ -236,10 +283,14 @@ def render(dataset, opt:OptimizationParams, pipe,   replay=False, cam_path_id=0,
+                 background,
+                 override_color = None, 
+                 sh_degree = gaussians.active_sh_degree,
++                oracle_capture=oracle_capture,
+                 )
+             torch.cuda.empty_cache()
+             
+             image = render_pkg["render"]
++            if oracle_capture is not None:
++                oracle_capture.record_render(image)
++                return
+             gt_image = viewpoint_cam.original_image.cuda()
+             
+             if viewpoint_cam.alpha_mask is not None:
+diff --git a/gaussian_renderer/__init__.py b/gaussian_renderer/__init__.py
+index 0faaa17..93d57ac 100644
+--- a/gaussian_renderer/__init__.py
++++ b/gaussian_renderer/__init__.py
+@@ -48,7 +48,7 @@ def render_gsplat(viewpoint_camera,
+         opacity,
+         scales, 
+         rotations,
+-        dc, shs,   pipe, bg_color : torch.Tensor, sh_degree=3, scaling_modifier = 1.0, override_color = None, use_trained_exp=False, anti_aliasing=True,gaussians=None, use_depth=False):
++        dc, shs,   pipe, bg_color : torch.Tensor, sh_degree=3, scaling_modifier = 1.0, override_color = None, use_trained_exp=False, anti_aliasing=True,gaussians=None, use_depth=False, oracle_capture=None):
+     W = int(viewpoint_camera.image_width)
+     H = int(viewpoint_camera.image_height)
+ 
+@@ -88,6 +88,24 @@ def render_gsplat(viewpoint_camera,
+         colors_gsp = torch.cat([dc, shs], dim=1) 
+         sh_degree_gsp = sh_degree
+ 
++    # Optional observational oracle hook. It only copies/hashes existing inputs.
++    if oracle_capture is not None:
++        oracle_capture.record_pre_raster(
++            means=means3D,
++            quaternions=rotations,
++            scales=scales,
++            opacities=opacities_gsp,
++            colors=colors_gsp,
++            view_matrices=viewmat,
++            intrinsics=K,
++            width=W,
++            height=H,
++            background=bg,
++            sh_degree=sh_degree_gsp,
++            render_mode="RGB",
++            packed=True,
++        )
++
+     # ---------------------------------------------------------------------------
+     # 3. Render using gsplat
+     # ---------------------------------------------------------------------------
+@@ -346,4 +364,3 @@ def render_on_disk(
+             "seen" : seen}
+ 
+ 
+-

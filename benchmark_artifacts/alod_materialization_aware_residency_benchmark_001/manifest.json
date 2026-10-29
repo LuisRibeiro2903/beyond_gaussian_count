@@ -1,0 +1,112 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "campaign_id": "ALOD-MATERIALIZATION-AWARE-RESIDENCY-BENCHMARK-001",
+  "run_policy": {
+    "measured_frames_per_configuration": 300,
+    "measured_frames_per_process": 100,
+    "processes": 12,
+    "replicates_per_configuration": 3,
+    "total_measured_frames": 1200,
+    "warmup_frames_per_process": 10
+  },
+  "run_provenance": [
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "e9905abf30c9a67549de872cc284321d7042f8245228e17723edaaf9ccf85c52",
+      "replicate": 1,
+      "summary_sha256": "2ad3a83b352ec4f7ac883fabfa90471f71f0f2cd196fac5053ba0a4085fd65fe",
+      "warmup_sha256": "25313e697e11868a6c83cc168681e973c3a7062954a9abc8bd9d8226f745e379"
+    },
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "2cab0187061c843c017cb05f7729dcaaf6e294c368cda0ff1808785d26f78b46",
+      "replicate": 2,
+      "summary_sha256": "26052fe32b30516a9b469e2ed564d60e384a1c7d60fc156be8838fd9f9d151b0",
+      "warmup_sha256": "0978a961e230139f6db3b8f993ed7036015d7cd839303e1a2b01a205c6d03500"
+    },
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "9d50a8fb3905dc45930e635ba7703100330ee6f91a610c48ce8f53dee1be8189",
+      "replicate": 3,
+      "summary_sha256": "9c40d28c4f410fd0a5ffd293b49a488653a7475c6a513842a7d20e2eac569034",
+      "warmup_sha256": "e631223da18d35d6dfc68cef887d543e06bc707a756c9e29bf2b8da7e996e28c"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "7d170518a81c86d45bdbb89e3ef806c814c428d9b8115331fb496c9985918711",
+      "replicate": 1,
+      "summary_sha256": "b6e7e044868ca68b023baaf2d1f82b47ade5a62dc27cfe0728813ad21ea36c09",
+      "warmup_sha256": "1c9148448b23f3fb5926dbb1d57dd86e90af412407de373edeeb806f0eda423e"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "8ce986ba3bc970ad17462024a2fa48588df0f12a4b66cd66a26e6742fd2eed0d",
+      "replicate": 2,
+      "summary_sha256": "8839c7a3d291b8c0be6f40af939c33fea90a5f94828f994a82c3177002b66875",
+      "warmup_sha256": "1ac9136c0ee99dd6f48cce95b81c90b4547fb0d5d4229f275c27ba6de00bb46b"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "b6f91d8bd1dfbd4f5e378e66a7786b38ed8ba54b2055f5357dea480f04d04694",
+      "replicate": 3,
+      "summary_sha256": "19cc84edeaf20a43eed82465a612c3755277b7d25fd10fd9058460a958693aab",
+      "warmup_sha256": "099407338d881b8048b97acee9432a78c86f8ddc3055570a87bef8a57685d25f"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "4835749549bcbdb541f757c4be5282ebcb61bd1f88b7aa02545f17de352a674e",
+      "replicate": 1,
+      "summary_sha256": "4762203a6d9c89a89b377a75dd9b4137f89d40300ad1ecfbb98fd1986f888b06",
+      "warmup_sha256": "014aef982aba5b728b2d051fb7b03371576d44420c4fcfbf966a8c6e01544c6e"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "52e0feba30a57f11088665ca28fb6556e76bd6b45c00b96a60857d86fdf828bb",
+      "replicate": 2,
+      "summary_sha256": "02342c10145ea32533a7efecdddeca0136e794cbaa0c29942bc84cd0fa6dde33",
+      "warmup_sha256": "68a0155de60fb9ef391d5dcf0b84b33db947fe938ad667e9b701916b78da53e1"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "a829a323824eb7c8432226d8d183cdd9d06465a4544f980586854c5d0f2ea91c",
+      "replicate": 3,
+      "summary_sha256": "394d9489e72368cad0bfc9711332c3fb10cc438c7d643ea6c8eef048a23e309a",
+      "warmup_sha256": "efb5b89111ae7fee0535d565b1657f19633d80ac1bae96f1286b65f9948999fb"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "62a63cb3372e8fa0861ca8ddaf920c8b8f14db4d216c1c42e25929015afee1a3",
+      "replicate": 1,
+      "summary_sha256": "34c531834106abb8ff3ebbecf8304f1644c98615f6f463c4937bc3e59f087a1b",
+      "warmup_sha256": "f04dbe9e9de4c8256584c217c147d86867eaad8c7a91bfa99889e2426f33d74c"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "fe5c4e582170752e2b073352db2e018adb4342c8c63b31836bb4d8b1e330dfdf",
+      "replicate": 2,
+      "summary_sha256": "1cf0374ecbc59a15f08a67424a1163003768b1bab7f9f5514b36d9ed8c04a387",
+      "warmup_sha256": "1af35c209101064ec8664924ff5c9b39fb6fae47054702477965e65166190c96"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "e147f184338d26871fbadd8775589aa8d46f58c2cb17fc3b50b900b2ad55fd13",
+      "replicate": 3,
+      "summary_sha256": "abd13d08aeee06752c525b62afc9874bcb9184c9e26437f829449463f518dace",
+      "warmup_sha256": "c6fb4951c88248a8a97c3cf3afe5b311870b2b8c5dba656bd528d58c7a4a2d25"
+    }
+  ],
+  "schema_version": 1,
+  "status": "PASS-ALOD-MATERIALIZATION-AWARE-BENCHMARK",
+  "trajectory": {
+    "camera_count": 10,
+    "id": "alod_run005_frozen_evaluation_v1",
+    "resolution": [
+      960,
+      540
+    ],
+    "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d"
+  }
+}

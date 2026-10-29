@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "status": "PASS-SYNTH-OFFICIAL-FRESH-PROCESS-DETERMINISM",
+  "repeat_count": 2,
+  "camera_count": 25,
+  "repeat_01": {
+    "summary": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/official-performance/official_summary.json",
+    "summary_sha256": "67e2d997d1bbcf551d7320faa61990dc6e8806aef57d241e34b4eeb16fb03e0f"
+  },
+  "repeat_02": {
+    "summary": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/official-performance-repeat-02/official_summary.json",
+    "summary_sha256": "b86674bf444c392d17509950e2e3ac5b78e2c75764fb9a05b5e5bbc4297463e4"
+  },
+  "comparisons": {
+    "native_loader_metadata_exact": true,
+    "hspt_counts_exact": true,
+    "camera_order_exact": true,
+    "selected_row_counts_exact_all_cameras": true,
+    "selected_id_payload_sha256_exact_all_cameras": true,
+    "ordered_selected_ids_exact_all_cameras": true
+  },
+  "note": "Summary-file hashes differ because absolute output payload paths differ; every loader/HSPT value and every ordered selected-ID payload is exact."
+}

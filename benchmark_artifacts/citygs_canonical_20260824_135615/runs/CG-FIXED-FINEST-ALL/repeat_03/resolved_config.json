@@ -1,0 +1,137 @@
+{
+  "asset": {
+    "asset_role": "author_provided_citygaussian_finest_released_lod_ply",
+    "checkpoint_type": "gaussian_ply",
+    "file_size_bytes": 1917949848,
+    "identifier": "point_cloud.ply",
+    "path_resolved": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+    "path_supplied": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+    "ply_vertex_count": 11694810,
+    "training_source": "author-provided"
+  },
+  "camera_path": {
+    "camera_matrix_convention": "source camera_to_world is a Viser/nerfview export; runtime conversion flips camera Y/Z axes and multiplies translation by scale_ratio",
+    "conversion_required": true,
+    "coordinate_system": "scene-compatible after deterministic Viser export conversion",
+    "default_fov_degrees": 50.0,
+    "fps": 30.0,
+    "frame_count": 1440,
+    "interpolation_already_exists": true,
+    "is_cycle": false,
+    "keyframe_count": 25,
+    "projection": "vertical_fov_to_pinhole_intrinsics",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scale_ratio": 10.0,
+    "seconds": 48.0,
+    "source_file": "/home/luis/tese/.citygs_canonical_worktree/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+    "source_format": "viser_camera_path"
+  },
+  "configuration": {
+    "aabb": [
+      -3.5,
+      -4.0,
+      -10.0,
+      4.5,
+      2.0,
+      10.0
+    ],
+    "asset_env_var": "GS_FRAMEWORK_CG_FIXED_FINEST_ALL_ASSET",
+    "asset_role": "author_provided_citygaussian_finest_released_lod_ply",
+    "background": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "block_dim": [
+      6,
+      6,
+      1
+    ],
+    "camera_model": "pinhole",
+    "camera_path": "../camera_paths/citygaussian_23m_navigation_v1.json",
+    "checkpoint_type": "gaussian_ply",
+    "configuration_id": "CG-FIXED-FINEST-ALL",
+    "description": "Finest released CityGaussian V1 LoD PLY organized into official runtime cells with all cells active.",
+    "disabled_runtime_components": [
+      "pre_rasterization_visibility_selection",
+      "adaptive_lod",
+      "host_residency",
+      "gpu_cache",
+      "hierarchy",
+      "streaming",
+      "vq_reconstruction",
+      "custom_project_partition",
+      "flashgs"
+    ],
+    "eps2d": 0.3,
+    "far_plane": 10000000000.0,
+    "height": 1080,
+    "lod_source_level": "mc_aerial_c36_light_50_vq",
+    "mad_multiplier": 4.0,
+    "measured_frames": 1440,
+    "near_plane": 0.01,
+    "num_repeat": 1,
+    "output_policy": {
+      "write_frames_jsonl": true,
+      "write_images": false,
+      "write_resolved_config_json": true,
+      "write_summary_json": true
+    },
+    "packed": false,
+    "radius_clip": 0.0,
+    "rasterize_mode": "classic",
+    "record_kind_default": "benchmark_validation",
+    "render_mode": "RGB",
+    "repetition_index": 3,
+    "representation_type": "citygaussian_official_cells_all_active",
+    "scene_type": "citygaussian_fixed_all",
+    "sh_degree": 2,
+    "timing_policy": {
+      "cuda_events": true,
+      "cuda_synchronize": true,
+      "end_to_end_boundary": "synchronized prepare_frame plus synchronized GsplatRenderer.render call",
+      "first_frame_initialization_excluded_by_warmup": true
+    },
+    "training_source": "author-provided",
+    "trajectory_id": "citygaussian_23m_navigation_v1",
+    "trajectory_notes": "Manual Viser-export trajectory authored for the larger CityGaussian MatrixCity aerial asset.",
+    "trajectory_source": "results/camera_paths/realmc_aerial_nav_v1.json",
+    "warmup_frames": 1,
+    "width": 1920
+  },
+  "integrity": {
+    "adaptive_lod_used": false,
+    "all_loaded_gaussians_active": null,
+    "all_loaded_gaussians_active_expected": true,
+    "all_loaded_gaussians_resident_expected": true,
+    "block_manager_used": false,
+    "citygaussian_cell_construction_used": true,
+    "citygaussian_runtime_selection_used": false,
+    "citygaussian_visibility_selection_used": false,
+    "flat_scene_requested": false,
+    "gsplat_renderer_used": true,
+    "hierarchy_traversal_used": false,
+    "host_residency_used": false,
+    "lod_selection_used": false,
+    "paper_lod_policy_used": false,
+    "scene_type_citygaussian_fixed_all": true,
+    "scene_type_citygaussian_lod_release": false,
+    "scene_type_citygaussian_visibility": false,
+    "scene_type_flat": false,
+    "streaming_used": false,
+    "vq_reconstruction_used": false
+  },
+  "max_frames": 1440,
+  "num_repeat": 1,
+  "provenance": {
+    "configuration_sha256": "4aa740184adb1626b20e6bec43de0ecd3627c360a4b73e69177b49baacf107ea",
+    "trajectory_file_sha256": "c20ea29cfacd8331a808eec08840cf814d908de7e7e2f8715763b89d5e1605b9"
+  },
+  "record_kind": "formal_benchmark",
+  "repetition_index": 3,
+  "schema_version": 2,
+  "warmup_frames": 1
+}

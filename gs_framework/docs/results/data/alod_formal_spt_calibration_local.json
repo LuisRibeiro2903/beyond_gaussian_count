@@ -1,0 +1,598 @@
+{
+  "candidates": [
+    {
+      "SPT_count": 16,
+      "SPT_coverage": 0.9999359120290101,
+      "SPT_root_volume": 9.0,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 289622.375,
+        "median": 11313.0,
+        "minimum": 281,
+        "p10": 565.0,
+        "p90": 868922.0,
+        "p95": 1448204.0,
+        "p99": 2143342.3999999994
+      },
+      "below_or_equal_min_SPT_size_candidates": 6,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633958,
+      "headroom_rows": -917440,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9999324597115706,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861405184,
+      "required_reduced_cache_rows": 2517440,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.00030029300251044333,
+        "isolated_process_wall_seconds": 0.1563085179986956,
+        "source_structural_precompute_seconds": 0.15509741899950313
+      },
+      "upper_hierarchy_fraction": 6.754052161566422e-05,
+      "upper_hierarchy_rows": 313
+    },
+    {
+      "SPT_count": 19,
+      "SPT_coverage": 0.9999352646757678,
+      "SPT_root_volume": 8.0,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 243892.36842105264,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 282.6,
+        "p90": 695137.3999999996,
+        "p95": 1274419.3999999976,
+        "p99": 2108585.4800000004
+      },
+      "below_or_equal_min_SPT_size_candidates": 7,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633955,
+      "headroom_rows": -917446,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9999311650541164,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861270016,
+      "required_reduced_cache_rows": 2517446,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.00030335300107253715,
+        "isolated_process_wall_seconds": 0.16129020700100227,
+        "source_structural_precompute_seconds": 0.1600073190020339
+      },
+      "upper_hierarchy_fraction": 6.883522810030954e-05,
+      "upper_hierarchy_rows": 319
+    },
+    {
+      "SPT_count": 18,
+      "SPT_coverage": 0.9998746292554035,
+      "SPT_root_volume": 7.0,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 257426.33333333334,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 480.40000000000003,
+        "p90": 753065.6000000004,
+        "p95": 1332347.5999999982,
+        "p99": 2120171.1199999982
+      },
+      "below_or_equal_min_SPT_size_candidates": 11,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633674,
+      "headroom_rows": -917726,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.999870745637989,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861646848,
+      "required_reduced_cache_rows": 2517726,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0003142650020890869,
+        "isolated_process_wall_seconds": 0.1376816920019337,
+        "source_structural_precompute_seconds": 0.13628609200168285
+      },
+      "upper_hierarchy_fraction": 0.0001292548640504245,
+      "upper_hierarchy_rows": 599
+    },
+    {
+      "SPT_count": 19,
+      "SPT_coverage": 0.9998744134709894,
+      "SPT_root_volume": 6.5,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 243877.52631578947,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 508.6,
+        "p90": 695137.3999999996,
+        "p95": 1274419.3999999976,
+        "p99": 2108585.4800000004
+      },
+      "below_or_equal_min_SPT_size_candidates": 11,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633673,
+      "headroom_rows": -917728,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9998703140988211,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861564928,
+      "required_reduced_cache_rows": 2517728,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.000307171001622919,
+        "isolated_process_wall_seconds": 0.1415045209978416,
+        "source_structural_precompute_seconds": 0.14029309100078535
+      },
+      "upper_hierarchy_fraction": 0.0001296864328786396,
+      "upper_hierarchy_rows": 601
+    },
+    {
+      "SPT_count": 19,
+      "SPT_coverage": 0.9998744134709894,
+      "SPT_root_volume": 6.0,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 243877.52631578947,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 508.6,
+        "p90": 695137.3999999996,
+        "p95": 1274419.3999999976,
+        "p99": 2108585.4800000004
+      },
+      "below_or_equal_min_SPT_size_candidates": 12,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633673,
+      "headroom_rows": -917728,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9998703140988211,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861708288,
+      "required_reduced_cache_rows": 2517728,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.000414206999266753,
+        "isolated_process_wall_seconds": 0.13670915399779915,
+        "source_structural_precompute_seconds": 0.13532265100002405
+      },
+      "upper_hierarchy_fraction": 0.0001296864328786396,
+      "upper_hierarchy_rows": 601
+    },
+    {
+      "SPT_count": 19,
+      "SPT_coverage": 0.9998744134709894,
+      "SPT_root_volume": 5.75,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 243877.52631578947,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 508.6,
+        "p90": 695137.3999999996,
+        "p95": 1274419.3999999976,
+        "p99": 2108585.4800000004
+      },
+      "below_or_equal_min_SPT_size_candidates": 12,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633673,
+      "headroom_rows": -917728,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9998703140988211,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861720576,
+      "required_reduced_cache_rows": 2517728,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.00031663999834563583,
+        "isolated_process_wall_seconds": 0.17279896000036388,
+        "source_structural_precompute_seconds": 0.17151432700120495
+      },
+      "upper_hierarchy_fraction": 0.0001296864328786396,
+      "upper_hierarchy_rows": 601
+    },
+    {
+      "SPT_count": 20,
+      "SPT_coverage": 0.9998741976865753,
+      "SPT_root_volume": 5.5,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 231683.6,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 282.8,
+        "p90": 637209.2000000009,
+        "p95": 1216491.200000001,
+        "p99": 2096999.8399999985
+      },
+      "below_or_equal_min_SPT_size_candidates": 12,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633672,
+      "headroom_rows": -917730,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9998698825598394,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861827072,
+      "required_reduced_cache_rows": 2517730,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0003214839998690877,
+        "isolated_process_wall_seconds": 0.1651846079985262,
+        "source_structural_precompute_seconds": 0.1638278749996971
+      },
+      "upper_hierarchy_fraction": 0.0001301180017068547,
+      "upper_hierarchy_rows": 603
+    },
+    {
+      "SPT_count": 21,
+      "SPT_coverage": 0.9998739819021611,
+      "SPT_root_volume": 5.25,
+      "SPT_size": {
+        "maximum": 2317127,
+        "mean": 220651.0,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 283.0,
+        "p90": 579281.0,
+        "p95": 1158563.0,
+        "p99": 2085414.200000001
+      },
+      "below_or_equal_min_SPT_size_candidates": 12,
+      "cache_feasible": false,
+      "criteria": {
+        "cache_feasible_strict": false,
+        "comfortable_cache_headroom": false,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": false,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633671,
+      "headroom_rows": -917732,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.49999989210779294,
+      "official_print_coverage": 0.9998694510210441,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861368320,
+      "required_reduced_cache_rows": 2517732,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.00030861100094625726,
+        "isolated_process_wall_seconds": 0.14326812700164737,
+        "source_structural_precompute_seconds": 0.14200922999953036
+      },
+      "upper_hierarchy_fraction": 0.00013054957053506983,
+      "upper_hierarchy_rows": 605
+    },
+    {
+      "SPT_count": 22,
+      "SPT_coverage": 0.999873766117747,
+      "SPT_root_volume": 5.0,
+      "SPT_size": {
+        "maximum": 1158563,
+        "mean": 210621.36363636365,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 283.0,
+        "p90": 1100634.8000000012,
+        "p95": 1158563.0,
+        "p99": 1158563.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 13,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633670,
+      "headroom_rows": 240830,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.2499998381616894,
+      "official_print_coverage": 0.9998690194824349,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861765632,
+      "required_reduced_cache_rows": 1359170,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0003615059977164492,
+        "isolated_process_wall_seconds": 0.14228559999901336,
+        "source_structural_precompute_seconds": 0.14100088299892377
+      },
+      "upper_hierarchy_fraction": 0.00013098113936328492,
+      "upper_hierarchy_rows": 607
+    },
+    {
+      "SPT_count": 22,
+      "SPT_coverage": 0.9998129149129688,
+      "SPT_root_volume": 4.75,
+      "SPT_size": {
+        "maximum": 1158563,
+        "mean": 210608.54545454544,
+        "median": 4525.0,
+        "minimum": 281,
+        "p10": 311.20000000000005,
+        "p90": 1100634.8000000012,
+        "p95": 1158563.0,
+        "p99": 1158563.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 15,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633388,
+      "headroom_rows": 240548,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.2499998381616894,
+      "official_print_coverage": 0.9998081685665315,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861671424,
+      "required_reduced_cache_rows": 1359452,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.00031548100014333613,
+        "isolated_process_wall_seconds": 0.1378716670005815,
+        "source_structural_precompute_seconds": 0.13655833300072118
+      },
+      "upper_hierarchy_fraction": 0.000191832344141615,
+      "upper_hierarchy_rows": 889
+    },
+    {
+      "SPT_count": 22,
+      "SPT_coverage": 0.9997516321393622,
+      "SPT_root_volume": 4.5,
+      "SPT_size": {
+        "maximum": 1158563,
+        "mean": 210595.63636363635,
+        "median": 3394.0,
+        "minimum": 281,
+        "p10": 565.0,
+        "p90": 1100634.8000000012,
+        "p95": 1158563.0,
+        "p99": 1158563.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 17,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633104,
+      "headroom_rows": 240264,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.2499998381616894,
+      "official_print_coverage": 0.9997468860838487,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861876224,
+      "required_reduced_cache_rows": 1359736,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0003249359979236033,
+        "isolated_process_wall_seconds": 0.1401037350005936,
+        "source_structural_precompute_seconds": 0.1388511750010366
+      },
+      "upper_hierarchy_fraction": 0.00025311511774816017,
+      "upper_hierarchy_rows": 1173
+    },
+    {
+      "SPT_count": 25,
+      "SPT_coverage": 0.9997509847861199,
+      "SPT_root_volume": 4.0,
+      "SPT_size": {
+        "maximum": 1158563,
+        "mean": 185324.04,
+        "median": 2263.0,
+        "minimum": 281,
+        "p10": 283.0,
+        "p90": 926850.2000000009,
+        "p95": 1158563.0,
+        "p99": 1158563.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 19,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633101,
+      "headroom_rows": 240258,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.2499998381616894,
+      "official_print_coverage": 0.9997455915482016,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861691904,
+      "required_reduced_cache_rows": 1359742,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.000431404998380458,
+        "isolated_process_wall_seconds": 0.14054260299963062,
+        "source_structural_precompute_seconds": 0.1390120449977985
+      },
+      "upper_hierarchy_fraction": 0.00025440982423280547,
+      "upper_hierarchy_rows": 1179
+    },
+    {
+      "SPT_count": 27,
+      "SPT_coverage": 0.9997505532172917,
+      "SPT_root_volume": 3.5,
+      "SPT_size": {
+        "maximum": 1158563,
+        "mean": 171596.25925925927,
+        "median": 2263.0,
+        "minimum": 281,
+        "p10": 283.0,
+        "p90": 810993.8000000012,
+        "p95": 1158563.0,
+        "p99": 1158563.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 19,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4633099,
+      "headroom_rows": 240254,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.2499998381616894,
+      "official_print_coverage": 0.9997447285253681,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861663232,
+      "required_reduced_cache_rows": 1359746,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.000324562999594491,
+        "isolated_process_wall_seconds": 0.14192720200298936,
+        "source_structural_precompute_seconds": 0.14055408800049918
+      },
+      "upper_hierarchy_fraction": 0.0002552729618892357,
+      "upper_hierarchy_rows": 1183
+    }
+  ],
+  "hierarchy": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-002/output/scaffold/point_cloud/iteration_30000/hierarchy.dhier",
+    "rows": 4634255,
+    "sha256": "c1487170a0b1e53314b70df36bc5cc8aa0da4304c5a3d21b67e3ffc3dcecadf3"
+  },
+  "method": "source-faithful structural HSPT sweep; no training/cameras/rendering",
+  "official_source": {
+    "checkout_clean": true,
+    "commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "files": {
+      "/home/luis/tese/LoDOfGaussians/Docs/Hyperparameters.md": "cec03b731ee57de55b44344d768c291930f8fca37f340811d522e39f6004215a",
+      "/home/luis/tese/LoDOfGaussians/configs/MatrixCity.json": "c3db41104e1859baf675cb2d29e5bf81cf0e60ccde25bd1d5682a63b899388d5",
+      "/home/luis/tese/LoDOfGaussians/scene/gaussian_model.py": "f92239232c38b30c77d0c8dfcb462177ba4187eb78548411f9c60dab8ccbcae6",
+      "/home/luis/tese/LoDOfGaussians/train.py": "07eb139c5e5a7ac7e54a069dd201ca242ad210a9b12dec5c2e2530df4de78b52",
+      "/home/luis/tese/LoDOfGaussians/train_hierarchy.py": "6981b40cadeba89d13b5b5d69104158c8441196e31e9c105f8728ecdad64e38c"
+    }
+  },
+  "policy": {
+    "comfortable_headroom_fraction": 0.1,
+    "coverage_minimum": 0.95,
+    "max_overpartition_spts": 4525,
+    "min_spt_size": 256,
+    "nondegenerate_max_largest_fraction": 0.25,
+    "nondegenerate_min_spts": 16,
+    "overpartition_min_median_multiple": 4,
+    "reduced_cache_rows": 1600000,
+    "required_reduced_cache_rows_formula": "skybox_rows + upper_hierarchy_rows + maximum_complete_SPT_rows + reserve_rows",
+    "reserve_rows": 100000,
+    "selection_rule": "largest SPT_root_volume in a stable regime passing every criterion",
+    "skybox_rows": 100000,
+    "stability_rule": "selected candidate and immediate tested neighbors must each pass all non-stability criteria; adjacent SPT-count and maximum-size ratios must remain within [0.5, 2.0]",
+    "strict_cache_inequality": "required_reduced_cache_rows < reduced_cache_rows"
+  },
+  "scene_statistics": {
+    "bounding_box_diagonal": 43.096598744644,
+    "bounding_box_max": [
+      2.247859001159668,
+      7.537418842315674,
+      4.595996379852295
+    ],
+    "bounding_box_min": [
+      -9.529629707336426,
+      -4.344106197357178,
+      -35.12096405029297
+    ],
+    "bounding_box_side_lengths": [
+      11.777488708496094,
+      11.881525039672852,
+      39.716960430145264
+    ],
+    "bounding_box_volume": 5557.774071450086,
+    "hierarchy_position_component_max": 7.537418842315674,
+    "hierarchy_position_component_min": -35.12096405029297,
+    "root_activated_scale_volume": 53.10844802856445,
+    "root_position": [
+      -2.7335550785064697,
+      1.4789838790893555,
+      -3.2508745193481445
+    ]
+  },
+  "schema_version": 1
+}

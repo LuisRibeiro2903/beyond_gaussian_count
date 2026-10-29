@@ -1,0 +1,303 @@
+{
+  "camera_stable_id": "eval-0065-img-000651-cam-0002",
+  "checks": {
+    "camera_center": true,
+    "camera_id": true,
+    "effective_height": true,
+    "effective_width": true,
+    "evaluation_index": true,
+    "filename": true
+  },
+  "effective_official_runtime_camera": {
+    "FoVx_radians": 1.5707963705062866,
+    "FoVy_radians": 1.5707963705062866,
+    "camera_center_float32": [
+      -3.7770066261291504,
+      2.0569427013397217,
+      0.030000003054738045
+    ],
+    "camera_focal_length_field_original_pixels": 499.9999781443055,
+    "full_projection_transform": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 4.26328182220459,
+      "min": -0.9999999403953552,
+      "raw_cpu_c_order_sha256": "6dfb801f32d7d2e2f5b0d290f91f098702363226747ea90e754a2836fcd5299a",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          0.9335801005363464,
+          -9.728095307082185e-08,
+          0.3584045469760895,
+          0.3583686947822571
+        ],
+        [
+          -0.3583686649799347,
+          -9.478496210135745e-09,
+          0.9336735606193542,
+          0.9335801601409912
+        ],
+        [
+          -8.74227694680485e-08,
+          -0.9999999403953552,
+          -4.371576167727653e-08,
+          -4.371138828673793e-08
+        ],
+        [
+          4.26328182220459,
+          0.02999965101480484,
+          -0.5768176317214966,
+          -0.5667599439620972
+        ]
+      ]
+    },
+    "image_height": 500,
+    "image_width": 500,
+    "intrinsics": {
+      "cx": 250.0,
+      "cy": 250.0,
+      "fx": 249.99998907215274,
+      "fy": 249.99998907215274,
+      "matrix_float64_values": [
+        [
+          249.99998907215274,
+          0.0,
+          250.0
+        ],
+        [
+          0.0,
+          249.99998907215274,
+          250.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "projection_matrix": {
+      "byte_count": 64,
+      "device_during_official_execution": "cpu",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 1.000100016593933,
+      "min": -0.010001000016927719,
+      "raw_cpu_c_order_sha256": "f4282286b274e0fec48cd02a5fee2107d8340bfc6051f86172d3081466372680",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          0.9999999403953552,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.000100016593933,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.010001000016927719,
+          0.0
+        ]
+      ]
+    },
+    "world_view_transform": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 4.263282299041748,
+      "min": -1.0,
+      "raw_cpu_c_order_sha256": "5c0691fdaebe818b6da3b4c1a970c39c8a157fd62c93ae7a54994c1a215e11f1",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          0.9335801601409912,
+          -9.728096017624921e-08,
+          0.3583686947822571,
+          0.0
+        ],
+        [
+          -0.3583686947822571,
+          -9.478497098314165e-09,
+          0.9335801601409912,
+          0.0
+        ],
+        [
+          -8.742277657347586e-08,
+          -1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        [
+          4.263282299041748,
+          0.02999965287744999,
+          -0.5667599439620972,
+          1.0
+        ]
+      ]
+    }
+  },
+  "frozen_dataset_camera": {
+    "camera_center": [
+      -3.7770065307617187,
+      2.0569427490234373,
+      0.03
+    ],
+    "camera_id": 2,
+    "dataset_index": 650,
+    "effective_height": 500,
+    "effective_width": 500,
+    "evaluation_sequence_index": 65,
+    "formal_dataset_camera": {
+      "c2w_nerf": [
+        [
+          0.9335801371736174,
+          9.728096295817463e-08,
+          -0.3583687032580838,
+          -3.7770065307617187
+        ],
+        [
+          -0.35836870325808623,
+          9.478497162594903e-09,
+          -0.9335801371736215,
+          2.0569427490234373
+        ],
+        [
+          -8.742277800588007e-08,
+          0.9999999999999956,
+          4.3711389264247004e-08,
+          0.03
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_centre": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "colmap_world_to_camera_rotation": [
+        [
+          0.9335801371736174,
+          -0.35836870325808623,
+          -8.742277800588007e-08
+        ],
+        [
+          -9.728096295817463e-08,
+          -9.478497162594903e-09,
+          -0.9999999999999956
+        ],
+        [
+          0.3583687032580838,
+          0.9335801371736215,
+          -4.3711389264247004e-08
+        ]
+      ],
+      "colmap_world_to_camera_translation": [
+        4.26328218336051,
+        0.029999652065893462,
+        -0.5667599598538542
+      ],
+      "dataset_filename": "000650__street__test__0039.png",
+      "dataset_index": 650,
+      "distance_stratum": "street",
+      "image": {
+        "height": 1000,
+        "mode": "RGBA",
+        "relative_path": "images/000650__street__test__0039.png",
+        "sha256": "8440d39213a870254844dab0076b60c0ed8accf2f479bcf7c3118664dcd2c3c5",
+        "size_bytes": 1684185,
+        "source_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0039.png",
+        "width": 1000
+      },
+      "intrinsic_identity": "matrixcity-street-pinhole",
+      "intrinsics": {
+        "cx": 500.0,
+        "cy": 500.0,
+        "fl_x": 499.9999781443055,
+        "fl_y": 499.9999781443055,
+        "h": 1000.0,
+        "w": 1000.0
+      },
+      "modality": "street",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "pitch_degrees": -2.5044781214948104e-06,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "region_class": "central",
+      "registered_image_id": 651,
+      "source_file_path": "../street/test/0039.png",
+      "source_id": "matrixcity-small-city:street:test:../street/test/0039.png",
+      "source_index": 51,
+      "source_pose_file": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/pose/transforms_test.json",
+      "source_split": "test",
+      "split": "eval",
+      "yaw_degrees": 68.999953743066
+    },
+    "image_name": "000650__street__test__0039.png",
+    "registered_image_id": 651,
+    "selection_categories": {
+      "distance_stratum": "street",
+      "modality": "street",
+      "region_class": "central"
+    },
+    "selection_rationale": "frozen-eval-only deterministic farthest-point coverage in standardized position and viewing direction: aerial 3/2/3 near/mid/far; street 4/4 central/boundary",
+    "source_height": 1000,
+    "source_intrinsics": {
+      "cx": 500.0,
+      "cy": 500.0,
+      "fl_x": 499.9999781443055,
+      "fl_y": 499.9999781443055,
+      "h": 1000.0,
+      "w": 1000.0
+    },
+    "source_width": 1000,
+    "stable_sorted_index": 650
+  },
+  "identity": {
+    "camera_id": 2,
+    "evaluation_sequence_index": 65,
+    "filename": "000650__street__test__0039.png",
+    "registered_image_id": 651,
+    "stable_sorted_index": 650
+  },
+  "schema_version": "alod_selection_oracle_camera.v1",
+  "selection_categories": {
+    "distance_stratum": "street",
+    "modality": "street",
+    "region_class": "central"
+  },
+  "selection_rationale": "frozen-eval-only deterministic farthest-point coverage in standardized position and viewing direction: aerial 3/2/3 near/mid/far; street 4/4 central/boundary"
+}

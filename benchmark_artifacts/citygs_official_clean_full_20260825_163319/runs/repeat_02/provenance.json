@@ -1,0 +1,66 @@
+{
+  "assets": [
+    {
+      "path": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+      "sha256": "70e0401c629f98f13bb55f8f6dc8579a4ba5dffe686c638b090565aabcd974bb"
+    },
+    {
+      "path": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+      "sha256": "57904c2602a077f5593d236a0c72203b89456cf700060774c1184d307163c77a"
+    },
+    {
+      "path": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply",
+      "sha256": "7142e855e4367b352269a1de9e6b7f3a1ab98909099f6ad2ba4b272489fd0c0d"
+    }
+  ],
+  "command": [
+    "/home/luis/tese/CityGaussian_official_parity/official_parity_benchmark.py",
+    "--mode",
+    "lod",
+    "--trajectory",
+    "/home/luis/tese/gs_framework/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+    "--output-dir",
+    "/home/luis/tese/benchmark_artifacts/citygs_official_clean_full_20260825_163319/runs/repeat_02",
+    "--repeat",
+    "2",
+    "--finest",
+    "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+    "--middle",
+    "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+    "--coarsest",
+    "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply",
+    "--frames",
+    "all"
+  ],
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "cuda_capability": [
+    12,
+    0
+  ],
+  "cuda_device": "NVIDIA GeForce RTX 5080",
+  "cwd": "/home/luis/tese/CityGaussian_official_parity",
+  "diff_gaussian_rasterization_commit": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+  "driver_and_gpu": "Tue Aug 25 16:39:59 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 590.52.01              Driver Version: 591.74         CUDA Version: 13.1     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5080        On  |   00000000:01:00.0  On |                  N/A |\n| 30%   46C    P3             59W /  360W |   14799MiB /  16303MiB |      5%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            3941      C   /python3.10                           N/A      |\n+-----------------------------------------------------------------------------------------+",
+  "mode": "lod",
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2023 NVIDIA Corporation\nBuilt on Fri_Jan__6_16:45:21_PST_2023\nCuda compilation tools, release 12.0, V12.0.140\nBuild cuda_12.0.r12.0/compiler.32267302_0",
+  "official_commit": "e16c526f78ab01d377b13b3e6862dcc93ddbe953",
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:42:22) [GCC 14.3.0]",
+  "repeat": 2,
+  "simple_knn_commit": "44f764299fa305faf6ec5ebd99939e0508331503",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "trajectory": {
+    "conversion": "flip source camera Y/Z axes and multiply translation by scale_ratio",
+    "default_fov_degrees": 50.0,
+    "frame_count": 1440,
+    "matrix_semantics": "world_view=inverse(converted_c2w).T; projection=getProjectionMatrix(...).T; full=world_view@projection",
+    "path": "/home/luis/tese/gs_framework/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scale_ratio": 10.0,
+    "sha256": "c20ea29cfacd8331a808eec08840cf814d908de7e7e2f8715763b89d5e1605b9"
+  }
+}

@@ -1,0 +1,1160 @@
+{
+  "configurations": [
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 5.558062637676883,
+          "max": 12.013816246721479,
+          "mean_of_run_means": 11.289331321583854,
+          "min": 10.919511308603816,
+          "standard_deviation": 0.6274681062285061
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 5.477741445313491,
+          "max": 12.075692103475907,
+          "mean_of_run_means": 11.359577489831189,
+          "min": 10.950747924347423,
+          "standard_deviation": 0.622248284172985
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 5.01262030870885,
+          "max": 0.010195554166456431,
+          "mean_of_run_means": 0.009730606725539744,
+          "min": 0.009222858352586627,
+          "standard_deviation": 0.00048775836888499446
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 5.478704363225655,
+          "max": 12.06549654930945,
+          "mean_of_run_means": 11.34984688310565,
+          "min": 10.941525065994837,
+          "standard_deviation": 0.6218245564041404
+        }
+      },
+      "configuration_id": "CG-FINEST-FLAT",
+      "end_to_end_fps": 88.0314431496396,
+      "headline_between_run_std_ms": 0.622248284172985,
+      "headline_mean_end_to_end_frame_time_ms": 11.359577489831189,
+      "mean_active_gaussian_count": 11694810.0,
+      "mean_cuda_rasterization_time_ms": 11.289331321583854,
+      "mean_preparation_time_ms": 0.009730606725539744,
+      "mean_radii_visible_gaussian_count": 3017878.413888889,
+      "mean_render_call_time_ms": 11.34984688310565,
+      "mean_selected_gaussian_count": 11694810.0,
+      "post_transfer_allocated_bytes": 1777954304.0,
+      "render_peak_allocated_bytes": 3269417472.0,
+      "render_peak_reserved_bytes": 3508535296.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 82.8109885074129,
+          "repetition_index": 1,
+          "summary_sha256": "e6840b06a030b580aad2f34704bc3df1a38f0b93ffb776e73240e871b2dcf685",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 26.45894432067871,
+              "mean": 12.013816246721479,
+              "median": 11.027168273925781,
+              "min": 6.392672061920166,
+              "p95": 22.82900009155273,
+              "p99": 25.49192165374755
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 26.70333700007177,
+              "mean": 12.075692103475907,
+              "median": 11.053763500058267,
+              "min": 6.478852000327606,
+              "p95": 23.067809100120936,
+              "p99": 25.729026180106295
+            },
+            "preparation_time_ms": {
+              "max": 0.11920499946427299,
+              "mean": 0.010195554166456431,
+              "median": 0.009667000085755717,
+              "min": 0.007665000339329708,
+              "p95": 0.013712900499740496,
+              "p99": 0.018170580042351475
+            },
+            "render_call_time_ms": {
+              "max": 26.69220799998584,
+              "mean": 12.06549654930945,
+              "median": 11.041535999993357,
+              "min": 6.468933000178367,
+              "p95": 23.05497764987194,
+              "p99": 25.719291049745145
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 91.31796356819089,
+          "repetition_index": 2,
+          "summary_sha256": "585c936e0afe24ec1ba33d86215296e2b6d7890dde261c6d47c0690eba6a1d94",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 23.956127166748047,
+              "mean": 10.919511308603816,
+              "median": 10.056032180786133,
+              "min": 6.140448093414307,
+              "p95": 20.502973651885984,
+              "p99": 22.893818492889398
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 24.20256699952006,
+              "mean": 10.950747924347423,
+              "median": 10.054523500912182,
+              "min": 6.226556999536115,
+              "p95": 20.694998600629333,
+              "p99": 23.12981596025565
+            },
+            "preparation_time_ms": {
+              "max": 0.030101000447757542,
+              "mean": 0.009222858352586627,
+              "median": 0.008533999789506197,
+              "min": 0.0075619991548592225,
+              "p95": 0.011892199745489052,
+              "p99": 0.014699600524181728
+            },
+            "render_call_time_ms": {
+              "max": 24.193629000365036,
+              "mean": 10.941525065994837,
+              "median": 10.044773000117857,
+              "min": 6.216023999513709,
+              "p95": 20.68659715105241,
+              "p99": 23.12107395036946
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 90.47896671913242,
+          "repetition_index": 3,
+          "summary_sha256": "ea75f91dfb6e53b3a025e56e79477ec57c96ebc80a1b3cdcd7a923ae5b3ddaee",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 23.733247756958008,
+              "mean": 10.934666409426265,
+              "median": 10.041872024536133,
+              "min": 6.265247821807861,
+              "p95": 20.463368225097653,
+              "p99": 22.937787551879882
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 24.021261000598315,
+              "mean": 11.052292441670236,
+              "median": 10.134111000297708,
+              "min": 6.358240998451947,
+              "p95": 20.736860400938895,
+              "p99": 23.2078130310947
+            },
+            "preparation_time_ms": {
+              "max": 0.11439900117693469,
+              "mean": 0.009773407657576172,
+              "median": 0.008963500476966146,
+              "min": 0.007873999493313022,
+              "p95": 0.012550648807518881,
+              "p99": 0.015734190874354674
+            },
+            "render_call_time_ms": {
+              "max": 24.012801999560907,
+              "mean": 11.04251903401266,
+              "median": 10.12549549977848,
+              "min": 6.349807999868062,
+              "p95": 20.728425499873993,
+              "p99": 23.195926150947344
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 11694810.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 5.742863789018766,
+          "max": 12.104578544365035,
+          "mean_of_run_means": 11.351918035966378,
+          "min": 10.96405205461714,
+          "standard_deviation": 0.6519251902466034
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 5.82498743348146,
+          "max": 23.193793223612147,
+          "mean_of_run_means": 21.73275018380507,
+          "min": 20.962308636114813,
+          "standard_deviation": 1.2659299671565643
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 6.039404633665358,
+          "max": 11.059590570850888,
+          "mean_of_run_means": 10.338789108107205,
+          "min": 9.963864861789615,
+          "standard_deviation": 0.6244013084599159
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 5.6307974248373975,
+          "max": 12.134202652761259,
+          "mean_of_run_means": 11.393961075697867,
+          "min": 10.998443774325198,
+          "standard_deviation": 0.6415708668373709
+        }
+      },
+      "configuration_id": "CG-FIXED-FINEST-ALL",
+      "end_to_end_fps": 46.01350457454692,
+      "headline_between_run_std_ms": 1.2659299671565643,
+      "headline_mean_end_to_end_frame_time_ms": 21.73275018380507,
+      "mean_active_gaussian_count": 11694810.0,
+      "mean_cuda_rasterization_time_ms": 11.351918035966378,
+      "mean_preparation_time_ms": 10.338789108107205,
+      "mean_radii_visible_gaussian_count": 3017878.413888889,
+      "mean_render_call_time_ms": 11.393961075697867,
+      "mean_selected_gaussian_count": 11694810.0,
+      "post_transfer_allocated_bytes": 1966426112.0,
+      "render_peak_allocated_bytes": 5235372544.0,
+      "render_peak_reserved_bytes": 6496976896.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 43.11498297665096,
+          "repetition_index": 1,
+          "summary_sha256": "48413a90d5ecc9d53a3eba4004cb58f1313503eff52584aeee20cb7787bafa40",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 26.598880767822266,
+              "mean": 12.104578544365035,
+              "median": 11.106127738952637,
+              "min": 6.330912113189697,
+              "p95": 23.127387237548824,
+              "p99": 25.604723644256584
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 37.185928000326385,
+              "mean": 23.193793223612147,
+              "median": 22.26466000047367,
+              "min": 17.11055200030387,
+              "p95": 33.82029175090792,
+              "p99": 36.525934799465176
+            },
+            "preparation_time_ms": {
+              "max": 16.649279999910505,
+              "mean": 11.059590570850888,
+              "median": 11.018577499726234,
+              "min": 10.17081500049244,
+              "p95": 11.87194915037253,
+              "p99": 12.165664449648826
+            },
+            "render_call_time_ms": {
+              "max": 26.453339999534364,
+              "mean": 12.134202652761259,
+              "median": 11.172661999808042,
+              "min": 6.438333000005514,
+              "p95": 22.962638100216278,
+              "p99": 25.499867639809953
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 47.704669240350505,
+          "repetition_index": 2,
+          "summary_sha256": "12a9d4a21d47cf0dea0d5e25cc1ec1a2fe8be36eb15a96db6002b0697d6ec909",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 23.89148712158203,
+              "mean": 10.96405205461714,
+              "median": 10.062128067016602,
+              "min": 6.19974422454834,
+              "p95": 20.609792613983146,
+              "p99": 22.92588920593261
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 32.95577500102809,
+              "mean": 20.962308636114813,
+              "median": 20.056927500263555,
+              "min": 16.338163000909844,
+              "p95": 30.90683455175166,
+              "p99": 32.40616316013984
+            },
+            "preparation_time_ms": {
+              "max": 14.205634000973077,
+              "mean": 9.963864861789615,
+              "median": 10.010350500124332,
+              "min": 9.63845600017521,
+              "p95": 10.062676250436198,
+              "p99": 10.084517880677595
+            },
+            "render_call_time_ms": {
+              "max": 23.209748000226682,
+              "mean": 10.998443774325198,
+              "median": 10.100794499521726,
+              "min": 6.298641001194483,
+              "p95": 20.847320550728902,
+              "p99": 22.50878259003002
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 47.52366379746213,
+          "repetition_index": 3,
+          "summary_sha256": "61bfcc9d089a03f200df0706a94d72dc2c1cf5e0c24314b636482c629934045e",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 23.59267234802246,
+              "mean": 10.98712350891696,
+              "median": 10.123696327209473,
+              "min": 6.246208190917969,
+              "p95": 20.582595062255855,
+              "p99": 22.92141401290893
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 33.95574500063958,
+              "mean": 21.04214869168825,
+              "median": 20.042430001922185,
+              "min": 16.42516999891086,
+              "p95": 30.908202851878738,
+              "p99": 33.27571499934492
+            },
+            "preparation_time_ms": {
+              "max": 12.951766000696807,
+              "mean": 9.99291189168111,
+              "median": 10.03995300106908,
+              "min": 9.657906000938965,
+              "p95": 10.085855200031801,
+              "p99": 10.114828059431602
+            },
+            "render_call_time_ms": {
+              "max": 23.86669299994537,
+              "mean": 11.049236800007142,
+              "median": 10.13042150043475,
+              "min": 6.339724001009017,
+              "p95": 20.8230011514388,
+              "p99": 23.190472699516242
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 11694810.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 6.537099721533469,
+          "max": 11.412415787577629,
+          "mean_of_run_means": 10.611431581333832,
+          "min": 10.207780329386393,
+          "standard_deviation": 0.6936798643540885
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 6.440355814645912,
+          "max": 20.46513289583345,
+          "mean_of_run_means": 19.04862976179326,
+          "min": 18.327102230536084,
+          "standard_deviation": 1.226799534474024
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 6.231932378802467,
+          "max": 8.988786606259206,
+          "mean_of_run_means": 8.385550968745923,
+          "min": 8.070822815971546,
+          "standard_deviation": 0.5225818659622611
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 6.60513108089428,
+          "max": 11.476346289574243,
+          "mean_of_run_means": 10.663078793047337,
+          "min": 10.256279414564537,
+          "standard_deviation": 0.7043103315398163
+        }
+      },
+      "configuration_id": "CG-FIXED-FINEST-VISIBILITY",
+      "end_to_end_fps": 52.49721436686996,
+      "headline_between_run_std_ms": 1.226799534474024,
+      "headline_mean_end_to_end_frame_time_ms": 19.04862976179326,
+      "mean_active_gaussian_count": 5938382.209722222,
+      "mean_cuda_rasterization_time_ms": 10.611431581333832,
+      "mean_preparation_time_ms": 8.385550968745923,
+      "mean_radii_visible_gaussian_count": 3017472.9597222223,
+      "mean_render_call_time_ms": 10.663078793047337,
+      "mean_selected_gaussian_count": 5938382.209722222,
+      "post_transfer_allocated_bytes": 1966426112.0,
+      "render_peak_allocated_bytes": 5235581440.0,
+      "render_peak_reserved_bytes": 17202937856.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 48.863596688570375,
+          "repetition_index": 1,
+          "summary_sha256": "c3a7e938d7ea366271c706746d52e64a30deb10541332966103ff7009af0b2ec",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 89.21052551269531,
+              "mean": 11.412415787577629,
+              "median": 9.152160167694092,
+              "min": 4.354176044464111,
+              "p95": 21.783399009704585,
+              "p99": 77.73746849060056
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 249.8869390001346,
+              "mean": 20.46513289583345,
+              "median": 16.885565500160737,
+              "min": 8.597587000622298,
+              "p95": 35.43395704941758,
+              "p99": 120.000004710373
+            },
+            "preparation_time_ms": {
+              "max": 193.7673749998794,
+              "mean": 8.988786606259206,
+              "median": 7.729150000159279,
+              "min": 3.790611000113131,
+              "p95": 13.385242249978546,
+              "p99": 41.98972060069536
+            },
+            "render_call_time_ms": {
+              "max": 89.60656700037362,
+              "mean": 11.476346289574243,
+              "median": 9.255523500087293,
+              "min": 4.340250000495871,
+              "p95": 21.87075854922113,
+              "p99": 78.12828875973534
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 54.56399966677924,
+          "repetition_index": 2,
+          "summary_sha256": "4cf8c553fe36e7bf5e53ccad092d81948c71f0a86aaa5f9716dae5321a931db5",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 86.5283203125,
+              "mean": 10.214098627037473,
+              "median": 8.468672275543213,
+              "min": 4.2742719650268555,
+              "p95": 20.473562908172607,
+              "p99": 56.60649314880371
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 149.94088099774672,
+              "mean": 18.327102230536084,
+              "median": 15.63923800131306,
+              "min": 8.674833999975817,
+              "p95": 32.59614184789825,
+              "p99": 88.38586855003086
+            },
+            "preparation_time_ms": {
+              "max": 94.37935299865785,
+              "mean": 8.070822815971546,
+              "median": 7.1282219996646745,
+              "min": 3.957508999519632,
+              "p95": 12.280178749915647,
+              "p99": 31.88522772994474
+            },
+            "render_call_time_ms": {
+              "max": 85.8496130003914,
+              "mean": 10.256279414564537,
+              "median": 8.562767000512395,
+              "min": 4.357535000963253,
+              "p95": 20.225520099756977,
+              "p99": 56.36031789090339
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 54.48506282925006,
+          "repetition_index": 3,
+          "summary_sha256": "ad5f231424894f790ad52d4651ca022e3fe54bbaadaf98d0abdfe68e71ea3abd",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 58.990814208984375,
+              "mean": 10.207780329386393,
+              "median": 8.488255977630615,
+              "min": 4.312543869018555,
+              "p95": 20.484801483154296,
+              "p99": 56.633620719909665
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 210.21185599965975,
+              "mean": 18.353654159010247,
+              "median": 15.440696500263584,
+              "min": 8.460521999950288,
+              "p95": 33.513634400151204,
+              "p99": 89.73957050922763
+            },
+            "preparation_time_ms": {
+              "max": 154.2367980000563,
+              "mean": 8.097043484007019,
+              "median": 7.101979999788455,
+              "min": 3.9665040003455942,
+              "p95": 12.397076350407586,
+              "p99": 32.30307312118384
+            },
+            "render_call_time_ms": {
+              "max": 59.434107000924996,
+              "mean": 10.25661067500323,
+              "median": 8.513814998877933,
+              "min": 4.315665999456542,
+              "p95": 20.604991850177612,
+              "p99": 57.04514389995893
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 11694810.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 4.32662583232624,
+          "max": 7.854152659409576,
+          "mean_of_run_means": 7.480434641462786,
+          "min": 7.29272411134508,
+          "standard_deviation": 0.3236504175678096
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 4.708914291177806,
+          "max": 16.52212909583126,
+          "mean_of_run_means": 15.673014274533948,
+          "min": 15.185691123621028,
+          "standard_deviation": 0.7380288090318666
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 4.999032201620366,
+          "max": 8.592756371505553,
+          "mean_of_run_means": 8.126181787490706,
+          "min": 7.851010225702895,
+          "standard_deviation": 0.4062304443188699
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 4.398494339876909,
+          "max": 7.929372724325706,
+          "mean_of_run_means": 7.546832487043242,
+          "min": 7.334680897918133,
+          "standard_deviation": 0.3319469997825888
+        }
+      },
+      "configuration_id": "CG-LOD-RELEASE",
+      "end_to_end_fps": 63.80393601917625,
+      "headline_between_run_std_ms": 0.7380288090318666,
+      "headline_mean_end_to_end_frame_time_ms": 15.673014274533948,
+      "mean_active_gaussian_count": 4214145.394444444,
+      "mean_cuda_rasterization_time_ms": 7.480434641462786,
+      "mean_preparation_time_ms": 8.126181787490706,
+      "mean_radii_visible_gaussian_count": 1975419.9868055556,
+      "mean_render_call_time_ms": 7.546832487043242,
+      "mean_selected_gaussian_count": 4214145.394444444,
+      "post_transfer_allocated_bytes": 4286784000.0,
+      "render_peak_allocated_bytes": 6194429440.0,
+      "render_peak_reserved_bytes": 6419382272.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 60.52488721034824,
+          "repetition_index": 1,
+          "summary_sha256": "650acc5a4f3fdb27d319294257ad6e80dbde66997a4303724668cabde4694fdc",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 15.636287689208984,
+              "mean": 7.854152659409576,
+              "median": 7.703023910522461,
+              "min": 2.8134400844573975,
+              "p95": 13.784935903549194,
+              "p99": 14.999153909683228
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 28.18084600039583,
+              "mean": 16.52212909583126,
+              "median": 16.106032500374567,
+              "min": 9.456730000238167,
+              "p95": 25.380639500235702,
+              "p99": 27.024715339921382
+            },
+            "preparation_time_ms": {
+              "max": 17.15016199977981,
+              "mean": 8.592756371505553,
+              "median": 8.369599000161543,
+              "min": 4.953087000103551,
+              "p95": 11.717673400016793,
+              "p99": 12.701569630198717
+            },
+            "render_call_time_ms": {
+              "max": 15.810400000191294,
+              "mean": 7.929372724325706,
+              "median": 7.777061499837146,
+              "min": 2.9401470001175767,
+              "p95": 13.846953550773833,
+              "p99": 15.13238742003523
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 65.31157085581042,
+          "repetition_index": 2,
+          "summary_sha256": "61319d6a7ada1c476aa25bd2c7cf6503ae883495e16eb68863faa451b1cb888c",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 14.737407684326172,
+              "mean": 7.29272411134508,
+              "median": 7.14083194732666,
+              "min": 2.8172800540924072,
+              "p95": 12.743335580825802,
+              "p99": 13.9120371723175
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 26.576999000099022,
+              "mean": 15.311222604149558,
+              "median": 14.900255499924242,
+              "min": 9.29735099998652,
+              "p95": 23.532735699336627,
+              "p99": 25.232584031145958
+            },
+            "preparation_time_ms": {
+              "max": 15.370872999483254,
+              "mean": 7.9347787652636725,
+              "median": 7.770850000270002,
+              "min": 4.931773999487632,
+              "p95": 10.89269155081638,
+              "p99": 11.559189529871215
+            },
+            "render_call_time_ms": {
+              "max": 14.94255200123007,
+              "mean": 7.376443838885886,
+              "median": 7.219844999781344,
+              "min": 2.8784860005544033,
+              "p95": 12.901041050190543,
+              "p99": 14.042721099394837
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 65.85146450427408,
+          "repetition_index": 3,
+          "summary_sha256": "bf70edabc2efc45c2ebd9bccb41f8c2dbda85ac5adf41c118f9c5adeac39a75d",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 14.368800163269043,
+              "mean": 7.2944271536337,
+              "median": 7.132751941680908,
+              "min": 2.79913592338562,
+              "p95": 12.774299144744873,
+              "p99": 13.897966737747192
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 27.391775000069174,
+              "mean": 15.185691123621028,
+              "median": 14.823676001469721,
+              "min": 9.016444999360829,
+              "p95": 23.651395099750516,
+              "p99": 25.127090979476634
+            },
+            "preparation_time_ms": {
+              "max": 15.774673998748767,
+              "mean": 7.851010225702895,
+              "median": 7.671205000406189,
+              "min": 4.777381000167225,
+              "p95": 10.785172300074917,
+              "p99": 11.749423141209258
+            },
+            "render_call_time_ms": {
+              "max": 14.411561000088113,
+              "mean": 7.334680897918133,
+              "median": 7.218181500320497,
+              "min": 2.804006000587833,
+              "p95": 12.799573298980249,
+              "p99": 13.94941347904023
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 25494686.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 4.382936273524942,
+          "max": 19.36638880107138,
+          "mean_of_run_means": 18.433761038603606,
+          "min": 17.946925590435665,
+          "standard_deviation": 0.8079399991358657
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 4.41253865918379,
+          "max": 19.444063660444677,
+          "mean_of_run_means": 18.501715440523487,
+          "min": 18.008490571542602,
+          "standard_deviation": 0.8163953464252753
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 2.1314823908337717,
+          "max": 0.010967671527674206,
+          "mean_of_run_means": 0.010704233112914222,
+          "min": 0.010569943057387517,
+          "standard_deviation": 0.00022815884387556432
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 4.415693203092259,
+          "max": 19.43349371738729,
+          "mean_of_run_means": 18.491011207410576,
+          "min": 17.997915486788923,
+          "standard_deviation": 0.8165063250686566
+        }
+      },
+      "configuration_id": "FLAT-CITYGS-FULL",
+      "end_to_end_fps": 54.04904227473656,
+      "headline_between_run_std_ms": 0.8163953464252753,
+      "headline_mean_end_to_end_frame_time_ms": 18.501715440523487,
+      "mean_active_gaussian_count": 23389621.0,
+      "mean_cuda_rasterization_time_ms": 18.433761038603606,
+      "mean_preparation_time_ms": 0.010704233112914222,
+      "mean_radii_visible_gaussian_count": 5273123.622916667,
+      "mean_render_call_time_ms": 18.491011207410576,
+      "mean_selected_gaussian_count": 23389621.0,
+      "post_transfer_allocated_bytes": 5521449984.0,
+      "render_peak_allocated_bytes": 8165928448.0,
+      "render_peak_reserved_bytes": 10206838784.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 51.42957858311859,
+          "repetition_index": 1,
+          "summary_sha256": "617c1f92107ac0a21d2cdd3fe7363c5ccf385a7b2ee83b7802a23e3efe0f5fdc",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 45.6739501953125,
+              "mean": 19.36638880107138,
+              "median": 17.05398464202881,
+              "min": 10.502880096435547,
+              "p95": 38.26051139831542,
+              "p99": 44.37729331970214
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 46.10860100001446,
+              "mean": 19.444063660444677,
+              "median": 17.067758499706542,
+              "min": 10.570618000201648,
+              "p95": 38.614359999974106,
+              "p99": 44.81249790012952
+            },
+            "preparation_time_ms": {
+              "max": 0.07559299956483301,
+              "mean": 0.010569943057387517,
+              "median": 0.01011199992717593,
+              "min": 0.007720999747107271,
+              "p95": 0.014561849729943786,
+              "p99": 0.01944276954418449
+            },
+            "render_call_time_ms": {
+              "max": 46.098003999759385,
+              "mean": 19.43349371738729,
+              "median": 17.05765499991685,
+              "min": 10.559450000073412,
+              "p95": 38.606015850018586,
+              "p99": 44.80302421994565
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 55.39370717721063,
+          "repetition_index": 2,
+          "summary_sha256": "7095dd267eb9fcebd16476b4c25a7da956919f16382dfa5a62d07780f26f4880",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 42.97987365722656,
+              "mean": 17.987968724303776,
+              "median": 15.872367858886719,
+              "min": 9.973535537719727,
+              "p95": 35.44871978759765,
+              "p99": 40.90733226776123
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 43.485570000484586,
+              "mean": 18.052592089583186,
+              "median": 15.77745499980665,
+              "min": 10.052760999315069,
+              "p95": 35.818184049776384,
+              "p99": 41.32167467005274
+            },
+            "preparation_time_ms": {
+              "max": 0.10733100043580635,
+              "mean": 0.010967671527674206,
+              "median": 0.010055499842565041,
+              "min": 0.007710000318184029,
+              "p95": 0.015583450249323505,
+              "p99": 0.02379046018177175
+            },
+            "render_call_time_ms": {
+              "max": 43.47295300067344,
+              "mean": 18.041624418055513,
+              "median": 15.767844999572844,
+              "min": 10.043689999292837,
+              "p95": 35.80781449968526,
+              "p99": 41.30620627016469
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 55.52936244308122,
+          "repetition_index": 3,
+          "summary_sha256": "7bba9cd54ac965ca9663e54e6eaf2e0b3b7474463c0007da10de365ba0212951",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 42.196895599365234,
+              "mean": 17.946925590435665,
+              "median": 15.814543724060059,
+              "min": 9.983455657958984,
+              "p95": 35.218990707397445,
+              "p99": 40.58442546844482
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 42.541319999145344,
+              "mean": 18.008490571542602,
+              "median": 15.865358999690216,
+              "min": 9.939518000464886,
+              "p95": 35.46376614885956,
+              "p99": 40.917523921016254
+            },
+            "preparation_time_ms": {
+              "max": 0.06575899897143245,
+              "mean": 0.010575084753680939,
+              "median": 0.010178499906032812,
+              "min": 0.007938000635476783,
+              "p95": 0.014712550819240278,
+              "p99": 0.020985549708711908
+            },
+            "render_call_time_ms": {
+              "max": 42.532851999567356,
+              "mean": 17.997915486788923,
+              "median": 15.855954000471684,
+              "min": 9.929391000696342,
+              "p95": 35.45475279970559,
+              "p99": 40.908927770396986
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 23389621.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 4.477478777643524,
+          "max": 19.366853682200112,
+          "mean_of_run_means": 18.41481008684194,
+          "min": 17.932332441541885,
+          "standard_deviation": 0.8245192135817069
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 4.420070636736289,
+          "max": 48.060117468782614,
+          "mean_of_run_means": 45.726395821550256,
+          "min": 44.54191989585499,
+          "standard_deviation": 2.0211389949461522
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 4.35086640292823,
+          "max": 28.588007969460072,
+          "mean_of_run_means": 27.220518711821057,
+          "min": 26.526115066704076,
+          "standard_deviation": 1.1843284033354147
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 4.521864608300335,
+          "max": 19.472109499322542,
+          "mean_of_run_means": 18.5058771097292,
+          "min": 18.015804829150916,
+          "standard_deviation": 0.8368107074803978
+        }
+      },
+      "configuration_id": "CG-FUSED-CELLS-ALL",
+      "end_to_end_fps": 21.869206659159282,
+      "headline_between_run_std_ms": 2.0211389949461522,
+      "headline_mean_end_to_end_frame_time_ms": 45.726395821550256,
+      "mean_active_gaussian_count": 23389621.0,
+      "mean_cuda_rasterization_time_ms": 18.41481008684194,
+      "mean_preparation_time_ms": 27.220518711821057,
+      "mean_radii_visible_gaussian_count": 5273123.622916667,
+      "mean_render_call_time_ms": 18.5058771097292,
+      "mean_selected_gaussian_count": 23389621.0,
+      "post_transfer_allocated_bytes": 5895696896.0,
+      "render_peak_allocated_bytes": 14060127232.0,
+      "render_peak_reserved_bytes": 14703132672.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 20.80727332074352,
+          "repetition_index": 1,
+          "summary_sha256": "7a497bb02cbddc0f2477da36aabffca075916db2136f87d0acdf466c4dc4aaf1",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 45.27439880371094,
+              "mean": 19.366853682200112,
+              "median": 17.055376052856445,
+              "min": 10.3570556640625,
+              "p95": 38.36850643157958,
+              "p99": 44.17280570983887
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 74.74690900016867,
+              "mean": 48.060117468782614,
+              "median": 45.772358999784046,
+              "min": 37.603052001031756,
+              "p95": 67.63886059957258,
+              "p99": 73.41737687006571
+            },
+            "preparation_time_ms": {
+              "max": 30.131735999930243,
+              "mean": 28.588007969460072,
+              "median": 28.623046499888005,
+              "min": 26.254468999468372,
+              "p95": 29.306261150668433,
+              "p99": 29.611129279592205
+            },
+            "render_call_time_ms": {
+              "max": 45.69800399985979,
+              "mean": 19.472109499322542,
+              "median": 17.092329999741196,
+              "min": 10.111846000654623,
+              "p95": 38.78944130015042,
+              "p99": 44.664169350080556
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 22.43301776260714,
+          "repetition_index": 2,
+          "summary_sha256": "e6c1213322f4c67ce9f77cbf7dd48f0ccdfec8dd8c6a0555c36f186c8fc89889",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 42.19571304321289,
+              "mean": 17.945244136783813,
+              "median": 15.804304122924805,
+              "min": 9.968671798706055,
+              "p95": 35.382811927795395,
+              "p99": 40.78484077453613
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 69.41042200014635,
+              "mean": 44.577150100013164,
+              "median": 42.278812999938964,
+              "min": 35.37141199922189,
+              "p95": 62.930591650911076,
+              "p99": 68.06298820925804
+            },
+            "preparation_time_ms": {
+              "max": 42.25437700006296,
+              "mean": 26.547433099299017,
+              "median": 26.649087500118185,
+              "min": 25.66978899994865,
+              "p95": 26.781711548937892,
+              "p99": 26.85025860911992
+            },
+            "render_call_time_ms": {
+              "max": 42.636182999558514,
+              "mean": 18.029717000714147,
+              "median": 15.730010999504884,
+              "min": 9.69843600068998,
+              "p95": 35.72582299902932,
+              "p99": 41.22449589958705
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 22.450761043487457,
+          "repetition_index": 3,
+          "summary_sha256": "8245241e7b564f49b95ba46ee74613ee65ac6ecce163a30ddb67a8acb5fdabf5",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 41.92319869995117,
+              "mean": 17.932332441541885,
+              "median": 15.80126428604126,
+              "min": 9.979776382446289,
+              "p95": 35.47585182189941,
+              "p99": 40.651954040527336
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 69.14019800206006,
+              "mean": 44.54191989585499,
+              "median": 42.304236999370914,
+              "min": 35.360759999093716,
+              "p95": 62.5674356014315,
+              "p99": 67.89573980046042
+            },
+            "preparation_time_ms": {
+              "max": 27.09265500016045,
+              "mean": 26.526115066704076,
+              "median": 26.663943999665207,
+              "min": 25.66062799996871,
+              "p95": 26.78823469886993,
+              "p99": 26.8960486593096
+            },
+            "render_call_time_ms": {
+              "max": 42.3492410009203,
+              "mean": 18.015804829150916,
+              "median": 15.773706000800303,
+              "min": 9.700131999125006,
+              "p95": 35.80833580072067,
+              "p99": 41.06861035937981
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 23389621.0
+    },
+    {
+      "across_run": {
+        "cuda_rasterization_time_ms": {
+          "coefficient_of_variation_percent": 10.594632838180917,
+          "max": 41.63193646768729,
+          "mean_of_run_means": 37.34518605658301,
+          "min": 33.83345571425226,
+          "standard_deviation": 3.956585345430505
+        },
+        "end_to_end_frame_time_ms": {
+          "coefficient_of_variation_percent": 9.092665781224317,
+          "max": 69.44685710278249,
+          "mean_of_run_means": 62.9276314740522,
+          "min": 58.73863222427013,
+          "standard_deviation": 5.721799213976087
+        },
+        "preparation_time_ms": {
+          "coefficient_of_variation_percent": 7.602715427127082,
+          "max": 27.705533702776265,
+          "mean_of_run_means": 25.523805749985808,
+          "min": 23.990678731241943,
+          "standard_deviation": 1.9405023173441203
+        },
+        "render_call_time_ms": {
+          "coefficient_of_variation_percent": 10.691364852282495,
+          "max": 41.74132340000622,
+          "mean_of_run_means": 37.403825724066394,
+          "min": 33.863427408330914,
+          "standard_deviation": 3.9989794768718334
+        }
+      },
+      "configuration_id": "CG-FUSED-VISIBILITY",
+      "end_to_end_fps": 15.891270282631622,
+      "headline_between_run_std_ms": 5.721799213976087,
+      "headline_mean_end_to_end_frame_time_ms": 62.9276314740522,
+      "mean_active_gaussian_count": 11833959.113194445,
+      "mean_cuda_rasterization_time_ms": 37.34518605658301,
+      "mean_preparation_time_ms": 25.523805749985808,
+      "mean_radii_visible_gaussian_count": 5272427.586805556,
+      "mean_render_call_time_ms": 37.403825724066394,
+      "mean_selected_gaussian_count": 11833959.113194445,
+      "post_transfer_allocated_bytes": 5895696896.0,
+      "render_peak_allocated_bytes": 14060040704.0,
+      "render_peak_reserved_bytes": 30643585024.0,
+      "repetitions": [
+        {
+          "end_to_end_fps": 14.399499728547594,
+          "repetition_index": 1,
+          "summary_sha256": "f86905b843ca48da46afca968f08677fc54af3fbde4a1c451e7fa3799d519665",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 1212.771484375,
+              "mean": 41.63193646768729,
+              "median": 13.866896152496338,
+              "min": 6.399807929992676,
+              "p95": 196.32726211547842,
+              "p99": 504.99620208740225
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 3039.4890139987183,
+              "mean": 69.44685710278249,
+              "median": 29.802396499690076,
+              "min": 15.615246000379557,
+              "p95": 308.7672038502205,
+              "p99": 621.0795659402356
+            },
+            "preparation_time_ms": {
+              "max": 2796.4861659993403,
+              "mean": 27.705533702776265,
+              "median": 16.06048550002015,
+              "min": 8.616695999990043,
+              "p95": 105.27659669955938,
+              "p99": 110.91208955946966
+            },
+            "render_call_time_ms": {
+              "max": 1222.9778539995095,
+              "mean": 41.74132340000622,
+              "median": 13.838200000009238,
+              "min": 6.502200999420893,
+              "p95": 196.87800520005104,
+              "p99": 509.86457056983454
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 16.50235679944645,
+          "repetition_index": 2,
+          "summary_sha256": "5004d67dc1a12e95b1ce4508ead9f99599ac5da4f77f9b647b747d9e1c144d8a",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 1111.4632568359375,
+              "mean": 36.570165987809496,
+              "median": 12.749152183532715,
+              "min": 6.024831771850586,
+              "p95": 189.26466369628903,
+              "p99": 414.19849792480466
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 2799.505468001371,
+              "mean": 60.59740509510397,
+              "median": 27.78203600064444,
+              "min": 14.309571000922006,
+              "p95": 288.768466451711,
+              "p99": 519.33177533052
+            },
+            "preparation_time_ms": {
+              "max": 1704.7915860002831,
+              "mean": 23.990678731241943,
+              "median": 15.01523349998024,
+              "min": 8.043207000810071,
+              "p95": 101.0954941505588,
+              "p99": 107.00182345064603
+            },
+            "render_call_time_ms": {
+              "max": 1116.8445869989228,
+              "mean": 36.60672636386203,
+              "median": 12.782354999217205,
+              "min": 6.103182999140699,
+              "p95": 187.57979250049172,
+              "p99": 412.88799371001005
+            }
+          }
+        },
+        {
+          "end_to_end_fps": 17.024570748973137,
+          "repetition_index": 3,
+          "summary_sha256": "5fc0eeb985e906372a35e688dad6857c62251e7e83b78209664894eb1f4f2e66",
+          "timing": {
+            "cuda_rasterization_time_ms": {
+              "max": 1134.0750732421875,
+              "mean": 33.83345571425226,
+              "median": 12.746287822723389,
+              "min": 6.006591796875,
+              "p95": 184.85811004638666,
+              "p99": 342.2324099731445
+            },
+            "end_to_end_frame_time_ms": {
+              "max": 3542.694449000919,
+              "mean": 58.73863222427013,
+              "median": 27.77644150046399,
+              "min": 14.438306001466117,
+              "p95": 291.1691308997433,
+              "p99": 449.58212084151444
+            },
+            "preparation_time_ms": {
+              "max": 2399.607993000245,
+              "mean": 24.875204815939217,
+              "median": 14.952637499845878,
+              "min": 7.97818799946981,
+              "p95": 102.38419915049235,
+              "p99": 106.58708607128574
+            },
+            "render_call_time_ms": {
+              "max": 1143.086456000674,
+              "mean": 33.863427408330914,
+              "median": 12.775351499840326,
+              "min": 6.104882999352412,
+              "p95": 185.22277539977947,
+              "p99": 342.8947022804641
+            }
+          }
+        }
+      ],
+      "resident_gaussian_count": 23389621.0
+    }
+  ],
+  "schema_version": 2
+}

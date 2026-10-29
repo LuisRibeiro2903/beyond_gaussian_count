@@ -1,0 +1,712 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-PREV-US3D-SCIART-01/ALOD-PREV-US3D-SCIART-01-TRAIN-001/output/ALOD-PREV-US3D-SCIART-01-TRAIN-001.dhier",
+    "sha256": "acc49a863e022a6871391a224dfa01e2de24133a168c3e4498c2c8b83afa3010"
+  },
+  "camera_count": 21,
+  "camera_path": {
+    "path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+    "sha256": "b43b3d018a926497e73e0634775bcad7835a54cc0a4ea3e4b18fb790da509def"
+  },
+  "cameras": [
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0000-img-000001-cam-0001",
+      "camera_index": 0,
+      "camera_stable_id": "eval-0000-img-000001-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 868636,
+      "materialized_rows": 880951,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 851524,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2459214,
+      "semantic_rows": 2559214
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0001-img-000010-cam-0001",
+      "camera_index": 1,
+      "camera_stable_id": "eval-0001-img-000010-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 682025,
+      "materialized_rows": 684416,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 590888,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2462439,
+      "semantic_rows": 2562439
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0002-img-000006-cam-0001",
+      "camera_index": 2,
+      "camera_stable_id": "eval-0002-img-000006-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 425154,
+      "materialized_rows": 439727,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 418518,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2445758,
+      "semantic_rows": 2545758
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0003-img-000007-cam-0001",
+      "camera_index": 3,
+      "camera_stable_id": "eval-0003-img-000007-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 53455,
+      "materialized_rows": 67264,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 59326,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2425593,
+      "semantic_rows": 2525593
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0004-img-000009-cam-0001",
+      "camera_index": 4,
+      "camera_stable_id": "eval-0004-img-000009-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 152761,
+      "materialized_rows": 167599,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 153692,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2413401,
+      "semantic_rows": 2513401
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0005-img-000005-cam-0001",
+      "camera_index": 5,
+      "camera_stable_id": "eval-0005-img-000005-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1281630,
+      "materialized_rows": 1281832,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1251344,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2452952,
+      "semantic_rows": 2552952
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0006-img-000008-cam-0001",
+      "camera_index": 6,
+      "camera_stable_id": "eval-0006-img-000008-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1815040,
+      "materialized_rows": 1827559,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1797919,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2416952,
+      "semantic_rows": 2516952
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0007-img-000011-cam-0001",
+      "camera_index": 7,
+      "camera_stable_id": "eval-0007-img-000011-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1388868,
+      "materialized_rows": 1396918,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1314828,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2437349,
+      "semantic_rows": 2537349
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0008-img-000002-cam-0001",
+      "camera_index": 8,
+      "camera_stable_id": "eval-0008-img-000002-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 199135,
+      "materialized_rows": 214169,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 181752,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2433392,
+      "semantic_rows": 2533392
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0009-img-000003-cam-0001",
+      "camera_index": 9,
+      "camera_stable_id": "eval-0009-img-000003-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 134046,
+      "materialized_rows": 149214,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 126806,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2431662,
+      "semantic_rows": 2531662
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0010-img-000004-cam-0001",
+      "camera_index": 10,
+      "camera_stable_id": "eval-0010-img-000004-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1211902,
+      "materialized_rows": 1227272,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1195543,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2460888,
+      "semantic_rows": 2560888
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0011-img-000012-cam-0001",
+      "camera_index": 11,
+      "camera_stable_id": "eval-0011-img-000012-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 324156,
+      "materialized_rows": 338985,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 296337,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2454985,
+      "semantic_rows": 2554985
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0012-img-000013-cam-0001",
+      "camera_index": 12,
+      "camera_stable_id": "eval-0012-img-000013-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 560157,
+      "materialized_rows": 575210,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 521073,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2468291,
+      "semantic_rows": 2568291
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0013-img-000014-cam-0001",
+      "camera_index": 13,
+      "camera_stable_id": "eval-0013-img-000014-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 837985,
+      "materialized_rows": 852845,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 827812,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2456818,
+      "semantic_rows": 2556818
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0014-img-000015-cam-0001",
+      "camera_index": 14,
+      "camera_stable_id": "eval-0014-img-000015-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 251543,
+      "materialized_rows": 259297,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 243336,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2459205,
+      "semantic_rows": 2559205
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0015-img-000016-cam-0001",
+      "camera_index": 15,
+      "camera_stable_id": "eval-0015-img-000016-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 468038,
+      "materialized_rows": 483085,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 429360,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2437371,
+      "semantic_rows": 2537371
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0016-img-000018-cam-0001",
+      "camera_index": 16,
+      "camera_stable_id": "eval-0016-img-000018-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1528406,
+      "materialized_rows": 1543734,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1519112,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2434894,
+      "semantic_rows": 2534894
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0017-img-000019-cam-0001",
+      "camera_index": 17,
+      "camera_stable_id": "eval-0017-img-000019-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 705082,
+      "materialized_rows": 720556,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 698633,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2463809,
+      "semantic_rows": 2563809
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0018-img-000017-cam-0001",
+      "camera_index": 18,
+      "camera_stable_id": "eval-0018-img-000017-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 738809,
+      "materialized_rows": 747879,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 706414,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2471190,
+      "semantic_rows": 2571190
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0019-img-000020-cam-0001",
+      "camera_index": 19,
+      "camera_stable_id": "eval-0019-img-000020-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 1501364,
+      "materialized_rows": 1506034,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 1470416,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2472825,
+      "semantic_rows": 2572825
+    },
+    {
+      "alpha": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "camera_id": "eval-0020-img-000021-cam-0001",
+      "camera_index": 20,
+      "camera_stable_id": "eval-0020-img-000021-cam-0001",
+      "cpu_cuda_ordered_filter_ids_exact": true,
+      "false_negative_count": 0,
+      "materialized_hierarchy_rows": 730202,
+      "materialized_rows": 744933,
+      "official_semantic_ids_exact": true,
+      "packed_projection_survivors": 722465,
+      "packed_survivor_ids_exact": true,
+      "properties_bitwise_exact": {
+        "colors": true,
+        "global_node_ids": true,
+        "means": true,
+        "opacities": true,
+        "quats": true,
+        "scales": true
+      },
+      "rgb": {
+        "bitwise_equal": true,
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0
+      },
+      "semantic_hierarchy_rows": 2463332,
+      "semantic_rows": 2563332
+    }
+  ],
+  "campaign_id": "ALOD-EXT-PREVALENCE-ASSOCIATION-001",
+  "capacity": {
+    "bounded_capacity_rows": 2666887,
+    "chosen_before_timing": true,
+    "filtered_canonical_union_rows": 2524927,
+    "formula": "min(hierarchy_rows, ceil(filtered_canonical_union_rows * 3700000 / 3503048))",
+    "hierarchy_rows": 4974185,
+    "maximum_single_frame_hierarchy_rows": 1815040
+  },
+  "criteria": {
+    "alpha_bitwise_exact": true,
+    "conservative_filter_false_negatives": 0,
+    "cpu_cuda_filter_ids_and_order_exact": true,
+    "official_semantic_ids_and_order_exact": true,
+    "packed_projection_survivor_ids_and_order_exact": true,
+    "retained_properties_and_order_bitwise_exact": true,
+    "rgb_bitwise_exact": true
+  },
+  "dataset": "sciart",
+  "execution_id": "ALOD-EXT-PREVALENCE-SCIART-001",
+  "oracle_manifest": {
+    "path": "/home/luis/tese/runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/semantic-manifest.json",
+    "sha256": "5bf84d3ee1a6a1f88210ed6f0e260fcf9617bccc37b0eae9660d16c77ee55cac"
+  },
+  "schema_version": 1,
+  "stage_a_label": "VALID-WEAK-LOD",
+  "status": "PASS-ALOD-EXT-PREVALENCE-CORRECTNESS"
+}

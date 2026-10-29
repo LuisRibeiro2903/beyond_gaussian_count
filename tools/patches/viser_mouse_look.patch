@@ -1,0 +1,234 @@
+*** Begin Patch
+*** Update File: /home/luis/miniconda3/envs/nerfstudio2/lib/python3.12/site-packages/viser/_messages.py
+@@
+ class ViewerCameraMessage(Message):
+     """Message for a posed viewer camera.
+     Pose is in the form T_world_camera, OpenCV convention, +Z forward."""
+ 
+     wxyz: Tuple[float, float, float, float]
+@@
+     look_at: Tuple[float, float, float]
+     up_direction: Tuple[float, float, float]
+ 
+ 
++CameraControlMode = Literal["orbit", "first_person"]
++
++
++@dataclasses.dataclass
++class SetCameraControlModeMessage(Message):
++    """Server -> client message to set interactive camera control mode."""
++
++    mode: CameraControlMode
++
++    @override
++    def redundancy_key(self) -> str:
++        return type(self).__name__
++
++
+ # The list of scene pointer events supported by the viser frontend.
+ ScenePointerEventType = Literal["click", "rect-select"]
+*** Update File: /home/luis/miniconda3/envs/nerfstudio2/lib/python3.12/site-packages/viser/client/src/WebsocketMessages.tsx
+@@
+ export interface SetCameraFovMessage {
+   type: "SetCameraFovMessage";
+   fov: number;
+ }
++/** Server -> client message to set interactive camera control mode.
++ */
++export interface SetCameraControlModeMessage {
++  type: "SetCameraControlModeMessage";
++  mode: "orbit" | "first_person";
++}
+ /** Server -> client message to set a scene node's orientation.
+  *
+  * As with all other messages, transforms take the `T_parent_local` convention.
+@@
+   | SetCameraUpDirectionMessage
+   | SetCameraLookAtMessage
+   | SetCameraFovMessage
++  | SetCameraControlModeMessage
+   | SetOrientationMessage
+   | SetPositionMessage
+*** Update File: /home/luis/miniconda3/envs/nerfstudio2/lib/python3.12/site-packages/viser/client/src/MessageHandler.tsx
+@@
+       case "SetCameraFovMessage": {
+         const camera = viewer.cameraRef.current!;
+         // tan(fov / 2.0) = 0.5 * film height / focal length
+         // focal length = 0.5 * film height / tan(fov / 2.0)
+         camera.setFocalLength(
+           (0.5 * camera.getFilmHeight()) / Math.tan(message.fov / 2.0),
+         );
+         viewer.sendCameraRef.current !== null && viewer.sendCameraRef.current();
+         return;
+       }
++      case "SetCameraControlModeMessage": {
++        window.dispatchEvent(
++          new CustomEvent("viser-camera-control-mode", {
++            detail: message.mode,
++          }),
++        );
++        return;
++      }
+       case "SetOrientationMessage": {
+         const attr = viewer.nodeAttributesFromName.current;
+*** Update File: /home/luis/miniconda3/envs/nerfstudio2/lib/python3.12/site-packages/viser/client/src/CameraControls.tsx
+@@
+ import { computeT_threeworld_world } from "./WorldTransformUtils";
+ import { useThrottledMessageSender } from "./WebsocketFunctions";
+ 
++type CameraControlMode = "orbit" | "first_person";
++
++const CAMERA_ACTION_NONE = 0;
++const CAMERA_ACTION_ROTATE = 1;
++const FIRST_PERSON_LOOK_SENSITIVITY = 0.0025;
++const FIRST_PERSON_MIN_PITCH = -Math.PI / 2 + 1e-3;
++const FIRST_PERSON_MAX_PITCH = Math.PI / 2 - 1e-3;
++
+ export function SynchronizedCameraControls() {
+   const viewer = useContext(ViewerContext)!;
+   const camera = useThree((state) => state.camera as PerspectiveCamera);
++  const [controlMode, setControlMode] =
++    React.useState<CameraControlMode>("orbit");
++  const controlModeRef = useRef<CameraControlMode>(controlMode);
++  const orbitLeftMouseActionRef = useRef<number>(CAMERA_ACTION_ROTATE);
+ 
+   const sendCameraThrottled = useThrottledMessageSender(20);
+@@
+   React.useEffect(() => {
+     viewer.sendCameraRef.current = sendCamera;
+     if (!connected) return;
+     setTimeout(() => sendCamera(), 50);
+   }, [connected, sendCamera]);
+ 
+   // Send camera for 3D viewport changes.
+   const canvas = viewer.canvasRef.current!; // R3F canvas.
++  React.useEffect(() => {
++    const onModeChange = (event: Event) => {
++      const mode = (event as CustomEvent<CameraControlMode>).detail;
++      if (mode === "orbit" || mode === "first_person") {
++        setControlMode(mode);
++      }
++    };
++    window.addEventListener("viser-camera-control-mode", onModeChange);
++    return () =>
++      window.removeEventListener("viser-camera-control-mode", onModeChange);
++  }, []);
++
++  React.useEffect(() => {
++    controlModeRef.current = controlMode;
++    const cameraControls = viewer.cameraControlRef.current;
++    if (cameraControls === null) return;
++    if (controlMode === "first_person") {
++      orbitLeftMouseActionRef.current = cameraControls.mouseButtons.left;
++      cameraControls.mouseButtons.left =
++        CAMERA_ACTION_NONE as typeof cameraControls.mouseButtons.left;
++    } else {
++      cameraControls.mouseButtons.left =
++        orbitLeftMouseActionRef.current as typeof cameraControls.mouseButtons.left;
++    }
++  }, [controlMode, viewer.cameraControlRef]);
++
+   React.useEffect(() => {
+     // Create a resize observer to resize the CSS canvas when the window is resized.
+     const resizeObserver = new ResizeObserver(() => {
+       sendCamera();
+     });
+@@
+       return;
+     };
+   }, [CameraControls]);
++
++  React.useEffect(() => {
++    const cameraControls = viewer.cameraControlRef.current!;
++    const dragState = {
++      active: false,
++      pointerId: -1,
++      lastX: 0,
++      lastY: 0,
++    };
++    const position = new THREE.Vector3();
++    const target = new THREE.Vector3();
++    const forward = new THREE.Vector3();
++    const euler = new THREE.Euler(0, 0, 0, "YXZ");
++
++    const stopFirstPersonDrag = (event: PointerEvent) => {
++      if (!dragState.active || event.pointerId !== dragState.pointerId) return;
++      dragState.active = false;
++      dragState.pointerId = -1;
++      if (canvas.hasPointerCapture(event.pointerId)) {
++        canvas.releasePointerCapture(event.pointerId);
++      }
++    };
++
++    const onPointerDown = (event: PointerEvent) => {
++      if (controlModeRef.current !== "first_person") return;
++      if (event.button !== 0 || dragState.active) return;
++      if (viewer.scenePointerInfo.current.enabled !== false) return;
++
++      event.preventDefault();
++      event.stopPropagation();
++      dragState.active = true;
++      dragState.pointerId = event.pointerId;
++      dragState.lastX = event.clientX;
++      dragState.lastY = event.clientY;
++      canvas.setPointerCapture(event.pointerId);
++    };
++
++    const onPointerMove = (event: PointerEvent) => {
++      if (!dragState.active || event.pointerId !== dragState.pointerId) return;
++
++      event.preventDefault();
++      event.stopPropagation();
++      const dx = event.clientX - dragState.lastX;
++      const dy = event.clientY - dragState.lastY;
++      dragState.lastX = event.clientX;
++      dragState.lastY = event.clientY;
++      if (dx === 0 && dy === 0) return;
++
++      cameraControls.getPosition(position);
++      cameraControls.getTarget(target);
++      const lookDistance = Math.max(position.distanceTo(target), 0.1);
++
++      euler.setFromQuaternion(camera.quaternion, "YXZ");
++      euler.y -= dx * FIRST_PERSON_LOOK_SENSITIVITY;
++      euler.x = THREE.MathUtils.clamp(
++        euler.x - dy * FIRST_PERSON_LOOK_SENSITIVITY,
++        FIRST_PERSON_MIN_PITCH,
++        FIRST_PERSON_MAX_PITCH,
++      );
++      camera.quaternion.setFromEuler(euler);
++      forward.set(0, 0, -1).applyQuaternion(camera.quaternion);
++      target.copy(position).addScaledVector(forward, lookDistance);
++      cameraControls.setLookAt(
++        position.x,
++        position.y,
++        position.z,
++        target.x,
++        target.y,
++        target.z,
++        false,
++      );
++      sendCamera();
++    };
++
++    canvas.addEventListener("pointerdown", onPointerDown, { capture: true });
++    canvas.addEventListener("pointermove", onPointerMove, { capture: true });
++    canvas.addEventListener("pointerup", stopFirstPersonDrag, { capture: true });
++    canvas.addEventListener("pointercancel", stopFirstPersonDrag, {
++      capture: true,
++    });
++    return () => {
++      canvas.removeEventListener("pointerdown", onPointerDown, { capture: true });
++      canvas.removeEventListener("pointermove", onPointerMove, { capture: true });
++      canvas.removeEventListener("pointerup", stopFirstPersonDrag, {
++        capture: true,
++      });
++      canvas.removeEventListener("pointercancel", stopFirstPersonDrag, {
++        capture: true,
++      });
++    };
++  }, [camera, canvas, sendCamera, viewer]);
+ 
+   return (
+     <CameraControls
+*** End Patch

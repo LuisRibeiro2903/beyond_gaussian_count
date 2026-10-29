@@ -1,0 +1,11 @@
+{
+  "asset_sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c",
+  "camera_stable_id": "eval-0000-img-000001-cam-0001",
+  "candidate_spt_ids": [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+  "candidate_spt_root_global_node_ids": [321811, 210906, 654525, 155455, 599074, 127730, 571349, 113867, 557486, 106936, 550555, 103471, 547090, 101740, 545359, 100875, 544494, 100444, 544278, 100551, 544170, 100766],
+  "ordered_spt_global_node_ids_sha256": "007f60abb4fd75957fa21775c950acab0d7bf0bddc52a1d09a0d49c6bdda427c",
+  "per_spt_emitted_counts": [124134, 62321, 58579, 31210, 28484, 16113, 13988, 8047, 7198, 3900, 3756, 1823, 1847, 759, 861, 431, 415, 62, 59, 56, 57, 58],
+  "schema_version": "alod_cpu_reference_spt_regression.v1",
+  "selected_spt_node_count": 364158,
+  "semantic_oracle_manifest_sha256": "20bb87caf1694ede18ac2d2a71cdc146c002325ddbf8f6060625f18feda70591"
+}

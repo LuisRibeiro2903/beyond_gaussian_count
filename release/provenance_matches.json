@@ -1,0 +1,5 @@
+{
+  "method": "Identical AST function bodies with >=100 AST nodes; docstrings excluded; submodules excluded",
+  "limitation": "Candidate provenance matches only; absence of matches is not licensing clearance.",
+  "matches": []
+}

@@ -1,0 +1,862 @@
+{
+  "datasets": {
+    "MILL19-BUILDING": {
+      "evaluation": {
+        "camera_calibration_count": 1,
+        "camera_count": 20,
+        "camera_extent_diagonal": 441.0222160054877,
+        "camera_extent_xyz": [
+          195.92940819901912,
+          4.604248174337379,
+          395.08361508916346
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 45.37860351970956,
+          "median": 43.32906965697173,
+          "minimum": 40.77435534537218,
+          "p10": 41.79244717470989,
+          "p90": 45.20627632405129
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 269.7915057009454,
+          "median": 151.10385402963388,
+          "minimum": 69.87683591431717,
+          "p10": 80.87423135536307,
+          "p90": 229.7610791275696
+        },
+        "camera_xyz_max": [
+          36.483841880065775,
+          0.35572906895738904,
+          376.02309802914334
+        ],
+        "camera_xyz_min": [
+          -159.44556631895335,
+          -4.24851910537999,
+          -19.060517060020132
+        ],
+        "content_sha256": {
+          "cameras.bin": "29a7a25532274ebbd06a477cc6c40225bf9c5b33f02945dd403da217314347b4",
+          "images.bin": "d4623792d478c68c1f4f9ef000947566601b07fdc8e4777a2426ac8e335420b9",
+          "points3D.bin": "19872003cdf56b747fb22feba04f67d88c93ed294bcd14d0012642f85bf68828"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 100847,
+        "estimated_initial_hierarchy_rows_before_skybox": 847,
+        "focal_length_at_study_resolution": {
+          "maximum": 745.3878173828125,
+          "median": 745.3878173828125,
+          "minimum": 745.3878173828125,
+          "p10": 745.3878173828125,
+          "p90": 745.3878173828125
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/building/val/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 119.18049183077558,
+          "median": 62.936108811899246,
+          "minimum": 40.71113337207615,
+          "p10": 43.0762881854773,
+          "p90": 104.75203445727483
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 10.667166130658885,
+          "median": 4.933420217121894,
+          "minimum": 2.762829079611755,
+          "p10": 3.244379114566174,
+          "p90": 9.22587387364354
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 18.309188559561832,
+          "median": 11.914768197207351,
+          "minimum": 6.254277071126615,
+          "p10": 7.120437272115897,
+          "p90": 17.3079708154264
+        },
+        "projected_nearest_max_over_min": 2.9274668121256906,
+        "projected_nearest_p90_over_p10": 2.4307454941293507,
+        "source_resolution_distribution": {
+          "4608x3456": 20
+        },
+        "sparse_extent_diagonal": 677.1724988737508,
+        "sparse_extent_xyz": [
+          267.94167023497886,
+          575.1066293099044,
+          236.69013394396077
+        ],
+        "sparse_ground_reference": 41.130084414329566,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 424,
+        "sparse_sample_count": 424,
+        "sparse_xyz_max": [
+          -44.575829883661946,
+          613.358926016283,
+          268.65981046146754
+        ],
+        "sparse_xyz_min": [
+          -312.5175001186408,
+          38.25229670637865,
+          31.96967651750677
+        ],
+        "study_resolution_distribution": {
+          "1152x864": 20
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      },
+      "total_camera_count": 1940,
+      "train": {
+        "camera_calibration_count": 1,
+        "camera_count": 1920,
+        "camera_extent_diagonal": 510.6006005076394,
+        "camera_extent_xyz": [
+          261.55792239600754,
+          6.302455784669775,
+          438.47543320205335
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 47.59881016923734,
+          "median": 44.63799769903543,
+          "minimum": 41.296354384567564,
+          "p10": 42.82112852102044,
+          "p90": 45.865986003209166
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 238.16628868643986,
+          "median": 122.64337149800176,
+          "minimum": 41.33196000428947,
+          "p10": 59.68373714513538,
+          "p90": 203.55044530984568
+        },
+        "camera_xyz_max": [
+          52.66357291662714,
+          1.115352184334967,
+          378.2832635342762
+        ],
+        "camera_xyz_min": [
+          -208.8943494793804,
+          -5.187103600334808,
+          -60.19216966777715
+        ],
+        "content_sha256": {
+          "cameras.bin": "29a7a25532274ebbd06a477cc6c40225bf9c5b33f02945dd403da217314347b4",
+          "images.bin": "4041b8daf494ea7102f310ac35a0af336cd175f8bdf3412a97fef7d0871e3db0",
+          "points3D.bin": "00e9449a31490e601022a3f42f41798985f95cbc2366f101a8673cf8ebe99102"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 3306249,
+        "estimated_initial_hierarchy_rows_before_skybox": 3206249,
+        "focal_length_at_study_resolution": {
+          "maximum": 745.3878173828125,
+          "median": 745.3878173828125,
+          "minimum": 745.3878173828125,
+          "p10": 745.3878173828125,
+          "p90": 745.3878173828125
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/building/train/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 40.61441468182413,
+          "median": 14.111327887900124,
+          "minimum": 2.5572038720692567,
+          "p10": 9.19361477701726,
+          "p90": 25.291104722314103
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 18.034175425154178,
+          "median": 6.077692348566372,
+          "minimum": 3.1296948929836166,
+          "p10": 3.661931762399776,
+          "p90": 12.48896167261066
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 291.4854875374697,
+          "median": 52.821947995829404,
+          "minimum": 18.35278984622153,
+          "p10": 29.472336251434108,
+          "p90": 81.07668665314057
+        },
+        "projected_nearest_max_over_min": 15.882353036232292,
+        "projected_nearest_p90_over_p10": 2.7509419667806423,
+        "source_resolution_distribution": {
+          "4608x3456": 1920
+        },
+        "sparse_extent_diagonal": 25221.801114272148,
+        "sparse_extent_xyz": [
+          16948.510116241672,
+          12495.172670065644,
+          13883.728470147995
+        ],
+        "sparse_ground_reference": 42.41170656890253,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 1603125,
+        "sparse_sample_count": 229018,
+        "sparse_xyz_max": [
+          10037.293975826293,
+          12494.60743616416,
+          6734.845106787725
+        ],
+        "sparse_xyz_min": [
+          -6911.2161404153785,
+          -0.5652339014828132,
+          -7148.88336336027
+        ],
+        "study_resolution_distribution": {
+          "1152x864": 1920
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      }
+    },
+    "MILL19-RUBBLE": {
+      "evaluation": {
+        "camera_calibration_count": 1,
+        "camera_count": 21,
+        "camera_extent_diagonal": 284.2098073671023,
+        "camera_extent_xyz": [
+          145.41287220605875,
+          4.220488220378935,
+          244.15670926601928
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 36.20975232545482,
+          "median": 34.261342889144444,
+          "minimum": 31.989264105075886,
+          "p10": 33.23595186421519,
+          "p90": 36.057068086691416
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 173.60202636075195,
+          "median": 98.23532840214475,
+          "minimum": 32.95027869795501,
+          "p10": 45.819938037700666,
+          "p90": 129.44929631683723
+        },
+        "camera_xyz_max": [
+          68.83083931117426,
+          4.249746435593085,
+          63.55623155923206
+        ],
+        "camera_xyz_min": [
+          -76.58203289488448,
+          0.02925821521414985,
+          -180.60047770678722
+        ],
+        "content_sha256": {
+          "cameras.bin": "ff81eea8469148250c966f3b5e146f720453bb2e293b5469f240e3d10decc0a1",
+          "images.bin": "f4e922a0cc96ce475b5a5d222a14ebc06221020ad46f5221920e19a069728176",
+          "points3D.bin": "bbf44d2929692988830ce12c66bcd0eb1fb3f13ab5d01a5697277b5b896e16cb"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 100061,
+        "estimated_initial_hierarchy_rows_before_skybox": 61,
+        "focal_length_at_study_resolution": {
+          "maximum": 744.3822631835938,
+          "median": 744.3822631835938,
+          "minimum": 744.3822631835938,
+          "p10": 744.3822631835938,
+          "p90": 744.3822631835938
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/rubble/val/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 106.53391639854084,
+          "median": 60.78795420867505,
+          "minimum": 31.466457876549867,
+          "p10": 36.93332700997234,
+          "p90": 84.16924529811835
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 22.59107639140522,
+          "median": 7.57754135188845,
+          "minimum": 4.287866212095576,
+          "p10": 5.750377053898077,
+          "p90": 16.24581557860501
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 23.65637295764195,
+          "median": 12.245555437319897,
+          "minimum": 6.987279622752978,
+          "p10": 8.843874749584273,
+          "p90": 20.154757869027172
+        },
+        "projected_nearest_max_over_min": 3.3856342145816933,
+        "projected_nearest_p90_over_p10": 2.2789510751466255,
+        "source_resolution_distribution": {
+          "4608x3456": 21
+        },
+        "sparse_extent_diagonal": 292.9684264485288,
+        "sparse_extent_xyz": [
+          162.23673516715058,
+          9.58012483383149,
+          243.75799856866053
+        ],
+        "sparse_ground_reference": 36.23901054066897,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 31,
+        "sparse_sample_count": 31,
+        "sparse_xyz_max": [
+          65.2233239878269,
+          36.8882561074553,
+          46.73501031769083
+        ],
+        "sparse_xyz_min": [
+          -97.0134111793237,
+          27.308131273623808,
+          -197.0229882509697
+        ],
+        "study_resolution_distribution": {
+          "1152x864": 21
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      },
+      "total_camera_count": 1678,
+      "train": {
+        "camera_calibration_count": 1,
+        "camera_count": 1657,
+        "camera_extent_diagonal": 321.8407609307295,
+        "camera_extent_xyz": [
+          206.46001525470928,
+          5.0609971095407715,
+          246.84027994991703
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 37.07185060776003,
+          "median": 34.375892345435474,
+          "minimum": 32.010853498219255,
+          "p10": 33.184194616581685,
+          "p90": 35.80140668414085
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 138.50795845440337,
+          "median": 76.41521260016829,
+          "minimum": 27.052392352296007,
+          "p10": 42.14429105891456,
+          "p90": 111.79174398300084
+        },
+        "camera_xyz_max": [
+          95.39277949988855,
+          4.402847603642013,
+          62.07776130807186
+        ],
+        "camera_xyz_min": [
+          -111.06723575482073,
+          -0.6581495058987579,
+          -184.7625186418452
+        ],
+        "content_sha256": {
+          "cameras.bin": "ff81eea8469148250c966f3b5e146f720453bb2e293b5469f240e3d10decc0a1",
+          "images.bin": "ef90e8f27c17e4b819603beddbc1512e5ad8f59e7ea630a2d6b102301a256b4d",
+          "points3D.bin": "9fec284e447c16fe47eb99e604775d7adc4fd75c326d46ec71cfb993a65d5754"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 3488629,
+        "estimated_initial_hierarchy_rows_before_skybox": 3388629,
+        "focal_length_at_study_resolution": {
+          "maximum": 744.3822631835938,
+          "median": 744.3822631835938,
+          "minimum": 744.3822631835938,
+          "p10": 744.3822631835938,
+          "p90": 744.3822631835938
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/rubble/train/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 32.7179321368735,
+          "median": 21.94723016570784,
+          "minimum": 4.589829294920259,
+          "p10": 14.463404950862655,
+          "p90": 26.494092838211877
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 27.516319203481316,
+          "median": 9.741283677092778,
+          "minimum": 5.37429236189806,
+          "p10": 6.658652048141912,
+          "p90": 17.66271234040595
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 162.1808166171736,
+          "median": 33.91691149923228,
+          "minimum": 22.7515070350264,
+          "p10": 28.096164125914072,
+          "p90": 51.466606737088284
+        },
+        "projected_nearest_max_over_min": 7.12835489831478,
+        "projected_nearest_p90_over_p10": 1.8318018967442904,
+        "source_resolution_distribution": {
+          "4608x3456": 1657
+        },
+        "sparse_extent_diagonal": 4882.916174456902,
+        "sparse_extent_xyz": [
+          3797.088302286995,
+          1554.3803574164092,
+          2647.4313014479008
+        ],
+        "sparse_ground_reference": 36.41370110186127,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 1694315,
+        "sparse_sample_count": 242045,
+        "sparse_xyz_max": [
+          2864.1712534594294,
+          1560.922938225666,
+          1675.1099406312505
+        ],
+        "sparse_xyz_min": [
+          -932.9170488275655,
+          6.542580809256924,
+          -972.3213608166503
+        ],
+        "study_resolution_distribution": {
+          "1152x864": 1657
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      }
+    },
+    "URBANSCENE3D-RESIDENCE": {
+      "evaluation": {
+        "camera_calibration_count": 1,
+        "camera_count": 21,
+        "camera_extent_diagonal": 481.08080232174547,
+        "camera_extent_xyz": [
+          168.24350261597698,
+          35.607499610615,
+          449.29385502310413
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 119.64489511944826,
+          "median": 99.17229710929611,
+          "minimum": 84.03739550883326,
+          "p10": 86.9210553381204,
+          "p90": 114.1199290284223
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 283.7406807282719,
+          "median": 147.52429903172379,
+          "minimum": 74.25800461752635,
+          "p10": 80.34218710229868,
+          "p90": 264.56165457325824
+        },
+        "camera_xyz_max": [
+          107.53971988287542,
+          17.241558753259323,
+          72.54568594882187
+        ],
+        "camera_xyz_min": [
+          -60.70378273310156,
+          -18.365940857355678,
+          -376.74816907428226
+        ],
+        "content_sha256": {
+          "cameras.bin": "eb736a1abf753ba0c70872d06a725810e8a97d9aa9508dfda4a38399c63db273",
+          "images.bin": "41892d5d935e504e408843df7353ca808046c5ec02d9b0789057dc99ef3537c8",
+          "points3D.bin": "98786569b5ab996392b3f737980a81fa790db6bc507113c5aab91410f0b3b2e3"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 102171,
+        "estimated_initial_hierarchy_rows_before_skybox": 2171,
+        "focal_length_at_study_resolution": {
+          "maximum": 920.4620361328125,
+          "median": 920.4620361328125,
+          "minimum": 920.4620361328125,
+          "p10": 920.4620361328125,
+          "p90": 920.4620361328125
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/residence/val/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 127.90038854279672,
+          "median": 76.79288682457212,
+          "minimum": 46.1625546107539,
+          "p10": 52.34061731694986,
+          "p90": 91.86291883334827
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 12.395458790924275,
+          "median": 6.239392711399193,
+          "minimum": 3.244025614410594,
+          "p10": 3.479196702248975,
+          "p90": 11.456770960949818
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 19.939581851442515,
+          "median": 11.986292926264674,
+          "minimum": 7.196710241617577,
+          "p10": 10.019951987402608,
+          "p90": 17.585998853604124
+        },
+        "projected_nearest_max_over_min": 2.770652309458658,
+        "projected_nearest_p90_over_p10": 1.7550981158107126,
+        "source_resolution_distribution": {
+          "5472x3648": 21
+        },
+        "sparse_extent_diagonal": 598.9680513723398,
+        "sparse_extent_xyz": [
+          414.16215205466915,
+          56.57802699531534,
+          428.9887705191598
+        ],
+        "sparse_ground_reference": 101.27895426209258,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 1086,
+        "sparse_sample_count": 1086,
+        "sparse_xyz_max": [
+          251.4359639760433,
+          103.44341617986639,
+          98.09403771643905
+        ],
+        "sparse_xyz_min": [
+          -162.72618807862582,
+          46.86538918455105,
+          -330.89473280272074
+        ],
+        "study_resolution_distribution": {
+          "1368x912": 21
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      },
+      "total_camera_count": 2582,
+      "train": {
+        "camera_calibration_count": 1,
+        "camera_count": 2561,
+        "camera_extent_diagonal": 571.9388003735703,
+        "camera_extent_xyz": [
+          291.0956311868692,
+          41.60103360020778,
+          490.55751842171503
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 120.50995782823873,
+          "median": 96.07099816817102,
+          "minimum": 78.90892422803095,
+          "p10": 82.76601944603135,
+          "p90": 111.39548332330864
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 272.2466339769355,
+          "median": 141.54422199141658,
+          "minimum": 63.13056739371774,
+          "p10": 92.68952881604493,
+          "p90": 226.47075163762747
+        },
+        "camera_xyz_max": [
+          220.34207932339763,
+          22.255278805458346,
+          84.33392809320947
+        ],
+        "camera_xyz_min": [
+          -70.75355186347157,
+          -19.345754794749432,
+          -406.22359032850557
+        ],
+        "content_sha256": {
+          "cameras.bin": "eb736a1abf753ba0c70872d06a725810e8a97d9aa9508dfda4a38399c63db273",
+          "images.bin": "79b7251adac53fc53b436a213accda79abef0d950d5d0bdf520134dd1c4c7e24",
+          "points3D.bin": "12e72927da27888a72e8e65cea2b148c3b1dbcf5ee735891cca240332471d3b9"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 4002797,
+        "estimated_initial_hierarchy_rows_before_skybox": 3902797,
+        "focal_length_at_study_resolution": {
+          "maximum": 920.4620361328125,
+          "median": 920.4620361328125,
+          "minimum": 920.4620361328125,
+          "p10": 920.4620361328125,
+          "p90": 920.4620361328125
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/residence/train/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 74.85980749624274,
+          "median": 38.86694540250139,
+          "minimum": 6.702105232364501,
+          "p10": 24.36046498881419,
+          "p90": 53.995036552875376
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 14.580290881789377,
+          "median": 6.502999721095153,
+          "minimum": 3.3809859195937504,
+          "p10": 4.064374889370396,
+          "p90": 9.930593540502246
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 137.33923957026167,
+          "median": 23.682386835410366,
+          "minimum": 12.295810888626866,
+          "p10": 17.04716016316495,
+          "p90": 37.78507662129886
+        },
+        "projected_nearest_max_over_min": 11.169595955423727,
+        "projected_nearest_p90_over_p10": 2.216502705415055,
+        "source_resolution_distribution": {
+          "5472x3648": 2561
+        },
+        "sparse_extent_diagonal": 5356.104764377791,
+        "sparse_extent_xyz": [
+          3637.476612387706,
+          2570.87374019919,
+          2974.4294164221064
+        ],
+        "sparse_ground_reference": 101.1642030334893,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 1951399,
+        "sparse_sample_count": 243925,
+        "sparse_xyz_max": [
+          1105.1172337841215,
+          2575.446140173958,
+          1482.3332960972277
+        ],
+        "sparse_xyz_min": [
+          -2532.359378603585,
+          4.572399974768363,
+          -1492.096120324879
+        ],
+        "study_resolution_distribution": {
+          "1368x912": 2561
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      }
+    },
+    "URBANSCENE3D-SCIART": {
+      "evaluation": {
+        "camera_calibration_count": 1,
+        "camera_count": 21,
+        "camera_extent_diagonal": 358.04283444630056,
+        "camera_extent_xyz": [
+          285.2986492911564,
+          36.02696378572205,
+          213.31059488774818
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 78.78929513874664,
+          "median": 58.386197987132675,
+          "minimum": 42.762331353024585,
+          "p10": 43.88372193177268,
+          "p90": 74.70959826251476
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 243.05092261404,
+          "median": 112.63997747288134,
+          "minimum": 56.09350234913626,
+          "p10": 71.17311006231081,
+          "p90": 190.9673737864497
+        },
+        "camera_xyz_max": [
+          162.56053731252018,
+          25.107561115381948,
+          33.269356146608565
+        ],
+        "camera_xyz_min": [
+          -122.73811197863617,
+          -10.919402670340103,
+          -180.0412387411396
+        ],
+        "content_sha256": {
+          "cameras.bin": "2a48b57d5516ed3917e7a1d8d81b5add77be2bc11cca374af912d5bdc7f22950",
+          "images.bin": "85cb54b7e700f67cd10e5df3ae7a0c1b6d28c3331f8cd1b27a9c37834978a1bd",
+          "points3D.bin": "0e963f58149de4fd11db97b5a4a46f0cb9bba39be9660eeeb2d8305bbda7f688"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 100661,
+        "estimated_initial_hierarchy_rows_before_skybox": 661,
+        "focal_length_at_study_resolution": {
+          "maximum": 924.6627197265625,
+          "median": 924.6627197265625,
+          "minimum": 924.6627197265625,
+          "p10": 924.6627197265625,
+          "p90": 924.6627197265625
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/sciart/val/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 123.32308970333109,
+          "median": 69.9064131794557,
+          "minimum": 44.19665229479791,
+          "p10": 52.76039394127977,
+          "p90": 99.7064764494428
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 16.484310677755367,
+          "median": 8.20901016203754,
+          "minimum": 3.8043991348879116,
+          "p10": 4.8419931708364565,
+          "p90": 12.991742512263922
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 20.92155563183681,
+          "median": 13.227151525466981,
+          "minimum": 7.497888043114657,
+          "p10": 9.273848125557041,
+          "p90": 17.525697794365893
+        },
+        "projected_nearest_max_over_min": 2.7903264908108576,
+        "projected_nearest_p90_over_p10": 1.8897978009870846,
+        "source_resolution_distribution": {
+          "4864x3648": 21
+        },
+        "sparse_extent_diagonal": 689.2804788126501,
+        "sparse_extent_xyz": [
+          556.6936706788044,
+          70.81079917485195,
+          400.23189055667945
+        ],
+        "sparse_ground_reference": 67.86989246840653,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 331,
+        "sparse_sample_count": 331,
+        "sparse_xyz_max": [
+          295.3235492187143,
+          70.80209965661021,
+          319.5208929421219
+        ],
+        "sparse_xyz_min": [
+          -261.3701214600902,
+          -0.008699518241733983,
+          -80.71099761455751
+        ],
+        "study_resolution_distribution": {
+          "1216x912": 21
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      },
+      "total_camera_count": 3019,
+      "train": {
+        "camera_calibration_count": 1,
+        "camera_count": 2998,
+        "camera_extent_diagonal": 495.14659845681297,
+        "camera_extent_xyz": [
+          373.5196707583295,
+          72.66130227790316,
+          316.8178414660713
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 111.92387187170046,
+          "median": 63.92159752379388,
+          "minimum": 39.262569593797295,
+          "p10": 50.45188429962723,
+          "p90": 88.94749471194612
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 208.12588321963835,
+          "median": 109.47191300542298,
+          "minimum": 41.345578184226305,
+          "p10": 60.79777053492604,
+          "p90": 159.40019808507023
+        },
+        "camera_xyz_max": [
+          163.25975822313185,
+          30.920955496699136,
+          82.520924872986
+        ],
+        "camera_xyz_min": [
+          -210.25991253519763,
+          -41.740346781204025,
+          -234.2969165930853
+        ],
+        "content_sha256": {
+          "cameras.bin": "2a48b57d5516ed3917e7a1d8d81b5add77be2bc11cca374af912d5bdc7f22950",
+          "images.bin": "b78ffa799134a72bec5fcf7ddbfe5922d38342a18864f49780424953ef3c75bd",
+          "points3D.bin": "c37b83b424cec35c308979d95bc8fd246e0f92224c808e0089776226b2bf98be"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 4366301,
+        "estimated_initial_hierarchy_rows_before_skybox": 4266301,
+        "focal_length_at_study_resolution": {
+          "maximum": 924.6627197265625,
+          "median": 924.6627197265625,
+          "minimum": 924.6627197265625,
+          "p10": 924.6627197265625,
+          "p90": 924.6627197265625
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/colmap_results/sciart/train/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 58.507880584820725,
+          "median": 17.84514565597616,
+          "minimum": 0.7561348373474582,
+          "p10": 7.809050673015636,
+          "p90": 36.36152125991686
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 22.364246923975276,
+          "median": 8.446575701066088,
+          "minimum": 4.442805024643437,
+          "p10": 5.80088816295743,
+          "p90": 15.20882613706093
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 1222.880727160125,
+          "median": 51.81592472174336,
+          "minimum": 15.804071357294335,
+          "p10": 25.42971314472408,
+          "p90": 118.40964315728841
+        },
+        "projected_nearest_max_over_min": 77.3775756584209,
+        "projected_nearest_p90_over_p10": 4.656349935345415,
+        "source_resolution_distribution": {
+          "4864x3648": 2998
+        },
+        "sparse_extent_diagonal": 12454.908750405684,
+        "sparse_extent_xyz": [
+          8638.098168979874,
+          2161.9820332775917,
+          8708.263069739196
+        ],
+        "sparse_ground_reference": 70.18352509049643,
+        "sparse_ground_reference_quantile": "p95",
+        "sparse_point_count": 2133151,
+        "sparse_sample_count": 237017,
+        "sparse_xyz_max": [
+          3080.0223999444293,
+          1370.9483508678027,
+          4132.078954406593
+        ],
+        "sparse_xyz_min": [
+          -5558.075769035444,
+          -791.0336824097889,
+          -4576.184115332603
+        ],
+        "study_resolution_distribution": {
+          "1216x912": 2998
+        },
+        "study_resolution_divisor": 4,
+        "vertical_axis": 1,
+        "vertical_direction": "down"
+      }
+    }
+  },
+  "purpose": "outcome-independent ALoD prevalence-study candidate audit",
+  "schema_version": 1,
+  "source_archive": {
+    "sha256": "0571c6e575a3265ab025cce18c0f0f7ea23f264e9a8f22d22f6f5e41f2375fba",
+    "url": "https://drive.google.com/file/d/1Uz1pSTIpkagTml2jzkkzJ_rglS_z34p7/view"
+  }
+}

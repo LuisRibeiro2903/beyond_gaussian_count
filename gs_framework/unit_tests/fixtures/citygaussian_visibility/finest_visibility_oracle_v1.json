@@ -1,0 +1,3015 @@
+{
+  "asset": {
+    "gaussian_count": 11694810,
+    "identifier": "mc_aerial_c36_light_50_vq",
+    "path": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+    "ply_format": "binary_little_endian"
+  },
+  "camera_metadata": {
+    "camera_path": "/home/luis/tese/gs_framework/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+    "default_fov_degrees": 50.0,
+    "front_convention": "official in_frustum keeps corners with camera-space z > 0.2",
+    "intrinsics": "project benchmark convention: JSON fov is vertical FOV; derive K, FoVx and FoVy from width/height/focal",
+    "official_matrix_convention": "world_view_transform = inverse(converted camera_to_world).T; projection_matrix matches CityGaussian utils.graphics_utils.getProjectionMatrix(...).T; full_proj_transform = world_view_transform @ projection_matrix for row-vector homogeneous corners",
+    "project_conversion": "flip camera Y/Z axes and multiply translation by scale_ratio",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scale_ratio": 10.0,
+    "selected_indices": [
+      0,
+      131,
+      262,
+      392,
+      523,
+      654,
+      785,
+      916,
+      1047,
+      1177,
+      1308,
+      1439
+    ],
+    "selection_policy": "np.linspace over [0, 1439] with sample_count=12, rounded to nearest integer, deduplicated, and sorted; includes first and final frames.",
+    "source_format": "Viser camera path export",
+    "source_matrix": "camera_to_world, row-major JSON, reshaped to 4x4",
+    "trajectory_frame_count": 1440,
+    "zfar": 100.0,
+    "znear": 0.01
+  },
+  "cell_metadata": {
+    "aabb": [
+      -3.5,
+      -4.0,
+      -10.0,
+      4.5,
+      2.0,
+      10.0
+    ],
+    "all_cells_nonempty": true,
+    "block_dim": [
+      6,
+      6,
+      1
+    ],
+    "cell_bound_checksum": "f07d6a3f5888fd68",
+    "cell_count": 36,
+    "cell_gaussian_counts": [
+      108,
+      10192,
+      162584,
+      222854,
+      50626,
+      560,
+      37148,
+      502419,
+      397957,
+      433331,
+      495554,
+      55097,
+      649273,
+      592660,
+      341741,
+      375980,
+      416575,
+      142293,
+      453753,
+      470383,
+      453199,
+      321576,
+      413971,
+      137416,
+      191131,
+      517030,
+      446214,
+      543211,
+      584801,
+      31615,
+      7261,
+      478616,
+      701940,
+      758564,
+      296928,
+      249
+    ],
+    "cell_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "duplicated_assignment_count": 0,
+    "mad_bound_precision": 8,
+    "nonempty_cell_count": 36,
+    "total_assigned_count": 11694810,
+    "unassigned_count": 0
+  },
+  "numeric_serialization": {
+    "distance_tolerance_for_future_tests": 1e-05,
+    "float_rounding_decimal_places": 8,
+    "matrix_checksum_rounding_decimal_places": 8
+  },
+  "provenance": {
+    "official_reference_commit": "e16c526f78ab01d377b13b3e6862dcc93ddbe953",
+    "official_reference_repo": "/home/luis/tese/CityGaussian",
+    "official_source_function": "utils/large_utils.py::in_frustum",
+    "official_source_path": "/home/luis/tese/CityGaussian/utils/large_utils.py",
+    "official_visibility_load_method": "source_slice_exec",
+    "oracle_method": "Official in_frustum executed on CPU with independently constructed official-compatible MAD cell bounds and camera matrices. Runtime scene visibility code is not imported or used.",
+    "oracle_script": "/home/luis/tese/gs_framework/scripts/extract_citygaussian_cell_oracle.py",
+    "reference_probe": {
+      "expected_commit": "e16c526f78ab01d377b13b3e6862dcc93ddbe953",
+      "large_utils_import_error": "ModuleNotFoundError: No module named 'simple_knn'",
+      "official_contract_probe_error": "ModuleNotFoundError: No module named 'simple_knn'",
+      "official_contract_sample_matches": null,
+      "reference_repo": "/home/luis/tese/CityGaussian",
+      "visibility_function": "utils/large_utils.py::in_frustum",
+      "visibility_function_source": "/home/luis/tese/CityGaussian/utils/large_utils.py",
+      "visibility_load_method": "source_slice_exec"
+    }
+  },
+  "schema_version": "citygaussian_visibility_oracle.v1",
+  "visibility_records": [
+    {
+      "camera_center": [
+        -2.13608456,
+        4.84334707,
+        5.56352091
+      ],
+      "camera_id": "viser_000000",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "edde0c2d08c49900",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 31,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "24": 5.90610552,
+        "25": 4.62536907,
+        "26": 4.68316126,
+        "27": 4.94831896,
+        "30": 6.21031475,
+        "31": 4.33174849,
+        "32": 5.04742336,
+        "33": 5.52843809,
+        "5": 13.92810726
+      },
+      "per_visible_cell_projected_box": {
+        "24": [
+          0.67981124,
+          -1.52942991,
+          1.30602121,
+          -0.04876538
+        ],
+        "25": [
+          0.01629676,
+          -1.85648334,
+          0.95506817,
+          -0.4296414
+        ],
+        "26": [
+          -0.69663149,
+          -1.88589716,
+          0.13658771,
+          -0.46083128
+        ],
+        "27": [
+          -1.6948241,
+          -2.18743706,
+          -0.48953408,
+          -0.50243843
+        ],
+        "30": [
+          0.69868368,
+          -0.50591576,
+          0.92408544,
+          -0.31948587
+        ],
+        "31": [
+          0.06092077,
+          -0.69215804,
+          1.38511312,
+          1.09709203
+        ],
+        "32": [
+          -0.76921064,
+          -0.72019368,
+          0.66553617,
+          1.28585482
+        ],
+        "33": [
+          -2.08326793,
+          -0.75257123,
+          -0.53521037,
+          1.19840634
+        ],
+        "5": [
+          -12.67136383,
+          -21.05258751,
+          -0.32017869,
+          -0.78718555
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 3644527,
+      "trajectory_index": 0,
+      "visibility_mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "visible_cell_count": 9,
+      "visible_cell_ids": [
+        5,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "camera_center": [
+        -3.87231851,
+        -0.6111365,
+        5.56351995
+      ],
+      "camera_id": "viser_000131",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "21eb1b77eb687e05",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 14,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 9.25260925,
+        "12": 5.28756428,
+        "13": 5.34084177,
+        "14": 3.73651505,
+        "15": 4.48053741,
+        "18": 5.05119991,
+        "19": 5.041471,
+        "20": 4.54540396,
+        "21": 5.38604784,
+        "24": 5.43823099,
+        "25": 4.98339987,
+        "26": 4.94800138,
+        "27": 6.11925507,
+        "5": 11.98386669,
+        "6": 6.17396879,
+        "7": 5.67281532,
+        "8": 4.48916483,
+        "9": 5.07283354
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          0.20403494,
+          -4.26922035,
+          2.41709185,
+          -0.32247537
+        ],
+        "12": [
+          0.35747129,
+          -1.07547176,
+          1.39676929,
+          0.2221968
+        ],
+        "13": [
+          -0.38767925,
+          -1.00627637,
+          0.44126213,
+          0.05311528
+        ],
+        "14": [
+          -1.54196835,
+          -1.60346031,
+          -0.26236716,
+          -0.05001984
+        ],
+        "15": [
+          -8.4771719,
+          -5.83049679,
+          -0.67497039,
+          -0.11365265
+        ],
+        "18": [
+          0.29803824,
+          0.03878876,
+          1.36679447,
+          1.54307246
+        ],
+        "19": [
+          -0.48633331,
+          -0.11498936,
+          0.42485607,
+          1.07698512
+        ],
+        "20": [
+          -1.3155483,
+          -0.28548345,
+          -0.32552117,
+          0.88506103
+        ],
+        "21": [
+          -2.80158687,
+          -0.60749477,
+          -0.76574785,
+          0.94760776
+        ],
+        "24": [
+          0.2378114,
+          0.88116342,
+          0.82037908,
+          2.74923849
+        ],
+        "25": [
+          -0.60872775,
+          0.65420413,
+          0.4117381,
+          2.34699297
+        ],
+        "26": [
+          -1.35208607,
+          0.54456687,
+          -0.30168515,
+          2.14976144
+        ],
+        "27": [
+          -2.47569156,
+          0.43528861,
+          -0.89529639,
+          2.22770166
+        ],
+        "5": [
+          -10.94214249,
+          -11.65821457,
+          -0.32061952,
+          -0.30063906
+        ],
+        "6": [
+          0.39501193,
+          -1.37352467,
+          0.64257455,
+          -0.73723531
+        ],
+        "7": [
+          -0.34337941,
+          -1.88358092,
+          0.49666488,
+          -0.67503405
+        ],
+        "8": [
+          -1.32321155,
+          -2.79922867,
+          -0.14782253,
+          -0.6666469
+        ],
+        "9": [
+          -7.26638079,
+          -8.92101288,
+          -0.65460014,
+          -0.74448174
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 6727674,
+      "trajectory_index": 131,
+      "visibility_mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 18,
+      "visible_cell_ids": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "camera_center": [
+        0.122282,
+        -3.64770675,
+        5.56351995
+      ],
+      "camera_id": "viser_000262",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "5377385e72ce5309",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 15,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 9.90972042,
+        "10": 3.30192614,
+        "14": 3.38574195,
+        "15": 1.1700455,
+        "16": 3.41731739,
+        "2": 5.79956818,
+        "20": 4.97527122,
+        "21": 4.1102376,
+        "22": 6.21785355,
+        "26": 6.46070671,
+        "27": 6.12177658,
+        "28": 7.02933359,
+        "3": 5.13969564,
+        "5": 7.38530684,
+        "8": 3.62118912,
+        "9": 1.21315467
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          0.22602442,
+          0.77489227,
+          3.66354775,
+          7.53756571
+        ],
+        "10": [
+          -1.05004442,
+          -7.73919392,
+          1.18985856,
+          -0.60116285
+        ],
+        "14": [
+          -0.98090971,
+          0.03896806,
+          -0.06333808,
+          2.10875964
+        ],
+        "15": [
+          -3.59982967,
+          -5.04014921,
+          -0.11702386,
+          0.22146329
+        ],
+        "16": [
+          -2.07267666,
+          -6.072227,
+          -0.12206259,
+          -0.49262422
+        ],
+        "2": [
+          0.38110369,
+          -0.09396089,
+          0.85312009,
+          1.49248338
+        ],
+        "20": [
+          -1.35314667,
+          0.21946396,
+          -0.48479527,
+          1.84300029
+        ],
+        "21": [
+          -1.82290328,
+          -1.4657023,
+          -0.48321038,
+          0.41055542
+        ],
+        "22": [
+          -1.30301416,
+          -2.18499327,
+          -0.58191544,
+          -0.58134902
+        ],
+        "26": [
+          -1.98597109,
+          0.31843743,
+          -0.88373131,
+          2.11620045
+        ],
+        "27": [
+          -2.2130878,
+          -1.15196228,
+          -0.92435825,
+          0.56295687
+        ],
+        "28": [
+          -2.01002479,
+          -2.28561664,
+          -0.97605222,
+          -0.48559391
+        ],
+        "3": [
+          0.19855142,
+          -2.17050838,
+          0.95348155,
+          0.00041046
+        ],
+        "5": [
+          -0.41371414,
+          -10.74210548,
+          5.63722754,
+          -0.26418474
+        ],
+        "8": [
+          -0.23467071,
+          -0.15377791,
+          0.80843002,
+          2.00685668
+        ],
+        "9": [
+          -1.03574681,
+          -5.64345026,
+          2.1237359,
+          0.13265704
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 5610216,
+      "trajectory_index": 262,
+      "visibility_mask": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 16,
+      "visible_cell_ids": [
+        0,
+        2,
+        3,
+        5,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        20,
+        21,
+        22,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "camera_center": [
+        4.89126396,
+        -3.05975819,
+        5.61300611
+      ],
+      "camera_id": "viser_000392",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "6eb3aad29b790e3b",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 9,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "10": 1.97938037,
+        "11": 5.63980818,
+        "15": 1.96874893,
+        "16": 2.24164152,
+        "17": 5.78859615,
+        "21": 4.15563631,
+        "22": 5.4483366,
+        "23": 4.67790937,
+        "27": 5.87893152,
+        "28": 6.16768026,
+        "29": 7.24291945,
+        "3": 5.45695257,
+        "33": 8.13532257,
+        "34": 8.18106174,
+        "4": 6.22158909,
+        "5": 4.22950888,
+        "9": 1.71874106
+      },
+      "per_visible_cell_projected_box": {
+        "10": [
+          -1.06188309,
+          -1.96314967,
+          3.08899307,
+          9.03045273
+        ],
+        "11": [
+          0.20339741,
+          -0.79407477,
+          0.73286533,
+          0.14906657
+        ],
+        "15": [
+          -9.25292301,
+          0.57430357,
+          -0.11693188,
+          28.52845764
+        ],
+        "16": [
+          -2.11482406,
+          -2.24693346,
+          0.62650764,
+          3.19539165
+        ],
+        "17": [
+          -0.2145932,
+          -0.94230437,
+          0.47818792,
+          -0.02054624
+        ],
+        "21": [
+          -2.31790352,
+          0.22217688,
+          -0.45156312,
+          2.8491869
+        ],
+        "22": [
+          -1.12342858,
+          -0.98421025,
+          -0.19184525,
+          0.67636162
+        ],
+        "23": [
+          -0.94593203,
+          -1.81798041,
+          -0.07436236,
+          -0.36122715
+        ],
+        "27": [
+          -2.37442398,
+          -0.43159947,
+          -0.79657638,
+          1.65206623
+        ],
+        "28": [
+          -1.70231974,
+          -1.45753992,
+          -0.5195843,
+          0.29170501
+        ],
+        "29": [
+          -0.91089547,
+          -1.43235624,
+          -0.46568534,
+          -0.80329305
+        ],
+        "3": [
+          0.09421236,
+          0.53056657,
+          1.21158469,
+          3.85120702
+        ],
+        "33": [
+          -2.74146795,
+          -1.69510531,
+          -0.99195325,
+          0.88123262
+        ],
+        "34": [
+          -2.03735447,
+          -1.63184977,
+          -0.93632257,
+          -0.18294954
+        ],
+        "4": [
+          0.39944848,
+          -0.45524737,
+          1.0790565,
+          1.6456145
+        ],
+        "5": [
+          0.15214345,
+          -6.86090279,
+          16.53311729,
+          11.61031532
+        ],
+        "9": [
+          -6.5797286,
+          0.78563821,
+          3.46106935,
+          24.22965813
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 5280952,
+      "trajectory_index": 392,
+      "visibility_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "visible_cell_count": 17,
+      "visible_cell_ids": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        33,
+        34
+      ]
+    },
+    {
+      "camera_center": [
+        3.38860774,
+        2.1741302,
+        3.78540802
+      ],
+      "camera_id": "viser_000523",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "87fa1a1e9d4eef89",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 21,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        4,
+        8,
+        8,
+        8,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        4,
+        4,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 13.94907665,
+        "20": 3.94531345,
+        "21": 1.79760373,
+        "22": 3.10379243,
+        "26": 4.12049246,
+        "27": 2.48560071,
+        "28": 2.79607701,
+        "29": 4.96758556,
+        "33": 4.00924206,
+        "34": 3.18756604,
+        "5": 8.47902107
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          -9.02277946,
+          -0.14407617,
+          -0.91878968,
+          9.50548553
+        ],
+        "20": [
+          -3.43462586,
+          -0.7779786,
+          -0.90877914,
+          2.000597
+        ],
+        "21": [
+          -4.44139433,
+          0.08538357,
+          -0.18810853,
+          6.54940462
+        ],
+        "22": [
+          -0.72334754,
+          0.66467482,
+          1.08493876,
+          3.98077941
+        ],
+        "26": [
+          -2.56073308,
+          -2.2814374,
+          -0.5604741,
+          0.21348219
+        ],
+        "27": [
+          -1.76385713,
+          -1.84576571,
+          0.31819755,
+          1.45696545
+        ],
+        "28": [
+          -0.3616519,
+          -0.78188401,
+          1.59196699,
+          2.52856874
+        ],
+        "29": [
+          0.82574099,
+          0.48745936,
+          1.464064,
+          1.94864428
+        ],
+        "33": [
+          -0.81616157,
+          -3.36206436,
+          1.55483496,
+          0.15734638
+        ],
+        "34": [
+          0.1666117,
+          -2.16608,
+          1.55653703,
+          0.22854756
+        ],
+        "5": [
+          -0.3688212,
+          0.9644897,
+          0.92343223,
+          3.29878044
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 3850747,
+      "trajectory_index": 523,
+      "visibility_mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "visible_cell_count": 11,
+      "visible_cell_ids": [
+        0,
+        5,
+        20,
+        21,
+        22,
+        26,
+        27,
+        28,
+        29,
+        33,
+        34
+      ]
+    },
+    {
+      "camera_center": [
+        -1.15589786,
+        4.3991065,
+        3.03127766
+      ],
+      "camera_id": "viser_000654",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "c9d9e66bdda76ff1",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 31,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        4,
+        2,
+        3,
+        8,
+        8,
+        8,
+        4,
+        2,
+        0,
+        8,
+        8,
+        7,
+        4,
+        2,
+        0,
+        8,
+        8,
+        8,
+        3,
+        0,
+        0,
+        8,
+        8,
+        8,
+        3,
+        0,
+        0,
+        8,
+        8,
+        6,
+        3,
+        0,
+        0
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 12.65092564,
+        "12": 7.36134529,
+        "13": 6.0515995,
+        "18": 5.52014303,
+        "19": 3.98739839,
+        "24": 4.92156458,
+        "25": 2.3272481,
+        "26": 2.52390099,
+        "30": 5.09198952,
+        "31": 2.25880766,
+        "32": 2.57028723
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          -2.43455243,
+          -1.24286139,
+          -0.35178417,
+          0.95185912
+        ],
+        "12": [
+          -1.43131387,
+          -1.13953352,
+          -0.49302459,
+          -0.44405985
+        ],
+        "13": [
+          -2.48017621,
+          -0.71175951,
+          -0.89673531,
+          0.53180492
+        ],
+        "18": [
+          -0.9867776,
+          -1.15034676,
+          -0.13659644,
+          -0.29495111
+        ],
+        "19": [
+          -2.04210997,
+          -0.75944149,
+          -0.46446928,
+          0.85665435
+        ],
+        "24": [
+          -0.5230431,
+          -0.90678954,
+          0.26203546,
+          -0.11574508
+        ],
+        "25": [
+          -1.51313365,
+          -0.83130872,
+          -0.00693231,
+          1.20430338
+        ],
+        "26": [
+          -7.41457939,
+          0.08366677,
+          -0.21025372,
+          22.236763
+        ],
+        "30": [
+          -0.00709249,
+          -0.55967373,
+          0.08429132,
+          -0.18278375
+        ],
+        "31": [
+          -0.34317434,
+          -1.08771658,
+          1.83691776,
+          1.41884875
+        ],
+        "32": [
+          -1.46540678,
+          -0.5777635,
+          7.04338837,
+          18.40781784
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 4508369,
+      "trajectory_index": 654,
+      "visibility_mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 11,
+      "visible_cell_ids": [
+        0,
+        12,
+        13,
+        18,
+        19,
+        24,
+        25,
+        26,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "camera_center": [
+        -4.47613859,
+        -0.47052997,
+        2.48212051
+      ],
+      "camera_id": "viser_000785",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "ff442065e0c54a55",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 19,
+      "per_cell_valid_front_corner_count": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        5,
+        8,
+        8,
+        8,
+        8,
+        8,
+        2,
+        6,
+        8,
+        8,
+        8,
+        8,
+        0,
+        3,
+        6,
+        8,
+        8,
+        8,
+        0,
+        0,
+        2,
+        6,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 7.17107725,
+        "1": 5.78423882,
+        "10": 8.2902441,
+        "11": 11.54870796,
+        "13": 2.30014253,
+        "14": 2.37961411,
+        "15": 5.45972204,
+        "16": 7.82261133,
+        "17": 11.23766041,
+        "19": 2.03263593,
+        "2": 5.72081184,
+        "20": 2.61814499,
+        "21": 5.00440216,
+        "22": 7.83672523,
+        "3": 7.27605343,
+        "4": 9.73681355,
+        "5": 12.24706936,
+        "7": 3.26884699,
+        "8": 3.24549031,
+        "9": 5.97391176
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          0.66247839,
+          -0.35599443,
+          5.74179411,
+          10.3644352
+        ],
+        "1": [
+          0.44675577,
+          -0.18548983,
+          0.62439972,
+          -0.02326845
+        ],
+        "10": [
+          -1.02024376,
+          -2.07953215,
+          -0.24628359,
+          0.09500654
+        ],
+        "11": [
+          -0.83366555,
+          -0.69872123,
+          -0.53105158,
+          -0.50094455
+        ],
+        "13": [
+          -0.57750183,
+          0.00738699,
+          2.01658654,
+          6.08203936
+        ],
+        "14": [
+          -1.12304306,
+          -1.05619276,
+          0.03159951,
+          1.27040911
+        ],
+        "15": [
+          -1.69178164,
+          -3.46506333,
+          -0.33506787,
+          0.69314879
+        ],
+        "16": [
+          -1.47537529,
+          -2.07372737,
+          -0.49890104,
+          0.41104519
+        ],
+        "17": [
+          -1.14923072,
+          -0.63974684,
+          -0.65225899,
+          -0.39813247
+        ],
+        "19": [
+          -3.05252171,
+          0.44112611,
+          2.60591125,
+          6.72118187
+        ],
+        "2": [
+          -0.01704231,
+          -0.46276027,
+          0.70684034,
+          0.01520144
+        ],
+        "20": [
+          -3.19418311,
+          -0.46465084,
+          -0.49055934,
+          2.65514922
+        ],
+        "21": [
+          -2.62750316,
+          -1.1414026,
+          -0.75861424,
+          1.14757347
+        ],
+        "22": [
+          -1.85356379,
+          -0.64470619,
+          -0.96670491,
+          0.29871225
+        ],
+        "3": [
+          -0.4521445,
+          -0.80931294,
+          0.19117676,
+          -0.23014271
+        ],
+        "4": [
+          -0.58077335,
+          -0.71669197,
+          -0.16557185,
+          -0.50393969
+        ],
+        "5": [
+          -1.05562937,
+          -1.22452688,
+          0.41722393,
+          1.65886426
+        ],
+        "7": [
+          0.02706061,
+          -0.35689944,
+          1.63847852,
+          1.68314803
+        ],
+        "8": [
+          -0.45894858,
+          -0.99988014,
+          0.53696245,
+          0.73038703
+        ],
+        "9": [
+          -0.89494085,
+          -2.61309624,
+          -0.01468438,
+          0.22089502
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 5859660,
+      "trajectory_index": 785,
+      "visibility_mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 20,
+      "visible_cell_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "camera_center": [
+        2.81465411,
+        0.72900122,
+        2.67526317
+      ],
+      "camera_id": "viser_000916",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "fd992160e4d68fe0",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 21,
+      "per_cell_valid_front_corner_count": [
+        1,
+        0,
+        4,
+        8,
+        8,
+        8,
+        0,
+        0,
+        3,
+        6,
+        8,
+        8,
+        0,
+        0,
+        1,
+        5,
+        8,
+        8,
+        0,
+        0,
+        0,
+        4,
+        8,
+        8,
+        0,
+        0,
+        0,
+        3,
+        6,
+        8,
+        0,
+        0,
+        0,
+        4,
+        5,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "10": 4.14962769,
+        "11": 5.95870066,
+        "15": 2.65962124,
+        "16": 2.24505115,
+        "17": 4.8006115,
+        "21": 0.50151294,
+        "22": 1.94565594,
+        "23": 3.93476748,
+        "28": 1.48573387,
+        "29": 4.57083893,
+        "3": 6.90901613,
+        "4": 6.79016161,
+        "5": 7.38207579
+      },
+      "per_visible_cell_projected_box": {
+        "10": [
+          0.39049074,
+          -3.60165381,
+          3.02207088,
+          2.81837082
+        ],
+        "11": [
+          0.2238441,
+          0.11896316,
+          0.73813909,
+          0.55800891
+        ],
+        "15": [
+          0.82405376,
+          -9.97941971,
+          10.08044624,
+          17.55304909
+        ],
+        "16": [
+          0.01736894,
+          -5.48920631,
+          2.79991198,
+          4.20818424
+        ],
+        "17": [
+          -0.10337512,
+          0.22651671,
+          0.58904397,
+          0.74477386
+        ],
+        "21": [
+          -1.77898741,
+          -0.0773882,
+          1.65386033,
+          6.48783493
+        ],
+        "22": [
+          -1.26761746,
+          0.3495594,
+          1.17755461,
+          6.94795799
+        ],
+        "23": [
+          -0.9390589,
+          -0.18664169,
+          0.0246774,
+          1.57033217
+        ],
+        "28": [
+          -1.9170078,
+          0.31399131,
+          -0.47566172,
+          6.21941185
+        ],
+        "29": [
+          -1.49847746,
+          0.60777557,
+          -0.6176368,
+          1.40136182
+        ],
+        "3": [
+          0.96151817,
+          0.10484513,
+          8.97858524,
+          5.18972063
+        ],
+        "4": [
+          0.49844405,
+          0.09518206,
+          1.87764001,
+          1.03814626
+        ],
+        "5": [
+          -0.22176592,
+          -0.58621955,
+          1.89838767,
+          4.01851082
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 3248918,
+      "trajectory_index": 916,
+      "visibility_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 13,
+      "visible_cell_ids": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        28,
+        29
+      ]
+    },
+    {
+      "camera_center": [
+        4.54125643,
+        -2.28293705,
+        3.23347354
+      ],
+      "camera_id": "viser_001047",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "55bdd71caf93204a",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 9,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        7,
+        5,
+        4,
+        8,
+        8,
+        8,
+        6,
+        4,
+        1,
+        8,
+        8,
+        6,
+        3,
+        1,
+        0,
+        8,
+        6,
+        2,
+        0,
+        0,
+        0
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 12.59994888,
+        "1": 8.38165188,
+        "10": 1.97769046,
+        "14": 4.21781874,
+        "15": 2.11040115,
+        "16": 1.87364805,
+        "2": 6.05155468,
+        "21": 2.03990984,
+        "3": 4.1802249,
+        "4": 4.63609457,
+        "5": 3.94794059,
+        "7": 7.21236753,
+        "8": 4.27978659,
+        "9": 1.87059581
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          0.03073553,
+          -0.96415436,
+          1.23230112,
+          1.0406791
+        ],
+        "1": [
+          0.54327315,
+          -0.44140702,
+          0.70038825,
+          -0.32524446
+        ],
+        "10": [
+          -7.41535282,
+          -8.87770748,
+          2.01025963,
+          3.92632246
+        ],
+        "14": [
+          0.74733621,
+          -0.87486547,
+          3.09484363,
+          1.69993591
+        ],
+        "15": [
+          0.2263951,
+          -18.87923813,
+          22.78634644,
+          3.51868343
+        ],
+        "16": [
+          -0.9286468,
+          -4.09592962,
+          0.84521759,
+          9.49420166
+        ],
+        "2": [
+          0.12470324,
+          -0.51499456,
+          0.71775669,
+          -0.03662745
+        ],
+        "21": [
+          0.99421597,
+          -0.08517209,
+          9.92697525,
+          11.09046745
+        ],
+        "3": [
+          -1.06293738,
+          -0.54917675,
+          0.328545,
+          1.07014763
+        ],
+        "4": [
+          -2.90819883,
+          0.06910469,
+          -0.26096508,
+          2.44904542
+        ],
+        "5": [
+          -14.00372887,
+          -1.37249529,
+          -0.26403013,
+          9.66479588
+        ],
+        "7": [
+          0.63736022,
+          -0.67186689,
+          1.42411292,
+          0.10857213
+        ],
+        "8": [
+          0.27686533,
+          -0.96735001,
+          1.44888937,
+          0.82917064
+        ],
+        "9": [
+          -0.62449408,
+          -3.72319174,
+          2.19699407,
+          1.81573081
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 3732057,
+      "trajectory_index": 1047,
+      "visibility_mask": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 14,
+      "visible_cell_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        21
+      ]
+    },
+    {
+      "camera_center": [
+        2.12807751,
+        -3.73629904,
+        2.98518682
+      ],
+      "camera_id": "viser_001177",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "450ffd3405e9ecfc",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": true,
+      "nearest_cell_id": 16,
+      "per_cell_valid_front_corner_count": [
+        8,
+        8,
+        8,
+        4,
+        0,
+        0,
+        8,
+        8,
+        8,
+        4,
+        0,
+        0,
+        8,
+        8,
+        8,
+        4,
+        0,
+        0,
+        8,
+        8,
+        8,
+        4,
+        0,
+        0,
+        8,
+        8,
+        8,
+        4,
+        0,
+        0,
+        8,
+        8,
+        6,
+        2,
+        0,
+        0
+      ],
+      "per_visible_cell_camera_distance": {
+        "0": 9.98303127,
+        "12": 8.00804424,
+        "13": 4.99079657,
+        "14": 1.92769313,
+        "15": 2.10797501,
+        "16": 1.57452631,
+        "18": 8.39408302,
+        "19": 5.5383029,
+        "24": 9.39150238,
+        "6": 8.1250782,
+        "7": 4.92844725,
+        "8": 2.03047633,
+        "9": 2.24841738
+      },
+      "per_visible_cell_projected_box": {
+        "0": [
+          -1.30989039,
+          0.3699114,
+          0.05013414,
+          3.74106097
+        ],
+        "12": [
+          0.20187958,
+          0.39844275,
+          0.66948611,
+          0.87223518
+        ],
+        "13": [
+          0.28042197,
+          0.65878218,
+          1.06859243,
+          1.61319351
+        ],
+        "14": [
+          0.41072193,
+          0.32154071,
+          3.05496597,
+          6.53240681
+        ],
+        "15": [
+          0.74888855,
+          -3.29646611,
+          3.22447348,
+          7.61461496
+        ],
+        "16": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "18": [
+          0.51025778,
+          0.38154432,
+          1.22245991,
+          0.97881025
+        ],
+        "19": [
+          0.66748548,
+          0.60179543,
+          1.95676577,
+          1.94069612
+        ],
+        "24": [
+          0.9168067,
+          0.51926649,
+          1.82181168,
+          1.11814165
+        ],
+        "6": [
+          0.04538158,
+          0.62951785,
+          0.27792817,
+          0.83442253
+        ],
+        "7": [
+          -0.23098992,
+          0.5751937,
+          0.41481695,
+          1.55163753
+        ],
+        "8": [
+          -0.9237318,
+          0.36965147,
+          0.79556537,
+          5.35776901
+        ],
+        "9": [
+          -0.95552611,
+          -2.47009063,
+          0.83312273,
+          5.52152205
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 4862459,
+      "trajectory_index": 1177,
+      "visibility_mask": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "visible_cell_count": 13,
+      "visible_cell_ids": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        24
+      ]
+    },
+    {
+      "camera_center": [
+        -1.29598391,
+        -5.66171694,
+        5.17788935
+      ],
+      "camera_id": "viser_001308",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "383e9380827e1d00",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 9,
+      "per_cell_valid_front_corner_count": [
+        5,
+        8,
+        8,
+        7,
+        8,
+        3,
+        8,
+        8,
+        8,
+        7,
+        6,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "12": 6.54747963,
+        "13": 5.34591579,
+        "14": 4.04303598,
+        "15": 3.25162506,
+        "16": 5.19432497,
+        "18": 7.65456963,
+        "19": 6.44876671,
+        "20": 6.08302069,
+        "21": 5.69559956,
+        "22": 7.78008795,
+        "24": 9.23808384,
+        "25": 7.83985186,
+        "26": 7.90688658,
+        "27": 7.77341366,
+        "28": 8.92544651,
+        "30": 11.13860416,
+        "31": 9.96068478,
+        "32": 10.11592007,
+        "33": 10.27228451,
+        "34": 11.19615746,
+        "35": 13.05398369,
+        "8": 3.38121724,
+        "9": 1.89063883
+      },
+      "per_visible_cell_projected_box": {
+        "12": [
+          -1.98303854,
+          0.39854208,
+          -0.61313838,
+          1.57641685
+        ],
+        "13": [
+          -0.96725667,
+          0.51519084,
+          -0.0507427,
+          1.52394283
+        ],
+        "14": [
+          -0.16770747,
+          0.10651682,
+          0.72461337,
+          1.76033163
+        ],
+        "15": [
+          0.40229753,
+          -0.87293017,
+          2.77236581,
+          2.0714047
+        ],
+        "16": [
+          0.85113835,
+          -0.5137583,
+          5.44827461,
+          2.58175564
+        ],
+        "18": [
+          -1.24573004,
+          -0.04863859,
+          -0.40715507,
+          0.68061644
+        ],
+        "19": [
+          -0.65366983,
+          0.06899951,
+          0.00022229,
+          0.78796583
+        ],
+        "20": [
+          -0.05642076,
+          0.02870505,
+          0.50147367,
+          0.92368019
+        ],
+        "21": [
+          0.36547682,
+          -0.21025234,
+          1.23851264,
+          1.1607163
+        ],
+        "22": [
+          0.77441823,
+          0.21897922,
+          1.89676905,
+          1.16071093
+        ],
+        "24": [
+          -0.69021827,
+          -0.24142732,
+          -0.29124895,
+          0.31635368
+        ],
+        "25": [
+          -0.49086517,
+          -0.22524373,
+          0.0341439,
+          0.42695236
+        ],
+        "26": [
+          -0.05468315,
+          -0.18508682,
+          0.41726854,
+          0.50703645
+        ],
+        "27": [
+          0.33542469,
+          -0.25557789,
+          0.96389788,
+          0.57077712
+        ],
+        "28": [
+          0.66107041,
+          -0.15421411,
+          1.5145725,
+          0.61610472
+        ],
+        "30": [
+          -0.3952069,
+          -0.12960179,
+          -0.3178415,
+          0.03540807
+        ],
+        "31": [
+          -0.50218689,
+          -0.48925716,
+          0.03330277,
+          0.08492418
+        ],
+        "32": [
+          -0.23458506,
+          -0.4728297,
+          0.36633781,
+          0.06195601
+        ],
+        "33": [
+          0.29803044,
+          -0.39335725,
+          1.07165825,
+          0.17816612
+        ],
+        "34": [
+          0.59816641,
+          -0.30498195,
+          1.11716235,
+          0.21197239
+        ],
+        "35": [
+          0.9442516,
+          -0.1608932,
+          1.60064816,
+          0.24935354
+        ],
+        "8": [
+          -0.78699124,
+          0.76931852,
+          1.48534858,
+          4.09826422
+        ],
+        "9": [
+          0.49453032,
+          -0.59733945,
+          10.01455879,
+          5.22169733
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 9846344,
+      "trajectory_index": 1308,
+      "visibility_mask": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "visible_cell_count": 23,
+      "visible_cell_ids": [
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "camera_center": [
+        -3.86565399,
+        -9.21825027,
+        7.23918867
+      ],
+      "camera_id": "viser_001439",
+      "cell_bound_checksum": "f07d6a3f5888fd68",
+      "fov_x_radians": 1.38434072,
+      "fov_y_radians": 0.87266466,
+      "full_projection_matrix_checksum": "c2adbf68618f8774",
+      "image_size": [
+        1920,
+        1080
+      ],
+      "nearest_cell_fallback_changed_mask": false,
+      "nearest_cell_id": 9,
+      "per_cell_valid_front_corner_count": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "per_visible_cell_camera_distance": {
+        "1": 7.84731483,
+        "10": 8.42589569,
+        "11": 13.2066555,
+        "12": 8.81143188,
+        "13": 9.16120052,
+        "14": 8.14415169,
+        "15": 8.02187824,
+        "16": 9.75588131,
+        "17": 13.61308289,
+        "18": 10.5690527,
+        "19": 10.56277847,
+        "2": 7.5657382,
+        "20": 10.24179077,
+        "21": 10.46935654,
+        "22": 12.57137966,
+        "23": 14.32835102,
+        "24": 12.44152546,
+        "25": 12.01320839,
+        "26": 12.00315857,
+        "27": 12.46212482,
+        "28": 13.77125263,
+        "29": 16.4081955,
+        "3": 7.96630096,
+        "30": 14.51265621,
+        "31": 14.03444672,
+        "32": 14.05592823,
+        "33": 14.86883831,
+        "34": 16.01135826,
+        "35": 17.88441467,
+        "4": 10.56896782,
+        "5": 12.01950741,
+        "6": 8.49062729,
+        "7": 7.79152775,
+        "8": 6.55238199,
+        "9": 6.30858326
+      },
+      "per_visible_cell_projected_box": {
+        "1": [
+          -0.08991162,
+          0.58984137,
+          0.02878249,
+          0.83112204
+        ],
+        "10": [
+          0.41634172,
+          -1.22402787,
+          1.414518,
+          0.39404804
+        ],
+        "11": [
+          0.75950414,
+          -0.41562122,
+          1.09585857,
+          -0.07645231
+        ],
+        "12": [
+          -1.27105629,
+          -0.08723468,
+          -0.50791121,
+          0.85346562
+        ],
+        "13": [
+          -0.56204391,
+          -0.24989152,
+          -0.07831139,
+          0.36939529
+        ],
+        "14": [
+          -0.18634488,
+          -0.67929262,
+          0.24550119,
+          0.21646076
+        ],
+        "15": [
+          0.09830283,
+          -1.32658327,
+          0.66866636,
+          0.15289406
+        ],
+        "16": [
+          0.30586383,
+          -1.25656819,
+          1.02073586,
+          0.12322436
+        ],
+        "17": [
+          0.60300612,
+          -0.58219701,
+          0.94923246,
+          -0.21185166
+        ],
+        "18": [
+          -1.12271583,
+          -0.4637751,
+          -0.53367776,
+          0.25868246
+        ],
+        "19": [
+          -0.58994263,
+          -0.53582984,
+          -0.15606321,
+          0.03510059
+        ],
+        "2": [
+          -0.11479685,
+          0.33445448,
+          0.49546865,
+          1.03010345
+        ],
+        "20": [
+          -0.23303871,
+          -0.69711143,
+          0.11762046,
+          -0.10698305
+        ],
+        "21": [
+          0.02663617,
+          -0.96477342,
+          0.40176508,
+          -0.1386794
+        ],
+        "22": [
+          0.2300804,
+          -0.8037141,
+          0.63497651,
+          -0.33166197
+        ],
+        "23": [
+          0.43174839,
+          -1.00201166,
+          0.770684,
+          -0.37946984
+        ],
+        "24": [
+          -0.79685235,
+          -0.68357968,
+          -0.54601067,
+          -0.14275737
+        ],
+        "25": [
+          -0.61273104,
+          -0.7704705,
+          -0.20863225,
+          -0.18675894
+        ],
+        "26": [
+          -0.31581587,
+          -0.83504355,
+          0.03014486,
+          -0.29474476
+        ],
+        "27": [
+          -0.05539045,
+          -0.98405647,
+          0.29677907,
+          -0.40813816
+        ],
+        "28": [
+          0.14478053,
+          -0.99699974,
+          0.52324075,
+          -0.51493591
+        ],
+        "29": [
+          0.38700804,
+          -0.83832902,
+          0.56973618,
+          -0.68518305
+        ],
+        "3": [
+          0.35880879,
+          -0.10983963,
+          1.21656668,
+          0.86368865
+        ],
+        "30": [
+          -0.64093214,
+          -0.58849359,
+          -0.56499463,
+          -0.43586835
+        ],
+        "31": [
+          -0.76782185,
+          -1.01161325,
+          -0.29299012,
+          -0.39791426
+        ],
+        "32": [
+          -0.5384683,
+          -1.07112992,
+          -0.05094879,
+          -0.52727431
+        ],
+        "33": [
+          -0.15352896,
+          -1.11819172,
+          0.34278467,
+          -0.64342856
+        ],
+        "34": [
+          0.07699541,
+          -1.07499039,
+          0.36431095,
+          -0.70062578
+        ],
+        "35": [
+          0.28059208,
+          -1.05131745,
+          0.57495612,
+          -0.7855168
+        ],
+        "4": [
+          0.69491029,
+          -0.14982758,
+          1.29483795,
+          0.37192446
+        ],
+        "5": [
+          0.37446317,
+          -1.20414448,
+          13.94998837,
+          3.60709095
+        ],
+        "6": [
+          -0.66663963,
+          0.33776569,
+          -0.4918943,
+          0.79405373
+        ],
+        "7": [
+          -0.55218577,
+          -0.00773545,
+          0.02426708,
+          0.86646688
+        ],
+        "8": [
+          -0.15027978,
+          -0.40251246,
+          0.44679514,
+          0.71719134
+        ],
+        "9": [
+          0.19173869,
+          -1.17198944,
+          1.06972873,
+          0.49519011
+        ]
+      },
+      "projection_matrix_checksum": "7a2e7a99d1c0861e",
+      "selected_gaussian_count": 11694702,
+      "trajectory_index": 1439,
+      "visibility_mask": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "visible_cell_count": 35,
+      "visible_cell_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    }
+  ]
+}

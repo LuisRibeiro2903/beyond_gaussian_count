@@ -1,0 +1,25 @@
+{
+  "all_ext_diagnostic_timing_columns_present": true,
+  "all_required_timing_columns_present": true,
+  "balanced_execution_schedule_exact": true,
+  "bounded_zero_evictions": true,
+  "camera_order_exact_across_modes_and_replicates": true,
+  "campaign_id": "ALOD-EXT-NATURAL-PREVIOUS-COMPLETION-001",
+  "correctness_reused_from_byte_exact_post_multiset_natural_regression": true,
+  "dataset_count": 2,
+  "frozen_asset_camera_and_oracle_hashes_exact": true,
+  "frozen_protocol_and_implementation_hashes_exact": true,
+  "measured_frames": {
+    "campus": 216,
+    "sciart": 189
+  },
+  "mode_count_per_dataset": 3,
+  "protocol_frozen_before_runs": true,
+  "replicates_per_mode": 3,
+  "resolved_policy_and_capacity_exact": true,
+  "status": "PASS-PACKAGE-VALIDATION",
+  "warmup_frames": {
+    "campus": 90,
+    "sciart": 90
+  }
+}

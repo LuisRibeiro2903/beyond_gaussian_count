@@ -1,0 +1,197 @@
+{
+  "asset": {
+    "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+    "assets": [
+      {
+        "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+        "checkpoint_type": "gaussian_ply",
+        "file_size_bytes": 1917949848,
+        "identifier": "point_cloud.ply",
+        "level_index": 0,
+        "level_label": "light_50_vq",
+        "path_resolved": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+        "path_supplied": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+        "ply_vertex_count": 11694810,
+        "training_source": "author-provided"
+      },
+      {
+        "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+        "checkpoint_type": "gaussian_ply",
+        "file_size_bytes": 1304206251,
+        "identifier": "point_cloud.ply",
+        "level_index": 1,
+        "level_label": "light_66_vq",
+        "path_resolved": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+        "path_supplied": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+        "ply_vertex_count": 7952471,
+        "training_source": "author-provided"
+      },
+      {
+        "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+        "checkpoint_type": "gaussian_ply",
+        "file_size_bytes": 958975427,
+        "identifier": "point_cloud.ply",
+        "level_index": 2,
+        "level_label": "light_75_vq",
+        "path_resolved": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply",
+        "path_supplied": "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply",
+        "ply_vertex_count": 5847405,
+        "training_source": "author-provided"
+      }
+    ],
+    "checkpoint_type": "citygaussian_lod_ply_bundle",
+    "file_size_bytes": 4181131526,
+    "identifier": "point_cloud.ply+point_cloud.ply+point_cloud.ply",
+    "path_resolved": [
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply"
+    ],
+    "path_supplied": [
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_50_vq/point_cloud.ply",
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_66_vq/point_cloud.ply",
+      "/home/luis/tese/mc_aerial_c36/LoD/mc_aerial_c36_light_75_vq/point_cloud.ply"
+    ],
+    "ply_vertex_count": 25494686,
+    "training_source": "author-provided"
+  },
+  "camera_path": {
+    "camera_matrix_convention": "source camera_to_world is a Viser/nerfview export; runtime conversion flips camera Y/Z axes and multiplies translation by scale_ratio",
+    "conversion_required": true,
+    "coordinate_system": "scene-compatible after deterministic Viser export conversion",
+    "default_fov_degrees": 50.0,
+    "fps": 30.0,
+    "frame_count": 1440,
+    "interpolation_already_exists": true,
+    "is_cycle": false,
+    "keyframe_count": 25,
+    "projection": "vertical_fov_to_pinhole_intrinsics",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scale_ratio": 10.0,
+    "seconds": 48.0,
+    "source_file": "/home/luis/tese/.citygs_canonical_worktree/benchmarks/camera_paths/citygaussian_23m_navigation_v1.json",
+    "source_format": "viser_camera_path"
+  },
+  "configuration": {
+    "aabb": [
+      -3.5,
+      -4.0,
+      -10.0,
+      4.5,
+      2.0,
+      10.0
+    ],
+    "asset_env_vars": {
+      "coarsest": "GS_FRAMEWORK_CG_LOD_RELEASE_COARSEST_ASSET",
+      "finest": "GS_FRAMEWORK_CG_LOD_RELEASE_FINEST_ASSET",
+      "middle": "GS_FRAMEWORK_CG_LOD_RELEASE_MIDDLE_ASSET"
+    },
+    "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+    "background": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "block_dim": [
+      6,
+      6,
+      1
+    ],
+    "camera_model": "pinhole",
+    "camera_path": "../camera_paths/citygaussian_23m_navigation_v1.json",
+    "checkpoint_type": "citygaussian_lod_ply_bundle",
+    "configuration_id": "CG-LOD-RELEASE",
+    "description": "Released CityGaussian V1 Nyquist adaptive LoD over official visibility and three fully resident released PLY levels.",
+    "disabled_runtime_components": [
+      "paper_fixed_distance_lod",
+      "host_residency",
+      "gpu_cache",
+      "hierarchy",
+      "streaming",
+      "vq_reconstruction",
+      "custom_project_partition",
+      "flashgs"
+    ],
+    "eps2d": 0.3,
+    "far_plane": 10000000000.0,
+    "height": 1080,
+    "lod_level_order": [
+      "light_50_vq",
+      "light_66_vq",
+      "light_75_vq"
+    ],
+    "lod_level_semantics": [
+      "finest",
+      "middle",
+      "coarsest"
+    ],
+    "lod_policy": "CG-LOD-RELEASE",
+    "mad_multiplier": 4.0,
+    "measured_frames": 1440,
+    "near_plane": 0.01,
+    "num_repeat": 1,
+    "output_policy": {
+      "write_frames_jsonl": true,
+      "write_images": false,
+      "write_resolved_config_json": true,
+      "write_summary_json": true
+    },
+    "packed": false,
+    "radius_clip": 0.0,
+    "rasterize_mode": "classic",
+    "record_kind_default": "benchmark_validation",
+    "render_mode": "RGB",
+    "repetition_index": 1,
+    "representation_type": "citygaussian_official_cells_release_lod",
+    "scene_type": "citygaussian_lod_release",
+    "sh_degree": 2,
+    "timing_policy": {
+      "cuda_events": true,
+      "cuda_synchronize": true,
+      "end_to_end_boundary": "synchronized prepare_frame plus synchronized GsplatRenderer.render call",
+      "first_frame_initialization_excluded_by_warmup": true
+    },
+    "training_source": "author-provided",
+    "trajectory_id": "citygaussian_23m_navigation_v1",
+    "trajectory_notes": "Same frozen trajectory as CG-FIXED-FINEST-VISIBILITY.",
+    "trajectory_source": "results/camera_paths/realmc_aerial_nav_v1.json",
+    "visibility_bounds_level": "light_75_vq",
+    "warmup_frames": 1,
+    "width": 1920
+  },
+  "integrity": {
+    "adaptive_lod_used": true,
+    "all_loaded_gaussians_active": null,
+    "all_loaded_gaussians_active_expected": false,
+    "all_loaded_gaussians_resident_expected": true,
+    "block_manager_used": false,
+    "citygaussian_cell_construction_used": true,
+    "citygaussian_runtime_selection_used": true,
+    "citygaussian_visibility_selection_used": true,
+    "flat_scene_requested": false,
+    "gsplat_renderer_used": true,
+    "hierarchy_traversal_used": false,
+    "host_residency_used": false,
+    "lod_selection_used": true,
+    "paper_lod_policy_used": false,
+    "scene_type_citygaussian_fixed_all": false,
+    "scene_type_citygaussian_lod_release": true,
+    "scene_type_citygaussian_visibility": false,
+    "scene_type_flat": false,
+    "streaming_used": false,
+    "vq_reconstruction_used": false
+  },
+  "max_frames": 1440,
+  "num_repeat": 1,
+  "provenance": {
+    "configuration_sha256": "bda63e7ae0acc24c37f3d5d067ce9a78669fffe7c9a2b2a31c42031edaa4b775",
+    "trajectory_file_sha256": "c20ea29cfacd8331a808eec08840cf814d908de7e7e2f8715763b89d5e1605b9"
+  },
+  "record_kind": "formal_benchmark",
+  "repetition_index": 1,
+  "schema_version": 2,
+  "warmup_frames": 1
+}

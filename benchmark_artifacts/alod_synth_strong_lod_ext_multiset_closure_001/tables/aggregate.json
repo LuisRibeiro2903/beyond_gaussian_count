@@ -1,0 +1,804 @@
+{
+  "bounded_capacity_rows": 52454,
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "classification": "controlled synthetic positive-mechanism experiment and project-specific ordered-multiset ALOD-EXT",
+  "controlled_parent_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "correctness_status": "PASS-SYNTH-STRONG-LOD-EXT-MULTISET-CORRECTNESS",
+  "environment": {
+    "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+    "git_dirty": true,
+    "gpu": {
+      "available": false
+    },
+    "gsplat_version": "1.5.3",
+    "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+    "python_version": "3.12.12",
+    "timestamp_utc": "2026-09-26T10:28:22.578047+00:00",
+    "torch_cuda_version": "12.9",
+    "torch_version": "2.11.0.dev20260128+cu129"
+  },
+  "filtered_trajectory_union_rows": 49661,
+  "modes": {
+    "bounded": {
+      "cold_inclusive_dynamic_property_h2d_bytes": 13706436,
+      "cold_inclusive_dynamic_property_h2d_rows": 148983,
+      "counts": {
+        "alod_cache_eviction_count": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_cache_hit_count": {
+          "maximum": 25137.0,
+          "mean": 2161.88,
+          "median": 9.0,
+          "minimum": 1.0,
+          "p95": 12697.0
+        },
+        "alod_cache_miss_count": {
+          "maximum": 64.0,
+          "mean": 4.96,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 32.0
+        },
+        "alod_h2d_bytes": {
+          "maximum": 5888.0,
+          "mean": 456.32,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 2944.0
+        },
+        "alod_h2d_rows": {
+          "maximum": 64.0,
+          "mean": 4.96,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 32.0
+        },
+        "alod_materialization_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.72,
+          "median": 100004.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_semantic_selected_rows": {
+          "maximum": 125137.0,
+          "mean": 102167.12,
+          "median": 100033.0,
+          "minimum": 100004.0,
+          "p95": 112697.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 25137.0,
+          "mean": 2167.12,
+          "median": 33.0,
+          "minimum": 4.0,
+          "p95": 12697.0
+        }
+      },
+      "fps_from_mean_end_to_end": 65.95983457128085,
+      "inclusive_preparation_time_ms": {
+        "maximum": 149.57322999998723,
+        "mean": 12.418200266662703,
+        "median": 6.47524600003635,
+        "minimum": 5.432775000144829,
+        "p95": 14.219223999998569
+      },
+      "measured_frames": 75,
+      "multiset_counts": {
+        "alod_assembled_renderer_occurrence_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.72,
+          "median": 100004.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_duplicate_semantic_occurrences": {
+          "maximum": 1.0,
+          "mean": 0.28,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 1.0
+        },
+        "alod_unique_materialization_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.44,
+          "median": 100003.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_unique_semantic_rows": {
+          "maximum": 125137.0,
+          "mean": 102166.84,
+          "median": 100033.0,
+          "minimum": 100003.0,
+          "p95": 112697.0
+        }
+      },
+      "multiset_timings_ms": {
+        "alod_materialization_occurrence_propagation_ms": {
+          "maximum": 1.8231619999369286,
+          "mean": 0.8596664799915743,
+          "median": 0.9232799998244445,
+          "minimum": 0.47895300008349295,
+          "p95": 1.3193376999424795
+        },
+        "alod_materialization_unique_extraction_ms": {
+          "maximum": 5.78316300016013,
+          "mean": 1.2073708933288192,
+          "median": 0.972472999819729,
+          "minimum": 0.8731630000511359,
+          "p95": 1.758170700099981
+        },
+        "alod_occurrence_reindex_ms": {
+          "maximum": 0.3269019998697331,
+          "mean": 0.07832290668678372,
+          "median": 0.0011919998996745562,
+          "minimum": 0.0008220001745939953,
+          "p95": 0.2913894999437616
+        }
+      },
+      "relative_to_released_evaluator": {
+        "cold_inclusive_h2d_byte_reduction_fraction": 0.5402951086755285,
+        "frame_time_ratio": 0.857579366319261,
+        "frame_time_reduction_fraction": 0.14242063368073898,
+        "speedup": 1.16607283159343,
+        "steady_h2d_byte_reduction_fraction": 0.9977112481080882
+      },
+      "renderer_wall_time_ms": {
+        "maximum": 36.8823420001263,
+        "mean": 2.7150609200180043,
+        "median": 1.248364000048241,
+        "minimum": 1.0641389999364037,
+        "p95": 8.804451699893434
+      },
+      "replicate_count": 3,
+      "replicates": [
+        {
+          "mean_end_to_end_frame_time_ms": 15.255914600056713,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 14.968068119969757,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 15.258241720030128,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03"
+        }
+      ],
+      "semantic_selection_share_of_total": 0.026602420065026527,
+      "steady_dynamic_property_h2d_bytes": 34224,
+      "steady_dynamic_property_h2d_rows": 372,
+      "timings_ms": {
+        "alod_cache_management_ms": {
+          "maximum": 0.2090670000143291,
+          "mean": 0.05848786667229433,
+          "median": 0.04710600001089915,
+          "minimum": 0.042646999872886227,
+          "p95": 0.10845389992937271
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 140.0879719999466,
+          "mean": 5.424324906646992,
+          "median": 0.035818000014842255,
+          "minimum": 0.030280999908427475,
+          "p95": 0.3631819998190622
+        },
+        "alod_host_gather_ms": {
+          "maximum": 0.05826300002809148,
+          "mean": 0.030286306640239975,
+          "median": 0.02693300007194921,
+          "minimum": 0.02197699996031588,
+          "p95": 0.0485731000026135
+        },
+        "alod_materialization_filter_ms": {
+          "maximum": 13.523917000156871,
+          "mean": 4.753294973340114,
+          "median": 4.3197029999646475,
+          "minimum": 3.528744999812261,
+          "p95": 7.872315900044665
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 2.885795000111102,
+          "mean": 0.3432406666646178,
+          "median": 0.28046800002812233,
+          "minimum": 0.12582400017890905,
+          "p95": 0.601577500060556
+        },
+        "alod_residency_lookup_ms": {
+          "maximum": 0.28554699997584976,
+          "mean": 0.0398296533330722,
+          "median": 0.024319999965882744,
+          "minimum": 0.018720000070970855,
+          "p95": 0.10489770002095605
+        },
+        "alod_selected_gpu_gather_ms": {
+          "maximum": 0.3143999999792868,
+          "mean": 0.09303457334074967,
+          "median": 0.08930400008466677,
+          "minimum": 0.05740100004913984,
+          "p95": 0.13036649995683547
+        },
+        "alod_total_selection_ms": {
+          "maximum": 0.5930779998379876,
+          "mean": 0.40331241334873386,
+          "median": 0.38273900008789496,
+          "minimum": 0.35083800003121723,
+          "p95": 0.5520717001445519
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 152.0951069999228,
+          "mean": 15.160741480018865,
+          "median": 7.86407100008546,
+          "minimum": 6.699929999967935,
+          "p95": 38.28053900006123
+        },
+        "preparation_time_ms": {
+          "maximum": 149.61822500004018,
+          "mean": 12.445680560000861,
+          "median": 6.501175000039439,
+          "minimum": 5.458183999962785,
+          "p95": 14.242864600032583
+        },
+        "rasterization_time_ms": {
+          "maximum": 35.5280647277832,
+          "mean": 2.5538193384806314,
+          "median": 1.1600960493087769,
+          "minimum": 0.980288028717041,
+          "p95": 8.422192287445068
+        }
+      },
+      "warmup_dynamic_property_h2d_bytes": 13672212,
+      "warmup_dynamic_property_h2d_rows": 148611,
+      "warmup_frames": 30
+    },
+    "nocache": {
+      "cold_inclusive_dynamic_property_h2d_bytes": 29815728,
+      "cold_inclusive_dynamic_property_h2d_rows": 324084,
+      "counts": {
+        "alod_cache_eviction_count": {
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "p95": null
+        },
+        "alod_cache_hit_count": {
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "p95": null
+        },
+        "alod_cache_miss_count": {
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "p95": null
+        },
+        "alod_h2d_bytes": {
+          "maximum": 2312604.0,
+          "mean": 199375.04,
+          "median": 3036.0,
+          "minimum": 368.0,
+          "p95": 1168124.0
+        },
+        "alod_h2d_rows": {
+          "maximum": 25137.0,
+          "mean": 2167.12,
+          "median": 33.0,
+          "minimum": 4.0,
+          "p95": 12697.0
+        },
+        "alod_materialization_rows": {
+          "maximum": 125137.0,
+          "mean": 102167.12,
+          "median": 100033.0,
+          "minimum": 100004.0,
+          "p95": 112697.0
+        },
+        "alod_semantic_selected_rows": {
+          "maximum": 125137.0,
+          "mean": 102167.12,
+          "median": 100033.0,
+          "minimum": 100004.0,
+          "p95": 112697.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 25137.0,
+          "mean": 2167.12,
+          "median": 33.0,
+          "minimum": 4.0,
+          "p95": 12697.0
+        }
+      },
+      "fps_from_mean_end_to_end": 56.56579313416232,
+      "inclusive_preparation_time_ms": {
+        "maximum": 18.98634100007257,
+        "mean": 11.467512320001939,
+        "median": 10.84125700003824,
+        "minimum": 10.268863999954192,
+        "p95": 15.968359199905532
+      },
+      "measured_frames": 75,
+      "multiset_counts": {
+        "alod_assembled_renderer_occurrence_rows": {
+          "maximum": 125137.0,
+          "mean": 102167.12,
+          "median": 100033.0,
+          "minimum": 100004.0,
+          "p95": 112697.0
+        },
+        "alod_duplicate_semantic_occurrences": {
+          "maximum": 1.0,
+          "mean": 0.28,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 1.0
+        },
+        "alod_unique_materialization_rows": {
+          "maximum": 125137.0,
+          "mean": 102166.84,
+          "median": 100033.0,
+          "minimum": 100003.0,
+          "p95": 112697.0
+        },
+        "alod_unique_semantic_rows": {
+          "maximum": 125137.0,
+          "mean": 102166.84,
+          "median": 100033.0,
+          "minimum": 100003.0,
+          "p95": 112697.0
+        }
+      },
+      "multiset_timings_ms": {
+        "alod_materialization_occurrence_propagation_ms": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_materialization_unique_extraction_ms": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_occurrence_reindex_ms": {
+          "maximum": 0.0006640000265178969,
+          "mean": 0.0002903199977784728,
+          "median": 0.00027700002647179645,
+          "minimum": 0.0001969999630091479,
+          "p95": 0.0004601000455295433
+        }
+      },
+      "renderer_wall_time_ms": {
+        "maximum": 124.95670199996312,
+        "mean": 6.181697786663183,
+        "median": 1.237102999994022,
+        "minimum": 1.0568129998773657,
+        "p95": 8.731780700031777
+      },
+      "replicate_count": 3,
+      "replicates": [
+        {
+          "mean_end_to_end_frame_time_ms": 17.371081239998603,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 17.458835919997,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 18.205669079989093,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03"
+        }
+      ],
+      "semantic_selection_share_of_total": 0.025023592159891465,
+      "steady_dynamic_property_h2d_bytes": 14953128,
+      "steady_dynamic_property_h2d_rows": 162534,
+      "timings_ms": {
+        "alod_cache_management_ms": {
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "p95": null
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 0.4453450001165038,
+          "mean": 0.2503947333298129,
+          "median": 0.22115999991001445,
+          "minimum": 0.15144000008149305,
+          "p95": 0.3983931000448137
+        },
+        "alod_host_gather_ms": {
+          "maximum": 0.7083709999733401,
+          "mean": 0.10290038666122807,
+          "median": 0.04485599993131473,
+          "minimum": 0.03271100013080286,
+          "p95": 0.34636029995454
+        },
+        "alod_materialization_filter_ms": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 0.9539810000660509,
+          "mean": 0.26214060000408307,
+          "median": 0.23979200000212586,
+          "minimum": 0.2147679999779939,
+          "p95": 0.3577224000082424
+        },
+        "alod_residency_lookup_ms": {
+          "maximum": 0.02666700015652168,
+          "mean": 0.0123947066792122,
+          "median": 0.01067700009116379,
+          "minimum": 0.008769000032771146,
+          "p95": 0.020519899953796994
+        },
+        "alod_selected_gpu_gather_ms": {
+          "maximum": null,
+          "mean": null,
+          "median": null,
+          "minimum": null,
+          "p95": null
+        },
+        "alod_total_selection_ms": {
+          "maximum": 1.882721999891146,
+          "mean": 0.44238029334337625,
+          "median": 0.3779190001296229,
+          "minimum": 0.34697099999903,
+          "p95": 0.5433826999706071
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 135.95143199995618,
+          "mean": 17.678528746661566,
+          "median": 12.217443000054118,
+          "minimum": 11.380163000012544,
+          "p95": 20.050708999951894
+        },
+        "preparation_time_ms": {
+          "maximum": 19.02280200010864,
+          "mean": 11.496830959998382,
+          "median": 10.87053800006288,
+          "minimum": 10.294626000131757,
+          "p95": 15.997687599860907
+        },
+        "rasterization_time_ms": {
+          "maximum": 120.37289428710938,
+          "mean": 5.940008909702301,
+          "median": 1.162335991859436,
+          "minimum": 0.9739519953727722,
+          "p95": 8.371510696411132
+        }
+      },
+      "warmup_dynamic_property_h2d_bytes": 14862600,
+      "warmup_dynamic_property_h2d_rows": 161550,
+      "warmup_frames": 30
+    },
+    "previous": {
+      "cold_inclusive_dynamic_property_h2d_bytes": 27378372,
+      "cold_inclusive_dynamic_property_h2d_rows": 297591,
+      "counts": {
+        "alod_cache_eviction_count": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_cache_hit_count": {
+          "maximum": 1561.0,
+          "mean": 180.44,
+          "median": 3.0,
+          "minimum": 1.0,
+          "p95": 865.0
+        },
+        "alod_cache_miss_count": {
+          "maximum": 25136.0,
+          "mean": 1986.4,
+          "median": 16.0,
+          "minimum": 0.0,
+          "p95": 11832.0
+        },
+        "alod_h2d_bytes": {
+          "maximum": 2312512.0,
+          "mean": 182748.8,
+          "median": 1472.0,
+          "minimum": 0.0,
+          "p95": 1088544.0
+        },
+        "alod_h2d_rows": {
+          "maximum": 25136.0,
+          "mean": 1986.4,
+          "median": 16.0,
+          "minimum": 0.0,
+          "p95": 11832.0
+        },
+        "alod_materialization_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.72,
+          "median": 100004.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_semantic_selected_rows": {
+          "maximum": 125137.0,
+          "mean": 102167.12,
+          "median": 100033.0,
+          "minimum": 100004.0,
+          "p95": 112697.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 25137.0,
+          "mean": 2167.12,
+          "median": 33.0,
+          "minimum": 4.0,
+          "p95": 12697.0
+        }
+      },
+      "fps_from_mean_end_to_end": 104.41160105611606,
+      "inclusive_preparation_time_ms": {
+        "maximum": 17.83353799987708,
+        "mean": 7.110403346662982,
+        "median": 6.290607999972053,
+        "minimum": 5.52178099997036,
+        "p95": 12.594839600046724
+      },
+      "measured_frames": 75,
+      "multiset_counts": {
+        "alod_assembled_renderer_occurrence_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.72,
+          "median": 100004.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_duplicate_semantic_occurrences": {
+          "maximum": 1.0,
+          "mean": 0.28,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 1.0
+        },
+        "alod_unique_materialization_rows": {
+          "maximum": 100129.0,
+          "mean": 77087.44,
+          "median": 100003.0,
+          "minimum": 30421.0,
+          "p95": 100065.0
+        },
+        "alod_unique_semantic_rows": {
+          "maximum": 125137.0,
+          "mean": 102166.84,
+          "median": 100033.0,
+          "minimum": 100003.0,
+          "p95": 112697.0
+        }
+      },
+      "multiset_timings_ms": {
+        "alod_materialization_occurrence_propagation_ms": {
+          "maximum": 1.1504680001053202,
+          "mean": 0.7961090933288991,
+          "median": 0.9038370001235307,
+          "minimum": 0.48831699996298994,
+          "p95": 0.987165699984871
+        },
+        "alod_materialization_unique_extraction_ms": {
+          "maximum": 10.839024000006248,
+          "mean": 1.2975086933420243,
+          "median": 0.9552310000344733,
+          "minimum": 0.865959000066141,
+          "p95": 1.7651570000907657
+        },
+        "alod_occurrence_reindex_ms": {
+          "maximum": 0.34577900009935547,
+          "mean": 0.0752487199982473,
+          "median": 0.0010999999631167157,
+          "minimum": 0.0007879998520365916,
+          "p95": 0.2706372999909945
+        }
+      },
+      "relative_to_released_evaluator": {
+        "cold_inclusive_h2d_byte_reduction_fraction": 0.08174732476765278,
+        "frame_time_ratio": 0.5417577411130877,
+        "frame_time_reduction_fraction": 0.4582422588869123,
+        "speedup": 1.8458434907555068,
+        "steady_h2d_byte_reduction_fraction": 0.08339178264240099
+      },
+      "renderer_wall_time_ms": {
+        "maximum": 27.914656999882936,
+        "mean": 2.4448538400004813,
+        "median": 1.2253689999397466,
+        "minimum": 1.0222010000688897,
+        "p95": 6.48899580003217
+      },
+      "replicate_count": 3,
+      "replicates": [
+        {
+          "mean_end_to_end_frame_time_ms": 9.599343120007688,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 9.434225399954812,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02"
+        },
+        {
+          "mean_end_to_end_frame_time_ms": 9.698870880019967,
+          "run_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03"
+        }
+      ],
+      "semantic_selection_share_of_total": 0.040539474696279776,
+      "steady_dynamic_property_h2d_bytes": 13706160,
+      "steady_dynamic_property_h2d_rows": 148980,
+      "timings_ms": {
+        "alod_cache_management_ms": {
+          "maximum": 0.132160000021031,
+          "mean": 0.018353466663635725,
+          "median": 0.005945999873802066,
+          "minimum": 0.003912000011041528,
+          "p95": 0.06836949987700788
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 0.7957769998938602,
+          "mean": 0.23920153333165217,
+          "median": 0.28316900011304824,
+          "minimum": 0.021220000007815543,
+          "p95": 0.6087708998848028
+        },
+        "alod_host_gather_ms": {
+          "maximum": 0.8906359998945845,
+          "mean": 0.11369118667062139,
+          "median": 0.03720900008374883,
+          "minimum": 0.016874000039024395,
+          "p95": 0.4835144000480793
+        },
+        "alod_materialization_filter_ms": {
+          "maximum": 13.887039999872286,
+          "mean": 4.729982706682374,
+          "median": 4.05727400016076,
+          "minimum": 3.34257700001217,
+          "p95": 10.101989100007811
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 0.5090869999548886,
+          "mean": 0.27066237334111065,
+          "median": 0.26960300010614446,
+          "minimum": 0.12874799995188368,
+          "p95": 0.4185079999615482
+        },
+        "alod_residency_lookup_ms": {
+          "maximum": 0.2362979998906667,
+          "mean": 0.0323881733190016,
+          "median": 0.018521000129112508,
+          "minimum": 0.015078999922479852,
+          "p95": 0.09475469992139542
+        },
+        "alod_selected_gpu_gather_ms": {
+          "maximum": 6.194954999955371,
+          "mean": 0.2828546133362882,
+          "median": 0.197781999986546,
+          "minimum": 0.1677469999776804,
+          "p95": 0.24598269997113673
+        },
+        "alod_total_selection_ms": {
+          "maximum": 0.5668430001151137,
+          "mean": 0.3882660000059938,
+          "median": 0.37583200014523754,
+          "minimum": 0.34978999997292703,
+          "p95": 0.46284350005407754
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 34.00901199984219,
+          "mean": 9.577479799994157,
+          "median": 7.623578999982783,
+          "minimum": 6.795425000063915,
+          "p95": 17.00390759988294
+        },
+        "preparation_time_ms": {
+          "maximum": 17.857042999821715,
+          "mean": 7.132625959993675,
+          "median": 6.309088999842061,
+          "minimum": 5.544673000031253,
+          "p95": 12.621314500120205
+        },
+        "rasterization_time_ms": {
+          "maximum": 26.879776000976562,
+          "mean": 2.3137134846051532,
+          "median": 1.1458239555358887,
+          "minimum": 0.9504960179328918,
+          "p95": 6.218937683105468
+        }
+      },
+      "warmup_dynamic_property_h2d_bytes": 13672212,
+      "warmup_dynamic_property_h2d_rows": 148611,
+      "warmup_frames": 30
+    }
+  },
+  "protocol": {
+    "cache_state_survives_warmup": true,
+    "capacity_rule": {
+      "formula": "min(hierarchy_rows, ceil(filtered_union_unique_rows * 3700000 / 3503048))",
+      "performance_tuning_allowed": false,
+      "run009_practical_capacity_rows": 3700000,
+      "run009_union_rows": 3503048,
+      "selected_before_timing": true,
+      "union_semantics": "unique physical retained hierarchy rows"
+    },
+    "measured_frames_per_replicate": 25,
+    "measured_sequence_restarts_after_warmup": true,
+    "property_bytes_per_row": 92,
+    "replicates": 3,
+    "timing_scope": {
+      "end_to_end": "preparation wall time + renderer wall time",
+      "nested_columns_must_not_be_summed": true,
+      "preparation_time_ms": "inclusive; selection/filter/cache/gather/H2D/assembly are nested diagnostics",
+      "rasterization": "nested within renderer wall time"
+    },
+    "warmup_frames": 10
+  },
+  "schema_version": 1,
+  "scientific_question": "When the released selector exhibits deliberately strong monotonic semantic LoD, does ordered-multiset-faithful ALoD-EXT still reduce physical materialization, transfer, and end-to-end frame time?",
+  "status": "PASS-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE",
+  "workload_funnel": {
+    "assembled_renderer_occurrence_rows": {
+      "maximum": 100129.0,
+      "mean": 77087.72,
+      "median": 100004.0,
+      "minimum": 30421.0,
+      "p95": 100058.6
+    },
+    "duplicate_occurrence_count": {
+      "maximum": 1.0,
+      "mean": 0.28,
+      "median": 0.0,
+      "minimum": 0.0,
+      "p95": 1.0
+    },
+    "mean_per_camera_survivors_over_semantic": 0.01880265732268613,
+    "mean_per_camera_unique_materialized_over_unique_semantic": 0.7633890705617213,
+    "packed_projection_survivors": {
+      "maximum": 25137.0,
+      "mean": 2167.12,
+      "median": 33.0,
+      "minimum": 4.0,
+      "p95": 11583.399999999983
+    },
+    "pooled_survivors_over_semantic": 0.021211520888520692,
+    "pooled_unique_materialized_over_semantic_occurrences": 0.7545229815619742,
+    "pooled_unique_materialized_over_unique_semantic": 0.7545250494191658,
+    "semantic_occurrence_rows": {
+      "maximum": 125137.0,
+      "mean": 102167.12,
+      "median": 100033.0,
+      "minimum": 100004.0,
+      "p95": 111583.39999999998
+    },
+    "unique_materialized_rows": {
+      "maximum": 100129.0,
+      "mean": 77087.44,
+      "median": 100003.0,
+      "minimum": 30421.0,
+      "p95": 100058.6
+    },
+    "unique_semantic_rows": {
+      "maximum": 125137.0,
+      "mean": 102166.84,
+      "median": 100033.0,
+      "minimum": 100003.0,
+      "p95": 111583.39999999998
+    }
+  }
+}

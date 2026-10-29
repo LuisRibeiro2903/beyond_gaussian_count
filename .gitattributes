@@ -1,0 +1,3 @@
+# Preserve the exact bytes of sealed source and numerical evidence on all hosts.
+* -text
+*.gz binary

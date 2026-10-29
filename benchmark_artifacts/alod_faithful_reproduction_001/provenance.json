@@ -1,0 +1,325 @@
+{
+  "campaign_id": "ALOD-FAITHFUL-REPRODUCTION-001",
+  "component_gates": {
+    "hspt_bfs": "PASS-ALOD-REPRO-HSPT-BFS",
+    "lod_coverage": "PASS-ALOD-REPRO-LOD-COVERAGE-71",
+    "pre_raster": "PASS-ALOD-FORMAL-FAITHFUL-PRE-RASTER",
+    "quality": "PASS-ALOD-REPRO-QUALITY",
+    "selection": "PASS-ALOD-CPU-REFERENCE-SELECTION"
+  },
+  "file_sha256": {
+    "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/diagnostic_cameras.json": "35ae984baad7bd5ebba2db2abdb9c3ac9c3f17a93090f00969c8e18c11e771a3",
+    "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/manifest.json": "eaf3cb228234efd92441d28ea56482dcf4676c5a318a6d6beef1020ee27c5f7a",
+    "/home/luis/tese/gs_framework/benchmarks/configs/alod_repro_host_nocache.json": "50056f471a4029724cb58185ea51f2260525dd76b7e7cefc74479d13e41ab4db",
+    "/home/luis/tese/gs_framework/benchmarks/configs/alod_repro_nofrustum.json": "96a948e3243b14b126badea6331d2e3b5e9342fc94fafd619dfd380c5be472e8",
+    "/home/luis/tese/gs_framework/benchmarks/configs/alod_repro_previous_reuse.json": "2aa1ca61a2b01426d78e788b8274ae2112632e571b83a197999d3c52ea8b6666",
+    "/home/luis/tese/gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json": "4c77176a4f9e72baf806ceb358c8cad800941c1e7fb5036244a003d2e35d4ceb",
+    "/home/luis/tese/gs_framework/docs/results/alod_faithful_reproduction.md": "07a18886ef4b4a26c2b6011295f523b51b1293b5ada5e19e43aa546e1d09180d",
+    "/home/luis/tese/gs_framework/scripts/alod/aggregate_faithful_reproduction.py": "c2d99d2723efe91e454ca47605e39881b837a12a5c390e6f7ced558729f2940e",
+    "/home/luis/tese/gs_framework/scripts/alod/benchmark_official_hspt_bfs.py": "3c2ad97c7a8f914dd1524764acbaea0e806a4803c4ac869b23bfc4f776e7b430",
+    "/home/luis/tese/gs_framework/scripts/alod/evaluate_official_faithful_quality.py": "16cf9153aaba70693203b90b89b01945c90a01fde7fcfd4ac404009a91a63372",
+    "/home/luis/tese/gs_framework/scripts/alod/run_faithful_reproduction_campaign.py": "d0b2846fec1f957877c981ebaae341c33b1a39bc0809d4ac4126ae8efdce006c",
+    "/home/luis/tese/gs_framework/scripts/alod/validate_formal_faithful_render.py": "1215427020fcda8824a60f1469915b83a386fcf63f9ac4691b5181c6fa02c14f",
+    "/home/luis/tese/runs/alod/oracles/ALOD-MIXED-RUN009-SELECTION-ORACLE-001/manifest.json": "225ca7c5996fa67b2582dc1d9fe37f3c7280c13be9350b01a8d2db83ed1eb6eb"
+  },
+  "forbidden_components": {
+    "cuda_materialization_filter": false,
+    "optimized_project_selector": false,
+    "prematerialization_culling": false,
+    "project_160k_cache": false,
+    "project_525k_cache": false
+  },
+  "frozen_camera_order": [
+    {
+      "camera_id": "000000__aerial__test__0008.png",
+      "camera_index": 0
+    },
+    {
+      "camera_id": "000010__aerial__test__0011.png",
+      "camera_index": 1
+    },
+    {
+      "camera_id": "000020__aerial__test__0017.png",
+      "camera_index": 2
+    },
+    {
+      "camera_id": "000030__aerial__test__0029.png",
+      "camera_index": 3
+    },
+    {
+      "camera_id": "000040__aerial__test__0056.png",
+      "camera_index": 4
+    },
+    {
+      "camera_id": "000050__aerial__test__0040.png",
+      "camera_index": 5
+    },
+    {
+      "camera_id": "000060__aerial__test__0049.png",
+      "camera_index": 6
+    },
+    {
+      "camera_id": "000070__aerial__test__0057.png",
+      "camera_index": 7
+    },
+    {
+      "camera_id": "000080__aerial__test__0064.png",
+      "camera_index": 8
+    },
+    {
+      "camera_id": "000090__aerial__test__0072.png",
+      "camera_index": 9
+    },
+    {
+      "camera_id": "000100__aerial__test__0084.png",
+      "camera_index": 10
+    },
+    {
+      "camera_id": "000110__aerial__test__0094.png",
+      "camera_index": 11
+    },
+    {
+      "camera_id": "000120__aerial__test__0114.png",
+      "camera_index": 12
+    },
+    {
+      "camera_id": "000130__aerial__test__0129.png",
+      "camera_index": 13
+    },
+    {
+      "camera_id": "000140__aerial__test__0132.png",
+      "camera_index": 14
+    },
+    {
+      "camera_id": "000150__aerial__test__0000.png",
+      "camera_index": 15
+    },
+    {
+      "camera_id": "000160__aerial__test__0000.png",
+      "camera_index": 16
+    },
+    {
+      "camera_id": "000170__aerial__test__0008.png",
+      "camera_index": 17
+    },
+    {
+      "camera_id": "000180__aerial__test__0033.png",
+      "camera_index": 18
+    },
+    {
+      "camera_id": "000190__aerial__test__0047.png",
+      "camera_index": 19
+    },
+    {
+      "camera_id": "000200__aerial__test__0063.png",
+      "camera_index": 20
+    },
+    {
+      "camera_id": "000210__aerial__test__0071.png",
+      "camera_index": 21
+    },
+    {
+      "camera_id": "000220__aerial__test__0098.png",
+      "camera_index": 22
+    },
+    {
+      "camera_id": "000230__aerial__test__0119.png",
+      "camera_index": 23
+    },
+    {
+      "camera_id": "000240__aerial__test__0124.png",
+      "camera_index": 24
+    },
+    {
+      "camera_id": "000250__aerial__test__0147.png",
+      "camera_index": 25
+    },
+    {
+      "camera_id": "000260__street__test__0000.png",
+      "camera_index": 26
+    },
+    {
+      "camera_id": "000270__street__test__0001.png",
+      "camera_index": 27
+    },
+    {
+      "camera_id": "000280__street__test__0002.png",
+      "camera_index": 28
+    },
+    {
+      "camera_id": "000290__street__test__0003.png",
+      "camera_index": 29
+    },
+    {
+      "camera_id": "000300__street__test__0004.png",
+      "camera_index": 30
+    },
+    {
+      "camera_id": "000310__street__test__0005.png",
+      "camera_index": 31
+    },
+    {
+      "camera_id": "000320__street__test__0006.png",
+      "camera_index": 32
+    },
+    {
+      "camera_id": "000330__street__test__0007.png",
+      "camera_index": 33
+    },
+    {
+      "camera_id": "000340__street__test__0008.png",
+      "camera_index": 34
+    },
+    {
+      "camera_id": "000350__street__test__0009.png",
+      "camera_index": 35
+    },
+    {
+      "camera_id": "000360__street__test__0010.png",
+      "camera_index": 36
+    },
+    {
+      "camera_id": "000370__street__test__0011.png",
+      "camera_index": 37
+    },
+    {
+      "camera_id": "000380__street__test__0012.png",
+      "camera_index": 38
+    },
+    {
+      "camera_id": "000390__street__test__0013.png",
+      "camera_index": 39
+    },
+    {
+      "camera_id": "000400__street__test__0014.png",
+      "camera_index": 40
+    },
+    {
+      "camera_id": "000410__street__test__0015.png",
+      "camera_index": 41
+    },
+    {
+      "camera_id": "000420__street__test__0016.png",
+      "camera_index": 42
+    },
+    {
+      "camera_id": "000430__street__test__0017.png",
+      "camera_index": 43
+    },
+    {
+      "camera_id": "000440__street__test__0018.png",
+      "camera_index": 44
+    },
+    {
+      "camera_id": "000450__street__test__0019.png",
+      "camera_index": 45
+    },
+    {
+      "camera_id": "000460__street__test__0020.png",
+      "camera_index": 46
+    },
+    {
+      "camera_id": "000470__street__test__0021.png",
+      "camera_index": 47
+    },
+    {
+      "camera_id": "000480__street__test__0022.png",
+      "camera_index": 48
+    },
+    {
+      "camera_id": "000490__street__test__0023.png",
+      "camera_index": 49
+    },
+    {
+      "camera_id": "000500__street__test__0024.png",
+      "camera_index": 50
+    },
+    {
+      "camera_id": "000510__street__test__0025.png",
+      "camera_index": 51
+    },
+    {
+      "camera_id": "000520__street__test__0026.png",
+      "camera_index": 52
+    },
+    {
+      "camera_id": "000530__street__test__0027.png",
+      "camera_index": 53
+    },
+    {
+      "camera_id": "000540__street__test__0028.png",
+      "camera_index": 54
+    },
+    {
+      "camera_id": "000550__street__test__0029.png",
+      "camera_index": 55
+    },
+    {
+      "camera_id": "000560__street__test__0030.png",
+      "camera_index": 56
+    },
+    {
+      "camera_id": "000570__street__test__0031.png",
+      "camera_index": 57
+    },
+    {
+      "camera_id": "000580__street__test__0032.png",
+      "camera_index": 58
+    },
+    {
+      "camera_id": "000590__street__test__0033.png",
+      "camera_index": 59
+    },
+    {
+      "camera_id": "000600__street__test__0034.png",
+      "camera_index": 60
+    },
+    {
+      "camera_id": "000610__street__test__0035.png",
+      "camera_index": 61
+    },
+    {
+      "camera_id": "000620__street__test__0036.png",
+      "camera_index": 62
+    },
+    {
+      "camera_id": "000630__street__test__0037.png",
+      "camera_index": 63
+    },
+    {
+      "camera_id": "000640__street__test__0038.png",
+      "camera_index": 64
+    },
+    {
+      "camera_id": "000650__street__test__0039.png",
+      "camera_index": 65
+    },
+    {
+      "camera_id": "000660__street__test__0040.png",
+      "camera_index": 66
+    },
+    {
+      "camera_id": "000670__street__test__0041.png",
+      "camera_index": 67
+    },
+    {
+      "camera_id": "000680__street__test__0042.png",
+      "camera_index": 68
+    },
+    {
+      "camera_id": "000690__street__test__0043.png",
+      "camera_index": 69
+    },
+    {
+      "camera_id": "000700__street__test__0044.png",
+      "camera_index": 70
+    }
+  ],
+  "hierarchy_sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+  "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "project_extensions_enabled": false,
+  "quality_weight_sha256": {
+    "/home/luis/tese/benchmark_artifacts/alod_faithful_reproduction_001/quality/torch_cache/hub/checkpoints/vgg.pth": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868",
+    "/home/luis/tese/benchmark_artifacts/alod_faithful_reproduction_001/quality/torch_cache/hub/checkpoints/vgg16-397923af.pth": "397923af8e79cdbb6a7127f12361acd7a2f83e06b05044ddf496e83de57a5bf0"
+  }
+}

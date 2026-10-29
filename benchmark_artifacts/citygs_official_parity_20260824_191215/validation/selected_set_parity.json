@@ -1,0 +1,260 @@
+{
+  "camera_count": 12,
+  "exact_camera_count": 12,
+  "frames": [
+    {
+      "camera_id": "viser_000000",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 0,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000131",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 131,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000262",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 262,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000392",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 392,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000523",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 523,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000654",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 654,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000785",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 785,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_000916",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 916,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_001047",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 1047,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_001177",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 1177,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_001308",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 1308,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    },
+    {
+      "camera_id": "viser_001439",
+      "exact": true,
+      "fallback_equal": true,
+      "field_checks": {
+        "fallback_changed_mask": true,
+        "nearest_cell_id": true,
+        "selected_cell_count_by_level": true,
+        "selected_gaussian_count_by_cell": true,
+        "selected_gaussian_count_by_level": true,
+        "selected_level_label_by_cell": true,
+        "selected_lod_by_cell": true,
+        "total_selected_gaussian_count": true,
+        "visible_cell_ids": true
+      },
+      "frame_index": 1439,
+      "lod_assignment_equal": true,
+      "nearest_cell_equal": true,
+      "selected_counts_equal": true,
+      "visible_cells_equal": true
+    }
+  ],
+  "required_result": "12/12 exact",
+  "status": "pass"
+}

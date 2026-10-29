@@ -1,0 +1,224 @@
+{
+  "configurations": [
+    {
+      "configuration_id": "OFFICIAL-GRAPHDECO-FINEST-FLAT",
+      "end_to_end_fps": 18.926946634134843,
+      "measured_frames_per_repetition": 1440,
+      "memory": {
+        "counter_note": "PyTorch counters cover allocator-managed tensors and extension tensors allocated through PyTorch; whole-device nvidia-smi includes custom CUDA buffers, context, and any other device use.",
+        "torch_current_allocated_after_load_bytes": 1836203008.0,
+        "torch_peak_allocated_measured_run_bytes": 6066135040.0,
+        "torch_peak_reserved_measured_run_bytes": 31172067328.0,
+        "whole_device_used_after_run_bytes": 10570694656.0
+      },
+      "radii_visible_gaussian_count": {
+        "max": 11631688,
+        "mean": 3043782.2722222223,
+        "min": 925873
+      },
+      "repetition_count": 3,
+      "repetitions": [
+        {
+          "end_to_end_fps": 18.92044367745274,
+          "repeat": 1,
+          "timing": {
+            "active_set_assembly_time_ms": 0.0,
+            "cuda_rasterization_time_ms": 50.41604321532779,
+            "end_to_end_frame_time_ms": 52.852883211807956,
+            "lod_selection_time_ms": 0.0,
+            "render_call_time_ms": 52.852883211807956,
+            "selection_time_ms": 0.0,
+            "visibility_time_ms": 0.0
+          }
+        },
+        {
+          "end_to_end_fps": 18.663446746634655,
+          "repeat": 2,
+          "timing": {
+            "active_set_assembly_time_ms": 0.0,
+            "cuda_rasterization_time_ms": 51.06062190532684,
+            "end_to_end_frame_time_ms": 53.58067100763783,
+            "lod_selection_time_ms": 0.0,
+            "render_call_time_ms": 53.58067100763783,
+            "selection_time_ms": 0.0,
+            "visibility_time_ms": 0.0
+          }
+        },
+        {
+          "end_to_end_fps": 19.204688698251175,
+          "repeat": 3,
+          "timing": {
+            "active_set_assembly_time_ms": 0.0,
+            "cuda_rasterization_time_ms": 49.60638864040375,
+            "end_to_end_frame_time_ms": 52.07061753055453,
+            "lod_selection_time_ms": 0.0,
+            "render_call_time_ms": 52.07061753055453,
+            "selection_time_ms": 0.0,
+            "visibility_time_ms": 0.0
+          }
+        }
+      ],
+      "resident_gaussian_count": 11694810,
+      "selected_gaussian_count": {
+        "max": 11694810,
+        "mean": 11694810.0,
+        "min": 11694810
+      },
+      "timing": {
+        "active_set_assembly_time_ms": {
+          "max": 0.0,
+          "mean_of_run_means": 0.0,
+          "min": 0.0,
+          "standard_deviation": 0.0
+        },
+        "cuda_rasterization_time_ms": {
+          "max": 51.06062190532684,
+          "mean_of_run_means": 50.36101792035279,
+          "min": 49.60638864040375,
+          "standard_deviation": 0.7286764951043306
+        },
+        "end_to_end_frame_time_ms": {
+          "max": 53.58067100763783,
+          "mean_of_run_means": 52.834723916666775,
+          "min": 52.07061753055453,
+          "standard_deviation": 0.7551905030605603
+        },
+        "lod_selection_time_ms": {
+          "max": 0.0,
+          "mean_of_run_means": 0.0,
+          "min": 0.0,
+          "standard_deviation": 0.0
+        },
+        "render_call_time_ms": {
+          "max": 53.58067100763783,
+          "mean_of_run_means": 52.834723916666775,
+          "min": 52.07061753055453,
+          "standard_deviation": 0.7551905030605603
+        },
+        "selection_time_ms": {
+          "max": 0.0,
+          "mean_of_run_means": 0.0,
+          "min": 0.0,
+          "standard_deviation": 0.0
+        },
+        "visibility_time_ms": {
+          "max": 0.0,
+          "mean_of_run_means": 0.0,
+          "min": 0.0,
+          "standard_deviation": 0.0
+        }
+      },
+      "total_measured_frames": 4320
+    },
+    {
+      "configuration_id": "OFFICIAL-CITYGS-LOD-RELEASE",
+      "end_to_end_fps": 19.041738950991956,
+      "measured_frames_per_repetition": 1440,
+      "memory": {
+        "counter_note": "PyTorch counters cover allocator-managed tensors and extension tensors allocated through PyTorch; whole-device nvidia-smi includes custom CUDA buffers, context, and any other device use.",
+        "torch_current_allocated_after_load_bytes": 3914141696.0,
+        "torch_peak_allocated_measured_run_bytes": 7636914176.0,
+        "torch_peak_reserved_measured_run_bytes": 31325159424.0,
+        "whole_device_used_after_run_bytes": 15457058816.0
+      },
+      "radii_visible_gaussian_count": {
+        "max": 6332420,
+        "mean": 1995292.054861111,
+        "min": 664239
+      },
+      "repetition_count": 3,
+      "repetitions": [
+        {
+          "end_to_end_fps": 17.740671305791,
+          "repeat": 1,
+          "timing": {
+            "active_set_assembly_time_ms": 8.568636487493741,
+            "cuda_rasterization_time_ms": 43.65154777169228,
+            "end_to_end_frame_time_ms": 56.367652765968046,
+            "lod_selection_time_ms": 0.43049202014155225,
+            "render_call_time_ms": 45.83173704027893,
+            "selection_time_ms": 1.967279238195374,
+            "visibility_time_ms": 1.5367872180538218
+          }
+        },
+        {
+          "end_to_end_fps": 19.724757058869063,
+          "repeat": 2,
+          "timing": {
+            "active_set_assembly_time_ms": 7.595369681255369,
+            "cuda_rasterization_time_ms": 39.660097591082256,
+            "end_to_end_frame_time_ms": 50.697709331246685,
+            "lod_selection_time_ms": 0.27247488749253534,
+            "render_call_time_ms": 41.62298308958125,
+            "selection_time_ms": 1.4793565604100598,
+            "visibility_time_ms": 1.2068816729175245
+          }
+        },
+        {
+          "end_to_end_fps": 19.80854095703232,
+          "repeat": 3,
+          "timing": {
+            "active_set_assembly_time_ms": 7.45598570416664,
+            "cuda_rasterization_time_ms": 39.591923124260376,
+            "end_to_end_frame_time_ms": 50.483273965969985,
+            "lod_selection_time_ms": 0.2704550416638085,
+            "render_call_time_ms": 41.54233058889266,
+            "selection_time_ms": 1.484957672910683,
+            "visibility_time_ms": 1.2145026312468745
+          }
+        }
+      ],
+      "resident_gaussian_count": 25494686,
+      "selected_gaussian_count": {
+        "max": 6704692,
+        "mean": 4214145.394444444,
+        "min": 1957671
+      },
+      "timing": {
+        "active_set_assembly_time_ms": {
+          "max": 8.568636487493741,
+          "mean_of_run_means": 7.87333062430525,
+          "min": 7.45598570416664,
+          "standard_deviation": 0.6061721338081184
+        },
+        "cuda_rasterization_time_ms": {
+          "max": 43.65154777169228,
+          "mean_of_run_means": 40.967856162344965,
+          "min": 39.591923124260376,
+          "standard_deviation": 2.3243950675482155
+        },
+        "end_to_end_frame_time_ms": {
+          "max": 56.367652765968046,
+          "mean_of_run_means": 52.51621202106157,
+          "min": 50.483273965969985,
+          "standard_deviation": 3.3371683340992315
+        },
+        "lod_selection_time_ms": {
+          "max": 0.43049202014155225,
+          "mean_of_run_means": 0.3244739830992987,
+          "min": 0.2704550416638085,
+          "standard_deviation": 0.09181986755606021
+        },
+        "render_call_time_ms": {
+          "max": 45.83173704027893,
+          "mean_of_run_means": 42.999016906250944,
+          "min": 41.54233058889266,
+          "standard_deviation": 2.4535390204279355
+        },
+        "selection_time_ms": {
+          "max": 1.967279238195374,
+          "mean_of_run_means": 1.6438644905053723,
+          "min": 1.4793565604100598,
+          "standard_deviation": 0.280099388401424
+        },
+        "visibility_time_ms": {
+          "max": 1.5367872180538218,
+          "mean_of_run_means": 1.3193905074060737,
+          "min": 1.2068816729175245,
+          "standard_deviation": 0.18830963093216976
+        }
+      },
+      "total_measured_frames": 4320
+    }
+  ]
+}

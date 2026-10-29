@@ -1,0 +1,2391 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "bounded_vs_previous": {
+    "additional_h2d_bytes_eliminated": 584623200.0,
+    "additional_h2d_reduction_percent_of_previous": 100.0,
+    "hit_rate_change": 0.04392309414994655,
+    "mean_frame_time_change_ms": -0.04929790663178757,
+    "mean_frame_time_change_percent": -0.33862762409096875,
+    "mean_management_time_change_ms": 1.4067176033495343,
+    "persistent_property_memory_change_bytes": 3932816.0
+  },
+  "campaign_id": "ALOD-HOST-RESIDENCY-BENCHMARK-001",
+  "capacity": {
+    "chosen_rows": 525000,
+    "headroom_rows": 25970,
+    "minimum_feasible_rows": 499030,
+    "skybox_rows_separate": 100000
+  },
+  "comparisons_vs_resident": [
+    {
+      "configuration_id": "ALOD-HOST-NOCACHE",
+      "fps_change_vs_resident_percent": -56.138339563286365,
+      "frame_time_overhead_vs_resident_ms": 12.050586549973255,
+      "frame_time_overhead_vs_resident_percent": 127.98954486523897,
+      "h2d_reduction_vs_nocache_bytes": 0.0,
+      "h2d_reduction_vs_nocache_percent": 0.0,
+      "persistent_property_bytes_saved_vs_resident": 91999908.0,
+      "persistent_property_memory_reduction_percent": 90.90908264462058
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE",
+      "fps_change_vs_resident_percent": -35.326316479689986,
+      "frame_time_overhead_vs_resident_ms": 5.142857013321796,
+      "frame_time_overhead_vs_resident_percent": 54.62239748350837,
+      "h2d_reduction_vs_nocache_bytes": 12725532000.0,
+      "h2d_reduction_vs_nocache_percent": 95.60769058500534,
+      "persistent_property_bytes_saved_vs_resident": 47632724.0,
+      "persistent_property_memory_reduction_percent": 47.067951879956254
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE",
+      "fps_change_vs_resident_percent": -35.106569397449455,
+      "frame_time_overhead_vs_resident_ms": 5.093559106690009,
+      "frame_time_overhead_vs_resident_percent": 54.09880333259747,
+      "h2d_reduction_vs_nocache_bytes": 13310155200.0,
+      "h2d_reduction_vs_nocache_percent": 100.0,
+      "persistent_property_bytes_saved_vs_resident": 43699908.0,
+      "persistent_property_memory_reduction_percent": 43.18176652887866
+    }
+  ],
+  "configuration_file_sha256": {
+    "ALOD-HIER-LOD-FRUSTUM": "f5e3ecacd765b42c75da35126ba868bf846f8a40f3a5b9d27b0fdab1494099ba",
+    "ALOD-HOST-BOUNDED-CACHE": "2b9a17f0481ff4a6b7a916d3dc9a148442fc5476df1239c44f3e0446772ebdb0",
+    "ALOD-HOST-NOCACHE": "8a35edb5fc15dd6ff944adfee15a4ef49f9b9386f7e27145d968dff6e6c97142",
+    "ALOD-HOST-PREVIOUS-REUSE": "e97f3dc68b9d28bb24d6f4d7e64a475238a5def1670b676d2be6a1e5158885cf"
+  },
+  "configurations": [
+    {
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3199.2613840002377,
+          "mean": 3157.510113666831,
+          "median": 3150.4670340000303,
+          "min": 3122.8019230002246,
+          "p10": 3128.3349452001858,
+          "p90": 3189.5025140001962,
+          "p95": 3194.381949000217,
+          "std": 31.609239392913867
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "first_frame_h2d_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "first_frame_raster_ms": {
+          "max": 377.947021484375,
+          "mean": 371.7231038411458,
+          "median": 375.8724670410156,
+          "min": 361.3498229980469,
+          "p10": 364.2543518066406,
+          "p90": 377.5321105957031,
+          "p95": 377.73956604003905,
+          "std": 7.383750655864467
+        },
+        "first_frame_total_ms": {
+          "max": 634.2930000000706,
+          "mean": 604.1337983336538,
+          "median": 600.3229170009945,
+          "min": 577.7854779998961,
+          "p10": 582.2929658001158,
+          "p90": 627.4989834002554,
+          "p95": 630.895991700163,
+          "std": 23.225949898748446
+        },
+        "gpu_cache_allocation_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "host_store_initialization_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2992.749140000342,
+          "mean": 2947.8351680002866,
+          "median": 2958.8172020003185,
+          "min": 2891.939162000199,
+          "p10": 2905.314770000223,
+          "p90": 2985.962752400337,
+          "p95": 2989.3559462003395,
+          "std": 41.88171215204973
+        },
+        "skybox_transfer_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        }
+      },
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "counts": {
+        "backend_visible_rows": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "raster_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        },
+        "selected_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps_from_mean_frame_time": 106.21022000420638,
+      "frame_count": 300,
+      "label": "Resident",
+      "memory": {
+        "frame_local_index_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "frame_local_property_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 8799992.0,
+        "host_pinned_bytes": null,
+        "host_property_store_bytes": null,
+        "peak_frame_total_torch_allocated_bytes": 237648896.0,
+        "peak_frame_total_torch_reserved_bytes": 301989888.0,
+        "peak_process_rss_bytes": 1641099264.0,
+        "peak_whole_device_vram_bytes": 1917390848.0,
+        "persistent_dynamic_property_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 101199908.0,
+          "mean": 101199908.0,
+          "median": 101199908.0,
+          "min": 101199908.0,
+          "p10": 101199908.0,
+          "p90": 101199908.0,
+          "p95": 101199908.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": null,
+        "process_rss_bytes": {
+          "max": 1641705472.0,
+          "mean": 1628030347.9466667,
+          "median": 1624211456.0,
+          "min": 1615765504.0,
+          "p10": 1621957017.6,
+          "p90": 1637830656.0,
+          "p95": 1637834752.0,
+          "std": 7011772.243484772
+        },
+        "residency_metadata_cpu_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "steady_torch_allocated_bytes": {
+          "max": 195155968.0,
+          "mean": 188352665.6,
+          "median": 189530624.0,
+          "min": 173326336.0,
+          "p10": 184731955.20000002,
+          "p90": 192765030.4,
+          "p95": 193274598.4,
+          "std": 5154864.048087554
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_time_ms": [
+        9.331194199985475,
+        9.391593500004092,
+        9.523081670031388
+      ],
+      "replicate_mean_frame_time_std_ms": 0.08010965780345997,
+      "residency": {
+        "cache_capacity_rows": null,
+        "cache_occupancy_ratio": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "cache_occupancy_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "discarded_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "evicted_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "h2d": {
+          "bytes_per_frame": {
+            "max": null,
+            "mean": null,
+            "median": null,
+            "min": null,
+            "p10": null,
+            "p90": null,
+            "p95": null,
+            "std": null
+          },
+          "total_bytes": 0.0,
+          "zero_transfer_frames": 0
+        },
+        "overall_cache_or_reuse_hit_rate": null,
+        "overall_eviction_rate_per_request": null,
+        "overall_miss_rate": null,
+        "previous_intersection_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "previous_working_set_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "requested_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "retained_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "retention_ratio": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "rows_loaded": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "total_evictions": null,
+        "total_hits": null,
+        "total_misses": null
+      },
+      "timing": {
+        "cache_management_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "camera_preparation_ms": {
+          "max": 1.4642109999840613,
+          "mean": 0.4938131766751515,
+          "median": 0.4718815002888732,
+          "min": 0.4176200000074459,
+          "p10": 0.43877810039703036,
+          "p90": 0.5210064995480934,
+          "p95": 0.5816350504574075,
+          "std": 0.1167097434541621
+        },
+        "gpu_slot_index_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "h2d_transfer_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "host_gather_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "pre_raster_assembly_ms": {
+          "max": 0.04243100011080969,
+          "mean": 0.019582240017067914,
+          "median": 0.018569999610917876,
+          "min": 0.017219999790540896,
+          "p10": 0.017869999282993376,
+          "p90": 0.022430100307246906,
+          "p95": 0.02564295027696062,
+          "std": 0.002939313987283591
+        },
+        "preparation_ms": {
+          "max": 11.112580000371963,
+          "mean": 8.149431480014755,
+          "median": 8.147361999817804,
+          "min": 6.398614999852725,
+          "p10": 7.772783700420405,
+          "p90": 8.72123039989674,
+          "p95": 9.154223100040326,
+          "std": 0.6574784879540228
+        },
+        "rasterization_ms": {
+          "max": 2.2771520614624023,
+          "mean": 1.2244443748394649,
+          "median": 1.1807680130004883,
+          "min": 0.9730560183525085,
+          "p10": 1.084547209739685,
+          "p90": 1.3599424481391906,
+          "p95": 1.4342575788497927,
+          "std": 0.19625476445078296
+        },
+        "residency_lookup_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "selected_gpu_gather_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "spt_cut_ms": {
+          "max": 7.33262699941406,
+          "mean": 4.9373969166511715,
+          "median": 4.992070500065893,
+          "min": 3.5774970001511974,
+          "p10": 4.7434655998586095,
+          "p90": 5.363218499587674,
+          "p95": 5.529728999772487,
+          "std": 0.4646362933324029
+        },
+        "total_frame_time_ms": {
+          "max": 12.311727000451356,
+          "mean": 9.415289790006986,
+          "median": 9.396247000040603,
+          "min": 7.444589999977325,
+          "p10": 9.009249901009753,
+          "p90": 10.063313901082438,
+          "p95": 10.554197851115532,
+          "std": 0.6943319031553168
+        },
+        "total_selection_ms": {
+          "max": 9.325818000434083,
+          "mean": 6.366154336671268,
+          "median": 6.366058999901725,
+          "min": 4.848096999921836,
+          "p10": 6.039224800042575,
+          "p90": 6.895224000618327,
+          "p95": 7.165000750455877,
+          "std": 0.5996358780665024
+        },
+        "upper_traversal_ms": {
+          "max": 2.9341959998419043,
+          "mean": 1.1185718700320042,
+          "median": 1.0778810001284,
+          "min": 0.9825340002862504,
+          "p10": 1.0271700002704165,
+          "p90": 1.2037400001645437,
+          "p95": 1.286344350728541,
+          "std": 0.19303403195176552
+        }
+      },
+      "trajectory_repetitions_per_process": 10
+    },
+    {
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3194.524894999631,
+          "mean": 3129.3745423333044,
+          "median": 3117.051348000132,
+          "min": 3076.5473840001505,
+          "p10": 3084.6481768001468,
+          "p90": 3179.0301855997313,
+          "p95": 3186.7775402996813,
+          "std": 48.9460186623182
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 33520844.0,
+          "mean": 33520844.0,
+          "median": 33520844.0,
+          "min": 33520844.0,
+          "p10": 33520844.0,
+          "p90": 33520844.0,
+          "p95": 33520844.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 3.3798459999161423,
+          "mean": 3.280132333505511,
+          "median": 3.3038250003301073,
+          "min": 3.1567260002702824,
+          "p10": 3.1861458002822474,
+          "p90": 3.3646417999989353,
+          "p95": 3.372243899957539,
+          "std": 0.09261619875031991
+        },
+        "first_frame_raster_ms": {
+          "max": 395.3687744140625,
+          "mean": 372.4552815755208,
+          "median": 362.76092529296875,
+          "min": 359.23614501953125,
+          "p10": 359.94110107421875,
+          "p90": 388.8472045898437,
+          "p95": 392.1079895019531,
+          "std": 16.266061488888013
+        },
+        "first_frame_total_ms": {
+          "max": 540.8234159995118,
+          "mean": 534.7326676665034,
+          "median": 537.1265690000655,
+          "min": 526.2480179999329,
+          "p10": 528.4237281999594,
+          "p90": 540.0840465996225,
+          "p95": 540.4537312995672,
+          "std": 6.186470690555567
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 0.014139999620965682,
+          "mean": 0.013549999797154063,
+          "median": 0.0136500002554385,
+          "min": 0.012859999515058007,
+          "p10": 0.013017999663134106,
+          "p90": 0.014041999747860245,
+          "p95": 0.014090999684412964,
+          "std": 0.0005273203558393056
+        },
+        "host_store_initialization_ms": {
+          "max": 161.8454039999051,
+          "mean": 147.19930399981726,
+          "median": 150.67406599973765,
+          "min": 129.078441999809,
+          "p10": 133.39756679979473,
+          "p90": 159.6111363998716,
+          "p95": 160.72827019988836,
+          "std": 13.6008315406572
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 3008.5600800002794,
+          "mean": 2937.035723999846,
+          "median": 2920.5827440000576,
+          "min": 2881.964347999201,
+          "p10": 2889.6880271993723,
+          "p90": 2990.964612800235,
+          "p95": 2999.7623464002572,
+          "std": 52.97575076313877
+        },
+        "skybox_transfer_ms": {
+          "max": 2.463239999997313,
+          "mean": 2.3116126664414574,
+          "median": 2.3595169996042387,
+          "min": 2.1120809997228207,
+          "p10": 2.1615681996991043,
+          "p90": 2.4424953999186982,
+          "p95": 2.4528676999580057,
+          "std": 0.14730756875841625
+        }
+      },
+      "configuration_id": "ALOD-HOST-NOCACHE",
+      "counts": {
+        "backend_visible_rows": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "raster_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        },
+        "selected_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps_from_mean_frame_time": 46.5855660473315,
+      "frame_count": 300,
+      "label": "Host no-cache",
+      "memory": {
+        "frame_local_index_bytes": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "frame_local_property_bytes": {
+          "max": 101021520.0,
+          "mean": 97934368.0,
+          "median": 100492612.0,
+          "min": 76241688.0,
+          "p10": 96496555.20000005,
+          "p90": 100920338.4,
+          "p95": 101021520.0,
+          "std": 7261142.124046327
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 227115008.0,
+        "peak_frame_total_torch_reserved_bytes": 314572800.0,
+        "peak_process_rss_bytes": 1792847872.0,
+        "peak_whole_device_vram_bytes": 1929973760.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 9200000.0,
+          "mean": 9200000.0,
+          "median": 9200000.0,
+          "min": 9200000.0,
+          "p10": 9200000.0,
+          "p90": 9200000.0,
+          "p95": 9200000.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "process_rss_bytes": {
+          "max": 1793777664.0,
+          "mean": 1741102585.1733334,
+          "median": 1727299584.0,
+          "min": 1677185024.0,
+          "p10": 1721524224.0,
+          "p90": 1781340160.0,
+          "p95": 1785032704.0,
+          "std": 25967192.707613945
+        },
+        "residency_metadata_cpu_bytes": {
+          "max": 3992240.0,
+          "mean": 3858016.0,
+          "median": 3969244.0,
+          "min": 2914856.0,
+          "p10": 3795502.4000000022,
+          "p90": 3987840.8000000003,
+          "p95": 3992240.0,
+          "std": 315701.8314802751
+        },
+        "steady_torch_allocated_bytes": {
+          "max": 139140608.0,
+          "mean": 132480885.76,
+          "median": 135179776.0,
+          "min": 105338368.0,
+          "p10": 128167782.40000005,
+          "p90": 137557862.4,
+          "p95": 138198374.4,
+          "std": 8875925.044887304
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_time_ms": [
+        19.791172409904902,
+        22.064983369982656,
+        22.541473240053165
+      ],
+      "replicate_mean_frame_time_std_ms": 1.2000654396399364,
+      "residency": {
+        "cache_capacity_rows": null,
+        "cache_occupancy_ratio": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "cache_occupancy_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "discarded_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "evicted_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "h2d": {
+          "bytes_per_frame": {
+            "max": 45910760.0,
+            "mean": 44367184.0,
+            "median": 45646306.0,
+            "min": 33520844.0,
+            "p10": 43648277.600000024,
+            "p90": 45860169.2,
+            "p95": 45910760.0,
+            "std": 3630571.0620231633
+          },
+          "total_bytes": 13310155200.0,
+          "zero_transfer_frames": 0
+        },
+        "overall_cache_or_reuse_hit_rate": null,
+        "overall_eviction_rate_per_request": null,
+        "overall_miss_rate": null,
+        "previous_intersection_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "previous_working_set_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "requested_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "retained_rows": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "retention_ratio": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "rows_loaded": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "total_evictions": null,
+        "total_hits": null,
+        "total_misses": null
+      },
+      "timing": {
+        "cache_management_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "camera_preparation_ms": {
+          "max": 1.3015519998589298,
+          "mean": 0.492762306636602,
+          "median": 0.47453649995077285,
+          "min": 0.417320000451582,
+          "p10": 0.44321490058791824,
+          "p90": 0.5331870000190975,
+          "p95": 0.5722939997212962,
+          "std": 0.09526648784133745
+        },
+        "gpu_slot_index_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "h2d_transfer_ms": {
+          "max": 38.40682499958348,
+          "mean": 3.0691343499923582,
+          "median": 2.801822500259732,
+          "min": 1.8712149994826177,
+          "p10": 2.434856000036234,
+          "p90": 3.601480000270385,
+          "p95": 3.9429786995242466,
+          "std": 2.762188257968411
+        },
+        "host_gather_ms": {
+          "max": 25.525024999296875,
+          "mean": 8.632771926671316,
+          "median": 7.729977499820961,
+          "min": 5.365189999793074,
+          "p10": 7.256352399508614,
+          "p90": 12.543377099882491,
+          "p95": 13.865021199671903,
+          "std": 2.6536340721238725
+        },
+        "pre_raster_assembly_ms": {
+          "max": 0.94802300009178,
+          "mean": 0.19386192331391308,
+          "median": 0.17711950022203382,
+          "min": 0.12515300022641895,
+          "p10": 0.15581709976686398,
+          "p90": 0.23288769980354118,
+          "p95": 0.28324349973445356,
+          "std": 0.08148547811526927
+        },
+        "preparation_ms": {
+          "max": 60.2360110005975,
+          "mean": 20.095326113320578,
+          "median": 18.778015999487252,
+          "min": 13.687439999557682,
+          "p10": 17.785380999612244,
+          "p90": 24.495364999529567,
+          "p95": 27.14463239999532,
+          "std": 4.800464097779276
+        },
+        "rasterization_ms": {
+          "max": 2.5062079429626465,
+          "mean": 1.325162987311681,
+          "median": 1.270255982875824,
+          "min": 1.015936017036438,
+          "p10": 1.1532575964927674,
+          "p90": 1.4714335918426515,
+          "p95": 1.6397120237350464,
+          "std": 0.23495889976160203
+        },
+        "residency_lookup_ms": {
+          "max": 0.24103600026137428,
+          "mean": 0.14571184670785442,
+          "median": 0.14335400010168087,
+          "min": 0.09726200005388819,
+          "p10": 0.12468500026443508,
+          "p90": 0.17381510069753858,
+          "p95": 0.1819090499793674,
+          "std": 0.020820347853163675
+        },
+        "selected_gpu_gather_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "spt_cut_ms": {
+          "max": 8.956285999374813,
+          "mean": 5.135196716646533,
+          "median": 5.127714000082051,
+          "min": 3.716498999892792,
+          "p10": 4.947962799906236,
+          "p90": 5.56542479998825,
+          "p95": 5.732744999522765,
+          "std": 0.6026491631671954
+        },
+        "total_frame_time_ms": {
+          "max": 61.62561400105915,
+          "mean": 21.46587633998024,
+          "median": 20.13208649941589,
+          "min": 14.809966999564494,
+          "p10": 19.10799129955194,
+          "p90": 25.869182698988887,
+          "p95": 28.462120149743,
+          "std": 4.90767635910653
+        },
+        "total_selection_ms": {
+          "max": 11.541318000126921,
+          "mean": 6.6813984233704105,
+          "median": 6.627629500144394,
+          "min": 5.114122999657411,
+          "p10": 6.390709900097136,
+          "p90": 7.181438099814842,
+          "p95": 7.452881100016385,
+          "std": 0.7796481268114722
+        },
+        "upper_traversal_ms": {
+          "max": 2.5550520003889687,
+          "mean": 1.182398803345374,
+          "median": 1.1250825000388431,
+          "min": 1.0297250000803615,
+          "p10": 1.0796440999001788,
+          "p90": 1.3438775002214243,
+          "p95": 1.5053497497774515,
+          "std": 0.17315647252652347
+        }
+      },
+      "trajectory_repetitions_per_process": 10
+    },
+    {
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3156.128882000303,
+          "mean": 3104.86278999997,
+          "median": 3097.6532659997247,
+          "min": 3060.806221999883,
+          "p10": 3068.175630799851,
+          "p90": 3144.433758800187,
+          "p95": 3150.281320400245,
+          "std": 39.24780507341783
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 33520844.0,
+          "mean": 33520844.0,
+          "median": 33520844.0,
+          "min": 33520844.0,
+          "p10": 33520844.0,
+          "p90": 33520844.0,
+          "p95": 33520844.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 65.25408900051843,
+          "mean": 62.015795667017905,
+          "median": 62.56355999994412,
+          "min": 58.22973800059117,
+          "p10": 59.09650240046176,
+          "p90": 64.71598320040357,
+          "p95": 64.985036100461,
+          "std": 2.893718607128708
+        },
+        "first_frame_raster_ms": {
+          "max": 356.80340576171875,
+          "mean": 339.9653828938802,
+          "median": 335.6867980957031,
+          "min": 327.40594482421875,
+          "p10": 329.06211547851564,
+          "p90": 352.5800842285156,
+          "p95": 354.6917449951172,
+          "std": 12.376924585678346
+        },
+        "first_frame_total_ms": {
+          "max": 613.3240829994975,
+          "mean": 580.4616096662963,
+          "median": 574.0609790000235,
+          "min": 553.9997669993681,
+          "p10": 558.0120093994992,
+          "p90": 605.4714621996027,
+          "p95": 609.3977725995501,
+          "std": 24.63831260341401
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 1.0948239996650955,
+          "mean": 1.006842999837924,
+          "median": 1.053304999913962,
+          "min": 0.8723999999347143,
+          "p10": 0.9085809999305638,
+          "p90": 1.0865201997148688,
+          "p95": 1.0906720996899821,
+          "std": 0.09656482106962996
+        },
+        "host_store_initialization_ms": {
+          "max": 154.50221700029942,
+          "mean": 131.6949363332848,
+          "median": 122.34301900025457,
+          "min": 118.23957299930044,
+          "p10": 119.06026219949126,
+          "p90": 148.07037740029045,
+          "p95": 151.28629720029494,
+          "std": 16.213957070759964
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2970.401444000345,
+          "mean": 2917.68130499986,
+          "median": 2909.2488199994477,
+          "min": 2873.3936509997875,
+          "p10": 2880.5646847997195,
+          "p90": 2958.1709192001654,
+          "p95": 2964.286181600255,
+          "std": 40.04961987477847
+        },
+        "skybox_transfer_ms": {
+          "max": 2.319404999980179,
+          "mean": 2.138732666632374,
+          "median": 2.266010000312235,
+          "min": 1.8307829996047076,
+          "p10": 1.917828399746213,
+          "p90": 2.3087260000465903,
+          "p95": 2.3140655000133847,
+          "std": 0.21884165442045517
+        }
+      },
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE",
+      "counts": {
+        "backend_visible_rows": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "raster_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        },
+        "selected_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps_from_mean_frame_time": 68.69006155174543,
+      "frame_count": 300,
+      "label": "Previous reuse",
+      "memory": {
+        "frame_local_index_bytes": {
+          "max": 7960568.0,
+          "mean": 7546576.0,
+          "median": 7834700.0,
+          "min": 5751280.0,
+          "p10": 6736376.800000003,
+          "p90": 7924136.000000001,
+          "p95": 7960568.0,
+          "std": 673286.3284968736
+        },
+        "frame_local_property_bytes": {
+          "max": 68036576.0,
+          "mean": 55515928.0,
+          "median": 55320980.0,
+          "min": 43622812.0,
+          "p10": 53598390.40000002,
+          "p90": 57936383.600000255,
+          "p95": 68036576.0,
+          "std": 5488847.669718663
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 223654912.0,
+        "peak_frame_total_torch_reserved_bytes": 306184192.0,
+        "peak_process_rss_bytes": 1773805568.0,
+        "peak_whole_device_vram_bytes": 1920864256.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 45910760.0,
+          "mean": 44367184.0,
+          "median": 45646306.0,
+          "min": 33520844.0,
+          "p10": 43648277.600000024,
+          "p90": 45860169.2,
+          "p95": 45910760.0,
+          "std": 3630571.0620231633
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 55110760.0,
+          "mean": 53567184.0,
+          "median": 54846306.0,
+          "min": 42720844.0,
+          "p10": 52848277.600000024,
+          "p90": 55060169.2,
+          "p95": 55110760.0,
+          "std": 3630571.0620231633
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "process_rss_bytes": {
+          "max": 1774297088.0,
+          "mean": 1750252967.2533333,
+          "median": 1741844480.0,
+          "min": 1724735488.0,
+          "p10": 1735208960.0,
+          "p90": 1774292992.0,
+          "p95": 1774297088.0,
+          "std": 16886448.641456123
+        },
+        "residency_metadata_cpu_bytes": {
+          "max": 12792232.0,
+          "mean": 12658008.0,
+          "median": 12769236.0,
+          "min": 11714848.0,
+          "p10": 12595494.400000002,
+          "p90": 12787832.8,
+          "p95": 12792232.0,
+          "std": 315701.8314802751
+        },
+        "steady_torch_allocated_bytes": {
+          "max": 140008960.0,
+          "mean": 132335779.84,
+          "median": 135153920.0,
+          "min": 105344000.0,
+          "p10": 128654950.40000005,
+          "p90": 137162905.6,
+          "p95": 138037043.2,
+          "std": 8636067.068314316
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_time_ms": [
+        14.335529360014334,
+        14.711904740024693,
+        14.627006309947319
+      ],
+      "replicate_mean_frame_time_std_ms": 0.16118484297703417,
+      "residency": {
+        "cache_capacity_rows": null,
+        "cache_occupancy_ratio": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "cache_occupancy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "discarded_rows": {
+          "max": 141656.0,
+          "mean": 21182.0,
+          "median": 7598.5,
+          "min": 1727.0,
+          "p10": 2627.9000000000024,
+          "p90": 29828.300000002826,
+          "p95": 141656.0,
+          "std": 40416.14616956941
+        },
+        "evicted_rows": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "h2d": {
+          "bytes_per_frame": {
+            "max": 12982028.0,
+            "mean": 1948744.0,
+            "median": 642252.0,
+            "min": 201756.0,
+            "p10": 267664.80000000016,
+            "p90": 2913879.2000002544,
+            "p95": 12982028.0,
+            "std": 3702227.2604011763
+          },
+          "total_bytes": 584623200.0,
+          "zero_transfer_frames": 0
+        },
+        "overall_cache_or_reuse_hit_rate": 0.9560769058500534,
+        "overall_eviction_rate_per_request": 0.0,
+        "overall_miss_rate": 0.0439230941499465,
+        "previous_intersection_rows": {
+          "max": 496041.0,
+          "mean": 461070.0,
+          "median": 485575.5,
+          "min": 354553.0,
+          "p10": 357034.3,
+          "p90": 494122.20000000007,
+          "p95": 496041.0,
+          "std": 52857.40830574273
+        },
+        "previous_working_set_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "requested_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "retained_rows": {
+          "max": 496041.0,
+          "mean": 461070.0,
+          "median": 485575.5,
+          "min": 354553.0,
+          "p10": 357034.3,
+          "p90": 494122.20000000007,
+          "p95": 496041.0,
+          "std": 52857.40830574273
+        },
+        "retention_ratio": {
+          "max": 0.9955795380788628,
+          "mean": 0.9566976074745268,
+          "median": 0.9857544956433186,
+          "min": 0.7168867960491073,
+          "p10": 0.9364264876172478,
+          "p90": 0.9941672959316064,
+          "p95": 0.9955795380788628,
+          "std": 0.08053564874514081
+        },
+        "rows_loaded": {
+          "max": 141109.0,
+          "mean": 21182.0,
+          "median": 6981.0,
+          "min": 2193.0,
+          "p10": 2909.400000000002,
+          "p90": 31672.600000002763,
+          "p95": 141109.0,
+          "std": 40241.60065653453
+        },
+        "total_evictions": 0.0,
+        "total_hits": 138321000.0,
+        "total_misses": 6354600.0
+      },
+      "timing": {
+        "cache_management_ms": {
+          "max": 2.6268760002494673,
+          "mean": 1.3908503333429205,
+          "median": 1.376351500312012,
+          "min": 1.101106999158219,
+          "p10": 1.2627229002646345,
+          "p90": 1.4913679997334839,
+          "p95": 1.5903708002497297,
+          "std": 0.1631697828381605
+        },
+        "camera_preparation_ms": {
+          "max": 1.2709140000879415,
+          "mean": 0.48380495665090467,
+          "median": 0.4720359997918422,
+          "min": 0.41679999958432745,
+          "p10": 0.43610490047285566,
+          "p90": 0.5192291993807886,
+          "p95": 0.5437262500436191,
+          "std": 0.08409372386194171
+        },
+        "gpu_slot_index_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "h2d_transfer_ms": {
+          "max": 1.928953999595251,
+          "mean": 0.804766963340929,
+          "median": 0.7261670002662868,
+          "min": 0.4207900001347298,
+          "p10": 0.5158130005838757,
+          "p90": 1.4197488006175265,
+          "p95": 1.5975373493347433,
+          "std": 0.3240351478940235
+        },
+        "host_gather_ms": {
+          "max": 2.996704999532085,
+          "mean": 0.6768741433158235,
+          "median": 0.5130919998919126,
+          "min": 0.18659499983186834,
+          "p10": 0.256317999719613,
+          "p90": 1.0794621998684673,
+          "p95": 2.6331460993787914,
+          "std": 0.6676826167003751
+        },
+        "pre_raster_assembly_ms": {
+          "max": 0.4684810000981088,
+          "mean": 0.18459158998060352,
+          "median": 0.17576399977770052,
+          "min": 0.12621299993043067,
+          "p10": 0.1634979998016206,
+          "p90": 0.2125999996678729,
+          "p95": 0.2298814999903698,
+          "std": 0.03491608940574299
+        },
+        "preparation_ms": {
+          "max": 21.583779999673425,
+          "mean": 13.308918753333879,
+          "median": 13.10794100027124,
+          "min": 10.296311000274727,
+          "p10": 12.176994800574905,
+          "p90": 15.410127899849613,
+          "p95": 15.89977850012474,
+          "std": 1.4032029732739584
+        },
+        "rasterization_ms": {
+          "max": 2.845439910888672,
+          "mean": 1.2062273059288662,
+          "median": 1.188800036907196,
+          "min": 0.9761599898338318,
+          "p10": 1.0614496350288392,
+          "p90": 1.3229152441024783,
+          "p95": 1.3766575813293458,
+          "std": 0.17760169682363341
+        },
+        "residency_lookup_ms": {
+          "max": 3.8465190000351868,
+          "mean": 1.25662919665956,
+          "median": 1.2406340001689387,
+          "min": 0.6980370008022874,
+          "p10": 1.059061999694677,
+          "p90": 1.446624500113103,
+          "p95": 1.5255933005391855,
+          "std": 0.27506291307527847
+        },
+        "selected_gpu_gather_ms": {
+          "max": 6.991021000430919,
+          "mean": 1.6961485066713067,
+          "median": 1.6985355000542768,
+          "min": 1.288620000195806,
+          "p10": 1.352612099617545,
+          "p90": 1.789796299635782,
+          "p95": 1.8542595005328621,
+          "std": 0.421877340720581
+        },
+        "spt_cut_ms": {
+          "max": 5.956451000201923,
+          "mean": 4.949061996712771,
+          "median": 5.00718599960237,
+          "min": 3.6231029998816666,
+          "p10": 4.750716700345948,
+          "p90": 5.311654300112423,
+          "p95": 5.5466701004661445,
+          "std": 0.4410638914681707
+        },
+        "total_frame_time_ms": {
+          "max": 22.841828999844438,
+          "mean": 14.558146803328782,
+          "median": 14.367641500030004,
+          "min": 11.322386000756524,
+          "p10": 13.380573400809228,
+          "p90": 16.594506998990255,
+          "p95": 17.215257050838773,
+          "std": 1.4574502956023359
+        },
+        "total_selection_ms": {
+          "max": 7.627508999576094,
+          "mean": 6.346721646644558,
+          "median": 6.3770659999136114,
+          "min": 4.906323999421147,
+          "p10": 6.130088499685372,
+          "p90": 6.794996500502748,
+          "p95": 7.049610199464951,
+          "std": 0.4789092738740962
+        },
+        "upper_traversal_ms": {
+          "max": 1.626858999770775,
+          "mean": 1.1215640600130428,
+          "median": 1.083496500086767,
+          "min": 1.0108730002684752,
+          "p10": 1.0508829001992126,
+          "p90": 1.2658205005209313,
+          "p95": 1.351072249963181,
+          "std": 0.09955644832100521
+        }
+      },
+      "trajectory_repetitions_per_process": 10
+    },
+    {
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3129.3126290001965,
+          "mean": 3108.406209666706,
+          "median": 3099.0191629998662,
+          "min": 3096.8868370000564,
+          "p10": 3097.3133022000184,
+          "p90": 3123.2539358001304,
+          "p95": 3126.2832824001634,
+          "std": 14.80867944941215
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 33520844.0,
+          "mean": 33520844.0,
+          "median": 33520844.0,
+          "min": 33520844.0,
+          "p10": 33520844.0,
+          "p90": 33520844.0,
+          "p95": 33520844.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 66.14412199996877,
+          "mean": 63.61560566680661,
+          "median": 63.0485330002557,
+          "min": 61.654162000195356,
+          "p10": 61.933036200207425,
+          "p90": 65.52500420002616,
+          "p95": 65.83456309999747,
+          "std": 1.87636417161012
+        },
+        "first_frame_raster_ms": {
+          "max": 333.30340576171875,
+          "mean": 327.24932861328125,
+          "median": 324.441162109375,
+          "min": 324.00341796875,
+          "p10": 324.090966796875,
+          "p90": 331.53095703125,
+          "p95": 332.41718139648435,
+          "std": 4.284607533375547
+        },
+        "first_frame_total_ms": {
+          "max": 599.3224799995005,
+          "mean": 581.1590496668941,
+          "median": 589.3561570001111,
+          "min": 554.7985120010708,
+          "p10": 561.7100410008788,
+          "p90": 597.3292153996226,
+          "p95": 598.3258476995616,
+          "std": 19.078615569191744
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 6.828769999629003,
+          "mean": 5.471452666521752,
+          "median": 4.835581999941496,
+          "min": 4.750005999994755,
+          "p10": 4.767121199984103,
+          "p90": 6.430132399691502,
+          "p95": 6.629451199660252,
+          "std": 0.9604039323835769
+        },
+        "host_store_initialization_ms": {
+          "max": 142.7860720004901,
+          "mean": 135.328860333478,
+          "median": 133.04894700013392,
+          "min": 130.15156199980993,
+          "p10": 130.73103899987473,
+          "p90": 140.83864700041886,
+          "p95": 141.81235950045448,
+          "std": 5.4040857595583365
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2937.6661559999775,
+          "mean": 2918.3430609997836,
+          "median": 2909.9367099997835,
+          "min": 2907.42631699959,
+          "p10": 2907.928395599629,
+          "p90": 2932.1202667999387,
+          "p95": 2934.893211399958,
+          "std": 13.701873802360995
+        },
+        "skybox_transfer_ms": {
+          "max": 2.5561140000718297,
+          "mean": 2.2514973331150636,
+          "median": 2.479819999280153,
+          "min": 1.7185579999932088,
+          "p10": 1.8708103998505976,
+          "p90": 2.5408551999134943,
+          "p95": 2.548484599992662,
+          "std": 0.37812999813157355
+        }
+      },
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE",
+      "counts": {
+        "backend_visible_rows": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "raster_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        },
+        "selected_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps_from_mean_frame_time": 68.92345541124593,
+      "frame_count": 300,
+      "label": "Bounded cache",
+      "memory": {
+        "frame_local_index_bytes": {
+          "max": 3992240.0,
+          "mean": 3858016.0,
+          "median": 3969244.0,
+          "min": 2914856.0,
+          "p10": 3795502.4000000022,
+          "p90": 3987840.8000000003,
+          "p95": 3992240.0,
+          "std": 315701.8314802751
+        },
+        "frame_local_property_bytes": {
+          "max": 101021520.0,
+          "mean": 97934368.0,
+          "median": 100492612.0,
+          "min": 76241688.0,
+          "p10": 96496555.20000005,
+          "p90": 100920338.4,
+          "p95": 101021520.0,
+          "std": 7261142.124046327
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 281652224.0,
+        "peak_frame_total_torch_reserved_bytes": 352321536.0,
+        "peak_process_rss_bytes": 1755918336.0,
+        "peak_whole_device_vram_bytes": 1967722496.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 48300000.0,
+          "mean": 48300000.0,
+          "median": 48300000.0,
+          "min": 48300000.0,
+          "p10": 48300000.0,
+          "p90": 48300000.0,
+          "p95": 48300000.0,
+          "std": 0.0
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 57500000.0,
+          "mean": 57500000.0,
+          "median": 57500000.0,
+          "min": 57500000.0,
+          "p10": 57500000.0,
+          "p90": 57500000.0,
+          "p95": 57500000.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "process_rss_bytes": {
+          "max": 1756413952.0,
+          "mean": 1746528542.72,
+          "median": 1745575936.0,
+          "min": 1734615040.0,
+          "p10": 1740738560.0,
+          "p90": 1756409856.0,
+          "p95": 1756413952.0,
+          "std": 5372600.407748899
+        },
+        "residency_metadata_cpu_bytes": {
+          "max": 21192232.0,
+          "mean": 21058008.0,
+          "median": 21169236.0,
+          "min": 20114848.0,
+          "p10": 20995494.400000002,
+          "p90": 21187832.8,
+          "p95": 21192232.0,
+          "std": 315701.8314802751
+        },
+        "steady_torch_allocated_bytes": {
+          "max": 191299072.0,
+          "mean": 185012587.52,
+          "median": 188029440.0,
+          "min": 157404672.0,
+          "p10": 180611430.40000004,
+          "p90": 189921843.2,
+          "p95": 190220467.20000002,
+          "std": 8776371.147779515
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_time_ms": [
+        14.300874000027761,
+        14.661760010048965,
+        14.563912680014255
+      ],
+      "replicate_mean_frame_time_std_ms": 0.1523891799137193,
+      "residency": {
+        "cache_capacity_rows": 525000,
+        "cache_occupancy_ratio": {
+          "max": 0.988087619047619,
+          "mean": 0.9880876190476189,
+          "median": 0.988087619047619,
+          "min": 0.988087619047619,
+          "p10": 0.988087619047619,
+          "p90": 0.988087619047619,
+          "p95": 0.988087619047619,
+          "std": 1.1102230246251565e-16
+        },
+        "cache_occupancy_rows": {
+          "max": 518746.0,
+          "mean": 518746.0,
+          "median": 518746.0,
+          "min": 518746.0,
+          "p10": 518746.0,
+          "p90": 518746.0,
+          "p95": 518746.0,
+          "std": 0.0
+        },
+        "discarded_rows": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "evicted_rows": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "h2d": {
+          "bytes_per_frame": {
+            "max": 0.0,
+            "mean": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "p10": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "std": 0.0
+          },
+          "total_bytes": 0.0,
+          "zero_transfer_frames": 300
+        },
+        "overall_cache_or_reuse_hit_rate": 1.0,
+        "overall_eviction_rate_per_request": 0.0,
+        "overall_miss_rate": 0.0,
+        "previous_intersection_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "previous_working_set_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "requested_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "retained_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "retention_ratio": {
+          "max": 1.0,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "p10": 1.0,
+          "p90": 1.0,
+          "p95": 1.0,
+          "std": 0.0
+        },
+        "rows_loaded": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "total_evictions": 0.0,
+        "total_hits": 144675600.0,
+        "total_misses": 0.0
+      },
+      "timing": {
+        "cache_management_ms": {
+          "max": 4.039333000037004,
+          "mean": 1.8274183433156093,
+          "median": 1.8310934997316508,
+          "min": 1.2516790002337075,
+          "p10": 1.6457189992252097,
+          "p90": 1.976697200734634,
+          "p95": 2.1156472001166553,
+          "std": 0.23620915068365536
+        },
+        "camera_preparation_ms": {
+          "max": 1.2639249998755986,
+          "mean": 0.4851550133298588,
+          "median": 0.47628099946450675,
+          "min": 0.40969999918161193,
+          "p10": 0.4437938997398305,
+          "p90": 0.517417099490558,
+          "p95": 0.5497304994605656,
+          "std": 0.06470202105875618
+        },
+        "gpu_slot_index_ms": {
+          "max": 0.46635499984404305,
+          "mean": 0.26051578002504056,
+          "median": 0.25763599978745333,
+          "min": 0.19924499974877108,
+          "p10": 0.24185499951272504,
+          "p90": 0.28446799979064963,
+          "p95": 0.3013105000718497,
+          "std": 0.025682123823953813
+        },
+        "h2d_transfer_ms": {
+          "max": 0.2773469996100175,
+          "mean": 0.0427203967077124,
+          "median": 0.04058600006828783,
+          "min": 0.034131000575143844,
+          "p10": 0.03702100002556108,
+          "p90": 0.047835999521339545,
+          "p95": 0.05385200047385298,
+          "std": 0.015240453139900377
+        },
+        "host_gather_ms": {
+          "max": 0.1334729995505768,
+          "mean": 0.039064986682812254,
+          "median": 0.037136000628379406,
+          "min": 0.030141000024741516,
+          "p10": 0.033460000395280076,
+          "p90": 0.044241000068723224,
+          "p95": 0.051338999764993794,
+          "std": 0.009094050242256237
+        },
+        "pre_raster_assembly_ms": {
+          "max": 0.318098000207101,
+          "mean": 0.16812124001565584,
+          "median": 0.16914400021050824,
+          "min": 0.1211929993587546,
+          "p10": 0.15724510003565229,
+          "p90": 0.1823419998800091,
+          "p95": 0.1877570500710135,
+          "std": 0.017486754515971915
+        },
+        "preparation_ms": {
+          "max": 19.026111999664863,
+          "mean": 13.219846276703416,
+          "median": 13.32315750005364,
+          "min": 10.059574000479188,
+          "p10": 12.628251899786846,
+          "p90": 14.068882599895005,
+          "p95": 14.463146500793302,
+          "std": 1.1047080207483235
+        },
+        "rasterization_ms": {
+          "max": 2.8983678817749023,
+          "mean": 1.245492479801178,
+          "median": 1.2111839652061462,
+          "min": 1.0179200172424316,
+          "p10": 1.1027263760566712,
+          "p90": 1.3721280097961426,
+          "p95": 1.4333391904830934,
+          "std": 0.1910002342248468
+        },
+        "residency_lookup_ms": {
+          "max": 4.5469349997802055,
+          "mean": 2.2267787900364056,
+          "median": 2.2117670000625367,
+          "min": 1.3452900002448587,
+          "p10": 1.8693195996092982,
+          "p90": 2.526552700237517,
+          "p95": 2.7337596503457475,
+          "std": 0.43827290242965466
+        },
+        "selected_gpu_gather_ms": {
+          "max": 1.372051000544161,
+          "mean": 0.5740281899973828,
+          "median": 0.5807634993288957,
+          "min": 0.436739999713609,
+          "p10": 0.5588840004747908,
+          "p90": 0.5974198004878417,
+          "p95": 0.60766100004912,
+          "std": 0.062081150596876106
+        },
+        "spt_cut_ms": {
+          "max": 6.310231000497879,
+          "mean": 4.95897832335686,
+          "median": 5.026922000070044,
+          "min": 3.623597999649064,
+          "p10": 4.773112200109608,
+          "p90": 5.241963599928567,
+          "p95": 5.44643309995081,
+          "std": 0.4276583307269919
+        },
+        "total_frame_time_ms": {
+          "max": 20.439564999833237,
+          "mean": 14.508848896696994,
+          "median": 14.599785999962478,
+          "min": 11.220652000702103,
+          "p10": 13.875810899389762,
+          "p90": 15.423317199474695,
+          "p95": 16.022770299468903,
+          "std": 1.1552403114065546
+        },
+        "total_selection_ms": {
+          "max": 8.088260000477021,
+          "mean": 6.400907236660108,
+          "median": 6.443870999646606,
+          "min": 5.013571000745287,
+          "p10": 6.189922900284728,
+          "p90": 6.7388830996605975,
+          "p95": 7.0389960001193685,
+          "std": 0.46456404521981715
+        },
+        "upper_traversal_ms": {
+          "max": 2.152308999939123,
+          "mean": 1.1396180766617665,
+          "median": 1.102480999634281,
+          "min": 1.0102820006068214,
+          "p10": 1.0616489998028555,
+          "p90": 1.264870999784762,
+          "p95": 1.3356641993595986,
+          "std": 0.1186442679331189
+        }
+      },
+      "trajectory_repetitions_per_process": 10
+    }
+  ],
+  "cross_mode_selected_raster_visible_counts_exact": true,
+  "environment": {
+    "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+    "git_dirty": true,
+    "gpu": {
+      "available": false
+    },
+    "gsplat_version": "1.5.3",
+    "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+    "python_version": "3.12.12",
+    "timestamp_utc": "2026-08-19T17:25:49.261867+00:00",
+    "torch_cuda_version": "12.9",
+    "torch_version": "2.11.0.dev20260128+cu129"
+  },
+  "implementation_file_sha256": {
+    "benchmarks/benchmark_real_scene.py": "579c9e6b4002790784b90f4bcec32a659ad6e4114a78c9183407f14f0324243d",
+    "scene_runtime/alod/host.py": "7b3b545fc514aa4de9ad8cae897b23381057115683151b1e28ff27e6aad19fce",
+    "scene_runtime/alod/host_scene.py": "10dd3d16cf4774a7b2de385e5db4376106552572f5d0bce13de7f9176367ae89",
+    "scene_runtime/alod/hspt.py": "b5d4533fb15e30cb2cd6d008fd8b3f99dad964ec4146ebc937f4d301854f0b26",
+    "scene_runtime/alod/residency.py": "d8969507e70b5a83203d1fc08545e8b605c9defd65694dee14c94c48f07a8603",
+    "scene_runtime/alod/selection.py": "f893713fd0f51d8e4defe962052bf5b03682df09b8c527dc763b7b3bc122d55e",
+    "scripts/alod/run_host_residency_benchmark_campaign.py": "71d81217a8cd831b1137ff363d259eb486efdb61e044055d1b07308cd85f3f08"
+  },
+  "measured_dominant_stage_by_configuration": {
+    "ALOD-HIER-LOD-FRUSTUM": "total_selection_ms",
+    "ALOD-HOST-BOUNDED-CACHE": "total_selection_ms",
+    "ALOD-HOST-NOCACHE": "host_gather_ms",
+    "ALOD-HOST-PREVIOUS-REUSE": "total_selection_ms"
+  },
+  "oracle": {
+    "path": "/home/luis/tese/runs/alod/oracles/ALOD-RUN005-SELECTION-ORACLE-001/manifest.json",
+    "sha256": "c772028aaf8f1b9e75f0edb362047418f7433c29245920debcc1c9000a8e5660"
+  },
+  "quality_and_history_independence": {
+    "criterion": "bitwise RGB equality and exact backend-visible count",
+    "history_all_exact": true,
+    "history_max_abs_error": 0.0,
+    "history_psnr_db": "infinite",
+    "history_render_count": 97,
+    "history_ssim": 1.0,
+    "history_visible_counts_all_exact": true,
+    "representative_all_exact": true,
+    "representative_max_abs_error": 0.0,
+    "representative_psnr_db": "infinite",
+    "representative_render_count": 30,
+    "representative_ssim": 1.0
+  },
+  "run_provenance": [
+    {
+      "cold_start_sha256": "b065507acd261f72476376e045be8f0f0c8ff8dcf3c6509662a257ac6113be7f",
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:17:49.512964+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "a99fd368b48213bb9cde81f4ef7b96492cddda0f1bfb2674ab3b0640e47d8b0b",
+      "replicate": 1,
+      "resolved_config_sha256": "e64b39784e5357447c6dfdce59b34a3e5b3907e18c4752db68a25d9348b635a0",
+      "summary_sha256": "a8f5b3ba9d087b248bf65b8da0a104ec78d127738737205261f55e84a4e62bb6"
+    },
+    {
+      "cold_start_sha256": "1446e720ccdfe2b2938011eedf86f2be0c62b02fa8add90d552ce0b16469c754",
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:30.976951+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "7f6086067fae8cd5f3145519e7b9ed45f2fb3d2cff437ff5ff71d5fb54cd7531",
+      "replicate": 2,
+      "resolved_config_sha256": "e64b39784e5357447c6dfdce59b34a3e5b3907e18c4752db68a25d9348b635a0",
+      "summary_sha256": "c01fd9cd461c75848e45f5890ff641bb8f01034c656d5398cb3cc5f0eafb408a"
+    },
+    {
+      "cold_start_sha256": "5bdcb6656de36c9463355bded523958b9ba08f7d23157d2750074c8edc4b1dde",
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:52.845789+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "c30ef25c019e8b6f44ccb6a92e2664d3a0811b1a85b7336d49fef327acc638cb",
+      "replicate": 3,
+      "resolved_config_sha256": "e64b39784e5357447c6dfdce59b34a3e5b3907e18c4752db68a25d9348b635a0",
+      "summary_sha256": "04956957848a48ac2f2bfabcbd9b3289d71627cdedf188b4eae81e8ee1f8646f"
+    },
+    {
+      "cold_start_sha256": "cc488d9301985d82b5ac6ea2b2c63b2024f478a6f860affb871f228f59601cf7",
+      "configuration_id": "ALOD-HOST-NOCACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:17:55.806426+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "8e4460f1bcbb0bd3f37c502515f77ffa47ec22b43aff4628c128969ef73c2fdf",
+      "replicate": 1,
+      "resolved_config_sha256": "405274c433e2b31edab1daaeb85b5ce1bd10dfe0c8341b62ea12fb66afd84f1a",
+      "summary_sha256": "bee16e7eae7483e828abfbd403a583d483d5f423e649389fa3bddddcc1bba76e"
+    },
+    {
+      "cold_start_sha256": "befc124a3b427381806c5ebc878d6e9a09c0e3c33d35741bb0fb95e09ee4d5cc",
+      "configuration_id": "ALOD-HOST-NOCACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:37.400609+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "a6e989e278d7f82989865a0b0acffdbf890b409baa0c522dbb0fe903acb67a1e",
+      "replicate": 2,
+      "resolved_config_sha256": "405274c433e2b31edab1daaeb85b5ce1bd10dfe0c8341b62ea12fb66afd84f1a",
+      "summary_sha256": "175a1e5a1268bd4f3ae103bc0d3fb72a323d857da0a0f7f4222980c0de2d99ff"
+    },
+    {
+      "cold_start_sha256": "4dd0130e0c442a38c775fe8e04d91a892856d3523a171e1944c23609973b8c76",
+      "configuration_id": "ALOD-HOST-NOCACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:45.124503+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "172588e2b9f446426456b960793b33d5f8d497f5995326dfc417e066befb5a4a",
+      "replicate": 3,
+      "resolved_config_sha256": "405274c433e2b31edab1daaeb85b5ce1bd10dfe0c8341b62ea12fb66afd84f1a",
+      "summary_sha256": "ab8d4c8dae2e5b218565f03550bee2e77726a8802f8e6cb87423e7d1c9ccc8db"
+    },
+    {
+      "cold_start_sha256": "76eccb5aa7d1ce1e77397e4f24fde3a3dedb2b6fd186d112827e35e2516c0ab3",
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:03.334169+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "bc52bc02204ccd98f4b8b2a1f0fb45ea8ed3635eec6f99ae7a3916544fa6d5d0",
+      "replicate": 1,
+      "resolved_config_sha256": "0c74290fe26cbf1ce5466dd5604d5107a7c974cc86c1749e610dabedb617d853",
+      "summary_sha256": "4b78abccac190e2b239ef4bd0aeb15527c8c701c4da3e7beeb9bf56b0a5f04cd"
+    },
+    {
+      "cold_start_sha256": "79eb06edd6ae4ad9f6b2a499a32416112a81ae388e518557b8e8171efc1220a1",
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:17.060435+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "e58839a5376dfe0272c4200255df551025a9082c393d50332c231f40900d9b7b",
+      "replicate": 2,
+      "resolved_config_sha256": "0c74290fe26cbf1ce5466dd5604d5107a7c974cc86c1749e610dabedb617d853",
+      "summary_sha256": "99ea49ccf72abf023a0b08c9ef94f0923e825751ab3f75eb66c67a4b5884d4e1"
+    },
+    {
+      "cold_start_sha256": "d85f8a6c735c2d67604fa04a6de9b56dbcc4a6a724f49096e498e1e0eed4f6eb",
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:19:06.136554+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "a362febe50a8954fbc539c0946b6030fb6ec873e8e2e47a53f1783be852e2508",
+      "replicate": 3,
+      "resolved_config_sha256": "0c74290fe26cbf1ce5466dd5604d5107a7c974cc86c1749e610dabedb617d853",
+      "summary_sha256": "34ca2931c8b8f9680236d761691460825d8f73261f72937b86070116dd0ee65c"
+    },
+    {
+      "cold_start_sha256": "b43f3594e56093767c9f24ebb50ee128ae80abcea302a93ff825412e76905413",
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:10.208552+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "86fa07e479fba41cfdf5af91863aa1b60b1ea2cf969c5a02c5c9c4398b552a18",
+      "replicate": 1,
+      "resolved_config_sha256": "3886bb4bf505fdeb614853704243ad428b0f7c90ec9e1ceabbcdfc5d7e0dbff6",
+      "summary_sha256": "24a53401eb8c3d0affa614d96ffb2767a29bd5d433fd9f6cb239650f8a9494fe"
+    },
+    {
+      "cold_start_sha256": "79e68dd2715660b304096699b65ea96175ed1ac605cb41fa0a684970d6b78df8",
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:23.997338+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "df08e4ba83d2f6f2085b90056ac8e720c2bbae41ce8e805971ff153c77576f6f",
+      "replicate": 2,
+      "resolved_config_sha256": "3886bb4bf505fdeb614853704243ad428b0f7c90ec9e1ceabbcdfc5d7e0dbff6",
+      "summary_sha256": "88ff9cb8c9ee051fb17d1949471bec446851657b6153c27b6cbbc3d118524470"
+    },
+    {
+      "cold_start_sha256": "5c3ca028b277c1abcca147bb02cb1dc16692db2378d8a3e91274b52ab51b0900",
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE",
+      "environment": {
+        "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-08-19T17:18:59.235756+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "frames_sha256": "5fc98d2eda17b5c650a665584c0dc62d69e4a235ba4a556489e26acbe5221a26",
+      "replicate": 3,
+      "resolved_config_sha256": "3886bb4bf505fdeb614853704243ad428b0f7c90ec9e1ceabbcdfc5d7e0dbff6",
+      "summary_sha256": "e14512af5891cce67edca8a081ce664df50dce6c9d19a4446b5c5d4f1de9edf6"
+    }
+  ],
+  "schema_version": 1,
+  "status": "PASS-ALOD-HOST-RESIDENCY-BENCHMARK",
+  "trajectory": {
+    "camera_count": 10,
+    "id": "alod_run005_frozen_evaluation_v1",
+    "resolution": [
+      960,
+      540
+    ],
+    "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d"
+  },
+  "weak_lod_oracle": true
+}

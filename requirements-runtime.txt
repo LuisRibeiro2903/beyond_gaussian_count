@@ -1,0 +1,14 @@
+# Install a compatible PyTorch/CUDA stack before these Python dependencies.
+# These versions were present for the validated GPU smoke test.
+numpy==1.26.4
+gsplat==1.5.3
+viser==0.2.7
+nerfview==0.1.2
+plyfile==1.1.3
+torchmetrics==1.8.2
+psutil==7.2.2
+tqdm==4.67.1
+splines==0.3.0
+PyYAML==6.0.3
+# Training/evaluation extras are documented separately; offline analysis needs
+# only requirements-evidence.txt.

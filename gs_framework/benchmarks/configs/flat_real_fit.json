@@ -1,0 +1,51 @@
+{
+  "configuration_id": "FLAT-REAL-FIT",
+  "description": "Operational real-scene flat gsplat baseline for the project-trained MatrixCity-sized checkpoint.",
+  "record_kind_default": "benchmark_validation",
+  "representation_type": "flat",
+  "asset_role": "project_trained_matrixcity_flat_checkpoint",
+  "asset_env_var": "GS_FRAMEWORK_FLAT_REAL_FIT_ASSET",
+  "checkpoint_type": "gsplat_checkpoint",
+  "training_source": "project-trained",
+  "scene_type": "flat",
+  "camera_path": "../camera_paths/matrixcity_1m2_navigation_v1.json",
+  "trajectory_id": "matrixcity_1m2_navigation_v1",
+  "trajectory_source": "results/camera_paths/simplemc_aerial_nav_v1.json",
+  "trajectory_notes": "Manual Viser-export trajectory authored for the approximately 1.2M-Gaussian MatrixCity/splatfacto scene.",
+  "width": 1920,
+  "height": 1080,
+  "sh_degree": 3,
+  "render_mode": "RGB",
+  "background": [0.0, 0.0, 0.0],
+  "near_plane": 0.01,
+  "far_plane": 10000000000.0,
+  "radius_clip": 0.0,
+  "eps2d": 0.3,
+  "rasterize_mode": "classic",
+  "camera_model": "pinhole",
+  "packed": false,
+  "warmup_frames": 5,
+  "measured_frames": 120,
+  "num_repeat": 1,
+  "timing_policy": {
+    "cuda_synchronize": true,
+    "cuda_events": false,
+    "first_frame_initialization_excluded_by_warmup": true
+  },
+  "output_policy": {
+    "write_frames_jsonl": true,
+    "write_summary_json": true,
+    "write_resolved_config_json": true,
+    "write_images": false
+  },
+  "disabled_runtime_components": [
+    "blocks",
+    "pre_rasterization_visibility_selection",
+    "lod",
+    "host_residency",
+    "gpu_cache",
+    "hierarchy",
+    "citygaussian_runtime_selection",
+    "flashgs"
+  ]
+}

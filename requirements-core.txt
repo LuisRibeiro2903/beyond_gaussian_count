@@ -1,0 +1,2 @@
+# Install CPU PyTorch separately using the command in docs/REPRODUCING.md.
+numpy==1.26.4

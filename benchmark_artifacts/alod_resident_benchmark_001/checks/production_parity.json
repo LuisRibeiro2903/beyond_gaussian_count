@@ -1,0 +1,374 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "cameras": [
+    {
+      "camera_stable_id": "eval-0000-img-000001-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 34.63600699978997,
+      "pre_raster_assembly_ms": 0.04678799996327143,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "ae94fc895afb8c6853a75271fe62916fbc9e8c56ebb7b2816078c77d29e84ed8",
+        "opacities": "44381345a78fe0232e84067c483f2d3ec4a4cde67eb066ac5d92961955bad8c7",
+        "quaternions": "76024529dbda1bc013193a58c5bf41189d9bf22e6c57f8fe5466297248d9e1c6",
+        "scales": "62ec8e6aa84c57b0cfc1cde82fff4a0da65199647ff7ede6cc3d6e9da7949749",
+        "sh_features": "0f147403c5539a4bcb157e5602aeaa7992bec4985ad6b113d72e19ff970e803d",
+        "view_matrices": "9b84f3adad27080fc6a97e86663a4b35e5cfdeb2059e46c7452aa3bd3a4cd37a"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 5.178641999009415,
+      "raster_count": 464357,
+      "reference_selection_ms": 5.297661999065895,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 63235.42578125,
+        "max_abs_error": 3.5762786865234375e-07,
+        "mean_abs_error": 6.630427468522095e-09,
+        "official_sha256": "731164f642c4e7ac775ea8d779422b9100e168b6bff0ce51b9a17d3960b8c4d7",
+        "production_sha256": "1eda6837e6f3fe3df30a07f465d741200972aa116fa848dc126ca519f768ff25",
+        "raster_time_ms": 64039.030441999785,
+        "visible_gaussians": 1782.0
+      },
+      "selected_hierarchy_count": 364357,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0002-img-000101-cam-0001",
+      "candidate_spt_count": 23,
+      "gather_ms": 26.019738001195947,
+      "pre_raster_assembly_ms": 0.03050399936910253,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "44e9025fcf54f42012d8aa227a146afef2aa829a22686c94728f8d3023fccb67",
+        "opacities": "db80f8abc0b0c81a8d98ac18d901edde8e77381e01356d011f712ac2e6052a0e",
+        "quaternions": "e97fea834f979ab1cecfbbed7d2bca140f2962c27fa81e5e7ce5964119a6622f",
+        "scales": "c07dbc1027ab178ab288c6d051305bc206ab2ac3530d46131907c66a9ba918c3",
+        "sh_features": "630afc6505434320f0a79d3e3de60b0f27e80f3182019cfb451db78417dfd1f1",
+        "view_matrices": "977dfdcbe513d6f1ed4ebebd10884a5295cc1e2f38d03d01c519cee8a5b474cb"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 11.076630999014014,
+      "raster_count": 598419,
+      "reference_selection_ms": 11.702376999892294,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 3.2723519802093506,
+        "max_abs_error": 6.109476089477539e-07,
+        "mean_abs_error": 6.518872366612585e-09,
+        "official_sha256": "4ea0b24fa1f1332bc7952ddde0d68bb0d1caf4ed281664072fa1f38b06f09e7f",
+        "production_sha256": "3a9438f14e434fa11f76afeae2228789884afa45bcbffd29b0d6ee89d76f675b",
+        "raster_time_ms": 3.368411000337801,
+        "visible_gaussians": 5535.0
+      },
+      "selected_hierarchy_count": 498419,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0004-img-000201-cam-0001",
+      "candidate_spt_count": 23,
+      "gather_ms": 18.539033999331878,
+      "pre_raster_assembly_ms": 0.025692999770399183,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "a1e2292ed6474c5f86e9496528b3e033e6785bbdd6c74b24f51fd2d6463d16d3",
+        "opacities": "ae144350cb2b7404b834f4de66376aedc15e22f9d026888110147f58cb8e826e",
+        "quaternions": "1d337c118d1a7536a0b5c274361056b3b720c05b31e9e32b1d1fc54dede669b6",
+        "scales": "968bf6bbe757b445773b6cff542fe69080f4634944d048f7d2f0c248afd4b362",
+        "sh_features": "bc8f9eeece15b461a2e8a5b8e8c9f908bbada2db5116866f917686561d6d9c43",
+        "view_matrices": "531fdeeb8118aca869b19aadf09b17c0da365a74c67ad1939a7697463d27df86"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.764458999896306,
+      "raster_count": 596102,
+      "reference_selection_ms": 6.846926000434905,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 5.449984073638916,
+        "max_abs_error": 1.245737075805664e-05,
+        "mean_abs_error": 1.3340946762159527e-08,
+        "official_sha256": "d20db0c8a5d102931ff6a0349ba959fca85eaf02e0543b89ac861875c5025798",
+        "production_sha256": "82d407cd1c349100613a2bbc8199467a59feb05cf785ba9cf563fab7442cc3c8",
+        "raster_time_ms": 5.578135000178008,
+        "visible_gaussians": 29217.0
+      },
+      "selected_hierarchy_count": 496102,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0006-img-000301-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 14.865560999169247,
+      "pre_raster_assembly_ms": 0.02130800021404866,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "a6ecb2692e6ce9b471e5d02ff65a1a4d87997a440cd4462a8dd6b27a49109103",
+        "opacities": "a00e7240a5927c06668488b8b45cc1e3cfe0f6fe48c550686f090a4605696dc2",
+        "quaternions": "f598d268c9e653ebeec71fd9b3f480342f13e4ed3882234a877dcab58c643a79",
+        "scales": "3a6b5c239ed30d55d46ae75a8594a15305fe06bcb4573e9c2fdf99825112f162",
+        "sh_features": "e4218b721810af13d6c900211b996c2e90ed24a695b23d00df60123281a7320f",
+        "view_matrices": "71157ee5d05ea146f13b14831e8d6c1b75068ce67fcb6e8de3ea66a269a55fc2"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.464172000050894,
+      "raster_count": 586669,
+      "reference_selection_ms": 7.284248000360094,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 6.7776641845703125,
+        "max_abs_error": 1.1980533599853516e-05,
+        "mean_abs_error": 1.2736457808196176e-08,
+        "official_sha256": "41c96ce2034375ccd015797a8e654551ff1ddb42e2abd6e9ca98ccbda1873ce3",
+        "production_sha256": "9feb64c9c8cc928bce5a53c51c55c038215bf5fbfd3597dcc3d6bc65e0aaa86b",
+        "raster_time_ms": 6.921459000295727,
+        "visible_gaussians": 46173.0
+      },
+      "selected_hierarchy_count": 486669,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0007-img-000351-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 15.522514999247505,
+      "pre_raster_assembly_ms": 0.02547999974922277,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "93b53ffd53dc1a68362e34e0af6bd07521d4544fa00f467a6e3a25c26b717ca4",
+        "opacities": "5b6cf1b589795d49af44e5936d39ffdd7646c133a74ab35a82bb275dbe4b4e18",
+        "quaternions": "f63f355b3551e8ddaeecd6bfd1c478f6a80a82de7de625e02e655a3933292f13",
+        "scales": "4cddf6c8a1a32fa7983a6700e1d233787e01ef30a528a77ab04dc08ce6e06aea",
+        "sh_features": "82f2f5d7ddce4f3bd4fc227c0097f98bd7cdf6bae251b276dc245b575efd529e",
+        "view_matrices": "e37a245462f3b25247b8deaf648ebfbc2096f38c7931914ad4ed26e6e8c56750"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 7.336130000112462,
+      "raster_count": 598032,
+      "reference_selection_ms": 7.470640999599709,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 3.873728036880493,
+        "max_abs_error": 0.0009788572788238525,
+        "mean_abs_error": 8.351581291881976e-09,
+        "official_sha256": "d681cd2f57cd1378b37820ef10a0546159dad7802c76c3f9c007b6ca462e024f",
+        "production_sha256": "1c0b12c5f37b11ed74bbaf38be8f2f956f08ae1e3107d39737c488f562a1801e",
+        "raster_time_ms": 3.9784139989933465,
+        "visible_gaussians": 8029.0
+      },
+      "selected_hierarchy_count": 498032,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0008-img-000401-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 12.966219999725581,
+      "pre_raster_assembly_ms": 0.02078099896607455,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "21d52042237224cead5e930cf6ea0a11607313e1b96f6d834f23b1f8a4953ce8",
+        "opacities": "c21fa293d7a73e2df534dcd8a86d3dc642884712be1b409630e61336605f8489",
+        "quaternions": "dc2480579dddc24a05b74b746db4d45bf9c622e2e13f862437d4e24de6fce88f",
+        "scales": "b744bfba144213999f64185d4e3ec0bd5f77954a70dd922b376e9d7e2592ef99",
+        "sh_features": "7829fb7fde668655c8257121c801aa9a8fe36a24284265ca1a7b2fb27c422c94",
+        "view_matrices": "afb80a2f91cba717a1e22bffb951f8f140fae98cec3c9589fb5cec44f2cc2417"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.703745000777417,
+      "raster_count": 594619,
+      "reference_selection_ms": 6.736254999850644,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 2.802464008331299,
+        "max_abs_error": 3.337860107421875e-06,
+        "mean_abs_error": 5.8831177544569285e-09,
+        "official_sha256": "fbb837845c417477eac0a19929fb0f292087d92f3da3a0dd618b1f7b746459e5",
+        "production_sha256": "365d794f8164cf40378b285c69e6baddb543afdaae3c7cc17d704b326837eef1",
+        "raster_time_ms": 2.9022769995208364,
+        "visible_gaussians": 17536.0
+      },
+      "selected_hierarchy_count": 494619,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0009-img-000451-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 15.56463400083885,
+      "pre_raster_assembly_ms": 0.021621999621856958,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "ea1fcdac5a874ef14ac6490804dfb39ad860979a2ce1ecb9a0c368957bd2548a",
+        "opacities": "1f652b607df3c48b3c0510f4b715c408a11239a982d8034f3ffddea7f97d91ab",
+        "quaternions": "382a7c3b208dfed014a2eb91aca847bacb44e5c3a7da0fdc330fdf44fc6f5438",
+        "scales": "0c47b305cc4d49936bc74c247c8d3dc5541c4e485dc125300cf30f89fbb763f2",
+        "sh_features": "00909009b10a936513735e927545b64dd254a4ff8ffee0f5379222bc9d09a8c9",
+        "view_matrices": "44ebffc2e3bfcfe15164db5d38a0eb43eaf60b1e9da2f715df40e1ed07870401"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.877743999211816,
+      "raster_count": 597768,
+      "reference_selection_ms": 6.9401279997691745,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 2.679231882095337,
+        "max_abs_error": 2.0116567611694336e-05,
+        "mean_abs_error": 1.0247149700183927e-08,
+        "official_sha256": "d37f3484d4126344d37207b75506efc7e24b72e8c4ae2c0e11702e5a2ba16a6f",
+        "production_sha256": "cdebc2cd715d8a0eaa92254fc434758c8bcbe02b61fb88f378a4b872ff1aeed2",
+        "raster_time_ms": 3.174309000314679,
+        "visible_gaussians": 17566.0
+      },
+      "selected_hierarchy_count": 497768,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0010-img-000501-cam-0001",
+      "candidate_spt_count": 23,
+      "gather_ms": 16.99249599914765,
+      "pre_raster_assembly_ms": 0.02348600173718296,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "700b1d0ab24a272ab6c1fe75dca42edc817903ed34d2bb1647022d426911d3b3",
+        "opacities": "613988490fdd01b35c22f1d4ed5578131010aa8849357dde4f540fa7b95c836d",
+        "quaternions": "9d329ad3fc57886e00509517554cfd92def9faafcfd41c30aa76939774b35208",
+        "scales": "7ede266ba6bb57860bd5ec30cac4ce63d04d346dbd7062a3720051d2e826c95b",
+        "sh_features": "ad0fb0c7401a9be28b4be28584cae3b04c4e260d2a3c08661a3e66bf02be2538",
+        "view_matrices": "de42c886ddbc73c40ad6cf58f3ee9d64f59592831e3d55491263130efc321698"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.777512999178725,
+      "raster_count": 599030,
+      "reference_selection_ms": 6.920360001458903,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 3.747328042984009,
+        "max_abs_error": 5.918741226196289e-05,
+        "mean_abs_error": 6.213137226508846e-09,
+        "official_sha256": "53c474ce659e0d3cbbaa2a57046e81554047d3877ffe68da3c69ae58fdf1e4ed",
+        "production_sha256": "07af93ddb0b69e313c09f7bc55e6915e1e811744b5c3b5d6902f056901c0726e",
+        "raster_time_ms": 3.8542370002687676,
+        "visible_gaussians": 19254.0
+      },
+      "selected_hierarchy_count": 499030,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0012-img-000601-cam-0001",
+      "candidate_spt_count": 23,
+      "gather_ms": 20.007076000183588,
+      "pre_raster_assembly_ms": 0.024822000341373496,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "617cbb2c2f72ed8fb54ffedecaa9166603aec0d21db994b7e54d4160d5f2aa9e",
+        "opacities": "2fd58562ba94babe593b8374aad14563b64052035ab097eb63e5c65224341147",
+        "quaternions": "34f2a1c3fcefdaab3ea73bf1d5b62080445eec4563d90e024b3cd6b5bc3b848f",
+        "scales": "98e89239f6318df02269817b7d231f6a46afb951a7e29243576443573b96bb3d",
+        "sh_features": "d0dc23a5da154ef0c934dfa2d36742c826b0188738b11d59bae79dc723c03536",
+        "view_matrices": "626adf06873342b7196501be24c551458d04c06d23b06c62f4c7bafac6327dcf"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.721761999870068,
+      "raster_count": 591315,
+      "reference_selection_ms": 6.834459998572129,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 3.7965760231018066,
+        "max_abs_error": 3.606081008911133e-06,
+        "mean_abs_error": 6.782420127127519e-09,
+        "official_sha256": "4ef70a549a786c4538dada325394a69bdcd4d86a2cc9068988c776e284fcb091",
+        "production_sha256": "2ab08f82b0eac9dbab535d7c80226fcf32521a8f3d28ad5febb08ba2cdaa7031",
+        "raster_time_ms": 3.899420000379905,
+        "visible_gaussians": 20062.0
+      },
+      "selected_hierarchy_count": 491315,
+      "selection_parity": true
+    },
+    {
+      "camera_stable_id": "eval-0014-img-000701-cam-0001",
+      "candidate_spt_count": 22,
+      "gather_ms": 13.021606000620523,
+      "pre_raster_assembly_ms": 0.022058000467950478,
+      "pre_raster_hashes": {
+        "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+        "intrinsics": "6c25a2f285a6c609ff399eee70959afb7f79d4d4f78e4d39d4e4d4555b37abf2",
+        "means": "90410d1bca0e3ce79dec15a3942aadc8d779b2badc76cd4f6b13916dfb1fe6de",
+        "opacities": "25e474e313d42e08f5135e7db7d628d788af92ad34e7177b1f3b83a89ee727ea",
+        "quaternions": "66c2393b34e70ce6bf4930ce8d58c8d56f77eeebcdcb9135f3b221026f376d0c",
+        "scales": "5c623303af852c351fded1f4dcc68b21804295c86729fce224013ed8c3acb090",
+        "sh_features": "a57d241b70fe96bfcc3ec9b5e8a30cda4e07c158bae490986721c3010f49bdce",
+        "view_matrices": "6fc9b29181200762f67b05d24f9732d6368a7d56f317f877b050051441b52e34"
+      },
+      "pre_raster_parity": true,
+      "production_selection_ms": 6.9180300015432294,
+      "raster_count": 596209,
+      "reference_selection_ms": 6.713042001138092,
+      "render": {
+        "exact": false,
+        "gpu_raster_time_ms": 2.670527935028076,
+        "max_abs_error": 1.1324882507324219e-06,
+        "mean_abs_error": 5.710036196811087e-09,
+        "official_sha256": "edc6e2cb35b9009b49f890b0af7029aec0c4c092a9ffa60a2bc690ddfe0f584a",
+        "production_sha256": "43fde1d29b96e1f79d5b485923694b86ab556a9bc8559f38610db6673c00148c",
+        "raster_time_ms": 2.7592989990807837,
+        "visible_gaussians": 3412.0
+      },
+      "selected_hierarchy_count": 496209,
+      "selection_parity": true
+    }
+  ],
+  "configuration": {
+    "distance_multiplier": 1.0,
+    "frustum_enabled": true,
+    "min_spt_size": 100,
+    "root_global_node_id": 100000,
+    "selection_mode": "lod",
+    "skybox_count": 100000,
+    "spt_root_volume": 150.0,
+    "target_granularity": 0.0008629449482830516
+  },
+  "hspt": {
+    "flattened_spt_rows": 998713,
+    "hashes": {
+      "spt_max": "c81aceed7821cfcd2ccc7bd99b5ad074bf4a1d19c72a8946aeae0ff2d7548a45",
+      "spt_min": "8842d3e96b9181ba8837c430474e8db27036b0d4172db4b59b45e04ad6fce9f8",
+      "spt_root_global_node_ids": "0193ccb725fef4de20b6a8e5ce567ff6ac468fb3f914f2464e13643e1e4544e6",
+      "spt_sizes": "24654d14e688394445339cc29fddb0bb8ffcd4beed369672245e54488856f08b",
+      "spt_starts": "c0da2eed26d2c09c4b07c3979e4e9831b54829d7103b941009e7af6d826cd338",
+      "spt_to_global_node_id": "7de0b5581154b03a24e75331db9fa035ecf56e5ceaa18568f45a5c8f58e54c6e",
+      "upper_min_distance_squared": "9fba6f3a071004749bb502b9c22fca3d1e52a5487438132cef237eed3c5d78ab",
+      "upper_to_global_node_id": "5f364afaaffc7054dab7214bd9ad019b52d80a8e5229ce782cc8255f5f15f1a2",
+      "upper_tree_log_scaling": "7632b5be2b91bf7fa348e0b47571402040c1e50517aac01dbc0d27638bd89c46",
+      "upper_tree_nodes": "6a8b82043cb012ea148c75f6c5f55ff2594b61f4a5b54a615e19f65bed6292e0",
+      "upper_tree_xyz": "e8f7db072b14c5454aa273b8a91784e513961ec5cc60cae9e798e0a4d490f53b"
+    },
+    "production_build_ms": 213.61450699987472,
+    "reference_build_ms": 198.85041499946965,
+    "reference_parity": true,
+    "spt_count": 23,
+    "upper_rows": 1309
+  },
+  "memory": {
+    "gaussian_properties_cpu_bytes": 101199908,
+    "gaussian_properties_gpu_bytes": 101199908,
+    "hierarchy_metadata_cpu_bytes": 38458208,
+    "hierarchy_metadata_gpu_bytes": 8799992,
+    "peak_rss_kib": 1592200,
+    "torch_allocated_bytes": 185187328,
+    "torch_peak_allocated_bytes": 255300096,
+    "torch_peak_reserved_bytes": 297795584,
+    "torch_reserved_bytes": 297795584
+  },
+  "oracle_manifest": "/home/luis/tese/runs/alod/oracles/ALOD-RUN005-SELECTION-ORACLE-001/manifest.json",
+  "resident": true,
+  "status": "PASS-ALOD-PRODUCTION-RESIDENT",
+  "streaming": false
+}

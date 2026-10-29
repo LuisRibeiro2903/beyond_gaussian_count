@@ -1,0 +1,155 @@
+{
+  "all_alpha_finite": true,
+  "all_rgb_finite": true,
+  "alpha_range": [
+    0.020325958728790283,
+    0.9998999834060669
+  ],
+  "backend": "gsplat",
+  "backend_gpu_time_ms": {
+    "count": 100,
+    "max": 6.751552104949951,
+    "mean": 6.4461615896224975,
+    "median": 6.439728021621704,
+    "min": 6.38972806930542,
+    "p95": 6.489577507972717,
+    "p99": 6.514205360412599,
+    "std_population": 0.040634695741117936,
+    "std_sample": 0.040839405831375984
+  },
+  "backend_input_and_internal_work": {
+    "call": "gsplat.rendering.rasterization only",
+    "camera_input": "conventional world-to-camera matrix plus pinhole K",
+    "color_input": "degree-2 SH coefficients; SH evaluated internally",
+    "configuration": {
+      "eps2d": 0.3,
+      "far_plane": 10000000000.0,
+      "near_plane": 0.01,
+      "packed": false,
+      "radius_clip": 0.0,
+      "rasterize_mode": "classic"
+    },
+    "gsplat_module": "/home/luis/miniconda3/envs/nerfstudio2/lib/python3.12/site-packages/gsplat/__init__.py",
+    "gsplat_version": "1.5.3",
+    "internal_work": [
+      "covariance construction",
+      "SH evaluation",
+      "camera-space projection",
+      "frustum rejection",
+      "tile overlap generation",
+      "duplicated-instance sorting",
+      "alpha compositing"
+    ],
+    "opacity_input": "activated opacity vector; compositing internally",
+    "rotation_input": "pre-normalized wxyz quaternion",
+    "scale_input": "activated positive scales; covariance constructed internally"
+  },
+  "backend_synchronized_wall_time_ms": {
+    "count": 100,
+    "max": 7.258865000039805,
+    "mean": 6.914939320031408,
+    "median": 6.907859499733604,
+    "min": 6.854794000901165,
+    "p95": 6.958714600295934,
+    "p99": 6.997406989485173,
+    "std_population": 0.0446806121636139,
+    "std_sample": 0.04490570483336269
+  },
+  "backend_throughput_equivalent": 155.13107856462568,
+  "camera_id": "viser_000654",
+  "camera_index": 654,
+  "case": "representative_lod",
+  "gaussian_count": 3241519,
+  "input_file_sha256": "23149bb532431fcb84a1c70d6697fc079a15a0ef03d304dd4a4b6b5dd5c5096b",
+  "input_tensor_sha256": {
+    "means": "13d280035c85963431e638bae9baad6643b417d13f290127eff615cb597e845f",
+    "opacities": "7742cbc1a17d606762bbf115ecd9950b3613c7efbc37aa993cf4c1b38f269e81",
+    "quats": "a2f48fc45c64ce10b0a34bacc5e6c2c0eb87a4900b7195bd2b5b34fc038dc8a1",
+    "scales": "576f8421740c4eeca11542bbeb6e8939c9436b3de0fda9487b8d5e82a88abc8c",
+    "sh_coefficients": "e25119cbf15996d6e9f2a859503715cfd32a3c76c9e747a9eef50ba4f8f1770b"
+  },
+  "measured_diagnostics": {
+    "duplicated_sorted_instance_count": 7974682,
+    "flatten_id_count": 7974682,
+    "input_gaussian_count": 3241519,
+    "maximum_radius": 7267.0,
+    "positive_radii_projected_gaussian_count": 3442160,
+    "tile_intersection_count": 7974682,
+    "tiles_touched": "not separately exposed by the public rasterization result"
+  },
+  "measured_render_count": 100,
+  "memory": {
+    "after_measured_series": {
+      "torch_current_allocated_bytes": 750386176,
+      "torch_current_reserved_bytes": 1275068416,
+      "torch_peak_allocated_bytes": 1172274688,
+      "torch_peak_reserved_bytes": 1275068416
+    },
+    "allocator_semantics": "PyTorch allocator counters; GraphDECO custom extension behavior may not be representation-neutral",
+    "before_measured_series_after_peak_reset": {
+      "torch_current_allocated_bytes": 503835648,
+      "torch_current_reserved_bytes": 1275068416,
+      "torch_peak_allocated_bytes": 503835648,
+      "torch_peak_reserved_bytes": 1275068416
+    },
+    "whole_device_after": {
+      "memory_clock_mhz": 14801,
+      "name": "NVIDIA GeForce RTX 5080",
+      "nvidia_smi_raw": "NVIDIA GeForce RTX 5080, 61, 2850, 14801, P1, 2119, 16303",
+      "pstate": "P1",
+      "sm_clock_mhz": 2850,
+      "temperature_c": 61,
+      "whole_device_total_bytes": 17094934528,
+      "whole_device_used_bytes": 2221932544
+    },
+    "whole_device_before": {
+      "memory_clock_mhz": 14801,
+      "name": "NVIDIA GeForce RTX 5080",
+      "nvidia_smi_raw": "NVIDIA GeForce RTX 5080, 49, 2640, 14801, P1, 2119, 16303",
+      "pstate": "P1",
+      "sm_clock_mhz": 2640,
+      "temperature_c": 49,
+      "whole_device_total_bytes": 17094934528,
+      "whole_device_used_bytes": 2221932544
+    }
+  },
+  "record_kind": "CITYGS-BACKEND-MICROBENCH-repeat",
+  "repeat": 1,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "rgb_range": [
+    0.005745923612266779,
+    1.2091741561889648
+  ],
+  "sh_degree": 2,
+  "timing_semantics": {
+    "backend_gpu_time_ms": "CUDA events enclosing only one direct backend rasterization invocation; end event synchronized",
+    "backend_synchronized_wall_time_ms": "CPU perf_counter enclosing event record, backend call, end-event record, and end-event synchronization",
+    "excluded": [
+      "scene and PLY loading",
+      "activation/conversion",
+      "camera construction",
+      "visibility and LoD selection",
+      "active-set gather and concatenation",
+      "canonical input loading and hashing",
+      "host-to-device transfer",
+      "rasterizer/static argument construction",
+      "warmup",
+      "diagnostic reduction",
+      "alpha sanity render",
+      "image transfer and serialization"
+    ]
+  },
+  "warmup_diagnostics": {
+    "duplicated_sorted_instance_count": 7974682,
+    "flatten_id_count": 7974682,
+    "input_gaussian_count": null,
+    "maximum_radius": 7267.0,
+    "positive_radii_projected_gaussian_count": 3442160,
+    "tile_intersection_count": 7974682,
+    "tiles_touched": "not separately exposed by the public rasterization result"
+  },
+  "warmup_render_count": 10
+}

@@ -1,0 +1,7 @@
+{
+  "entries": 16,
+  "fingerprint_sha256": "d595e32e88de7e8b35f62e5c86095c76ec80cf8a72ff4d733b9b550ec8fd2d4d",
+  "gate": "PASS",
+  "root": "/home/luis/tese/benchmark_artifacts/alod_fast_materialization_culling_001",
+  "total_file_bytes": 703770
+}

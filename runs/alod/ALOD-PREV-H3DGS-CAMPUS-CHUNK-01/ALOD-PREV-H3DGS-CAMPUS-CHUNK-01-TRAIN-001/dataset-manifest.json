@@ -1,0 +1,79 @@
+{
+  "camera_models": [
+    "PINHOLE"
+  ],
+  "counts": {
+    "depth_files": 1190,
+    "evaluation_images": 24,
+    "image_files": 1190,
+    "registered_images": 1190,
+    "sparse_points": 359475,
+    "train_images": 1166
+  },
+  "dataset_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+  "hashes": {
+    "archive": "a305c06d03e52c68f3f5e8d9c7047b072083b87db6d114e8ebd2c62d7c345032",
+    "cameras.bin": "e6b149d42e29eae4251ae5e10d276168f0192fdf2e0e899cdeb14dad1c00ecb2",
+    "images.bin": "0734b4645f6b2d07b8ac96ab9c781aee7b9ce0b83a7b93950eebcef00706523c",
+    "points3D.bin": "fff9091f2ccdd4f8218c97dd8ab184cbe71d3b71f62521d50d47609408077bf0",
+    "test.txt": "5734be7fcaf37148804e40d4cae9d4feae0b17a5079c8fee771a7d8240b77c9c"
+  },
+  "image_and_depth_manifest_sha256": "646799eff1043d6673c94bc3d1db3c23544c514c0a0119bceb1b6b1bf3e82310",
+  "paths": {
+    "dataset": "/home/luis/tese/data/alod_prevalence/H3DGS-CAMPUS-STANDALONE/dataset/campus",
+    "images": "/home/luis/tese/data/alod_prevalence/H3DGS-CAMPUS-STANDALONE/dataset/campus/images",
+    "sparse": "/home/luis/tese/data/alod_prevalence/H3DGS-CAMPUS-STANDALONE/dataset/campus/sparse/0"
+  },
+  "resolution_distribution": {
+    "1436x1075": 1190
+  },
+  "schema_version": 1,
+  "source": {
+    "archive_sha256": "a305c06d03e52c68f3f5e8d9c7047b072083b87db6d114e8ebd2c62d7c345032",
+    "archive_url": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/datasets/standalone_chunks/campus.zip",
+    "asset": "H3DGS Campus standalone chunk (used for evaluation)",
+    "gdpr_notice": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/Mentions_information_RGPD_GRAPHDECO.pdf",
+    "licence_requirements": "No separate data-licence file is embedded in the archive or stated on the download page. Retain official provenance and hashes, use locally for research/evaluation, do not redistribute the imagery, and verify redistribution rights with Inria before any public release.",
+    "official_dataset_page": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/datasets/",
+    "paper_project_page": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/"
+  },
+  "split": {
+    "llff_hold": 50,
+    "official_loader_equivalence": "sorted registered names with llff_hold=50",
+    "public_test_names": [
+      "back/back_G0041240.png",
+      "back/back_G0041380.png",
+      "back/back_G0041443.png",
+      "back/back_G0041761.png",
+      "back/back_G0042596.png",
+      "front/front_G0034981.png",
+      "front/front_G0035150.png",
+      "front/front_G0035487.png",
+      "front/front_G0036331.png",
+      "front/front_G0036401.png",
+      "left/left_G0078284.png",
+      "left/left_G0078344.png",
+      "left/left_G0078634.png",
+      "left/left_G0079488.png",
+      "right/right_G0041350.png",
+      "right/right_G0041414.png",
+      "right/right_G0041719.png",
+      "right/right_G0042585.png",
+      "top/top_G0038955.png",
+      "top/top_G0039101.png",
+      "top/top_G0039161.png",
+      "top/top_G0039457.png",
+      "top/top_G0040288.png",
+      "top/top_G0040348.png"
+    ],
+    "source": "/home/luis/tese/data/alod_prevalence/H3DGS-CAMPUS-STANDALONE/dataset/campus/sparse/0/test.txt"
+  },
+  "status": "PASS-FROZEN-DATASET-PREFLIGHT",
+  "validation": {
+    "all_depth_paths_resolve": true,
+    "all_registered_images_resolve": true,
+    "finite_camera_centres_and_directions": true,
+    "public_split_matches_loader": true,
+    "supported_intrinsics": true
+  }
+}

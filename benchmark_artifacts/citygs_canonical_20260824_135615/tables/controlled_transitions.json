@@ -1,0 +1,67 @@
+[
+  {
+    "child": "CG-FIXED-FINEST-ALL",
+    "cuda_rasterization_time_change_percent": 0.5543881439892365,
+    "end_to_end_fps_change_percent": -47.730602920673235,
+    "end_to_end_frame_time_change_percent": 91.31653622909556,
+    "label": "official cell organization, finest",
+    "parent": "CG-FINEST-FLAT",
+    "post_transfer_resident_memory_change_bytes": 188471808.0,
+    "preparation_time_change_percent": 106150.20001035676,
+    "render_call_time_change_percent": 0.38867654380325395,
+    "render_peak_allocated_memory_change_bytes": 1965955072.0,
+    "selected_gaussian_change_percent": 0.0
+  },
+  {
+    "child": "CG-FIXED-FINEST-VISIBILITY",
+    "cuda_rasterization_time_change_percent": -6.523007409729845,
+    "end_to_end_fps_change_percent": 14.09088451808473,
+    "end_to_end_frame_time_change_percent": -12.350578731687515,
+    "label": "official visibility, finest",
+    "parent": "CG-FIXED-FINEST-ALL",
+    "post_transfer_resident_memory_change_bytes": 0.0,
+    "preparation_time_change_percent": -18.892329836089242,
+    "render_call_time_change_percent": -6.414646125212993,
+    "render_peak_allocated_memory_change_bytes": 208896.0,
+    "selected_gaussian_change_percent": -49.22207193000808
+  },
+  {
+    "child": "CG-LOD-RELEASE",
+    "cuda_rasterization_time_change_percent": -29.505886325259493,
+    "end_to_end_fps_change_percent": 21.53775545744338,
+    "end_to_end_frame_time_change_percent": -17.72104098547784,
+    "label": "released LoD after visibility",
+    "parent": "CG-FIXED-FINEST-VISIBILITY",
+    "post_transfer_resident_memory_change_bytes": 2320357888.0,
+    "preparation_time_change_percent": -3.093048771892514,
+    "render_call_time_change_percent": -29.224639210543817,
+    "render_peak_allocated_memory_change_bytes": 958848000.0,
+    "selected_gaussian_change_percent": -29.0354637742058
+  },
+  {
+    "child": "CG-FUSED-CELLS-ALL",
+    "cuda_rasterization_time_change_percent": -0.10280567119200666,
+    "end_to_end_fps_change_percent": -59.53821614822337,
+    "end_to_end_frame_time_change_percent": 147.14679008303068,
+    "label": "official cell organization, fused",
+    "parent": "FLAT-CITYGS-FULL",
+    "post_transfer_resident_memory_change_bytes": 374246912.0,
+    "preparation_time_change_percent": 254196.76675277756,
+    "render_call_time_change_percent": 0.08039529126815816,
+    "render_peak_allocated_memory_change_bytes": 5894198784.0,
+    "selected_gaussian_change_percent": 0.0
+  },
+  {
+    "child": "CG-FUSED-VISIBILITY",
+    "cuda_rasterization_time_change_percent": 102.79973499844847,
+    "end_to_end_fps_change_percent": -27.33494849491477,
+    "end_to_end_frame_time_change_percent": 37.61773772774636,
+    "label": "official visibility, fused",
+    "parent": "CG-FUSED-CELLS-ALL",
+    "post_transfer_resident_memory_change_bytes": 0.0,
+    "preparation_time_change_percent": -6.2332131867069,
+    "render_call_time_change_percent": 102.11863237977445,
+    "render_peak_allocated_memory_change_bytes": -86528.0,
+    "selected_gaussian_change_percent": -49.40508393361977
+  }
+]

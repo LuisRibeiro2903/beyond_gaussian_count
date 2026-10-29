@@ -1,0 +1,51 @@
+[
+  {
+    "configuration_id": "CG-FINEST-FLAT",
+    "mean_active_gaussian_count": 11694810.0,
+    "mean_radii_visible_gaussian_count": 3017878.413888889,
+    "mean_selected_gaussian_count": 11694810.0,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-FIXED-FINEST-ALL",
+    "mean_active_gaussian_count": 11694810.0,
+    "mean_radii_visible_gaussian_count": 3017878.413888889,
+    "mean_selected_gaussian_count": 11694810.0,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-FIXED-FINEST-VISIBILITY",
+    "mean_active_gaussian_count": 5938382.209722222,
+    "mean_radii_visible_gaussian_count": 3017472.9597222223,
+    "mean_selected_gaussian_count": 5938382.209722222,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-LOD-RELEASE",
+    "mean_active_gaussian_count": 4214145.394444444,
+    "mean_radii_visible_gaussian_count": 1975419.9868055556,
+    "mean_selected_gaussian_count": 4214145.394444444,
+    "resident_gaussian_count": 25494686.0
+  },
+  {
+    "configuration_id": "FLAT-CITYGS-FULL",
+    "mean_active_gaussian_count": 23389621.0,
+    "mean_radii_visible_gaussian_count": 5273123.622916667,
+    "mean_selected_gaussian_count": 23389621.0,
+    "resident_gaussian_count": 23389621.0
+  },
+  {
+    "configuration_id": "CG-FUSED-CELLS-ALL",
+    "mean_active_gaussian_count": 23389621.0,
+    "mean_radii_visible_gaussian_count": 5273123.622916667,
+    "mean_selected_gaussian_count": 23389621.0,
+    "resident_gaussian_count": 23389621.0
+  },
+  {
+    "configuration_id": "CG-FUSED-VISIBILITY",
+    "mean_active_gaussian_count": 11833959.113194445,
+    "mean_radii_visible_gaussian_count": 5272427.586805556,
+    "mean_selected_gaussian_count": 11833959.113194445,
+    "resident_gaussian_count": 23389621.0
+  }
+]

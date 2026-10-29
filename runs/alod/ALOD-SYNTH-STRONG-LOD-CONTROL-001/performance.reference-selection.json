@@ -1,0 +1,455 @@
+{
+  "asset_sha256": "c74f075421b16583bebb2ead0f457e59f705e1276730ce28c6e06166de39da1a",
+  "camera_path_sha256": "0203b43a147ee8fc41df298ee26c4704a45ed84e841a35c3574d135ab902d02d",
+  "cameras": [
+    {
+      "camera_index": 0,
+      "camera_stable_id": "synth-near-to-far-00",
+      "depth_histogram": {
+        "1": 1,
+        "13": 136,
+        "14": 7832,
+        "15": 15952,
+        "16": 1216
+      },
+      "distance": 40.0,
+      "maximum_depth": 16,
+      "mean_depth": 14.725424672793094,
+      "median_depth": 15.0,
+      "projected_scale_proxy": 12.8,
+      "selected_hierarchy_rows": 25137,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_00.npy",
+      "selected_ids_sha256": "3a9125929100fc3c257080dc58c9163bab2e19a4da35111e2416760d26cc7697",
+      "selected_raster_rows": 125137
+    },
+    {
+      "camera_index": 1,
+      "camera_stable_id": "synth-near-to-far-01",
+      "depth_histogram": {
+        "1": 1,
+        "13": 3688,
+        "14": 9008
+      },
+      "distance": 50.39684199579493,
+      "maximum_depth": 14,
+      "mean_depth": 13.708513822162715,
+      "median_depth": 14.0,
+      "projected_scale_proxy": 10.159366732596476,
+      "selected_hierarchy_rows": 12697,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_01.npy",
+      "selected_ids_sha256": "8567b3abee1c56ce7beeb1abaa033caef879a86f1d4fa1925d9b80fc7a71b62a",
+      "selected_raster_rows": 112697
+    },
+    {
+      "camera_index": 2,
+      "camera_stable_id": "synth-near-to-far-02",
+      "depth_histogram": {
+        "1": 1,
+        "12": 1064,
+        "13": 6064
+      },
+      "distance": 63.496042078727974,
+      "maximum_depth": 13,
+      "mean_depth": 12.849067190349277,
+      "median_depth": 13.0,
+      "projected_scale_proxy": 8.063494719327188,
+      "selected_hierarchy_rows": 7129,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_02.npy",
+      "selected_ids_sha256": "61e5ce1a82964c4d39867d685b06fae2804a7307d9498d387be38d25b7ff8716",
+      "selected_raster_rows": 107129
+    },
+    {
+      "camera_index": 3,
+      "camera_stable_id": "synth-near-to-far-03",
+      "depth_histogram": {
+        "1": 1,
+        "11": 104,
+        "12": 3888
+      },
+      "distance": 80.0,
+      "maximum_depth": 12,
+      "mean_depth": 11.971199599298773,
+      "median_depth": 12.0,
+      "projected_scale_proxy": 6.4,
+      "selected_hierarchy_rows": 3993,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_03.npy",
+      "selected_ids_sha256": "eaee9913817e1a13d326d7ebdb0dae58d757a842bd159a6d3869593de65002ad",
+      "selected_raster_rows": 103993
+    },
+    {
+      "camera_index": 4,
+      "camera_stable_id": "synth-near-to-far-04",
+      "depth_histogram": {
+        "1": 1,
+        "11": 2048
+      },
+      "distance": 100.79368399158986,
+      "maximum_depth": 11,
+      "mean_depth": 10.995119570522206,
+      "median_depth": 11.0,
+      "projected_scale_proxy": 5.079683366298238,
+      "selected_hierarchy_rows": 2049,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_04.npy",
+      "selected_ids_sha256": "26e7482eb2452584badd0352cab96b24f8ea9d9e68d8ebdcaf9411f9483e9989",
+      "selected_raster_rows": 102049
+    },
+    {
+      "camera_index": 5,
+      "camera_stable_id": "synth-near-to-far-05",
+      "depth_histogram": {
+        "1": 1,
+        "10": 992,
+        "11": 64
+      },
+      "distance": 126.99208415745596,
+      "maximum_depth": 11,
+      "mean_depth": 10.052034058656576,
+      "median_depth": 10.0,
+      "projected_scale_proxy": 4.031747359663594,
+      "selected_hierarchy_rows": 1057,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_05.npy",
+      "selected_ids_sha256": "e4b77d94aff132dcda0077e00a48e96821d62f962ef3b00b42e5e551df5903e2",
+      "selected_raster_rows": 101057
+    },
+    {
+      "camera_index": 6,
+      "camera_stable_id": "synth-near-to-far-06",
+      "depth_histogram": {
+        "1": 1,
+        "10": 752,
+        "9": 136
+      },
+      "distance": 160.0,
+      "maximum_depth": 10,
+      "mean_depth": 9.83689538807649,
+      "median_depth": 10.0,
+      "projected_scale_proxy": 3.2,
+      "selected_hierarchy_rows": 889,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_06.npy",
+      "selected_ids_sha256": "fa592e37d620366ee3650ab021869b105fb57e790f01f9eb3336b42720dbefb4",
+      "selected_raster_rows": 100889
+    },
+    {
+      "camera_index": 7,
+      "camera_stable_id": "synth-near-to-far-07",
+      "depth_histogram": {
+        "1": 1,
+        "9": 512
+      },
+      "distance": 201.58736798317972,
+      "maximum_depth": 9,
+      "mean_depth": 8.984405458089668,
+      "median_depth": 9.0,
+      "projected_scale_proxy": 2.539841683149119,
+      "selected_hierarchy_rows": 513,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_07.npy",
+      "selected_ids_sha256": "2d2d8c17cd90ce390c538e8927ec0491749d35a404d7a5cd2529f3c97767a010",
+      "selected_raster_rows": 100513
+    },
+    {
+      "camera_index": 8,
+      "camera_stable_id": "synth-near-to-far-08",
+      "depth_histogram": {
+        "1": 1,
+        "8": 256
+      },
+      "distance": 253.9841683149119,
+      "maximum_depth": 8,
+      "mean_depth": 7.972762645914397,
+      "median_depth": 8.0,
+      "projected_scale_proxy": 2.015873679831797,
+      "selected_hierarchy_rows": 257,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_08.npy",
+      "selected_ids_sha256": "3dab6d62a582e060583cb1e8a6b93b02e9613bc5bc7436498bf530b41a7ae50d",
+      "selected_raster_rows": 100257
+    },
+    {
+      "camera_index": 9,
+      "camera_stable_id": "synth-near-to-far-09",
+      "depth_histogram": {
+        "1": 1,
+        "7": 128
+      },
+      "distance": 320.0,
+      "maximum_depth": 7,
+      "mean_depth": 6.953488372093023,
+      "median_depth": 7.0,
+      "projected_scale_proxy": 1.6,
+      "selected_hierarchy_rows": 129,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_09.npy",
+      "selected_ids_sha256": "b6b0e70b8dfc238e0cb05621a418e617b4a9aacba061ed08c52fb072a195b2f1",
+      "selected_raster_rows": 100129
+    },
+    {
+      "camera_index": 10,
+      "camera_stable_id": "synth-near-to-far-10",
+      "depth_histogram": {
+        "1": 1,
+        "7": 128
+      },
+      "distance": 403.17473596635944,
+      "maximum_depth": 7,
+      "mean_depth": 6.953488372093023,
+      "median_depth": 7.0,
+      "projected_scale_proxy": 1.2699208415745595,
+      "selected_hierarchy_rows": 129,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_10.npy",
+      "selected_ids_sha256": "b6b0e70b8dfc238e0cb05621a418e617b4a9aacba061ed08c52fb072a195b2f1",
+      "selected_raster_rows": 100129
+    },
+    {
+      "camera_index": 11,
+      "camera_stable_id": "synth-near-to-far-11",
+      "depth_histogram": {
+        "1": 1,
+        "6": 64
+      },
+      "distance": 507.9683366298238,
+      "maximum_depth": 6,
+      "mean_depth": 5.923076923076923,
+      "median_depth": 6.0,
+      "projected_scale_proxy": 1.0079368399158986,
+      "selected_hierarchy_rows": 65,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_11.npy",
+      "selected_ids_sha256": "0b3d9ded2348a48680758b6d2a2512d2e4d59c55ba827e86cd9a4c8790bfdccd",
+      "selected_raster_rows": 100065
+    },
+    {
+      "camera_index": 12,
+      "camera_stable_id": "synth-near-to-far-12",
+      "depth_histogram": {
+        "1": 1,
+        "5": 32
+      },
+      "distance": 640.0,
+      "maximum_depth": 5,
+      "mean_depth": 4.878787878787879,
+      "median_depth": 5.0,
+      "projected_scale_proxy": 0.8,
+      "selected_hierarchy_rows": 33,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_12.npy",
+      "selected_ids_sha256": "d51f719b72a03bb1df96c56ffb6cd12fa215d2c5e93bafa0ab75447dd6a2b626",
+      "selected_raster_rows": 100033
+    },
+    {
+      "camera_index": 13,
+      "camera_stable_id": "synth-near-to-far-13",
+      "depth_histogram": {
+        "1": 1,
+        "5": 32
+      },
+      "distance": 806.3494719327186,
+      "maximum_depth": 5,
+      "mean_depth": 4.878787878787879,
+      "median_depth": 5.0,
+      "projected_scale_proxy": 0.63496042078728,
+      "selected_hierarchy_rows": 33,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_13.npy",
+      "selected_ids_sha256": "d51f719b72a03bb1df96c56ffb6cd12fa215d2c5e93bafa0ab75447dd6a2b626",
+      "selected_raster_rows": 100033
+    },
+    {
+      "camera_index": 14,
+      "camera_stable_id": "synth-near-to-far-14",
+      "depth_histogram": {
+        "1": 1,
+        "4": 16
+      },
+      "distance": 1015.9366732596479,
+      "maximum_depth": 4,
+      "mean_depth": 3.823529411764706,
+      "median_depth": 4.0,
+      "projected_scale_proxy": 0.5039684199579492,
+      "selected_hierarchy_rows": 17,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_14.npy",
+      "selected_ids_sha256": "36fa36f4c148623de66eb928b50728efd8debbca75c44a502cf8d7396d489c4c",
+      "selected_raster_rows": 100017
+    },
+    {
+      "camera_index": 15,
+      "camera_stable_id": "synth-near-to-far-15",
+      "depth_histogram": {
+        "1": 1,
+        "3": 8
+      },
+      "distance": 1280.0,
+      "maximum_depth": 3,
+      "mean_depth": 2.7777777777777777,
+      "median_depth": 3.0,
+      "projected_scale_proxy": 0.4,
+      "selected_hierarchy_rows": 9,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_15.npy",
+      "selected_ids_sha256": "bc390d428af3b1588ca0ebcb1d240c2705f560c7cda24d6426f8ed8c96420323",
+      "selected_raster_rows": 100009
+    },
+    {
+      "camera_index": 16,
+      "camera_stable_id": "synth-near-to-far-16",
+      "depth_histogram": {
+        "1": 1,
+        "3": 8
+      },
+      "distance": 1612.6989438654373,
+      "maximum_depth": 3,
+      "mean_depth": 2.7777777777777777,
+      "median_depth": 3.0,
+      "projected_scale_proxy": 0.31748021039364,
+      "selected_hierarchy_rows": 9,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_16.npy",
+      "selected_ids_sha256": "bc390d428af3b1588ca0ebcb1d240c2705f560c7cda24d6426f8ed8c96420323",
+      "selected_raster_rows": 100009
+    },
+    {
+      "camera_index": 17,
+      "camera_stable_id": "synth-near-to-far-17",
+      "depth_histogram": {
+        "1": 1,
+        "2": 4
+      },
+      "distance": 2031.8733465192959,
+      "maximum_depth": 2,
+      "mean_depth": 1.8,
+      "median_depth": 2.0,
+      "projected_scale_proxy": 0.2519842099789746,
+      "selected_hierarchy_rows": 5,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_17.npy",
+      "selected_ids_sha256": "a05f5048bb36f1f04ef556e3119872013ae689ca89d40a4f13f4abde36e8ab76",
+      "selected_raster_rows": 100005
+    },
+    {
+      "camera_index": 18,
+      "camera_stable_id": "synth-near-to-far-18",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 2560.0,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.2,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_18.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 19,
+      "camera_stable_id": "synth-near-to-far-19",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 3225.3978877308746,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.15874010519682,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_19.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 20,
+      "camera_stable_id": "synth-near-to-far-20",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 4063.7466930385917,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.1259921049894873,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_20.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 21,
+      "camera_stable_id": "synth-near-to-far-21",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 5120.0,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.1,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_21.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 22,
+      "camera_stable_id": "synth-near-to-far-22",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 6450.795775461749,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.07937005259841,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_22.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 23,
+      "camera_stable_id": "synth-near-to-far-23",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 8127.4933860771835,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.06299605249474365,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_23.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    },
+    {
+      "camera_index": 24,
+      "camera_stable_id": "synth-near-to-far-24",
+      "depth_histogram": {
+        "1": 2,
+        "2": 2
+      },
+      "distance": 10240.0,
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "projected_scale_proxy": 0.05,
+      "selected_hierarchy_rows": 4,
+      "selected_ids_path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.reference-selection.selected_ids/camera_24.npy",
+      "selected_ids_sha256": "c084a3390129ed8b7d47f7bb59abc29c574acac871d96c3340a41d389f85566a",
+      "selected_raster_rows": 100004
+    }
+  ],
+  "configuration": {
+    "distance_multiplier": 1.0,
+    "min_spt_size": 100,
+    "root_global_node_id": 100000,
+    "skybox_count": 100000,
+    "spt_root_volume": 1.5,
+    "target_granularity": 0.00390625
+  },
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "hierarchy_maximum_depth": 19,
+  "hspt": {
+    "flattened_spt_rows": 1048574,
+    "spt_count": 2,
+    "upper_rows": 3
+  },
+  "selector": "independent CPU reference implementing pinned official semantics"
+}

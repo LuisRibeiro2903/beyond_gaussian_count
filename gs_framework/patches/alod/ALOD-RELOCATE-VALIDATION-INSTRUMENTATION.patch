@@ -1,0 +1,140 @@
+diff --git a/train_hierarchy.py b/train_hierarchy.py
+index a221797..64de47c 100644
+--- a/train_hierarchy.py
++++ b/train_hierarchy.py
+@@ -9,6 +9,7 @@
+ # For inquiries contact  george.drettakis@inria.fr
+ #
+ from utils.general_utils import get_expon_lr_func
++import json
+ import os
+ import torch
+ from torch import nn
+@@ -43,6 +44,7 @@ from datetime import datetime
+ import random
+ from globals import *
+ from utils.read_write_model import qvec2rotmat, rotmat2qvec, qvec2rotmat_torch, rotmat2qvec_torch, rotation_matrix_to_quaternion
++from topology_invariants import validate_topology
+ # to check CPU RAM usage
+ pid = os.getpid()
+ 
+@@ -107,6 +109,62 @@ Global_ADAM = False
+ non_blocking=False
+ 
+ 
++def validate_training_topology(gaussians, iteration, mutation, roots=None, before_nodes=None):
++    """Fail-fast diagnostic validation for hierarchy-mutating smoke runs."""
++    started = time.perf_counter()
++    if roots is None:
++        report = validate_topology(
++            gaussians.nodes,
++            active_size=gaussians.size,
++            skybox_rows=gaussians.skybox_points,
++            root=gaussians.skybox_points,
++        )
++        scope = "global"
++        root_ids = None
++    else:
++        root_ids = roots.detach().cpu().to(torch.int64).tolist()
++        report = validate_topology(
++            gaussians.nodes,
++            active_size=gaussians.size,
++            skybox_rows=gaussians.skybox_points,
++            subtree_roots=root_ids,
++        )
++        scope = "affected-subtrees"
++
++    changed_count = None
++    changed_examples = None
++    if before_nodes is not None:
++        overlap = min(len(before_nodes), gaussians.size)
++        changed = torch.nonzero(
++            torch.any(before_nodes[:overlap] != gaussians.nodes[:overlap], dim=1),
++            as_tuple=True,
++        )[0]
++        changed_count = int(len(changed)) + max(0, gaussians.size - len(before_nodes))
++        changed_examples = changed[:100].detach().cpu().tolist()
++
++    event = {
++        "event": "ALOD_TOPOLOGY_VALIDATION",
++        "iteration": int(iteration),
++        "mutation": mutation,
++        "scope": scope,
++        "valid": report.valid,
++        "active_size": gaussians.size,
++        "skybox_rows": gaussians.skybox_points,
++        "affected_roots": root_ids,
++        "reachable_nodes": report.reachable_nodes,
++        "checked_edges": report.checked_edges,
++        "mismatch_counts": report.mismatch_counts,
++        "mismatches": report.mismatches[:100],
++        "changed_row_count": changed_count,
++        "changed_row_examples": changed_examples,
++        "duration_seconds": time.perf_counter() - started,
++    }
++    print(json.dumps(event, sort_keys=True), flush=True)
++    if not report.valid:
++        raise RuntimeError("ALoD topology invariant failed: " + json.dumps(event, sort_keys=True))
++    return report
++
++
+ 
+ # Start and end indices for the properties tensor from CPU Memory
+ 
+@@ -151,6 +209,8 @@ def training(dataset, opt:OptimizationParams, pipe, saving_iterations, view_grap
+         
+     gaussians.compact_gaussians(opt.storage_device, opt.cap_max, densification=opt.densification, prune_unused_gaussians=opt.prune_unused)
+     print(f"Gaussians Moved to {opt.storage_device}")
++    nodes_before_spt = gaussians.nodes[:gaussians.size].clone()
++    validate_training_topology(gaussians, 0, "initial-hierarchy-load")
+     
+     if opt.optimize_exposure:
+         gaussians.init_exposure_optimization(opt, scene.cam_infos)
+@@ -158,6 +218,9 @@ def training(dataset, opt:OptimizationParams, pipe, saving_iterations, view_grap
+     
+     gaussians.build_hierarchical_SPT(opt.SPT_root_volume, SPT_Target_Granularity, opt.min_SPT_size, use_bounding_spheres=opt.use_bounding_spheres, revive_gaussians=Revive_Gaussians)
+     print(f"Built {len(gaussians.SPT_starts)} SPTs, which contain {len(gaussians.SPT_gaussian_indices)*100/(len(gaussians.SPT_gaussian_indices) + len(gaussians.upper_tree_nodes)):.2f} % of Gaussians")
++    validate_training_topology(
++        gaussians, 0, "initial-hspt-rebuild", before_nodes=nodes_before_spt
++    )
+     
+     bg_color = [1, 1, 1] if dataset.white_background else [0, 0, 0]
+     background = torch.tensor(bg_color, dtype=torch.float32, device="cuda")
+@@ -787,7 +850,14 @@ def training(dataset, opt:OptimizationParams, pipe, saving_iterations, view_grap
+                         dead_indices = torch.where((gaussians.properties[:gaussians.size, opacity1] <= gaussians.inverse_opacity_activation(torch.tensor(0.005)).item()).squeeze(-1))[0]
+ 
+                         # Find SPT root nodes
++                        topology_before_densification = gaussians.nodes[:gaussians.size].clone()
+                         gaussians.add_new_gs(cap_max=opt.cap_max, size=gaussians.size, densification=opt.densification, densify_percent=opt.densify_percent, densify_threshold=opt.densify_grad_threshold)
++                        validate_training_topology(
++                            gaussians,
++                            iteration,
++                            "add_new_gs",
++                            before_nodes=topology_before_densification,
++                        )
+                         # Make sure that we don't mark newly spawned Gaussians as dead
+                         dead_mask =torch.zeros(gaussians.size, dtype=torch.bool, device=opt.storage_device)
+                         dead_mask[dead_indices] = True
+@@ -795,7 +865,21 @@ def training(dataset, opt:OptimizationParams, pipe, saving_iterations, view_grap
+                         # only redistribute leaf nodes
+                         dead_mask = torch.logical_and(dead_mask, gaussians.nodes[:gaussians.size, 2] == 0)
+                         print(f"Respawn {torch.sum(dead_mask)} Gaussians")
+-                        gaussians.relocate_gs(dead_mask, gaussians.size, storage_device=opt.storage_device, densification=opt.densification)
++                        topology_before_relocation = gaussians.nodes[:gaussians.size].clone()
++                        affected_roots = gaussians.relocate_gs(dead_mask, gaussians.size, storage_device=opt.storage_device, densification=opt.densification)
++                        validate_training_topology(
++                            gaussians,
++                            iteration,
++                            "relocate_gs",
++                            roots=affected_roots,
++                            before_nodes=topology_before_relocation,
++                        )
++                        validate_training_topology(
++                            gaussians,
++                            iteration,
++                            "scheduled-densification-complete",
++                            before_nodes=topology_before_densification,
++                        )
+                            
+                         gaussians.build_hierarchical_SPT(opt.SPT_root_volume, SPT_Target_Granularity, use_bounding_spheres=opt.use_bounding_spheres, revive_gaussians=Revive_Gaussians)
+                         print(f"Built {len(gaussians.SPT_starts)} SPTs, which contain {len(gaussians.SPT_gaussian_indices)*100/(len(gaussians.SPT_gaussian_indices) + len(gaussians.upper_tree_nodes))} % of Gaussians")

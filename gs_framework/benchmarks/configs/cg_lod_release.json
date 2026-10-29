@@ -1,0 +1,62 @@
+{
+  "configuration_id": "CG-LOD-RELEASE",
+  "description": "Released CityGaussian V1 Nyquist adaptive LoD over official visibility and three fully resident released PLY levels.",
+  "record_kind_default": "benchmark_validation",
+  "representation_type": "citygaussian_official_cells_release_lod",
+  "asset_role": "author_provided_citygaussian_released_lod_ply_family",
+  "asset_env_vars": {
+    "finest": "GS_FRAMEWORK_CG_LOD_RELEASE_FINEST_ASSET",
+    "middle": "GS_FRAMEWORK_CG_LOD_RELEASE_MIDDLE_ASSET",
+    "coarsest": "GS_FRAMEWORK_CG_LOD_RELEASE_COARSEST_ASSET"
+  },
+  "checkpoint_type": "citygaussian_lod_ply_bundle",
+  "training_source": "author-provided",
+  "scene_type": "citygaussian_lod_release",
+  "lod_policy": "CG-LOD-RELEASE",
+  "lod_level_order": ["light_50_vq", "light_66_vq", "light_75_vq"],
+  "lod_level_semantics": ["finest", "middle", "coarsest"],
+  "visibility_bounds_level": "light_75_vq",
+  "block_dim": [6, 6, 1],
+  "aabb": [-3.5, -4.0, -10.0, 4.5, 2.0, 10.0],
+  "mad_multiplier": 4.0,
+  "camera_path": "../camera_paths/citygaussian_23m_navigation_v1.json",
+  "trajectory_id": "citygaussian_23m_navigation_v1",
+  "trajectory_source": "results/camera_paths/realmc_aerial_nav_v1.json",
+  "trajectory_notes": "Same frozen trajectory as CG-FIXED-FINEST-VISIBILITY.",
+  "width": 1920,
+  "height": 1080,
+  "sh_degree": 2,
+  "render_mode": "RGB",
+  "background": [0.0, 0.0, 0.0],
+  "near_plane": 0.01,
+  "far_plane": 10000000000.0,
+  "radius_clip": 0.0,
+  "eps2d": 0.3,
+  "rasterize_mode": "classic",
+  "camera_model": "pinhole",
+  "packed": false,
+  "warmup_frames": 0,
+  "measured_frames": 1,
+  "num_repeat": 1,
+  "timing_policy": {
+    "cuda_synchronize": true,
+    "cuda_events": false,
+    "first_frame_initialization_excluded_by_warmup": false
+  },
+  "output_policy": {
+    "write_frames_jsonl": true,
+    "write_summary_json": true,
+    "write_resolved_config_json": true,
+    "write_images": false
+  },
+  "disabled_runtime_components": [
+    "paper_fixed_distance_lod",
+    "host_residency",
+    "gpu_cache",
+    "hierarchy",
+    "streaming",
+    "vq_reconstruction",
+    "custom_project_partition",
+    "flashgs"
+  ]
+}

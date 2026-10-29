@@ -1,0 +1,10 @@
+{
+  "calibrator_project_commit": "78d3d5501cb7a74befe1a0ba716318b72fc34780",
+  "calibrator_sha256": "4044d43f2f79f29a50f5a2b565520a33d505b24858e828ce9272839a206116ff",
+  "fine_training_launched": false,
+  "hierarchy_sha256": "092bb311d1ec67f13fd86fac61f0345763ba4d8f099c2691f7184bcae9427f39",
+  "reason": "user-reported external power interruption after creator completion",
+  "resume_timestamp": 1790106112,
+  "reuse_scope": "completed coarse and creator barriers only",
+  "schema_version": 1
+}

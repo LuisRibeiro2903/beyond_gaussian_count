@@ -1,0 +1,17 @@
+{
+  "camera_stable_id": "eval-0008-img-000002-cam-0001",
+  "cold_process_repetitions": 2,
+  "compared": [
+    "HSPT structural hashes",
+    "effective camera matrices",
+    "upper traversal order and sets",
+    "ordered and sorted selected global IDs",
+    "source-row hashes",
+    "working-set mapping",
+    "pre-raster tensor hashes",
+    "render hash"
+  ],
+  "exact_match": true,
+  "schema_version": "alod_selection_oracle_determinism.v1",
+  "semantic_signature_sha256": "c6a64ea1fb4565ca2d2f1e227523a20903ae63a82e3eb4c5dbe14fba51cbbc49"
+}

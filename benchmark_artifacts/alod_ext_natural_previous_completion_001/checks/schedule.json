@@ -1,0 +1,167 @@
+{
+  "campaign_id": "ALOD-EXT-NATURAL-PREVIOUS-COMPLETION-001",
+  "schedule": [
+    {
+      "dataset": "campus",
+      "mode": "nocache",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-01",
+      "sequence_index": 1,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446580541102336
+    },
+    {
+      "dataset": "campus",
+      "mode": "previous",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-01",
+      "sequence_index": 2,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446591013509310
+    },
+    {
+      "dataset": "campus",
+      "mode": "bounded",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-01",
+      "sequence_index": 3,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446601088690412
+    },
+    {
+      "dataset": "campus",
+      "mode": "previous",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-02",
+      "sequence_index": 4,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446611064496655
+    },
+    {
+      "dataset": "campus",
+      "mode": "bounded",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-02",
+      "sequence_index": 5,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446620910522878
+    },
+    {
+      "dataset": "campus",
+      "mode": "nocache",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-02",
+      "sequence_index": 6,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446629673662898
+    },
+    {
+      "dataset": "campus",
+      "mode": "bounded",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-03",
+      "sequence_index": 7,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446639954336062
+    },
+    {
+      "dataset": "campus",
+      "mode": "nocache",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-03",
+      "sequence_index": 8,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446649495380239
+    },
+    {
+      "dataset": "campus",
+      "mode": "previous",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-03",
+      "sequence_index": 9,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446658630564616
+    },
+    {
+      "dataset": "sciart",
+      "mode": "nocache",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-01",
+      "sequence_index": 10,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446707220607095
+    },
+    {
+      "dataset": "sciart",
+      "mode": "previous",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-01",
+      "sequence_index": 11,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446740854651254
+    },
+    {
+      "dataset": "sciart",
+      "mode": "bounded",
+      "replicate": 1,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-01",
+      "sequence_index": 12,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446771382664318
+    },
+    {
+      "dataset": "sciart",
+      "mode": "previous",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-02",
+      "sequence_index": 13,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446801800485238
+    },
+    {
+      "dataset": "sciart",
+      "mode": "bounded",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-02",
+      "sequence_index": 14,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446832242852133
+    },
+    {
+      "dataset": "sciart",
+      "mode": "nocache",
+      "replicate": 2,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-02",
+      "sequence_index": 15,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446863311538324
+    },
+    {
+      "dataset": "sciart",
+      "mode": "bounded",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-03",
+      "sequence_index": 16,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446896816569562
+    },
+    {
+      "dataset": "sciart",
+      "mode": "nocache",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-03",
+      "sequence_index": 17,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446928422127978
+    },
+    {
+      "dataset": "sciart",
+      "mode": "previous",
+      "replicate": 3,
+      "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-03",
+      "sequence_index": 18,
+      "status": "complete",
+      "warmup_file_mtime_ns": 1790446961393936811
+    }
+  ]
+}

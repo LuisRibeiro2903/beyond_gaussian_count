@@ -1,0 +1,148 @@
+{
+  "colmap": {
+    "camera_models": [
+      "PINHOLE"
+    ],
+    "camera_records": 2,
+    "dangling_image_point_references": 0,
+    "dangling_track_image_references": 0,
+    "duplicate_filenames": 0,
+    "duplicate_registered_image_ids": 0,
+    "duplicate_source_identities": 0,
+    "finite_poses": true,
+    "max_manifest_to_official_camera_centre_error": 6.922367462065142e-15,
+    "source_tracks_removed_by_construction": true
+  },
+  "counts": {
+    "binary_headers": {
+      "cameras.bin": 2,
+      "images.bin": 710,
+      "points3D.bin": 2317128
+    },
+    "diagnostic": 16,
+    "official_eval": 71,
+    "official_sparse_points": 2317128,
+    "official_train": 639,
+    "stable_source_identities": 710
+  },
+  "cpu_ingestion_compatibility_shim": {
+    "behavior": "fail-closed in-memory compute_relocation_cuda stub; no source file changed",
+    "module": "utils.reloc_utils",
+    "reason": "pinned source allocates a CUDA binomial table at import; relocation is not reachable during dataset ingestion"
+  },
+  "cpu_only": true,
+  "cuda_initialized": false,
+  "dataset_id": "ALOD-REPRO-MC-MIXED-01",
+  "diagnostic_coverage": {
+    "aerial:far": 3,
+    "aerial:mid": 2,
+    "aerial:near": 3,
+    "street:boundary": 4,
+    "street:central": 4
+  },
+  "hashes": {
+    "cameras.bin": "55a1ccae4f8c2cea30535b1323b036c09b27182c8bc56495b132932464e50966",
+    "images.bin": "4a2079ee1a2fa2a10922287904962dc0b5ff40af92fe264228bfd4dc1db52d35",
+    "points3D.bin": "cbd4affef7138370ddbbd4c5b3dccb221d317fe7bd112c625cbb0cf612b02791",
+    "points3D.ply": "fc77affd4849e469e32071476bf475934e546aaba614e171190dea91451631ef"
+  },
+  "image_preprocessing": {
+    "aerial:eval": {
+      "dataset_index": 0,
+      "effective_resolution_at_resolution_2": [
+        960,
+        540
+      ],
+      "filename": "000000__aerial__test__0008.png",
+      "finite": true,
+      "input_resolution": [
+        1920,
+        1080
+      ],
+      "max": 0.95686274766922,
+      "min": 0.0,
+      "tensor_dtype": "torch.float32",
+      "tensor_shape_chw": [
+        3,
+        540,
+        960
+      ]
+    },
+    "aerial:train": {
+      "dataset_index": 1,
+      "effective_resolution_at_resolution_2": [
+        960,
+        540
+      ],
+      "filename": "000001__aerial__train__0055.png",
+      "finite": true,
+      "input_resolution": [
+        1920,
+        1080
+      ],
+      "max": 1.0,
+      "min": 0.0,
+      "tensor_dtype": "torch.float32",
+      "tensor_shape_chw": [
+        3,
+        540,
+        960
+      ]
+    },
+    "street:eval": {
+      "dataset_index": 260,
+      "effective_resolution_at_resolution_2": [
+        500,
+        500
+      ],
+      "filename": "000260__street__test__0000.png",
+      "finite": true,
+      "input_resolution": [
+        1000,
+        1000
+      ],
+      "max": 1.0,
+      "min": 0.0,
+      "tensor_dtype": "torch.float32",
+      "tensor_shape_chw": [
+        3,
+        500,
+        500
+      ]
+    },
+    "street:train": {
+      "dataset_index": 344,
+      "effective_resolution_at_resolution_2": [
+        500,
+        500
+      ],
+      "filename": "000344__street__train__0000.png",
+      "finite": true,
+      "input_resolution": [
+        1000,
+        1000
+      ],
+      "max": 1.0,
+      "min": 0.0,
+      "tensor_dtype": "torch.float32",
+      "tensor_shape_chw": [
+        3,
+        500,
+        500
+      ]
+    }
+  },
+  "official_source": {
+    "commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "image_function": "utils.camera_utils.loadCam",
+    "ingestion_function": "scene.dataset_readers.readColmapSceneInfo",
+    "path": "/home/luis/tese/LoDOfGaussians"
+  },
+  "schema_version": 1,
+  "split": {
+    "frozen_source_partitions_preserved": true,
+    "official_llff_hold": 10,
+    "realized_exactly": true
+  },
+  "status": "PASS-ALOD-FORMAL-DATASET"
+}

@@ -1,0 +1,19 @@
+{
+  "additional_rows_for_cap": 100000,
+  "all_attributes_finite": true,
+  "bytes": 186926752,
+  "gate": "PASS",
+  "gaussians": 718949,
+  "growth_headroom_rows": 11181051,
+  "headroom_ratio_of_cap": 0.93175425,
+  "nodes": 718949,
+  "path": "/home/luis/tese/runs/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-TRAIN-001/output/scaffold/point_cloud/iteration_30000/hierarchy.dhier",
+  "reachable_non_skybox_nodes": 718949,
+  "sh_degree": 3,
+  "sha256": "ba42a4901d7b24fd15cba2acb1387615d3a205a9eb5c1bbe797a59bfeae9f927",
+  "skybox_reserved_field_valid": true,
+  "skybox_rows": 0,
+  "skybox_topology_sentinel_valid": true,
+  "total_rows_for_cap": 818949,
+  "tree_links_valid": true
+}

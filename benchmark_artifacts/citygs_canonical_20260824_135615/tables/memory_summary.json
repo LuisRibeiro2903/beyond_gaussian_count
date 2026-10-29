@@ -1,0 +1,51 @@
+[
+  {
+    "configuration_id": "CG-FINEST-FLAT",
+    "post_transfer_allocated_bytes": 1777954304.0,
+    "render_peak_allocated_bytes": 3269417472.0,
+    "render_peak_reserved_bytes": 3508535296.0,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-FIXED-FINEST-ALL",
+    "post_transfer_allocated_bytes": 1966426112.0,
+    "render_peak_allocated_bytes": 5235372544.0,
+    "render_peak_reserved_bytes": 6496976896.0,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-FIXED-FINEST-VISIBILITY",
+    "post_transfer_allocated_bytes": 1966426112.0,
+    "render_peak_allocated_bytes": 5235581440.0,
+    "render_peak_reserved_bytes": 17202937856.0,
+    "resident_gaussian_count": 11694810.0
+  },
+  {
+    "configuration_id": "CG-LOD-RELEASE",
+    "post_transfer_allocated_bytes": 4286784000.0,
+    "render_peak_allocated_bytes": 6194429440.0,
+    "render_peak_reserved_bytes": 6419382272.0,
+    "resident_gaussian_count": 25494686.0
+  },
+  {
+    "configuration_id": "FLAT-CITYGS-FULL",
+    "post_transfer_allocated_bytes": 5521449984.0,
+    "render_peak_allocated_bytes": 8165928448.0,
+    "render_peak_reserved_bytes": 10206838784.0,
+    "resident_gaussian_count": 23389621.0
+  },
+  {
+    "configuration_id": "CG-FUSED-CELLS-ALL",
+    "post_transfer_allocated_bytes": 5895696896.0,
+    "render_peak_allocated_bytes": 14060127232.0,
+    "render_peak_reserved_bytes": 14703132672.0,
+    "resident_gaussian_count": 23389621.0
+  },
+  {
+    "configuration_id": "CG-FUSED-VISIBILITY",
+    "post_transfer_allocated_bytes": 5895696896.0,
+    "render_peak_allocated_bytes": 14060040704.0,
+    "render_peak_reserved_bytes": 30643585024.0,
+    "resident_gaussian_count": 23389621.0
+  }
+]

@@ -1,0 +1,193 @@
+{
+  "aggregate_status": "PASS-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE",
+  "artifacts": {
+    "checks/all_cameras_correctness.json": {
+      "bytes": 42043,
+      "sha256": "ffee8190fefafc87d59c053bf2dc8fa921da730477d2e8b2c930d1df52c1861d"
+    },
+    "checks/campus_regression.json": {
+      "bytes": 24910,
+      "sha256": "8aee50f44585dfb101de410f1a9e0a38af98f3d0312b4fc5ca42087e91c08566"
+    },
+    "checks/duplicate_cameras_correctness.json": {
+      "bytes": 16475,
+      "sha256": "a828fb6ec95916ed073f162bdf4cb6562140b3641846e223178b10d185f39609"
+    },
+    "checks/image_agreement.json": {
+      "bytes": 536,
+      "sha256": "65af302e246b0b4502673c1d67c563e98e0ce9ee0a12c9bec245bfe5b777458d"
+    },
+    "checks/natural_regression_summary.json": {
+      "bytes": 1238,
+      "sha256": "a9076839adf7ac8906e00933e592f9076dc70305e15b447199f0effdbb797d65"
+    },
+    "checks/package_validation.json": {
+      "bytes": 636,
+      "sha256": "6da6055faaed4adc28ee217dc712908aa1d580475d4763275c347817afc93b70"
+    },
+    "checks/schedule.json": {
+      "bytes": 9159,
+      "sha256": "112f274845b8d36053835c892b1054ec79fe334aa97210d3e066b4b18dc0c502"
+    },
+    "checks/sciart_regression.json": {
+      "bytes": 22044,
+      "sha256": "5f5e48120180892c4736211f1fd43584d9188cfaed1c20d94c3f6aef027b4f9e"
+    },
+    "protocol.json": {
+      "bytes": 4006,
+      "sha256": "144421ca28b9e1cff7d71225959e8d70ef2cb60bd90716572d6c4e316c5c706c"
+    },
+    "protocol_amendment_001.json": {
+      "bytes": 1517,
+      "sha256": "14e103d8c3a899fa39c3c90251b50bdb6bad0bf911dbe860ca29fc68aa845585"
+    },
+    "protocol_execution_002.json": {
+      "bytes": 4006,
+      "sha256": "dfa3c42dd265fa591afd094dada0bdc16d547d6184202bb5684ddc7ada67049e"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01/frames.jsonl": {
+      "bytes": 197786,
+      "sha256": "08b4be39298b300a7f9803dfcb44e2dd1eabed4997680b4b7adf224c7c7b994b"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01/summary.json": {
+      "bytes": 23174,
+      "sha256": "1371f457768bd4997bf56d6b05b316f74e64be3338df8b2376133c5055c73dbb"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01/warmup_frames.jsonl": {
+      "bytes": 72337,
+      "sha256": "4b984a58df52740fe583ba8d139198394c7dff71e1768b7fcfb451f40a15d5c1"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02/frames.jsonl": {
+      "bytes": 197835,
+      "sha256": "a015264aa7c286117be032837a34bc51322bb4fae1e40963baefb9ea9a258614"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02/summary.json": {
+      "bytes": 23160,
+      "sha256": "e99a7abd27f87e9ac038f5f90dc15d50b4545c277fcbe5ca84498e0e9498eadf"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02/warmup_frames.jsonl": {
+      "bytes": 72347,
+      "sha256": "e93755ed66d597d4ca49d78eb5c4bf5ad4b7c1da19ae5d4e3f7c154c1647eedc"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03/frames.jsonl": {
+      "bytes": 197822,
+      "sha256": "7ad8c9ddf5c21bcd170626fd6a86379df4f70342f08c7521fbf68ad92461203c"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03/summary.json": {
+      "bytes": 23172,
+      "sha256": "b6ef8e889eea22a09a8c1e01302271d41589f7514ecc167d438ca3db6cac43f1"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03/warmup_frames.jsonl": {
+      "bytes": 72344,
+      "sha256": "1a9642c58448b90195628f994789bbdbe16c072a7b1ab4a91c2267ec0bdd24b3"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01/frames.jsonl": {
+      "bytes": 190217,
+      "sha256": "3ec22d3f014e072066141fd29cceb6e4ca02961332ae638b759b59935c912660"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01/summary.json": {
+      "bytes": 22663,
+      "sha256": "02ca241321a95a6c9d986f629c6c9c58999d6ed09aeaf79f44ac396c67fe894a"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01/warmup_frames.jsonl": {
+      "bytes": 69035,
+      "sha256": "ea9ae5a91d234e94f7e4cb774613b68d5d0649d47649c0748968b24744bbf960"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02/frames.jsonl": {
+      "bytes": 190209,
+      "sha256": "f598b428a90067182878a66631af4b01ddb299e9b490c7bb9ac6fbef07ae3b20"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02/summary.json": {
+      "bytes": 22665,
+      "sha256": "0bd0ed2dfd5ff688b532ac18d5b22cea6810f17dcbd6f204a7cc33762cbbb5be"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02/warmup_frames.jsonl": {
+      "bytes": 69056,
+      "sha256": "a2199a4269579b3ff258ea0f17b001ce9943b23b0883e0fa826940e66346fa01"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03/frames.jsonl": {
+      "bytes": 190222,
+      "sha256": "868703e97f8806ad2a6622cdf1745b94db3e9a37072cf1da438c3445951addde"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03/summary.json": {
+      "bytes": 22666,
+      "sha256": "f3491d01d4a0d84729457ec123011e9d815c1d467c00980865c5ea0206a50fff"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03/warmup_frames.jsonl": {
+      "bytes": 69029,
+      "sha256": "796baf853f5fed6d5ed7c1442abbdb0b633ae31ade4a5f2d24d54359dddc9052"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01/frames.jsonl": {
+      "bytes": 196820,
+      "sha256": "fa5295c8885aa9745e642fe6ccf034649d25fbb4ffca6c31463e0de29354d077"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01/summary.json": {
+      "bytes": 23131,
+      "sha256": "2e5a75920ed8d3feec3abc5180e4c0f89d68bf12a742f824f80cc2a2f8b065ca"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01/warmup_frames.jsonl": {
+      "bytes": 71902,
+      "sha256": "7d4670375426897217de81bdd8234eb47e458940e62331321bfccd3bf0aa051a"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02/frames.jsonl": {
+      "bytes": 196812,
+      "sha256": "d386e4975577476de7a7969ff513bc39b032946b70d3439c549da097d4665cb4"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02/summary.json": {
+      "bytes": 23123,
+      "sha256": "a927b50e483795af61992f389c407a865b4964abee1ace874c9e5713a0dd5b69"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02/warmup_frames.jsonl": {
+      "bytes": 71894,
+      "sha256": "7f65376e76c7d2f2088f388b12b4fcb380d5dcb73dde0e1989382119f55b39a5"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03/frames.jsonl": {
+      "bytes": 196827,
+      "sha256": "36c08592cce61cf8f0e22b2f35c2b45e67aac6cecf38e3f9b870c6a30bdc9339"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03/summary.json": {
+      "bytes": 23122,
+      "sha256": "d47a416b24ddaf3641d48ac6cf05e9c0e6d285eb4e8179b048ff8a79d1f7d35b"
+    },
+    "runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03/warmup_frames.jsonl": {
+      "bytes": 71882,
+      "sha256": "16aa0f65f430dbe989e2987e9f4b01d34256c152fdf05700bfdb2e0de49b0641"
+    },
+    "tables/aggregate.json": {
+      "bytes": 26820,
+      "sha256": "3690d4f0972e1eb9e13fcbeaac81c9883ed024d3096c9c864c62613c40c62980"
+    },
+    "tables/per_camera_summary.json": {
+      "bytes": 78611,
+      "sha256": "69e0bd4ac8245ec1eac9f517ff9fcab595bd171958cebbbab308d312f6476458"
+    },
+    "traces/all_cameras_trace.npz": {
+      "bytes": 3791167,
+      "sha256": "5a3307f407abbcd19ea0c9a57c39de5dd892c38858fa0ebb1266fddd99b2f3e1"
+    },
+    "traces/campus_regression_trace.npz": {
+      "bytes": 46149469,
+      "sha256": "3a3e9a2a6f35c711cde25dcb88a62f8296ae934e0ce97b8098356ed380d5f7f4"
+    },
+    "traces/duplicate_cameras_trace.npz": {
+      "bytes": 1072520,
+      "sha256": "7c84e9d92ccbe8661c16a42485cb7da209575132ba35785afc27e60627edd463"
+    },
+    "traces/sciart_regression_trace.npz": {
+      "bytes": 236984139,
+      "sha256": "22c9afc830be33c46f77e61a1623428d262d37302593532b13c52444691f8ef9"
+    }
+  },
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "classification": "project-specific ALoD-EXT ordered-multiset closure",
+  "controlled_parent_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "final_execution": "execution-002 after instrumentation-only amendment",
+  "parent_result_unchanged": "BLOCKED-SYNTH-ALOD-EXT-OFFICIAL-DUPLICATE-SEMANTIC-IDS",
+  "postprocessor": {
+    "path": "/home/luis/tese/gs_framework/scripts/alod/summarize_synthetic_multiset_closure.py",
+    "sha256": "5fbb27fd30b660edb013a28f41a1d4f93993d4b30d9e5c41ac5069e2091810ca"
+  },
+  "repository": "/home/luis/tese/gs_framework",
+  "schema_version": 1,
+  "status": "PASS-ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE"
+}

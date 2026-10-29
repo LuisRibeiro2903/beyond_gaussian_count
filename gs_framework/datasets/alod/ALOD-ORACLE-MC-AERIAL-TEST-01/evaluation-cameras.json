@@ -1,0 +1,1119 @@
+{
+  "cameras": [
+    {
+      "camera_center": [
+        -9.500000069152199,
+        -2.9000001665760897,
+        1.5000000569174277
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 10.491235701459477,
+      "colmap_file_order": 517,
+      "evaluation_sequence_index": 0,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0000.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0000.png",
+        "sha256": "10afda7974b0ca81e35323d22aa9da7a4d66265178d1fd8aaf9d84ed7b06a993",
+        "size_bytes": 3215425,
+        "width": 1920
+      },
+      "image_name": "0000.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 12563,
+      "qvec_world_to_camera": [
+        0.290770065310535,
+        0.9510660205210418,
+        -0.09996105236444684,
+        0.03056111483190314
+      ],
+      "registered_image_id": 1,
+      "relative_image_path": "images/0000.png",
+      "rotation_world_to_camera": [
+        [
+          0.978147612540847,
+          -0.20791163526997036,
+          -8.771731062340304e-08
+        ],
+        [
+          -0.1723666058474294,
+          -0.8109211142589992,
+          -0.5591929002031234
+        ],
+        [
+          0.11626263918076946,
+          0.5469732154030124,
+          -0.829037574759077
+        ]
+      ],
+      "selection_categories": {
+        "boundary": true,
+        "distance": "far",
+        "focal": "fixed-single-camera",
+        "height": "low"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 0 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 0,
+      "tvec_world_to_camera": [
+        8.689458741439056,
+        -3.1503647517687687,
+        3.9342739053638236
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -5.600000078505755,
+        -1.7000000885595214,
+        1.5000000423070181
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 6.483940894540943,
+      "colmap_file_order": 543,
+      "evaluation_sequence_index": 1,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0050.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0050.png",
+        "sha256": "52c03cfdd1fea64d6e9d07dd76dad65cae92ed522cebcfacd45eb38587d07195",
+        "size_bytes": 4266726,
+        "width": 1920
+      },
+      "image_name": "0050.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 12516,
+      "qvec_world_to_camera": [
+        0.04168171897352277,
+        0.11451971720430078,
+        0.9326882980916632,
+        -0.33947077529256625
+      ],
+      "registered_image_id": 51,
+      "relative_image_path": "images/0050.png",
+      "rotation_world_to_camera": [
+        [
+          -0.9702957373497183,
+          0.24192185118537302,
+          -9.130935896273229e-08
+        ],
+        [
+          0.1853229493634984,
+          0.743289654187422,
+          -0.642787596657836
+        ],
+        [
+          -0.15550429743315872,
+          -0.6236940819800882,
+          -0.7660444540513524
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "low"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 50 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 50,
+      "tvec_world_to_camera": [
+        -5.022388899928565,
+        3.2655824311096833,
+        -0.7820373589477853
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -3.000000036046916,
+        -2.5000000258734465,
+        1.5000000534150786
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 4.893393671270116,
+      "colmap_file_order": 470,
+      "evaluation_sequence_index": 2,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0100.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0100.png",
+        "sha256": "678bfb9d483e34966861ad274443bf2d49b82c4137ef14bede00fe7909ddf1a9",
+        "size_bytes": 3994771,
+        "width": 1920
+      },
+      "image_name": "0100.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 11045,
+      "qvec_world_to_camera": [
+        0.2642165770982911,
+        0.6883076839817831,
+        -0.6307178003999726,
+        0.24210986930878525
+      ],
+      "registered_image_id": 101,
+      "relative_image_path": "images/0100.png",
+      "rotation_world_to_camera": [
+        [
+          0.08715573488380644,
+          -0.9961946987797431,
+          -2.9847163574014957e-08
+        ],
+        [
+          -0.7403169349778157,
+          -0.06476931329016657,
+          -0.6691306089553617
+        ],
+        [
+          0.6665843634994122,
+          0.05831859205311424,
+          -0.7431448231394918
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "low"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 100 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 100,
+      "tvec_world_to_camera": [
+        -2.229019520160485,
+        -1.3791781673461039,
+        3.2602668705726106
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -2.5400001178972027,
+        -4.299999919468615,
+        1.499999966856418
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 6.101752207939093,
+      "colmap_file_order": 420,
+      "evaluation_sequence_index": 3,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0150.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0150.png",
+        "sha256": "65d24d9849e5ea9bf44b8d53c57f3d21e83b9b15a511de58eaabaad6630c381f",
+        "size_bytes": 4128579,
+        "width": 1920
+      },
+      "image_name": "0150.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 10462,
+      "qvec_world_to_camera": [
+        0.2796880834726093,
+        0.7480596683086068,
+        -0.5637033815059102,
+        0.21076006806849928
+      ],
+      "registered_image_id": 151,
+      "relative_image_path": "images/0150.png",
+      "rotation_world_to_camera": [
+        [
+          0.27563738277312766,
+          -0.9612616882087729,
+          -2.3616792355074523e-08
+        ],
+        [
+          -0.7254733701662318,
+          -0.20802614728444258,
+          -0.6560590760180378
+        ],
+        [
+          0.6306444500648762,
+          0.18083442379152245,
+          -0.7547095393423611
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "low"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 150 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 150,
+      "tvec_world_to_camera": [
+        -3.4333061617201763,
+        -1.7531262700410677,
+        3.511489269256462
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        0.1888889007748858,
+        -4.500000161262502,
+        5.000000249930278
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 7.292544425861713,
+      "colmap_file_order": 605,
+      "evaluation_sequence_index": 4,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0200.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0200.png",
+        "sha256": "f0cd7c5767ece1158ad5f908610ecda2ff8694638bc3773d9a214c52f908f4dd",
+        "size_bytes": 4590733,
+        "width": 1920
+      },
+      "image_name": "0200.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 10536,
+      "qvec_world_to_camera": [
+        0.27537506772182746,
+        0.960346770384995,
+        0.0419296523704326,
+        -0.012023183455447128
+      ],
+      "registered_image_id": 201,
+      "relative_image_path": "images/0200.png",
+      "rotation_world_to_camera": [
+        [
+          0.9961946946233827,
+          0.08715578239117241,
+          -8.908024878850895e-08
+        ],
+        [
+          0.07391224255806958,
+          -0.8448209526585876,
+          -0.5299193696677583
+        ],
+        [
+          -0.04618561252449103,
+          0.5279028580570669,
+          -0.8480480302735915
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "far",
+        "focal": "fixed-single-camera",
+        "height": "high"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 200 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 200,
+      "tvec_world_to_camera": [
+        0.2040313593913177,
+        -1.1660586446704972,
+        6.624527259289937
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        3.300000114093963,
+        -4.500000025080822,
+        4.999999982399443
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 7.945726496039878,
+      "colmap_file_order": 655,
+      "evaluation_sequence_index": 5,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0250.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0250.png",
+        "sha256": "c89c69e3e828cc88b148a74a0fceba38a654be92cc8be5c2899097519926588f",
+        "size_bytes": 3748940,
+        "width": 1920
+      },
+      "image_name": "0250.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 8539,
+      "qvec_world_to_camera": [
+        0.17441354138570167,
+        0.4925287888138225,
+        0.803734026279001,
+        -0.2846171529831492
+      ],
+      "registered_image_id": 251,
+      "relative_image_path": "images/0250.png",
+      "rotation_world_to_camera": [
+        [
+          -0.45399061754177467,
+          0.8910064641651209,
+          -8.755783947878015e-08
+        ],
+        [
+          0.6924421218014926,
+          0.3528169368347113,
+          -0.6293203612132842
+        ],
+        [
+          -0.5607284789798761,
+          -0.2857056000475675,
+          -0.7771459856181299
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "far",
+        "focal": "fixed-single-camera",
+        "height": "high"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 250 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 250,
+      "tvec_world_to_camera": [
+        5.507698638564857,
+        2.4492189386467804,
+        4.4504587516419845
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        4.7000000103509265,
+        -5.390000218802825,
+        4.499999950622104
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 8.948573999496261,
+      "colmap_file_order": 705,
+      "evaluation_sequence_index": 6,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0300.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0300.png",
+        "sha256": "a596eb11f283424dbf5f60a10e6778696d572619f0ceb40585eb6a72a22af723",
+        "size_bytes": 4528543,
+        "width": 1920
+      },
+      "image_name": "0300.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 10350,
+      "qvec_world_to_camera": [
+        0.3330706576729923,
+        0.8041038001793935,
+        0.4549400828191247,
+        -0.18844239591680634
+      ],
+      "registered_image_id": 301,
+      "relative_image_path": "images/0300.png",
+      "rotation_world_to_camera": [
+        [
+          0.5150379689313231,
+          0.8571673643805425,
+          -1.0817048468059198e-07
+        ],
+        [
+          0.6061088334146022,
+          -0.36418691608361686,
+          -0.7071067615362583
+        ],
+        [
+          -0.6061088785159705,
+          0.36418676471615363,
+          -0.7071068008368282
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "far",
+        "focal": "fixed-single-camera",
+        "height": "high"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 300 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 300,
+      "tvec_world_to_camera": [
+        2.1994543090206014,
+        -1.6296986887005214,
+        7.993659045654288
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        2.3722221512114854,
+        -0.5000001180436029,
+        3.50000002880449
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 4.2266674944661995,
+      "colmap_file_order": 390,
+      "evaluation_sequence_index": 7,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0350.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0350.png",
+        "sha256": "4e7ee07a5a8681f086256edf9592a93a2ea5d445e40455606ffd03fbd95e4e96",
+        "size_bytes": 4359851,
+        "width": 1920
+      },
+      "image_name": "0350.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 9804,
+      "qvec_world_to_camera": [
+        0.11112246613794556,
+        0.29721048336080536,
+        -0.8882683828047442,
+        0.33210993091038704
+      ],
+      "registered_image_id": 351,
+      "relative_image_path": "images/0350.png",
+      "rotation_world_to_camera": [
+        [
+          -0.7986354521997152,
+          -0.6018150999183677,
+          -4.038965609187706e-08
+        ],
+        [
+          -0.45419560171170803,
+          0.6027378447422688,
+          -0.6560590262325368
+        ],
+        [
+          0.3948262527688553,
+          -0.5239519787401226,
+          -0.7547095826202382
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "near",
+        "focal": "fixed-single-camera",
+        "height": "high"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 350 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 350,
+      "tvec_world_to_camera": [
+        1.5936332308151566,
+        3.6750284715951476,
+        1.4428919269925136
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -5.312500198138893,
+        0.9142856166134427,
+        2.500000099028376
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 5.903184251219454,
+      "colmap_file_order": 61,
+      "evaluation_sequence_index": 8,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0400.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0400.png",
+        "sha256": "14cb2ea63c9cd252ac2e26253d790d6b525ad127c8ed5dbbdcf1e7e4cb057e2c",
+        "size_bytes": 4092254,
+        "width": 1920
+      },
+      "image_name": "0400.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 10452,
+      "qvec_world_to_camera": [
+        0.13361913821465338,
+        0.48181521795063054,
+        0.8345284596573861,
+        -0.2314352429424491
+      ],
+      "registered_image_id": 401,
+      "relative_image_path": "images/0400.png",
+      "rotation_world_to_camera": [
+        [
+          -0.5000000433079198,
+          0.8660253787805929,
+          -9.684950236232837e-08
+        ],
+        [
+          0.742328667922717,
+          0.4285836481507119,
+          -0.5150380620089273
+        ],
+        [
+          -0.4460359912295906,
+          -0.2575191252038527,
+          -0.8571673084538861
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 400 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 400,
+      "tvec_world_to_camera": [
+        -3.4480446344603153,
+        4.839368536429401,
+        0.008798096411082713
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -2.1843750177283265,
+        3.400000112487847,
+        2.5000001100357014
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 4.008348599681704,
+      "colmap_file_order": 111,
+      "evaluation_sequence_index": 9,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0450.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0450.png",
+        "sha256": "24fbe1d0cb9e3b99f556581cf73d5d851d5f990c0670ef843b0888264b08be32",
+        "size_bytes": 4355748,
+        "width": 1920
+      },
+      "image_name": "0450.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 9327,
+      "qvec_world_to_camera": [
+        0.3265550003852624,
+        0.8290081835013057,
+        0.4224006143661105,
+        -0.1663880536408168
+      ],
+      "registered_image_id": 451,
+      "relative_image_path": "images/0450.png",
+      "rotation_world_to_camera": [
+        [
+          0.5877854731775062,
+          0.8090168338925295,
+          -5.063606212107885e-08
+        ],
+        [
+          0.5916774302094095,
+          -0.42987910541302765,
+          -0.6819983675274339
+        ],
+        [
+          -0.5517481817843033,
+          0.4008687032031844,
+          -0.7313536946580041
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "near",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 450 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 450,
+      "tvec_world_to_camera": [
+        -1.4667132962564324,
+        4.45903039772635,
+        -0.7397942632303167
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        0.4968750244142446,
+        2.571428539429573,
+        2.500000077839075
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 2.7448035626195746,
+      "colmap_file_order": 161,
+      "evaluation_sequence_index": 10,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0500.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0500.png",
+        "sha256": "6f828a2313a2b37fb075b044a6c783a4f6a4596cf5e3e032bead8c8bc37f9edb",
+        "size_bytes": 4160078,
+        "width": 1920
+      },
+      "image_name": "0500.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 9979,
+      "qvec_world_to_camera": [
+        0.01573767447021251,
+        0.0499133785193105,
+        -0.9524099340227904,
+        0.3002936859505405
+      ],
+      "registered_image_id": 501,
+      "relative_image_path": "images/0500.png",
+      "rotation_world_to_camera": [
+        [
+          -0.9945219604941156,
+          -0.10452784363476182,
+          -9.018007793640259e-08
+        ],
+        [
+          -0.08562414653496249,
+          0.8146647136460524,
+          -0.5735764202529204
+        ],
+        [
+          0.05995477983531107,
+          -0.5704343382415388,
+          -0.8191520555610158
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "near",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 500 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 500,
+      "tvec_world_to_camera": [
+        0.7629392291386761,
+        -0.6183664995567127,
+        3.484921307195071
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        3.17812509866372,
+        1.7428572195229004,
+        2.4999999879463606
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 3.8408723321804037,
+      "colmap_file_order": 360,
+      "evaluation_sequence_index": 11,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0550.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0550.png",
+        "sha256": "4a54bb51cb7d4c1f4c3097a2f0764f2ae5c2ef16e03bc23fcdbf80cfa2084638",
+        "size_bytes": 4354007,
+        "width": 1920
+      },
+      "image_name": "0550.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 8223,
+      "qvec_world_to_camera": [
+        0.26143747390861316,
+        0.8825982497923945,
+        0.374640664592672,
+        -0.11097364161478303
+      ],
+      "registered_image_id": 551,
+      "relative_image_path": "images/0550.png",
+      "rotation_world_to_camera": [
+        [
+          0.6946584466006295,
+          0.7193397268095209,
+          -6.577548752884077e-08
+        ],
+        [
+          0.6032890526726863,
+          -0.5825896393396889,
+          -0.5446389914974362
+        ],
+        [
+          -0.39178050167369627,
+          0.37833803611011096,
+          -0.8386705962060741
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "near",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 550 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 550,
+      "tvec_world_to_camera": [
+        -3.4614177158610984,
+        0.4596399510730036,
+        2.682414748287766
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        5.859374961666352,
+        0.9142855472584578,
+        2.4999999205776477
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 6.1418170360884154,
+      "colmap_file_order": 310,
+      "evaluation_sequence_index": 12,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0600.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0600.png",
+        "sha256": "d25a04a4a8badfa86d12039a1f97a1c7cfefb443e74b17a1022d37ffe311b6c4",
+        "size_bytes": 4090078,
+        "width": 1920
+      },
+      "image_name": "0600.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 10599,
+      "qvec_world_to_camera": [
+        0.22985009288242106,
+        0.8015824898032294,
+        0.5305558806059981,
+        -0.1521344944356543
+      ],
+      "registered_image_id": 601,
+      "relative_image_path": "images/0600.png",
+      "rotation_world_to_camera": [
+        [
+          0.39073110631440344,
+          0.9205048628651125,
+          -5.679616793541342e-08
+        ],
+        [
+          0.7806323521584912,
+          -0.3313587847126732,
+          -0.5299193208001031
+        ],
+        [
+          -0.4877933305425814,
+          0.20705591813667548,
+          -0.8480480608095012
+        ]
+      ],
+      "selection_categories": {
+        "boundary": true,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 600 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 600,
+      "tvec_world_to_camera": [
+        -3.131044211391096,
+        -2.9462628507714306,
+        4.788975878692123
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        -2.840740802193022,
+        4.300000096112452,
+        2.0000000989684934
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 4.756469549300428,
+      "colmap_file_order": 223,
+      "evaluation_sequence_index": 13,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0650.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0650.png",
+        "sha256": "98b68940b2311f2df8f5c8e659b2ee8ec8cebb7acdd4fad5d4329cf0151b0efd",
+        "size_bytes": 4021180,
+        "width": 1920
+      },
+      "image_name": "0650.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 12079,
+      "qvec_world_to_camera": [
+        0.18301270177301246,
+        0.6830126859246807,
+        -0.6830127346740295,
+        0.18301263925969688
+      ],
+      "registered_image_id": 651,
+      "relative_image_path": "images/0650.png",
+      "rotation_world_to_camera": [
+        [
+          -4.3711392228029666e-08,
+          -0.9999999999999939,
+          -1.0323827523417428e-07
+        ],
+        [
+          -0.8660254497218866,
+          8.947430713002191e-08,
+          -0.49999992043399
+        ],
+        [
+          0.4999999204339961,
+          6.755128120761178e-08,
+          -0.8660254497218853
+        ]
+      ],
+      "selection_categories": {
+        "boundary": false,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 650 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 650,
+      "tvec_world_to_camera": [
+        4.3000001784162505,
+        -1.460154325149837,
+        3.152420869752605
+      ],
+      "width": 1920
+    },
+    {
+      "camera_center": [
+        1.9666666405784117,
+        5.1000001625117894,
+        2.000000020364636
+      ],
+      "camera_id": 1,
+      "camera_model": "PINHOLE",
+      "camera_to_robust_scene_center_distance": 4.784666629154624,
+      "colmap_file_order": 253,
+      "evaluation_sequence_index": 14,
+      "height": 1080,
+      "image_file": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/0700.png",
+        "resolved_path": "/home/luis/tese/data/matrix_city/aerial/test/block_all_test/input/0700.png",
+        "sha256": "3b431c58cb0aabef1b1cae01a5b78b2d8ef7a8fe3eb4ed09ba10fe9e1d407e53",
+        "size_bytes": 3495753,
+        "width": 1920
+      },
+      "image_name": "0700.png",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fov_x_radians": 0.7853981852531432,
+        "fov_y_radians": 0.45782234845589415,
+        "fx": 2317.6449482429634,
+        "fy": 2317.6449482429634,
+        "principal_x_normalized": 0.5,
+        "principal_y_normalized": 0.5
+      },
+      "point2d_count": 8762,
+      "qvec_world_to_camera": [
+        0.27185713221767566,
+        0.9480785893922352,
+        -0.15865388365354435,
+        0.04549322147373753
+      ],
+      "registered_image_id": 701,
+      "relative_image_path": "images/0700.png",
+      "rotation_world_to_camera": [
+        [
+          0.9455186240031781,
+          -0.325568013882092,
+          -8.1167039422958e-08
+        ],
+        [
+          -0.2760973869813166,
+          -0.8018452897280582,
+          -0.5299192053917432
+        ],
+        [
+          0.17252467813395791,
+          0.5010485003248661,
+          -0.848048132924646
+        ]
+      ],
+      "selection_categories": {
+        "boundary": true,
+        "distance": "central",
+        "focal": "fixed-single-camera",
+        "height": "middle"
+      },
+      "selection_rationale": "Official source zero-based stable name-sort index 700 satisfies index % 50 == 0.",
+      "split": "evaluation",
+      "stable_sorted_index": 700,
+      "tvec_world_to_camera": [
+        -0.19912284983126333,
+        5.692241050024526,
+        -1.1985496791262034
+      ],
+      "width": 1920
+    }
+  ],
+  "dataset_id": "ALOD-ORACLE-MC-AERIAL-TEST-01",
+  "llff_hold": 50,
+  "schema_version": 1,
+  "split_id": "ALoD local oracle split",
+  "zero_based_indexing": true
+}

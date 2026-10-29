@@ -1,0 +1,219 @@
+{
+  "add_new_gs": [
+    {
+      "added_nodes": 2,
+      "changed_rows": [
+        100021,
+        987239,
+        987240
+      ],
+      "level": 1,
+      "official_return_value": 27642,
+      "seconds": 0.06471614199995201,
+      "selected_leaf": 100021,
+      "topology": {
+        "active_size": 987241,
+        "checked_edges": 887240,
+        "expected_nodes": 887241,
+        "maximum_traversed_depth": 20,
+        "mismatch_counts": {},
+        "mismatches": [],
+        "node_rows": 1100000,
+        "reachable_nodes": 887241,
+        "root": 100000,
+        "roots": [
+          100000
+        ],
+        "skybox_rows": 100000,
+        "valid": true
+      }
+    },
+    {
+      "added_nodes": 2,
+      "changed_rows": [
+        987239,
+        987241,
+        987242
+      ],
+      "level": 2,
+      "official_return_value": 27642,
+      "seconds": 0.0022157840001000295,
+      "selected_leaf": 987239,
+      "topology": {
+        "active_size": 987243,
+        "checked_edges": 887242,
+        "expected_nodes": 887243,
+        "maximum_traversed_depth": 21,
+        "mismatch_counts": {},
+        "mismatches": [],
+        "node_rows": 1100000,
+        "reachable_nodes": 887243,
+        "root": 100000,
+        "roots": [
+          100000
+        ],
+        "skybox_rows": 100000,
+        "valid": true
+      }
+    },
+    {
+      "added_nodes": 2,
+      "changed_rows": [
+        987241,
+        987243,
+        987244
+      ],
+      "level": 3,
+      "official_return_value": 27642,
+      "seconds": 0.0025014380000811798,
+      "selected_leaf": 987241,
+      "topology": {
+        "active_size": 987245,
+        "checked_edges": 887244,
+        "expected_nodes": 887245,
+        "maximum_traversed_depth": 22,
+        "mismatch_counts": {},
+        "mismatches": [],
+        "node_rows": 1100000,
+        "reachable_nodes": 887245,
+        "root": 100000,
+        "roots": [
+          100000
+        ],
+        "skybox_rows": 100000,
+        "valid": true
+      }
+    }
+  ],
+  "cuda_device": "NVIDIA GeForce RTX 5080",
+  "gate": "PASS",
+  "hierarchy": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-004/output/scaffold/point_cloud/iteration_5000/hierarchy.dhier",
+  "initial_size": 987239,
+  "initial_topology": {
+    "active_size": 987239,
+    "checked_edges": 887238,
+    "expected_nodes": 887239,
+    "maximum_traversed_depth": 19,
+    "mismatch_counts": {},
+    "mismatches": [],
+    "node_rows": 1100000,
+    "reachable_nodes": 887239,
+    "root": 100000,
+    "roots": [
+      100000
+    ],
+    "skybox_rows": 100000,
+    "valid": true
+  },
+  "relocate_gs": {
+    "affected_roots": [
+      100019,
+      962043
+    ],
+    "changed_rows": [
+      100019,
+      100020,
+      100021,
+      962043,
+      987239,
+      987240,
+      987241,
+      987242,
+      987243,
+      987244
+    ],
+    "dead_nodes": [
+      100020
+    ],
+    "deep_interior_descendant_levels": 3,
+    "deep_interior_sibling": 100021,
+    "global_topology": {
+      "active_size": 987245,
+      "checked_edges": 887244,
+      "expected_nodes": 887245,
+      "maximum_traversed_depth": 21,
+      "mismatch_counts": {},
+      "mismatches": [],
+      "node_rows": 1100000,
+      "reachable_nodes": 887245,
+      "root": 100000,
+      "roots": [
+        100000
+      ],
+      "skybox_rows": 100000,
+      "valid": true
+    },
+    "global_validation_seconds": 2.1578544890001012,
+    "local_topology": {
+      "active_size": 987245,
+      "checked_edges": 8,
+      "expected_nodes": 10,
+      "maximum_traversed_depth": 21,
+      "mismatch_counts": {},
+      "mismatches": [],
+      "node_rows": 1100000,
+      "reachable_nodes": 10,
+      "root": null,
+      "roots": [
+        100000
+      ],
+      "skybox_rows": 100000,
+      "valid": true
+    },
+    "properties_after_sha256": "4f63fd355381d3a76b4cc1c2b88d8e40b5a9f7a0c1b924cba84913b5cf952bb2",
+    "properties_before_sha256": "8fffba62f36471638f22c5c9e4eda979d4674ce088281ee7cf3ba7a98777c303",
+    "seconds": 0.014443561999996746
+  },
+  "scaffold": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-004/output/scaffold/point_cloud/iteration_5000",
+  "seed": 0,
+  "sentinel_relocate_gs": {
+    "affected_roots": [
+      100024,
+      254604
+    ],
+    "changed_rows": [
+      100024,
+      100025,
+      100026,
+      254604
+    ],
+    "dead_node": 100025,
+    "global_topology": {
+      "active_size": 987245,
+      "checked_edges": 887244,
+      "expected_nodes": 887245,
+      "maximum_traversed_depth": 21,
+      "mismatch_counts": {},
+      "mismatches": [],
+      "node_rows": 1100000,
+      "reachable_nodes": 887245,
+      "root": 100000,
+      "roots": [
+        100000
+      ],
+      "skybox_rows": 100000,
+      "valid": true
+    },
+    "global_validation_seconds": 1.0792223690000355,
+    "local_topology": {
+      "active_size": 987245,
+      "checked_edges": 2,
+      "expected_nodes": 4,
+      "maximum_traversed_depth": 20,
+      "mismatch_counts": {},
+      "mismatches": [],
+      "node_rows": 1100000,
+      "reachable_nodes": 4,
+      "root": null,
+      "roots": [
+        100000
+      ],
+      "skybox_rows": 100000,
+      "valid": true
+    },
+    "seconds": 0.006872121000014886,
+    "surviving_leaf_sibling": 100026
+  },
+  "skybox_rows_unchanged": true,
+  "source": "/home/luis/tese/alod_relocate_fix_73f5473"
+}

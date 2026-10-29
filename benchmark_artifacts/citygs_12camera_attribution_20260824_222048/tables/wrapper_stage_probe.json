@@ -1,0 +1,353 @@
+[
+  {
+    "camera_index": 392,
+    "first_target_call_after_one_camera_zero_warmup": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.2097752537212884,
+        "count": 3,
+        "max": 0.007545999324065633,
+        "mean": 0.006077333334057282,
+        "median": 0.005430001692730002,
+        "min": 0.005255998985376209,
+        "std_sample": 0.00127487414210071
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.15968197601226994,
+        "count": 3,
+        "max": 0.07648800055903848,
+        "mean": 0.06547166655460994,
+        "median": 0.06423899867513683,
+        "min": 0.055688000429654494,
+        "std_sample": 0.01045464508825656
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.009527620261644613,
+        "count": 3,
+        "max": 14.017760276794434,
+        "mean": 13.926517486572266,
+        "median": 13.98748779296875,
+        "min": 13.774304389953613,
+        "std_sample": 0.13268657017921393
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.011674005035214463,
+        "count": 3,
+        "max": 14.995497000199975,
+        "mean": 14.863432666970766,
+        "median": 14.927887999874656,
+        "min": 14.666913000837667,
+        "std_sample": 0.17351578779478785
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.07180367321014007,
+        "count": 3,
+        "max": 0.1318719983100891,
+        "mean": 0.12349866578976314,
+        "median": 0.12441600114107132,
+        "min": 0.11420799791812897,
+        "std_sample": 0.008867657840256457
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.08705315870036799,
+        "count": 3,
+        "max": 0.23392100047203712,
+        "mean": 0.21479899987753015,
+        "median": 0.21392199960246217,
+        "min": 0.19655399955809116,
+        "std_sample": 0.018698931425018956
+      }
+    },
+    "gaussian_count": 3823434,
+    "interpretation_limit": "Iteration 1 is the target's first encounter after one camera-zero rasterizer warmup; later iterations expose target-shape warm behavior. Stage synchronization is diagnostic and changes scheduling relative to the original wrapper, so values are not an additive accounting identity for the historical campaign.",
+    "warmed_target_call_across_process_means": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.03972128610297425,
+        "count": 3,
+        "max": 0.006792750355089083,
+        "mean": 0.006569250065998252,
+        "median": 0.006632499662373448,
+        "min": 0.0062825001805322245,
+        "std_sample": 0.000260939061353499
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.04076698506966975,
+        "count": 3,
+        "max": 0.05320724994817283,
+        "mean": 0.05083974974695593,
+        "median": 0.049958999170485185,
+        "min": 0.04935300012220978,
+        "std_sample": 0.002072583318879899
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.002907253157745483,
+        "count": 3,
+        "max": 8.39296817779541,
+        "mean": 8.368498722712198,
+        "median": 8.368216037750244,
+        "min": 8.344311952590942,
+        "std_sample": 0.02432934433719408
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.0066494653699180955,
+        "count": 3,
+        "max": 9.014655250211945,
+        "mean": 8.946986166696055,
+        "median": 8.923401000174636,
+        "min": 8.902902249701583,
+        "std_sample": 0.05949267468058167
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.041789331612800525,
+        "count": 3,
+        "max": 0.10875999741256237,
+        "mean": 0.1056746660421292,
+        "median": 0.10764800012111664,
+        "min": 0.10061600059270859,
+        "std_sample": 0.004416073662306488
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.02123757563023667,
+        "count": 3,
+        "max": 0.17750174993125256,
+        "mean": 0.17339283340334077,
+        "median": 0.17228600017915596,
+        "min": 0.1703907500996138,
+        "std_sample": 0.0036824434131444766
+      }
+    }
+  },
+  {
+    "camera_index": 785,
+    "first_target_call_after_one_camera_zero_warmup": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.27351743688220037,
+        "count": 3,
+        "max": 0.010849000318557955,
+        "mean": 0.008255333038202176,
+        "median": 0.007188999006757513,
+        "min": 0.0067279997892910615,
+        "std_sample": 0.002257977533218007
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.48113888410822014,
+        "count": 3,
+        "max": 0.162756999998237,
+        "mean": 0.10463366622085839,
+        "median": 0.07641400043212343,
+        "min": 0.07472999823221471,
+        "std_sample": 0.050343325405655774
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.017272963715401813,
+        "count": 3,
+        "max": 26.883808135986328,
+        "mean": 26.373781204223633,
+        "median": 26.23027229309082,
+        "min": 26.00726318359375,
+        "std_sample": 0.45555336577850114
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.014739479249096464,
+        "count": 3,
+        "max": 28.594953999345307,
+        "mean": 28.11653333264985,
+        "median": 27.886362999197445,
+        "min": 27.8682829994068,
+        "std_sample": 0.41442305961312154
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.09468431418791788,
+        "count": 3,
+        "max": 0.24371199309825897,
+        "mean": 0.21970132986704508,
+        "median": 0.20828799903392792,
+        "min": 0.20710399746894836,
+        "std_sample": 0.020802269744634682
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.04485419669456471,
+        "count": 3,
+        "max": 0.3361569997650804,
+        "mean": 0.32724433306915063,
+        "median": 0.33527300001878757,
+        "min": 0.31030299942358397,
+        "std_sample": 0.01467828168266533
+      }
+    },
+    "gaussian_count": 5285212,
+    "interpretation_limit": "Iteration 1 is the target's first encounter after one camera-zero rasterizer warmup; later iterations expose target-shape warm behavior. Stage synchronization is diagnostic and changes scheduling relative to the original wrapper, so values are not an additive accounting identity for the historical campaign.",
+    "warmed_target_call_across_process_means": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.02029838029782191,
+        "count": 3,
+        "max": 0.006795499302825192,
+        "mean": 0.006640499729352693,
+        "median": 0.006575250154128298,
+        "min": 0.006550749731104588,
+        "std_sample": 0.00013479138887398444
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.017583568713893046,
+        "count": 3,
+        "max": 0.053916250635666074,
+        "mean": 0.05290241688271635,
+        "median": 0.05270275005386793,
+        "min": 0.05208824995861505,
+        "std_sample": 0.0009302132823882585
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.0008591612544343892,
+        "count": 3,
+        "max": 12.239696264266968,
+        "mean": 12.232264121373495,
+        "median": 12.23685598373413,
+        "min": 12.220240116119385,
+        "std_sample": 0.010509487387092025
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.0044611566106559,
+        "count": 3,
+        "max": 13.126409000051353,
+        "mean": 13.059496749974642,
+        "median": 13.032069250130007,
+        "min": 13.020011999742565,
+        "std_sample": 0.05826046025798861
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.006265372107393508,
+        "count": 3,
+        "max": 0.1953359991312027,
+        "mean": 0.19462399805585542,
+        "median": 0.1953199990093708,
+        "min": 0.1932159960269928,
+        "std_sample": 0.001219391768848565
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.008961625119020239,
+        "count": 3,
+        "max": 0.2628792503855948,
+        "mean": 0.2606895835318331,
+        "median": 0.2609592502267333,
+        "min": 0.25823024998317123,
+        "std_sample": 0.0023362023200458
+      }
+    }
+  },
+  {
+    "camera_index": 1047,
+    "first_target_call_after_one_camera_zero_warmup": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.01741433617776792,
+        "count": 3,
+        "max": 0.005227000656304881,
+        "mean": 0.005126666413464894,
+        "median": 0.005096999302622862,
+        "min": 0.0050559992814669386,
+        "std_sample": 8.927749239534941e-05
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.012939600664419643,
+        "count": 3,
+        "max": 0.06111800030339509,
+        "mean": 0.06022300052184922,
+        "median": 0.059856000007130206,
+        "min": 0.05969500125502236,
+        "std_sample": 0.0007792615775658648
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.011017761193473892,
+        "count": 3,
+        "max": 32.29654312133789,
+        "mean": 31.900009791056316,
+        "median": 31.776575088500977,
+        "min": 31.626911163330078,
+        "std_sample": 0.3514666899473375
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.013900816767398502,
+        "count": 3,
+        "max": 34.567398000945104,
+        "mean": 34.06749400043433,
+        "median": 34.009471000899794,
+        "min": 33.6256129994581,
+        "std_sample": 0.4735659918244854
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.08172527701300965,
+        "count": 3,
+        "max": 0.10851199924945831,
+        "mean": 0.09916800012191136,
+        "median": 0.09494400024414062,
+        "min": 0.09404800087213516,
+        "std_sample": 0.00810453228078938
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.054933733073579905,
+        "count": 3,
+        "max": 0.19243899987486657,
+        "mean": 0.18099299995810725,
+        "median": 0.17604300046514254,
+        "min": 0.17449699953431264,
+        "std_sample": 0.009942621147885123
+      }
+    },
+    "gaussian_count": 2964347,
+    "interpretation_limit": "Iteration 1 is the target's first encounter after one camera-zero rasterizer warmup; later iterations expose target-shape warm behavior. Stage synchronization is diagnostic and changes scheduling relative to the original wrapper, so values are not an additive accounting identity for the historical campaign.",
+    "warmed_target_call_across_process_means": {
+      "activated_attribute_view_preparation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.11171029686819833,
+        "count": 3,
+        "max": 0.005964250249235192,
+        "mean": 0.005286916803015629,
+        "median": 0.0050169996939075645,
+        "min": 0.00487950046590413,
+        "std_sample": 0.0005906030455823419
+      },
+      "rasterizer_argument_construction_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.2128225810655564,
+        "count": 3,
+        "max": 0.0516449995302537,
+        "mean": 0.04150849978638386,
+        "median": 0.03742875014722813,
+        "min": 0.03545174968166975,
+        "std_sample": 0.008833946060697309
+      },
+      "rasterizer_call_gpu_ms": {
+        "coefficient_of_variation": 0.000986857923611729,
+        "count": 3,
+        "max": 15.78653597831726,
+        "mean": 15.768658638000488,
+        "median": 15.761287927627563,
+        "min": 15.75815200805664,
+        "std_sample": 0.015561425721639318
+      },
+      "rasterizer_call_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.004477735198697066,
+        "count": 3,
+        "max": 16.91901250023875,
+        "mean": 16.860767416498373,
+        "median": 16.8878194995159,
+        "min": 16.775470249740465,
+        "std_sample": 0.07549805173789935
+      },
+      "screen_space_tensor_creation_gpu_ms": {
+        "coefficient_of_variation": 0.12283586483796498,
+        "count": 3,
+        "max": 0.09855199977755547,
+        "mean": 0.0863386665781339,
+        "median": 0.08100800029933453,
+        "min": 0.07945599965751171,
+        "std_sample": 0.01060548477808178
+      },
+      "screen_space_tensor_creation_synchronized_wall_ms": {
+        "coefficient_of_variation": 0.10448847165306932,
+        "count": 3,
+        "max": 0.16712324986656313,
+        "mean": 0.1493319996370701,
+        "median": 0.14290049966803053,
+        "min": 0.13797224937661667,
+        "std_sample": 0.015603472410974158
+      }
+    }
+  }
+]

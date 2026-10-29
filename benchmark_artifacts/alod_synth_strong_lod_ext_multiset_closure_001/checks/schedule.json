@@ -1,0 +1,200 @@
+{
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "schedule": [
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "nocache",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01"
+      ],
+      "finished_utc": "2026-09-26T10:27:26.810979+00:00",
+      "mode": "nocache",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-01",
+      "replicate": 1,
+      "sequence_index": 1,
+      "started_utc": "2026-09-26T10:27:20.758296+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "previous",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01"
+      ],
+      "finished_utc": "2026-09-26T10:27:32.859481+00:00",
+      "mode": "previous",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-01",
+      "replicate": 1,
+      "sequence_index": 2,
+      "started_utc": "2026-09-26T10:27:26.811422+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": 52454,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "bounded",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01",
+        "--capacity",
+        "52454"
+      ],
+      "finished_utc": "2026-09-26T10:27:39.050418+00:00",
+      "mode": "bounded",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-01",
+      "replicate": 1,
+      "sequence_index": 3,
+      "started_utc": "2026-09-26T10:27:32.859894+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "previous",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02"
+      ],
+      "finished_utc": "2026-09-26T10:27:45.303632+00:00",
+      "mode": "previous",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-02",
+      "replicate": 2,
+      "sequence_index": 4,
+      "started_utc": "2026-09-26T10:27:39.050751+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": 52454,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "bounded",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02",
+        "--capacity",
+        "52454"
+      ],
+      "finished_utc": "2026-09-26T10:27:50.299377+00:00",
+      "mode": "bounded",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-02",
+      "replicate": 2,
+      "sequence_index": 5,
+      "started_utc": "2026-09-26T10:27:45.304041+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "nocache",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02"
+      ],
+      "finished_utc": "2026-09-26T10:27:56.199611+00:00",
+      "mode": "nocache",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-02",
+      "replicate": 2,
+      "sequence_index": 6,
+      "started_utc": "2026-09-26T10:27:50.299904+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": 52454,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "bounded",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03",
+        "--capacity",
+        "52454"
+      ],
+      "finished_utc": "2026-09-26T10:28:02.086910+00:00",
+      "mode": "bounded",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/bounded/replicate-03",
+      "replicate": 3,
+      "sequence_index": 7,
+      "started_utc": "2026-09-26T10:27:56.199970+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "nocache",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03"
+      ],
+      "finished_utc": "2026-09-26T10:28:08.088322+00:00",
+      "mode": "nocache",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/nocache/replicate-03",
+      "replicate": 3,
+      "sequence_index": 8,
+      "started_utc": "2026-09-26T10:28:02.087675+00:00",
+      "status": "complete"
+    },
+    {
+      "capacity_rows": null,
+      "command": [
+        "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "/home/luis/tese/gs_framework/scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+        "benchmark",
+        "--config",
+        "/home/luis/tese/gs_framework/configs/alod/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001.json",
+        "--mode",
+        "previous",
+        "--output-dir",
+        "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03"
+      ],
+      "finished_utc": "2026-09-26T10:28:13.987175+00:00",
+      "mode": "previous",
+      "output_dir": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/runs/ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001/previous/replicate-03",
+      "replicate": 3,
+      "sequence_index": 9,
+      "started_utc": "2026-09-26T10:28:08.088673+00:00",
+      "status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "compacted_active_nodes_unchanged": true,
+  "compacted_topology": {
+    "active_size": 987239,
+    "checked_edges": 887238,
+    "expected_nodes": 887239,
+    "maximum_traversed_depth": 19,
+    "mismatch_counts": {},
+    "mismatches": [],
+    "node_rows": 1100000,
+    "reachable_nodes": 887239,
+    "root": 100000,
+    "roots": [
+      100000
+    ],
+    "skybox_rows": 100000,
+    "valid": true
+  },
+  "cuda_device": "NVIDIA GeForce RTX 5080",
+  "cuda_initialized": true,
+  "dataset": "/home/luis/tese/data/alod/ALOD-ORACLE-MC-AERIAL-TEST-01",
+  "gate": "PASS",
+  "hierarchy": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-004/output/scaffold/point_cloud/iteration_5000/hierarchy.dhier",
+  "hspt_nodes_unchanged": true,
+  "hspt_rebuild_seconds": 0.2539809540000988,
+  "hspt_topology": {
+    "active_size": 987239,
+    "checked_edges": 887238,
+    "expected_nodes": 887239,
+    "maximum_traversed_depth": 19,
+    "mismatch_counts": {},
+    "mismatches": [],
+    "node_rows": 1100000,
+    "reachable_nodes": 887239,
+    "root": 100000,
+    "roots": [
+      100000
+    ],
+    "skybox_rows": 100000,
+    "valid": true
+  },
+  "loaded_nodes_sha256": "6a48cb50c71db885c44da4a47c078ef5d2b3e145a526ebe7fc79ee66c7abe77b",
+  "loaded_topology": {
+    "active_size": 987239,
+    "checked_edges": 887238,
+    "expected_nodes": 887239,
+    "maximum_traversed_depth": 19,
+    "mismatch_counts": {},
+    "mismatches": [],
+    "node_rows": 987239,
+    "reachable_nodes": 887239,
+    "root": 100000,
+    "roots": [
+      100000
+    ],
+    "skybox_rows": 100000,
+    "valid": true
+  },
+  "roundtrip_file_bytes": 114519736,
+  "roundtrip_file_sha256": "ca3edb60d9f27370f7946e8c77d464ba49732aa52d19820620a08279e6db5ca8",
+  "roundtrip_nodes_equal": true,
+  "scaffold": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-004/output/scaffold/point_cloud/iteration_5000",
+  "source": "/home/luis/tese/alod_relocate_fix_73f5473",
+  "temporary_roundtrip_file_removed": true
+}

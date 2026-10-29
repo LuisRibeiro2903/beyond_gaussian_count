@@ -1,0 +1,753 @@
+{
+  "configurations": {
+    "ALOD-REPRO-HOST-NOCACHE": {
+      "counts": {
+        "alod_candidate_spt_count": {
+          "maximum": 26.0,
+          "mean": 20.971830985915492,
+          "median": 21.0,
+          "minimum": 16.0,
+          "p95": 26.0
+        },
+        "alod_hierarchy_rows": {
+          "maximum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "minimum": 6972627.0,
+          "p95": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "maximum": 3478844.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "minimum": 2606659.0,
+          "p95": 3478228.0
+        },
+        "alod_skybox_rows": {
+          "maximum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "minimum": 100000.0,
+          "p95": 100000.0
+        },
+        "alod_total_raster_rows": {
+          "maximum": 3578844.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "minimum": 2706659.0,
+          "p95": 3578228.0
+        },
+        "alod_upper_rows": {
+          "maximum": 335.0,
+          "mean": 335.0,
+          "median": 335.0,
+          "minimum": 335.0,
+          "p95": 335.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 1575790.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "minimum": 20467.0,
+          "p95": 1234152.0
+        }
+      },
+      "end_to_end_fps_from_mean_time": 5.3540633507299695,
+      "h2d": {
+        "bytes": {
+          "maximum": 320053648.0,
+          "mean": 315756968.1126761,
+          "median": 318988472.0,
+          "minimum": 239812628.0,
+          "p95": 319996976.0
+        },
+        "rows": {
+          "maximum": 3478844.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "minimum": 2606659.0,
+          "p95": 3478228.0
+        }
+      },
+      "memory_bytes": {
+        "alod_frame_local_property_bytes": {
+          "maximum": 649307296.0,
+          "mean": 640713936.2253522,
+          "median": 647176944.0,
+          "minimum": 488825256.0,
+          "p95": 649193952.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "maximum": 9200000.0,
+          "mean": 9200000.0,
+          "median": 9200000.0,
+          "minimum": 9200000.0,
+          "p95": 9200000.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "maximum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "minimum": 253430044.0,
+          "p95": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_host_property_store_bytes": {
+          "maximum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "minimum": 650681684.0,
+          "p95": 650681684.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "maximum": 1375876096.0,
+          "mean": 1358675391.0985916,
+          "median": 1372179968.0,
+          "minimum": 1169788416.0,
+          "p95": 1375783424.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        },
+        "nvml_device_used_bytes": {
+          "maximum": 4255330304.0,
+          "mean": 4191723423.8497653,
+          "median": 4251398144.0,
+          "minimum": 3906818048.0,
+          "p95": 4255133696.0
+        },
+        "process_peak_rss_bytes": {
+          "maximum": 4090478592.0,
+          "mean": 4061205210.741784,
+          "median": 4080418816.0,
+          "minimum": 3989831680.0,
+          "p95": 4090478592.0
+        },
+        "torch_current_allocated_bytes": {
+          "maximum": 865093632.0,
+          "mean": 758159432.112676,
+          "median": 746996736.0,
+          "minimum": 554689024.0,
+          "p95": 834563072.0
+        },
+        "torch_current_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        },
+        "torch_peak_allocated_bytes": {
+          "maximum": 1043622912.0,
+          "mean": 820824446.1971831,
+          "median": 789144064.0,
+          "minimum": 566835712.0,
+          "p95": 978099712.0
+        },
+        "torch_peak_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        }
+      },
+      "replicate_mean_distribution_ms": {
+        "maximum": 187.61266690156666,
+        "mean": 186.7740320748466,
+        "median": 186.84264580193664,
+        "minimum": 185.86678352103647,
+        "p95": 187.53566479160366
+      },
+      "replicate_mean_end_to_end_ms": {
+        "1": 185.86678352103647,
+        "2": 186.84264580193664,
+        "3": 187.61266690156666
+      },
+      "timings_ms": {
+        "alod_camera_preparation_ms": {
+          "maximum": 1.5009779963293113,
+          "mean": 0.59618292975692,
+          "median": 0.5177390048629604,
+          "minimum": 0.4644189975806512,
+          "p95": 1.0861603994271711
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 46.67706400505267,
+          "mean": 19.270204995037933,
+          "median": 18.61757000006037,
+          "minimum": 13.598551995528396,
+          "p95": 22.86910119873937
+        },
+        "alod_host_gather_ms": {
+          "maximum": 123.49706100212643,
+          "mean": 93.04789453980588,
+          "median": 91.29101500002434,
+          "minimum": 68.13854099891614,
+          "p95": 108.97275039751548
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 26.462139998329803,
+          "mean": 3.8449597325869576,
+          "median": 3.660772999865003,
+          "minimum": 2.68190199858509,
+          "p95": 4.219039801682811
+        },
+        "alod_spt_cut_ms": {
+          "maximum": 41.114673993433826,
+          "mean": 34.22231311280501,
+          "median": 34.26143500109902,
+          "minimum": 25.701067999762017,
+          "p95": 35.62448459706502
+        },
+        "alod_total_selection_ms": {
+          "maximum": 44.75308599648997,
+          "mean": 38.09456329583272,
+          "median": 38.13653100223746,
+          "minimum": 28.64821300317999,
+          "p95": 40.014695600257255
+        },
+        "alod_upper_traversal_ms": {
+          "maximum": 2.2279760014498606,
+          "mean": 1.0773581924067783,
+          "median": 1.0177780059166253,
+          "minimum": 0.8328910043928772,
+          "p95": 1.3594709991593845
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 241.4171299969894,
+          "mean": 186.7740320748466,
+          "median": 184.87065700173844,
+          "minimum": 135.2427349993377,
+          "p95": 207.51664379786234
+        },
+        "frame_preparation_ms": {
+          "maximum": 236.84127500018803,
+          "mean": 182.33500315521914,
+          "median": 180.44711100083077,
+          "minimum": 132.24362899927655,
+          "p95": 201.95057699893368
+        },
+        "rasterization_time_ms": {
+          "maximum": 30.718624114990234,
+          "mean": 4.148121087204123,
+          "median": 3.225663900375366,
+          "minimum": 1.6755199432373047,
+          "p95": 8.265587234497058
+        }
+      }
+    },
+    "ALOD-REPRO-NOFRUSTUM": {
+      "counts": {
+        "alod_candidate_spt_count": {
+          "maximum": 26.0,
+          "mean": 26.0,
+          "median": 26.0,
+          "minimum": 26.0,
+          "p95": 26.0
+        },
+        "alod_hierarchy_rows": {
+          "maximum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "minimum": 6972627.0,
+          "p95": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "maximum": 3478965.0,
+          "mean": 3442922.8169014086,
+          "median": 3468133.0,
+          "minimum": 3270839.0,
+          "p95": 3478961.0
+        },
+        "alod_skybox_rows": {
+          "maximum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "minimum": 100000.0,
+          "p95": 100000.0
+        },
+        "alod_total_raster_rows": {
+          "maximum": 3578965.0,
+          "mean": 3542922.8169014086,
+          "median": 3568133.0,
+          "minimum": 3370839.0,
+          "p95": 3578961.0
+        },
+        "alod_upper_rows": {
+          "maximum": 335.0,
+          "mean": 335.0,
+          "median": 335.0,
+          "minimum": 335.0,
+          "p95": 335.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 1575790.0,
+          "mean": 496181.661971831,
+          "median": 315005.0,
+          "minimum": 20467.0,
+          "p95": 1234152.0
+        }
+      },
+      "end_to_end_fps_from_mean_time": 5.318534487120515,
+      "h2d": {
+        "bytes": {
+          "maximum": 320064780.0,
+          "mean": 316748899.1549296,
+          "median": 319068236.0,
+          "minimum": 300917188.0,
+          "p95": 320064412.0
+        },
+        "rows": {
+          "maximum": 3478965.0,
+          "mean": 3442922.8169014086,
+          "median": 3468133.0,
+          "minimum": 3270839.0,
+          "p95": 3478961.0
+        }
+      },
+      "memory_bytes": {
+        "alod_frame_local_property_bytes": {
+          "maximum": 649329560.0,
+          "mean": 642697798.3098592,
+          "median": 647336472.0,
+          "minimum": 611034376.0,
+          "p95": 649328824.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "maximum": 9200000.0,
+          "mean": 9200000.0,
+          "median": 9200000.0,
+          "minimum": 9200000.0,
+          "p95": 9200000.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "maximum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "minimum": 253430044.0,
+          "p95": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_host_property_store_bytes": {
+          "maximum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "minimum": 650681684.0,
+          "p95": 650681684.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "maximum": 1378270208.0,
+          "mean": 1364261960.1126761,
+          "median": 1373829120.0,
+          "minimum": 1307149824.0,
+          "p95": 1378244608.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "maximum": 2537553920.0,
+          "mean": 2475407331.1549296,
+          "median": 2535456768.0,
+          "minimum": 2191523840.0,
+          "p95": 2537553920.0
+        },
+        "nvml_device_used_bytes": {
+          "maximum": 4300247040.0,
+          "mean": 4174569452.7699533,
+          "median": 4227870720.0,
+          "minimum": 3882758144.0,
+          "p95": 4286772838.3999996
+        },
+        "process_peak_rss_bytes": {
+          "maximum": 4097564672.0,
+          "mean": 4051889791.399061,
+          "median": 4075782144.0,
+          "minimum": 3950227456.0,
+          "p95": 4097564672.0
+        },
+        "torch_current_allocated_bytes": {
+          "maximum": 865348608.0,
+          "mean": 760674433.8028169,
+          "median": 747259392.0,
+          "minimum": 683603968.0,
+          "p95": 837439488.0
+        },
+        "torch_current_reserved_bytes": {
+          "maximum": 2537553920.0,
+          "mean": 2475407331.1549296,
+          "median": 2535456768.0,
+          "minimum": 2191523840.0,
+          "p95": 2537553920.0
+        },
+        "torch_peak_allocated_bytes": {
+          "maximum": 1043843072.0,
+          "mean": 823390741.6338028,
+          "median": 790800384.0,
+          "minimum": 694848000.0,
+          "p95": 980754432.0
+        },
+        "torch_peak_reserved_bytes": {
+          "maximum": 2537553920.0,
+          "mean": 2475407331.1549296,
+          "median": 2535456768.0,
+          "minimum": 2191523840.0,
+          "p95": 2537553920.0
+        }
+      },
+      "replicate_mean_distribution_ms": {
+        "maximum": 191.1706596898435,
+        "mean": 188.02171959618258,
+        "median": 186.82096861991508,
+        "minimum": 186.0735304787891,
+        "p95": 190.73569058285062
+      },
+      "replicate_mean_end_to_end_ms": {
+        "1": 186.82096861991508,
+        "2": 191.1706596898435,
+        "3": 186.0735304787891
+      },
+      "timings_ms": {
+        "alod_camera_preparation_ms": {
+          "maximum": 5.015552000259049,
+          "mean": 0.665773544166764,
+          "median": 0.5154269965714775,
+          "minimum": 0.45471100020222366,
+          "p95": 1.1846690031234162
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 47.962307995476294,
+          "mean": 19.272123230142988,
+          "median": 18.63094500004081,
+          "minimum": 17.02666799974395,
+          "p95": 22.97428619931452
+        },
+        "alod_host_gather_ms": {
+          "maximum": 121.24421699991217,
+          "mean": 93.40430620194608,
+          "median": 91.59676499984926,
+          "minimum": 79.78664000256686,
+          "p95": 108.82913399982499
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 31.81695399689488,
+          "mean": 3.8194915961158276,
+          "median": 3.659661000710912,
+          "minimum": 2.4614530047983862,
+          "p95": 4.37976859975606
+        },
+        "alod_spt_cut_ms": {
+          "maximum": 40.32960900076432,
+          "mean": 34.48083669443488,
+          "median": 34.47320999839576,
+          "minimum": 31.92760899401037,
+          "p95": 35.489507199963555
+        },
+        "alod_total_selection_ms": {
+          "maximum": 43.82821699982742,
+          "mean": 38.01017277488051,
+          "median": 38.06506600085413,
+          "minimum": 35.34421099902829,
+          "p95": 39.30058039695723
+        },
+        "alod_upper_traversal_ms": {
+          "maximum": 1.5043640014482662,
+          "mean": 0.7054106905010306,
+          "median": 0.6773229979444295,
+          "minimum": 0.6203390003065579,
+          "p95": 0.8520806004526092
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 259.6003720027511,
+          "mean": 188.02171959618255,
+          "median": 186.16281400318258,
+          "minimum": 164.69216700352263,
+          "p95": 210.1266005993238
+        },
+        "frame_preparation_ms": {
+          "maximum": 246.95424200035632,
+          "mean": 183.63263627218834,
+          "median": 181.59529399417806,
+          "minimum": 161.7957690032199,
+          "p95": 205.77227359899553
+        },
+        "rasterization_time_ms": {
+          "maximum": 13.323936462402344,
+          "mean": 4.066059709154944,
+          "median": 3.404128074645996,
+          "minimum": 1.824671983718872,
+          "p95": 7.773996734619139
+        }
+      }
+    },
+    "ALOD-REPRO-PREVIOUS-REUSE": {
+      "counts": {
+        "alod_candidate_spt_count": {
+          "maximum": 26.0,
+          "mean": 20.971830985915492,
+          "median": 21.0,
+          "minimum": 16.0,
+          "p95": 26.0
+        },
+        "alod_hierarchy_rows": {
+          "maximum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "minimum": 6972627.0,
+          "p95": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "maximum": 3484229.0,
+          "mean": 3456308.61971831,
+          "median": 3483372.0,
+          "minimum": 2663560.0,
+          "p95": 3484155.0
+        },
+        "alod_skybox_rows": {
+          "maximum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "minimum": 100000.0,
+          "p95": 100000.0
+        },
+        "alod_total_raster_rows": {
+          "maximum": 3584229.0,
+          "mean": 3556308.61971831,
+          "median": 3583372.0,
+          "minimum": 2763560.0,
+          "p95": 3584155.0
+        },
+        "alod_upper_rows": {
+          "maximum": 335.0,
+          "mean": 335.0,
+          "median": 335.0,
+          "minimum": 335.0,
+          "p95": 335.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 1588239.0,
+          "mean": 498076.6901408451,
+          "median": 315005.0,
+          "minimum": 20521.0,
+          "p95": 1238220.0
+        }
+      },
+      "end_to_end_fps_from_mean_time": 7.451183638855084,
+      "h2d": {
+        "bytes": {
+          "maximum": 122999768.0,
+          "mean": 8056417.9718309855,
+          "median": 26956.0,
+          "minimum": 92.0,
+          "p95": 71435516.0
+        },
+        "rows": {
+          "maximum": 1336954.0,
+          "mean": 87569.76056338029,
+          "median": 293.0,
+          "minimum": 1.0,
+          "p95": 776473.0
+        }
+      },
+      "memory_bytes": {
+        "alod_frame_local_property_bytes": {
+          "maximum": 452382308.0,
+          "mean": 335236810.9859155,
+          "median": 329717788.0,
+          "minimum": 254375676.0,
+          "p95": 397005116.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "maximum": 329749068.0,
+          "mean": 327180393.0140845,
+          "median": 329670224.0,
+          "minimum": 254247520.0,
+          "p95": 329742260.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "maximum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "minimum": 253430044.0,
+          "p95": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_host_property_store_bytes": {
+          "maximum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "minimum": 650681684.0,
+          "p95": 650681684.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "maximum": 1379026432.0,
+          "mean": 1367147238.7605634,
+          "median": 1377383936.0,
+          "minimum": 1192571904.0,
+          "p95": 1378992640.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        },
+        "nvml_device_used_bytes": {
+          "maximum": 4882903040.0,
+          "mean": 4738335200.751174,
+          "median": 4868231168.0,
+          "minimum": 4012060672.0,
+          "p95": 4879953920.0
+        },
+        "process_peak_rss_bytes": {
+          "maximum": 4211519488.0,
+          "mean": 4171688734.0469484,
+          "median": 4166135808.0,
+          "minimum": 4065972224.0,
+          "p95": 4211519488.0
+        },
+        "torch_current_allocated_bytes": {
+          "maximum": 873968128.0,
+          "mean": 762453561.6901408,
+          "median": 752183296.0,
+          "minimum": 565865984.0,
+          "p95": 840914944.0
+        },
+        "torch_current_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        },
+        "torch_peak_allocated_bytes": {
+          "maximum": 1053012992.0,
+          "mean": 825241614.4225352,
+          "median": 795921920.0,
+          "minimum": 577293824.0,
+          "p95": 985048064.0
+        },
+        "torch_peak_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        }
+      },
+      "replicate_mean_distribution_ms": {
+        "maximum": 134.62357207149773,
+        "mean": 134.20686544153617,
+        "median": 134.11409877389048,
+        "minimum": 133.88292547922032,
+        "p95": 134.572624741737
+      },
+      "replicate_mean_end_to_end_ms": {
+        "1": 134.11409877389048,
+        "2": 134.62357207149773,
+        "3": 133.88292547922032
+      },
+      "timings_ms": {
+        "alod_camera_preparation_ms": {
+          "maximum": 1.4925810028216802,
+          "mean": 0.5738274277990767,
+          "median": 0.5105410018586554,
+          "minimum": 0.4541630041785538,
+          "p95": 0.9644183999625962
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 15.328556000895333,
+          "mean": 1.7806206995314162,
+          "median": 1.0125539993168786,
+          "minimum": 0.6951569957891479,
+          "p95": 7.6958296020165875
+        },
+        "alod_host_gather_ms": {
+          "maximum": 42.095766999409534,
+          "mean": 2.53397614084088,
+          "median": 0.14748900139238685,
+          "minimum": 0.09472599776927382,
+          "p95": 23.809679200348903
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 9.041789999173488,
+          "mean": 4.073140887418399,
+          "median": 3.921812996850349,
+          "minimum": 3.0417520029004663,
+          "p95": 5.7924362045014215
+        },
+        "alod_spt_cut_ms": {
+          "maximum": 39.44208399479976,
+          "mean": 34.27859699047371,
+          "median": 34.38022099726368,
+          "minimum": 25.74146699771518,
+          "p95": 35.58304760081228
+        },
+        "alod_total_selection_ms": {
+          "maximum": 43.74986499897204,
+          "mean": 38.17331615491511,
+          "median": 38.266515999566764,
+          "minimum": 28.5763100037002,
+          "p95": 39.57719839672791
+        },
+        "alod_upper_traversal_ms": {
+          "maximum": 2.2160099979373626,
+          "mean": 1.078668516744125,
+          "median": 1.0272299987263978,
+          "minimum": 0.8429940062342212,
+          "p95": 1.3771099984296598
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 182.5124179958948,
+          "mean": 134.20686544153617,
+          "median": 131.5830460007419,
+          "minimum": 97.27754999767058,
+          "p95": 160.44050440250425
+        },
+        "frame_preparation_ms": {
+          "maximum": 176.18029300501803,
+          "mean": 129.80430946532886,
+          "median": 127.01372199808247,
+          "minimum": 95.12102100416087,
+          "p95": 157.059540595219
+        },
+        "rasterization_time_ms": {
+          "maximum": 12.433279991149902,
+          "mean": 4.034762356762595,
+          "median": 3.278719902038574,
+          "minimum": 2.0114240646362305,
+          "p95": 7.936972618103024
+        }
+      }
+    }
+  },
+  "scope": {
+    "camera_count": 71,
+    "fps_policy": "1000 / mean end-to-end frame time; frame_time_ms is raster-only and is not used as total FPS",
+    "pooled_samples_per_configuration": 213,
+    "replicate_count": 3,
+    "timing_policy": "CUDA-synchronized; three fresh processes; pooled measured-frame distributions",
+    "warmup_frames_per_fresh_process": 10
+  }
+}

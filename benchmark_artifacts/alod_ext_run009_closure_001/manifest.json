@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "bytes": 8250,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/checks/evidence_audit.json",
+      "sha256": "af2b2d457ec6f99c18fe4690205f4c780cdf15da6fd335d7eacc92676d046f1b"
+    },
+    {
+      "bytes": 3613,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/checks/cache_contract.json",
+      "sha256": "17dc6f4d60f5f22c769fda971740e6e8c63aa0bedbe3f213939955d5fa93b078"
+    },
+    {
+      "bytes": 57129,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/checks/conservative_correctness_71.json",
+      "sha256": "1717502888b71646866eb020c50facbaaee792143ff3d16fe601fbb2c46baad8"
+    },
+    {
+      "bytes": 67019,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/checks/schedule.json",
+      "sha256": "8b74c83c11500cb3a6721c5c527e73c0a43f7f382996bfa13d9fe30fd907bfa3"
+    },
+    {
+      "bytes": 323,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/checks/package_validation.json",
+      "sha256": "d6d383854746250494d33d52f6e6c298058d61fae954a1dc7239a891a9e569de"
+    },
+    {
+      "bytes": 14875,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/trajectories/trajectory_manifest.json",
+      "sha256": "eb27f245e3f7cdae05d3d8cf41a2a9f1d26f8246125a091c3e4066b7719f2e4e"
+    },
+    {
+      "bytes": 2015428,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/tables/cache_robustness.json",
+      "sha256": "8bb7cba05a3ab654708a31828ec56b5fcad6d7020bd2e199539ca489cf590b07"
+    },
+    {
+      "bytes": 3996,
+      "path": "/home/luis/tese/benchmark_artifacts/alod_ext_run009_closure_001/tables/lod_stress.json",
+      "sha256": "450a6a517e3d12f43f130ced2821d72a50e54907c2a82591d4f97009c2728458"
+    }
+  ],
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b"
+  },
+  "campaign_id": "ALOD-EXT-RUN009-CLOSURE-001",
+  "classification": "ALOD-EXT project-specific evidence closure; not paper Render Full",
+  "historical_campaign_preserved": "/home/luis/tese/benchmark_artifacts/alod_ext_formal_run009_001",
+  "schema_version": 1,
+  "status": "PASS-ALOD-EXT-RUN009-EVIDENCE-CLOSURE"
+}

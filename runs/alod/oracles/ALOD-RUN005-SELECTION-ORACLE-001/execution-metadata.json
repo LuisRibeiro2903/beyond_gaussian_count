@@ -1,0 +1,21 @@
+{
+  "camera_indices": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    14
+  ],
+  "canonical_source_modified": false,
+  "creation_timestamp_utc": "2026-08-08T13:04:30.598785+00:00",
+  "host": "DESKTOP-SDSMNFR",
+  "instrumented_source_disposable": true,
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "repetitions": 2,
+  "schema_version": "alod_selection_oracle_execution.v1"
+}

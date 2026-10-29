@@ -1,0 +1,3849 @@
+{
+  "camera_count": 71,
+  "cameras": [
+    {
+      "camera_center": [
+        -0.396875,
+        1.7428572082519531,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 4.18886912424015,
+      "dataset_index": 240,
+      "evaluation_sequence_index": 0,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0124.png",
+      "ground_truth_sha256": "1a42dfa518f75a34b2c67290dfc6a43507705ec9318c6beb434bdeb6c07e7c9c",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000240__aerial__test__0124.png",
+      "nearest_scene_distance_proxy": 1.1968864890873245,
+      "projected_nearest_geometry_scale_proxy": 1936.3949458651368,
+      "projected_scale_proxy": 553.2865504990868,
+      "source_evaluation_sequence_index": 24,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.17364780847526678,
+          -0.9848078181105823,
+          -1.0706958247109137e-07,
+          1.7852961461994843
+        ],
+        [
+          -0.7202427988753404,
+          -0.12699788555036137,
+          -0.6819984220905159,
+          1.640488874686843
+        ],
+        [
+          0.6716373644162101,
+          0.11842760849570377,
+          -0.7313536437770954,
+          1.8885377773226444
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.815082397460937,
+        1.6001931762695312,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 1.0380636596681478,
+      "dataset_index": 440,
+      "evaluation_sequence_index": 1,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0018.png",
+      "ground_truth_sha256": "82c6a76796c0a977c2b99822207d7cecc0f6bd9f753f1572e243c4b58dc4b861",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000440__street__test__0018.png",
+      "nearest_scene_distance_proxy": 0.028953248513279715,
+      "projected_nearest_geometry_scale_proxy": 17269.218613413108,
+      "projected_scale_proxy": 481.66600717353634,
+      "source_evaluation_sequence_index": 44,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.7175332761457884
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.029999956015042586
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          4.284932857279934
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.525,
+        0.5,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 2.715665629697151,
+      "dataset_index": 210,
+      "evaluation_sequence_index": 2,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0071.png",
+      "ground_truth_sha256": "86ae16cd8c47c6296a9e0bc9b104d509b1acfbb404ff510425d556746bab3b62",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000210__aerial__test__0071.png",
+      "nearest_scene_distance_proxy": 1.167738303865773,
+      "projected_nearest_geometry_scale_proxy": 1984.7297468708948,
+      "projected_scale_proxy": 853.4353135740888,
+      "source_evaluation_sequence_index": 21,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.3255681584063399,
+          0.9455185742395003,
+          -7.781290577536919e-08,
+          -1.6203868509698338
+        ],
+        [
+          0.6685826045369567,
+          0.23021139743833505,
+          -0.7071067906618259,
+          4.009414958928169
+        ],
+        [
+          -0.6685825866282208,
+          -0.2302115076567435,
+          -0.7071067717112648,
+          -0.4738809347579442
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770306396484377,
+        1.1281201171875,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.4720736695836278,
+      "dataset_index": 700,
+      "evaluation_sequence_index": 3,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0044.png",
+      "ground_truth_sha256": "3f5d6bc7f97368824ddd9764d3df687005b61520a9e60f9f0d204118fdd99e47",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000700__street__test__0044.png",
+      "nearest_scene_distance_proxy": 0.04842333940032677,
+      "projected_nearest_geometry_scale_proxy": 10325.598860720693,
+      "projected_scale_proxy": 1059.1566748158373,
+      "source_evaluation_sequence_index": 70,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836842858480766,
+          -0.9335802426110104,
+          1.5099580156217034e-07,
+          -0.30037788687908795
+        ],
+        [
+          0.933580242611018,
+          -0.35836842858481677,
+          -3.854999091994925e-08,
+          3.9304438157201402
+        ],
+        [
+          9.010163801098319e-08,
+          1.27151597385203e-07,
+          0.999999999999988,
+          -0.029999803125627132
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -6.9,
+        -0.9,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 4.262027796103042,
+      "dataset_index": 60,
+      "evaluation_sequence_index": 4,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0049.png",
+      "ground_truth_sha256": "cdef65774cb1c66ac230322543cc855ab61ee78fa5ec5697c048b7a3ef5ae229",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000060__aerial__test__0049.png",
+      "nearest_scene_distance_proxy": 0.9959783493879246,
+      "projected_nearest_geometry_scale_proxy": 2327.0033426602745,
+      "projected_scale_proxy": 543.7892616191024,
+      "source_evaluation_sequence_index": 6,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.7660444191061074,
+          0.6427876383039544,
+          -1.0626444811934622e-07,
+          5.864215525702372
+        ],
+        [
+          0.5065235024824227,
+          -0.6036512597994096,
+          -0.6156615125014103,
+          3.875218302061364
+        ],
+        [
+          -0.39573967376208985,
+          0.4716240118846898,
+          -0.7880107245618324,
+          -1.1241260514194509
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.003156127929688,
+        1.600193634033203,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.22613739013677045,
+      "dataset_index": 280,
+      "evaluation_sequence_index": 5,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0002.png",
+      "ground_truth_sha256": "9022d246d38e0416ef83411f2f9b61f1c59270e49b47ee3d6ca9872fd1a3974c",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000280__street__test__0002.png",
+      "nearest_scene_distance_proxy": 0.019494165614096254,
+      "projected_nearest_geometry_scale_proxy": 25648.698592298555,
+      "projected_scale_proxy": 2211.045143140194,
+      "source_evaluation_sequence_index": 28,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -3.4971235335273754
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.03000052111002249
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.5211119790607337
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "dataset_index": 680,
+      "evaluation_sequence_index": 6,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0042.png",
+      "ground_truth_sha256": "f96c9304200c8265db6404024b86327ba216eb2b85cc0b37983c42516b2280d2",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000680__street__test__0042.png",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "source_evaluation_sequence_index": 68,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836842858480766,
+          -0.9335802426110104,
+          1.5099580156217034e-07,
+          0.566761210956752
+        ],
+        [
+          0.933580242611018,
+          -0.35836842858481677,
+          -3.854999091994925e-08,
+          4.263282015144887
+        ],
+        [
+          9.010163801098319e-08,
+          1.27151597385203e-07,
+          0.999999999999988,
+          -0.029999921229080708
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.777018737792969,
+        1.5925314331054687,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.007662353515625053,
+      "dataset_index": 630,
+      "evaluation_sequence_index": 7,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0037.png",
+      "ground_truth_sha256": "433292e13bbf102e71c6e945484f9f473a478d5ad2e91a5e5f02a38f2a9f9b6d",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000630__street__test__0037.png",
+      "nearest_scene_distance_proxy": 0.04748801920765099,
+      "projected_nearest_geometry_scale_proxy": 10528.971022311,
+      "projected_scale_proxy": 65254.099425810455,
+      "source_evaluation_sequence_index": 63,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.35836811332573537,
+          0.9335803636277097,
+          -3.2584136598589165e-07,
+          -0.13319298557310347
+        ],
+        [
+          -7.596306207221001e-08,
+          -3.1986386857457173e-07,
+          -0.9999999999999458,
+          0.030000222479354566
+        ],
+        [
+          -0.9335803636277635,
+          0.3583681133257406,
+          -4.371138782782312e-08,
+          -4.09686301044024
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -6.466666870117187,
+        -0.9,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 3.955512109243742,
+      "dataset_index": 70,
+      "evaluation_sequence_index": 8,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0057.png",
+      "ground_truth_sha256": "453c3e395bfebf552362c699ec922bb7f564cc56b6503dee69fd3b552003cf91",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000070__aerial__test__0057.png",
+      "nearest_scene_distance_proxy": 0.9702614645189221,
+      "projected_nearest_geometry_scale_proxy": 2388.6808174867638,
+      "projected_scale_proxy": 585.9279112878448,
+      "source_evaluation_sequence_index": 7,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.5446389819499734,
+          0.8386706024062669,
+          -7.371526180392376e-08,
+          4.276802513488779
+        ],
+        [
+          0.623253717637895,
+          -0.40474569947014766,
+          -0.6691305718699184,
+          4.669798895808092
+        ],
+        [
+          -0.5611801696345299,
+          0.3644345475115251,
+          -0.7431448565313699,
+          -2.18625683358493
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.4091189575195315,
+        1.6001934814453125,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.6321002197266363,
+      "dataset_index": 450,
+      "evaluation_sequence_index": 9,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0019.png",
+      "ground_truth_sha256": "f57c0fcf4b42b1d408dabf0a8848b6d5bc4f08002819cd40eba08820ff953761",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000450__street__test__0019.png",
+      "nearest_scene_distance_proxy": 0.03856992527773774,
+      "projected_nearest_geometry_scale_proxy": 12963.467638162669,
+      "projected_scale_proxy": 791.0137705070565,
+      "source_evaluation_sequence_index": 45,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.619322236497138
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.029999947155520654
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          3.8910281654314054
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "dataset_index": 620,
+      "evaluation_sequence_index": 10,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0036.png",
+      "ground_truth_sha256": "b36840d391b2fb58aa75aca588edc50a0484a75e6b1644ce81ed8fbb1c490e37",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000620__street__test__0036.png",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "source_evaluation_sequence_index": 62,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.35836811332573537,
+          0.9335803636277097,
+          -3.2584136598589165e-07,
+          -0.5667626453713823
+        ],
+        [
+          -7.596306207221001e-08,
+          -3.1986386857457173e-07,
+          -0.9999999999999458,
+          0.030000371028681968
+        ],
+        [
+          -0.9335803636277635,
+          0.3583681133257406,
+          -4.371138782782312e-08,
+          -4.2632818212882135
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -0.84375,
+        0.5,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 3.9894099634198064,
+      "dataset_index": 230,
+      "evaluation_sequence_index": 11,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0119.png",
+      "ground_truth_sha256": "5fb4965421c3d1a2552982d0a6b77295b92fbdd508eaf827d77c2efd7eb8a36e",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000230__aerial__test__0119.png",
+      "nearest_scene_distance_proxy": 0.8140649863752777,
+      "projected_nearest_geometry_scale_proxy": 2847.002373314883,
+      "projected_scale_proxy": 580.949305660286,
+      "source_evaluation_sequence_index": 23,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.5150383183760175,
+          0.8571671544129477,
+          -1.2315231788812445e-07,
+          0.005980311804085675
+        ],
+        [
+          0.7188808603950997,
+          -0.4319475549406999,
+          -0.5446389798190646,
+          2.184126952976377
+        ],
+        [
+          -0.4668466977092209,
+          0.28050985575619675,
+          -0.8386706037900894,
+          1.56251968040497
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -1.7375,
+        2.5714285278320315,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 3.347212811331796,
+      "dataset_index": 220,
+      "evaluation_sequence_index": 12,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0098.png",
+      "ground_truth_sha256": "c18ce665bbf2948750e3c2392b735e5545fb652d542efeaafa28d38ae9ba678b",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000220__aerial__test__0098.png",
+      "nearest_scene_distance_proxy": 0.6149951411075054,
+      "projected_nearest_geometry_scale_proxy": 3768.55814514122,
+      "projected_scale_proxy": 692.4103960156672,
+      "source_evaluation_sequence_index": 22,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.9816271743080757,
+          -0.19080904239562874,
+          -7.521846175615129e-08,
+          2.196229218390867
+        ],
+        [
+          -0.1523869276050293,
+          -0.7839623426685367,
+          -0.6018149795184227,
+          3.2556682947662243
+        ],
+        [
+          0.11483168097281367,
+          0.5907579492632521,
+          -0.7986355429275828,
+          0.6770170592301465
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.777018737792969,
+        1.5925314331054687,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.007662353515625053,
+      "dataset_index": 570,
+      "evaluation_sequence_index": 13,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0031.png",
+      "ground_truth_sha256": "8178c8a721e724cc800e9b70a2ba3abb973fa403e2e0f98c0a23178168f73b9c",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000570__street__test__0031.png",
+      "nearest_scene_distance_proxy": 0.04748801920765099,
+      "projected_nearest_geometry_scale_proxy": 10528.971022311,
+      "projected_scale_proxy": 65254.099425810455,
+      "source_evaluation_sequence_index": 57,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836778720067947,
+          -0.9335804888153897,
+          -3.258413534050313e-07,
+          0.13319443626934746
+        ],
+        [
+          7.59629482389338e-08,
+          3.198638824727147e-07,
+          -0.9999999999999457,
+          0.029999777520190094
+        ],
+        [
+          0.9335804888154436,
+          -0.3583677872006851,
+          -4.371138513993136e-08,
+          4.096862966534734
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.4091189575195315,
+        1.6001934814453125,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.6321002197266363,
+      "dataset_index": 510,
+      "evaluation_sequence_index": 14,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0025.png",
+      "ground_truth_sha256": "495494210e5da56a10a7c31356fa5b41d5178c3318c8eadda7dffd4904801f67",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000510__street__test__0025.png",
+      "nearest_scene_distance_proxy": 0.03856992527773774,
+      "projected_nearest_geometry_scale_proxy": 12963.467638162669,
+      "projected_scale_proxy": 791.0137705070565,
+      "source_evaluation_sequence_index": 51,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -3.8910277570523326
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.6193228492328027
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.02999941588501578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -0.7,
+        -0.5,
+        3.5
+      ],
+      "camera_height": 3.493895950793375,
+      "camera_to_scene_centre_distance": 5.091145082797276,
+      "dataset_index": 160,
+      "evaluation_sequence_index": 15,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_8_test/input/0000.png",
+      "ground_truth_sha256": "6ebf5e5c2e2ee753b5d42fb2498495859af8a6a0457b7fcaddfe7f4542b60c09",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000160__aerial__test__0000.png",
+      "nearest_scene_distance_proxy": 0.8508642963217303,
+      "projected_nearest_geometry_scale_proxy": 2723.8714308052377,
+      "projected_scale_proxy": 455.23058379816547,
+      "source_evaluation_sequence_index": 16,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.7431448615518749,
+          -0.6691305662940773,
+          -1.067318457436214e-07,
+          0.1856364935007338
+        ],
+        [
+          -0.5049992999503149,
+          -0.5608584986656302,
+          -0.6560590305180064,
+          1.6622778475149869
+        ],
+        [
+          0.4389890907513945,
+          0.4875469513036687,
+          -0.7547095788949294,
+          3.1925493653100636
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7148147583007813,
+        4.3,
+        2.0
+      ],
+      "camera_height": 1.993895950793375,
+      "camera_to_scene_centre_distance": 3.3427119117363393,
+      "dataset_index": 30,
+      "evaluation_sequence_index": 16,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_10_test/input/0029.png",
+      "ground_truth_sha256": "f452ab5b2a03353eeacf044b02ca4372148651c4fbdbb94ad86e165bbb060dc8",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000030__aerial__test__0029.png",
+      "nearest_scene_distance_proxy": 0.6944886363050656,
+      "projected_nearest_geometry_scale_proxy": 3337.1963587103237,
+      "projected_scale_proxy": 693.3427137725085,
+      "source_evaluation_sequence_index": 3,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.4539904282658192,
+          -0.891006560606039,
+          -1.2189651663121595e-07,
+          5.517818797448157
+        ],
+        [
+          -0.7556164463730863,
+          -0.38500566063730546,
+          -0.5299192648392207,
+          -0.0916122561826771
+        ],
+        [
+          0.47216149463242646,
+          0.24057836609767883,
+          -0.8480480957777364,
+          2.415601705897347
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -5.6,
+        -0.5,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 3.1456278584282322,
+      "dataset_index": 90,
+      "evaluation_sequence_index": 17,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0072.png",
+      "ground_truth_sha256": "de3a63704b114b271185f4710bdfa505204f10ba30bd9270f93a58bcd569d414",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000090__aerial__test__0072.png",
+      "nearest_scene_distance_proxy": 0.791260390422995,
+      "projected_nearest_geometry_scale_proxy": 2929.054678200166,
+      "projected_scale_proxy": 736.7829420868034,
+      "source_evaluation_sequence_index": 9,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9702957373497182,
+          0.24192185118537302,
+          -9.13093585904456e-08,
+          -5.312695066601698
+        ],
+        [
+          0.18532294936349805,
+          0.7432896541874219,
+          -0.6427875966578358,
+          2.3736347385160537
+        ],
+        [
+          -0.15550429743315905,
+          -0.6236940819800877,
+          -0.7660444540513526,
+          -0.03360442553870563
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -5.3125,
+        2.985714111328125,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 3.2215321318846373,
+      "dataset_index": 180,
+      "evaluation_sequence_index": 18,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0033.png",
+      "ground_truth_sha256": "bea633b11e0380ae9df6722f0af1d1f31baf5bd0f885e9163a3d7a56fd71b09c",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000180__aerial__test__0033.png",
+      "nearest_scene_distance_proxy": 1.2071356844379162,
+      "projected_nearest_geometry_scale_proxy": 1919.9539688217722,
+      "projected_scale_proxy": 719.4231978332346,
+      "source_evaluation_sequence_index": 18,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.5000000433079189,
+          0.866025378780593,
+          -9.68495023259311e-08,
+          -5.241954182143065
+        ],
+        [
+          0.7423286679227173,
+          0.4285836481507117,
+          -0.5150380620089268,
+          3.9515879571936847
+        ],
+        [
+          -0.4460359912295905,
+          -0.25751912520385206,
+          -0.8571673084538862,
+          0.5422305537855315
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.815082397460937,
+        1.6001931762695312,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 1.0380636596681478,
+      "dataset_index": 500,
+      "evaluation_sequence_index": 19,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0024.png",
+      "ground_truth_sha256": "f144fdf65fc616e1a8a51da90f57b080d884e79659ba91cddc419a85cb0076af",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000500__street__test__0024.png",
+      "nearest_scene_distance_proxy": 0.028953248513279715,
+      "projected_nearest_geometry_scale_proxy": 17269.218613413108,
+      "projected_scale_proxy": 481.66600717353634,
+      "source_evaluation_sequence_index": 50,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -4.284932433369736
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.7175339511736265
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.029999356535066732
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.566666564941406,
+        -2.1,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 4.161404383243216,
+      "dataset_index": 140,
+      "evaluation_sequence_index": 20,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0132.png",
+      "ground_truth_sha256": "016e4acabae9e74dbc9a19ab1085ae182229bfae47d3ed552d6fca6748250ca5",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000140__aerial__test__0132.png",
+      "nearest_scene_distance_proxy": 0.5561315182270999,
+      "projected_nearest_geometry_scale_proxy": 4167.440384661921,
+      "projected_scale_proxy": 556.9381715402271,
+      "source_evaluation_sequence_index": 14,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.2588189771536152,
+          -0.9659258444959199,
+          1.9425393382852172e-08,
+          -2.69274631761204
+        ],
+        [
+          -0.8191515864661775,
+          0.21949093365411323,
+          -0.5299192470873185,
+          -0.8466791572968315
+        ],
+        [
+          0.5118626919937622,
+          -0.13715317341749517,
+          -0.8480481068703638,
+          2.2978313535100967
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770306396484377,
+        1.1281201171875,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.4720736695836278,
+      "dataset_index": 580,
+      "evaluation_sequence_index": 21,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0032.png",
+      "ground_truth_sha256": "2ea699939b7ea77ac53f64b883daf249d06fd5ff9118d6c672d694a8e9161625",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000580__street__test__0032.png",
+      "nearest_scene_distance_proxy": 0.04842333940032677,
+      "projected_nearest_geometry_scale_proxy": 10325.598860720693,
+      "projected_scale_proxy": 1059.1566748158373,
+      "source_evaluation_sequence_index": 58,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836778720067947,
+          -0.9335804888153897,
+          -3.258413534050313e-07,
+          -0.3003751722983561
+        ],
+        [
+          7.59629482389338e-08,
+          3.198638824727147e-07,
+          -0.9999999999999457,
+          0.029999926069500766
+        ],
+        [
+          0.9335804888154436,
+          -0.3583677872006851,
+          -4.371138513993136e-08,
+          3.9304440222382997
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770306396484377,
+        1.1281201171875,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.4720736695836278,
+      "dataset_index": 610,
+      "evaluation_sequence_index": 22,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0035.png",
+      "ground_truth_sha256": "51ff37eae7803436ca83c726704403451067c130a0b651725bc6038d9ec3cc22",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000610__street__test__0035.png",
+      "nearest_scene_distance_proxy": 0.04842333940032677,
+      "projected_nearest_geometry_scale_proxy": 10325.598860720693,
+      "projected_scale_proxy": 1059.1566748158373,
+      "source_evaluation_sequence_index": 61,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9335804223267616,
+          0.3583679604096573,
+          -8.742277854491992e-08,
+          -3.9304439625750116
+        ],
+        [
+          9.72809564939124e-08,
+          9.478575872507146e-09,
+          -0.9999999999999951,
+          0.03000035674018106
+        ],
+        [
+          -0.3583679604096547,
+          -0.9335804223267653,
+          -4.371139090625324e-08,
+          -0.3003759099850161
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770306396484377,
+        1.1281201171875,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.4720736695836278,
+      "dataset_index": 670,
+      "evaluation_sequence_index": 23,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0041.png",
+      "ground_truth_sha256": "6ba193d45d68d7389d6cb72b15c70fc09be168ffb88097f15b5b36c80fa830da",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000670__street__test__0041.png",
+      "nearest_scene_distance_proxy": 0.04842333940032677,
+      "projected_nearest_geometry_scale_proxy": 10325.598860720693,
+      "projected_scale_proxy": 1059.1566748158373,
+      "source_evaluation_sequence_index": 67,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9335801371736174,
+          -0.35836870325808623,
+          -8.742277800588007e-08,
+          3.9304437288104728
+        ],
+        [
+          -9.728096295817463e-08,
+          -9.478497162594903e-09,
+          -0.9999999999999956,
+          0.029999643259705448
+        ],
+        [
+          0.3583687032580838,
+          0.9335801371736215,
+          -4.3711389264247004e-08,
+          0.30037904005597477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.5971929931640627,
+        1.6001937866210938,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.17982574462890621,
+      "dataset_index": 410,
+      "evaluation_sequence_index": 24,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0015.png",
+      "ground_truth_sha256": "f43e34178292b1bc1de18e94f9a05159d0a5ffd8e9ce86d30e813650894c4aa5",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000410__street__test__0015.png",
+      "nearest_scene_distance_proxy": 0.05952120822624146,
+      "projected_nearest_geometry_scale_proxy": 8400.366743964509,
+      "projected_scale_proxy": 2780.469388163082,
+      "source_evaluation_sequence_index": 41,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          3.1032193633091882
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.029999474868156097
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.42290057565306
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.5971929931640627,
+        1.6001937866210938,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.17982574462890621,
+      "dataset_index": 530,
+      "evaluation_sequence_index": 25,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0027.png",
+      "ground_truth_sha256": "3250f1539ded333c17a363044991aee28dfe93f7c26cff374775b69e09f96a5d",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000530__street__test__0027.png",
+      "nearest_scene_distance_proxy": 0.05952120822624146,
+      "projected_nearest_geometry_scale_proxy": 8400.366743964509,
+      "projected_scale_proxy": 2780.469388163082,
+      "source_evaluation_sequence_index": 53,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -3.1032193665784886
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.422900570726394
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.029999534584768502
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -5.166666870117187,
+        -2.1,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 4.217043512962789,
+      "dataset_index": 100,
+      "evaluation_sequence_index": 26,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0084.png",
+      "ground_truth_sha256": "6ed1530b7133637e5d02ebcca791a7be6cd789bcbe688ca8c57f8f40aed7da97",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000100__aerial__test__0084.png",
+      "nearest_scene_distance_proxy": 0.8167238065234418,
+      "projected_nearest_geometry_scale_proxy": 2837.734041460737,
+      "projected_scale_proxy": 549.5900009375631,
+      "source_evaluation_sequence_index": 10,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.15643445016978352,
+          0.9876883429503844,
+          -4.108440846491505e-08,
+          1.2659008907852016
+        ],
+        [
+          0.8466141577951959,
+          0.13409047506321,
+          -0.5150380688046801,
+          5.428320421692364
+        ],
+        [
+          -0.5086970912250324,
+          -0.0805697318926092,
+          -0.8571673043705909,
+          -1.5117138885759482
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -5.462962646484375,
+        4.7,
+        2.0
+      ],
+      "camera_height": 1.993895950793375,
+      "camera_to_scene_centre_distance": 4.041299967059626,
+      "dataset_index": 0,
+      "evaluation_sequence_index": 27,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_10_test/input/0008.png",
+      "ground_truth_sha256": "40e998659efcd114ef8da6a819e0ec012da8507d50f44788bab512839600cd4c",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000000__aerial__test__0008.png",
+      "nearest_scene_distance_proxy": 1.3132442381389515,
+      "projected_nearest_geometry_scale_proxy": 1764.823999172756,
+      "projected_scale_proxy": 573.4899579674702,
+      "source_evaluation_sequence_index": 0,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.7313537573345521,
+          -0.681998300315056,
+          -8.924028772050892e-08,
+          7.200750447645994
+        ],
+        [
+          -0.5446680906762237,
+          -0.5840850347077492,
+          -0.6018150407139764,
+          0.9733283104582
+        ],
+        [
+          0.4104367827470515,
+          0.4401397398529502,
+          -0.7986354968134254,
+          1.7708150292083495
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.777018737792969,
+        1.5925314331054687,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.007662353515625053,
+      "dataset_index": 600,
+      "evaluation_sequence_index": 28,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0034.png",
+      "ground_truth_sha256": "2c66fda5bd1fcbcbc34423f30b2548a737cd92ff3f91ffea00bc0868932c5d46",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000600__street__test__0034.png",
+      "nearest_scene_distance_proxy": 0.04748801920765099,
+      "projected_nearest_geometry_scale_proxy": 10528.971022311,
+      "projected_scale_proxy": 65254.099425810455,
+      "source_evaluation_sequence_index": 60,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9335804223267616,
+          0.3583679604096573,
+          -8.742277854491992e-08,
+          -4.096862987312444
+        ],
+        [
+          9.72809564939124e-08,
+          9.478575872507146e-09,
+          -0.9999999999999951,
+          0.030000352337065342
+        ],
+        [
+          -0.3583679604096547,
+          -0.9335804223267653,
+          -4.371139090625324e-08,
+          0.13319366770667943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "dataset_index": 590,
+      "evaluation_sequence_index": 29,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0033.png",
+      "ground_truth_sha256": "791ce7bbadce91b6c0b2934bdb2cf3072fb69fcf98356f8c23612de86ed466b8",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000590__street__test__0033.png",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "source_evaluation_sequence_index": 59,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9335804223267616,
+          0.3583679604096573,
+          -8.742277854491992e-08,
+          -4.263281727143742
+        ],
+        [
+          9.72809564939124e-08,
+          9.478575872507146e-09,
+          -0.9999999999999951,
+          0.030000347933919938
+        ],
+        [
+          -0.3583679604096547,
+          -0.9335804223267653,
+          -4.371139090625324e-08,
+          0.5667633547635972
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.7852667236328124,
+        1.6001942443847657,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.9917520141602622,
+      "dataset_index": 490,
+      "evaluation_sequence_index": 30,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0023.png",
+      "ground_truth_sha256": "9a4c1fd133290e756abcbaebbdd754b966fd9ff406661b2e97891a0369f47d41",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000490__street__test__0023.png",
+      "nearest_scene_distance_proxy": 0.032197939757190625,
+      "projected_nearest_geometry_scale_proxy": 15528.943215462807,
+      "projected_scale_proxy": 504.15826840308085,
+      "source_evaluation_sequence_index": 49,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.226478002879476
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.029999911717508872
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          2.3154109893341084
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -1.0925925445556641,
+        5.5,
+        2.0
+      ],
+      "camera_height": 1.993895950793375,
+      "camera_to_scene_centre_distance": 5.12791697366945,
+      "dataset_index": 40,
+      "evaluation_sequence_index": 31,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_10_test/input/0056.png",
+      "ground_truth_sha256": "6c761e52b74a8aeb627c3e9ac496ca965f7ff6bab130949005c4348d70426f24",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000040__aerial__test__0056.png",
+      "nearest_scene_distance_proxy": 0.9173368352705984,
+      "projected_nearest_geometry_scale_proxy": 2526.492842249487,
+      "projected_scale_proxy": 451.9661609467316,
+      "source_evaluation_sequence_index": 4,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.6293205091970773,
+          0.7771458657832068,
+          -3.578821723509856e-08,
+          -4.961893086715904
+        ],
+        [
+          0.6123993102169509,
+          0.4959113091540962,
+          -0.6156614802786299,
+          -0.8270863191561972
+        ],
+        [
+          -0.4784587563727246,
+          -0.3874484181786531,
+          -0.7880107497370357,
+          3.1842273293664496
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -5.025925598144531,
+        5.5,
+        2.0
+      ],
+      "camera_height": 1.993895950793375,
+      "camera_to_scene_centre_distance": 4.544134334253546,
+      "dataset_index": 10,
+      "evaluation_sequence_index": 32,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_10_test/input/0011.png",
+      "ground_truth_sha256": "ada0c006a863f12cf5007caab988e7302d00b522d52662e91b157f275f7d9b18",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000010__aerial__test__0011.png",
+      "nearest_scene_distance_proxy": 1.20076096267973,
+      "projected_nearest_geometry_scale_proxy": 1930.1468154583333,
+      "projected_scale_proxy": 510.0300250308681,
+      "source_evaluation_sequence_index": 1,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.3255682422290498,
+          -0.9455185453770238,
+          -6.329655383975866e-08,
+          6.836633888728639
+        ],
+        [
+          -0.7551247172789624,
+          -0.260010329757598,
+          -0.6018149963017807,
+          -1.1615138400936384
+        ],
+        [
+          0.5690272234315812,
+          0.19593189828984503,
+          -0.7986355302804176,
+          3.379534108252579
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.4333331298828127,
+        -1.3,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 3.269578535077598,
+      "dataset_index": 120,
+      "evaluation_sequence_index": 33,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0114.png",
+      "ground_truth_sha256": "f0028c42dda2b2d5e102d4b24032d92dd88ba6a16c04eb64276b419c78f8a87a",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000120__aerial__test__0114.png",
+      "nearest_scene_distance_proxy": 0.8861493965934506,
+      "projected_nearest_geometry_scale_proxy": 2615.411077581828,
+      "projected_scale_proxy": 708.8512856865688,
+      "source_evaluation_sequence_index": 12,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.6018148786333192,
+          0.7986356189499458,
+          -2.142746780512347e-08,
+          3.10445729764431
+        ],
+        [
+          0.6117903582378167,
+          -0.4610169459375359,
+          -0.6427876267677155,
+          2.465339515913547
+        ],
+        [
+          -0.5133531040354269,
+          0.3868391444810936,
+          -0.7660444287861694,
+          -0.1105546884083336
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.7852667236328124,
+        1.6001942443847657,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.9917520141602622,
+      "dataset_index": 370,
+      "evaluation_sequence_index": 34,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0011.png",
+      "ground_truth_sha256": "242b3cc3d1f8d8bc63cace4b3585b4a3af4529dddad5cae2b55ce14ed6bc8055",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000370__street__test__0011.png",
+      "nearest_scene_distance_proxy": 0.032197939757190625,
+      "projected_nearest_geometry_scale_proxy": 15528.943215462807,
+      "projected_scale_proxy": 504.15826840308085,
+      "source_evaluation_sequence_index": 37,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.2264776317539954
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.030000088282448916
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -2.3154113439172224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.7852667236328124,
+        1.6001942443847657,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.9917520141602622,
+      "dataset_index": 430,
+      "evaluation_sequence_index": 35,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0017.png",
+      "ground_truth_sha256": "c98e8d327b6aae072921d0d352f07be6a28c5f7388f6353de6229b0c656f3a08",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000430__street__test__0017.png",
+      "nearest_scene_distance_proxy": 0.032197939757190625,
+      "projected_nearest_geometry_scale_proxy": 15528.943215462807,
+      "projected_scale_proxy": 504.15826840308085,
+      "source_evaluation_sequence_index": 43,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          2.315410639810237
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.029999539971581543
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.226478371373374
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.865625,
+        0.5,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 2.914856765303576,
+      "dataset_index": 190,
+      "evaluation_sequence_index": 36,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0047.png",
+      "ground_truth_sha256": "a89ef97e153a2ac90c0f9729bb884a4c5377081ca82d77c1055f8e4956aaad51",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000190__aerial__test__0047.png",
+      "nearest_scene_distance_proxy": 1.218264574486779,
+      "projected_nearest_geometry_scale_proxy": 1902.415121296064,
+      "projected_scale_proxy": 795.1145235781717,
+      "source_evaluation_sequence_index": 19,
+      "width": 960,
+      "world_to_camera": [
+        [
+          0.9781475898692489,
+          0.20791174193144843,
+          -1.0447117267367716e-07,
+          4.655343757169771
+        ],
+        [
+          0.1660456452631577,
+          -0.7811834439264621,
+          -0.6018149803920916,
+          2.7030450156770116
+        ],
+        [
+          -0.1251244825049107,
+          0.5886638552707504,
+          -0.7986355422692225,
+          1.093448117849725
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "dataset_index": 650,
+      "evaluation_sequence_index": 37,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0039.png",
+      "ground_truth_sha256": "8440d39213a870254844dab0076b60c0ed8accf2f479bcf7c3118664dcd2c3c5",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000650__street__test__0039.png",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "source_evaluation_sequence_index": 65,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9335801371736174,
+          -0.35836870325808623,
+          -8.742277800588007e-08,
+          4.26328218336051
+        ],
+        [
+          -9.728096295817463e-08,
+          -9.478497162594903e-09,
+          -0.9999999999999956,
+          0.029999652065893462
+        ],
+        [
+          0.3583687032580838,
+          0.9335801371736215,
+          -4.3711389264247004e-08,
+          -0.5667599598538542
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.003156127929688,
+        1.600193634033203,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.22613739013677045,
+      "dataset_index": 520,
+      "evaluation_sequence_index": 38,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0026.png",
+      "ground_truth_sha256": "8f36ca44a844bf3582b1196243218a424b4984382b31343431908e1d27560658",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000520__street__test__0026.png",
+      "nearest_scene_distance_proxy": 0.019494165614096254,
+      "projected_nearest_geometry_scale_proxy": 25648.698592298555,
+      "projected_scale_proxy": 2211.045143140194,
+      "source_evaluation_sequence_index": 52,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -3.4971237098707935
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.5211117468939324
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.029999475234869833
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.5888888549804685,
+        5.1,
+        2.0
+      ],
+      "camera_height": 1.993895950793375,
+      "camera_to_scene_centre_distance": 4.09739876243302,
+      "dataset_index": 20,
+      "evaluation_sequence_index": 39,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_10_test/input/0017.png",
+      "ground_truth_sha256": "fb9d58cd52c22e95087db5f7cfddf51e0d56a4581ecdf281f0dbf66c0844d14e",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000020__aerial__test__0017.png",
+      "nearest_scene_distance_proxy": 1.0272906463676956,
+      "projected_nearest_geometry_scale_proxy": 2256.075197839789,
+      "projected_scale_proxy": 565.6381237511662,
+      "source_evaluation_sequence_index": 2,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9205048577143503,
+          -0.39073111844882774,
+          -1.0793049219440765e-07,
+          -2.2313655625707582
+        ],
+        [
+          -0.2993173485737246,
+          0.7051476827094759,
+          -0.6427875779853343,
+          -3.684212070819927
+        ],
+        [
+          0.25115718537815923,
+          -0.5916890557084736,
+          -0.7660444697194392,
+          5.7022355323821925
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.7852667236328124,
+        1.6001942443847657,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.9917520141602622,
+      "dataset_index": 310,
+      "evaluation_sequence_index": 40,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0005.png",
+      "ground_truth_sha256": "c1328b032e55edc083f860a81861866364aca10ae8606bef4d0c061c8e4e6577",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000310__street__test__0005.png",
+      "nearest_scene_distance_proxy": 0.032197939757190625,
+      "projected_nearest_geometry_scale_proxy": 15528.943215462807,
+      "projected_scale_proxy": 504.15826840308085,
+      "source_evaluation_sequence_index": 31,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -2.315410486704711
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.030000435813433795
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.226478518523645
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -6.033333129882813,
+        -0.5,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 3.415064944816366,
+      "dataset_index": 80,
+      "evaluation_sequence_index": 41,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0064.png",
+      "ground_truth_sha256": "923f5b21d95e4c09afb99d0e4d2c2b655e5894a2a0c36acdcbbee5972bf8ec4e",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000080__aerial__test__0064.png",
+      "nearest_scene_distance_proxy": 0.7568409493323967,
+      "projected_nearest_geometry_scale_proxy": 3062.2615627330147,
+      "projected_scale_proxy": 678.653257168902,
+      "source_evaluation_sequence_index": 8,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9612616459777642,
+          -0.27563753005008484,
+          -8.818284908634987e-08,
+          -5.937430367914097
+        ],
+        [
+          -0.21421053587235894,
+          0.747040607120133,
+          -0.6293204093582699,
+          0.025097394748817503
+        ],
+        [
+          0.17346438912179102,
+          -0.6049415536574356,
+          -0.7771459466310894,
+          1.9098165888613017
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        0.94375,
+        2.157142791748047,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 5.356934727065033,
+      "dataset_index": 250,
+      "evaluation_sequence_index": 42,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0147.png",
+      "ground_truth_sha256": "524ebce62e2723c330db6d0133ac8beb38d323a8aa598f483846b8b3ca32a76d",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000250__aerial__test__0147.png",
+      "nearest_scene_distance_proxy": 0.7025621774735965,
+      "projected_nearest_geometry_scale_proxy": 3298.846739198488,
+      "projected_scale_proxy": 432.6438656296189,
+      "source_evaluation_sequence_index": 25,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.8829475601867443,
+          -0.4694716242333151,
+          -9.345494166302378e-08,
+          1.8459993237087375
+        ],
+        [
+          -0.4065743256097901,
+          0.7646550654588566,
+          -0.4999999486230535,
+          -0.015765771276330498
+        ],
+        [
+          0.23473585945743364,
+          -0.44147369673384257,
+          -0.8660254334469256,
+          2.895853418910133
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.4091189575195315,
+        1.6001934814453125,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.6321002197266363,
+      "dataset_index": 330,
+      "evaluation_sequence_index": 43,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0007.png",
+      "ground_truth_sha256": "cc392296a77acd6cd7ff819e8461586d18488adf47b7a77250f369884fdd90d6",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000330__street__test__0007.png",
+      "nearest_scene_distance_proxy": 0.03856992527773774,
+      "projected_nearest_geometry_scale_proxy": 12963.467638162669,
+      "projected_scale_proxy": 791.0137705070565,
+      "source_evaluation_sequence_index": 33,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.619321616298926
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.030000052844415454
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -3.891028582115107
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.003156127929688,
+        1.600193634033203,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.22613739013677045,
+      "dataset_index": 460,
+      "evaluation_sequence_index": 44,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0020.png",
+      "ground_truth_sha256": "9fb4e208f891604fd0a2ae167e95ec9e949635f99125df1a67935be3ca7a493a",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000460__street__test__0020.png",
+      "nearest_scene_distance_proxy": 0.019494165614096254,
+      "projected_nearest_geometry_scale_proxy": 25648.698592298555,
+      "projected_scale_proxy": 2211.045143140194,
+      "source_evaluation_sequence_index": 46,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.521111196450341
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.02999993829602626
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          3.4971241027187414
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.777018737792969,
+        1.5925314331054687,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.007662353515625053,
+      "dataset_index": 690,
+      "evaluation_sequence_index": 45,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0043.png",
+      "ground_truth_sha256": "92880460784faacfd4d1def8bd109d30e9fc22a12a40346128165ef7bc8e77be",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000690__street__test__0043.png",
+      "nearest_scene_distance_proxy": 0.04748801920765099,
+      "projected_nearest_geometry_scale_proxy": 10528.971022311,
+      "projected_scale_proxy": 65254.099425810455,
+      "source_evaluation_sequence_index": 69,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836842858480766,
+          -0.9335802426110104,
+          1.5099580156217034e-07,
+          0.1331916073561495
+        ],
+        [
+          0.933580242611018,
+          -0.35836842858481677,
+          -3.854999091994925e-08,
+          4.096863057885554
+        ],
+        [
+          9.010163801098319e-08,
+          1.27151597385203e-07,
+          0.999999999999988,
+          -0.029999862177340172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.815082397460937,
+        1.6001931762695312,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 1.0380636596681478,
+      "dataset_index": 260,
+      "evaluation_sequence_index": 46,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0000.png",
+      "ground_truth_sha256": "c9425bce1bf42e79aea0e03b0e3dd4b53818c29182a729de2bef64818a934c91",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000260__street__test__0000.png",
+      "nearest_scene_distance_proxy": 0.028953248513279715,
+      "projected_nearest_geometry_scale_proxy": 17269.218613413108,
+      "projected_scale_proxy": 481.66600717353634,
+      "source_evaluation_sequence_index": 26,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -4.284932243713931
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.030000577974407302
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.7175342367336657
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.5971929931640627,
+        1.6001937866210938,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.17982574462890621,
+      "dataset_index": 290,
+      "evaluation_sequence_index": 47,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0003.png",
+      "ground_truth_sha256": "d0eb976a8102a2a58d555312e26ca32b38579f982377b6a8e615c9b11a2c769f",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000290__street__test__0003.png",
+      "nearest_scene_distance_proxy": 0.05952120822624146,
+      "projected_nearest_geometry_scale_proxy": 8400.366743964509,
+      "projected_scale_proxy": 2780.469388163082,
+      "source_evaluation_sequence_index": 29,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -3.103219196891269
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.030000492677818607
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.4229007761965775
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.003156127929688,
+        1.600193634033203,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.22613739013677045,
+      "dataset_index": 400,
+      "evaluation_sequence_index": 48,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0014.png",
+      "ground_truth_sha256": "d459b2b9b247a590ce2ae5d458ef691f2254016818b5f3817254870bcdc5a5ae",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000400__street__test__0014.png",
+      "nearest_scene_distance_proxy": 0.019494165614096254,
+      "projected_nearest_geometry_scale_proxy": 25648.698592298555,
+      "projected_scale_proxy": 2211.045143140194,
+      "source_evaluation_sequence_index": 40,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          3.497123706601497
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.02999944231643209
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.5211117518205945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.7852667236328124,
+        1.6001942443847657,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.9917520141602622,
+      "dataset_index": 550,
+      "evaluation_sequence_index": 49,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0029.png",
+      "ground_truth_sha256": "a06085a99e774911546647238b319ef1a76b99f2a5c1d12f5120a02df3af8672",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000550__street__test__0029.png",
+      "nearest_scene_distance_proxy": 0.032197939757190625,
+      "projected_nearest_geometry_scale_proxy": 15528.943215462807,
+      "projected_scale_proxy": 504.15826840308085,
+      "source_evaluation_sequence_index": 55,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -2.3154106430795456
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.2264783664466994
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.029999653284571607
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -6.653125,
+        3.4,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 4.196687936602365,
+      "dataset_index": 170,
+      "evaluation_sequence_index": 50,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0008.png",
+      "ground_truth_sha256": "c13b7665569b8e3a5e8de7ca9740713473ade2cf8c1b2483417b1ae34767b12f",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000170__aerial__test__0008.png",
+      "nearest_scene_distance_proxy": 1.813007979416096,
+      "projected_nearest_geometry_scale_proxy": 1278.3423871026716,
+      "projected_scale_proxy": 552.2557271959865,
+      "source_evaluation_sequence_index": 17,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9702956945948437,
+          -0.24192202266577517,
+          -9.914462172837826e-08,
+          -5.6329634181761294
+        ],
+        [
+          -0.2095105821084918,
+          0.8403007842121104,
+          -0.49999990803706446,
+          -3.000922987819074
+        ],
+        [
+          0.12096107239633178,
+          -0.48514773729433436,
+          -0.866025456879252,
+          4.619335083785711
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.4091189575195315,
+        1.6001934814453125,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.6321002197266363,
+      "dataset_index": 270,
+      "evaluation_sequence_index": 51,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0001.png",
+      "ground_truth_sha256": "5a843dcc42257c101f0b735d7a4bf316df11958f40f33b8a3cb0b3b3092d3332",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000270__street__test__0001.png",
+      "nearest_scene_distance_proxy": 0.03856992527773774,
+      "projected_nearest_geometry_scale_proxy": 12963.467638162669,
+      "projected_scale_proxy": 791.0137705070565,
+      "source_evaluation_sequence_index": 27,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -3.8910275740527216
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.030000549542205
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.6193231080962014
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.733333129882812,
+        -2.9,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 4.829822080953011,
+      "dataset_index": 110,
+      "evaluation_sequence_index": 52,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0094.png",
+      "ground_truth_sha256": "61038e87834579660da3db6a2f838cf854cb661ee819ae581d35cf9851acfa98",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000110__aerial__test__0094.png",
+      "nearest_scene_distance_proxy": 0.7719276953158318,
+      "projected_nearest_geometry_scale_proxy": 3002.411964626695,
+      "projected_scale_proxy": 479.86135087312584,
+      "source_evaluation_sequence_index": 11,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9902680345840982,
+          -0.13917334400286396,
+          -9.176281505097292e-08,
+          -5.090871055524934
+        ],
+        [
+          -0.12052760946810787,
+          0.8575973055591041,
+          -0.49999995685366694,
+          2.66653479444093
+        ],
+        [
+          0.06958674469215545,
+          -0.49513396350566163,
+          -0.8660254286949799,
+          0.19252689292812747
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.1912298583984375,
+        1.6001939392089843,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.5857888793945513,
+      "dataset_index": 540,
+      "evaluation_sequence_index": 53,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0028.png",
+      "ground_truth_sha256": "b54d1d37ca7e0da2b65b18def9e5f9e3651ea97b554f78acf755419f39c7a266",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000540__street__test__0028.png",
+      "nearest_scene_distance_proxy": 0.06334809583611788,
+      "projected_nearest_geometry_scale_proxy": 7892.8967247541295,
+      "projected_scale_proxy": 853.5497953820601,
+      "source_evaluation_sequence_index": 54,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.9702957550699358,
+          -0.24192178011340915,
+          1.5099579855485697e-07,
+          -2.7093150232861842
+        ],
+        [
+          0.2419217801134121,
+          -0.9702957550699466,
+          1.303336541674716e-09,
+          2.324689394558855
+        ],
+        [
+          1.461952769085621e-07,
+          3.779379415494336e-08,
+          0.9999999999999885,
+          -0.02999959393466717
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -0.7,
+        -1.7,
+        5.0
+      ],
+      "camera_height": 4.993895950793375,
+      "camera_to_scene_centre_distance": 6.712691214556313,
+      "dataset_index": 150,
+      "evaluation_sequence_index": 54,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_4_test/input/0000.png",
+      "ground_truth_sha256": "455056c2d6bc2b72bccf9fa5bd708b518a6f69d166928db7706b9860fe55b115",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000150__aerial__test__0000.png",
+      "nearest_scene_distance_proxy": 1.3932772640816917,
+      "projected_nearest_geometry_scale_proxy": 1663.448480780688,
+      "projected_scale_proxy": 345.26315514367843,
+      "source_evaluation_sequence_index": 15,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.9902680581213534,
+          -0.13917317652678787,
+          -8.314184691509762e-08,
+          -0.9297816250712521
+        ],
+        [
+          -0.10342577482286862,
+          0.7359126189562594,
+          -0.6691305749726494,
+          4.52430628471288
+        ],
+        [
+          0.09312508881527379,
+          -0.6626186265087796,
+          -0.7431448537376576,
+          2.6544601657940543
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.003156127929688,
+        1.600193634033203,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.22613739013677045,
+      "dataset_index": 340,
+      "evaluation_sequence_index": 55,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0008.png",
+      "ground_truth_sha256": "77c4aab847f07dbe505ea76e3a2e41f3f8c63e190f10bab326351c89f7b7bcf3",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000340__street__test__0008.png",
+      "nearest_scene_distance_proxy": 0.019494165614096254,
+      "projected_nearest_geometry_scale_proxy": 25648.698592298555,
+      "projected_scale_proxy": 2211.045143140194,
+      "source_evaluation_sequence_index": 34,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.5211106385202755
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.03000006170391527
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -3.4971245038773
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.4091189575195315,
+        1.6001934814453125,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.6321002197266363,
+      "dataset_index": 390,
+      "evaluation_sequence_index": 56,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0013.png",
+      "ground_truth_sha256": "6db4258ec70bd8096e5f834c3da2b7c9739d5442daad510183c43cfe72fa7a75",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000390__street__test__0013.png",
+      "nearest_scene_distance_proxy": 0.03856992527773774,
+      "projected_nearest_geometry_scale_proxy": 12963.467638162669,
+      "projected_scale_proxy": 791.0137705070565,
+      "source_evaluation_sequence_index": 39,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          3.8910277537830398
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.029999409764732556
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.6193228541594604
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.5971929931640627,
+        1.6001937866210938,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.17982574462890621,
+      "dataset_index": 350,
+      "evaluation_sequence_index": 57,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0009.png",
+      "ground_truth_sha256": "0d7f2a7f8879c8c6a7ae9a62632a22eca74307789074fdc8be16da83a5141719",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000350__street__test__0009.png",
+      "nearest_scene_distance_proxy": 0.05952120822624146,
+      "projected_nearest_geometry_scale_proxy": 8400.366743964509,
+      "projected_scale_proxy": 2780.469388163082,
+      "source_evaluation_sequence_index": 35,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.4228995869130507
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.030000070563421747
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -3.1032201295287027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.777018737792969,
+        1.5925314331054687,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.007662353515625053,
+      "dataset_index": 660,
+      "evaluation_sequence_index": 58,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0040.png",
+      "ground_truth_sha256": "7bafca57bbefe8e6bea7406f7a9929e62fd6af656089b15fab7a8247da4cc7bd",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000660__street__test__0040.png",
+      "nearest_scene_distance_proxy": 0.04748801920765099,
+      "projected_nearest_geometry_scale_proxy": 10528.971022311,
+      "projected_scale_proxy": 65254.099425810455,
+      "source_evaluation_sequence_index": 66,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9335801371736174,
+          -0.35836870325808623,
+          -8.742277800588007e-08,
+          4.096863098538515
+        ],
+        [
+          -9.728096295817463e-08,
+          -9.478497162594903e-09,
+          -0.9999999999999956,
+          0.029999647662784613
+        ],
+        [
+          0.3583687032580838,
+          0.9335801371736215,
+          -4.3711389264247004e-08,
+          -0.13319040521621517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.815082397460937,
+        1.6001931762695312,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 1.0380636596681478,
+      "dataset_index": 320,
+      "evaluation_sequence_index": 59,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0006.png",
+      "ground_truth_sha256": "f44242097dcaf09ac50cc69a8a0e1ec91642bd8085392389607b221750349960",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000320__street__test__0006.png",
+      "nearest_scene_distance_proxy": 0.028953248513279715,
+      "projected_nearest_geometry_scale_proxy": 17269.218613413108,
+      "projected_scale_proxy": 481.66600717353634,
+      "source_evaluation_sequence_index": 32,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.7175325936793313
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.030000043984888102
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -4.284933289488778
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -4.815082397460937,
+        1.6001931762695312,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 1.0380636596681478,
+      "dataset_index": 380,
+      "evaluation_sequence_index": 60,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0012.png",
+      "ground_truth_sha256": "cda0ea2eb1adb230f811ce7d986f8618b414919cc7935b638adac9985773fe8c",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000380__street__test__0012.png",
+      "nearest_scene_distance_proxy": 0.028953248513279715,
+      "projected_nearest_geometry_scale_proxy": 17269.218613413108,
+      "projected_scale_proxy": 481.66600717353634,
+      "source_evaluation_sequence_index": 38,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          4.284932430100447
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.029999377213006648
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.7175339561002807
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.1912298583984375,
+        1.6001939392089843,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.5857888793945513,
+      "dataset_index": 360,
+      "evaluation_sequence_index": 61,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0010.png",
+      "ground_truth_sha256": "4ee64d96a53dd12394dede9835d4c7635ce9c316769044f2dc19cb88b203e235",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000360__street__test__0010.png",
+      "nearest_scene_distance_proxy": 0.06334809583611788,
+      "projected_nearest_geometry_scale_proxy": 7892.8967247541295,
+      "projected_scale_proxy": 853.5497953820601,
+      "source_evaluation_sequence_index": 36,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.2419214732867787,
+          0.9702958315703243,
+          -8.510855484590009e-08,
+          -2.324688535305826
+        ],
+        [
+          -2.1823391102541877e-08,
+          -9.315519950988179e-08,
+          -0.9999999999999954,
+          0.030000079422928226
+        ],
+        [
+          -0.9702958315703278,
+          -0.24192147328677593,
+          4.37113884823634e-08,
+          -2.709315755180106
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.1912298583984375,
+        1.6001939392089843,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.5857888793945513,
+      "dataset_index": 420,
+      "evaluation_sequence_index": 62,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0016.png",
+      "ground_truth_sha256": "966d1eaa35b153a74f5665c081f299b2e5d00a7833099b619562412ac444311d",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000420__street__test__0016.png",
+      "nearest_scene_distance_proxy": 0.06334809583611788,
+      "projected_nearest_geometry_scale_proxy": 7892.8967247541295,
+      "projected_scale_proxy": 853.5497953820601,
+      "source_evaluation_sequence_index": 42,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.9702957550699458,
+          0.24192178011341167,
+          -4.2018048740721764e-08,
+          2.7093150200168794
+        ],
+        [
+          -8.018399650025676e-08,
+          1.479161680740194e-07,
+          -0.9999999999999856,
+          0.029999507419880105
+        ],
+        [
+          -0.24192178011340196,
+          0.9702957550699353,
+          1.6292068495020466e-07,
+          -2.3246893994855258
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770065307617187,
+        2.0569427490234373,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.45674896256546554,
+      "dataset_index": 560,
+      "evaluation_sequence_index": 63,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0030.png",
+      "ground_truth_sha256": "da8bf952195f12f7660f3eb816000a3f9e27354d0bfb684686e58a1f5614644f",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000560__street__test__0030.png",
+      "nearest_scene_distance_proxy": 0.040870438228069045,
+      "projected_nearest_geometry_scale_proxy": 12233.780693863833,
+      "projected_scale_proxy": 1094.6931884331118,
+      "source_evaluation_sequence_index": 56,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.35836778720067947,
+          -0.9335804888153897,
+          -3.258413534050313e-07,
+          0.5667641542022205
+        ],
+        [
+          7.59629482389338e-08,
+          3.198638824727147e-07,
+          -0.9999999999999457,
+          0.02999962897085624
+        ],
+        [
+          0.9335804888154436,
+          -0.3583677872006851,
+          -4.371138513993136e-08,
+          4.263281625925013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.1912298583984375,
+        1.6001939392089843,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.5857888793945513,
+      "dataset_index": 300,
+      "evaluation_sequence_index": 64,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0004.png",
+      "ground_truth_sha256": "21c83a717b5a58d1f7833724d429ef69b888fb1f4498d4d349a9d990278d5894",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000300__street__test__0004.png",
+      "nearest_scene_distance_proxy": 0.06334809583611788,
+      "projected_nearest_geometry_scale_proxy": 7892.8967247541295,
+      "projected_scale_proxy": 853.5497953820601,
+      "source_evaluation_sequence_index": 30,
+      "width": 500,
+      "world_to_camera": [
+        [
+          -0.970295738673846,
+          -0.24192184587460108,
+          -3.155986632445442e-08,
+          -2.709314860255162
+        ],
+        [
+          7.003647475794205e-08,
+          -1.5044621767552706e-07,
+          -0.9999999999999866,
+          0.03000046424561472
+        ],
+        [
+          0.24192184587459303,
+          -0.9702957386738352,
+          1.6292067713684392e-07,
+          2.3246895733324213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.7770306396484377,
+        1.1281201171875,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.4720736695836278,
+      "dataset_index": 640,
+      "evaluation_sequence_index": 65,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0038.png",
+      "ground_truth_sha256": "31b113318b613bd0f7bfd5e20236c4c3be5239c482fbd132e30a1fb8c7fd81cf",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000640__street__test__0038.png",
+      "nearest_scene_distance_proxy": 0.04842333940032677,
+      "projected_nearest_geometry_scale_proxy": 10325.598860720693,
+      "projected_scale_proxy": 1059.1566748158373,
+      "source_evaluation_sequence_index": 64,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.35836811332573537,
+          0.9335803636277097,
+          -3.2584136598589165e-07,
+          0.3003765648599065
+        ],
+        [
+          -7.596306207221001e-08,
+          -3.1986386857457173e-07,
+          -0.9999999999999458,
+          0.030000073930050344
+        ],
+        [
+          -0.9335803636277635,
+          0.3583681133257406,
+          -4.371138782782312e-08,
+          -3.930443914686149
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.5971929931640627,
+        1.6001937866210938,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.17982574462890621,
+      "dataset_index": 470,
+      "evaluation_sequence_index": 66,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0021.png",
+      "ground_truth_sha256": "ee990f846ff058e3a5370ec096df2f73c84c5ad5869238092f9f8fd44c17912e",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000470__street__test__0021.png",
+      "nearest_scene_distance_proxy": 0.05952120822624146,
+      "projected_nearest_geometry_scale_proxy": 8400.366743964509,
+      "projected_scale_proxy": 2780.469388163082,
+      "source_evaluation_sequence_index": 47,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.4229000825749236
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.029999929436525203
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          3.1032197438953006
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -2.566666564941406,
+        -0.9,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 3.1427410572596055,
+      "dataset_index": 130,
+      "evaluation_sequence_index": 67,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0129.png",
+      "ground_truth_sha256": "a353083e2da671c92e02530d5d08b3a3180ebc0ac1e2c405f6791d17508033fc",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000130__aerial__test__0129.png",
+      "nearest_scene_distance_proxy": 0.7781778947407634,
+      "projected_nearest_geometry_scale_proxy": 2978.2970756513805,
+      "projected_scale_proxy": 737.459722584938,
+      "source_evaluation_sequence_index": 13,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.2588189771536152,
+          -0.9659258444959199,
+          1.9425393382852172e-08,
+          -1.5336353042169357
+        ],
+        [
+          -0.8191515864661775,
+          0.21949093365411323,
+          -0.5299192470873185,
+          -1.1100682776817674
+        ],
+        [
+          0.5118626919937622,
+          -0.13715317341749517,
+          -0.8480481068703638,
+          2.4624151616110908
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.971875,
+        0.5,
+        2.5
+      ],
+      "camera_height": 2.493895950793375,
+      "camera_to_scene_centre_distance": 2.710958378699488,
+      "dataset_index": 200,
+      "evaluation_sequence_index": 68,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_9_test/input/0063.png",
+      "ground_truth_sha256": "6e5b52b1d5d154655609269f0499921aadf076d62a7d203843435e98e51c2579",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000200__aerial__test__0063.png",
+      "nearest_scene_distance_proxy": 1.002199326869008,
+      "projected_nearest_geometry_scale_proxy": 2312.5588753721945,
+      "projected_scale_proxy": 854.9172006671654,
+      "source_evaluation_sequence_index": 20,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.5299191661018589,
+          -0.8480481574756837,
+          -9.563136029550235e-08,
+          -1.680748370044578
+        ],
+        [
+          -0.7344312620674296,
+          0.4589235249659034,
+          -0.4999999195309056,
+          -1.8965311326797594
+        ],
+        [
+          0.4240240543836555,
+          -0.2649594701741533,
+          -0.8660254502432819,
+          3.981713901700363
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -3.1912298583984375,
+        1.6001939392089843,
+        0.03
+      ],
+      "camera_height": 0.02389595079337492,
+      "camera_to_scene_centre_distance": 0.5857888793945513,
+      "dataset_index": 480,
+      "evaluation_sequence_index": 69,
+      "ground_truth_path": "/home/luis/tese/data/alod/ALOD-REPRO-MC-MIXED-01/source/street/test/0022.png",
+      "ground_truth_sha256": "6bea8b36f79347594c4291f557d23b4e38fecb20866b8a8ebe7c8ff20cef8bc3",
+      "height": 500,
+      "intrinsics": {
+        "cx": 250.0,
+        "cy": 250.0,
+        "fx": 249.99998907215274,
+        "fy": 249.99998907215274
+      },
+      "modality": "street",
+      "name": "000480__street__test__0022.png",
+      "nearest_scene_distance_proxy": 0.06334809583611788,
+      "projected_nearest_geometry_scale_proxy": 7892.8967247541295,
+      "projected_scale_proxy": 853.5497953820601,
+      "source_evaluation_sequence_index": 48,
+      "width": 500,
+      "world_to_camera": [
+        [
+          0.24192162667062533,
+          -0.9702957933274942,
+          -8.510855401144926e-08,
+          2.3246889686995056
+        ],
+        [
+          2.1823377750199056e-08,
+          9.315520246582488e-08,
+          -0.999999999999995,
+          0.029999920577024147
+        ],
+        [
+          0.9702957933274977,
+          0.2419216266706224,
+          4.371138958339147e-08,
+          2.7093153850718603
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "camera_center": [
+        -7.333333129882813,
+        -0.5,
+        1.5
+      ],
+      "camera_height": 1.493895950793375,
+      "camera_to_scene_centre_distance": 4.383957800520804,
+      "dataset_index": 50,
+      "evaluation_sequence_index": 70,
+      "ground_truth_path": "/home/luis/tese/data/matrix_city/aerial/test/block_1_test/input/0040.png",
+      "ground_truth_sha256": "6d2fbdabed9762cb0dd6377eb077a1fbd4c0b7bbdb696e2d92b9aac90c58a907",
+      "height": 540,
+      "intrinsics": {
+        "cx": 480.0,
+        "cy": 270.0,
+        "fx": 1158.8224741214817,
+        "fy": 1158.8224741214817
+      },
+      "modality": "aerial",
+      "name": "000050__aerial__test__0040.png",
+      "nearest_scene_distance_proxy": 0.9967573392708478,
+      "projected_nearest_geometry_scale_proxy": 2325.1847334661984,
+      "projected_scale_proxy": 528.6649766490983,
+      "source_evaluation_sequence_index": 5,
+      "width": 960,
+      "world_to_camera": [
+        [
+          -0.7431448098315248,
+          -0.6691306237353513,
+          -8.097742677684845e-08,
+          -5.784293644639518
+        ],
+        [
+          -0.48937112623688095,
+          0.543501754172672,
+          -0.6819983460514222,
+          -2.293973096677514
+        ],
+        [
+          0.4563460226912393,
+          -0.5068234915537839,
+          -0.7313537146847059,
+          4.190156233142086
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "dataset_id": "ALOD-REPRO-MC-MIXED-01",
+  "ordering": "Python random.Random(20260916).shuffle applied once to source indices",
+  "resolution_policy": "official evaluation resolution divisor 2",
+  "schema_version": "alod_formal_evaluation_cameras.v1",
+  "source_camera_indices": [
+    24,
+    44,
+    21,
+    70,
+    6,
+    28,
+    68,
+    63,
+    7,
+    45,
+    62,
+    23,
+    22,
+    57,
+    51,
+    16,
+    3,
+    9,
+    18,
+    50,
+    14,
+    58,
+    61,
+    67,
+    41,
+    53,
+    10,
+    0,
+    60,
+    59,
+    49,
+    4,
+    1,
+    12,
+    37,
+    43,
+    19,
+    65,
+    52,
+    2,
+    31,
+    8,
+    25,
+    33,
+    46,
+    69,
+    26,
+    29,
+    40,
+    55,
+    17,
+    27,
+    11,
+    54,
+    15,
+    34,
+    39,
+    35,
+    66,
+    32,
+    38,
+    36,
+    42,
+    56,
+    30,
+    64,
+    47,
+    13,
+    20,
+    48,
+    5
+  ],
+  "source_split": "/home/luis/tese/gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/split.json",
+  "source_split_sha256": "c9f160b69607be54c856f52a9342a8a6e374dc6bd91fc6f8d10a586d7de61283",
+  "source_trajectory_id": "ALOD-REPRO-MC-MIXED-01-EVAL-71-DATASET-INDEX-V1",
+  "trajectory_id": "ALOD-EXT-RUN009-CLOSURE-SHUFFLE-20260916-71"
+}

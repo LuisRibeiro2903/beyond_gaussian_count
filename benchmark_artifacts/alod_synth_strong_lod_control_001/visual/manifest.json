@@ -1,0 +1,41 @@
+{
+  "classification": "PASS-SYNTH-STRONG-LOD-CONTROL",
+  "classification_sha256": "e25f79b6cb381d731ccf7227b73719396fb0201c98331a61c93856fc293f6992",
+  "classification_source": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/strong-lod-classification.json",
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "panel": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_control_001/visual/near_mid_far_panel.png",
+  "panel_sha256": "cb6c4a795c02bb39ff4daa3d8841800a8dc1103754e355d46d286d16472e23fe",
+  "quantitative_acceptance_use": false,
+  "representatives": [
+    {
+      "camera_index": 0,
+      "label": "near",
+      "maximum_depth": 16,
+      "mean_depth": 14.725424672793094,
+      "median_depth": 15.0,
+      "render": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/official-performance/renders/camera_00.png",
+      "render_sha256": "c555028ba52398839c40bb46d55d1dc95c3589c41665b87f7b648596ca75c597",
+      "selected_hierarchy_rows": 25137
+    },
+    {
+      "camera_index": 12,
+      "label": "middle",
+      "maximum_depth": 5,
+      "mean_depth": 4.878787878787879,
+      "median_depth": 5.0,
+      "render": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/official-performance/renders/camera_12.png",
+      "render_sha256": "0c4f2bcc199385cf02c2e8bca0227c30606479ef6bfd8af41522292afb3561e8",
+      "selected_hierarchy_rows": 33
+    },
+    {
+      "camera_index": 24,
+      "label": "far",
+      "maximum_depth": 2,
+      "mean_depth": 1.5,
+      "median_depth": 1.5,
+      "render": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/official-performance/renders/camera_24.png",
+      "render_sha256": "3a63166178381fec0f7d66e770fd3dbde05164eb6807a5242ef53e530426194f",
+      "selected_hierarchy_rows": 4
+    }
+  ]
+}

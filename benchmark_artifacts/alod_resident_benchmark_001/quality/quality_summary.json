@@ -1,0 +1,97 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "comparisons": {
+    "ALOD-HIER-FINEST-RESIDENT__ALOD-HIER-LOD-FRUSTUM": {
+      "frame_count": 10,
+      "infinite_psnr_frame_count": 1,
+      "maximum_absolute_error": 0.24089765548706055,
+      "maximum_lpips_alex": 0.004637203179299831,
+      "mean_absolute_error": 0.003911821497560197,
+      "mean_finite_psnr_db": 63.223500110196305,
+      "mean_lpips_alex": 0.0010625971153478326,
+      "mean_ssim": 0.9983781695365905,
+      "minimum_psnr_db": 33.80313138813537,
+      "minimum_ssim": 0.9926852583885193
+    },
+    "ALOD-HIER-FINEST-RESIDENT__ALOD-HIER-LOD-RESIDENT": {
+      "frame_count": 10,
+      "infinite_psnr_frame_count": 2,
+      "maximum_absolute_error": 0.24089765548706055,
+      "maximum_lpips_alex": 0.004637203179299831,
+      "mean_absolute_error": 0.003911784788570254,
+      "mean_finite_psnr_db": 68.15990501125265,
+      "mean_lpips_alex": 0.001062596725023468,
+      "mean_ssim": 0.9983781695365905,
+      "minimum_psnr_db": 33.80313138813537,
+      "minimum_ssim": 0.9926852583885193
+    },
+    "ALOD-HIER-LOD-RESIDENT__ALOD-HIER-LOD-FRUSTUM": {
+      "frame_count": 10,
+      "infinite_psnr_frame_count": 7,
+      "maximum_absolute_error": 8.299946784973145e-05,
+      "maximum_lpips_alex": 2.1796631166637326e-09,
+      "mean_absolute_error": 3.670899820784612e-08,
+      "mean_finite_psnr_db": 126.42168309692136,
+      "mean_lpips_alex": 2.5004898117353404e-10,
+      "mean_ssim": 0.99999840259552,
+      "minimum_psnr_db": 110.72576740067886,
+      "minimum_ssim": 0.9999874830245972
+    }
+  },
+  "environment": {
+    "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+    "git_dirty": true,
+    "gpu": {
+      "available": true,
+      "capability": [
+        12,
+        0
+      ],
+      "name": "NVIDIA GeForce RTX 5080",
+      "total_memory_bytes": 17094475776
+    },
+    "gsplat_version": "1.5.3",
+    "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+    "python_version": "3.12.12",
+    "timestamp_utc": "2026-08-08T15:39:57.876400+00:00",
+    "torch_cuda_version": "12.9",
+    "torch_version": "2.11.0.dev20260128+cu129"
+  },
+  "metrics": {
+    "input_domain": "both renders clamped to RGB/alpha [0,1]",
+    "lpips": "torchmetrics AlexNet, normalize=True",
+    "psnr": "RGB [0,1], same-asset reference",
+    "ssim": "torchmetrics, data_range=1"
+  },
+  "record_kind": "alod_resident_finest_reference_quality",
+  "reference_semantics": "same-asset finest valid hierarchy cut, not photography",
+  "scene_metadata": {
+    "ALOD-HIER-FINEST-RESIDENT": {
+      "frustum_enabled": false,
+      "gaussian_properties_gpu_bytes": 101199908,
+      "selection_mode": "finest",
+      "total_serialized_rows": 1099999
+    },
+    "ALOD-HIER-LOD-FRUSTUM": {
+      "frustum_enabled": true,
+      "gaussian_properties_gpu_bytes": 101199908,
+      "selection_mode": "lod",
+      "total_serialized_rows": 1099999
+    },
+    "ALOD-HIER-LOD-RESIDENT": {
+      "frustum_enabled": false,
+      "gaussian_properties_gpu_bytes": 101199908,
+      "selection_mode": "lod",
+      "total_serialized_rows": 1099999
+    }
+  },
+  "schema_version": 1,
+  "trajectory": {
+    "camera_count": 10,
+    "id": "alod_run005_frozen_evaluation_v1",
+    "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d"
+  }
+}

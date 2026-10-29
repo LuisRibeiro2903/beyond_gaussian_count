@@ -1,0 +1,134 @@
+{
+  "aerial": {
+    "camera_count": 26,
+    "lpips_vgg": {
+      "maximum": 0.5993013381958008,
+      "mean": 0.30880766533888304,
+      "median": 0.3094710409641266,
+      "minimum": 0.1528576761484146,
+      "p95": 0.48836667835712433
+    },
+    "psnr": {
+      "maximum": 27.457271575927734,
+      "mean": 23.2552553323599,
+      "median": 23.774932861328125,
+      "minimum": 15.547325134277344,
+      "p95": 26.956851959228516
+    },
+    "ssim": {
+      "maximum": 0.8736504316329956,
+      "mean": 0.7351544602559164,
+      "median": 0.7781160175800323,
+      "minimum": 0.47766560316085815,
+      "p95": 0.863936260342598
+    }
+  },
+  "all": {
+    "camera_count": 71,
+    "lpips_vgg": {
+      "maximum": 0.6057894229888916,
+      "mean": 0.3972313124948824,
+      "median": 0.41568025946617126,
+      "minimum": 0.1528576761484146,
+      "p95": 0.5632601976394653
+    },
+    "psnr": {
+      "maximum": 27.457271575927734,
+      "mean": 21.494805322566503,
+      "median": 21.182767868041992,
+      "minimum": 15.547325134277344,
+      "p95": 26.417332649230957
+    },
+    "ssim": {
+      "maximum": 0.8736504316329956,
+      "mean": 0.6902855659874392,
+      "median": 0.6912959814071655,
+      "minimum": 0.47257909178733826,
+      "p95": 0.8434149622917175
+    }
+  },
+  "camera_fixture": "/home/luis/tese/gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json",
+  "configuration_id": "ALOD-REPRO-QUALITY",
+  "frustum_rendering_equivalence": {
+    "avoided_hierarchy_rows": {
+      "maximum": 704075.0,
+      "mean": 10781.859154929578,
+      "median": 733.0,
+      "minimum": 105.0,
+      "p95": 1746.0
+    },
+    "exact_image_count": 64,
+    "no_frustum_boolean_device_correction": "CUDA boolean mask; released false-branch constructs a CPU mask incompatible with CUDA indexing",
+    "rgb_max_abs": {
+      "maximum": 0.00035187602043151855,
+      "mean": 1.3808129538952465e-05,
+      "median": 0.0,
+      "minimum": 0.0,
+      "p95": 5.117058753967285e-05
+    },
+    "rgb_mean_abs": {
+      "maximum": 4.0938004985946463e-07,
+      "mean": 9.315869903152991e-09,
+      "median": 0.0,
+      "minimum": 0.0,
+      "p95": 1.3430376810674716e-08
+    }
+  },
+  "hierarchy_sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+  "metric_semantics": {
+    "alpha": "released evaluator alpha application, including its second multiplication of already-masked GT",
+    "lpips": "official bundled calibrated LPIPS 0.1 with ImageNet VGG16; explicit batch dimension correction",
+    "psnr": "official project utility; per-channel PSNR then channel mean",
+    "ssim": "official project 11x11 Gaussian-window SSIM"
+  },
+  "official_source_clean": true,
+  "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "packed_projection_survivors": {
+    "maximum": 1575790.0,
+    "mean": 496181.5070422535,
+    "median": 315004.0,
+    "minimum": 20467.0,
+    "p95": 1220798.5
+  },
+  "project_extensions_enabled": false,
+  "quality_path": "pinned official evaluator selection, no-cache host gather, released render_gsplat packed renderer",
+  "render_time_ms": {
+    "maximum": 85.50760400248691,
+    "mean": 13.436807421590267,
+    "median": 11.919889991986565,
+    "minimum": 8.816799992928281,
+    "p95": 18.32087349612266
+  },
+  "selected_hierarchy_rows": {
+    "maximum": 3478844.0,
+    "mean": 3432140.9295774647,
+    "median": 3467266.0,
+    "minimum": 2606659.0,
+    "p95": 3477759.0
+  },
+  "status": "PASS-ALOD-REPRO-QUALITY",
+  "street": {
+    "camera_count": 45,
+    "lpips_vgg": {
+      "maximum": 0.6057894229888916,
+      "mean": 0.44832053085168205,
+      "median": 0.4592648148536682,
+      "minimum": 0.22689427435398102,
+      "p95": 0.5661826610565185
+    },
+    "psnr": {
+      "maximum": 23.82323455810547,
+      "mean": 20.477656428019205,
+      "median": 20.881744384765625,
+      "minimum": 16.75122833251953,
+      "p95": 22.69333267211914
+    },
+    "ssim": {
+      "maximum": 0.8240561485290527,
+      "mean": 0.6643613159656525,
+      "median": 0.6718127131462097,
+      "minimum": 0.47257909178733826,
+      "p95": 0.7923002719879149
+    }
+  }
+}

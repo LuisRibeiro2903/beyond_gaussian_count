@@ -1,0 +1,15 @@
+{
+  "boundary_note": "Official Camera/MiniCam matrices are preconstructed before the in_frustum boundary, as in released render_lod. Project preparation constructs its official-camera representation inside prepare_frame; this architectural difference is retained and documented.",
+  "gsplat": {
+    "active_set_assembly_time_ms": 5.606511635419001,
+    "end_to_end_frame_time_ms": 15.673014274533948,
+    "render_call_time_ms": 7.546832487043242,
+    "selection_time_ms": 2.444573477089096
+  },
+  "official": {
+    "active_set_assembly_time_ms": 7.87333062430525,
+    "end_to_end_frame_time_ms": 52.51621202106157,
+    "render_call_time_ms": 42.999016906250944,
+    "selection_time_ms": 1.6438644905053723
+  }
+}

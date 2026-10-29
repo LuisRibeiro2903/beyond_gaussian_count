@@ -1,0 +1,42 @@
+{
+  "comparison": "OFFICIAL-GRAPHDECO-FINEST-FLAT vs CG-FINEST-FLAT",
+  "control": "same released light_50_vq PLY, same cameras, same resolution; renderer backend differs",
+  "metrics": {
+    "cuda_rasterization_time_ms": {
+      "gsplat": 11.289331321583854,
+      "official": 50.36101792035279,
+      "official_minus_gsplat": 39.07168659876894,
+      "official_over_gsplat": 4.46093895960592
+    },
+    "end_to_end_fps": {
+      "gsplat": 88.0314431496396,
+      "official": 18.926946634134843,
+      "official_minus_gsplat": -69.10449651550476,
+      "official_over_gsplat": 0.21500211693635435
+    },
+    "end_to_end_frame_time_ms": {
+      "gsplat": 11.359577489831189,
+      "official": 52.834723916666775,
+      "official_minus_gsplat": 41.475146426835586,
+      "official_over_gsplat": 4.651116994796955
+    },
+    "mean_selected_gaussian_count": {
+      "gsplat": 11694810.0,
+      "official": 11694810.0,
+      "official_minus_gsplat": 0.0,
+      "official_over_gsplat": 1.0
+    },
+    "render_call_time_ms": {
+      "gsplat": 11.34984688310565,
+      "official": 52.834723916666775,
+      "official_minus_gsplat": 41.484877033561126,
+      "official_over_gsplat": 4.655104554345288
+    },
+    "resident_gaussian_count": {
+      "gsplat": 11694810.0,
+      "official": 11694810.0,
+      "official_minus_gsplat": 0.0,
+      "official_over_gsplat": 1.0
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "attribution": {
+    "interpretation": "Both preparation and rendering differ. The render-call difference accounts for most of the observed end-to-end gap; the same-asset flat control independently shows a large backend gap. This is measured attribution, not a claim about unmeasured microarchitectural causes.",
+    "observed_end_to_end_gap_ms": 36.84319774652762,
+    "observed_preparation_gap_ms": 1.3910133273199161,
+    "observed_render_call_gap_ms": 35.452184419207704
+  },
+  "comparison": "OFFICIAL-CITYGS-LOD-RELEASE vs CG-LOD-RELEASE",
+  "metrics": {
+    "active_set_assembly_time_ms": {
+      "gsplat": 5.606511635419001,
+      "official": 7.87333062430525,
+      "official_minus_gsplat": 2.266818988886249,
+      "official_over_gsplat": 1.4043189662830047
+    },
+    "cuda_rasterization_time_ms": {
+      "gsplat": 7.480434641462786,
+      "official": 40.967856162344965,
+      "official_minus_gsplat": 33.48742152088218,
+      "official_over_gsplat": 5.4766678844123655
+    },
+    "end_to_end_fps": {
+      "gsplat": 63.80393601917625,
+      "official": 19.041738950991956,
+      "official_minus_gsplat": -44.76219706818429,
+      "official_over_gsplat": 0.29844144639084597
+    },
+    "end_to_end_frame_time_ms": {
+      "gsplat": 15.673014274533948,
+      "official": 52.51621202106157,
+      "official_minus_gsplat": 36.84319774652762,
+      "official_over_gsplat": 3.3507410317613067
+    },
+    "mean_selected_gaussian_count": {
+      "gsplat": 4214145.394444444,
+      "official": 4214145.394444444,
+      "official_minus_gsplat": 0.0,
+      "official_over_gsplat": 1.0
+    },
+    "preparation_time_ms": {
+      "gsplat": 8.126181787490706,
+      "official": 9.517195114810622,
+      "official_minus_gsplat": 1.3910133273199161,
+      "official_over_gsplat": 1.1711767424968533
+    },
+    "render_call_time_ms": {
+      "gsplat": 7.546832487043242,
+      "official": 42.999016906250944,
+      "official_minus_gsplat": 35.452184419207704,
+      "official_over_gsplat": 5.697624398060204
+    },
+    "resident_gaussian_count": {
+      "gsplat": 25494686.0,
+      "official": 25494686.0,
+      "official_minus_gsplat": 0.0,
+      "official_over_gsplat": 1.0
+    },
+    "selection_time_ms": {
+      "gsplat": 2.444573477089096,
+      "official": 1.6438644905053723,
+      "official_minus_gsplat": -0.8007089865837236,
+      "official_over_gsplat": 0.6724545226036007
+    }
+  },
+  "selection_semantics": "12/12 exact frozen-camera parity; same official PLY levels and complete 1,440-frame selected workload"
+}

@@ -1,0 +1,21 @@
+# Local environments, caches and rerun outputs.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+local/
+*.egg-info/
+# Exact restored numerical records; compressed originals are tracked.
+*.jsonl
+# Downloaded scene payloads and native build products.
+*.pt
+*.pth
+*.ckpt
+*.dhier
+*.ply
+*.so
+build/
+dist/
+.env
+.env.*
+!.env.example

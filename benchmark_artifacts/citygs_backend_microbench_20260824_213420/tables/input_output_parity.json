@@ -1,0 +1,62 @@
+[
+  {
+    "alpha_max_absolute_difference": 0.02116537094116211,
+    "alpha_mean_absolute_difference": 2.378390036028577e-06,
+    "alpha_psnr_data_range_1": 85.11940685898375,
+    "camera_equal": true,
+    "canonical_tensor_hashes_equal": true,
+    "case": "finest_flat",
+    "coverage_jaccard": 1.0,
+    "finite_alpha": true,
+    "finite_rgb": true,
+    "gaussian_count": 11694810,
+    "gaussian_count_equal": true,
+    "graphdeco_coverage_fraction_alpha_gt_1e_4": 1.0,
+    "graphdeco_only_coverage_fraction": 0.0,
+    "graphdeco_rgb_range": [
+      0.017007140442728996,
+      0.9846298694610596
+    ],
+    "gsplat_coverage_fraction_alpha_gt_1e_4": 1.0,
+    "gsplat_only_coverage_fraction": 0.0,
+    "gsplat_rgb_range": [
+      0.017007101327180862,
+      0.9846288561820984
+    ],
+    "rgb_max_absolute_difference_raw": 0.02961169183254242,
+    "rgb_mean_absolute_difference_raw": 9.128512829192914e-06,
+    "rgb_psnr_clipped_0_1": 77.97303440918218,
+    "rgb_psnr_raw_data_range_1": 77.97303440918218,
+    "rgb_ssim_clipped_0_1": 0.9999982714653015
+  },
+  {
+    "alpha_max_absolute_difference": 0.02116537094116211,
+    "alpha_mean_absolute_difference": 2.8762542569893412e-06,
+    "alpha_psnr_data_range_1": 83.63717476734216,
+    "camera_equal": true,
+    "canonical_tensor_hashes_equal": true,
+    "case": "representative_lod",
+    "coverage_jaccard": 1.0,
+    "finite_alpha": true,
+    "finite_rgb": true,
+    "gaussian_count": 3823434,
+    "gaussian_count_equal": true,
+    "graphdeco_coverage_fraction_alpha_gt_1e_4": 1.0,
+    "graphdeco_only_coverage_fraction": 0.0,
+    "graphdeco_rgb_range": [
+      0.017168017104268074,
+      0.9846298694610596
+    ],
+    "gsplat_coverage_fraction_alpha_gt_1e_4": 1.0,
+    "gsplat_only_coverage_fraction": 0.0,
+    "gsplat_rgb_range": [
+      0.017167983576655388,
+      0.9846288561820984
+    ],
+    "rgb_max_absolute_difference_raw": 0.05319651961326599,
+    "rgb_mean_absolute_difference_raw": 9.137613233178854e-06,
+    "rgb_psnr_clipped_0_1": 77.46084354209736,
+    "rgb_psnr_raw_data_range_1": 77.46084354209736,
+    "rgb_ssim_clipped_0_1": 0.9999980926513672
+  }
+]

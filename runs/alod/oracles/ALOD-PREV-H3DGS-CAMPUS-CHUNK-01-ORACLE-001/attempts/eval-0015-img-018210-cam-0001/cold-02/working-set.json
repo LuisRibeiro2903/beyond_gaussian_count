@@ -1,0 +1,62 @@
+{
+  "camera_stable_id": "eval-0015-img-018210-cam-0001",
+  "global_node_id_payload": {
+    "byte_count": 4476024,
+    "device_during_official_execution": null,
+    "dtype": "int64",
+    "element_count": 559503,
+    "finite_count": null,
+    "max": 1143220.0,
+    "min": 0.0,
+    "raw_cpu_c_order_sha256": "d9751084c4cc5b5b3d327b0fe8466762e579f9cdd6d9eec3b12d94fc0dbe81be",
+    "shape": [
+      559503
+    ]
+  },
+  "global_node_ids": {
+    "canonical_encoding": "little-endian signed int64, contiguous C order",
+    "count": 559503,
+    "max": 1143220,
+    "min": 0,
+    "ordered_sha256": "d9751084c4cc5b5b3d327b0fe8466762e579f9cdd6d9eec3b12d94fc0dbe81be",
+    "runtime_array": {
+      "byte_count": 4476024,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 559503,
+      "finite_count": null,
+      "max": 1143220.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "d9751084c4cc5b5b3d327b0fe8466762e579f9cdd6d9eec3b12d94fc0dbe81be",
+      "shape": [
+        559503
+      ]
+    },
+    "sorted_sha256": "f9b5a5a8fee9148e881971a4f28c0d588a3252a21ce9a57fc4fae2ddcd7eb957",
+    "unique_count": 559503
+  },
+  "row_correspondence": {
+    "hierarchy_selected_rows": 459503,
+    "mapping": "raster row -> raster_global_node_ids[row] -> serialized .dhier row",
+    "skybox_rows": 100000,
+    "stored_tensor_exact_equality": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "tensor_row_count_agreement": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "total_raster_rows": 559503,
+    "valid": true
+  },
+  "schema_version": "alod_selection_oracle_working_set.v1"
+}

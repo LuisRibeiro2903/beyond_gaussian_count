@@ -1,0 +1,17 @@
+{
+  "capture_method": "Computer Use list_apps immediately before formal campaign setup",
+  "captured_local_time": "2026-08-24T22:19:00+01:00",
+  "targetable_open_windows": [
+    {
+      "application": "ChatGPT/Codex desktop",
+      "window_count": 1
+    }
+  ],
+  "avoidable_gpu_workload_check": {
+    "browser_or_twitch_window_open": false,
+    "media_player_window_open": false,
+    "spotify_window_open": false,
+    "game_or_launcher_window_open": false
+  },
+  "action_taken": "No stream or GPU-heavy application needed closing; no system settings were changed."
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 2,
+  "policy_id": "ALOD-SMOKE-TRAIN-001-RESOURCE-POLICY",
+  "execution_authorized": false,
+  "sampling_interval_seconds": 5,
+  "sampling_interval_unit": "seconds",
+  "duration_semantics": {
+    "mode": "consecutive-violating-samples",
+    "first_violating_sample_counts_as": 1,
+    "required_samples_formula": "max(1, ceil(duration_seconds / sampling_interval_seconds))",
+    "rounding": "ceiling",
+    "examples": {
+      "15_seconds": 3,
+      "10_seconds": 2,
+      "zero_seconds": 1
+    },
+    "enforcement": "monitor-enforced"
+  },
+  "machine_inventory": {
+    "host_ram_bytes": 32706777088,
+    "swap_total_bytes": 17179869184,
+    "swap_baseline_bytes": null,
+    "swap_baseline_capture": "immediately before each monitored stage",
+    "gpu_vram_mib": 16303,
+    "disk_available_bytes_at_plan_time": 764209467392,
+    "inventory_status": "plan-time measured except future swap baseline",
+    "enforcement": "diagnostic-inventory"
+  },
+  "thresholds": {
+    "process_group_rss": {
+      "comparison": "greater-than",
+      "warning": {"value_bytes": 21474836480, "unit": "bytes", "duration_seconds": 30, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_bytes": 25769803776, "unit": "bytes", "duration_seconds": 15, "enforcement": "hard-enforced", "action": "terminate process group"}
+    },
+    "available_system_ram": {
+      "comparison": "less-than",
+      "warning": {"value_bytes": 8589934592, "unit": "bytes", "duration_seconds": 0, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_bytes": 5368709120, "unit": "bytes", "duration_seconds": 15, "enforcement": "hard-enforced", "action": "terminate process group"}
+    },
+    "swap_growth_from_stage_baseline": {
+      "comparison": "greater-than",
+      "baseline": "swap used immediately before monitored stage launch",
+      "warning": {"value_bytes": 134217728, "unit": "bytes", "duration_seconds": 15, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_bytes": 268435456, "unit": "bytes", "duration_seconds": 15, "enforcement": "hard-enforced", "action": "terminate process group"},
+      "persistent_monotonic_growth": {
+        "consecutive_increase_samples": 6,
+        "unit": "samples",
+        "minimum_total_growth_bytes": 134217728,
+        "minimum_total_growth_unit": "bytes",
+        "first_increasing_sample_counts_as": 1,
+        "enforcement": "hard-enforced",
+        "action": "terminate process group after six strictly increasing samples when total growth is at least the warning threshold"
+      }
+    },
+    "whole_device_vram": {
+      "comparison": "greater-than",
+      "warning": {"value_bytes": 12884901888, "unit": "bytes", "duration_seconds": 10, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_bytes": 14495514624, "unit": "bytes", "duration_seconds": 10, "enforcement": "hard-enforced", "action": "terminate process group"}
+    },
+    "training_process_vram": {
+      "comparison": "greater-than",
+      "attribution": "NVML/nvidia-smi compute-process PID attribution",
+      "unavailable_behavior": "record null; never substitute whole-device memory",
+      "warning": {"value_bytes": 12348030976, "unit": "bytes", "duration_seconds": 10, "enforcement": "warning-enforced-when-attribution-reliable", "action": "record warning"},
+      "hard": {"value_bytes": 13958643712, "unit": "bytes", "duration_seconds": 10, "enforcement": "hard-enforced-when-attribution-reliable", "action": "terminate process group"}
+    },
+    "pytorch_allocated": {
+      "comparison": null,
+      "warning": {"value_bytes": null, "unit": "bytes", "duration_seconds": null, "enforcement": "diagnostic-if-emitted", "action": "record only if emitted by official stdout"},
+      "hard": {"value_bytes": null, "unit": "bytes", "duration_seconds": null, "enforcement": "diagnostic-if-emitted", "action": "no external termination"}
+    },
+    "pytorch_reserved": {
+      "comparison": null,
+      "warning": {"value_bytes": null, "unit": "bytes", "duration_seconds": null, "enforcement": "diagnostic-if-emitted", "action": "record only if emitted by official stdout"},
+      "hard": {"value_bytes": null, "unit": "bytes", "duration_seconds": null, "enforcement": "diagnostic-if-emitted", "action": "no external termination"}
+    },
+    "output_directory": {
+      "comparison": "greater-than",
+      "warning": {"value_bytes": 2147483648, "unit": "bytes", "duration_seconds": 0, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_bytes": 5368709120, "unit": "bytes", "duration_seconds": 0, "enforcement": "hard-enforced", "action": "terminate process group"}
+    },
+    "fine_node_count": {
+      "comparison": "greater-than-or-equal",
+      "warning": {"value_rows": 1050000, "unit": "rows", "duration_seconds": 0, "enforcement": "log-derived-diagnostic", "action": "record when current size appears in official progress output"},
+      "hard": {"value_rows": 1100000, "unit": "rows", "duration_seconds": 0, "enforcement": "configuration-enforced", "action": "source cap_max constrains allocation and spawning; external monitor does not terminate on count"}
+    },
+    "no_progress": {
+      "comparison": "greater-than",
+      "warning": {"value_seconds": 900, "unit": "seconds", "duration_seconds": 0, "enforcement": "warning-enforced", "action": "record warning"},
+      "hard": {"value_seconds": 1800, "unit": "seconds", "duration_seconds": 0, "enforcement": "hard-enforced", "action": "terminate process group"}
+    }
+  },
+  "stage_wall_time": {
+    "unit": "seconds",
+    "coarse": {"warning_seconds": 5400, "hard_seconds": 10800, "enforcement": "warning-and-hard-enforced"},
+    "creator": {"warning_seconds": 1200, "hard_seconds": 3600, "enforcement": "warning-and-hard-enforced"},
+    "cache_preflight": {"warning_seconds": 1200, "hard_seconds": 3600, "enforcement": "warning-and-hard-enforced"},
+    "fine": {"warning_seconds": 14400, "hard_seconds": 36000, "enforcement": "warning-and-hard-enforced"},
+    "whole_pipeline": {"warning_seconds": null, "hard_seconds": 43200, "enforcement": "hard-enforced by shared pipeline start timestamp"}
+  },
+  "configuration_limits": {
+    "coarse_expected_rows": 543620,
+    "fine_initial_rows_warning": 1050000,
+    "fine_initial_rows_must_be_less_than": 1100000,
+    "minimum_growth_rows": 50000,
+    "minimum_headroom_ratio": 0.05,
+    "fine_cap_max": 1100000,
+    "cache_threshold_complete_gpu_rows": 300000,
+    "cache_reduced_target_complete_gpu_rows": 240000,
+    "cache_static_reserve_rows": 20000,
+    "cache_preflight_max_upper_rows": 119742,
+    "unit": "rows except minimum_headroom_ratio",
+    "enforcement": "configuration-enforced and preflight-enforced"
+  },
+  "failure_patterns": {
+    "hard": [
+      "CUDA out of memory",
+      "OutOfMemoryError",
+      "CUDA error: an illegal memory access",
+      "device-side assert triggered",
+      "nan loss",
+      "inf loss",
+      "Traceback (most recent call last)"
+    ],
+    "diagnostic": ["Peak memory", "peak memory:", "Size:"],
+    "forbidden_stage3_process_basename": "GaussianHierarchyCreator",
+    "enforcement": "hard patterns and forbidden process are hard-enforced; diagnostic patterns are recorded"
+  },
+  "termination_sequence": [
+    {"signal": "SIGINT", "wait_seconds": 30, "unit": "seconds", "enforcement": "hard-abort-sequence"},
+    {"signal": "SIGTERM", "wait_seconds": 30, "unit": "seconds", "enforcement": "hard-abort-sequence"},
+    {"signal": "SIGKILL", "wait_seconds": 0, "unit": "seconds", "enforcement": "hard-abort-sequence"}
+  ],
+  "partial_output_policy": "preserve logs and artifacts in place, record the abort reason, and do not treat partial outputs as valid barrier inputs",
+  "estimate_labels": {
+    "host_rss_4_to_8_gib": "PROJECT SAFETY ESTIMATE — UNMEASURED",
+    "vram_4_to_10_gib": "PROJECT SAFETY ESTIMATE — UNMEASURED",
+    "future_requirement": "replace estimates with measured stage peaks",
+    "enforcement": "documentation-only"
+  },
+  "planning_history": [
+    {
+      "date": "2026-08-06",
+      "status": "BLOCKED-ALOD-PREFLIGHT",
+      "reason": "execution request and frozen policy disagreed on sampling, available RAM, swap duration, VRAM duration/process thresholds, and PyTorch diagnostic thresholds",
+      "resolution": "canonical policy reconciled and refrozen before execution"
+    }
+  ]
+}

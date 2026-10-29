@@ -1,0 +1,144 @@
+{
+  "benchmark_means": {
+    "alod_materialization_rows": 590238.4666666667,
+    "alod_semantic_selected_rows": 3489190.7333333334,
+    "backend_projection_survivor_count": 561318.6,
+    "end_to_end_frame_time_ms": 77.91865946653868,
+    "fps_from_mean_frame_time": 12.833896358669248
+  },
+  "cache": {
+    "cold_inclusive_h2d_bytes": 289922452.0,
+    "cold_inclusive_h2d_rows": 3151331.0,
+    "complete_trajectory_union_rows": 3151331,
+    "evicted_rows": 0.0,
+    "eviction_events": 0.0,
+    "mean_occupancy_rows": 2391865.466666667,
+    "miss_transferred_rows": 896923.0,
+    "peak_occupancy_rows": 3151331.0,
+    "requested_rows": 8618963.0,
+    "resident_hit_rows": 7722040.0,
+    "row_hit_rate": 0.8959360888311042,
+    "steady_h2d_bytes": 82516916.0,
+    "steady_h2d_rows": 896923.0,
+    "unique_requested_rows": 3151331
+  },
+  "camera_count": 15,
+  "camera_ids": [
+    "000150__aerial__test__0000.png",
+    "000690__street__test__0043.png",
+    "000230__aerial__test__0119.png",
+    "000320__street__test__0006.png",
+    "000470__street__test__0021.png",
+    "000180__aerial__test__0033.png",
+    "000430__street__test__0017.png",
+    "000460__street__test__0020.png",
+    "000450__street__test__0019.png",
+    "000060__aerial__test__0049.png",
+    "000650__street__test__0039.png",
+    "000360__street__test__0010.png",
+    "000000__aerial__test__0008.png",
+    "000640__street__test__0038.png",
+    "000610__street__test__0035.png"
+  ],
+  "campaign_id": "ALOD-EXT-RUN009-CLOSURE-001",
+  "classification": "weak_lod_persists",
+  "criterion": "material variation requires maximum selected depth to vary or maximum pairwise depth-distribution TVD >= 0.05; frozen before selection outcomes were inspected",
+  "materialized_over_semantic_ratio": {
+    "maximum": 0.4127379389425285,
+    "mean": 0.1657898405774185,
+    "median": 0.15013412706544763,
+    "minimum": 0.007481672476502522,
+    "p90": 0.3380757020909516
+  },
+  "materialized_rows": {
+    "maximum": 1470019.0,
+    "mean": 590238.4666666667,
+    "median": 536277.0,
+    "minimum": 25723.0,
+    "p90": 1206771.0
+  },
+  "packed_projection_survivors": {
+    "maximum": 1427131.0,
+    "mean": 561318.6,
+    "median": 498126.0,
+    "minimum": 20467.0,
+    "p90": 1160860.0
+  },
+  "projected_scale_proxy": {
+    "maximum": 65254.099425810455,
+    "mean": 5256.794880991201,
+    "median": 791.0137705070565,
+    "minimum": 345.26315514367843,
+    "p90": 2552.6996901539264
+  },
+  "schema_version": 1,
+  "selected_depth": {
+    "adjacent_tvd": {
+      "maximum": 0.016948709893333077,
+      "mean": 0.007733509438672044,
+      "median": 0.006375091817851632,
+      "minimum": 5.1298555381997196e-05,
+      "p90": 0.016023034178974674
+    },
+    "all_pair_tvd": {
+      "maximum": 0.01834141524614768,
+      "mean": 0.007158912030845743,
+      "median": 0.003434114060270988,
+      "minimum": 5.1298555381997196e-05,
+      "p90": 0.016787879906918775
+    },
+    "per_camera_maximum": {
+      "maximum": 55.0,
+      "mean": 55.0,
+      "median": 55.0,
+      "minimum": 55.0,
+      "p90": 55.0
+    },
+    "per_camera_mean": {
+      "maximum": 23.05793699904744,
+      "mean": 22.95142005640709,
+      "median": 22.953485123219092,
+      "minimum": 22.880183695386794,
+      "p90": 22.953886191752478
+    },
+    "per_camera_median": {
+      "maximum": 22.0,
+      "mean": 22.0,
+      "median": 22.0,
+      "minimum": 22.0,
+      "p90": 22.0
+    }
+  },
+  "selected_set_adjacent_jaccard": {
+    "maximum": 0.9998274762628652,
+    "mean": 0.9331327503296135,
+    "median": 0.9684651155311537,
+    "minimum": 0.7315270978030594,
+    "p90": 0.9949188001255548
+  },
+  "semantic_selected_rows": {
+    "maximum": 3578844.0,
+    "mean": 3489190.7333333334,
+    "median": 3567838.0,
+    "minimum": 2706659.0,
+    "p90": 3577546.0
+  },
+  "source_camera_indices": [
+    15,
+    69,
+    23,
+    32,
+    47,
+    18,
+    43,
+    46,
+    45,
+    6,
+    65,
+    36,
+    0,
+    64,
+    61
+  ],
+  "status": "PASS-ALOD-EXT-RUN009-LOD-STRESS-CHARACTERIZATION"
+}

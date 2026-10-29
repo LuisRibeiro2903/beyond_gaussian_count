@@ -1,0 +1,1689 @@
+{
+  "cameras": {
+    "0": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 46526,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 25137,
+        "semantic_rows": 125137,
+        "unique_materialized_rows": 46526,
+        "unique_semantic_rows": 125137
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.19126466668240028,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03649133335178097,
+          "alod_host_gather_ms": 0.032845666661766394,
+          "alod_materialization_filter_ms": 10.377558000072895,
+          "alod_materialization_occurrence_propagation_ms": 0.6521043333881001,
+          "alod_materialization_unique_extraction_ms": 5.18317033341494,
+          "alod_occurrence_reindex_ms": 0.0011160000212839805,
+          "alod_pre_raster_assembly_ms": 0.2620060000329734,
+          "alod_total_selection_ms": 0.5688436666938893,
+          "end_to_end_frame_time_ms": 14.561448333400525,
+          "frame_preparation_ms": 13.228533000074094,
+          "frame_time_ms": 1.3079996667784144,
+          "rasterization_time_ms": 1.2086079915364583
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 2312604.0,
+          "alod_h2d_transfer_ms": 0.4122766666417495,
+          "alod_host_gather_ms": 0.6906733334138456,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002686666296843517,
+          "alod_pre_raster_assembly_ms": 0.24942033329959182,
+          "alod_total_selection_ms": 0.5420276665972779,
+          "end_to_end_frame_time_ms": 16.614598999922237,
+          "frame_preparation_ms": 15.129387333217892,
+          "frame_time_ms": 1.455955333312886,
+          "rasterization_time_ms": 1.3634666601816814
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.08789133327506231,
+          "alod_h2d_bytes": 2312512.0,
+          "alod_h2d_transfer_ms": 0.6920169999678668,
+          "alod_host_gather_ms": 0.8868480000122266,
+          "alod_materialization_filter_ms": 10.83630066667259,
+          "alod_materialization_occurrence_propagation_ms": 0.6285789999462091,
+          "alod_materialization_unique_extraction_ms": 7.97173433337169,
+          "alod_occurrence_reindex_ms": 0.0010086667619664997,
+          "alod_pre_raster_assembly_ms": 0.29639566673722584,
+          "alod_total_selection_ms": 0.5378720000711231,
+          "end_to_end_frame_time_ms": 16.208293999928475,
+          "frame_preparation_ms": 14.799079666621159,
+          "frame_time_ms": 1.3859270000011747,
+          "rasterization_time_ms": 1.292085329691569
+        }
+      }
+    },
+    "1": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 35355,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 12697,
+        "semantic_rows": 112697,
+        "unique_materialized_rows": 35355,
+        "unique_semantic_rows": 112697
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.10074533330832007,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03792366669586045,
+          "alod_host_gather_ms": 0.028532666647151927,
+          "alod_materialization_filter_ms": 4.431128333332405,
+          "alod_materialization_occurrence_propagation_ms": 0.5610396666876719,
+          "alod_materialization_unique_extraction_ms": 1.7112750000857584,
+          "alod_occurrence_reindex_ms": 0.0013436667056036338,
+          "alod_pre_raster_assembly_ms": 0.3067293332605914,
+          "alod_total_selection_ms": 0.4831540000698927,
+          "end_to_end_frame_time_ms": 7.988413333350763,
+          "frame_preparation_ms": 6.6976179999376955,
+          "frame_time_ms": 1.2632960000852715,
+          "rasterization_time_ms": 1.171338677406311
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 1168124.0,
+          "alod_h2d_transfer_ms": 0.4066186666780898,
+          "alod_host_gather_ms": 0.3321099999690584,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00033799998770215706,
+          "alod_pre_raster_assembly_ms": 0.23698066668960868,
+          "alod_total_selection_ms": 0.4434669999682228,
+          "end_to_end_frame_time_ms": 14.368037666675567,
+          "frame_preparation_ms": 13.07827533340363,
+          "frame_time_ms": 1.2602123333635973,
+          "rasterization_time_ms": 1.1790400346120198
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.08686399989225417,
+          "alod_h2d_bytes": 1088544.0,
+          "alod_h2d_transfer_ms": 0.6272759999319533,
+          "alod_host_gather_ms": 0.46795866668010905,
+          "alod_materialization_filter_ms": 4.510198999999678,
+          "alod_materialization_occurrence_propagation_ms": 0.5485866665821959,
+          "alod_materialization_unique_extraction_ms": 1.7702510000011291,
+          "alod_occurrence_reindex_ms": 0.0011033333369899385,
+          "alod_pre_raster_assembly_ms": 0.3072593333399709,
+          "alod_total_selection_ms": 0.43742066668528423,
+          "end_to_end_frame_time_ms": 9.679528333360091,
+          "frame_preparation_ms": 7.665354666642088,
+          "frame_time_ms": 1.9891450000007656,
+          "rasterization_time_ms": 1.8675626118977864
+        }
+      }
+    },
+    "10": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100129,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 129,
+        "semantic_rows": 100129,
+        "unique_materialized_rows": 100129,
+        "unique_semantic_rows": 100129
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.05264966656189548,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03571133333934995,
+          "alod_host_gather_ms": 0.02728233327313016,
+          "alod_materialization_filter_ms": 4.428477333325039,
+          "alod_materialization_occurrence_propagation_ms": 1.0419576666057158,
+          "alod_materialization_unique_extraction_ms": 0.9247046665829354,
+          "alod_occurrence_reindex_ms": 0.0011130000530101825,
+          "alod_pre_raster_assembly_ms": 0.16160433339488614,
+          "alod_total_selection_ms": 0.3963330000260612,
+          "end_to_end_frame_time_ms": 7.998673333304396,
+          "frame_preparation_ms": 6.787658000121155,
+          "frame_time_ms": 1.1884159999529704,
+          "rasterization_time_ms": 1.0982080300649006
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 11868.0,
+          "alod_h2d_transfer_ms": 0.2028906665903681,
+          "alod_host_gather_ms": 0.041805999899224844,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00026900003528377664,
+          "alod_pre_raster_assembly_ms": 0.2321136666220506,
+          "alod_total_selection_ms": 0.3658343334033513,
+          "end_to_end_frame_time_ms": 12.821388999858149,
+          "frame_preparation_ms": 10.526333333321721,
+          "frame_time_ms": 2.268305666575543,
+          "rasterization_time_ms": 2.163391947746277
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.006533666692121187,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.025746666703222825,
+          "alod_host_gather_ms": 0.022341666711630143,
+          "alod_materialization_filter_ms": 4.195940333299101,
+          "alod_materialization_occurrence_propagation_ms": 0.9214266666883001,
+          "alod_materialization_unique_extraction_ms": 0.9375113333286814,
+          "alod_occurrence_reindex_ms": 0.0010619999860258151,
+          "alod_pre_raster_assembly_ms": 0.17541500013370145,
+          "alod_total_selection_ms": 0.3639036666906274,
+          "end_to_end_frame_time_ms": 7.279823333343908,
+          "frame_preparation_ms": 6.1459196667025635,
+          "frame_time_ms": 1.1132850000497758,
+          "rasterization_time_ms": 1.0306346615155537
+        }
+      }
+    },
+    "11": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100065,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 65,
+        "semantic_rows": 100065,
+        "unique_materialized_rows": 100065,
+        "unique_semantic_rows": 100065
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.06767533333610724,
+          "alod_h2d_bytes": 5888.0,
+          "alod_h2d_transfer_ms": 0.34170999992966244,
+          "alod_host_gather_ms": 0.05190400005024761,
+          "alod_materialization_filter_ms": 5.707212666645016,
+          "alod_materialization_occurrence_propagation_ms": 1.4701493332722748,
+          "alod_materialization_unique_extraction_ms": 0.9273393333539085,
+          "alod_occurrence_reindex_ms": 0.0008526667443220504,
+          "alod_pre_raster_assembly_ms": 0.1489576667002742,
+          "alod_total_selection_ms": 0.3852033332805149,
+          "end_to_end_frame_time_ms": 9.852862666699972,
+          "frame_preparation_ms": 8.600281666682955,
+          "frame_time_ms": 1.2295760000142764,
+          "rasterization_time_ms": 1.1278080145517986
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 5980.0,
+          "alod_h2d_transfer_ms": 0.19458466666340732,
+          "alod_host_gather_ms": 0.03977099997124848,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00027566670723899733,
+          "alod_pre_raster_assembly_ms": 0.2345406666487785,
+          "alod_total_selection_ms": 0.36166366673266265,
+          "end_to_end_frame_time_ms": 11.5961660000418,
+          "frame_preparation_ms": 10.432636666640368,
+          "frame_time_ms": 1.1349633333945046,
+          "rasterization_time_ms": 1.059605360031128
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.0065916665334952995,
+          "alod_h2d_bytes": 5888.0,
+          "alod_h2d_transfer_ms": 0.309318666722902,
+          "alod_host_gather_ms": 0.03991433345618134,
+          "alod_materialization_filter_ms": 3.981872666675675,
+          "alod_materialization_occurrence_propagation_ms": 0.9342140000777969,
+          "alod_materialization_unique_extraction_ms": 0.9350463333248626,
+          "alod_occurrence_reindex_ms": 0.000891666635046325,
+          "alod_pre_raster_assembly_ms": 0.1309296665870837,
+          "alod_total_selection_ms": 0.3686643332609189,
+          "end_to_end_frame_time_ms": 7.626041333272345,
+          "frame_preparation_ms": 6.3293273333329125,
+          "frame_time_ms": 1.2780363332846416,
+          "rasterization_time_ms": 1.1932693322499592
+        }
+      }
+    },
+    "12": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100033,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 33,
+        "semantic_rows": 100033,
+        "unique_materialized_rows": 100033,
+        "unique_semantic_rows": 100033
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04594933322247622,
+          "alod_h2d_bytes": 2944.0,
+          "alod_h2d_transfer_ms": 0.3243043333138,
+          "alod_host_gather_ms": 0.04162899995208136,
+          "alod_materialization_filter_ms": 4.639254666699344,
+          "alod_materialization_occurrence_propagation_ms": 0.9328240000741062,
+          "alod_materialization_unique_extraction_ms": 0.9191446667955461,
+          "alod_occurrence_reindex_ms": 0.000897666571593921,
+          "alod_pre_raster_assembly_ms": 0.14571800003674676,
+          "alod_total_selection_ms": 0.3691790000175388,
+          "end_to_end_frame_time_ms": 37.16725033344422,
+          "frame_preparation_ms": 6.793922333296602,
+          "frame_time_ms": 30.353187666757247,
+          "rasterization_time_ms": 28.929131189982098
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 3036.0,
+          "alod_h2d_transfer_ms": 0.22894133333769182,
+          "alod_host_gather_ms": 0.04143399996792141,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00025866658385590807,
+          "alod_pre_raster_assembly_ms": 0.2463206665955416,
+          "alod_total_selection_ms": 0.38815733334255736,
+          "end_to_end_frame_time_ms": 12.271798333434466,
+          "frame_preparation_ms": 10.909051666658343,
+          "frame_time_ms": 1.3345540000197313,
+          "rasterization_time_ms": 1.243893305460612
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.006067333212437613,
+          "alod_h2d_bytes": 2944.0,
+          "alod_h2d_transfer_ms": 0.324586666617203,
+          "alod_host_gather_ms": 0.0354360001135016,
+          "alod_materialization_filter_ms": 4.235257666702334,
+          "alod_materialization_occurrence_propagation_ms": 0.910634666676439,
+          "alod_materialization_unique_extraction_ms": 0.9398843333201512,
+          "alod_occurrence_reindex_ms": 0.0009189999066923823,
+          "alod_pre_raster_assembly_ms": 0.1343053333281811,
+          "alod_total_selection_ms": 0.36523233332748833,
+          "end_to_end_frame_time_ms": 33.73975666666714,
+          "frame_preparation_ms": 6.388302999994266,
+          "frame_time_ms": 27.33301333334263,
+          "rasterization_time_ms": 26.22651735941569
+        }
+      }
+    },
+    "13": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100033,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 33,
+        "semantic_rows": 100033,
+        "unique_materialized_rows": 100033,
+        "unique_semantic_rows": 100033
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04757399991225005,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.034073000051648705,
+          "alod_host_gather_ms": 0.028598000047471334,
+          "alod_materialization_filter_ms": 4.473897999938951,
+          "alod_materialization_occurrence_propagation_ms": 1.013810333309569,
+          "alod_materialization_unique_extraction_ms": 1.010931333288075,
+          "alod_occurrence_reindex_ms": 0.0010973332488598924,
+          "alod_pre_raster_assembly_ms": 0.14485066662928148,
+          "alod_total_selection_ms": 0.4311356666069817,
+          "end_to_end_frame_time_ms": 7.845845000095626,
+          "frame_preparation_ms": 6.577775333198588,
+          "frame_time_ms": 1.2387663333962944,
+          "rasterization_time_ms": 1.1466026703516643
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 3036.0,
+          "alod_h2d_transfer_ms": 0.19737600003585007,
+          "alod_host_gather_ms": 0.046098666643956676,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00033799998770215706,
+          "alod_pre_raster_assembly_ms": 0.2448640000238811,
+          "alod_total_selection_ms": 0.44350199997703993,
+          "end_to_end_frame_time_ms": 12.1941773332613,
+          "frame_preparation_ms": 10.899829333387364,
+          "frame_time_ms": 1.2624023333197936,
+          "rasterization_time_ms": 1.181663990020752
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.00477666662845877,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.0230686666782276,
+          "alod_host_gather_ms": 0.02001833339212074,
+          "alod_materialization_filter_ms": 6.69589666669405,
+          "alod_materialization_occurrence_propagation_ms": 0.93459000004259,
+          "alod_materialization_unique_extraction_ms": 1.0300120000010793,
+          "alod_occurrence_reindex_ms": 0.0009403333933732938,
+          "alod_pre_raster_assembly_ms": 0.14378033332225945,
+          "alod_total_selection_ms": 0.3992496666948379,
+          "end_to_end_frame_time_ms": 9.946011000010913,
+          "frame_preparation_ms": 8.66325366670632,
+          "frame_time_ms": 1.2624616666319828,
+          "rasterization_time_ms": 1.1781866947809856
+        }
+      }
+    },
+    "14": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100017,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 17,
+        "semantic_rows": 100017,
+        "unique_materialized_rows": 100017,
+        "unique_semantic_rows": 100017
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.05274600008912481,
+          "alod_h2d_bytes": 1472.0,
+          "alod_h2d_transfer_ms": 133.63417966669053,
+          "alod_host_gather_ms": 0.04198266666814258,
+          "alod_materialization_filter_ms": 4.8941269999431825,
+          "alod_materialization_occurrence_propagation_ms": 0.9845846665636296,
+          "alod_materialization_unique_extraction_ms": 1.2561496666118426,
+          "alod_occurrence_reindex_ms": 0.0024309999844263075,
+          "alod_pre_raster_assembly_ms": 0.949153999954433,
+          "alod_total_selection_ms": 0.4511510000308287,
+          "end_to_end_frame_time_ms": 146.1834629998672,
+          "frame_preparation_ms": 141.8632190000153,
+          "frame_time_ms": 4.278361333187301,
+          "rasterization_time_ms": 4.051210721333821
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 1564.0,
+          "alod_h2d_transfer_ms": 0.23754499989081523,
+          "alod_host_gather_ms": 0.04969566665143551,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0003169999824118956,
+          "alod_pre_raster_assembly_ms": 0.27996299998752266,
+          "alod_total_selection_ms": 0.380726000003051,
+          "end_to_end_frame_time_ms": 12.110440999928565,
+          "frame_preparation_ms": 10.975277000094744,
+          "frame_time_ms": 1.1064599999220566,
+          "rasterization_time_ms": 1.0313919981320698
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.005232333326906276,
+          "alod_h2d_bytes": 1472.0,
+          "alod_h2d_transfer_ms": 0.2758423333186026,
+          "alod_host_gather_ms": 0.038041666660622774,
+          "alod_materialization_filter_ms": 4.274235999976857,
+          "alod_materialization_occurrence_propagation_ms": 0.9380316666162495,
+          "alod_materialization_unique_extraction_ms": 0.9819496666144308,
+          "alod_occurrence_reindex_ms": 0.0009229999401820047,
+          "alod_pre_raster_assembly_ms": 0.14015800002198375,
+          "alod_total_selection_ms": 0.3786713333890172,
+          "end_to_end_frame_time_ms": 7.671076999940851,
+          "frame_preparation_ms": 6.455109333273867,
+          "frame_time_ms": 1.1977419999311678,
+          "rasterization_time_ms": 1.1145706574122112
+        }
+      }
+    },
+    "15": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100009,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 9,
+        "semantic_rows": 100009,
+        "unique_materialized_rows": 100009,
+        "unique_semantic_rows": 100009
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04661099994033672,
+          "alod_h2d_bytes": 736.0,
+          "alod_h2d_transfer_ms": 0.2988053333107625,
+          "alod_host_gather_ms": 0.047239333298421116,
+          "alod_materialization_filter_ms": 4.539511666735052,
+          "alod_materialization_occurrence_propagation_ms": 1.1358943334016658,
+          "alod_materialization_unique_extraction_ms": 1.0996593333250833,
+          "alod_occurrence_reindex_ms": 0.0010470000688656,
+          "alod_pre_raster_assembly_ms": 0.1457953333859526,
+          "alod_total_selection_ms": 0.4994473333681526,
+          "end_to_end_frame_time_ms": 8.720674999949551,
+          "frame_preparation_ms": 7.47380666666686,
+          "frame_time_ms": 1.2212019999727393,
+          "rasterization_time_ms": 1.1228053569793701
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 828.0,
+          "alod_h2d_transfer_ms": 0.2280870000959112,
+          "alod_host_gather_ms": 0.04583366664216252,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002689998837013263,
+          "alod_pre_raster_assembly_ms": 0.24855100006485978,
+          "alod_total_selection_ms": 0.3738779999669835,
+          "end_to_end_frame_time_ms": 128.96001933336265,
+          "frame_preparation_ms": 10.711343999976938,
+          "frame_time_ms": 118.21936866673848,
+          "rasterization_time_ms": 114.34763590494792
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.005089333323364069,
+          "alod_h2d_bytes": 736.0,
+          "alod_h2d_transfer_ms": 0.2858059999653051,
+          "alod_host_gather_ms": 0.03635033340287919,
+          "alod_materialization_filter_ms": 6.556252333287678,
+          "alod_materialization_occurrence_propagation_ms": 0.94170700003815,
+          "alod_materialization_unique_extraction_ms": 0.9176080000088405,
+          "alod_occurrence_reindex_ms": 0.0009466666597290896,
+          "alod_pre_raster_assembly_ms": 0.13840300001296177,
+          "alod_total_selection_ms": 0.3739660000216342,
+          "end_to_end_frame_time_ms": 9.945515333356525,
+          "frame_preparation_ms": 8.668646333338378,
+          "frame_time_ms": 1.2583250000564778,
+          "rasterization_time_ms": 1.1741866270701091
+        }
+      }
+    },
+    "16": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100009,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 9,
+        "semantic_rows": 100009,
+        "unique_materialized_rows": 100009,
+        "unique_semantic_rows": 100009
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04771000006561129,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.036968999969152115,
+          "alod_host_gather_ms": 0.0268733332783692,
+          "alod_materialization_filter_ms": 4.158424666608577,
+          "alod_materialization_occurrence_propagation_ms": 0.9834400000272581,
+          "alod_materialization_unique_extraction_ms": 0.980533999988135,
+          "alod_occurrence_reindex_ms": 0.0012149999596052414,
+          "alod_pre_raster_assembly_ms": 0.16146966663654894,
+          "alod_total_selection_ms": 0.4025890000320942,
+          "end_to_end_frame_time_ms": 10.166655333250674,
+          "frame_preparation_ms": 6.463573333273113,
+          "frame_time_ms": 3.679385333271057,
+          "rasterization_time_ms": 3.489290793736776
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 828.0,
+          "alod_h2d_transfer_ms": 0.17926733327537173,
+          "alod_host_gather_ms": 0.0551750000189107,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0005203333633592896,
+          "alod_pre_raster_assembly_ms": 0.3577536667004703,
+          "alod_total_selection_ms": 1.7706926666202587,
+          "end_to_end_frame_time_ms": 19.394384666687376,
+          "frame_preparation_ms": 18.028500333457487,
+          "frame_time_ms": 1.3292813333312854,
+          "rasterization_time_ms": 1.2467946608861287
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004983999967104562,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.026846666742130765,
+          "alod_host_gather_ms": 0.02177999999730673,
+          "alod_materialization_filter_ms": 4.58633666668599,
+          "alod_materialization_occurrence_propagation_ms": 0.9395079999497588,
+          "alod_materialization_unique_extraction_ms": 0.9416150000258009,
+          "alod_occurrence_reindex_ms": 0.0009709999631013488,
+          "alod_pre_raster_assembly_ms": 0.14477566666452427,
+          "alod_total_selection_ms": 0.3804469999219388,
+          "end_to_end_frame_time_ms": 7.700835000074828,
+          "frame_preparation_ms": 6.503293666734559,
+          "frame_time_ms": 1.1790440000064943,
+          "rasterization_time_ms": 1.097333312034607
+        }
+      }
+    },
+    "17": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100005,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 5,
+        "semantic_rows": 100005,
+        "unique_materialized_rows": 100005,
+        "unique_semantic_rows": 100005
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.043921333372054505,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.3181703333060189,
+          "alod_host_gather_ms": 0.037110999907478494,
+          "alod_materialization_filter_ms": 4.100673666622849,
+          "alod_materialization_occurrence_propagation_ms": 0.9158973332432652,
+          "alod_materialization_unique_extraction_ms": 0.9432650000083717,
+          "alod_occurrence_reindex_ms": 0.0009193333880830323,
+          "alod_pre_raster_assembly_ms": 0.14480033337349596,
+          "alod_total_selection_ms": 0.3669693333752851,
+          "end_to_end_frame_time_ms": 8.309948333362627,
+          "frame_preparation_ms": 6.231514999929762,
+          "frame_time_ms": 2.049244000014975,
+          "rasterization_time_ms": 1.9015679756800334
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 460.0,
+          "alod_h2d_transfer_ms": 0.1945740000337537,
+          "alod_host_gather_ms": 0.03689766663228511,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002443334021033176,
+          "alod_pre_raster_assembly_ms": 0.2379706667549423,
+          "alod_total_selection_ms": 0.3872113333424447,
+          "end_to_end_frame_time_ms": 11.793306999985967,
+          "frame_preparation_ms": 10.499512666759378,
+          "frame_time_ms": 1.2663529999675422,
+          "rasterization_time_ms": 1.1839040120442708
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.00504866670780757,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.28272066674617236,
+          "alod_host_gather_ms": 0.033515666700623115,
+          "alod_materialization_filter_ms": 4.208368666771396,
+          "alod_materialization_occurrence_propagation_ms": 0.9304449999945064,
+          "alod_materialization_unique_extraction_ms": 0.9517743333920711,
+          "alod_occurrence_reindex_ms": 0.0010299999454825108,
+          "alod_pre_raster_assembly_ms": 0.14356133336453544,
+          "alod_total_selection_ms": 0.38091566663448856,
+          "end_to_end_frame_time_ms": 7.5859026666573,
+          "frame_preparation_ms": 6.358074000066456,
+          "frame_time_ms": 1.2093286666186032,
+          "rasterization_time_ms": 1.1227200031280518
+        }
+      }
+    },
+    "18": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04442033332452411,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.033959666704201176,
+          "alod_host_gather_ms": 0.024984333246417616,
+          "alod_materialization_filter_ms": 4.744737000009991,
+          "alod_materialization_occurrence_propagation_ms": 1.1867079999774433,
+          "alod_materialization_unique_extraction_ms": 0.9628543333140746,
+          "alod_occurrence_reindex_ms": 0.26254899997487274,
+          "alod_pre_raster_assembly_ms": 0.3961243332923914,
+          "alod_total_selection_ms": 0.3612783332300751,
+          "end_to_end_frame_time_ms": 8.394995333370995,
+          "frame_preparation_ms": 7.085669333340168,
+          "frame_time_ms": 1.2845109999943816,
+          "rasterization_time_ms": 1.1852693160374959
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.22033433333490393,
+          "alod_host_gather_ms": 0.03398900003048766,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00025866673543835833,
+          "alod_pre_raster_assembly_ms": 0.23522699992402826,
+          "alod_total_selection_ms": 0.3659120000823653,
+          "end_to_end_frame_time_ms": 14.306746333356083,
+          "frame_preparation_ms": 10.530675666662622,
+          "frame_time_ms": 3.750250000014906,
+          "rasterization_time_ms": 3.5821013847986856
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004859999990003416,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.027485000146043603,
+          "alod_host_gather_ms": 0.022690999912811094,
+          "alod_materialization_filter_ms": 4.287428666733224,
+          "alod_materialization_occurrence_propagation_ms": 0.945383999957509,
+          "alod_materialization_unique_extraction_ms": 0.9112523334048698,
+          "alod_occurrence_reindex_ms": 0.262284333378678,
+          "alod_pre_raster_assembly_ms": 0.3943383333080419,
+          "alod_total_selection_ms": 0.3693923332927322,
+          "end_to_end_frame_time_ms": 7.645943000094728,
+          "frame_preparation_ms": 6.436875333292846,
+          "frame_time_ms": 1.1857440000161052,
+          "rasterization_time_ms": 1.1048746903737385
+        }
+      }
+    },
+    "19": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04727233332838902,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03329833331614888,
+          "alod_host_gather_ms": 0.024057000018729013,
+          "alod_materialization_filter_ms": 6.475974999981797,
+          "alod_materialization_occurrence_propagation_ms": 0.967300666616211,
+          "alod_materialization_unique_extraction_ms": 0.926469999967594,
+          "alod_occurrence_reindex_ms": 0.2729583333499856,
+          "alod_pre_raster_assembly_ms": 0.43161933338827413,
+          "alod_total_selection_ms": 0.3816083333276765,
+          "end_to_end_frame_time_ms": 9.916794333397169,
+          "frame_preparation_ms": 8.641503333365108,
+          "frame_time_ms": 1.25080766664117,
+          "rasterization_time_ms": 1.1563520034154255
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.251101000003473,
+          "alod_host_gather_ms": 0.035079000023567154,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00027866667551279534,
+          "alod_pre_raster_assembly_ms": 0.2543766667410334,
+          "alod_total_selection_ms": 0.37804700006442243,
+          "end_to_end_frame_time_ms": 11.826454666637195,
+          "frame_preparation_ms": 10.551944000023164,
+          "frame_time_ms": 1.2484616666673294,
+          "rasterization_time_ms": 1.1674879789352417
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004407666741220358,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.02382433331149514,
+          "alod_host_gather_ms": 0.01914533330212483,
+          "alod_materialization_filter_ms": 6.023563333352892,
+          "alod_materialization_occurrence_propagation_ms": 0.9427340000153587,
+          "alod_materialization_unique_extraction_ms": 0.9048613333864827,
+          "alod_occurrence_reindex_ms": 0.2716349999142646,
+          "alod_pre_raster_assembly_ms": 0.4076146666799711,
+          "alod_total_selection_ms": 0.3650776667048679,
+          "end_to_end_frame_time_ms": 9.463754333334387,
+          "frame_preparation_ms": 8.183536333262964,
+          "frame_time_ms": 1.253925666712045,
+          "rasterization_time_ms": 1.1696319580078125
+        }
+      }
+    },
+    "2": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 31433,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 7129,
+        "semantic_rows": 107129,
+        "unique_materialized_rows": 31433,
+        "unique_semantic_rows": 107129
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.07228600005267556,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03145899995615764,
+          "alod_host_gather_ms": 0.023927666688905447,
+          "alod_materialization_filter_ms": 4.210900000013377,
+          "alod_materialization_occurrence_propagation_ms": 0.5447169999873344,
+          "alod_materialization_unique_extraction_ms": 1.3395356666781784,
+          "alod_occurrence_reindex_ms": 0.0011016666879489396,
+          "alod_pre_raster_assembly_ms": 0.2675293333140871,
+          "alod_total_selection_ms": 0.4102829999889461,
+          "end_to_end_frame_time_ms": 7.6669013333988305,
+          "frame_preparation_ms": 6.257616333414262,
+          "frame_time_ms": 1.3841343333448701,
+          "rasterization_time_ms": 1.2873493035634358
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 655868.0,
+          "alod_h2d_transfer_ms": 0.281054000045818,
+          "alod_host_gather_ms": 0.271202666605556,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00027200000355757464,
+          "alod_pre_raster_assembly_ms": 0.4873070000333731,
+          "alod_total_selection_ms": 0.415969999949084,
+          "end_to_end_frame_time_ms": 14.994199333235278,
+          "frame_preparation_ms": 13.625441000006807,
+          "frame_time_ms": 1.3408636665796319,
+          "rasterization_time_ms": 1.257493297259013
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.04550966673377843,
+          "alod_h2d_bytes": 512256.0,
+          "alod_h2d_transfer_ms": 0.47360933338798833,
+          "alod_host_gather_ms": 0.3650859999500729,
+          "alod_materialization_filter_ms": 3.999591333392042,
+          "alod_materialization_occurrence_propagation_ms": 0.5096916665934259,
+          "alod_materialization_unique_extraction_ms": 1.3546289999339933,
+          "alod_occurrence_reindex_ms": 0.0009606665874647055,
+          "alod_pre_raster_assembly_ms": 0.2454356666324505,
+          "alod_total_selection_ms": 0.4446210000423889,
+          "end_to_end_frame_time_ms": 9.884106333250505,
+          "frame_preparation_ms": 6.7337046667338045,
+          "frame_time_ms": 3.1279443333005474,
+          "rasterization_time_ms": 2.97545591990153
+        }
+      }
+    },
+    "20": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.043954666731830606,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03465533328987173,
+          "alod_host_gather_ms": 0.027790333282003605,
+          "alod_materialization_filter_ms": 5.513670333433159,
+          "alod_materialization_occurrence_propagation_ms": 0.9731510000013562,
+          "alod_materialization_unique_extraction_ms": 0.9693933333589181,
+          "alod_occurrence_reindex_ms": 0.2725109999725343,
+          "alod_pre_raster_assembly_ms": 0.4211680000025808,
+          "alod_total_selection_ms": 0.36322200003269245,
+          "end_to_end_frame_time_ms": 8.86413433325591,
+          "frame_preparation_ms": 7.717560666757588,
+          "frame_time_ms": 1.1179833333396043,
+          "rasterization_time_ms": 1.0309226512908936
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.2440243333694525,
+          "alod_host_gather_ms": 0.03724799997447311,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002653334073935791,
+          "alod_pre_raster_assembly_ms": 0.24580100011917239,
+          "alod_total_selection_ms": 0.36951466669658356,
+          "end_to_end_frame_time_ms": 12.015030333410929,
+          "frame_preparation_ms": 10.738499666710291,
+          "frame_time_ms": 1.2485956667660503,
+          "rasterization_time_ms": 1.1643840074539185
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.005197666723688599,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.04130299998905684,
+          "alod_host_gather_ms": 0.03132066672151268,
+          "alod_materialization_filter_ms": 4.161485000016303,
+          "alod_materialization_occurrence_propagation_ms": 0.9130189999571788,
+          "alod_materialization_unique_extraction_ms": 0.9704579999076183,
+          "alod_occurrence_reindex_ms": 0.26391500000499946,
+          "alod_pre_raster_assembly_ms": 0.423001000020425,
+          "alod_total_selection_ms": 0.37301299994396686,
+          "end_to_end_frame_time_ms": 7.487725666654417,
+          "frame_preparation_ms": 6.328712666724338,
+          "frame_time_ms": 1.1360316667226773,
+          "rasterization_time_ms": 1.0578773021697998
+        }
+      }
+    },
+    "21": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04528533334754078,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03784799999569562,
+          "alod_host_gather_ms": 0.0306653333457992,
+          "alod_materialization_filter_ms": 4.406349333369993,
+          "alod_materialization_occurrence_propagation_ms": 0.9496813333953469,
+          "alod_materialization_unique_extraction_ms": 0.9955943332897732,
+          "alod_occurrence_reindex_ms": 0.26544966673706466,
+          "alod_pre_raster_assembly_ms": 0.415269333264708,
+          "alod_total_selection_ms": 0.3883486666988271,
+          "end_to_end_frame_time_ms": 8.270605999844824,
+          "frame_preparation_ms": 7.055600999971527,
+          "frame_time_ms": 1.1893279999336908,
+          "rasterization_time_ms": 1.1015893618265789
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.23778000005828895,
+          "alod_host_gather_ms": 0.03513600002709912,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0003863333404297009,
+          "alod_pre_raster_assembly_ms": 0.31520066666719987,
+          "alod_total_selection_ms": 0.35232566665399645,
+          "end_to_end_frame_time_ms": 12.03263466656305,
+          "frame_preparation_ms": 10.787217333321072,
+          "frame_time_ms": 1.2176679999053401,
+          "rasterization_time_ms": 1.1392533381779988
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004305666758834074,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.021584333353530383,
+          "alod_host_gather_ms": 0.017643000016202375,
+          "alod_materialization_filter_ms": 4.3265840000306826,
+          "alod_materialization_occurrence_propagation_ms": 1.0491059999822028,
+          "alod_materialization_unique_extraction_ms": 0.9404093333766165,
+          "alod_occurrence_reindex_ms": 0.256570000146894,
+          "alod_pre_raster_assembly_ms": 0.39884333333854255,
+          "alod_total_selection_ms": 0.38744533344470256,
+          "end_to_end_frame_time_ms": 7.6197716667441755,
+          "frame_preparation_ms": 6.3817416666249,
+          "frame_time_ms": 1.214641000008972,
+          "rasterization_time_ms": 1.1323413848876953
+        }
+      }
+    },
+    "22": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.05203666660236195,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03487866661089356,
+          "alod_host_gather_ms": 0.025482999944870244,
+          "alod_materialization_filter_ms": 4.1296593333299825,
+          "alod_materialization_occurrence_propagation_ms": 0.9825533333393347,
+          "alod_materialization_unique_extraction_ms": 0.9456563332908748,
+          "alod_occurrence_reindex_ms": 0.28472033333552343,
+          "alod_pre_raster_assembly_ms": 0.4264256666222839,
+          "alod_total_selection_ms": 0.37267200013957336,
+          "end_to_end_frame_time_ms": 7.564897333395493,
+          "frame_preparation_ms": 6.318866666636798,
+          "frame_time_ms": 1.2201130000448757,
+          "rasterization_time_ms": 1.128373344739278
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.2110779999687414,
+          "alod_host_gather_ms": 0.04105500003485455,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002379999841650715,
+          "alod_pre_raster_assembly_ms": 0.2475476665798245,
+          "alod_total_selection_ms": 0.3632970000732409,
+          "end_to_end_frame_time_ms": 11.912329333426896,
+          "frame_preparation_ms": 10.66831233326108,
+          "frame_time_ms": 1.2177610000586963,
+          "rasterization_time_ms": 1.1387947003046672
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004103666697119479,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.02175299997967765,
+          "alod_host_gather_ms": 0.01759300001443383,
+          "alod_materialization_filter_ms": 4.432203000002725,
+          "alod_materialization_occurrence_propagation_ms": 0.9264310000768697,
+          "alod_materialization_unique_extraction_ms": 0.9504556667252473,
+          "alod_occurrence_reindex_ms": 0.25754366667266976,
+          "alod_pre_raster_assembly_ms": 0.40870066663956095,
+          "alod_total_selection_ms": 0.35753599998618785,
+          "end_to_end_frame_time_ms": 7.714518666792476,
+          "frame_preparation_ms": 6.502901333305999,
+          "frame_time_ms": 1.1888096667765542,
+          "rasterization_time_ms": 1.1057173013687134
+        }
+      }
+    },
+    "23": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.05673100001028312,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.033271666628328,
+          "alod_host_gather_ms": 0.025340666600944434,
+          "alod_materialization_filter_ms": 4.416242000009636,
+          "alod_materialization_occurrence_propagation_ms": 0.9453826666382762,
+          "alod_materialization_unique_extraction_ms": 0.9347903333036811,
+          "alod_occurrence_reindex_ms": 0.28349966669338755,
+          "alod_pre_raster_assembly_ms": 0.416090000044278,
+          "alod_total_selection_ms": 0.3900233333903695,
+          "end_to_end_frame_time_ms": 7.939857666845758,
+          "frame_preparation_ms": 6.62888333332982,
+          "frame_time_ms": 1.2863210001038776,
+          "rasterization_time_ms": 1.1900480190912883
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.31923366668706876,
+          "alod_host_gather_ms": 0.036786666669286205,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00024800002999351517,
+          "alod_pre_raster_assembly_ms": 0.26485233335430775,
+          "alod_total_selection_ms": 0.3518006666733224,
+          "end_to_end_frame_time_ms": 12.139416000006046,
+          "frame_preparation_ms": 10.882437333293637,
+          "frame_time_ms": 1.2196910000360124,
+          "rasterization_time_ms": 1.1419413487116497
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.004438333386739639,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.025193999893720804,
+          "alod_host_gather_ms": 0.019847999965350027,
+          "alod_materialization_filter_ms": 4.173957666732046,
+          "alod_materialization_occurrence_propagation_ms": 0.9464439999646856,
+          "alod_materialization_unique_extraction_ms": 0.9486820000953836,
+          "alod_occurrence_reindex_ms": 0.2912690000963873,
+          "alod_pre_raster_assembly_ms": 0.43481933342566964,
+          "alod_total_selection_ms": 0.41827166667947796,
+          "end_to_end_frame_time_ms": 7.593137666617622,
+          "frame_preparation_ms": 6.3591539999379165,
+          "frame_time_ms": 1.209326666639754,
+          "rasterization_time_ms": 1.1287786563237507
+        }
+      }
+    },
+    "24": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.043432666643639095,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03272299992810682,
+          "alod_host_gather_ms": 0.02531099986905853,
+          "alod_materialization_filter_ms": 4.180570999930448,
+          "alod_materialization_occurrence_propagation_ms": 0.9425309998884283,
+          "alod_materialization_unique_extraction_ms": 0.9465999999823301,
+          "alod_occurrence_reindex_ms": 0.29550200012333033,
+          "alod_pre_raster_assembly_ms": 0.4299149999648459,
+          "alod_total_selection_ms": 0.3941766666836581,
+          "end_to_end_frame_time_ms": 7.811020666622426,
+          "frame_preparation_ms": 6.61712733328083,
+          "frame_time_ms": 1.1667123333912361,
+          "rasterization_time_ms": 1.0810346603393555
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.25861566662873275,
+          "alod_host_gather_ms": 0.039181333401453834,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.000261999957729131,
+          "alod_pre_raster_assembly_ms": 0.2329436667120414,
+          "alod_total_selection_ms": 0.36138033343983506,
+          "end_to_end_frame_time_ms": 12.139614666693888,
+          "frame_preparation_ms": 10.8885189999152,
+          "frame_time_ms": 1.2241666666644353,
+          "rasterization_time_ms": 1.1428693135579426
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.0046936665967223234,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.02556466665737389,
+          "alod_host_gather_ms": 0.023711333218064585,
+          "alod_materialization_filter_ms": 4.0879176666142785,
+          "alod_materialization_occurrence_propagation_ms": 0.9274523333715479,
+          "alod_materialization_unique_extraction_ms": 0.9411503333467408,
+          "alod_occurrence_reindex_ms": 0.25867699999556254,
+          "alod_pre_raster_assembly_ms": 0.3941309999693961,
+          "alod_total_selection_ms": 0.3617340000043138,
+          "end_to_end_frame_time_ms": 9.168393999971158,
+          "frame_preparation_ms": 6.175262666677857,
+          "frame_time_ms": 2.969774333299332,
+          "rasterization_time_ms": 2.8223894039789834
+        }
+      }
+    },
+    "3": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 30421,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 3993,
+        "semantic_rows": 103993,
+        "unique_materialized_rows": 30421,
+        "unique_semantic_rows": 103993
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.0639666667060131,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.037349333221451765,
+          "alod_host_gather_ms": 0.024904000004729216,
+          "alod_materialization_filter_ms": 4.326966333337623,
+          "alod_materialization_occurrence_propagation_ms": 0.5197379999420567,
+          "alod_materialization_unique_extraction_ms": 1.3462016665926058,
+          "alod_occurrence_reindex_ms": 0.0013516666210004284,
+          "alod_pre_raster_assembly_ms": 0.24829733335233564,
+          "alod_total_selection_ms": 0.3898120000940253,
+          "end_to_end_frame_time_ms": 7.593825999947512,
+          "frame_preparation_ms": 6.231981333333654,
+          "frame_time_ms": 1.3373629999477998,
+          "rasterization_time_ms": 1.2401920159657795
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 367356.0,
+          "alod_h2d_transfer_ms": 0.2888816667715825,
+          "alod_host_gather_ms": 0.1950280000831602,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00027200000355757464,
+          "alod_pre_raster_assembly_ms": 0.26114799993592896,
+          "alod_total_selection_ms": 0.3798999999465498,
+          "end_to_end_frame_time_ms": 12.536210000007486,
+          "frame_preparation_ms": 11.257460333278383,
+          "frame_time_ms": 1.2491306666409703,
+          "rasterization_time_ms": 1.1675306955973308
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.037798000069718306,
+          "alod_h2d_bytes": 288512.0,
+          "alod_h2d_transfer_ms": 0.44786666671825515,
+          "alod_host_gather_ms": 0.25209400003708043,
+          "alod_materialization_filter_ms": 3.71511899993493,
+          "alod_materialization_occurrence_propagation_ms": 0.49836866666434315,
+          "alod_materialization_unique_extraction_ms": 1.1321300000114813,
+          "alod_occurrence_reindex_ms": 0.0011936667002980055,
+          "alod_pre_raster_assembly_ms": 0.24267399999189365,
+          "alod_total_selection_ms": 0.4080386667434747,
+          "end_to_end_frame_time_ms": 7.6207573332946295,
+          "frame_preparation_ms": 6.260149333305283,
+          "frame_time_ms": 1.3381609999972472,
+          "rasterization_time_ms": 1.2459413210550945
+        }
+      }
+    },
+    "4": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 31304,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 2049,
+        "semantic_rows": 102049,
+        "unique_materialized_rows": 31304,
+        "unique_semantic_rows": 102049
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.05692900003850809,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.035820333323499653,
+          "alod_host_gather_ms": 0.0393169999976332,
+          "alod_materialization_filter_ms": 4.412062666763934,
+          "alod_materialization_occurrence_propagation_ms": 0.5521553334043953,
+          "alod_materialization_unique_extraction_ms": 1.0640563333102666,
+          "alod_occurrence_reindex_ms": 0.001290333329961868,
+          "alod_pre_raster_assembly_ms": 0.3243633332961811,
+          "alod_total_selection_ms": 0.3738713332950283,
+          "end_to_end_frame_time_ms": 8.90717666652563,
+          "frame_preparation_ms": 6.332296999895941,
+          "frame_time_ms": 2.54944033334444,
+          "rasterization_time_ms": 2.406229337056478
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 188508.0,
+          "alod_h2d_transfer_ms": 0.25403299999500933,
+          "alod_host_gather_ms": 0.12770266660785032,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.000261999957729131,
+          "alod_pre_raster_assembly_ms": 0.2384683333881791,
+          "alod_total_selection_ms": 0.3812213334034216,
+          "end_to_end_frame_time_ms": 12.278369333444061,
+          "frame_preparation_ms": 10.931075333322346,
+          "frame_time_ms": 1.3194083333776991,
+          "rasterization_time_ms": 1.2367359797159831
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.0374143333677542,
+          "alod_h2d_bytes": 178848.0,
+          "alod_h2d_transfer_ms": 0.41651799991389754,
+          "alod_host_gather_ms": 0.1632579999295558,
+          "alod_materialization_filter_ms": 3.7828216667700567,
+          "alod_materialization_occurrence_propagation_ms": 0.532565666693093,
+          "alod_materialization_unique_extraction_ms": 1.1533146666806715,
+          "alod_occurrence_reindex_ms": 0.0010166666773632944,
+          "alod_pre_raster_assembly_ms": 0.2781050000066898,
+          "alod_total_selection_ms": 0.400974666717957,
+          "end_to_end_frame_time_ms": 9.433737333514122,
+          "frame_preparation_ms": 8.198380333321134,
+          "frame_time_ms": 1.2101276667332665,
+          "rasterization_time_ms": 1.1293333371480305
+        }
+      }
+    },
+    "5": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 34057,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 1057,
+        "semantic_rows": 101057,
+        "unique_materialized_rows": 34057,
+        "unique_semantic_rows": 101057
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.049383999945954805,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03166066661227281,
+          "alod_host_gather_ms": 0.023788000059236463,
+          "alod_materialization_filter_ms": 4.04382899993531,
+          "alod_materialization_occurrence_propagation_ms": 0.5225893332863052,
+          "alod_materialization_unique_extraction_ms": 0.9992233333377953,
+          "alod_occurrence_reindex_ms": 0.0010223332841026906,
+          "alod_pre_raster_assembly_ms": 0.26707866663855384,
+          "alod_total_selection_ms": 0.3826100000120884,
+          "end_to_end_frame_time_ms": 7.278532333505912,
+          "frame_preparation_ms": 5.91190166665001,
+          "frame_time_ms": 1.3416650000787438,
+          "rasterization_time_ms": 1.2350293397903442
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 97244.0,
+          "alod_h2d_transfer_ms": 0.22026733336133475,
+          "alod_host_gather_ms": 0.09059866662634401,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00029666663673803367,
+          "alod_pre_raster_assembly_ms": 0.23554499997165598,
+          "alod_total_selection_ms": 0.3667406667015409,
+          "end_to_end_frame_time_ms": 12.464033666674368,
+          "frame_preparation_ms": 11.168326999950295,
+          "frame_time_ms": 1.2554203333365876,
+          "rasterization_time_ms": 1.1765973567962646
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.029362333331543294,
+          "alod_h2d_bytes": 91264.0,
+          "alod_h2d_transfer_ms": 0.31389699991753633,
+          "alod_host_gather_ms": 0.09997199996784427,
+          "alod_materialization_filter_ms": 3.5246019999704004,
+          "alod_materialization_occurrence_propagation_ms": 0.5266419999922315,
+          "alod_materialization_unique_extraction_ms": 0.9246503332936603,
+          "alod_occurrence_reindex_ms": 0.0016080000477813883,
+          "alod_pre_raster_assembly_ms": 0.2724410000306913,
+          "alod_total_selection_ms": 0.3708899999613398,
+          "end_to_end_frame_time_ms": 7.066411666604229,
+          "frame_preparation_ms": 5.739951000047465,
+          "frame_time_ms": 1.3030249999701482,
+          "rasterization_time_ms": 1.2161813179651897
+        }
+      }
+    },
+    "6": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 38948,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 889,
+        "semantic_rows": 100889,
+        "unique_materialized_rows": 38948,
+        "unique_semantic_rows": 100889
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.0505630000589008,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.033845333367329054,
+          "alod_host_gather_ms": 0.023818666704755742,
+          "alod_materialization_filter_ms": 4.1097703333434765,
+          "alod_materialization_occurrence_propagation_ms": 0.5841880000237628,
+          "alod_materialization_unique_extraction_ms": 0.9613729999576511,
+          "alod_occurrence_reindex_ms": 0.0008910001270123757,
+          "alod_pre_raster_assembly_ms": 0.24683466669254508,
+          "alod_total_selection_ms": 0.39182566668690316,
+          "end_to_end_frame_time_ms": 7.368452666848195,
+          "frame_preparation_ms": 6.017037999981767,
+          "frame_time_ms": 1.3264660001368611,
+          "rasterization_time_ms": 1.2274346351623535
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 81788.0,
+          "alod_h2d_transfer_ms": 0.2558249999159064,
+          "alod_host_gather_ms": 0.0738120000581451,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002686666296843517,
+          "alod_pre_raster_assembly_ms": 0.2322096666678893,
+          "alod_total_selection_ms": 0.3740463333391138,
+          "end_to_end_frame_time_ms": 12.354008333280339,
+          "frame_preparation_ms": 11.061230333325511,
+          "frame_time_ms": 1.2631276665615587,
+          "rasterization_time_ms": 1.1811413367589314
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.020654000005985534,
+          "alod_h2d_bytes": 15456.0,
+          "alod_h2d_transfer_ms": 0.36533566670489864,
+          "alod_host_gather_ms": 0.04603499996846949,
+          "alod_materialization_filter_ms": 3.9900243333098238,
+          "alod_materialization_occurrence_propagation_ms": 0.5504433333195872,
+          "alod_materialization_unique_extraction_ms": 1.0123039999901569,
+          "alod_occurrence_reindex_ms": 0.0010439999490093517,
+          "alod_pre_raster_assembly_ms": 0.2555626666283691,
+          "alod_total_selection_ms": 0.3690440000051846,
+          "end_to_end_frame_time_ms": 7.48234066668374,
+          "frame_preparation_ms": 6.224701333318687,
+          "frame_time_ms": 1.234356666752016,
+          "rasterization_time_ms": 1.1528746287027996
+        }
+      }
+    },
+    "7": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 45613,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 513,
+        "semantic_rows": 100513,
+        "unique_materialized_rows": 45613,
+        "unique_semantic_rows": 100513
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.049051333386766295,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03405799998290604,
+          "alod_host_gather_ms": 0.025963000022481236,
+          "alod_materialization_filter_ms": 4.054466666654359,
+          "alod_materialization_occurrence_propagation_ms": 0.6675520000195926,
+          "alod_materialization_unique_extraction_ms": 0.9617103333615281,
+          "alod_occurrence_reindex_ms": 0.0011116667337773833,
+          "alod_pre_raster_assembly_ms": 0.28576266663549177,
+          "alod_total_selection_ms": 0.3865213333635135,
+          "end_to_end_frame_time_ms": 7.270425333293436,
+          "frame_preparation_ms": 6.084389000079682,
+          "frame_time_ms": 1.1363236666663095,
+          "rasterization_time_ms": 1.0479040145874023
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 47196.0,
+          "alod_h2d_transfer_ms": 0.2567003333145597,
+          "alod_host_gather_ms": 0.06487899994075026,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002549999559657105,
+          "alod_pre_raster_assembly_ms": 0.2399830000285874,
+          "alod_total_selection_ms": 0.38154866668567894,
+          "end_to_end_frame_time_ms": 11.963714333357226,
+          "frame_preparation_ms": 10.72285866666789,
+          "frame_time_ms": 1.2126806666401535,
+          "rasterization_time_ms": 1.1333333253860474
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.017402333317780478,
+          "alod_h2d_bytes": 34592.0,
+          "alod_h2d_transfer_ms": 0.3095329999117287,
+          "alod_host_gather_ms": 0.06507933335342386,
+          "alod_materialization_filter_ms": 3.664262000029339,
+          "alod_materialization_occurrence_propagation_ms": 0.6091653333442082,
+          "alod_materialization_unique_extraction_ms": 0.9697146667046278,
+          "alod_occurrence_reindex_ms": 0.0011520000195256823,
+          "alod_pre_raster_assembly_ms": 0.2706179999828843,
+          "alod_total_selection_ms": 0.3602183333744809,
+          "end_to_end_frame_time_ms": 7.052364333276273,
+          "frame_preparation_ms": 5.883026333246259,
+          "frame_time_ms": 1.1452939999495964,
+          "rasterization_time_ms": 1.0675520102183025
+        }
+      }
+    },
+    "8": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 55625,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 257,
+        "semantic_rows": 100257,
+        "unique_materialized_rows": 55625,
+        "unique_semantic_rows": 100257
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04523633341098806,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03242533330194419,
+          "alod_host_gather_ms": 0.02360366655314768,
+          "alod_materialization_filter_ms": 3.939929000049839,
+          "alod_materialization_occurrence_propagation_ms": 0.6645760000386266,
+          "alod_materialization_unique_extraction_ms": 0.9550143333854066,
+          "alod_occurrence_reindex_ms": 0.0009663333457865519,
+          "alod_pre_raster_assembly_ms": 1.1457520000324923,
+          "alod_total_selection_ms": 0.3702836666737615,
+          "end_to_end_frame_time_ms": 7.960652333395046,
+          "frame_preparation_ms": 6.738485333319962,
+          "frame_time_ms": 1.1835203333703248,
+          "rasterization_time_ms": 1.0946240027745564
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 23644.0,
+          "alod_h2d_transfer_ms": 0.2437173332812866,
+          "alod_host_gather_ms": 0.061099666633405526,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00030999998064847506,
+          "alod_pre_raster_assembly_ms": 0.2462766666819031,
+          "alod_total_selection_ms": 0.36732166662053106,
+          "end_to_end_frame_time_ms": 14.66130699994513,
+          "frame_preparation_ms": 10.69845966677955,
+          "frame_time_ms": 3.934220000019195,
+          "rasterization_time_ms": 3.748000144958496
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.011654666650429135,
+          "alod_h2d_bytes": 23552.0,
+          "alod_h2d_transfer_ms": 0.2938809999856555,
+          "alod_host_gather_ms": 0.05355733333090029,
+          "alod_materialization_filter_ms": 3.6680553334160018,
+          "alod_materialization_occurrence_propagation_ms": 0.6320099999660064,
+          "alod_materialization_unique_extraction_ms": 0.9429663333169932,
+          "alod_occurrence_reindex_ms": 0.0012799999543252245,
+          "alod_pre_raster_assembly_ms": 0.29833233331070613,
+          "alod_total_selection_ms": 0.3644703332762826,
+          "end_to_end_frame_time_ms": 6.992792333145796,
+          "frame_preparation_ms": 5.800615999987713,
+          "frame_time_ms": 1.1677679998835326,
+          "rasterization_time_ms": 1.089695970217387
+        }
+      }
+    },
+    "9": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 77583,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 129,
+        "semantic_rows": 100129,
+        "unique_materialized_rows": 77583,
+        "unique_semantic_rows": 100129
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04480066672840621,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.0325319999774365,
+          "alod_host_gather_ms": 0.02420599988302759,
+          "alod_materialization_filter_ms": 4.116980333416602,
+          "alod_materialization_occurrence_propagation_ms": 0.797136666657631,
+          "alod_materialization_unique_extraction_ms": 0.919625666635208,
+          "alod_occurrence_reindex_ms": 0.0011150001076506062,
+          "alod_pre_raster_assembly_ms": 0.2877016666692119,
+          "alod_total_selection_ms": 0.3722686665999693,
+          "end_to_end_frame_time_ms": 7.415030000098947,
+          "frame_preparation_ms": 6.098184000014347,
+          "frame_time_ms": 1.2923996666813764,
+          "rasterization_time_ms": 1.186560034751892
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 11868.0,
+          "alod_h2d_transfer_ms": 0.23506133326615478,
+          "alod_host_gather_ms": 0.05021700000421939,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00028600008287564077,
+          "alod_pre_raster_assembly_ms": 0.2481499999097044,
+          "alod_total_selection_ms": 0.39332133330087043,
+          "end_to_end_frame_time_ms": 12.214831333343076,
+          "frame_preparation_ms": 10.985202666612773,
+          "frame_time_ms": 1.203143333365612,
+          "rasterization_time_ms": 1.1217706600824993
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.00795566666056402,
+          "alod_h2d_bytes": 11776.0,
+          "alod_h2d_transfer_ms": 0.2994600000268595,
+          "alod_host_gather_ms": 0.04304099995048697,
+          "alod_materialization_filter_ms": 6.331291999989237,
+          "alod_materialization_occurrence_propagation_ms": 0.7655476667120334,
+          "alod_materialization_unique_extraction_ms": 1.003352999987328,
+          "alod_occurrence_reindex_ms": 0.0012733332823700039,
+          "alod_pre_raster_assembly_ms": 0.2869590000500466,
+          "alod_total_selection_ms": 0.3695803332751287,
+          "end_to_end_frame_time_ms": 9.828455333263264,
+          "frame_preparation_ms": 8.575009333374814,
+          "frame_time_ms": 1.2301083333265221,
+          "rasterization_time_ms": 1.1471253236134846
+        }
+      }
+    }
+  },
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "replicate_mean_per_camera": true,
+  "representatives": {
+    "far": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100004,
+        "duplicate_occurrence_count": 1,
+        "packed_projection_survivors": 4,
+        "semantic_rows": 100004,
+        "unique_materialized_rows": 100003,
+        "unique_semantic_rows": 100003
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.043432666643639095,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03272299992810682,
+          "alod_host_gather_ms": 0.02531099986905853,
+          "alod_materialization_filter_ms": 4.180570999930448,
+          "alod_materialization_occurrence_propagation_ms": 0.9425309998884283,
+          "alod_materialization_unique_extraction_ms": 0.9465999999823301,
+          "alod_occurrence_reindex_ms": 0.29550200012333033,
+          "alod_pre_raster_assembly_ms": 0.4299149999648459,
+          "alod_total_selection_ms": 0.3941766666836581,
+          "end_to_end_frame_time_ms": 7.811020666622426,
+          "frame_preparation_ms": 6.61712733328083,
+          "frame_time_ms": 1.1667123333912361,
+          "rasterization_time_ms": 1.0810346603393555
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 368.0,
+          "alod_h2d_transfer_ms": 0.25861566662873275,
+          "alod_host_gather_ms": 0.039181333401453834,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.000261999957729131,
+          "alod_pre_raster_assembly_ms": 0.2329436667120414,
+          "alod_total_selection_ms": 0.36138033343983506,
+          "end_to_end_frame_time_ms": 12.139614666693888,
+          "frame_preparation_ms": 10.8885189999152,
+          "frame_time_ms": 1.2241666666644353,
+          "rasterization_time_ms": 1.1428693135579426
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.0046936665967223234,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.02556466665737389,
+          "alod_host_gather_ms": 0.023711333218064585,
+          "alod_materialization_filter_ms": 4.0879176666142785,
+          "alod_materialization_occurrence_propagation_ms": 0.9274523333715479,
+          "alod_materialization_unique_extraction_ms": 0.9411503333467408,
+          "alod_occurrence_reindex_ms": 0.25867699999556254,
+          "alod_pre_raster_assembly_ms": 0.3941309999693961,
+          "alod_total_selection_ms": 0.3617340000043138,
+          "end_to_end_frame_time_ms": 9.168393999971158,
+          "frame_preparation_ms": 6.175262666677857,
+          "frame_time_ms": 2.969774333299332,
+          "rasterization_time_ms": 2.8223894039789834
+        }
+      }
+    },
+    "middle": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 100033,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 33,
+        "semantic_rows": 100033,
+        "unique_materialized_rows": 100033,
+        "unique_semantic_rows": 100033
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.04594933322247622,
+          "alod_h2d_bytes": 2944.0,
+          "alod_h2d_transfer_ms": 0.3243043333138,
+          "alod_host_gather_ms": 0.04162899995208136,
+          "alod_materialization_filter_ms": 4.639254666699344,
+          "alod_materialization_occurrence_propagation_ms": 0.9328240000741062,
+          "alod_materialization_unique_extraction_ms": 0.9191446667955461,
+          "alod_occurrence_reindex_ms": 0.000897666571593921,
+          "alod_pre_raster_assembly_ms": 0.14571800003674676,
+          "alod_total_selection_ms": 0.3691790000175388,
+          "end_to_end_frame_time_ms": 37.16725033344422,
+          "frame_preparation_ms": 6.793922333296602,
+          "frame_time_ms": 30.353187666757247,
+          "rasterization_time_ms": 28.929131189982098
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 3036.0,
+          "alod_h2d_transfer_ms": 0.22894133333769182,
+          "alod_host_gather_ms": 0.04143399996792141,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.00025866658385590807,
+          "alod_pre_raster_assembly_ms": 0.2463206665955416,
+          "alod_total_selection_ms": 0.38815733334255736,
+          "end_to_end_frame_time_ms": 12.271798333434466,
+          "frame_preparation_ms": 10.909051666658343,
+          "frame_time_ms": 1.3345540000197313,
+          "rasterization_time_ms": 1.243893305460612
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.006067333212437613,
+          "alod_h2d_bytes": 2944.0,
+          "alod_h2d_transfer_ms": 0.324586666617203,
+          "alod_host_gather_ms": 0.0354360001135016,
+          "alod_materialization_filter_ms": 4.235257666702334,
+          "alod_materialization_occurrence_propagation_ms": 0.910634666676439,
+          "alod_materialization_unique_extraction_ms": 0.9398843333201512,
+          "alod_occurrence_reindex_ms": 0.0009189999066923823,
+          "alod_pre_raster_assembly_ms": 0.1343053333281811,
+          "alod_total_selection_ms": 0.36523233332748833,
+          "end_to_end_frame_time_ms": 33.73975666666714,
+          "frame_preparation_ms": 6.388302999994266,
+          "frame_time_ms": 27.33301333334263,
+          "rasterization_time_ms": 26.22651735941569
+        }
+      }
+    },
+    "near": {
+      "funnel": {
+        "assembled_renderer_occurrence_rows": 46526,
+        "duplicate_occurrence_count": 0,
+        "packed_projection_survivors": 25137,
+        "semantic_rows": 125137,
+        "unique_materialized_rows": 46526,
+        "unique_semantic_rows": 125137
+      },
+      "modes": {
+        "bounded": {
+          "alod_cache_management_ms": 0.19126466668240028,
+          "alod_h2d_bytes": 0.0,
+          "alod_h2d_transfer_ms": 0.03649133335178097,
+          "alod_host_gather_ms": 0.032845666661766394,
+          "alod_materialization_filter_ms": 10.377558000072895,
+          "alod_materialization_occurrence_propagation_ms": 0.6521043333881001,
+          "alod_materialization_unique_extraction_ms": 5.18317033341494,
+          "alod_occurrence_reindex_ms": 0.0011160000212839805,
+          "alod_pre_raster_assembly_ms": 0.2620060000329734,
+          "alod_total_selection_ms": 0.5688436666938893,
+          "end_to_end_frame_time_ms": 14.561448333400525,
+          "frame_preparation_ms": 13.228533000074094,
+          "frame_time_ms": 1.3079996667784144,
+          "rasterization_time_ms": 1.2086079915364583
+        },
+        "nocache": {
+          "alod_cache_management_ms": null,
+          "alod_h2d_bytes": 2312604.0,
+          "alod_h2d_transfer_ms": 0.4122766666417495,
+          "alod_host_gather_ms": 0.6906733334138456,
+          "alod_materialization_filter_ms": 0.0,
+          "alod_materialization_occurrence_propagation_ms": 0.0,
+          "alod_materialization_unique_extraction_ms": 0.0,
+          "alod_occurrence_reindex_ms": 0.0002686666296843517,
+          "alod_pre_raster_assembly_ms": 0.24942033329959182,
+          "alod_total_selection_ms": 0.5420276665972779,
+          "end_to_end_frame_time_ms": 16.614598999922237,
+          "frame_preparation_ms": 15.129387333217892,
+          "frame_time_ms": 1.455955333312886,
+          "rasterization_time_ms": 1.3634666601816814
+        },
+        "previous": {
+          "alod_cache_management_ms": 0.08789133327506231,
+          "alod_h2d_bytes": 2312512.0,
+          "alod_h2d_transfer_ms": 0.6920169999678668,
+          "alod_host_gather_ms": 0.8868480000122266,
+          "alod_materialization_filter_ms": 10.83630066667259,
+          "alod_materialization_occurrence_propagation_ms": 0.6285789999462091,
+          "alod_materialization_unique_extraction_ms": 7.97173433337169,
+          "alod_occurrence_reindex_ms": 0.0010086667619664997,
+          "alod_pre_raster_assembly_ms": 0.29639566673722584,
+          "alod_total_selection_ms": 0.5378720000711231,
+          "end_to_end_frame_time_ms": 16.208293999928475,
+          "frame_preparation_ms": 14.799079666621159,
+          "frame_time_ms": 1.3859270000011747,
+          "rasterization_time_ms": 1.292085329691569
+        }
+      }
+    }
+  },
+  "schema_version": 1
+}

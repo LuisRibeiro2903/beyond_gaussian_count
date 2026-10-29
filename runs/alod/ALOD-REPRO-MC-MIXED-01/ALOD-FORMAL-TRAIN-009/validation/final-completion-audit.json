@@ -1,0 +1,45 @@
+{
+  "dynamic_checks": {
+    "all_skybox_unchanged": true,
+    "all_topology_valid": true,
+    "cache_barrier_count": 51,
+    "last_cache_barrier_iteration": 84000,
+    "minimum_cache_headroom_rows": 2924624,
+    "topology_event_count": 152
+  },
+  "gate": "PASS-ALOD-FORMAL-POST-VALIDATION-RECOVERY",
+  "hierarchy": {
+    "bytes": 820424744,
+    "hierarchy_rows": 6972627,
+    "max_depth": 55,
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sh_degree": 1,
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+    "skybox_rows": 100000,
+    "total_rows": 7072627
+  },
+  "launcher_failure": {
+    "artifact_validators_completed_before_failure": true,
+    "cause": "the label run005 was used for both smoke Run005 and formal Run005; the latter overwrote the former before-report"
+  },
+  "recovery_scope": "protected-state label collision only; no training, hierarchy mutation, rendering, evaluation, or oracle generation",
+  "resources": {
+    "all_hard_limits_passed": true,
+    "final_output_GiB": 0.7640800848603249,
+    "maximum_swap_growth_MiB": 0.0,
+    "minimum_system_available_RAM_GiB": 21.842453002929688,
+    "peak_process_tree_RSS_GiB": 7.162986755371094,
+    "peak_whole_device_VRAM_GiB": 6.5009765625
+  },
+  "timestamp": 1787417375,
+  "training": {
+    "configured_iterations": 100000,
+    "maximum_logged_iteration": 100010
+  },
+  "validators": {
+    "independent_overall_valid": true,
+    "monitor_inspector": "PASS",
+    "official_loader_hspt": "PASS",
+    "official_roundtrip_nodes_equal": true
+  }
+}

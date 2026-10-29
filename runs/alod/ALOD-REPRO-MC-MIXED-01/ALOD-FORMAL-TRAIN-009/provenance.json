@@ -1,0 +1,82 @@
+{
+  "calibration_method": {
+    "FPS_used": false,
+    "candidate_count": 30,
+    "criteria": [
+      "official HSPT behavior",
+      ">=95% SPT coverage",
+      "non-degenerate partitioning",
+      "cache feasibility",
+      "stability/sensitivity"
+    ],
+    "diagnostic_camera_LoD_used": false,
+    "quality_used": false,
+    "rendering_used": false
+  },
+  "configuration": {
+    "SPT_root_volume": 4.75,
+    "cache_calibration_freeze_sha256": "a83910ea8318c624a097d5deffddee187da05ab1945c2ccf354a3a82033ff566",
+    "cache_ratio": 0.8,
+    "cache_size": 6250000,
+    "cache_size_after_reduction": 5000000,
+    "calibrated_v2_config_sha256": "5f1709427b7d93c692669311eb709f36a29820021ef15a397831f9ac134bfc75",
+    "config_sha256": "f737e50e023c6cea6dfb33454007a026f3e2f241721cdc978866ac0731eaf2eb",
+    "resource_policy_sha256": "db807e03ef0f9a793ca012de10e8856868487e2faab2a471a4bcac9eaeff3fac",
+    "run007_config_sha256": "0d8c888150538818ea5913beb62a222fd8f538f3456832596b82737c07f3eea2",
+    "spt_calibration_freeze_sha256": "2f7f385d71a6cefd8a4dc00a3efe34bb042f9dd1877b9f95080c99e50ad5330e"
+  },
+  "dataset_id": "ALOD-REPRO-MC-MIXED-01",
+  "dataset_manifest_sha256": "eaf3cb228234efd92441d28ea56482dcf4676c5a318a6d6beef1020ee27c5f7a",
+  "end_timestamp": 1787417375,
+  "evaluation_rendering_performed": false,
+  "final_hierarchy": {
+    "bytes": 820424744,
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b"
+  },
+  "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "post_validation_recovery": {
+    "evaluation_rendering_performed": false,
+    "gate": "PASS-ALOD-FORMAL-POST-VALIDATION-RECOVERY",
+    "hierarchy_mutated": false,
+    "reason": "recovered the protected-state label collision with uniquely named fingerprint reports",
+    "report": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/validation/final-completion-audit.json",
+    "selection_oracle_generated": false,
+    "training_rerun": false
+  },
+  "retry_provenance": {
+    "authorized_correction": "no methodological change; restart from frozen Run002 with the identical 4.75/6.25M/5.0M structure and cache calibration while the user keeps the ChatGPT login session open",
+    "cache_calibration_basis": "Run006 dynamic-cache evidence with 35%-50% largest-SPT growth sensitivity; Run007 passed every barrier through iteration 48000 with 3120988 reduced-cache rows of headroom",
+    "cause": "Run008 was gracefully stopped at iteration 310 when the non-lingering user systemd manager exited with the ChatGPT login session; WSL remained running and no formal resource, cache, topology, dataset, or training-code gate fired",
+    "gsplat_extension_rebuilt_after_WSL_restart": true,
+    "gsplat_extension_sha256": "0e3b60d98f9e4fd9a2a9a0e74a3db60af84e02460f8cea09bb3b36f0503cf372",
+    "prior_gate": "FAILED-ALOD-FORMAL-USER-SERVICE-MANAGER-STOP",
+    "prior_runs": [
+      "ALOD-FORMAL-TRAIN-003",
+      "ALOD-FORMAL-TRAIN-004",
+      "ALOD-FORMAL-TRAIN-005",
+      "ALOD-FORMAL-TRAIN-006",
+      "ALOD-FORMAL-TRAIN-007",
+      "ALOD-FORMAL-TRAIN-008"
+    ],
+    "trusted_checkpoint_resume_used": false
+  },
+  "reused_inputs": {
+    "coarse": {
+      "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-002/output/scaffold/point_cloud/iteration_30000/point_cloud.ply",
+      "sha256": "e4b04b79024e751efa8b89cf381156a6d74b14fc9c2ae750c1a33634f0c51e1d",
+      "source_run": "ALOD-FORMAL-TRAIN-002"
+    },
+    "initial_hierarchy": {
+      "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-002/output/scaffold/point_cloud/iteration_30000/hierarchy.dhier",
+      "sha256": "c1487170a0b1e53314b70df36bc5cc8aa0da4304c5a3d21b67e3ffc3dcecadf3",
+      "source_run": "ALOD-FORMAL-TRAIN-002"
+    }
+  },
+  "run_id": "ALOD-FORMAL-TRAIN-009",
+  "schema_version": 1,
+  "selection_oracle_generated": false,
+  "stage_scope": "fine-only",
+  "start_timestamp": 1787362286,
+  "status": "PASS-ALOD-FORMAL-DHIER"
+}

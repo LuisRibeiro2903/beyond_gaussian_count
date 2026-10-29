@@ -1,0 +1,121 @@
+{
+  "datasets": {
+    "H3DGS-CAMPUS-STANDALONE": {
+      "all_registered": {
+        "camera_calibration_count": 1,
+        "camera_count": 1190,
+        "camera_extent_diagonal": 84.84014680433947,
+        "camera_extent_xyz": [
+          70.3730137110843,
+          46.913519956594016,
+          6.679153859858941
+        ],
+        "camera_height_above_sparse_ground_proxy": {
+          "maximum": 8.350549799925687,
+          "median": 2.171310817925659,
+          "minimum": 1.6713959400667457,
+          "p10": 1.8288405155529353,
+          "p90": 4.829835401474162
+        },
+        "camera_model_count": 1,
+        "camera_models": [
+          "PINHOLE"
+        ],
+        "camera_to_sparse_median_centre_distance": {
+          "maximum": 41.81585925973856,
+          "median": 14.203100364449119,
+          "minimum": 2.0408138996535676,
+          "p10": 4.327636771516034,
+          "p90": 27.615847737341923
+        },
+        "camera_xyz_max": [
+          47.594087758981615,
+          28.551301235197556,
+          2.5807198999256875
+        ],
+        "camera_xyz_min": [
+          -22.778925952102682,
+          -18.36221872139646,
+          -4.098433959933254
+        ],
+        "content_sha256": {
+          "cameras.bin": "e6b149d42e29eae4251ae5e10d276168f0192fdf2e0e899cdeb14dad1c00ecb2",
+          "images.bin": "0734b4645f6b2d07b8ac96ab9c781aee7b9ce0b83a7b93950eebcef00706523c",
+          "points3D.bin": "fff9091f2ccdd4f8218c97dd8ab184cbe71d3b71f62521d50d47609408077bf0"
+        },
+        "estimated_initial_fine_rows_with_100k_skybox": 818949,
+        "estimated_initial_hierarchy_rows_before_skybox": 718949,
+        "focal_length_at_study_resolution": {
+          "maximum": 721.9727142245368,
+          "median": 721.9727142245368,
+          "minimum": 721.9727142245368,
+          "p10": 721.9727142245368,
+          "p90": 721.9727142245368
+        },
+        "model_path": "/tmp/alod-candidate-audit.6ILfYv/campus/sparse/0",
+        "nearest_sampled_geometry_distance": {
+          "maximum": 2.2482143280602602,
+          "median": 0.5781365889449431,
+          "minimum": 0.007513728092466623,
+          "p10": 0.25140845020007635,
+          "p90": 1.0764988764021954
+        },
+        "projected_centre_scale_proxy": {
+          "maximum": 353.7670506590989,
+          "median": 50.83209142901343,
+          "minimum": 17.26552382291165,
+          "p10": 26.143462354064564,
+          "p90": 166.82840329813152
+        },
+        "projected_nearest_geometry_scale_proxy": {
+          "maximum": 96087.1494602523,
+          "median": 1248.7927135462799,
+          "minimum": 321.13162220056154,
+          "p10": 670.668215883606,
+          "p90": 2871.744601740252
+        },
+        "projected_nearest_max_over_min": 299.2142250016146,
+        "projected_nearest_p90_over_p10": 4.281915459429856,
+        "source_resolution_distribution": {
+          "1436x1075": 1190
+        },
+        "sparse_extent_diagonal": 1343.340659955119,
+        "sparse_extent_xyz": [
+          692.2944600000001,
+          1027.3767,
+          519.4127699999999
+        ],
+        "sparse_ground_reference": -5.7698298999999995,
+        "sparse_ground_reference_quantile": "p05",
+        "sparse_point_count": 359475,
+        "sparse_sample_count": 179738,
+        "sparse_xyz_max": [
+          392.84186,
+          369.0424,
+          269.77597
+        ],
+        "sparse_xyz_min": [
+          -299.4526,
+          -658.3343,
+          -249.6368
+        ],
+        "study_resolution_distribution": {
+          "1436x1075": 1190
+        },
+        "study_resolution_divisor": 1,
+        "vertical_axis": 2,
+        "vertical_direction": "up"
+      },
+      "evaluation_camera_count": 24,
+      "split_source": "/tmp/alod-candidate-audit.6ILfYv/campus/sparse/0/test.txt",
+      "total_camera_count": 1190,
+      "train_camera_count": 1166
+    }
+  },
+  "purpose": "outcome-independent ALoD prevalence-study candidate audit",
+  "schema_version": 1,
+  "source_archive": {
+    "sha256": "a305c06d03e52c68f3f5e8d9c7047b072083b87db6d114e8ebd2c62d7c345032",
+    "url": "https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/datasets/standalone_chunks/campus.zip"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "gsplat": "1.5.3",
+  "python": "3.10.20",
+  "python_hash_seed": null,
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "torch_deterministic_algorithms": false,
+  "torch_initial_seed": 2201101677613566051
+}

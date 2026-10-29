@@ -1,0 +1,76 @@
+{
+  "attribution": "The measured remaining gap combines recurring camera/trajectory-state-dependent GraphDECO rasterization stalls, camera-dependent raw backend differences, selection, and active-set assembly. It must not be reduced to a static-input rasterizer ratio or an unspecified wrapper overhead.",
+  "canonical_gsplat": {
+    "cuda_rasterization_ms": 7.480434641462786,
+    "end_to_end_fps": 63.80393601917625,
+    "end_to_end_frame_time_ms": 15.673014274533948,
+    "mean_selected_gaussian_count": 4214145.394444444,
+    "preparation_time_ms": 8.126181787490706,
+    "render_call_ms": 7.546832487043242,
+    "resident_gaussian_count": 25494686
+  },
+  "memory": {
+    "canonical_post_transfer_allocated_bytes": 4286784000.0,
+    "canonical_render_peak_allocated_bytes": 6194429440.0,
+    "canonical_render_peak_reserved_bytes": 6419382272.0,
+    "caveat": "PyTorch allocator and GraphDECO custom-buffer accounting are not representation-neutral. Official reserved counters exceed physical VRAM under WSL and are diagnostic only; whole-device after-run usage is not a continuously sampled peak.",
+    "official_after_run_current_reserved_bytes": {
+      "coefficient_of_variation": 0.0,
+      "max_run_mean": 14908653568.0,
+      "mean_of_run_means": 14908653568.0,
+      "min_run_mean": 14908653568.0,
+      "run_count": 3,
+      "sample_standard_deviation": 0.0
+    },
+    "official_after_warmup_current_allocated_bytes": {
+      "coefficient_of_variation": 0.0,
+      "max_run_mean": 3914142208.0,
+      "mean_of_run_means": 3914142208.0,
+      "min_run_mean": 3914142208.0,
+      "run_count": 3,
+      "sample_standard_deviation": 0.0
+    },
+    "official_peak_allocated_bytes": {
+      "coefficient_of_variation": 0.0,
+      "max_run_mean": 7636923904.0,
+      "mean_of_run_means": 7636923904.0,
+      "min_run_mean": 7636923904.0,
+      "run_count": 3,
+      "sample_standard_deviation": 0.0
+    },
+    "official_peak_reserved_bytes": {
+      "coefficient_of_variation": 0.0,
+      "max_run_mean": 31325159424.0,
+      "mean_of_run_means": 31325159424.0,
+      "min_run_mean": 31325159424.0,
+      "run_count": 3,
+      "sample_standard_deviation": 0.0
+    },
+    "official_whole_device_after_run_bytes": {
+      "coefficient_of_variation": 0.0018797100010907435,
+      "max_run_mean": 15524167680.0,
+      "mean_of_run_means": 15502846634.666666,
+      "min_run_mean": 15469641728.0,
+      "run_count": 3,
+      "sample_standard_deviation": 29140855.86455891
+    }
+  },
+  "official_clean_full": {
+    "active_set_assembly_ms": 9.17948633958653,
+    "cuda_rasterization_ms": 63.93795188124533,
+    "end_to_end_fps": 13.372983538835971,
+    "end_to_end_frame_time_ms": 74.7776288736121,
+    "mean_selected_gaussian_count": 4214145.394444444,
+    "render_call_ms": 64.11096713750003,
+    "resident_gaussian_count": 25494686,
+    "selection_ms": 1.4871753965255465,
+    "selection_plus_active_set_assembly_ms": 10.666661736112077
+  },
+  "ratios": {
+    "gsplat_over_official_fps": 4.771107048317653,
+    "official_over_gsplat_cuda": 8.547357866994528,
+    "official_over_gsplat_end_to_end_time": 4.771107048317653,
+    "official_over_gsplat_preparation": 1.3126289830892215,
+    "official_over_gsplat_render_call": 8.495082837411424
+  }
+}

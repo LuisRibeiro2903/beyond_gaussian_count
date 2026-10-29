@@ -1,0 +1,303 @@
+{
+  "camera_stable_id": "eval-0015-img-000151-cam-0001",
+  "checks": {
+    "camera_center": true,
+    "camera_id": true,
+    "effective_height": true,
+    "effective_width": true,
+    "evaluation_index": true,
+    "filename": true
+  },
+  "effective_official_runtime_camera": {
+    "FoVx_radians": 0.7853981852531432,
+    "FoVy_radians": 0.45782234845589415,
+    "camera_center_float32": [
+      -0.7000000476837158,
+      -1.6999998092651367,
+      5.0
+    ],
+    "camera_focal_length_field_original_pixels": 2317.6449482429634,
+    "full_projection_transform": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 19.418027877807617,
+      "min": -2.8718647956848145,
+      "raw_cpu_c_order_sha256": "ca7fd33d847db2d520b96cbfc4279bf9299beb2f99bf7d4de3b4402aae75a13b",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          -2.390718460083008,
+          -0.44389671087265015,
+          0.09313440322875977,
+          0.09312509000301361
+        ],
+        [
+          -0.33599376678466797,
+          3.158489227294922,
+          -0.6626849174499512,
+          -0.6626186370849609
+        ],
+        [
+          -2.0072216955213662e-07,
+          -2.8718647956848145,
+          -0.7432191967964172,
+          -0.7431448698043823
+        ],
+        [
+          -2.2446913719177246,
+          19.418027877807617,
+          2.6447248458862305,
+          2.6544601917266846
+        ]
+      ]
+    },
+    "image_height": 540,
+    "image_width": 960,
+    "intrinsics": {
+      "cx": 480.0,
+      "cy": 270.0,
+      "fx": 1158.8224741214817,
+      "fy": 1158.822474121482,
+      "matrix_float64_values": [
+        [
+          1158.8224741214817,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          1158.822474121482,
+          270.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "projection_matrix": {
+      "byte_count": 64,
+      "device_during_official_execution": "cpu",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 4.291934967041016,
+      "min": -0.010001000016927719,
+      "raw_cpu_c_order_sha256": "b0e143ba66dd7da9cf02d40e2e6aad67f99febe7e8dfc4697c64054d6085a534",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          2.4142134189605713,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.291934967041016,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.000100016593933,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.010001000016927719,
+          0.0
+        ]
+      ]
+    },
+    "world_view_transform": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 4.524306297302246,
+      "min": -0.9902680516242981,
+      "raw_cpu_c_order_sha256": "aed539e8348fa2cc097c4b351dd3cc2213dc28674018f5c67fd17e63143ab9c2",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          -0.9902680516242981,
+          -0.1034257784485817,
+          0.09312509000301361,
+          0.0
+        ],
+        [
+          -0.13917317986488342,
+          0.7359126210212708,
+          -0.6626186370849609,
+          0.0
+        ],
+        [
+          -8.31418489610769e-08,
+          -0.6691305637359619,
+          -0.7431448698043823,
+          0.0
+        ],
+        [
+          -0.9297816157341003,
+          4.524306297302246,
+          2.6544601917266846,
+          1.0
+        ]
+      ]
+    }
+  },
+  "frozen_dataset_camera": {
+    "camera_center": [
+      -0.7,
+      -1.7,
+      5.0
+    ],
+    "camera_id": 1,
+    "dataset_index": 150,
+    "effective_height": 540,
+    "effective_width": 960,
+    "evaluation_sequence_index": 15,
+    "formal_dataset_camera": {
+      "c2w_nerf": [
+        [
+          -0.9902680581213534,
+          0.10342577482286862,
+          -0.09312508881527379,
+          -0.7
+        ],
+        [
+          -0.13917317652678787,
+          -0.7359126189562594,
+          0.6626186265087796,
+          -1.7
+        ],
+        [
+          -8.314184691509762e-08,
+          0.6691305749726494,
+          0.7431448537376576,
+          5.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_centre": [
+        -0.7,
+        -1.7,
+        5.0
+      ],
+      "camera_height": 4.993895950793375,
+      "camera_to_scene_centre_distance": 6.712691214556313,
+      "colmap_world_to_camera_rotation": [
+        [
+          -0.9902680581213534,
+          -0.13917317652678787,
+          -8.314184691509762e-08
+        ],
+        [
+          -0.10342577482286862,
+          0.7359126189562594,
+          -0.6691305749726494
+        ],
+        [
+          0.09312508881527379,
+          -0.6626186265087796,
+          -0.7431448537376576
+        ]
+      ],
+      "colmap_world_to_camera_translation": [
+        -0.9297816250712521,
+        4.52430628471288,
+        2.6544601657940543
+      ],
+      "dataset_filename": "000150__aerial__test__0000.png",
+      "dataset_index": 150,
+      "distance_stratum": "far",
+      "image": {
+        "height": 1080,
+        "mode": "RGBA",
+        "relative_path": "images/000150__aerial__test__0000.png",
+        "sha256": "455056c2d6bc2b72bccf9fa5bd708b518a6f69d166928db7706b9860fe55b115",
+        "size_bytes": 4113195,
+        "source_path": "/home/luis/tese/data/matrix_city/aerial/test/block_4_test/input/0000.png",
+        "width": 1920
+      },
+      "intrinsic_identity": "matrixcity-aerial-pinhole",
+      "intrinsics": {
+        "cx": 960.0,
+        "cy": 540.0,
+        "fl_x": 2317.6449482429634,
+        "fl_y": 2317.6449482429634,
+        "h": 1080.0,
+        "w": 1920.0
+      },
+      "modality": "aerial",
+      "nearest_scene_distance_proxy": 1.3932772640816917,
+      "pitch_degrees": -48.00000241984729,
+      "projected_nearest_geometry_scale_proxy": 1663.448480780688,
+      "projected_scale_proxy": 345.26315514367843,
+      "region_class": "boundary",
+      "registered_image_id": 151,
+      "source_file_path": "../../test/block_4_test/0000.png",
+      "source_id": "matrixcity-small-city:aerial:test:../../test/block_4_test/0000.png",
+      "source_index": 182,
+      "source_pose_file": "/home/luis/tese/data/matrix_city/aerial/pose/block_all/transforms_test.json",
+      "source_split": "test",
+      "split": "eval",
+      "yaw_degrees": -81.99999033719604
+    },
+    "image_name": "000150__aerial__test__0000.png",
+    "registered_image_id": 151,
+    "selection_categories": {
+      "distance_stratum": "far",
+      "modality": "aerial",
+      "region_class": "boundary"
+    },
+    "selection_rationale": "frozen-eval-only deterministic farthest-point coverage in standardized position and viewing direction: aerial 3/2/3 near/mid/far; street 4/4 central/boundary",
+    "source_height": 1080,
+    "source_intrinsics": {
+      "cx": 960.0,
+      "cy": 540.0,
+      "fl_x": 2317.6449482429634,
+      "fl_y": 2317.6449482429634,
+      "h": 1080.0,
+      "w": 1920.0
+    },
+    "source_width": 1920,
+    "stable_sorted_index": 150
+  },
+  "identity": {
+    "camera_id": 1,
+    "evaluation_sequence_index": 15,
+    "filename": "000150__aerial__test__0000.png",
+    "registered_image_id": 151,
+    "stable_sorted_index": 150
+  },
+  "schema_version": "alod_selection_oracle_camera.v1",
+  "selection_categories": {
+    "distance_stratum": "far",
+    "modality": "aerial",
+    "region_class": "boundary"
+  },
+  "selection_rationale": "frozen-eval-only deterministic farthest-point coverage in standardized position and viewing direction: aerial 3/2/3 near/mid/far; street 4/4 central/boundary"
+}

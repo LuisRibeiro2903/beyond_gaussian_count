@@ -1,0 +1,19 @@
+Official CityGaussian parity feasibility record — 2026-08-24
+
+1. The pinned reference checkout remained clean and untouched. A local clone was
+   detached at e16c526f78ab01d377b13b3e6862dcc93ddbe953.
+2. Exact submodules were initialized in the clone: GraphDECO 59f5f77..., nested
+   GLM 5c46b9c..., and simple-knn 44f7642....
+3. The isolated citygs environment initially lacked transforms3d, which is a
+   declared repository requirement. transforms3d 0.4.2 was installed there;
+   the nerfstudio2 project environment was not modified.
+4. CUDA 12.9 compilation exposed missing standard-header includes in the pinned
+   sources. The isolated clone adds only <cstdint> to rasterizer_impl.h and
+   <cfloat> to simple_knn.cu. Both compatibility changes are in the recorded
+   instrumentation patch and do not alter algorithms.
+5. Both extensions built for sm_120 with nvcc 12.9.86 and executed a real CUDA
+   kernel on the NVIDIA GeForce RTX 5080.
+6. The direct three-level PLY load, BlockedGaussian construction, released
+   render_lod core, and GraphDECO rasterizer completed a twelve-camera smoke and
+   parity run. Camera parity passed and selected-set parity was 12/12 exact.
+7. The formal performance phase then completed all six fresh processes.

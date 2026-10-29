@@ -1,0 +1,19 @@
+{
+  "additional_rows_for_cap": 0,
+  "all_attributes_finite": true,
+  "bytes": 127599896,
+  "gate": "PASS",
+  "gaussians": 1099999,
+  "growth_headroom_rows": 1,
+  "headroom_ratio_of_cap": 9.09090909090909e-07,
+  "nodes": 1099999,
+  "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+  "reachable_non_skybox_nodes": 999999,
+  "sh_degree": 1,
+  "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c",
+  "skybox_reserved_field_valid": true,
+  "skybox_rows": 100000,
+  "skybox_topology_sentinel_valid": true,
+  "total_rows_for_cap": 1099999,
+  "tree_links_valid": true
+}

@@ -1,0 +1,86 @@
+diff --git a/scene/gaussian_model.py b/scene/gaussian_model.py
+index 28c76b2..1a0eab1 100644
+--- a/scene/gaussian_model.py
++++ b/scene/gaussian_model.py
+@@ -1690,10 +1690,54 @@ class GaussianModel:
+             sampled_idxs = alive_indices[sampled_idxs]
+         ratio = torch.bincount(sampled_idxs).unsqueeze(-1)
+         return sampled_idxs, ratio
++
++    def _repair_relocated_topology_metadata(self, roots, size):
++        """Rebuild parent/depth metadata below locally mutated forward roots."""
++        if len(roots) == 0:
++            return
++        roots = torch.unique(roots.to(torch.int64))
++        root_depths = self.nodes[roots, hierarchy_node_depth].to(torch.int64)
++        roots = roots[torch.argsort(root_depths)]
++        for root_tensor in roots:
++            root = int(root_tensor.item())
++            if root < self.skybox_points or root >= size:
++                raise RuntimeError(f"relocation repair root out of range: {root}")
++            stack = [root]
++            visited = set()
++            while stack:
++                parent = stack.pop()
++                if parent in visited:
++                    raise RuntimeError(f"cycle in relocated subtree at node {parent}")
++                visited.add(parent)
++                child_count = int(self.nodes[parent, hierarchy_node_child_count].item())
++                if child_count < 0:
++                    raise RuntimeError(f"negative child count at node {parent}")
++                if child_count == 0:
++                    continue
++                child = int(self.nodes[parent, hierarchy_node_first_child].item())
++                children = []
++                for child_number in range(child_count):
++                    if child < self.skybox_points or child >= size:
++                        raise RuntimeError(
++                            f"relocated child out of range: parent={parent}, child={child}"
++                        )
++                    children.append(child)
++                    self.nodes[child, hierarchy_node_parent] = parent
++                    self.nodes[child, hierarchy_node_depth] = (
++                        self.nodes[parent, hierarchy_node_depth] + 1
++                    )
++                    sibling = int(self.nodes[child, hierarchy_node_next_sibling].item())
++                    if child_number + 1 < child_count:
++                        if sibling == 0:
++                            raise RuntimeError(f"short sibling chain at node {parent}")
++                        child = sibling
++                    elif sibling != 0:
++                        raise RuntimeError(f"unterminated sibling chain at node {parent}")
++                stack.extend(reversed(children))
+     
+     def relocate_gs(self, dead_mask, size, storage_device='cpu', densification=False):
+         if dead_mask.sum() == 0:
+-            return
++            return torch.empty(0, dtype=torch.int64, device=self.nodes.device)
+         alive_mask = ~dead_mask
+         dead_indices = dead_mask.nonzero(as_tuple=True)[0]
+         alive_mask = torch.logical_and(alive_mask, self.nodes[:size, hierarchy_node_child_count] == 0)
+@@ -1765,14 +1809,6 @@ class GaussianModel:
+         
+             self.nodes[parent_depth, hierarchy_node_child_count] = self.nodes[sibling_depth, hierarchy_node_child_count]
+             self.nodes[parent_depth, hierarchy_node_first_child] = self.nodes[sibling_depth, hierarchy_node_first_child]
+-
+-            # propagate children of sibling upward
+-            first_children = self.nodes[sibling_depth, hierarchy_node_first_child] 
+-            self.nodes[first_children, hierarchy_node_parent] = parent_depth
+-            self.nodes[first_children, hierarchy_node_depth] = self.nodes[parent_depth, hierarchy_node_depth] + 1
+-            second_children = self.nodes[first_children, hierarchy_node_next_sibling] 
+-            self.nodes[second_children, hierarchy_node_parent] = parent_depth
+-            self.nodes[second_children, hierarchy_node_depth] = self.nodes[parent_depth, hierarchy_node_depth] + 1
+         
+          
+         # respawn nodes now have 2 children
+@@ -1802,6 +1838,10 @@ class GaussianModel:
+         # Keep momentum for dead indices to encourage exploration?
+         for name in ["xyz", "f_dc", "scaling", "rotation", "opacity", "f_rest", "nodes"]:
+             self.properties[sibling_indices, number_properties:] = 0
++
++        affected_roots = torch.unique(torch.cat((parent_indices, reinit_idx.to(parent_indices.device))))
++        self._repair_relocated_topology_metadata(affected_roots, size)
++        return affected_roots
+             
+     def add_new_gs(self, cap_max, size, densification, densify_percent = 1.05, densify_threshold = 0.01):
+         device = self.properties.device

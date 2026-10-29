@@ -1,0 +1,64 @@
+{
+  "camera_stable_id": "eval-0013-img-000131-cam-0001",
+  "global_node_id_payload": {
+    "byte_count": 28529016,
+    "device_during_official_execution": null,
+    "dtype": "int64",
+    "element_count": 3566127,
+    "finite_count": null,
+    "max": 7072626.0,
+    "min": 0.0,
+    "payload_file_sha256": "b18a83bf957ef7cdde0ff736c86670d9a1d84b806a3b43dac448839408ccacb8",
+    "payload_path": "payloads/pre-raster/raster_global_node_ids.npy",
+    "raw_cpu_c_order_sha256": "d0a993369c5b8908ba657f6f765e8f5505a1840b0abfbb8c77efb10000299bbd",
+    "shape": [
+      3566127
+    ]
+  },
+  "global_node_ids": {
+    "canonical_encoding": "little-endian signed int64, contiguous C order",
+    "count": 3566127,
+    "max": 7072626,
+    "min": 0,
+    "ordered_sha256": "d0a993369c5b8908ba657f6f765e8f5505a1840b0abfbb8c77efb10000299bbd",
+    "runtime_array": {
+      "byte_count": 28529016,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 3566127,
+      "finite_count": null,
+      "max": 7072626.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "d0a993369c5b8908ba657f6f765e8f5505a1840b0abfbb8c77efb10000299bbd",
+      "shape": [
+        3566127
+      ]
+    },
+    "sorted_sha256": "1d5d521915dae1c16ee6e9fdab92d0475a539f2d2b315bcba97ab65d03171ad1",
+    "unique_count": 3566127
+  },
+  "row_correspondence": {
+    "hierarchy_selected_rows": 3466127,
+    "mapping": "raster row -> raster_global_node_ids[row] -> serialized .dhier row",
+    "skybox_rows": 100000,
+    "stored_tensor_exact_equality": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "tensor_row_count_agreement": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "total_raster_rows": 3566127,
+    "valid": true
+  },
+  "schema_version": "alod_selection_oracle_working_set.v1"
+}

@@ -1,0 +1,108 @@
+{
+  "candidate_spts_avoided": {
+    "maximum": 10.0,
+    "mean": 5.028169014084507,
+    "median": 5.0,
+    "minimum": 0.0,
+    "p95": 10.0
+  },
+  "end_to_end_time_saved_ms": {
+    "maximum": 70.3013180027483,
+    "mean": 1.2476875213359617,
+    "median": 0.786939992394764,
+    "minimum": -42.60272000828991,
+    "p95": 31.663306993141305
+  },
+  "frustum_traversal_increment_ms_on_minus_off": {
+    "maximum": 1.5219709966913797,
+    "mean": 0.3719475019057478,
+    "median": 0.33669299591565505,
+    "minimum": -0.601535000896547,
+    "p95": 0.6827173987403503
+  },
+  "h2d_bytes_avoided": {
+    "maximum": 64774900.0,
+    "mean": 991931.0422535212,
+    "median": 67436.0,
+    "minimum": 9660.0,
+    "p95": 160632.0
+  },
+  "h2d_rows_avoided": {
+    "maximum": 704075.0,
+    "mean": 10781.859154929578,
+    "median": 733.0,
+    "minimum": 105.0,
+    "p95": 1746.0
+  },
+  "h2d_time_saved_ms": {
+    "maximum": 29.424065993225668,
+    "mean": 0.0019182351050557385,
+    "median": -0.030806004360783845,
+    "minimum": -27.566854005272035,
+    "p95": 4.431542000384068
+  },
+  "host_gather_time_saved_ms": {
+    "maximum": 29.25956300168764,
+    "mean": 0.3564116621402009,
+    "median": -0.43171599827473983,
+    "minimum": -30.131706000247505,
+    "p95": 20.27714360592652
+  },
+  "image_equivalence": {
+    "avoided_hierarchy_rows": {
+      "maximum": 704075.0,
+      "mean": 10781.859154929578,
+      "median": 733.0,
+      "minimum": 105.0,
+      "p95": 1746.0
+    },
+    "exact_image_count": 64,
+    "no_frustum_boolean_device_correction": "CUDA boolean mask; released false-branch constructs a CPU mask incompatible with CUDA indexing",
+    "rgb_max_abs": {
+      "maximum": 0.00035187602043151855,
+      "mean": 1.3808129538952465e-05,
+      "median": 0.0,
+      "minimum": 0.0,
+      "p95": 5.117058753967285e-05
+    },
+    "rgb_mean_abs": {
+      "maximum": 4.0938004985946463e-07,
+      "mean": 9.315869903152991e-09,
+      "median": 0.0,
+      "minimum": 0.0,
+      "p95": 1.3430376810674716e-08
+    }
+  },
+  "interpretation": "Frustum-on avoided a small semantic/H2D workload on most cameras, but the total frame-time effect is near measurement variability and does not establish the paper's cached-renderer frustum timing trend.",
+  "mean_end_to_end_change_frustum_on_vs_off_percent": -0.6635869111375227,
+  "mean_selected_hierarchy_reduction_percent": 0.3131600598770648,
+  "packed_projection_survivors_avoided": {
+    "maximum": 2.0,
+    "mean": 0.15492957746478872,
+    "median": 0.0,
+    "minimum": 0.0,
+    "p95": 1.0
+  },
+  "paired_samples": 213,
+  "pre_raster_time_saved_ms": {
+    "maximum": 28.39443999255309,
+    "mean": -0.02546813647112997,
+    "median": -0.0013880053302273154,
+    "minimum": -22.375705004378688,
+    "p95": 0.6881213979795571
+  },
+  "raster_time_saved_ms": {
+    "maximum": 9.207263946533203,
+    "mean": -0.08206137804917886,
+    "median": 0.03465592861175537,
+    "minimum": -27.254048109054565,
+    "p95": 1.143020534515379
+  },
+  "semantic_selected_hierarchy_rows_avoided": {
+    "maximum": 704075.0,
+    "mean": 10781.859154929578,
+    "median": 733.0,
+    "minimum": 105.0,
+    "p95": 1746.0
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "backend": "graphdeco",
+    "camera_id": "viser_000392",
+    "case": "finest_flat",
+    "comparison_limit": "Prior values are camera-392 samples encountered within full trajectory replay; direct values repeatedly render a warmed fixed camera. The difference characterizes timing-boundary/context contamination and is not a standalone component-cost measurement.",
+    "direct_backend_gpu_time_ms": 10.769103994369507,
+    "prior_boundary_minus_direct_ms": 12.9816481367747,
+    "prior_campaign_gpu_boundary_ms": {
+      "coefficient_of_variation": 0.0016864171743325807,
+      "max": 23.796480178833008,
+      "mean": 23.750752131144207,
+      "min": 23.721887588500977,
+      "std_sample": 0.040053676297277734
+    },
+    "prior_repeat_values_ms": [
+      23.796480178833008,
+      23.721887588500977,
+      23.733888626098633
+    ]
+  },
+  {
+    "backend": "gsplat",
+    "camera_id": "viser_000392",
+    "case": "finest_flat",
+    "comparison_limit": "Prior values are camera-392 samples encountered within full trajectory replay; direct values repeatedly render a warmed fixed camera. The difference characterizes timing-boundary/context contamination and is not a standalone component-cost measurement.",
+    "direct_backend_gpu_time_ms": 9.737550198237102,
+    "prior_boundary_minus_direct_ms": 0.29155912081400537,
+    "prior_campaign_gpu_boundary_ms": {
+      "coefficient_of_variation": 0.09950860892719628,
+      "max": 11.181471824645996,
+      "mean": 10.029109319051107,
+      "min": 9.449055671691895,
+      "std_sample": 0.9979827171175564
+    },
+    "prior_repeat_values_ms": [
+      11.181471824645996,
+      9.449055671691895,
+      9.45680046081543
+    ]
+  },
+  {
+    "backend": "graphdeco",
+    "camera_id": "viser_000392",
+    "case": "representative_lod",
+    "comparison_limit": "Prior values are camera-392 samples encountered within full trajectory replay; direct values repeatedly render a warmed fixed camera. The difference characterizes timing-boundary/context contamination and is not a standalone component-cost measurement.",
+    "direct_backend_gpu_time_ms": 8.988631887435913,
+    "prior_boundary_minus_direct_ms": 1.5180880196889248,
+    "prior_campaign_gpu_boundary_ms": {
+      "coefficient_of_variation": 0.00428885010989284,
+      "max": 10.555808067321777,
+      "mean": 10.506719907124838,
+      "min": 10.467231750488281,
+      "std_sample": 0.04506174682828565
+    },
+    "prior_repeat_values_ms": [
+      10.497119903564453,
+      10.555808067321777,
+      10.467231750488281
+    ]
+  },
+  {
+    "backend": "gsplat",
+    "camera_id": "viser_000392",
+    "case": "representative_lod",
+    "comparison_limit": "Prior values are camera-392 samples encountered within full trajectory replay; direct values repeatedly render a warmed fixed camera. The difference characterizes timing-boundary/context contamination and is not a standalone component-cost measurement.",
+    "direct_backend_gpu_time_ms": 6.651992651621501,
+    "prior_boundary_minus_direct_ms": 0.06728202819824247,
+    "prior_campaign_gpu_boundary_ms": {
+      "coefficient_of_variation": 0.02690195526503328,
+      "max": 6.923232078552246,
+      "mean": 6.719274679819743,
+      "min": 6.5788798332214355,
+      "std_sample": 0.18076162684998154
+    },
+    "prior_repeat_values_ms": [
+      6.923232078552246,
+      6.5788798332214355,
+      6.655712127685547
+    ]
+  }
+]

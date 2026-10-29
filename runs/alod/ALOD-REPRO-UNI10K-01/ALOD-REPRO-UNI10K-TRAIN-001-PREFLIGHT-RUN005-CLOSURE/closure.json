@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "experiment_id": "ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT",
+  "dataset_id": "ALOD-REPRO-UNI10K-01",
+  "completed_attempt": "ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT-RUN005",
+  "classification": "public-source ALoD supplementary external-validity preflight",
+  "status": "BLOCKED-ALOD-UNI10K-FINE-HEADROOM",
+  "decision": {
+    "fine_training_authorized": false,
+    "strong_lod_screening_reached": false,
+    "alod_ext_benchmarking_reached": false,
+    "reason": "The initial fine state leaves 17.05794% of the 15M cap free, below the frozen 20% minimum headroom ratio.",
+    "next_action": "Stop. Do not weaken the frozen gate or automatically launch another expensive training attempt."
+  },
+  "coarse": {
+    "iterations": 30000,
+    "exit_status": 0,
+    "rows": 6270655,
+    "sha256": "a30180db1d8a98b3c9f1982a17242e593aa1075c22fea1219288f48f61f5bbbe",
+    "peak_process_group_rss_bytes": 16369340416,
+    "minimum_available_system_ram_bytes": 19878744064,
+    "peak_swap_growth_bytes": 134443008,
+    "peak_whole_device_vram_bytes": 13870563328
+  },
+  "initial_hierarchy": {
+    "creator_exit_status": 0,
+    "hierarchy_rows": 12341309,
+    "skybox_rows_to_prepend_for_fine": 100000,
+    "fine_initial_total_rows": 12441309,
+    "sh_degree": 3,
+    "maximum_depth": 23,
+    "sha256": "bb0b58966b34e0855767eef69c2a9a97a118c72ec75508a91343de8a830b2429",
+    "file_bytes": 3208740352,
+    "format_valid": true,
+    "numeric_valid": true,
+    "topology_valid": true,
+    "reachable_rows": 12341309
+  },
+  "fine_capacity_gate": {
+    "cap_rows": 15000000,
+    "minimum_growth_rows": 2500000,
+    "minimum_headroom_ratio": 0.2,
+    "available_growth_rows": 2558691,
+    "headroom_ratio": 0.1705794,
+    "absolute_growth_gate_passed": true,
+    "ratio_gate_passed": false,
+    "gate_passed": false
+  },
+  "hspt_calibration": {
+    "selected_spt_root_volume": 50.0,
+    "selection_rule": "largest tested value inside a stable passing neighborhood",
+    "stable_neighborhood": [75.0, 50.0, 25.0],
+    "min_spt_size": 256,
+    "target_pixels": 2,
+    "spt_count": 56,
+    "upper_hierarchy_rows": 1997,
+    "flattened_spt_rows": 12339368,
+    "spt_coverage": 0.9998427233286193,
+    "minimum_spt_rows": 375,
+    "median_spt_rows": 18077.0,
+    "maximum_spt_rows": 1542663,
+    "reduced_cache_target_rows": 6400000,
+    "conservative_complete_rows": 1744660,
+    "cache_headroom_rows": 4655340,
+    "structural_sweep_passed": true,
+    "official_loader_rebuild_passed": true,
+    "official_loader_counts_match_structural_prediction": true
+  },
+  "attempt_history": {
+    "initial_attempt": "externally interrupted before a checkpoint",
+    "run002_final_iteration": 24750,
+    "run003_final_iteration": 28290,
+    "run004_final_iteration": 27070,
+    "run002_to_run004_outcome": "false no-progress monitor abort caused by unparsed tqdm progress",
+    "monitor_parser_corrected_before_run005": true,
+    "run005_outcome": "coarse and creator completed; predeclared fine-capacity gate blocked continuation"
+  },
+  "canonical_evidence": {
+    "dataset_manifest": "/home/luis/tese/gs_framework/datasets/alod/ALOD-REPRO-UNI10K-01/manifest.json",
+    "resource_policy": "/home/luis/tese/gs_framework/environments/alod-official/uni10k-preflight-resource-policy.json",
+    "run": "/home/luis/tese/runs/alod/ALOD-REPRO-UNI10K-01/ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT-RUN005",
+    "independent_hierarchy_validation": "validation/initial-hierarchy-independent.json",
+    "structural_hspt_sweep": "validation/spt-coarse-sweep.json",
+    "official_hspt_rebuild": "validation/official-hspt-run002.json"
+  }
+}

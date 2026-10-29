@@ -1,0 +1,825 @@
+{
+  "active_size": 1099999,
+  "bytes": 127599896,
+  "checked_edges": 999998,
+  "expected_nodes": 999999,
+  "gaussians": 1099999,
+  "maximum_traversed_depth": 23,
+  "mismatch_counts": {
+    "depth_mismatch": 4355,
+    "parent_mismatch": 1
+  },
+  "mismatches": [
+    {
+      "child": 102182,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102181,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102183,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102181,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102426,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102425,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102427,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102425,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102429,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102428,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102430,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102428,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102776,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102775,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 102777,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 102775,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103142,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103141,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103143,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103141,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103374,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103373,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103375,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103373,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103622,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103621,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 103623,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 103621,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 105727,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 105726,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 105728,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 105726,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 105730,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 105729,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 105731,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 105729,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 987537,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 106085,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987538,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 106085,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 106863,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 106862,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 106864,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 106862,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 987679,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 107768,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987680,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 107768,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987795,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 108977,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987796,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 108977,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987907,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 110016,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987908,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 110016,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987921,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 110198,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 987922,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 110198,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 110509,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110508,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 110510,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110508,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 110512,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110511,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 110513,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110511,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 110553,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110552,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 110554,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 110552,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 988091,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 111506,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988092,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 111506,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988127,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 111856,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988128,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 111856,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 113579,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 113578,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 113580,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 113578,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 113582,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 113581,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 113583,
+      "expected_child_depth": 18,
+      "kind": "depth_mismatch",
+      "parent": 113581,
+      "parent_depth": 17,
+      "stored_child_depth": 19
+    },
+    {
+      "child": 988321,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 113673,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988322,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 113673,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 187942,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115296,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 187941,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115296,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988605,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115450,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988606,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115450,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988627,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115552,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988628,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115552,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988629,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115553,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988630,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115553,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988673,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115778,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988674,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115778,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988681,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115797,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988682,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115797,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988683,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115798,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988684,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 115798,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988719,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116121,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988720,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116121,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988721,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116122,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988722,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116122,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988727,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116134,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988728,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116134,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988783,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116637,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988784,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116637,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988799,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116731,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988800,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116731,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988809,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116783,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988810,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116783,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988811,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116784,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 988812,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 116784,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 671310,
+      "expected_child_depth": 20,
+      "kind": "depth_mismatch",
+      "parent": 988837,
+      "parent_depth": 19,
+      "stored_child_depth": 21
+    },
+    {
+      "child": 671309,
+      "expected_child_depth": 20,
+      "kind": "depth_mismatch",
+      "parent": 988837,
+      "parent_depth": 19,
+      "stored_child_depth": 21
+    },
+    {
+      "child": 989099,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119141,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989100,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119141,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989159,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119452,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989160,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119452,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989161,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119453,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989162,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 119453,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989543,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121843,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989544,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121843,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 698843,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121875,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 698842,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121875,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989559,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121898,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989560,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121898,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989583,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121999,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989584,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 121999,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989585,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 122000,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989586,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 122000,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989815,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123894,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989816,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123894,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989817,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123905,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989818,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123905,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989823,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123932,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989824,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123932,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989833,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123987,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    },
+    {
+      "child": 989834,
+      "expected_child_depth": 19,
+      "kind": "depth_mismatch",
+      "parent": 123987,
+      "parent_depth": 18,
+      "stored_child_depth": 20
+    }
+  ],
+  "node_rows": 1099999,
+  "nodes": 1099999,
+  "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-004/output/final.dhier",
+  "reachable_nodes": 999999,
+  "root": 100000,
+  "roots": [
+    100000
+  ],
+  "sh_degree": 1,
+  "skybox_rows": 100000,
+  "valid": false
+}

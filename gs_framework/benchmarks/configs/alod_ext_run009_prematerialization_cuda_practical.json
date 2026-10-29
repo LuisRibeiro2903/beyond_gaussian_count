@@ -1,0 +1,11 @@
+{
+  "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+  "description": "Run009 existing fast CUDA pre-materialization filter plus practical materialization-aware row-LRU capacity.",
+  "record_kind_default": "formal_benchmark", "representation_type": "alod_ext_cuda_prematerialization_bounded_cache_practical", "asset_role": "formal_alod_mixed_scale_hierarchy", "checkpoint_type": "dhier", "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450", "scene_type": "alod_host_bounded_cache",
+  "alod": {"root_global_node_id": 100000, "skybox_count": 100000, "spt_root_volume": 4.75, "min_spt_size": 100, "target_granularity": 0.0008629449482830516, "distance_multiplier": 1.0, "selection_mode": "lod", "frustum_enabled": true, "materialization_filter": "conservative_pinhole_gpu"},
+  "alod_host": {"mode": "host_bounded_cache", "cache_capacity_rows": 3700000, "activation_chunk_rows": 131072, "pin_memory": false, "validate_mappings": false, "validate_properties": false},
+  "camera_path": "../../datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json", "trajectory_id": "ALOD-REPRO-MC-MIXED-01-EVAL-71-DATASET-INDEX-V1", "trajectory_notes": "Exact frozen faithful Run009 71-camera order; post-filter union plus headroom, frozen before timing.",
+  "camera_resolution_scale": 1.0, "width": 960, "height": 540, "sh_degree": 1, "render_mode": "RGB", "background": [0.0, 0.0, 0.0], "near_plane": 0.01, "far_plane": 10000000000.0, "radius_clip": 0.0, "eps2d": 0.3, "rasterize_mode": "classic", "camera_model": "pinhole", "packed": true,
+  "warmup_frames": 10, "measured_frames": 71, "num_repeat": 1, "timing_policy": {"cuda_synchronize": true, "cuda_events": true, "first_frame_initialization_excluded_by_warmup": true}, "output_policy": {"write_frames_jsonl": true, "write_summary_json": true, "write_resolved_config_json": true, "write_images": false},
+  "disabled_runtime_components": ["async_transfer", "prefetching", "optimized_selector"]
+}

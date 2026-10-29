@@ -1,0 +1,79 @@
+{
+  "campaign_id": "ALOD-FAITHFUL-REPRODUCTION-001",
+  "status": "PASS-ALOD-FAITHFUL-REPRODUCTION",
+  "meaning": "Faithful public-source ALoD evaluation completed on the frozen formal MatrixCity proxy; this is not exact paper-number reproduction.",
+  "paper_source_divergence": "PAPER-SOURCE-DIVERGENCE: no released rendering entry point exactly implements the paper-reported full bounded rendering-cache configuration.",
+  "hierarchy": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+    "total_rows": 7072627,
+    "hierarchy_rows": 6972627,
+    "skybox_rows": 100000,
+    "sh_degree": 1,
+    "maximum_depth": 55
+  },
+  "official_source": {
+    "path": "/home/luis/tese/LoDOfGaussians",
+    "commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "clean_after_campaign": true
+  },
+  "completion_criteria": {
+    "training_completed": true,
+    "formal_hierarchy_validated": true,
+    "official_selection_oracle_frozen": true,
+    "project_selection_parity_exact": true,
+    "source_faithful_rendering_evaluated": true,
+    "paper_style_reproducible_ablations_executed": true,
+    "quality_measured": true,
+    "paper_source_divergences_documented": true,
+    "limitations_explicitly_recorded": true,
+    "project_extensions_enabled": false
+  },
+  "component_gates": [
+    "PASS-ALOD-FORMAL-DHIER",
+    "PASS-ALOD-FORMAL-SELECTION-ORACLE",
+    "PASS-ALOD-CPU-REFERENCE-SELECTION",
+    "PASS-ALOD-FORMAL-FAITHFUL-PRE-RASTER",
+    "PASS-ALOD-REPRO-LOD-COVERAGE-71",
+    "PASS-ALOD-REPRO-HSPT-BFS",
+    "PASS-ALOD-REPRO-QUALITY",
+    "PASS-ALOD-REPRO-AGGREGATION"
+  ],
+  "formal_rendering": {
+    "configurations": 3,
+    "fresh_process_replicates_per_configuration": 3,
+    "warmups_per_process": 10,
+    "measured_cameras_per_process": 71,
+    "measured_frames_total": 639,
+    "all_runs_complete": true
+  },
+  "verification": {
+    "full_project_unit_tests": {
+      "passed": 214,
+      "skipped": 2,
+      "failed": 0
+    },
+    "external_alod_integrations": {
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0
+    },
+    "citygaussian_regressions": {
+      "passed": 63,
+      "skipped": 0,
+      "failed": 0
+    },
+    "git_diff_check": "pass"
+  },
+  "protected_state": {
+    "dataset_manifest_sha256": "eaf3cb228234efd92441d28ea56482dcf4676c5a318a6d6beef1020ee27c5f7a",
+    "diagnostic_cameras_sha256": "35ae984baad7bd5ebba2db2abdb9c3ac9c3f17a93090f00969c8e18c11e771a3",
+    "formal_oracle_manifest_sha256": "225ca7c5996fa67b2582dc1d9fe37f3c7280c13be9350b01a8d2db83ed1eb6eb",
+    "modified": false
+  },
+  "memo": "/home/luis/tese/gs_framework/docs/results/alod_faithful_reproduction.md",
+  "memo_sha256": "07a18886ef4b4a26c2b6011295f523b51b1293b5ada5e19e43aa546e1d09180d",
+  "provenance": "/home/luis/tese/benchmark_artifacts/alod_faithful_reproduction_001/provenance.json",
+  "provenance_sha256": "274c78a68ad2eaecf79a294d41fd07cf879c99f37b0638ea0ffa80e7482f5661",
+  "next_phase": "compare the frozen faithful CityGaussian and ALoD results, then evaluate ALOD-EXT project-specific optimizations against the faithful ALoD baseline and determine the final thesis contribution set"
+}

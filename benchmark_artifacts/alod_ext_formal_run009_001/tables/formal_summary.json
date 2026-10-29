@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "status": "PASS-ALOD-EXT-FORMAL-RUN009",
+  "campaign_id": "ALOD-EXT-FORMAL-RUN009-001",
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b"
+  },
+  "trajectory_id": "ALOD-REPRO-MC-MIXED-01-EVAL-71-DATASET-INDEX-V1",
+  "protocol": {
+    "warmup_frames_per_process": 10,
+    "measured_cameras_per_process": 71,
+    "replicates": 3,
+    "measured_frames_per_configuration": 213,
+    "renderer_backend": "gsplat packed",
+    "same_as_faithful_workload": true
+  },
+  "correctness_gate": "PASS-ALOD-EXT-FORMAL-RUN009-CORRECTNESS",
+  "cache_sizing_gate": "PASS-ALOD-EXT-RUN009-CACHE-SIZING",
+  "cache_sizing": {
+    "minimum_feasible_rows": 1599906,
+    "practical_bounded_rows": 3700000,
+    "larger_sensitivity_rows": 5300000,
+    "policy": "minimum=max simultaneous post-filter hierarchy rows; practical=ceil(max(maximum, 1.05*union), 50k); sensitivity=ceil(max(practical+50k, 1.5*union), 50k)",
+    "chosen_without_timed_fps": true
+  },
+  "working_sets": {
+    "semantic": {
+      "rows": {
+        "minimum": 2606659.0,
+        "mean": 3432140.9577464787,
+        "median": 3467266.0,
+        "p95": 3477759.0,
+        "maximum": 3478844.0
+      },
+      "trajectory_union_rows": 3696619,
+      "consecutive_required_row_overlap": {
+        "minimum": 0.7843170349279499,
+        "mean": 0.9885961059333769,
+        "median": 0.9966471757125759,
+        "p95": 0.9987524646765681,
+        "maximum": 0.9987529767003844
+      },
+      "ordered_trace_sha256": "1689de4e9241f3a4b03ec0bb4218ecb3999599642008e3e48c1e3a789a44365d"
+    },
+    "post_filter": {
+      "rows": {
+        "minimum": 25581.0,
+        "mean": 509957.3521126761,
+        "median": 321071.0,
+        "p95": 1242482.0,
+        "maximum": 1599906.0
+      },
+      "trajectory_union_rows": 3503048,
+      "consecutive_required_row_overlap": {
+        "minimum": 0.0005030156988804307,
+        "mean": 0.49666122082929426,
+        "median": 0.5549879433553433,
+        "p95": 0.9974959941983481,
+        "maximum": 0.9990774570220418
+      },
+      "ordered_trace_sha256": "c4706b824639c6e65377af838b38fbd7e7cf1211620fcc4710a2c857f8615b83"
+    }
+  },
+  "faithful_context": {
+    "ALOD-REPRO-HOST-NOCACHE": {
+      "configuration_id": "ALOD-REPRO-HOST-NOCACHE",
+      "timings_ms": {
+        "alod_camera_preparation_ms": {
+          "maximum": 1.5009779963293113,
+          "mean": 0.59618292975692,
+          "median": 0.5177390048629604,
+          "minimum": 0.4644189975806512,
+          "p95": 1.0861603994271711
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 46.67706400505267,
+          "mean": 19.270204995037933,
+          "median": 18.61757000006037,
+          "minimum": 13.598551995528396,
+          "p95": 22.86910119873937
+        },
+        "alod_host_gather_ms": {
+          "maximum": 123.49706100212643,
+          "mean": 93.04789453980588,
+          "median": 91.29101500002434,
+          "minimum": 68.13854099891614,
+          "p95": 108.97275039751548
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 26.462139998329803,
+          "mean": 3.8449597325869576,
+          "median": 3.660772999865003,
+          "minimum": 2.68190199858509,
+          "p95": 4.219039801682811
+        },
+        "alod_spt_cut_ms": {
+          "maximum": 41.114673993433826,
+          "mean": 34.22231311280501,
+          "median": 34.26143500109902,
+          "minimum": 25.701067999762017,
+          "p95": 35.62448459706502
+        },
+        "alod_total_selection_ms": {
+          "maximum": 44.75308599648997,
+          "mean": 38.09456329583272,
+          "median": 38.13653100223746,
+          "minimum": 28.64821300317999,
+          "p95": 40.014695600257255
+        },
+        "alod_upper_traversal_ms": {
+          "maximum": 2.2279760014498606,
+          "mean": 1.0773581924067783,
+          "median": 1.0177780059166253,
+          "minimum": 0.8328910043928772,
+          "p95": 1.3594709991593845
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 241.4171299969894,
+          "mean": 186.7740320748466,
+          "median": 184.87065700173844,
+          "minimum": 135.2427349993377,
+          "p95": 207.51664379786234
+        },
+        "frame_preparation_ms": {
+          "maximum": 236.84127500018803,
+          "mean": 182.33500315521914,
+          "median": 180.44711100083077,
+          "minimum": 132.24362899927655,
+          "p95": 201.95057699893368
+        },
+        "rasterization_time_ms": {
+          "maximum": 30.718624114990234,
+          "mean": 4.148121087204123,
+          "median": 3.225663900375366,
+          "minimum": 1.6755199432373047,
+          "p95": 8.265587234497058
+        }
+      },
+      "fps_from_mean": 5.3540633507299695,
+      "counts": {
+        "alod_candidate_spt_count": {
+          "maximum": 26.0,
+          "mean": 20.971830985915492,
+          "median": 21.0,
+          "minimum": 16.0,
+          "p95": 26.0
+        },
+        "alod_hierarchy_rows": {
+          "maximum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "minimum": 6972627.0,
+          "p95": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "maximum": 3478844.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "minimum": 2606659.0,
+          "p95": 3478228.0
+        },
+        "alod_skybox_rows": {
+          "maximum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "minimum": 100000.0,
+          "p95": 100000.0
+        },
+        "alod_total_raster_rows": {
+          "maximum": 3578844.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "minimum": 2706659.0,
+          "p95": 3578228.0
+        },
+        "alod_upper_rows": {
+          "maximum": 335.0,
+          "mean": 335.0,
+          "median": 335.0,
+          "minimum": 335.0,
+          "p95": 335.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 1575790.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "minimum": 20467.0,
+          "p95": 1234152.0
+        }
+      },
+      "memory_bytes": {
+        "alod_frame_local_property_bytes": {
+          "maximum": 649307296.0,
+          "mean": 640713936.2253522,
+          "median": 647176944.0,
+          "minimum": 488825256.0,
+          "p95": 649193952.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "maximum": 9200000.0,
+          "mean": 9200000.0,
+          "median": 9200000.0,
+          "minimum": 9200000.0,
+          "p95": 9200000.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "maximum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "minimum": 253430044.0,
+          "p95": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_host_property_store_bytes": {
+          "maximum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "minimum": 650681684.0,
+          "p95": 650681684.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "maximum": 1375876096.0,
+          "mean": 1358675391.0985916,
+          "median": 1372179968.0,
+          "minimum": 1169788416.0,
+          "p95": 1375783424.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        },
+        "nvml_device_used_bytes": {
+          "maximum": 4255330304.0,
+          "mean": 4191723423.8497653,
+          "median": 4251398144.0,
+          "minimum": 3906818048.0,
+          "p95": 4255133696.0
+        },
+        "process_peak_rss_bytes": {
+          "maximum": 4090478592.0,
+          "mean": 4061205210.741784,
+          "median": 4080418816.0,
+          "minimum": 3989831680.0,
+          "p95": 4090478592.0
+        },
+        "torch_current_allocated_bytes": {
+          "maximum": 865093632.0,
+          "mean": 758159432.112676,
+          "median": 746996736.0,
+          "minimum": 554689024.0,
+          "p95": 834563072.0
+        },
+        "torch_current_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        },
+        "torch_peak_allocated_bytes": {
+          "maximum": 1043622912.0,
+          "mean": 820824446.1971831,
+          "median": 789144064.0,
+          "minimum": 566835712.0,
+          "p95": 978099712.0
+        },
+        "torch_peak_reserved_bytes": {
+          "maximum": 2562719744.0,
+          "mean": 2500573155.1549296,
+          "median": 2560622592.0,
+          "minimum": 2216689664.0,
+          "p95": 2562719744.0
+        }
+      },
+      "steady_h2d_rows": 731046024,
+      "steady_h2d_bytes": 67256234208
+    },
+    "ALOD-REPRO-PREVIOUS-REUSE": {
+      "configuration_id": "ALOD-REPRO-PREVIOUS-REUSE",
+      "timings_ms": {
+        "alod_camera_preparation_ms": {
+          "maximum": 1.4925810028216802,
+          "mean": 0.5738274277990767,
+          "median": 0.5105410018586554,
+          "minimum": 0.4541630041785538,
+          "p95": 0.9644183999625962
+        },
+        "alod_h2d_transfer_ms": {
+          "maximum": 15.328556000895333,
+          "mean": 1.7806206995314162,
+          "median": 1.0125539993168786,
+          "minimum": 0.6951569957891479,
+          "p95": 7.6958296020165875
+        },
+        "alod_host_gather_ms": {
+          "maximum": 42.095766999409534,
+          "mean": 2.53397614084088,
+          "median": 0.14748900139238685,
+          "minimum": 0.09472599776927382,
+          "p95": 23.809679200348903
+        },
+        "alod_pre_raster_assembly_ms": {
+          "maximum": 9.041789999173488,
+          "mean": 4.073140887418399,
+          "median": 3.921812996850349,
+          "minimum": 3.0417520029004663,
+          "p95": 5.7924362045014215
+        },
+        "alod_spt_cut_ms": {
+          "maximum": 39.44208399479976,
+          "mean": 34.27859699047371,
+          "median": 34.38022099726368,
+          "minimum": 25.74146699771518,
+          "p95": 35.58304760081228
+        },
+        "alod_total_selection_ms": {
+          "maximum": 43.74986499897204,
+          "mean": 38.17331615491511,
+          "median": 38.266515999566764,
+          "minimum": 28.5763100037002,
+          "p95": 39.57719839672791
+        },
+        "alod_upper_traversal_ms": {
+          "maximum": 2.2160099979373626,
+          "mean": 1.078668516744125,
+          "median": 1.0272299987263978,
+          "minimum": 0.8429940062342212,
+          "p95": 1.3771099984296598
+        },
+        "end_to_end_frame_time_ms": {
+          "maximum": 182.5124179958948,
+          "mean": 134.20686544153617,
+          "median": 131.5830460007419,
+          "minimum": 97.27754999767058,
+          "p95": 160.44050440250425
+        },
+        "frame_preparation_ms": {
+          "maximum": 176.18029300501803,
+          "mean": 129.80430946532886,
+          "median": 127.01372199808247,
+          "minimum": 95.12102100416087,
+          "p95": 157.059540595219
+        },
+        "rasterization_time_ms": {
+          "maximum": 12.433279991149902,
+          "mean": 4.034762356762595,
+          "median": 3.278719902038574,
+          "minimum": 2.0114240646362305,
+          "p95": 7.936972618103024
+        }
+      },
+      "fps_from_mean": 7.451183638855084,
+      "counts": {
+        "alod_candidate_spt_count": {
+          "maximum": 26.0,
+          "mean": 20.971830985915492,
+          "median": 21.0,
+          "minimum": 16.0,
+          "p95": 26.0
+        },
+        "alod_hierarchy_rows": {
+          "maximum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "minimum": 6972627.0,
+          "p95": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "maximum": 3484229.0,
+          "mean": 3456308.61971831,
+          "median": 3483372.0,
+          "minimum": 2663560.0,
+          "p95": 3484155.0
+        },
+        "alod_skybox_rows": {
+          "maximum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "minimum": 100000.0,
+          "p95": 100000.0
+        },
+        "alod_total_raster_rows": {
+          "maximum": 3584229.0,
+          "mean": 3556308.61971831,
+          "median": 3583372.0,
+          "minimum": 2763560.0,
+          "p95": 3584155.0
+        },
+        "alod_upper_rows": {
+          "maximum": 335.0,
+          "mean": 335.0,
+          "median": 335.0,
+          "minimum": 335.0,
+          "p95": 335.0
+        },
+        "backend_projection_survivor_count": {
+          "maximum": 1588239.0,
+          "mean": 498076.6901408451,
+          "median": 315005.0,
+          "minimum": 20521.0,
+          "p95": 1238220.0
+        }
+      },
+      "memory_bytes": {
+        "alod_frame_local_property_bytes": {
+          "maximum": 452382308.0,
+          "mean": 335236810.9859155,
+          "median": 329717788.0,
+          "minimum": 254375676.0,
+          "p95": 397005116.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "maximum": 329749068.0,
+          "mean": 327180393.0140845,
+          "median": 329670224.0,
+          "minimum": 254247520.0,
+          "p95": 329742260.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "maximum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "minimum": 253430044.0,
+          "p95": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "maximum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "minimum": 0.0,
+          "p95": 0.0
+        },
+        "alod_host_property_store_bytes": {
+          "maximum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "minimum": 650681684.0,
+          "p95": 650681684.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "maximum": 1379026432.0,
+          "mean": 1367147238.7605634,
+          "median": 1377383936.0,
+          "minimum": 1192571904.0,
+          "p95": 1378992640.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        },
+        "nvml_device_used_bytes": {
+          "maximum": 4882903040.0,
+          "mean": 4738335200.751174,
+          "median": 4868231168.0,
+          "minimum": 4012060672.0,
+          "p95": 4879953920.0
+        },
+        "process_peak_rss_bytes": {
+          "maximum": 4211519488.0,
+          "mean": 4171688734.0469484,
+          "median": 4166135808.0,
+          "minimum": 4065972224.0,
+          "p95": 4211519488.0
+        },
+        "torch_current_allocated_bytes": {
+          "maximum": 873968128.0,
+          "mean": 762453561.6901408,
+          "median": 752183296.0,
+          "minimum": 565865984.0,
+          "p95": 840914944.0
+        },
+        "torch_current_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        },
+        "torch_peak_allocated_bytes": {
+          "maximum": 1053012992.0,
+          "mean": 825241614.4225352,
+          "median": 795921920.0,
+          "minimum": 577293824.0,
+          "p95": 985048064.0
+        },
+        "torch_peak_reserved_bytes": {
+          "maximum": 3179282432.0,
+          "mean": 3044739793.1267605,
+          "median": 3177185280.0,
+          "minimum": 2321547264.0,
+          "p95": 3179282432.0
+        }
+      },
+      "steady_h2d_rows": 18652359,
+      "steady_h2d_bytes": 1716017028
+    }
+  },
+  "extension_modes": {
+    "ALOD-EXT-ROW-LRU-PRACTICAL": {
+      "configuration_id": "ALOD-EXT-ROW-LRU-PRACTICAL",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 135.78693770422188,
+        "2": 133.9257238450955,
+        "3": 133.9222912817322
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 99.82016599997223,
+          "mean": 134.54498427701654,
+          "median": 132.68352499994762,
+          "p95": 145.5973795999398,
+          "maximum": 221.42750500006514
+        },
+        "frame_preparation_ms": {
+          "minimum": 97.59203100020386,
+          "mean": 130.11580738498944,
+          "median": 128.04478699990796,
+          "p95": 141.33446499995438,
+          "maximum": 216.16389800010438
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.866976022720337,
+          "mean": 4.038891871770223,
+          "median": 3.2765440940856934,
+          "p95": 7.885727977752685,
+          "maximum": 13.092512130737305
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.46993799992378626,
+          "mean": 0.6162646432120039,
+          "median": 0.5195530000037252,
+          "p95": 1.163282399875241,
+          "maximum": 3.7759619999633287
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.767349999952785,
+          "mean": 37.89056054931617,
+          "median": 37.931715000013355,
+          "p95": 39.49036260000866,
+          "maximum": 47.24520900003881
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 20.717725999929826,
+          "mean": 29.531693164319368,
+          "median": 28.10389599994778,
+          "p95": 37.804895199906234,
+          "maximum": 53.7584500000321
+        },
+        "alod_cache_management_ms": {
+          "minimum": 21.14246299993283,
+          "mean": 28.043491145538656,
+          "median": 28.024956000081147,
+          "p95": 29.10155720005605,
+          "maximum": 33.3630909999556
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.11005700025634724,
+          "mean": 0.18807931454928603,
+          "median": 0.1223289998506516,
+          "p95": 0.46431439986918077,
+          "maximum": 1.375811000343674
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.09658099997977843,
+          "mean": 1.304085610328331,
+          "median": 0.10612100004436797,
+          "p95": 1.0638815999755022,
+          "maximum": 83.2703070000207
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 3.8547570002265275,
+          "mean": 5.5248932159602315,
+          "median": 5.548525999984122,
+          "p95": 6.005053000080807,
+          "maximum": 7.286404999831575
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 2.8630599999814876,
+          "mean": 3.817336802826567,
+          "median": 3.756310999960988,
+          "p95": 4.152825799928904,
+          "maximum": 6.100031999949351
+        }
+      },
+      "fps_from_mean": 7.432458410646406,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.6162646432120039,
+        "semantic_selection_ms": 37.89056054931617,
+        "materialization_filter_ms": 0.0,
+        "residency_gather_h2d_ms": 87.79164538963471,
+        "pre_raster_assembly_ms": 3.817336802826567,
+        "rasterization_ms": 4.038891871770223,
+        "other_end_to_end_ms": 0.3902850202568784
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.004580361330625065,
+        "semantic_selection_ms": 0.2816200154388719,
+        "materialization_filter_ms": 0.0,
+        "residency_gather_h2d_ms": 0.6525077531606772,
+        "pre_raster_assembly_ms": 0.028372197026438378,
+        "rasterization_ms": 0.030018895862029996,
+        "other_end_to_end_ms": 0.0029007771813575386
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 1.0,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 7.118646921771897
+      },
+      "traffic": {
+        "cold_first_frame_rows": 7819977,
+        "cold_first_frame_bytes": 719437884,
+        "remaining_warmup_rows": 3129588,
+        "remaining_warmup_bytes": 287922096,
+        "steady_rows": 140292,
+        "steady_bytes": 12906864,
+        "steady_hits": 730905732,
+        "steady_misses": 140292,
+        "steady_evictions": 0,
+        "steady_insertions": 140292,
+        "zero_transfer_steady_frames": 138
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 349600000.0,
+          "mean": 349600000.0,
+          "median": 349600000.0,
+          "p95": 349600000.0,
+          "maximum": 349600000.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 488825256.0,
+          "mean": 640774531.8309859,
+          "median": 647190560.0,
+          "p95": 649193952.0,
+          "maximum": 649327168.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 1554752000.0,
+          "mean": 1755457673.0140846,
+          "median": 1769944064.0,
+          "p95": 1772805120.0,
+          "maximum": 1773400064.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 2644508672.0,
+          "mean": 2928392163.1549296,
+          "median": 2988441600.0,
+          "p95": 2990538752.0,
+          "maximum": 2990538752.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 4153356288.0,
+          "mean": 4437239779.154929,
+          "median": 4497289216.0,
+          "p95": 4499386368.0,
+          "maximum": 4499386368.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3838308352.0,
+          "mean": 3946800200.112676,
+          "median": 3916713984.0,
+          "p95": 4090785792.0,
+          "maximum": 4096479232.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 349600000.0
+    },
+    "ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL": {
+      "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 222.1438024225438,
+        "2": 217.59260483101673,
+        "3": 221.77553752110302
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 154.6351610002148,
+          "mean": 220.5039815915545,
+          "median": 213.7861520000115,
+          "p95": 265.9946836000925,
+          "maximum": 395.6179259998862
+        },
+        "frame_preparation_ms": {
+          "minimum": 152.34894600007465,
+          "mean": 214.032388619733,
+          "median": 209.87064000019018,
+          "p95": 244.25218340006717,
+          "maximum": 327.9330259999824
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.434048056602478,
+          "mean": 5.99453728971347,
+          "median": 3.0525760650634766,
+          "p95": 16.580332756042445,
+          "maximum": 81.0532455444336
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.4506970001330046,
+          "mean": 0.6455646103472752,
+          "median": 0.5206449998240714,
+          "p95": 1.3366381999730936,
+          "maximum": 3.0169110000315413
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.547425999931875,
+          "mean": 38.0972188826311,
+          "median": 38.10036599998057,
+          "p95": 39.69357199994192,
+          "maximum": 45.03658200019345
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 112.31077599995842,
+          "mean": 149.65867603285608,
+          "median": 150.12193500001558,
+          "p95": 166.91647180005018,
+          "maximum": 182.7961439998944
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 0.28240899996490043,
+          "mean": 4.5740887981146825,
+          "median": 2.9578189999028837,
+          "p95": 11.286034999875481,
+          "maximum": 15.113772999939101
+        },
+        "alod_cache_management_ms": {
+          "minimum": 2.2740959998373,
+          "mean": 6.638416737094072,
+          "median": 5.053870999972787,
+          "p95": 13.013406600111917,
+          "maximum": 19.833308000215766
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.08983799989437102,
+          "mean": 1.2538554037468963,
+          "median": 0.34070800006702484,
+          "p95": 4.034837400104143,
+          "maximum": 15.226653999889095
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.09508199991614674,
+          "mean": 1.4205942206515343,
+          "median": 0.8491139999478037,
+          "p95": 5.63172399979521,
+          "maximum": 24.109782000095947
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 0.17274699985136976,
+          "mean": 1.2865868873156183,
+          "median": 0.7657020000806369,
+          "p95": 2.123979200041502,
+          "maximum": 24.231982999936008
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 0.1944129999174038,
+          "mean": 1.1906648450735595,
+          "median": 0.724813000033464,
+          "p95": 2.7929015999688946,
+          "maximum": 21.28494699991279
+        }
+      },
+      "fps_from_mean": 4.535065502138311,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.6455646103472752,
+        "semantic_selection_ms": 38.0972188826311,
+        "materialization_filter_ms": 149.65867603285608,
+        "residency_gather_h2d_ms": 24.440264248825013,
+        "pre_raster_assembly_ms": 1.1906648450735595,
+        "rasterization_ms": 5.99453728971347,
+        "other_end_to_end_ms": 0.4770556821080092
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.0029276777937872886,
+        "semantic_selection_ms": 0.17277338308203255,
+        "materialization_filter_ms": 0.6787118987722993,
+        "residency_gather_h2d_ms": 0.11083819925799063,
+        "pre_raster_assembly_ms": 0.0053997430635019565,
+        "rasterization_ms": 0.02718561926386125,
+        "other_end_to_end_ms": 0.0021634787665270935
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 25581.0,
+          "mean": 509957.3521126761,
+          "median": 321071.0,
+          "p95": 1260372.0,
+          "maximum": 1599906.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 0.0,
+          "mean": 15091.887323943662,
+          "median": 23103.0,
+          "p95": 26138.0,
+          "maximum": 26147.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 25723.0,
+          "mean": 525049.2394366197,
+          "median": 344216.0,
+          "p95": 1283357.0,
+          "maximum": 1623001.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 6.727256593184446,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 1.0581797829718549
+      },
+      "traffic": {
+        "cold_first_frame_rows": 165333,
+        "cold_first_frame_bytes": 15210636,
+        "remaining_warmup_rows": 1519839,
+        "remaining_warmup_bytes": 139825188,
+        "steady_rows": 8823972,
+        "steady_bytes": 811805424,
+        "steady_hits": 99796944,
+        "steady_misses": 8823972,
+        "steady_evictions": 0,
+        "steady_insertions": 8823972,
+        "zero_transfer_steady_frames": 66
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 349600000.0,
+          "mean": 349600000.0,
+          "median": 349600000.0,
+          "p95": 349600000.0,
+          "maximum": 349600000.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 6996508.0,
+          "mean": 100420353.12676056,
+          "median": 63335744.0,
+          "p95": 259093804.0,
+          "maximum": 331996260.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 390705152.0,
+          "mean": 606294001.5774648,
+          "median": 571826176.0,
+          "p95": 912186880.0,
+          "maximum": 1032216576.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 505413632.0,
+          "mean": 971690272.4507042,
+          "median": 1052770304.0,
+          "p95": 1358954496.0,
+          "maximum": 1358954496.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 2010066944.0,
+          "mean": 2480537580.7699533,
+          "median": 2561617920.0,
+          "p95": 2868391936.0,
+          "maximum": 2868391936.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3872604160.0,
+          "mean": 3926045518.1220655,
+          "median": 3929411584.0,
+          "p95": 3959033856.0,
+          "maximum": 3959033856.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 349600000.0
+    },
+    "ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS": {
+      "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 71.50429885915965,
+        "2": 71.18461776056867,
+        "3": 72.28267639440584
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 42.22914600018157,
+          "mean": 71.65719767137804,
+          "median": 66.71795400006886,
+          "p95": 124.02786539996634,
+          "maximum": 170.74406799997632
+        },
+        "frame_preparation_ms": {
+          "minimum": 39.567267999927935,
+          "mean": 67.70773582629153,
+          "median": 63.4094700001242,
+          "p95": 118.05090380003058,
+          "maximum": 156.1846950000927
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.5489280223846436,
+          "mean": 3.495132849809709,
+          "median": 2.8156158924102783,
+          "p95": 7.159507274627681,
+          "maximum": 14.115936279296875
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.45649999992747325,
+          "mean": 0.5792919061013677,
+          "median": 0.5080359999283246,
+          "p95": 1.1683342000651462,
+          "maximum": 1.7157079998924019
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.457072000037442,
+          "mean": 38.19186369951816,
+          "median": 38.25183599997217,
+          "p95": 39.992170000050464,
+          "maximum": 42.391460999851915
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 4.835979000063162,
+          "mean": 8.037915253523774,
+          "median": 7.929464999961056,
+          "p95": 9.454593400096199,
+          "maximum": 13.959697000018423
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 0.24498799984939978,
+          "mean": 3.62640789670292,
+          "median": 2.436287999898923,
+          "p95": 9.232721799889983,
+          "maximum": 14.897551000103704
+        },
+        "alod_cache_management_ms": {
+          "minimum": 0.2171459998407954,
+          "mean": 2.5855609295833664,
+          "median": 2.1057930000552005,
+          "p95": 6.596852400025454,
+          "maximum": 8.8858409999375
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.15481199989153538,
+          "mean": 5.167617887315866,
+          "median": 2.2273030001542793,
+          "p95": 34.48301899998091,
+          "maximum": 49.991365000096266
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.4465689999051392,
+          "mean": 2.4470327511838623,
+          "median": 1.5354080001088732,
+          "p95": 11.133685199956743,
+          "maximum": 24.41806899992116
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 0.25179899989780097,
+          "mean": 2.1186336760572613,
+          "median": 0.796388000026127,
+          "p95": 5.5041921999873,
+          "maximum": 8.7645399999019
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 0.06963100008761103,
+          "mean": 0.7322718309813422,
+          "median": 0.4817669998828933,
+          "p95": 2.045223999994049,
+          "maximum": 18.71955000001435
+        }
+      },
+      "fps_from_mean": 13.95533222755973,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.5792919061013677,
+        "semantic_selection_ms": 38.19186369951816,
+        "materialization_filter_ms": 8.037915253523774,
+        "residency_gather_h2d_ms": 20.16639313616689,
+        "pre_raster_assembly_ms": 0.7322718309813422,
+        "rasterization_ms": 3.495132849809709,
+        "other_end_to_end_ms": 0.45432899527680837
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.008084211006380921,
+        "semantic_selection_ms": 0.5329801463164543,
+        "materialization_filter_ms": 0.11217177777989426,
+        "residency_gather_h2d_ms": 0.2814287160467891,
+        "pre_raster_assembly_ms": 0.010219096682228096,
+        "rasterization_ms": 0.048775740098552116,
+        "other_end_to_end_ms": 0.006340312069701276
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 25581.0,
+          "mean": 509957.3521126761,
+          "median": 321071.0,
+          "p95": 1260372.0,
+          "maximum": 1599906.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 0.0,
+          "mean": 15091.887323943662,
+          "median": 23103.0,
+          "p95": 26138.0,
+          "maximum": 26147.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 25723.0,
+          "mean": 525049.2394366197,
+          "median": 344216.0,
+          "p95": 1283357.0,
+          "maximum": 1623001.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 6.727256593184446,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 1.0581797829718549
+      },
+      "traffic": {
+        "cold_first_frame_rows": 165333,
+        "cold_first_frame_bytes": 15210636,
+        "remaining_warmup_rows": 1792914,
+        "remaining_warmup_bytes": 164948088,
+        "steady_rows": 34849461,
+        "steady_bytes": 3206150412,
+        "steady_hits": 73771455,
+        "steady_misses": 34849461,
+        "steady_evictions": 0,
+        "steady_insertions": 34849461,
+        "zero_transfer_steady_frames": 0
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 11553452.0,
+          "mean": 56116076.3943662,
+          "median": 38738532.0,
+          "p95": 125154224.0,
+          "maximum": 156391352.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 113162032.0,
+          "mean": 113162032.0,
+          "median": 113162032.0,
+          "p95": 113162032.0,
+          "maximum": 113162032.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 4655200.0,
+          "mean": 64745333.01408451,
+          "median": 53557156.0,
+          "p95": 218051316.0,
+          "maximum": 263811472.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 383013888.0,
+          "mean": 561304475.0422535,
+          "median": 534620160.0,
+          "p95": 742523392.0,
+          "maximum": 805406720.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 742391808.0,
+          "mean": 1139521507.1549296,
+          "median": 1145044992.0,
+          "p95": 1520435200.0,
+          "maximum": 1520435200.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 2251239424.0,
+          "mean": 2648113132.7699533,
+          "median": 2653892608.0,
+          "p95": 3029282816.0,
+          "maximum": 3029282816.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3687510016.0,
+          "mean": 3808039085.0704226,
+          "median": 3824992256.0,
+          "p95": 3916673024.0,
+          "maximum": 3916673024.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 269553384.0
+    },
+    "ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM": {
+      "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 83.62257423943166,
+        "2": 85.44566715493883,
+        "3": 84.06145590135284
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 42.84160699990025,
+          "mean": 84.37656576524111,
+          "median": 84.73179799989339,
+          "p95": 138.03259479977896,
+          "maximum": 209.38557999988916
+        },
+        "frame_preparation_ms": {
+          "minimum": 40.04739599986351,
+          "mean": 80.37689469013334,
+          "median": 81.62095600005159,
+          "p95": 132.59272199984474,
+          "maximum": 202.90103199999976
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.3632639646530151,
+          "mean": 3.538292282623864,
+          "median": 2.7586560249328613,
+          "p95": 7.258323097229003,
+          "maximum": 13.728256225585938
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.4528810000010708,
+          "mean": 0.6160178826332771,
+          "median": 0.5114549999234441,
+          "p95": 1.1910474000160316,
+          "maximum": 3.9425630000096135
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.4360169998763,
+          "mean": 38.500727314532895,
+          "median": 38.43746100005774,
+          "p95": 40.575772999909525,
+          "maximum": 45.027721999758796
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 5.463787000053344,
+          "mean": 8.13702607982383,
+          "median": 7.930255000019315,
+          "p95": 9.569396399911057,
+          "maximum": 13.11059199997544
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 0.2752339999005926,
+          "mean": 4.912417117366673,
+          "median": 3.1929409997246694,
+          "p95": 12.411319399916463,
+          "maximum": 16.05795900013618
+        },
+        "alod_cache_management_ms": {
+          "minimum": 1.068063999809965,
+          "mean": 15.633473676052532,
+          "median": 16.345582999974795,
+          "p95": 37.40308599994925,
+          "maximum": 67.02412999993612
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.04914400005873176,
+          "mean": 3.561858924882566,
+          "median": 1.50482899994131,
+          "p95": 23.319541999808273,
+          "maximum": 42.567518000169
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.04048499999953492,
+          "mean": 1.5154741220595698,
+          "median": 1.056224999956612,
+          "p95": 6.065986400017205,
+          "maximum": 11.727354000186097
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 0.09416000011697179,
+          "mean": 0.7537977183222984,
+          "median": 0.521249000030366,
+          "p95": 1.8343284001275604,
+          "maximum": 2.7290069999708066
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 0.07390799987661012,
+          "mean": 0.6169093849561498,
+          "median": 0.4723340000509779,
+          "p95": 1.807707399984792,
+          "maximum": 3.042173000267212
+        }
+      },
+      "fps_from_mean": 11.851631918538565,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.6160178826332771,
+        "semantic_selection_ms": 38.500727314532895,
+        "materialization_filter_ms": 8.13702607982383,
+        "residency_gather_h2d_ms": 32.506214028187195,
+        "pre_raster_assembly_ms": 0.6169093849561498,
+        "rasterization_ms": 3.538292282623864,
+        "other_end_to_end_ms": 0.4613787924839059
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.007300817200207091,
+        "semantic_selection_ms": 0.4562964487278677,
+        "materialization_filter_ms": 0.09643703800962085,
+        "residency_gather_h2d_ms": 0.38525168372730945,
+        "pre_raster_assembly_ms": 0.0073113829575923005,
+        "rasterization_ms": 0.04193453775386367,
+        "other_end_to_end_ms": 0.00546809162353904
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 25581.0,
+          "mean": 509957.3521126761,
+          "median": 321071.0,
+          "p95": 1260372.0,
+          "maximum": 1599906.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 0.0,
+          "mean": 15091.887323943662,
+          "median": 23103.0,
+          "p95": 26138.0,
+          "maximum": 26147.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 25723.0,
+          "mean": 525049.2394366197,
+          "median": 344216.0,
+          "p95": 1283357.0,
+          "maximum": 1623001.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 6.727256593184446,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 1.0581797829718549
+      },
+      "traffic": {
+        "cold_first_frame_rows": 165333,
+        "cold_first_frame_bytes": 15210636,
+        "remaining_warmup_rows": 1519839,
+        "remaining_warmup_bytes": 139825188,
+        "steady_rows": 23359272,
+        "steady_bytes": 2149053024,
+        "steady_hits": 85261644,
+        "steady_misses": 23359272,
+        "steady_evictions": 20244726,
+        "steady_insertions": 23359272,
+        "zero_transfer_steady_frames": 33
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 156391352.0,
+          "mean": 156391352.0,
+          "median": 156391352.0,
+          "p95": 156391352.0,
+          "maximum": 156391352.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 113162032.0,
+          "mean": 113162032.0,
+          "median": 113162032.0,
+          "p95": 113162032.0,
+          "maximum": 113162032.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 6996508.0,
+          "mean": 106698510.87323944,
+          "median": 87229800.0,
+          "p95": 271111304.0,
+          "maximum": 385722972.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 531028480.0,
+          "mean": 713934718.1971831,
+          "median": 686081024.0,
+          "p95": 900787200.0,
+          "maximum": 967211520.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 897581056.0,
+          "mean": 1232652778.366197,
+          "median": 1241513984.0,
+          "p95": 1549795328.0,
+          "maximum": 1549795328.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 2406428672.0,
+          "mean": 2741500394.366197,
+          "median": 2750361600.0,
+          "p95": 3058642944.0,
+          "maximum": 3058642944.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3653652480.0,
+          "mean": 3813432536.338028,
+          "median": 3808653312.0,
+          "p95": 3954933760.0,
+          "maximum": 3954933760.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 269553384.0
+    },
+    "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL": {
+      "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 74.36135788730995,
+        "2": 72.75252256337333,
+        "3": 73.32729815490099
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 44.65722499980984,
+          "mean": 73.4803928685281,
+          "median": 68.94180900007996,
+          "p95": 98.72898640005583,
+          "maximum": 152.33085899990328
+        },
+        "frame_preparation_ms": {
+          "minimum": 42.362615000001824,
+          "mean": 69.44961579342987,
+          "median": 65.70388099999036,
+          "p95": 91.02024320000054,
+          "maximum": 142.18538199975228
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.3258240222930908,
+          "mean": 3.6718622250176374,
+          "median": 2.9153919219970703,
+          "p95": 7.475238418579098,
+          "maximum": 13.72275161743164
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.45672700002796773,
+          "mean": 0.5974441314666651,
+          "median": 0.5115660001138167,
+          "p95": 1.1972656000580169,
+          "maximum": 1.7114810002567538
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.48206199996639,
+          "mean": 38.43777336618493,
+          "median": 38.49009500004286,
+          "p95": 40.57731819989385,
+          "maximum": 46.16481100015335
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 4.442478000328265,
+          "mean": 7.6954624319135725,
+          "median": 7.891865999681613,
+          "p95": 9.310642799982816,
+          "maximum": 12.165804000233038
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 0.2882779999708873,
+          "mean": 4.8526130469343824,
+          "median": 3.0827329999283393,
+          "p95": 12.469279200058732,
+          "maximum": 20.085350000044855
+        },
+        "alod_cache_management_ms": {
+          "minimum": 2.4909100002332707,
+          "mean": 7.135205492968795,
+          "median": 5.672638000078223,
+          "p95": 13.089635000005728,
+          "maximum": 30.27091300009488
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.05059200020696153,
+          "mean": 1.4173623474096768,
+          "median": 0.3473280000889645,
+          "p95": 4.161817599970162,
+          "maximum": 24.70628400010355
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.0431500000104279,
+          "mean": 0.825950854452902,
+          "median": 0.7251089998590032,
+          "p95": 1.9038636001368998,
+          "maximum": 5.400206000103935
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 0.09211900010086538,
+          "mean": 0.7821603380239033,
+          "median": 0.5225639997661347,
+          "p95": 1.8408306002129387,
+          "maximum": 4.683938999960446
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 0.08632099979877239,
+          "mean": 0.6182642957735734,
+          "median": 0.4422850001901679,
+          "p95": 1.8149768000967013,
+          "maximum": 3.4010049998869363
+        }
+      },
+      "fps_from_mean": 13.609072583338124,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.5974441314666651,
+        "semantic_selection_ms": 38.43777336618493,
+        "materialization_filter_ms": 7.6954624319135725,
+        "residency_gather_h2d_ms": 22.100671568091137,
+        "pre_raster_assembly_ms": 0.6182642957735734,
+        "rasterization_ms": 3.6718622250176374,
+        "other_end_to_end_ms": 0.3589148500805912
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.008130660549619249,
+        "semantic_selection_ms": 0.5231024476823116,
+        "materialization_filter_ms": 0.10472810679826353,
+        "residency_gather_h2d_ms": 0.3007696435106695,
+        "pre_raster_assembly_ms": 0.008414003676868991,
+        "rasterization_ms": 0.04997063953628245,
+        "other_end_to_end_ms": 0.004884498245984687
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 25581.0,
+          "mean": 509957.3521126761,
+          "median": 321071.0,
+          "p95": 1260372.0,
+          "maximum": 1599906.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 0.0,
+          "mean": 15091.887323943662,
+          "median": 23103.0,
+          "p95": 26138.0,
+          "maximum": 26147.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 25723.0,
+          "mean": 525049.2394366197,
+          "median": 344216.0,
+          "p95": 1283357.0,
+          "maximum": 1623001.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 6.727256593184446,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 1.0581797829718549
+      },
+      "traffic": {
+        "cold_first_frame_rows": 165333,
+        "cold_first_frame_bytes": 15210636,
+        "remaining_warmup_rows": 1519839,
+        "remaining_warmup_bytes": 139825188,
+        "steady_rows": 8823972,
+        "steady_bytes": 811805424,
+        "steady_hits": 99796944,
+        "steady_misses": 8823972,
+        "steady_evictions": 0,
+        "steady_insertions": 8823972,
+        "zero_transfer_steady_frames": 66
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 349600000.0,
+          "mean": 349600000.0,
+          "median": 349600000.0,
+          "p95": 349600000.0,
+          "maximum": 349600000.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 113162032.0,
+          "mean": 113162032.0,
+          "median": 113162032.0,
+          "p95": 113162032.0,
+          "maximum": 113162032.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 6996508.0,
+          "mean": 100420353.12676056,
+          "median": 63335744.0,
+          "p95": 259093804.0,
+          "maximum": 331996260.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 725237248.0,
+          "mean": 907153566.6478873,
+          "median": 880118784.0,
+          "p95": 1096803840.0,
+          "maximum": 1160963584.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 1090519040.0,
+          "mean": 1425088627.3802817,
+          "median": 1434451968.0,
+          "p95": 1740636160.0,
+          "maximum": 1740636160.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 2599366656.0,
+          "mean": 2933936243.380282,
+          "median": 2943299584.0,
+          "p95": 3249483776.0,
+          "maximum": 3249483776.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3750318080.0,
+          "mean": 3840279124.1314554,
+          "median": 3868340224.0,
+          "p95": 3891838976.0,
+          "maximum": 3893608448.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 462762032.0
+    },
+    "ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE": {
+      "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE",
+      "measured_frames": 213,
+      "warmup_frames": 30,
+      "replicate_mean_end_to_end_ms": {
+        "1": 76.4506549859254,
+        "2": 76.01021197185321,
+        "3": 76.40078607042776
+      },
+      "timings_ms": {
+        "end_to_end_frame_time_ms": {
+          "minimum": 47.84992300005797,
+          "mean": 76.28721767606879,
+          "median": 71.99447199991482,
+          "p95": 101.34053260017025,
+          "maximum": 149.6175760000824
+        },
+        "frame_preparation_ms": {
+          "minimum": 45.34781999996085,
+          "mean": 72.29470891549036,
+          "median": 68.61880299993572,
+          "p95": 93.78580539969334,
+          "maximum": 143.32023700012542
+        },
+        "rasterization_time_ms": {
+          "minimum": 1.238976001739502,
+          "mean": 3.5978982168743867,
+          "median": 2.7532479763031006,
+          "p95": 7.4090879440307615,
+          "maximum": 13.65340805053711
+        },
+        "alod_camera_preparation_ms": {
+          "minimum": 0.4602310000336729,
+          "mean": 0.6002828591524331,
+          "median": 0.5125389998283936,
+          "p95": 1.0701864000111527,
+          "maximum": 4.8233190000246395
+        },
+        "alod_total_selection_ms": {
+          "minimum": 28.127901000061684,
+          "mean": 38.103886408441724,
+          "median": 38.0937510003605,
+          "p95": 39.87021899984029,
+          "maximum": 42.30543299991041
+        },
+        "alod_materialization_filter_ms": {
+          "minimum": 4.196720999971149,
+          "mean": 7.825680018792506,
+          "median": 7.892671000263363,
+          "p95": 9.305198399943038,
+          "maximum": 13.386222999997699
+        },
+        "alod_residency_lookup_ms": {
+          "minimum": 0.2954409997073526,
+          "mean": 4.764951971839909,
+          "median": 2.9790210001010564,
+          "p95": 12.13947999985975,
+          "maximum": 18.33269200005816
+        },
+        "alod_cache_management_ms": {
+          "minimum": 4.356448999942586,
+          "mean": 9.112691962436571,
+          "median": 7.664148000003479,
+          "p95": 15.921559000071278,
+          "maximum": 28.80164699990928
+        },
+        "alod_host_gather_ms": {
+          "minimum": 0.06557500000781147,
+          "mean": 1.4247538075140367,
+          "median": 0.3445719999035646,
+          "p95": 3.9120369999636675,
+          "maximum": 25.161398000136614
+        },
+        "alod_h2d_transfer_ms": {
+          "minimum": 0.056001000075411866,
+          "mean": 0.8338919295668992,
+          "median": 0.706086000036521,
+          "p95": 1.9742290000522171,
+          "maximum": 5.694734000371682
+        },
+        "alod_selected_gpu_gather_ms": {
+          "minimum": 0.10690899989640457,
+          "mean": 0.7688040093761684,
+          "median": 0.5409339999005169,
+          "p95": 1.8521284000598823,
+          "maximum": 2.8278459999455663
+        },
+        "alod_pre_raster_assembly_ms": {
+          "minimum": 0.09174400020128815,
+          "mean": 0.6310466431946246,
+          "median": 0.5077629998595512,
+          "p95": 1.840952400107198,
+          "maximum": 2.966859000025579
+        }
+      },
+      "fps_from_mean": 13.108355901065963,
+      "stage_breakdown": {
+        "camera_preparation_ms": 0.6002828591524331,
+        "semantic_selection_ms": 38.103886408441724,
+        "materialization_filter_ms": 7.825680018792506,
+        "residency_gather_h2d_ms": 25.133812985909074,
+        "pre_raster_assembly_ms": 0.6310466431946246,
+        "rasterization_ms": 3.5978982168743867,
+        "other_end_to_end_ms": 0.3946105437040446
+      },
+      "stage_fraction_of_total": {
+        "camera_preparation_ms": 0.007868721359079544,
+        "semantic_selection_ms": 0.49947930425564424,
+        "materialization_filter_ms": 0.10258179885419275,
+        "residency_gather_h2d_ms": 0.32946296577012957,
+        "pre_raster_assembly_ms": 0.008271983989168124,
+        "rasterization_ms": 0.04716253032260007,
+        "other_end_to_end_ms": 0.005172695449185761
+      },
+      "counts": {
+        "alod_hierarchy_rows": {
+          "minimum": 6972627.0,
+          "mean": 6972627.0,
+          "median": 6972627.0,
+          "p95": 6972627.0,
+          "maximum": 6972627.0
+        },
+        "alod_selected_hierarchy_rows": {
+          "minimum": 2606659.0,
+          "mean": 3432140.9577464787,
+          "median": 3467266.0,
+          "p95": 3478228.0,
+          "maximum": 3478844.0
+        },
+        "alod_semantic_skybox_rows": {
+          "minimum": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "p95": 100000.0,
+          "maximum": 100000.0
+        },
+        "alod_semantic_selected_rows": {
+          "minimum": 2706659.0,
+          "mean": 3532140.9577464787,
+          "median": 3567266.0,
+          "p95": 3578228.0,
+          "maximum": 3578844.0
+        },
+        "alod_materialization_hierarchy_rows": {
+          "minimum": 25581.0,
+          "mean": 509957.3521126761,
+          "median": 321071.0,
+          "p95": 1260372.0,
+          "maximum": 1599906.0
+        },
+        "alod_materialization_skybox_rows": {
+          "minimum": 0.0,
+          "mean": 15091.887323943662,
+          "median": 23103.0,
+          "p95": 26138.0,
+          "maximum": 26147.0
+        },
+        "alod_materialization_rows": {
+          "minimum": 25723.0,
+          "mean": 525049.2394366197,
+          "median": 344216.0,
+          "p95": 1283357.0,
+          "maximum": 1623001.0
+        },
+        "backend_projection_survivor_count": {
+          "minimum": 20467.0,
+          "mean": 496181.5070422535,
+          "median": 315004.0,
+          "p95": 1234152.0,
+          "maximum": 1575790.0
+        }
+      },
+      "funnel_ratios_of_means": {
+        "semantic_selected_over_materialized": 6.727256593184446,
+        "semantic_selected_over_projection_survivors": 7.118646921771897,
+        "materialized_over_projection_survivors": 1.0581797829718549
+      },
+      "traffic": {
+        "cold_first_frame_rows": 165333,
+        "cold_first_frame_bytes": 15210636,
+        "remaining_warmup_rows": 1519839,
+        "remaining_warmup_bytes": 139825188,
+        "steady_rows": 8823972,
+        "steady_bytes": 811805424,
+        "steady_hits": 99796944,
+        "steady_misses": 8823972,
+        "steady_evictions": 0,
+        "steady_insertions": 8823972,
+        "zero_transfer_steady_frames": 66
+      },
+      "memory_bytes": {
+        "alod_host_property_store_bytes": {
+          "minimum": 650681684.0,
+          "mean": 650681684.0,
+          "median": 650681684.0,
+          "p95": 650681684.0,
+          "maximum": 650681684.0
+        },
+        "alod_hierarchy_metadata_cpu_bytes": {
+          "minimum": 253430044.0,
+          "mean": 253430044.0,
+          "median": 253430044.0,
+          "p95": 253430044.0,
+          "maximum": 253430044.0
+        },
+        "alod_hierarchy_metadata_gpu_bytes": {
+          "minimum": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "maximum": 0.0
+        },
+        "alod_gaussian_properties_gpu_bytes": {
+          "minimum": 496800000.0,
+          "mean": 496800000.0,
+          "median": 496800000.0,
+          "p95": 496800000.0,
+          "maximum": 496800000.0
+        },
+        "alod_compact_culling_gpu_bytes": {
+          "minimum": 113162032.0,
+          "mean": 113162032.0,
+          "median": 113162032.0,
+          "p95": 113162032.0,
+          "maximum": 113162032.0
+        },
+        "alod_frame_local_property_bytes": {
+          "minimum": 6996508.0,
+          "mean": 100420353.12676056,
+          "median": 63335744.0,
+          "p95": 259093804.0,
+          "maximum": 331996260.0
+        },
+        "frame_total_peak_allocated_bytes": {
+          "minimum": 871169536.0,
+          "mean": 1053510064.6760564,
+          "median": 1026110976.0,
+          "p95": 1241522688.0,
+          "maximum": 1307637248.0
+        },
+        "frame_total_peak_reserved_bytes": {
+          "minimum": 1237319680.0,
+          "mean": 1571889267.3802817,
+          "median": 1581252608.0,
+          "p95": 1887436800.0,
+          "maximum": 1887436800.0
+        },
+        "nvml_device_used_bytes": {
+          "minimum": 2746167296.0,
+          "mean": 3080736883.380282,
+          "median": 3090100224.0,
+          "p95": 3396284416.0,
+          "maximum": 3396284416.0
+        },
+        "process_peak_rss_bytes": {
+          "minimum": 3798904832.0,
+          "mean": 3885484676.2065725,
+          "median": 3891195904.0,
+          "p95": 3928354816.0,
+          "maximum": 3928354816.0
+        }
+      },
+      "persistent_gpu_property_plus_filter_bytes_max": 609962032.0
+    }
+  },
+  "incremental_attribution": [
+    {
+      "from": "ALOD-REPRO-HOST-NOCACHE",
+      "to": "ALOD-REPRO-PREVIOUS-REUSE",
+      "frame_time_saved_ms": 52.56716663331042,
+      "frame_time_reduction_fraction": 0.28144794032312265,
+      "steady_h2d_bytes_change": -65540217180,
+      "persistent_gpu_property_plus_filter_bytes_change": 320549068.0
+    },
+    {
+      "from": "ALOD-REPRO-HOST-NOCACHE",
+      "to": "ALOD-EXT-ROW-LRU-PRACTICAL",
+      "frame_time_saved_ms": 52.22904779783005,
+      "frame_time_reduction_fraction": 0.2796376306578857,
+      "steady_h2d_bytes_change": -67243327344,
+      "persistent_gpu_property_plus_filter_bytes_change": 340400000.0
+    },
+    {
+      "from": "ALOD-EXT-ROW-LRU-PRACTICAL",
+      "to": "ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL",
+      "frame_time_saved_ms": -85.95899731453795,
+      "frame_time_reduction_fraction": -0.6388866725611694,
+      "steady_h2d_bytes_change": 798898560,
+      "persistent_gpu_property_plus_filter_bytes_change": 0.0
+    },
+    {
+      "from": "ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL",
+      "to": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+      "frame_time_saved_ms": 147.0235887230264,
+      "frame_time_reduction_fraction": 0.6667616052183682,
+      "steady_h2d_bytes_change": 0,
+      "persistent_gpu_property_plus_filter_bytes_change": 113162032.0
+    },
+    {
+      "from": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+      "to": "ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM",
+      "frame_time_saved_ms": -10.896172896713011,
+      "frame_time_reduction_fraction": -0.148286807831969,
+      "steady_h2d_bytes_change": 1337247600,
+      "persistent_gpu_property_plus_filter_bytes_change": -193208648.0
+    },
+    {
+      "from": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+      "to": "ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE",
+      "frame_time_saved_ms": -2.8068248075406927,
+      "frame_time_reduction_fraction": -0.03819828253453535,
+      "steady_h2d_bytes_change": 0,
+      "persistent_gpu_property_plus_filter_bytes_change": 147200000.0
+    },
+    {
+      "from": "ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL",
+      "to": "ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS",
+      "frame_time_saved_ms": 1.8231951971500564,
+      "frame_time_reduction_fraction": 0.02481199577160858,
+      "steady_h2d_bytes_change": 2394344988,
+      "persistent_gpu_property_plus_filter_bytes_change": -193208648.0
+    }
+  ],
+  "best_existing_extension": {
+    "configuration_id": "ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS",
+    "mean_frame_time_ms": 71.65719767137804,
+    "fps": 13.95533222755973,
+    "saved_vs_faithful_ms": 115.11683440346854,
+    "reduction_vs_faithful_fraction": 0.6163428241316619,
+    "speedup_vs_faithful": 2.6064936690853813,
+    "dominant_stage": "semantic_selection",
+    "dominant_stage_ms": 38.19186369951816,
+    "dominant_stage_fraction": 0.5329801463164543
+  },
+  "weak_lod_context": true
+}

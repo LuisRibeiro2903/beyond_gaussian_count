@@ -1,0 +1,231 @@
+{
+  "arrays": {
+    "spt_max": {
+      "byte_count": 4170384,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1042596,
+      "finite_count": 1042596,
+      "max": 999999995904.0,
+      "min": 4.8658127784729,
+      "raw_cpu_c_order_sha256": "1f24a36dc950655537cd134367f88e5ae93b102b834406d267a430102cadc3d1",
+      "shape": [
+        1042596
+      ]
+    },
+    "spt_min": {
+      "byte_count": 4170384,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1042596,
+      "finite_count": 1042596,
+      "max": 11383.6416015625,
+      "min": -1000000000.0,
+      "raw_cpu_c_order_sha256": "3a3a6df0c1ffa889d96bb05b3fb7a767aef0dfa85f2e6d0d169d44f9de911b8c",
+      "shape": [
+        1042596
+      ]
+    },
+    "spt_root_global_node_ids": {
+      "byte_count": 192,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 24,
+      "finite_count": null,
+      "max": 729080.0,
+      "min": 100185.0,
+      "raw_cpu_c_order_sha256": "192ad00c49b4b4186740d3ee2c04866716cfe9bd609559a8040733c257ae1a05",
+      "shape": [
+        24
+      ]
+    },
+    "spt_sizes": {
+      "byte_count": 96,
+      "device_during_official_execution": null,
+      "dtype": "int32",
+      "element_count": 24,
+      "finite_count": null,
+      "max": 293657.0,
+      "min": 147.0,
+      "raw_cpu_c_order_sha256": "df774d88d9c2b5fc9693a8e1d89e56524ad421ef8b4bd3468a68222ab6898c7e",
+      "shape": [
+        24
+      ]
+    },
+    "spt_starts": {
+      "byte_count": 100,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 25,
+      "finite_count": null,
+      "max": 1042596.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "d6c64724f0d9ca8a427a547b25771affe37bc43ba52fec07bdf9a8ff1ca42d64",
+      "shape": [
+        25
+      ]
+    },
+    "spt_to_global_node_id": {
+      "byte_count": 4170384,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 1042596,
+      "finite_count": null,
+      "max": 1143220.0,
+      "min": 100023.0,
+      "raw_cpu_c_order_sha256": "fdfdd0228bc2393034b581b741e0de6ed626b0e4fc0ee991a3d52578df0ebf83",
+      "shape": [
+        1042596
+      ]
+    },
+    "upper_min_distance_squared": {
+      "byte_count": 2596,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 649,
+      "finite_count": 649,
+      "max": 999999995904.0,
+      "min": 169693.0,
+      "raw_cpu_c_order_sha256": "b302f010b8106fdfe85406a8fef8225f0552b66f8efbe53ba6fb092daa96eabc",
+      "shape": [
+        649
+      ]
+    },
+    "upper_to_global_node_id": {
+      "byte_count": 2596,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 649,
+      "finite_count": null,
+      "max": 1136404.0,
+      "min": 100000.0,
+      "raw_cpu_c_order_sha256": "5676efdbc3c9636e438a0e330422228dc1b02c4297f58ad38ddde80c35b180ae",
+      "shape": [
+        649
+      ]
+    },
+    "upper_tree_log_scaling": {
+      "byte_count": 7788,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1947,
+      "finite_count": 1947,
+      "max": 6.679351329803467,
+      "min": -16.494047164916992,
+      "raw_cpu_c_order_sha256": "6db588cc2d0fe3565c68246e0c6eb93b11686d111098506db6263e6a747703be",
+      "shape": [
+        649,
+        3
+      ]
+    },
+    "upper_tree_nodes": {
+      "byte_count": 15576,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 3894,
+      "finite_count": null,
+      "max": 1136404.0,
+      "min": -1.0,
+      "raw_cpu_c_order_sha256": "4432b7313a1c7623b3e959e7a31a355c835d905cbaad4802d8d56963536c91c1",
+      "shape": [
+        649,
+        6
+      ]
+    },
+    "upper_tree_xyz": {
+      "byte_count": 7788,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1947,
+      "finite_count": 1947,
+      "max": 392.82110595703125,
+      "min": -658.6450805664062,
+      "raw_cpu_c_order_sha256": "01ceb413e03103337827d200185cde3755c175e2ea3bdf8b5f923fec91534d82",
+      "shape": [
+        649,
+        3
+      ]
+    }
+  },
+  "configuration": {
+    "SPT_root_volume": 9600.0,
+    "base_focal_length_original_colmap_pixels": 721.9727142245368,
+    "conceptual_target_granularity_pixels": 2.0,
+    "min_SPT_size_effective_evaluation_default": 100,
+    "min_SPT_size_training_not_used": 256,
+    "resolved_target_granularity": 0.0027701877932439297,
+    "use_bounding_spheres": false
+  },
+  "counts": {
+    "flattened_spt_metadata_rows": 1042596,
+    "maximum_spt_size": 293657,
+    "minimum_spt_size": 147,
+    "spt_count": 24,
+    "total_hspt_metadata_rows": 1043245,
+    "upper_hierarchy_rows": 649
+  },
+  "global_node_id_contract": "serialized .dhier row index",
+  "mappings": {
+    "spt_id": "interval index into SPT_starts",
+    "spt_local_to_global": "SPT_gaussian_indices[SPT_starts[spt_id] + local_index]",
+    "spt_roots": "SPT_gaussian_indices[SPT_starts[:-1]]",
+    "upper_local_id": "row index into upper_tree_nodes",
+    "upper_local_to_global": "upper_tree_nodes[:, 5]"
+  },
+  "schema_version": "alod_selection_oracle_hspt.v1",
+  "spt_size_histogram": {
+    "10965": 1,
+    "109855": 1,
+    "1193": 1,
+    "127307": 1,
+    "147": 1,
+    "16185": 1,
+    "2103": 1,
+    "237327": 1,
+    "24961": 1,
+    "293657": 1,
+    "329": 1,
+    "3349": 1,
+    "37079": 1,
+    "371": 1,
+    "38037": 1,
+    "407": 1,
+    "4091": 1,
+    "579": 1,
+    "59853": 1,
+    "64835": 1,
+    "705": 1,
+    "715": 1,
+    "7737": 1,
+    "809": 1
+  },
+  "upper_hierarchy_depth_distribution": {
+    "0": 1,
+    "1": 2,
+    "10": 6,
+    "11": 6,
+    "12": 6,
+    "13": 8,
+    "14": 14,
+    "15": 28,
+    "16": 46,
+    "17": 70,
+    "18": 92,
+    "19": 120,
+    "2": 4,
+    "20": 96,
+    "21": 56,
+    "22": 18,
+    "23": 14,
+    "24": 18,
+    "25": 10,
+    "26": 6,
+    "3": 4,
+    "4": 4,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 4,
+    "9": 4
+  }
+}

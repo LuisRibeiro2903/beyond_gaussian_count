@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-29",
+  "status": "FINAL_CLEAN_CHECKOUT_VALIDATION_IN_PROGRESS",
+  "author_decisions": {
+    "original_contributions": "MIT; explicitly authorized by author",
+    "private_history_replacement": "explicitly authorized; complete old history backed up locally"
+  },
+  "completed_checks": {
+    "isolated_evidence_installation": true,
+    "isolated_cpu_torch_installation": "2.11.0+cpu",
+    "isolated_runtime_installation": true,
+    "isolated_full_unit_suite": {
+      "run": 220,
+      "skipped": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    "isolated_core_suite": {
+      "run": 47,
+      "failures": 0,
+      "errors": 0
+    },
+    "empirical_figures": {
+      "source_records_verified": 126,
+      "figures_generated": 5,
+      "isolated_environment": true
+    },
+    "natural_campaign_numerical_verification": {
+      "timing_processes": 18,
+      "measured_frames": 405,
+      "statistics_checked": 876
+    },
+    "gpu_smoke": {
+      "status": "PASS",
+      "packed_modes": [
+        false,
+        true
+      ],
+      "cases": [
+        "analytic Gaussian",
+        "empty scene"
+      ],
+      "GPU": "RTX 5080",
+      "torch": "2.11.0.dev20260128+cu129",
+      "gsplat": "1.5.3",
+      "CUDA_toolkit": "12.9.86",
+      "required_environment": [
+        "CUDA_HOME",
+        "PATH",
+        "TORCH_CUDA_ARCH_LIST=12.0",
+        "CPATH for Conda target headers",
+        "LIBRARY_PATH for Conda target libraries"
+      ]
+    },
+    "source_recovery_report": "release/historical_source_coverage.json",
+    "raw_camera_payload_exclusions": 183
+  },
+  "limits": [
+    "No new formal training or timing campaign was run",
+    "External dataset/model and binary-oracle availability is required for real-scene reruns",
+    "Five historical natural-association source versions were not recovered",
+    "Upstream-derived components retain their original noncommercial or research terms",
+    "No GitHub visibility change or DOI creation"
+  ]
+}

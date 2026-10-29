@@ -1,0 +1,51 @@
+{
+  "active_set_assembly_time_ms": {
+    "coefficient_of_variation": 0.09250362404965225,
+    "max_run_mean": 9.964061410425352,
+    "mean_of_run_means": 9.17948633958653,
+    "min_run_mean": 8.277921869444704,
+    "run_count": 3,
+    "sample_standard_deviation": 0.8491357533260309
+  },
+  "boundary_note": "Selection plus assembly and render call are synchronized measured stages. CUDA is nested within render call and must not be added again. Minor residual differences arise from Python timing boundaries.",
+  "cuda_rasterization_time_ms": {
+    "coefficient_of_variation": 0.2286126227422353,
+    "max_run_mean": 76.2920685261488,
+    "mean_of_run_means": 63.93795188124533,
+    "min_run_mean": 47.80151561167505,
+    "run_count": 3,
+    "sample_standard_deviation": 14.617022872338332
+  },
+  "end_to_end_frame_time_ms": {
+    "coefficient_of_variation": 0.20673473162340572,
+    "max_run_mean": 87.90510243750558,
+    "mean_of_run_means": 74.7776288736121,
+    "min_run_mean": 57.73835522638252,
+    "run_count": 3,
+    "sample_standard_deviation": 15.459133036620832
+  },
+  "render_call_time_ms": {
+    "coefficient_of_variation": 0.22844732424179112,
+    "max_run_mean": 76.49330944027149,
+    "mean_of_run_means": 64.11096713750003,
+    "min_run_mean": 47.944180858339294,
+    "run_count": 3,
+    "sample_standard_deviation": 14.645978897115283
+  },
+  "selection_plus_assembly_time_ms": {
+    "coefficient_of_variation": 0.0765276723200725,
+    "max_run_mean": 11.411792997234075,
+    "mean_of_run_means": 10.666661736112077,
+    "min_run_mean": 9.794174368043212,
+    "run_count": 3,
+    "sample_standard_deviation": 0.8162947940902407
+  },
+  "selection_time_ms": {
+    "coefficient_of_variation": 0.023815100684633148,
+    "max_run_mean": 1.5162524985985075,
+    "mean_of_run_means": 1.4871753965255465,
+    "min_run_mean": 1.4477315868087242,
+    "run_count": 3,
+    "sample_standard_deviation": 0.03541723180396512
+  }
+}

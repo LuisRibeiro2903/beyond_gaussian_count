@@ -1,0 +1,56 @@
+Beyond Gaussian Count — attribution and third-party notices
+
+Original project contributions: Copyright (c) 2026 Luis Ribeiro, MIT.
+
+CityGaussian: Yang Liu, Chuanchen Luo, Lue Fan, Naiyan Wang, Junran Peng,
+and Zhaoxiang Zhang (see the original paper for its citation).
+Source: https://github.com/Linketic/CityGaussian
+Pinned revision: e16c526f78ab01d377b13b3e6862dcc93ddbe953
+Licence: CC BY-NC-SA 4.0, with inherited third-party terms where applicable.
+The companion adapts/implements runtime cell construction, visibility and
+released Nyquist LoD behavior, adds validation and instrumentation, and uses
+gsplat as its project renderer. It is not the original CityGaussian release.
+
+A LoD of Gaussians: the original authors and contributors.
+Source: https://github.com/FelixWindisch/LoDOfGaussians
+Pinned revision: 73f547341547ae021ff036ad74fdf73a1240b450
+Inherited notices: Copyright (C) 2023–2024, Inria; GRAPHDECO research group,
+https://team.inria.fr/graphdeco; all rights reserved. Noncommercial research
+and evaluation use under the upstream licence. The original licence identifies
+Inria/TUW and the inherited 3DGS licence identifies Inria/MPII.
+The companion contains source-aligned HSPT/selection adaptations, observation
+hooks, the project topology correction, and separately identified ALoD-Exec
+materialization/residency extensions. Apply upstream conditions to inherited
+expression; MIT covers only the author's original contributions.
+
+gsplat / Nerfstudio / nerfview: Copyright 2025 the Regents of the University of
+California, Nerfstudio Team and contributors. The preserved viewer helper also
+contains Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Source: https://github.com/nerfstudio-project/gsplat (v1.5.3 examples).
+Apache-2.0. Viewer metrics, scene/runtime integration and compatibility changes
+are local modifications. The original helper's in-file notices are retained.
+The Viser dependency patch is a local modification under the Apache-2.0 terms
+of Viser; see https://github.com/nerfstudio-project/viser.
+
+COLMAP read_write_model.py: Copyright (c) 2023, ETH Zurich and UNC Chapel Hill.
+All rights reserved. Author: Johannes L. Schoenberger. Its complete BSD-style
+notice remains in the file and LICENSES/BSD-3-Clause-COLMAP.txt.
+
+MatrixCity dataset: Yixuan Li, Lihan Jiang, Linning Xu, Yuanbo Xiangli,
+Zhenzhi Wang, Dahua Lin and Bo Dai. https://city-super.github.io/matrixcity/
+Dataset terms: https://creativecommons.org/licenses/by-nc/4.0/
+Dataset-derived calibrations/poses retain those terms, including attribution
+and noncommercial use. Acquiring a CityGaussian-supplied derivative may also
+require its share-alike terms. Imagery and models are obtained separately.
+
+Campus and UrbanScene3D Sci-Art: the original dataset authors and providers.
+Campus: https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/datasets/
+UrbanScene3D: https://github.com/Linxius/UrbanScene3D
+The original imagery, models, source calibrations and pose payloads are not
+redistributed. This companion retains project-generated numerical measurements,
+counts, hashes and provenance, not a replacement copy of either dataset.
+When using the external datasets, cite their original publications and follow
+their providers' terms. No commercial rights to these datasets are granted.
+
+No upstream author's endorsement is implied. Licence texts are preserved in
+LICENSES/; dataset licence URIs above accompany the applicable metadata.

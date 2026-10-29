@@ -1,0 +1,97 @@
+{
+  "campaign_id": "ALOD-EXT-PREVALENCE-ASSOCIATION-001",
+  "checks": [
+    {
+      "detail": "PASS-ALOD-EXT-PREVALENCE-ASSOCIATION",
+      "name": "aggregate_status",
+      "passed": true
+    },
+    {
+      "detail": "PASS-ALOD-EXT-PREVALENCE-CORRECTNESS",
+      "name": "campus_correctness_status",
+      "passed": true
+    },
+    {
+      "detail": {
+        "alpha_bitwise_exact": true,
+        "conservative_filter_false_negatives": 0,
+        "cpu_cuda_filter_ids_and_order_exact": true,
+        "official_semantic_ids_and_order_exact": true,
+        "packed_projection_survivor_ids_and_order_exact": true,
+        "retained_properties_and_order_bitwise_exact": true,
+        "rgb_bitwise_exact": true
+      },
+      "name": "campus_all_correctness_criteria",
+      "passed": true
+    },
+    {
+      "detail": {
+        "complete_cells": 9,
+        "records": 9
+      },
+      "name": "campus_fresh_process_schedule",
+      "passed": true
+    },
+    {
+      "detail": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "p95": 0.0
+      },
+      "name": "campus_bounded_zero_evictions",
+      "passed": true
+    },
+    {
+      "detail": 72,
+      "name": "campus_measured_frame_count_per_mode",
+      "passed": true
+    },
+    {
+      "detail": "PASS-ALOD-EXT-PREVALENCE-CORRECTNESS",
+      "name": "sciart_correctness_status",
+      "passed": true
+    },
+    {
+      "detail": {
+        "alpha_bitwise_exact": true,
+        "conservative_filter_false_negatives": 0,
+        "cpu_cuda_filter_ids_and_order_exact": true,
+        "official_semantic_ids_and_order_exact": true,
+        "packed_projection_survivor_ids_and_order_exact": true,
+        "retained_properties_and_order_bitwise_exact": true,
+        "rgb_bitwise_exact": true
+      },
+      "name": "sciart_all_correctness_criteria",
+      "passed": true
+    },
+    {
+      "detail": {
+        "complete_cells": 9,
+        "records": 9
+      },
+      "name": "sciart_fresh_process_schedule",
+      "passed": true
+    },
+    {
+      "detail": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "p95": 0.0
+      },
+      "name": "sciart_bounded_zero_evictions",
+      "passed": true
+    },
+    {
+      "detail": 63,
+      "name": "sciart_measured_frame_count_per_mode",
+      "passed": true
+    }
+  ],
+  "generated_utc": "2026-09-23T23:26:16.383632+00:00",
+  "schema_version": 1,
+  "status": "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "command": [
+    "/home/luis/tese/backend_microbench/run_backend.py",
+    "--backend",
+    "gsplat",
+    "--input",
+    "/tmp/citygs_12camera_attribution_20260824_222048/camera_0262.pt",
+    "--input-metadata",
+    "/home/luis/tese/benchmark_artifacts/citygs_12camera_attribution_20260824_222048/validation/camera_0262_input.json",
+    "--output-dir",
+    "/home/luis/tese/benchmark_artifacts/citygs_12camera_attribution_20260824_222048/microbench/camera_0262/gsplat/repeat_01",
+    "--repeat",
+    "1",
+    "--warmup",
+    "10",
+    "--measured",
+    "100"
+  ],
+  "compiler": "g++ (conda-forge gcc 13.4.0-16) 13.4.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+  "cuda_capability": [
+    12,
+    0
+  ],
+  "cuda_device": "NVIDIA GeForce RTX 5080",
+  "cwd": "/home/luis/tese",
+  "graphdeco_commit": "59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d",
+  "gs_framework_pinned_commit": "cfc2136459dd63cc47dc3acfde55a3d72a4d8bba",
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Tue_May_27_02:21:03_PDT_2025\nCuda compilation tools, release 12.9, V12.9.86\nBuild cuda_12.9.r12.9/compiler.36037853_0",
+  "nvidia_smi": "Mon Aug 24 22:29:36 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 590.52.01              Driver Version: 591.74         CUDA Version: 13.1     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5080        On  |   00000000:01:00.0 Off |                  N/A |\n| 32%   63C    P1            228W /  360W |    2539MiB /  16303MiB |     80%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+",
+  "official_citygaussian_commit": "e16c526f78ab01d377b13b3e6862dcc93ddbe953",
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.12 | packaged by conda-forge | (main, Jan 26 2026, 23:51:32) [GCC 14.3.0]",
+  "torch": "2.11.0.dev20260128+cu129",
+  "torch_compiled_cuda": "12.9"
+}

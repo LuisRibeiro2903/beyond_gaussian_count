@@ -1,0 +1,115 @@
+{
+  "camera_392": {
+    "difference_from_12_camera_median": -0.04680174145209248,
+    "percentile_midrank": 29.166666666666668,
+    "ratio": 1.3335169181970823,
+    "representative_interpretation": "Camera 392 is representative if it lies within the central spread; use the reported percentile and full range rather than treating one view as universal."
+  },
+  "cameras_at_or_below_1_5x": 10,
+  "clean_official_oracle_replay": {
+    "canonical_historical_mean_end_to_end_ms_across_same_12_camera_means": 15.597383833058606,
+    "canonical_throughput_equivalent_from_same_12_camera_means": 64.1133160985949,
+    "clean_official_over_canonical_end_to_end_ratio": 1.648775868981892,
+    "historical_spike_interpretation": "The historical 350\u2013380 ms CUDA stalls at cameras 785 and 1047 did not reproduce without avoidable external GPU workload. Clean replay values were about 24 and 31 ms, while warmed direct calls were about 12 and 16 ms. External contention or another nonstationary trajectory/system state remains plausible; the old raw observations are preserved but cannot support a stable backend claim.",
+    "mean_cuda_rasterization_ms_across_12_camera_means": 16.03738666905297,
+    "mean_end_to_end_ms_across_12_camera_means": 25.716590083195317,
+    "mean_render_call_ms_across_12_camera_means": 17.13378680566772,
+    "throughput_equivalent_from_mean_end_to_end": 38.885404198803826
+  },
+  "conclusion": "Camera-dependent backend behavior and high-level integration behavior both contribute; neither should be treated as a complete single-cause explanation.",
+  "correlation_warning": "Positive-radii definitions differ between backends, and all correlations are descriptive associations over n=12 rather than causal evidence.",
+  "correlations": {
+    "backend_ratio_vs_graphdeco_positive_radii": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.08628950389993327,
+      "pearson_r": -0.5154853431277036,
+      "spearman_p_two_sided": 0.21702022575997731,
+      "spearman_rho": -0.3846153846153847
+    },
+    "backend_ratio_vs_gsplat_positive_radii": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.08691645182093087,
+      "pearson_r": -0.5146111031515929,
+      "spearman_p_two_sided": 0.21702022575997731,
+      "spearman_rho": -0.3846153846153847
+    },
+    "backend_ratio_vs_gsplat_tile_intersections": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.8850119078096467,
+      "pearson_r": 0.04686226629428264,
+      "spearman_p_two_sided": 0.8628980736949713,
+      "spearman_rho": -0.055944055944055944
+    },
+    "backend_ratio_vs_official_render_call": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.02568470877282618,
+      "pearson_r": 0.637707323947374,
+      "spearman_p_two_sided": 0.7621216559962992,
+      "spearman_rho": 0.0979020979020979
+    },
+    "backend_ratio_vs_selected_gaussian_count": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.04751286267904696,
+      "pearson_r": -0.5811424954960489,
+      "spearman_p_two_sided": 0.022034190932365316,
+      "spearman_rho": -0.6503496503496504
+    },
+    "canonical_render_call_vs_isolated_gsplat_gpu": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 1.2445423217414306e-11,
+      "pearson_r": 0.9956309719808945,
+      "spearman_p_two_sided": 3.089801398548709e-08,
+      "spearman_rho": 0.9790209790209792
+    },
+    "graphdeco_gpu_time_vs_selected_gaussian_count": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.10868686079139014,
+      "pearson_r": 0.4865734644075542,
+      "spearman_p_two_sided": 0.13765791634772948,
+      "spearman_rho": 0.4545454545454546
+    },
+    "gsplat_gpu_time_vs_selected_gaussian_count": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.0014069466404178774,
+      "pearson_r": 0.8099080802870201,
+      "spearman_p_two_sided": 0.010245193941127849,
+      "spearman_rho": 0.7062937062937064
+    },
+    "official_render_call_vs_isolated_graphdeco_gpu": {
+      "interpretation": "association only; no causal interpretation",
+      "n": 12,
+      "pearson_p_two_sided": 0.032386128655534564,
+      "pearson_r": 0.6175403363419373,
+      "spearman_p_two_sided": 4.191044653034231e-05,
+      "spearman_rho": 0.9090909090909092
+    }
+  },
+  "high_level_comparison_warning": "Differences are diagnostic, not accounting identities: the historical values are single trajectory encounters averaged across three campaign repetitions, while isolated values are warmed repeated calls with preassembled immutable inputs.",
+  "optional_wrapper_instrumentation": {
+    "cameras": [
+      392,
+      785,
+      1047
+    ],
+    "finding": "Screen-space tensor creation, activated attribute views, and rasterizer-object construction are sub-millisecond. First target-shaped rasterizer calls are slower than warmed calls but do not approach the historical 350\u2013380 ms stalls.",
+    "performed": true
+  },
+  "outcome": "B \u2014 the isolated backend ratio varies materially with camera",
+  "ratio_across_cameras": {
+    "coefficient_of_variation": 0.16999612843652698,
+    "count": 12,
+    "max": 2.0385285041153534,
+    "mean": 1.401102130893843,
+    "median": 1.3803186596491748,
+    "min": 1.088026388691457,
+    "std_sample": 0.23818193779612137
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "campaign_id": "ALOD-RESIDENT-BENCHMARK-001",
+  "configuration_hashes": {
+    "ALOD-HIER-FINEST-RESIDENT": "d5539de672fc16e9980da39166c098bae55e66635f8454c171a90c39e9b2b55f",
+    "ALOD-HIER-LOD-FRUSTUM": "f5e3ecacd765b42c75da35126ba868bf846f8a40f3a5b9d27b0fdab1494099ba",
+    "ALOD-HIER-LOD-RESIDENT": "979c2eafa47aee5a209285250ef06e1275c33f6751438de279ecb4e213d7d645"
+  },
+  "environment": {
+    "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+    "git_dirty": true,
+    "gpu": {
+      "available": false
+    },
+    "gsplat_version": "1.5.3",
+    "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+    "python_version": "3.12.12",
+    "timestamp_utc": "2026-08-08T15:41:06.901812+00:00",
+    "torch_cuda_version": "12.9",
+    "torch_version": "2.11.0.dev20260128+cu129"
+  },
+  "oracle": {
+    "manifest_file_sha256": "c772028aaf8f1b9e75f0edb362047418f7433c29245920debcc1c9000a8e5660",
+    "path": "/home/luis/tese/runs/alod/oracles/ALOD-RUN005-SELECTION-ORACLE-001/manifest.json",
+    "semantic_manifest_sha256": "20bb87caf1694ede18ac2d2a71cdc146c002325ddbf8f6060625f18feda70591"
+  },
+  "run_policy": {
+    "measured_complete_trajectory_repetitions_per_process": 10,
+    "measured_frames_per_configuration": 300,
+    "measured_frames_per_process": 100,
+    "process_replicates": 3,
+    "rejected_runs": [],
+    "warmup_frames_per_process": 10
+  },
+  "schema_version": 1,
+  "status": "PASS-ALOD-RESIDENT-BENCHMARK",
+  "trajectory": {
+    "camera_count": 10,
+    "camera_ids": [
+      "json_000000",
+      "json_000002",
+      "json_000004",
+      "json_000006",
+      "json_000007",
+      "json_000008",
+      "json_000009",
+      "json_000010",
+      "json_000012",
+      "json_000014"
+    ],
+    "id": "alod_run005_frozen_evaluation_v1",
+    "path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/evaluation-cameras.json",
+    "resolution": [
+      960,
+      540
+    ],
+    "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d",
+    "weak_lod_oracle": true
+  }
+}

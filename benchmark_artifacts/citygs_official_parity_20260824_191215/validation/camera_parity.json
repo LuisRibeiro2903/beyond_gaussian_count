@@ -1,0 +1,151 @@
+{
+  "camera_count": 12,
+  "frames": [
+    {
+      "camera_id": "viser_000000",
+      "camera_position_max_abs_difference": 4.76837158203125e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 0,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000131",
+      "camera_position_max_abs_difference": 0.0,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 131,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000262",
+      "camera_position_max_abs_difference": 4.76837158203125e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 262,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000392",
+      "camera_position_max_abs_difference": 2.384185791015625e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 392,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000523",
+      "camera_position_max_abs_difference": 4.76837158203125e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 523,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000654",
+      "camera_position_max_abs_difference": 2.384185791015625e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 654,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000785",
+      "camera_position_max_abs_difference": 5.960464477539063e-08,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 785,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_000916",
+      "camera_position_max_abs_difference": 2.384185791015625e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 916,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_001047",
+      "camera_position_max_abs_difference": 2.384185791015625e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 1047,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_001177",
+      "camera_position_max_abs_difference": 2.384185791015625e-07,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 1177,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_001308",
+      "camera_position_max_abs_difference": 1.430511474609375e-06,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 1308,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    },
+    {
+      "camera_id": "viser_001439",
+      "camera_position_max_abs_difference": 1.9073486328125e-06,
+      "fov_x_abs_difference": 3.875306275880064e-08,
+      "fov_y_abs_difference": 3.021018823989863e-08,
+      "frame_index": 1439,
+      "full_projection_max_abs_difference": 0.0,
+      "projection_max_abs_difference": 0.0,
+      "within_tolerance": true,
+      "world_view_max_abs_difference": 0.0
+    }
+  ],
+  "max_differences": {
+    "camera_position_max_abs_difference": 1.9073486328125e-06,
+    "fov_x_abs_difference": 3.875306275880064e-08,
+    "fov_y_abs_difference": 3.021018823989863e-08,
+    "full_projection_max_abs_difference": 0.0,
+    "projection_max_abs_difference": 0.0,
+    "world_view_max_abs_difference": 0.0
+  },
+  "status": "pass",
+  "tolerances": {
+    "derived_camera_position": 5e-06,
+    "matrix_and_fov": 1e-06,
+    "note": "The official MiniCam recomputes camera_center by a float32 GPU inverse; the project comparison recomputes it on CPU from the identical world-view matrix."
+  }
+}

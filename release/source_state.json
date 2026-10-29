@@ -1,0 +1,50 @@
+{
+  "created_date": "2026-10-29",
+  "classification": "thesis companion packaging; no new experimental result",
+  "workspace": {
+    "base_commit": "4c0d5b1f83b86f95359eea7214c6ad00ecba2b98",
+    "tracked_changes": [
+      "M .gitignore",
+      " M comandos.md",
+      " M duplicate_gsplat_checkpoint.py",
+      " M thesis_latex/conference_paper/paper.pdf",
+      " M thesis_latex/dissertation.tex",
+      " M thesis_notes/EXPERIMENT_REGISTRY.md",
+      " M thesis_notes/README.md",
+      " M thesis_notes/REPRODUCTION_MATRIX.md",
+      " M thesis_notes/topics/baselines_and_cross_method.md",
+      " M thesis_notes/topics/citygaussian.md",
+      " M tools/benchmark_gsplat_camera_path.py",
+      " M tools/viewer_metrics_dashboard.py"
+    ]
+  },
+  "implementation": {
+    "base_commit": "d9cdd17c0e6a7cc3222a1ac044cccd51f5db1d22",
+    "tracked_changes": [
+      "M .gitignore",
+      " M benchmarks/benchmark_real_scene.py",
+      " M block_manager.py",
+      " M docs/ARCHITECTURE.md",
+      " M docs/BENCHMARK_PROTOCOL.md",
+      " M docs/EXPERIMENT_LADDER.md",
+      " M docs/PROJECT_STATE.md",
+      " M docs/papers/citygaussian-v1-method-card.md",
+      " M docs/runtime_notes.md",
+      " M gaussian_cleanup.py",
+      " M scene_runtime/__init__.py",
+      " M scene_runtime/citygaussian.py",
+      " M scene_runtime/loader.py",
+      " M scene_runtime/renderer.py",
+      " M scene_runtime/types.py",
+      " M scripts/alod/integration_check_topology.py",
+      " M scripts/alod/monitor_capped_training.py",
+      " M scripts/alod/run_synthetic_strong_lod_ext_campaign.py",
+      " M simple_viewer.py",
+      " M specs/004-citygaussian-lod.md",
+      " M unit_tests/test_block_manager.py",
+      " M unit_tests/test_citygaussian_assets.py",
+      " M unit_tests/test_gaussian_cleanup.py"
+    ]
+  },
+  "note": "Working files were copied, including untracked source. Historical manifests retain the executed revisions; this export does not make dirty historical runtimes clean snapshots."
+}

@@ -1,0 +1,317 @@
+{
+  "aggregation": {
+    "covariance": "weighted mixture moment matching",
+    "opacity": "clip(sum child projected mass / parent area, 1e-4, 0.999)",
+    "position_and_sh": "normalized weighted mean",
+    "weights": "activated_opacity * (sx*sy + sx*sz + sy*sz)"
+  },
+  "artifact_role": "correctness-smoke",
+  "covariance_eigendecomposition_max_absolute_reconstruction_error": 0.0,
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "file_bytes": 12075032,
+  "grid": {
+    "leaf_count": 2048,
+    "nx": 64,
+    "ny": 32
+  },
+  "hierarchy_rows": 4095,
+  "maximum_depth": 11,
+  "path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/smoke.dhier",
+  "root_global_node_id": 100000,
+  "sha256": "1b5d91c74c3b6c058254c1485c8b71b01f28de8d7d38c473fba384257ddc6691",
+  "skybox_rows": 100000,
+  "split_axes": [
+    "x",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y"
+  ],
+  "structure": {
+    "by_depth": [
+      {
+        "depth": 0,
+        "max_extent_6sigma": 110.8378465326713,
+        "median_extent_6sigma": 110.8378465326713,
+        "median_parent_child_extent_ratio": 2.00072610198439,
+        "median_scale": [
+          18.472974422111886,
+          9.233135112192391,
+          0.014
+        ],
+        "min_extent_6sigma": 110.8378465326713,
+        "node_count": 1,
+        "position_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 1,
+        "max_extent_6sigma": 55.398810673154344,
+        "median_extent_6sigma": 55.398810673154344,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          9.233135112192391,
+          9.233135112192391,
+          0.014
+        ],
+        "min_extent_6sigma": 55.398810673154344,
+        "node_count": 2,
+        "position_max": [
+          16.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          -16.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 2,
+        "max_extent_6sigma": 55.398810673154344,
+        "median_extent_6sigma": 55.398810673154344,
+        "median_parent_child_extent_ratio": 2.002911279507996,
+        "median_scale": [
+          4.609857264601584,
+          9.233135112192391,
+          0.014
+        ],
+        "min_extent_6sigma": 55.398810673154344,
+        "node_count": 4,
+        "position_max": [
+          24.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          -24.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 3,
+        "max_extent_6sigma": 27.659143587609506,
+        "median_extent_6sigma": 27.659143587609506,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          4.609857264601584,
+          4.609857264601584,
+          0.014
+        ],
+        "min_extent_6sigma": 27.659143587609506,
+        "node_count": 8,
+        "position_max": [
+          24.0,
+          8.0,
+          0.0
+        ],
+        "position_min": [
+          -24.0,
+          -8.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 4,
+        "max_extent_6sigma": 27.659143587609506,
+        "median_extent_6sigma": 27.659143587609506,
+        "median_parent_child_extent_ratio": 2.011756447600218,
+        "median_scale": [
+          2.29145892391725,
+          4.609857264601584,
+          0.014
+        ],
+        "min_extent_6sigma": 27.659143587609506,
+        "node_count": 16,
+        "position_max": [
+          28.0,
+          8.0,
+          0.0
+        ],
+        "position_min": [
+          -28.0,
+          -8.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 5,
+        "max_extent_6sigma": 13.748753543503499,
+        "median_extent_6sigma": 13.748753543503499,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          2.29145892391725,
+          2.29145892391725,
+          0.014
+        ],
+        "min_extent_6sigma": 13.748753543503499,
+        "node_count": 32,
+        "position_max": [
+          28.0,
+          12.0,
+          0.0
+        ],
+        "position_min": [
+          -28.0,
+          -12.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 6,
+        "max_extent_6sigma": 13.748753543503499,
+        "median_extent_6sigma": 13.748753543503499,
+        "median_parent_child_extent_ratio": 2.048900734058743,
+        "median_scale": [
+          1.1183845492494966,
+          2.29145892391725,
+          0.014
+        ],
+        "min_extent_6sigma": 13.748753543503499,
+        "node_count": 64,
+        "position_max": [
+          30.0,
+          12.0,
+          0.0
+        ],
+        "position_min": [
+          -30.0,
+          -12.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 7,
+        "max_extent_6sigma": 6.71030729549698,
+        "median_extent_6sigma": 6.71030729549698,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          1.1183845492494966,
+          1.1183845492494966,
+          0.014
+        ],
+        "min_extent_6sigma": 6.71030729549698,
+        "node_count": 128,
+        "position_max": [
+          30.0,
+          14.0,
+          0.0
+        ],
+        "position_min": [
+          -30.0,
+          -14.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 8,
+        "max_extent_6sigma": 6.71030729549698,
+        "median_extent_6sigma": 6.71030729549698,
+        "median_parent_child_extent_ratio": 2.23327007211527,
+        "median_scale": [
+          0.5007833863058957,
+          1.1183845492494966,
+          0.014
+        ],
+        "min_extent_6sigma": 6.71030729549698,
+        "node_count": 256,
+        "position_max": [
+          31.0,
+          14.0,
+          0.0
+        ],
+        "position_min": [
+          -31.0,
+          -14.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 9,
+        "max_extent_6sigma": 3.004700317835374,
+        "median_extent_6sigma": 3.004700317835374,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.5007833863058957,
+          0.5007833863058957,
+          0.014
+        ],
+        "min_extent_6sigma": 3.004700317835374,
+        "node_count": 512,
+        "position_max": [
+          31.0,
+          15.0,
+          0.0
+        ],
+        "position_min": [
+          -31.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 10,
+        "max_extent_6sigma": 3.004700317835374,
+        "median_extent_6sigma": 3.004700317835374,
+        "median_parent_child_extent_ratio": 17.885120939496275,
+        "median_scale": [
+          0.028,
+          0.5007833863058957,
+          0.014
+        ],
+        "min_extent_6sigma": 3.004700317835374,
+        "node_count": 1024,
+        "position_max": [
+          31.5,
+          15.0,
+          0.0
+        ],
+        "position_min": [
+          -31.5,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 11,
+        "max_extent_6sigma": 0.168,
+        "median_extent_6sigma": 0.168,
+        "median_parent_child_extent_ratio": null,
+        "median_scale": [
+          0.028,
+          0.028,
+          0.014
+        ],
+        "min_extent_6sigma": 0.168,
+        "node_count": 2048,
+        "position_max": [
+          31.5,
+          15.5,
+          0.0
+        ],
+        "position_min": [
+          -31.5,
+          -15.5,
+          0.0
+        ]
+      }
+    ]
+  },
+  "total_rows": 104095
+}

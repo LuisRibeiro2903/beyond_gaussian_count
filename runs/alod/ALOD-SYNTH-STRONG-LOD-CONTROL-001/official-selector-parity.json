@@ -1,0 +1,169 @@
+{
+  "asset_sha256": "c74f075421b16583bebb2ead0f457e59f705e1276730ce28c6e06166de39da1a",
+  "camera_count": 25,
+  "cameras": [
+    {
+      "camera_index": 0,
+      "exact_ordered_ids": true,
+      "official_rows": 25137,
+      "reference_rows": 25137
+    },
+    {
+      "camera_index": 1,
+      "exact_ordered_ids": true,
+      "official_rows": 12697,
+      "reference_rows": 12697
+    },
+    {
+      "camera_index": 2,
+      "exact_ordered_ids": true,
+      "official_rows": 7129,
+      "reference_rows": 7129
+    },
+    {
+      "camera_index": 3,
+      "exact_ordered_ids": true,
+      "official_rows": 3993,
+      "reference_rows": 3993
+    },
+    {
+      "camera_index": 4,
+      "exact_ordered_ids": true,
+      "official_rows": 2049,
+      "reference_rows": 2049
+    },
+    {
+      "camera_index": 5,
+      "exact_ordered_ids": true,
+      "official_rows": 1057,
+      "reference_rows": 1057
+    },
+    {
+      "camera_index": 6,
+      "exact_ordered_ids": true,
+      "official_rows": 889,
+      "reference_rows": 889
+    },
+    {
+      "camera_index": 7,
+      "exact_ordered_ids": true,
+      "official_rows": 513,
+      "reference_rows": 513
+    },
+    {
+      "camera_index": 8,
+      "exact_ordered_ids": true,
+      "official_rows": 257,
+      "reference_rows": 257
+    },
+    {
+      "camera_index": 9,
+      "exact_ordered_ids": true,
+      "official_rows": 129,
+      "reference_rows": 129
+    },
+    {
+      "camera_index": 10,
+      "exact_ordered_ids": true,
+      "official_rows": 129,
+      "reference_rows": 129
+    },
+    {
+      "camera_index": 11,
+      "exact_ordered_ids": true,
+      "official_rows": 65,
+      "reference_rows": 65
+    },
+    {
+      "camera_index": 12,
+      "exact_ordered_ids": true,
+      "official_rows": 33,
+      "reference_rows": 33
+    },
+    {
+      "camera_index": 13,
+      "exact_ordered_ids": true,
+      "official_rows": 33,
+      "reference_rows": 33
+    },
+    {
+      "camera_index": 14,
+      "exact_ordered_ids": true,
+      "official_rows": 17,
+      "reference_rows": 17
+    },
+    {
+      "camera_index": 15,
+      "exact_ordered_ids": true,
+      "official_rows": 9,
+      "reference_rows": 9
+    },
+    {
+      "camera_index": 16,
+      "exact_ordered_ids": true,
+      "official_rows": 9,
+      "reference_rows": 9
+    },
+    {
+      "camera_index": 17,
+      "exact_ordered_ids": true,
+      "official_rows": 5,
+      "reference_rows": 5
+    },
+    {
+      "camera_index": 18,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 19,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 20,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 21,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 22,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 23,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    },
+    {
+      "camera_index": 24,
+      "exact_ordered_ids": true,
+      "official_rows": 4,
+      "reference_rows": 4
+    }
+  ],
+  "exact_ordered_selected_id_parity_all_cameras": true,
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "official_native_loader_exact_field_hash_parity": true,
+  "official_native_loader_field_parity": {
+    "activated_opacities": true,
+    "log_scales": true,
+    "nodes": true,
+    "positions": true,
+    "rotations": true,
+    "sh_coefficients": true
+  },
+  "official_reference_hspt_counts_exact": true,
+  "status": "PASS-SYNTH-OFFICIAL-SELECTOR-PARITY"
+}

@@ -1,0 +1,296 @@
+{
+  "arrays": {
+    "candidate_spt_distances": {
+      "byte_count": 92,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 23,
+      "finite_count": 23,
+      "max": 31.262733459472656,
+      "min": 4.453657150268555,
+      "raw_cpu_c_order_sha256": "8695cdb147951bafd826fb091043a33a02657fcfa038611a4cd9694ea3e2c04b",
+      "shape": [
+        23
+      ]
+    },
+    "candidate_spt_ids": {
+      "byte_count": 92,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 23,
+      "finite_count": null,
+      "max": 22.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "6051e1e7a7e0ffea8c6dd3d74a5b40ebe439fbdc062be67bf3f751a38d7d8307",
+      "shape": [
+        23
+      ]
+    },
+    "candidate_spt_root_global_node_ids": {
+      "byte_count": 92,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 23,
+      "finite_count": null,
+      "max": 765430.0,
+      "min": 100444.0,
+      "raw_cpu_c_order_sha256": "683080010657e3f230cabcb88dfa2350d406e50272794c1458338e421f3e94dc",
+      "shape": [
+        23
+      ]
+    },
+    "candidate_spt_upper_local_ids": {
+      "byte_count": 92,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 23,
+      "finite_count": null,
+      "max": 1278.0,
+      "min": 444.0,
+      "raw_cpu_c_order_sha256": "0b89b2525c0b78033e122632ea832825075c5ff1f850bd57215ba99cd9a952e5",
+      "shape": [
+        23
+      ]
+    },
+    "coarse_cut_global_node_ids": {
+      "byte_count": 620,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 155,
+      "finite_count": null,
+      "max": 906364.0,
+      "min": 100029.0,
+      "raw_cpu_c_order_sha256": "507e0be6fe8cdba43bcc34f41c035ff0a7759fd2ae2ae08171d6260535c5e635",
+      "shape": [
+        155
+      ]
+    },
+    "coarse_cut_upper_local_ids": {
+      "byte_count": 620,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 155,
+      "finite_count": null,
+      "max": 1290.0,
+      "min": 29.0,
+      "raw_cpu_c_order_sha256": "b041eb2c191246753bf37eccaf79be2d25ec0e774cedbfb4b6261e42cd59f75b",
+      "shape": [
+        155
+      ]
+    },
+    "cut_leaf_global_node_ids": {
+      "byte_count": 620,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 155,
+      "finite_count": null,
+      "max": 906364.0,
+      "min": 100029.0,
+      "raw_cpu_c_order_sha256": "507e0be6fe8cdba43bcc34f41c035ff0a7759fd2ae2ae08171d6260535c5e635",
+      "shape": [
+        155
+      ]
+    },
+    "cut_leaf_upper_local_ids": {
+      "byte_count": 620,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 155,
+      "finite_count": null,
+      "max": 1290.0,
+      "min": 29.0,
+      "raw_cpu_c_order_sha256": "b041eb2c191246753bf37eccaf79be2d25ec0e774cedbfb4b6261e42cd59f75b",
+      "shape": [
+        155
+      ]
+    },
+    "upper_render_global_node_ids": {
+      "byte_count": 532,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 133,
+      "finite_count": null,
+      "max": 906364.0,
+      "min": 100029.0,
+      "raw_cpu_c_order_sha256": "f5f52b95a493f46083781ec71ed998ccf83721a2202a2df9744ee4eff02f147c",
+      "shape": [
+        133
+      ]
+    }
+  },
+  "camera_stable_id": "eval-0010-img-000501-cam-0001",
+  "counts": {
+    "candidate_spts": 23,
+    "coarse_cut": 155,
+    "cut_leaf_nodes": 155,
+    "emitted_upper_nodes": 133
+  },
+  "frustum": {
+    "active_planes": [
+      "left",
+      "right",
+      "bottom",
+      "top"
+    ],
+    "bounding_sphere_construction": false,
+    "bounds": "3 * exp(max(log_scale_components))",
+    "inactive_planes": [
+      "near",
+      "far"
+    ],
+    "planes": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 2.038485527038574,
+      "min": -0.9228547811508179,
+      "raw_cpu_c_order_sha256": "61f010d5b445eae1151f1f8710d041699f37d9ab3056cd5947b1e347a06d34d5",
+      "shape": [
+        4,
+        4
+      ],
+      "values": [
+        [
+          -0.8958747386932373,
+          -0.31486693024635315,
+          -0.313476026058197,
+          2.038485527038574
+        ],
+        [
+          0.9417621493339539,
+          -0.12172462791204453,
+          -0.3134758174419403,
+          0.6287577152252197
+        ],
+        [
+          -0.06978578120470047,
+          0.6639720797538757,
+          -0.7444939017295837,
+          0.18855294585227966
+        ],
+        [
+          0.09699533134698868,
+          -0.9228547811508179,
+          0.372734397649765,
+          1.3930245637893677
+        ]
+      ]
+    },
+    "scale_derived_bounds": {
+      "byte_count": 5236,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1309,
+      "finite_count": 1309,
+      "max": 235.42579650878906,
+      "min": 0.7329363226890564,
+      "raw_cpu_c_order_sha256": "4b1a9bad0a23ced0bc8588998bb6423ae7513880eaa3e7c9075c36ce8f6830a4",
+      "shape": [
+        1309
+      ]
+    }
+  },
+  "identity_summaries": {
+    "candidate_spt_root_global_node_ids": {
+      "canonical_encoding": "little-endian signed int64, contiguous C order",
+      "count": 23,
+      "max": 765430,
+      "min": 100444,
+      "ordered_sha256": "0193ccb725fef4de20b6a8e5ce567ff6ac468fb3f914f2464e13643e1e4544e6",
+      "runtime_array": {
+        "byte_count": 92,
+        "device_during_official_execution": "cuda:0",
+        "dtype": "int32",
+        "element_count": 23,
+        "finite_count": null,
+        "max": 765430.0,
+        "min": 100444.0,
+        "raw_cpu_c_order_sha256": "683080010657e3f230cabcb88dfa2350d406e50272794c1458338e421f3e94dc",
+        "shape": [
+          23
+        ]
+      },
+      "sorted_sha256": "a22ed72be4cac18da20f93b9f86fc5e82b716d176bcc701a28aba91d6fff63e5",
+      "unique_count": 23
+    },
+    "coarse_cut_global_node_ids": {
+      "canonical_encoding": "little-endian signed int64, contiguous C order",
+      "count": 155,
+      "max": 906364,
+      "min": 100029,
+      "ordered_sha256": "72d43b9db961c27b6142a86fba4f22b621841a818c75d779da9b2baab935ebaf",
+      "runtime_array": {
+        "byte_count": 620,
+        "device_during_official_execution": "cuda:0",
+        "dtype": "int32",
+        "element_count": 155,
+        "finite_count": null,
+        "max": 906364.0,
+        "min": 100029.0,
+        "raw_cpu_c_order_sha256": "507e0be6fe8cdba43bcc34f41c035ff0a7759fd2ae2ae08171d6260535c5e635",
+        "shape": [
+          155
+        ]
+      },
+      "sorted_sha256": "2531c41470761986f49cb5faa727243f4b6ce9e39230c9a695fd0fad3484275b",
+      "unique_count": 155
+    },
+    "cut_leaf_global_node_ids": {
+      "canonical_encoding": "little-endian signed int64, contiguous C order",
+      "count": 155,
+      "max": 906364,
+      "min": 100029,
+      "ordered_sha256": "72d43b9db961c27b6142a86fba4f22b621841a818c75d779da9b2baab935ebaf",
+      "runtime_array": {
+        "byte_count": 620,
+        "device_during_official_execution": "cuda:0",
+        "dtype": "int32",
+        "element_count": 155,
+        "finite_count": null,
+        "max": 906364.0,
+        "min": 100029.0,
+        "raw_cpu_c_order_sha256": "507e0be6fe8cdba43bcc34f41c035ff0a7759fd2ae2ae08171d6260535c5e635",
+        "shape": [
+          155
+        ]
+      },
+      "sorted_sha256": "2531c41470761986f49cb5faa727243f4b6ce9e39230c9a695fd0fad3484275b",
+      "unique_count": 155
+    },
+    "upper_render_global_node_ids": {
+      "canonical_encoding": "little-endian signed int64, contiguous C order",
+      "count": 133,
+      "max": 906364,
+      "min": 100029,
+      "ordered_sha256": "75b579928fea12cfae986c158d35cd79380d163d48f94ea149f6951a4a9422f9",
+      "runtime_array": {
+        "byte_count": 532,
+        "device_during_official_execution": "cuda:0",
+        "dtype": "int32",
+        "element_count": 133,
+        "finite_count": null,
+        "max": 906364.0,
+        "min": 100029.0,
+        "raw_cpu_c_order_sha256": "f5f52b95a493f46083781ec71ed998ccf83721a2202a2df9744ee4eff02f147c",
+        "shape": [
+          133
+        ]
+      },
+      "sorted_sha256": "6e317cf3dd19cf9f31cb026c705a3dcb6cc25e2f019fbcfbe96d5c7a9e2fadd8",
+      "unique_count": 133
+    }
+  },
+  "lod": {
+    "camera_center": [
+      0.49687501788139343,
+      2.5714282989501953,
+      2.5
+    ],
+    "distance_multiplier": 1.0,
+    "predicate": "min_distance_squared > squared_camera_distance * distance_multiplier"
+  },
+  "official_semantic_output": "coarse_cut plus its SPT candidates and emitted upper global rows",
+  "schema_version": "alod_selection_oracle_upper_traversal.v1"
+}

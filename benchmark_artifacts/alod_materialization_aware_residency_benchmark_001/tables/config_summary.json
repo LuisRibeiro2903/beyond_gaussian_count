@@ -1,0 +1,3090 @@
+{
+  "asset": {
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "campaign_id": "ALOD-MATERIALIZATION-AWARE-RESIDENCY-BENCHMARK-001",
+  "comparisons": {
+    "cache_525k_vs_160k": {
+      "eviction_change": 0,
+      "frame_time_change_ms_160k_minus_525k": -0.4473398499999348,
+      "h2d_bytes_change_160k_minus_525k": 0.0,
+      "hit_rate_change": 0.0,
+      "persistent_full_property_bytes_saved": 33580000.0,
+      "persistent_total_gpu_bytes_saved": 33580000.0
+    },
+    "previous_reuse_vs_160k": {
+      "frame_time_change_ms_160k_minus_previous": -0.8624796366624814,
+      "h2d_bytes_change_160k_minus_previous": -454202160.0,
+      "hit_rate_change": 0.8744254751619297,
+      "persistent_total_gpu_bytes_change_160k_minus_previous": 12988569.2
+    }
+  },
+  "configuration_file_sha256": {
+    "ALOD-HIER-LOD-FRUSTUM": "f5e3ecacd765b42c75da35126ba868bf846f8a40f3a5b9d27b0fdab1494099ba",
+    "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION": "419c1017e1a705d8b9507a7a58d17864133a0b8a9f8286dafcb949eef9098b38",
+    "ALOD-HOST-BOUNDED-CACHE-REDUCED": "691bfcd70d4bacfc1fef46ef194854c71f8178fba204a66413aaeb87284ed487",
+    "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION": "6550230bf31e009156f193e554dc5dc219c0d564fb1f2c9a5a2566ed7818995d"
+  },
+  "configurations": [
+    {
+      "bottleneck_decomposition": {
+        "fraction_of_mean_frame": {
+          "assembly": 0.02025233900130485,
+          "other": 0.2472567248059269,
+          "pre_materialization_filter": 0.0,
+          "rasterization": 0.11866790715526152,
+          "residency_gather_h2d": 0.0,
+          "semantic_selection": 0.6138230290375067
+        },
+        "mean_ms": {
+          "assembly": 0.21685236999852955,
+          "other": 2.6475068765531162,
+          "pre_materialization_filter": 0.0,
+          "rasterization": 1.2706392534573874,
+          "residency_gather_h2d": 0.0,
+          "semantic_selection": 6.572523726661075
+        },
+        "ranking": [
+          "semantic_selection",
+          "other",
+          "rasterization",
+          "assembly",
+          "pre_materialization_filter",
+          "residency_gather_h2d"
+        ]
+      },
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3201.309758999969,
+          "mean": 3130.752405666688,
+          "median": 3118.0372710000483,
+          "min": 3072.9101870000477,
+          "p10": 3081.935603800048,
+          "p90": 3184.6552613999847,
+          "p95": 3192.982510199977,
+          "std": 53.18438686703598
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "first_frame_h2d_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "first_frame_raster_ms": {
+          "max": 62167.5234375,
+          "mean": 20935.05283610026,
+          "median": 318.98175048828125,
+          "min": 318.6533203125,
+          "p10": 318.71900634765626,
+          "p90": 49797.81510009766,
+          "p95": 55982.669268798825,
+          "std": 29155.75956763302
+        },
+        "first_frame_total_ms": {
+          "max": 62406.555432,
+          "mean": 21113.84988366664,
+          "median": 468.17387299995517,
+          "min": 466.82034599996314,
+          "p10": 467.09105139996154,
+          "p90": 50018.8791202,
+          "p95": 56212.71727609999,
+          "std": 29198.352111994598
+        },
+        "gpu_cache_allocation_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "host_store_initialization_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2957.3109300000624,
+          "mean": 2920.0873970000503,
+          "median": 2917.620247000059,
+          "min": 2885.3310140000303,
+          "p10": 2891.788860600036,
+          "p90": 2949.3727934000617,
+          "p95": 2953.341861700062,
+          "std": 29.4374160854828
+        },
+        "skybox_transfer_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        }
+      },
+      "cold_warm_steady_residency": {
+        "combined_warmup_and_measured": {
+          "evictions": 0.0,
+          "h2d_bytes": 0.0,
+          "hit_or_reuse_rate": null,
+          "hits": 0.0,
+          "requests": 0.0
+        },
+        "steady_measured": {
+          "capacity_rows": null,
+          "evictions": null,
+          "h2d_bytes": 0.0,
+          "h2d_rows": 0.0,
+          "hit_or_reuse_rate": null,
+          "hits": null,
+          "loads": null,
+          "misses": null,
+          "occupancy_rows": {
+            "max": null,
+            "mean": null,
+            "median": null,
+            "min": null,
+            "p10": null,
+            "p90": null,
+            "p95": null,
+            "std": null
+          },
+          "requests": null,
+          "zero_transfer_frames": 0
+        },
+        "warmup_including_cold": {
+          "evictions": 0,
+          "frames": 30,
+          "h2d_bytes": 0,
+          "h2d_rows": 0,
+          "hit_or_reuse_rate": null,
+          "hits": 0,
+          "loads": 0,
+          "misses": 0,
+          "requests": 0,
+          "zero_transfer_frames": 0
+        }
+      },
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "counts": {
+        "backend_survivors": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "candidate_spt_count": {
+          "max": 23.0,
+          "mean": 22.4,
+          "median": 22.0,
+          "min": 22.0,
+          "p10": 22.0,
+          "p90": 23.0,
+          "p95": 23.0,
+          "std": 0.4898979485566356
+        },
+        "materialization_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "materialization_skybox_rows": {
+          "max": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "min": 100000.0,
+          "p10": 100000.0,
+          "p90": 100000.0,
+          "p95": 100000.0,
+          "std": 0.0
+        },
+        "materialization_total_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        },
+        "ratios_of_means": {
+          "materialized_over_backend": 34.54148523427026,
+          "semantic_over_backend": 34.54148523427026,
+          "semantic_over_materialized": 1.0
+        },
+        "semantic_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "semantic_skybox_rows": {
+          "max": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "min": 100000.0,
+          "p10": 100000.0,
+          "p90": 100000.0,
+          "p95": 100000.0,
+          "std": 0.0
+        },
+        "semantic_total_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps": 93.3922880411322,
+      "frame_count": 300,
+      "label": "Resident",
+      "memory": {
+        "compact_culling_gpu_bytes": 0.0,
+        "frame_local_index_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "frame_local_property_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 8799992.0,
+        "host_pinned_bytes": null,
+        "host_property_store_bytes": null,
+        "peak_frame_total_torch_allocated_bytes": 241968640.0,
+        "peak_frame_total_torch_reserved_bytes": 301989888.0,
+        "peak_process_rss_bytes": 1684520960.0,
+        "peak_whole_device_vram_bytes": 2040705024.0,
+        "persistent_dynamic_property_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 101199908.0,
+          "mean": 101199908.0,
+          "median": 101199908.0,
+          "min": 101199908.0,
+          "p10": 101199908.0,
+          "p90": 101199908.0,
+          "p95": 101199908.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": null,
+        "persistent_total_gpu_bytes": 109999900.0,
+        "process_rss_bytes": {
+          "max": 1685213184.0,
+          "mean": 1675212540.5866666,
+          "median": 1672769536.0,
+          "min": 1661177856.0,
+          "p10": 1669832704.0,
+          "p90": 1685213184.0,
+          "p95": 1685213184.0,
+          "std": 6434447.739667258
+        },
+        "rasterizer_temporary_peak_increment_bytes": 62436352.0,
+        "residency_maps_gpu_bytes": null,
+        "residency_metadata_cpu_bytes": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "selected_materialization_index_bytes": {
+          "max": 4792240.0,
+          "mean": 4658016.0,
+          "median": 4769244.0,
+          "min": 3714856.0,
+          "p10": 4595502.400000002,
+          "p90": 4787840.8,
+          "p95": 4792240.0,
+          "std": 315701.8314802751
+        },
+        "selection_metadata_gpu_bytes": 8799992.0,
+        "steady_torch_allocated_bytes": {
+          "max": 198733312.0,
+          "mean": 193395502.08,
+          "median": 194494208.0,
+          "min": 177658880.0,
+          "p10": 188914892.8,
+          "p90": 198150656.0,
+          "p95": 198733312.0,
+          "std": 5724155.806954314
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_ms": [
+        10.6824129000006,
+        10.726277620010478,
+        10.713876159999245
+      ],
+      "replicate_mean_std_ms": 0.018462714985425826,
+      "residency": {
+        "capacity_rows": null,
+        "evictions": null,
+        "h2d_bytes": 0.0,
+        "h2d_rows": 0.0,
+        "hit_or_reuse_rate": null,
+        "hits": null,
+        "loads": null,
+        "misses": null,
+        "occupancy_rows": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "requests": null,
+        "zero_transfer_frames": 0
+      },
+      "timing": {
+        "assembly_ms": {
+          "max": 0.3026140000201849,
+          "mean": 0.21685236999852955,
+          "median": 0.21683199997823976,
+          "min": 0.1523060000181431,
+          "p10": 0.19067319999521715,
+          "p90": 0.24211790000663316,
+          "p95": 0.2524358500465951,
+          "std": 0.02128099034332019
+        },
+        "cache_management_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "camera_preparation_ms": {
+          "max": 1.3066710000657622,
+          "mean": 0.5155308400018536,
+          "median": 0.46928749998187413,
+          "min": 0.40658000000348693,
+          "p10": 0.4361499999845364,
+          "p90": 0.5725152999275459,
+          "p95": 0.9722650000583146,
+          "std": 0.15840395615702624
+        },
+        "filter_compaction_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_culling_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_id_output_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_metadata_index_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_retained_index_d2h_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_selected_id_h2d_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "filter_total_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "full_property_h2d_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "gpu_slot_index_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "host_gather_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "rasterization_ms": {
+          "max": 2.3473598957061768,
+          "mean": 1.2706392534573874,
+          "median": 1.219760000705719,
+          "min": 0.9783679842948914,
+          "p10": 1.0900319576263429,
+          "p90": 1.4915136098861697,
+          "p95": 1.6936000108718874,
+          "std": 0.20504578859018205
+        },
+        "residency_lookup_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "selected_gpu_gather_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "selected_id_preparation_ms": {
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "p95": 0.0,
+          "std": 0.0
+        },
+        "semantic_selection_ms": {
+          "max": 8.526556999981949,
+          "mean": 6.572523726661075,
+          "median": 6.55777549997083,
+          "min": 4.98203500001182,
+          "p10": 6.191531999922972,
+          "p90": 7.107319500016729,
+          "p95": 7.620852050075656,
+          "std": 0.5993584528580846
+        },
+        "spt_cut_ms": {
+          "max": 6.381897999972352,
+          "mean": 5.03589293666361,
+          "median": 5.078882000020712,
+          "min": 3.659543999901871,
+          "p10": 4.7934665000184395,
+          "p90": 5.472688199995446,
+          "p95": 5.597191899988729,
+          "std": 0.4573406139206784
+        },
+        "total_frame_ms": {
+          "max": 13.186746999963361,
+          "mean": 10.707522226670108,
+          "median": 10.772935499971936,
+          "min": 8.42561799993291,
+          "p10": 10.156427900062683,
+          "p90": 11.561218100018777,
+          "p95": 11.834780499981434,
+          "std": 0.7886656536423596
+        },
+        "upper_traversal_ms": {
+          "max": 2.5866849999829356,
+          "mean": 1.2072650199922919,
+          "median": 1.1057775000153924,
+          "min": 1.0148369999569695,
+          "p10": 1.053745599983813,
+          "p90": 1.3750031999506973,
+          "p95": 1.663287650040957,
+          "std": 0.2760291369398639
+        }
+      },
+      "warmup_population": {
+        "all_processes": {
+          "evictions": 0,
+          "frames": 30,
+          "h2d_bytes": 0,
+          "h2d_rows": 0,
+          "hit_or_reuse_rate": null,
+          "hits": 0,
+          "loads": 0,
+          "misses": 0,
+          "requests": 0,
+          "zero_transfer_frames": 0
+        },
+        "per_process": [
+          {
+            "cold_first_frame": {
+              "evictions": 0,
+              "frames": 1,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0,
+              "frames": 10,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": null,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0,
+              "frames": 9,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0,
+              "frames": 1,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0,
+              "frames": 10,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": null,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0,
+              "frames": 9,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0,
+              "frames": 1,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0,
+              "frames": 10,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": null,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0,
+              "frames": 9,
+              "h2d_bytes": 0,
+              "h2d_rows": 0,
+              "hit_or_reuse_rate": null,
+              "hits": 0,
+              "loads": 0,
+              "misses": 0,
+              "requests": 0,
+              "zero_transfer_frames": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bottleneck_decomposition": {
+        "fraction_of_mean_frame": {
+          "assembly": 0.01246306150712066,
+          "other": 0.0763359575847774,
+          "pre_materialization_filter": 0.17311853375784086,
+          "rasterization": 0.10812173093791336,
+          "residency_gather_h2d": 0.1273116480648872,
+          "semantic_selection": 0.5026490681474605
+        },
+        "mean_ms": {
+          "assembly": 0.1605240233307844,
+          "other": 0.9832058543011684,
+          "pre_materialization_filter": 2.2297638133341025,
+          "rasterization": 1.3926060823599498,
+          "residency_gather_h2d": 1.6397718933323329,
+          "semantic_selection": 6.474111573340148
+        },
+        "ranking": [
+          "semantic_selection",
+          "pre_materialization_filter",
+          "residency_gather_h2d",
+          "rasterization",
+          "other",
+          "assembly"
+        ]
+      },
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3196.5737840000656,
+          "mean": 3165.3156250000243,
+          "median": 3156.733270000018,
+          "min": 3142.639820999989,
+          "p10": 3145.4585107999947,
+          "p90": 3188.605681200056,
+          "p95": 3192.589732600061,
+          "std": 22.839449850832107
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 185656.0,
+          "mean": 185656.0,
+          "median": 185656.0,
+          "min": 185656.0,
+          "p10": 185656.0,
+          "p90": 185656.0,
+          "p95": 185656.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 22.607024999956593,
+          "mean": 21.65523166665177,
+          "median": 21.360297000001083,
+          "min": 20.998372999997628,
+          "p10": 21.07075779999832,
+          "p90": 22.35767939996549,
+          "p95": 22.482352199961042,
+          "std": 0.6890477281181897
+        },
+        "first_frame_raster_ms": {
+          "max": 272.895263671875,
+          "mean": 270.24365234375,
+          "median": 270.5802917480469,
+          "min": 267.2554016113281,
+          "p10": 267.9203796386719,
+          "p90": 272.43226928710936,
+          "p95": 272.6637664794922,
+          "std": 2.314736209865396
+        },
+        "first_frame_total_ms": {
+          "max": 537.7457509999886,
+          "mean": 533.4091036666754,
+          "median": 532.9777120000472,
+          "min": 529.5038479999903,
+          "p10": 530.1986208000017,
+          "p90": 536.7921432000003,
+          "p95": 537.2689470999944,
+          "std": 3.378541632408112
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 0.2509529999770166,
+          "mean": 0.2271589999433369,
+          "median": 0.21925699991243164,
+          "min": 0.21126699994056253,
+          "p10": 0.21286499993493635,
+          "p90": 0.2446137999640996,
+          "p95": 0.2477833999705581,
+          "std": 0.01713818063252686
+        },
+        "host_store_initialization_ms": {
+          "max": 122.35728400003154,
+          "mean": 117.36198100000668,
+          "median": 116.77816599990365,
+          "min": 112.95049300008486,
+          "p10": 113.71602760004862,
+          "p90": 121.24146040000596,
+          "p95": 121.79937220001875,
+          "std": 3.8624309439288314
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2992.4493760000814,
+          "mean": 2972.4789233334072,
+          "median": 2969.3978510000534,
+          "min": 2955.5895430000874,
+          "p10": 2958.3512046000806,
+          "p90": 2987.839071000076,
+          "p95": 2990.1442235000786,
+          "std": 15.204858373545884
+        },
+        "skybox_transfer_ms": {
+          "max": 1.9648810000489902,
+          "mean": 1.9273420000066228,
+          "median": 1.9420979999722476,
+          "min": 1.8750469999986308,
+          "p10": 1.8884571999933542,
+          "p90": 1.9603244000336417,
+          "p95": 1.962602700041316,
+          "std": 0.038129966714743176
+        }
+      },
+      "cold_warm_steady_residency": {
+        "combined_warmup_and_measured": {
+          "evictions": 0.0,
+          "h2d_bytes": 499689996.0,
+          "hit_or_reuse_rate": 0.12545617815571428,
+          "hits": 779154.0,
+          "requests": 6210567.0
+        },
+        "steady_measured": {
+          "capacity_rows": null,
+          "evictions": null,
+          "h2d_bytes": 454202160.0,
+          "h2d_rows": 4936980.0,
+          "hit_or_reuse_rate": 0.12557452483807033,
+          "hits": 708990.0,
+          "loads": 4936980.0,
+          "misses": 4936980.0,
+          "occupancy_rows": {
+            "max": 50936.0,
+            "mean": 18819.9,
+            "median": 19205.0,
+            "min": 2018.0,
+            "p10": 3721.700000000004,
+            "p90": 34800.80000000041,
+            "p95": 50936.0,
+            "std": 14109.709015071856
+          },
+          "requests": 5645970.0,
+          "zero_transfer_frames": 0
+        },
+        "warmup_including_cold": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 45487836.0,
+          "h2d_rows": 494433.0,
+          "hit_or_reuse_rate": 0.12427271133215373,
+          "hits": 70164.0,
+          "loads": 494433.0,
+          "misses": 494433.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        }
+      },
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "counts": {
+        "backend_survivors": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "candidate_spt_count": {
+          "max": 23.0,
+          "mean": 22.4,
+          "median": 22.0,
+          "min": 22.0,
+          "p10": 22.0,
+          "p90": 23.0,
+          "p95": 23.0,
+          "std": 0.4898979485566356
+        },
+        "materialization_hierarchy_rows": {
+          "max": 50936.0,
+          "mean": 18819.9,
+          "median": 19205.0,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34800.80000000041,
+          "p95": 50936.0,
+          "std": 14109.709015071856
+        },
+        "materialization_skybox_rows": {
+          "max": 138.0,
+          "mean": 22.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 54.300000000002115,
+          "p95": 138.0,
+          "std": 41.262573841194154
+        },
+        "materialization_total_rows": {
+          "max": 51074.0,
+          "mean": 18841.9,
+          "median": 19227.5,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34814.60000000041,
+          "p95": 51074.0,
+          "std": 14138.333716884743
+        },
+        "ratios_of_means": {
+          "materialized_over_backend": 1.1177758266791644,
+          "semantic_over_backend": 34.54148523427026,
+          "semantic_over_materialized": 30.901979099772312
+        },
+        "semantic_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "semantic_skybox_rows": {
+          "max": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "min": 100000.0,
+          "p10": 100000.0,
+          "p90": 100000.0,
+          "p95": 100000.0,
+          "std": 0.0
+        },
+        "semantic_total_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps": 77.63985258105953,
+      "frame_count": 300,
+      "label": "Fast + previous reuse",
+      "memory": {
+        "compact_culling_gpu_bytes": 17599984.0,
+        "frame_local_index_bytes": {
+          "max": 531672.0,
+          "mean": 169465.6,
+          "median": 154344.0,
+          "min": 18104.0,
+          "p10": 32856.80000000003,
+          "p90": 319113.6000000054,
+          "p95": 531672.0,
+          "std": 144006.8624053729
+        },
+        "frame_local_property_bytes": {
+          "max": 7969500.0,
+          "mean": 3249486.0,
+          "median": 3529764.0,
+          "min": 348772.0,
+          "p10": 649336.0000000007,
+          "p90": 5937753.600000052,
+          "p95": 7969500.0,
+          "std": 2275318.7311996534
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 97732608.0,
+        "peak_frame_total_torch_reserved_bytes": 119537664.0,
+        "peak_process_rss_bytes": 1980104704.0,
+        "peak_whole_device_vram_bytes": 1843789824.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 4686112.0,
+          "mean": 1731430.8,
+          "median": 1766860.0,
+          "min": 185656.0,
+          "p10": 342396.4000000004,
+          "p90": 3201673.6000000373,
+          "p95": 4686112.0,
+          "std": 1298093.2293866107
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 13886112.0,
+          "mean": 10931430.8,
+          "median": 10966860.0,
+          "min": 9385656.0,
+          "p10": 9542396.4,
+          "p90": 12401673.600000037,
+          "p95": 13886112.0,
+          "std": 1298093.2293866107
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "persistent_total_gpu_bytes": 28531414.8,
+        "process_rss_bytes": {
+          "max": 1980899328.0,
+          "mean": 1969381102.9333334,
+          "median": 1970741248.0,
+          "min": 1951674368.0,
+          "p10": 1956494950.4,
+          "p90": 1980895232.0,
+          "p95": 1980899328.0,
+          "std": 9342726.36592607
+        },
+        "rasterizer_temporary_peak_increment_bytes": 59843584.0,
+        "residency_maps_gpu_bytes": 0.0,
+        "residency_metadata_cpu_bytes": {
+          "max": 9207480.0,
+          "mean": 8950551.2,
+          "median": 8953632.0,
+          "min": 8816136.0,
+          "p10": 8829765.6,
+          "p90": 9078398.400000004,
+          "p95": 9207480.0,
+          "std": 112877.67212057485
+        },
+        "selected_materialization_index_bytes": {
+          "max": 5633616.0,
+          "mean": 4978216.8,
+          "median": 5076928.0,
+          "min": 3749104.0,
+          "p10": 4726820.800000003,
+          "p90": 5358900.0000000065,
+          "p95": 5633616.0,
+          "std": 463512.1960882583
+        },
+        "selection_metadata_gpu_bytes": 0.0,
+        "steady_torch_allocated_bytes": {
+          "max": 65974784.0,
+          "mean": 53072640.0,
+          "median": 52326144.0,
+          "min": 47280640.0,
+          "p10": 47325798.4,
+          "p90": 56523315.20000024,
+          "p95": 65974784.0,
+          "std": 5049515.800281528
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_ms": [
+        12.891901020001342,
+        12.812271320015043,
+        12.935777379979072
+      ],
+      "replicate_mean_std_ms": 0.05112052309400438,
+      "residency": {
+        "capacity_rows": null,
+        "evictions": null,
+        "h2d_bytes": 454202160.0,
+        "h2d_rows": 4936980.0,
+        "hit_or_reuse_rate": 0.12557452483807033,
+        "hits": 708990.0,
+        "loads": 4936980.0,
+        "misses": 4936980.0,
+        "occupancy_rows": {
+          "max": 50936.0,
+          "mean": 18819.9,
+          "median": 19205.0,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34800.80000000041,
+          "p95": 50936.0,
+          "std": 14109.709015071856
+        },
+        "requests": 5645970.0,
+        "zero_transfer_frames": 0
+      },
+      "timing": {
+        "assembly_ms": {
+          "max": 0.8319249999431122,
+          "mean": 0.1605240233307844,
+          "median": 0.07936250000284417,
+          "min": 0.06035100000190141,
+          "p10": 0.06314999993719539,
+          "p90": 0.30427800007828415,
+          "p95": 0.4798975499284099,
+          "std": 0.1440706867801993
+        },
+        "cache_management_ms": {
+          "max": 0.2399370000603085,
+          "mean": 0.08209134999901835,
+          "median": 0.0850024999863308,
+          "min": 0.015961000030983996,
+          "p10": 0.02180899997483721,
+          "p90": 0.14236900001378675,
+          "p95": 0.17506254997670112,
+          "std": 0.04426953251330014
+        },
+        "camera_preparation_ms": {
+          "max": 1.1549790000344728,
+          "mean": 0.49531193000044976,
+          "median": 0.4630440000141789,
+          "min": 0.4089220000196292,
+          "p10": 0.4319771000155015,
+          "p90": 0.5500180000694855,
+          "p95": 0.7772274500609917,
+          "std": 0.12327783933320033
+        },
+        "filter_compaction_ms": {
+          "max": 0.9082880020141602,
+          "mean": 0.2882297602295876,
+          "median": 0.2621919959783554,
+          "min": 0.1979839950799942,
+          "p10": 0.222822405397892,
+          "p90": 0.32880638837814347,
+          "p95": 0.5967936217784886,
+          "std": 0.1163271769593344
+        },
+        "filter_culling_ms": {
+          "max": 2.4667201042175293,
+          "mean": 1.0733613868554432,
+          "median": 0.9891839921474457,
+          "min": 0.8847039937973022,
+          "p10": 0.9215839862823486,
+          "p90": 1.4048320174217226,
+          "p95": 1.5535215795040132,
+          "std": 0.2200218396389532
+        },
+        "filter_id_output_ms": {
+          "max": 0.08855200007928943,
+          "mean": 0.03101723666759426,
+          "median": 0.03034100001286788,
+          "min": 0.005020000003241876,
+          "p10": 0.007727099989551789,
+          "p90": 0.061630999994122276,
+          "p95": 0.0692570000012438,
+          "std": 0.01977996618438891
+        },
+        "filter_metadata_index_ms": {
+          "max": 1.0430400371551514,
+          "mean": 0.13906229354441166,
+          "median": 0.13363199681043625,
+          "min": 0.04320000112056732,
+          "p10": 0.11445759981870651,
+          "p90": 0.15412159711122514,
+          "p95": 0.16331199854612352,
+          "std": 0.06113144986775258
+        },
+        "filter_retained_index_d2h_ms": {
+          "max": 0.4726400077342987,
+          "mean": 0.16487018689513205,
+          "median": 0.15931200236082077,
+          "min": 0.11590400338172913,
+          "p10": 0.13179839849472047,
+          "p90": 0.19273600578308106,
+          "p95": 0.2090591974556446,
+          "std": 0.03981947037319065
+        },
+        "filter_selected_id_h2d_ms": {
+          "max": 0.49398401379585266,
+          "mean": 0.28589994649092354,
+          "median": 0.28175999224185944,
+          "min": 0.21001599729061127,
+          "p10": 0.2499392107129097,
+          "p90": 0.32987520694732664,
+          "p95": 0.3509231895208359,
+          "std": 0.03798374773969127
+        },
+        "filter_total_ms": {
+          "max": 3.639586999952371,
+          "mean": 2.2297638133341025,
+          "median": 2.114597499996762,
+          "min": 1.8373860000338027,
+          "p10": 1.9893097999101883,
+          "p90": 2.6271289000192155,
+          "p95": 2.7376575999994657,
+          "std": 0.27656893269080807
+        },
+        "full_property_h2d_ms": {
+          "max": 1.7207399999961126,
+          "mean": 0.6264388066688298,
+          "median": 0.5997934999868448,
+          "min": 0.32124099993779964,
+          "p10": 0.4128569000386051,
+          "p90": 0.8654485999841199,
+          "p95": 0.9493828000074707,
+          "std": 0.19794779063399498
+        },
+        "gpu_slot_index_ms": {
+          "max": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "p10": null,
+          "p90": null,
+          "p95": null,
+          "std": null
+        },
+        "host_gather_ms": {
+          "max": 0.9315170000263606,
+          "mean": 0.5190379633324937,
+          "median": 0.5693625000162683,
+          "min": 0.12354399996183929,
+          "p10": 0.2431060999583679,
+          "p90": 0.7404907000022831,
+          "p95": 0.7764383499079486,
+          "std": 0.19703625390928703
+        },
+        "rasterization_ms": {
+          "max": 2.4566400051116943,
+          "mean": 1.3926060823599498,
+          "median": 1.2646719813346863,
+          "min": 0.9764479994773865,
+          "p10": 1.0953503847122192,
+          "p90": 1.9165120244026186,
+          "p95": 2.055516850948334,
+          "std": 0.32517720993549815
+        },
+        "residency_lookup_ms": {
+          "max": 0.31702100000075006,
+          "mean": 0.12255986999851605,
+          "median": 0.1240734999896631,
+          "min": 0.024691000021448417,
+          "p10": 0.036950000048818765,
+          "p90": 0.23384910001596,
+          "p95": 0.2849705000528502,
+          "std": 0.07608404854227797
+        },
+        "selected_gpu_gather_ms": {
+          "max": 4.761021000035726,
+          "mean": 0.28964390333347484,
+          "median": 0.22882249999156556,
+          "min": 0.18140500003482884,
+          "p10": 0.19720600007531175,
+          "p90": 0.3904789999182867,
+          "p95": 0.5868230000487531,
+          "std": 0.2903321662064628
+        },
+        "selected_id_preparation_ms": {
+          "max": 0.21035600002505817,
+          "mean": 0.13133967666287086,
+          "median": 0.13051899998117733,
+          "min": 0.08454199996776879,
+          "p10": 0.10645709999153041,
+          "p90": 0.1541850999956296,
+          "p95": 0.16681174999462203,
+          "std": 0.018912126310863475
+        },
+        "semantic_selection_ms": {
+          "max": 8.499755999991976,
+          "mean": 6.474111573340148,
+          "median": 6.484521999993831,
+          "min": 4.976539000040248,
+          "p10": 6.1722068000108266,
+          "p90": 6.97502540003825,
+          "p95": 7.218455449975637,
+          "std": 0.5250584540620958
+        },
+        "spt_cut_ms": {
+          "max": 5.982334999998784,
+          "mean": 5.022741773332579,
+          "median": 5.066339499990136,
+          "min": 3.6073899999564674,
+          "p10": 4.830101400034437,
+          "p90": 5.510528499962675,
+          "p95": 5.652341449933829,
+          "std": 0.4453106057082516
+        },
+        "total_frame_ms": {
+          "max": 18.144822000067506,
+          "mean": 12.879983239998486,
+          "median": 13.002125000014075,
+          "min": 9.385771999973258,
+          "p10": 11.210715999936838,
+          "p90": 14.144188799934911,
+          "p95": 14.523536749948107,
+          "std": 1.2140154253634543
+        },
+        "upper_traversal_ms": {
+          "max": 2.516984999942906,
+          "mean": 1.1371230566733932,
+          "median": 1.0887269999670934,
+          "min": 1.0160799999994197,
+          "p10": 1.0496939999825372,
+          "p90": 1.252408499988178,
+          "p95": 1.3425030499888637,
+          "std": 0.1576992809912247
+        }
+      },
+      "warmup_population": {
+        "all_processes": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 45487836.0,
+          "h2d_rows": 494433.0,
+          "hit_or_reuse_rate": 0.12427271133215373,
+          "hits": 70164.0,
+          "loads": 494433.0,
+          "misses": 494433.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        },
+        "per_process": [
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 15162612.0,
+              "h2d_rows": 164811.0,
+              "hit_or_reuse_rate": 0.12427271133215373,
+              "hits": 23388.0,
+              "loads": 164811.0,
+              "misses": 164811.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 3911.0,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 14976956.0,
+              "h2d_rows": 162793.0,
+              "hit_or_reuse_rate": 0.12561969266466502,
+              "hits": 23388.0,
+              "loads": 162793.0,
+              "misses": 162793.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 15162612.0,
+              "h2d_rows": 164811.0,
+              "hit_or_reuse_rate": 0.12427271133215373,
+              "hits": 23388.0,
+              "loads": 164811.0,
+              "misses": 164811.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 3911.0,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 14976956.0,
+              "h2d_rows": 162793.0,
+              "hit_or_reuse_rate": 0.12561969266466502,
+              "hits": 23388.0,
+              "loads": 162793.0,
+              "misses": 162793.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 15162612.0,
+              "h2d_rows": 164811.0,
+              "hit_or_reuse_rate": 0.12427271133215373,
+              "hits": 23388.0,
+              "loads": 164811.0,
+              "misses": 164811.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 3911.0,
+            "frames_to_95_percent_final_occupancy": null,
+            "frames_to_final_occupancy": null,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 14976956.0,
+              "h2d_rows": 162793.0,
+              "hit_or_reuse_rate": 0.12561969266466502,
+              "hits": 23388.0,
+              "loads": 162793.0,
+              "misses": 162793.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bottleneck_decomposition": {
+        "fraction_of_mean_frame": {
+          "assembly": 0.011063372531138519,
+          "other": 0.10574815515926356,
+          "pre_materialization_filter": 0.17972053226236015,
+          "rasterization": 0.10494518753349606,
+          "residency_gather_h2d": 0.07012774982790779,
+          "semantic_selection": 0.528395002685834
+        },
+        "mean_ms": {
+          "assembly": 0.13790320666657863,
+          "other": 1.3181341995392994,
+          "pre_materialization_filter": 2.2401883000005305,
+          "rasterization": 1.3081253337860108,
+          "residency_gather_h2d": 0.8741314233395769,
+          "semantic_selection": 6.586360990003944
+        },
+        "ranking": [
+          "semantic_selection",
+          "pre_materialization_filter",
+          "other",
+          "rasterization",
+          "residency_gather_h2d",
+          "assembly"
+        ]
+      },
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3175.197171999912,
+          "mean": 3154.2898306666225,
+          "median": 3166.1939429999393,
+          "min": 3121.4783770000167,
+          "p10": 3130.4214902000012,
+          "p90": 3173.3965261999174,
+          "p95": 3174.2968490999147,
+          "std": 23.49053925723229
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 185656.0,
+          "mean": 185656.0,
+          "median": 185656.0,
+          "min": 185656.0,
+          "p10": 185656.0,
+          "p90": 185656.0,
+          "p95": 185656.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 27.182582000023103,
+          "mean": 23.122677999973956,
+          "median": 21.899741999959588,
+          "min": 20.285709999939172,
+          "p10": 20.608516399943255,
+          "p90": 26.1260140000104,
+          "p95": 26.65429800001675,
+          "std": 2.9454360391950782
+        },
+        "first_frame_raster_ms": {
+          "max": 277.9000244140625,
+          "mean": 271.7345682779948,
+          "median": 269.6338195800781,
+          "min": 267.66986083984375,
+          "p10": 268.0626525878906,
+          "p90": 276.2467834472656,
+          "p95": 277.0734039306641,
+          "std": 4.432750877101559
+        },
+        "first_frame_total_ms": {
+          "max": 550.1299710000467,
+          "mean": 549.5444049999682,
+          "median": 549.2708979999179,
+          "min": 549.2323459999398,
+          "p10": 549.2400563999354,
+          "p90": 549.9581564000209,
+          "p95": 550.0440637000338,
+          "std": 0.4143567058397778
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 1.2097830000357135,
+          "mean": 1.1491426666528544,
+          "median": 1.1418369999773859,
+          "min": 1.095807999945464,
+          "p10": 1.1050137999518483,
+          "p90": 1.196193800024048,
+          "p95": 1.2029884000298807,
+          "std": 0.04681598541504731
+        },
+        "host_store_initialization_ms": {
+          "max": 125.26606599999468,
+          "mean": 117.52975999994912,
+          "median": 115.77282399991873,
+          "min": 111.55038999993394,
+          "p10": 112.3948767999309,
+          "p90": 123.36741759997949,
+          "p95": 124.31674179998708,
+          "std": 5.735565076247944
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2983.864830000016,
+          "mean": 2962.3161560000044,
+          "median": 2970.0194629999714,
+          "min": 2933.064175000027,
+          "p10": 2940.4552326000157,
+          "p90": 2981.095756600007,
+          "p95": 2982.4802933000115,
+          "std": 21.44267304790118
+        },
+        "skybox_transfer_ms": {
+          "max": 2.1755010000106267,
+          "mean": 2.0181260000147936,
+          "median": 1.9603829999823574,
+          "min": 1.9184940000513961,
+          "p10": 1.9268718000375884,
+          "p90": 2.132477400004973,
+          "p95": 2.1539892000078,
+          "std": 0.11258726999257189
+        }
+      },
+      "cold_warm_steady_residency": {
+        "combined_warmup_and_measured": {
+          "evictions": 0.0,
+          "h2d_bytes": 41847396.0,
+          "hit_or_reuse_rate": 0.9267598272428266,
+          "hits": 5755704.0,
+          "requests": 6210567.0
+        },
+        "steady_measured": {
+          "capacity_rows": 525000,
+          "evictions": 0.0,
+          "h2d_bytes": 0.0,
+          "h2d_rows": 0.0,
+          "hit_or_reuse_rate": 1.0,
+          "hits": 5645970.0,
+          "loads": 0.0,
+          "misses": 0.0,
+          "occupancy_rows": {
+            "max": 151621.0,
+            "mean": 151621.0,
+            "median": 151621.0,
+            "min": 151621.0,
+            "p10": 151621.0,
+            "p90": 151621.0,
+            "p95": 151621.0,
+            "std": 0.0
+          },
+          "requests": 5645970.0,
+          "zero_transfer_frames": 300
+        },
+        "warmup_including_cold": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 41847396.0,
+          "h2d_rows": 454863.0,
+          "hit_or_reuse_rate": 0.19435809967109283,
+          "hits": 109734.0,
+          "loads": 454863.0,
+          "misses": 454863.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        }
+      },
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "counts": {
+        "backend_survivors": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "candidate_spt_count": {
+          "max": 23.0,
+          "mean": 22.4,
+          "median": 22.0,
+          "min": 22.0,
+          "p10": 22.0,
+          "p90": 23.0,
+          "p95": 23.0,
+          "std": 0.4898979485566356
+        },
+        "materialization_hierarchy_rows": {
+          "max": 50936.0,
+          "mean": 18819.9,
+          "median": 19205.0,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34800.80000000041,
+          "p95": 50936.0,
+          "std": 14109.709015071856
+        },
+        "materialization_skybox_rows": {
+          "max": 138.0,
+          "mean": 22.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 54.300000000002115,
+          "p95": 138.0,
+          "std": 41.262573841194154
+        },
+        "materialization_total_rows": {
+          "max": 51074.0,
+          "mean": 18841.9,
+          "median": 19227.5,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34814.60000000041,
+          "p95": 51074.0,
+          "std": 14138.333716884743
+        },
+        "ratios_of_means": {
+          "materialized_over_backend": 1.1177758266791644,
+          "semantic_over_backend": 34.54148523427026,
+          "semantic_over_materialized": 30.901979099772312
+        },
+        "semantic_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "semantic_skybox_rows": {
+          "max": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "min": 100000.0,
+          "p10": 100000.0,
+          "p90": 100000.0,
+          "p95": 100000.0,
+          "std": 0.0
+        },
+        "semantic_total_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps": 80.22563650668009,
+      "frame_count": 300,
+      "label": "Fast + 525k cache",
+      "memory": {
+        "compact_culling_gpu_bytes": 17599984.0,
+        "frame_local_index_bytes": {
+          "max": 407488.0,
+          "mean": 150559.2,
+          "median": 153640.0,
+          "min": 16144.0,
+          "p10": 29773.60000000003,
+          "p90": 278406.4000000033,
+          "p95": 407488.0,
+          "std": 112877.67212057485
+        },
+        "frame_local_property_bytes": {
+          "max": 9397616.0,
+          "mean": 3466909.6,
+          "median": 3537860.0,
+          "min": 371312.0,
+          "p10": 684792.8000000007,
+          "p90": 6405886.400000076,
+          "p95": 9397616.0,
+          "std": 2601453.403906793
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 146682880.0,
+        "peak_frame_total_torch_reserved_bytes": 167772160.0,
+        "peak_process_rss_bytes": 1998905344.0,
+        "peak_whole_device_vram_bytes": 1891696640.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 48300000.0,
+          "mean": 48300000.0,
+          "median": 48300000.0,
+          "min": 48300000.0,
+          "p10": 48300000.0,
+          "p90": 48300000.0,
+          "p95": 48300000.0,
+          "std": 0.0
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 57500000.0,
+          "mean": 57500000.0,
+          "median": 57500000.0,
+          "min": 57500000.0,
+          "p10": 57500000.0,
+          "p90": 57500000.0,
+          "p95": 57500000.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "persistent_total_gpu_bytes": 75099984.0,
+        "process_rss_bytes": {
+          "max": 1999478784.0,
+          "mean": 1983854182.4,
+          "median": 1980018688.0,
+          "min": 1964785664.0,
+          "p10": 1975291904.0,
+          "p90": 1999474688.0,
+          "p95": 1999478784.0,
+          "std": 9767231.838912105
+        },
+        "rasterizer_temporary_peak_increment_bytes": 60142080.0,
+        "residency_maps_gpu_bytes": 0.0,
+        "residency_metadata_cpu_bytes": {
+          "max": 17607480.0,
+          "mean": 17350551.2,
+          "median": 17353632.0,
+          "min": 17216136.0,
+          "p10": 17229765.6,
+          "p90": 17478398.400000002,
+          "p95": 17607480.0,
+          "std": 112877.67212057485
+        },
+        "selected_materialization_index_bytes": {
+          "max": 5509432.0,
+          "mean": 4959310.4,
+          "median": 5075088.0,
+          "min": 3747144.0,
+          "p10": 4723737.600000002,
+          "p90": 5318192.8000000045,
+          "p95": 5509432.0,
+          "std": 445212.57550325326
+        },
+        "selection_metadata_gpu_bytes": 0.0,
+        "steady_torch_allocated_bytes": {
+          "max": 114954240.0,
+          "mean": 102375987.2,
+          "median": 101884160.0,
+          "min": 96108544.0,
+          "p10": 96331571.2,
+          "p90": 106506393.60000022,
+          "p95": 114954240.0,
+          "std": 5202246.190465899
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_ms": [
+        12.401713059999793,
+        12.513648900006729,
+        12.4791684000013
+      ],
+      "replicate_mean_std_ms": 0.04680677402711866,
+      "residency": {
+        "capacity_rows": 525000,
+        "evictions": 0.0,
+        "h2d_bytes": 0.0,
+        "h2d_rows": 0.0,
+        "hit_or_reuse_rate": 1.0,
+        "hits": 5645970.0,
+        "loads": 0.0,
+        "misses": 0.0,
+        "occupancy_rows": {
+          "max": 151621.0,
+          "mean": 151621.0,
+          "median": 151621.0,
+          "min": 151621.0,
+          "p10": 151621.0,
+          "p90": 151621.0,
+          "p95": 151621.0,
+          "std": 0.0
+        },
+        "requests": 5645970.0,
+        "zero_transfer_frames": 300
+      },
+      "timing": {
+        "assembly_ms": {
+          "max": 0.5821810000270489,
+          "mean": 0.13790320666657863,
+          "median": 0.07984200004784725,
+          "min": 0.06134100010513066,
+          "p10": 0.06418919999759964,
+          "p90": 0.239653500022996,
+          "p95": 0.266602349938694,
+          "std": 0.08924651188101239
+        },
+        "cache_management_ms": {
+          "max": 0.7627490000459147,
+          "mean": 0.4406725266665035,
+          "median": 0.43075599995745506,
+          "min": 0.33812100002705847,
+          "p10": 0.35973790005527917,
+          "p90": 0.5321214000673535,
+          "p95": 0.59711430001812,
+          "std": 0.07116429218225183
+        },
+        "camera_preparation_ms": {
+          "max": 1.252941000075225,
+          "mean": 0.5065911333372242,
+          "median": 0.4694510000149421,
+          "min": 0.41495000004942995,
+          "p10": 0.43419910003876794,
+          "p90": 0.5600740999739173,
+          "p95": 0.8682365999504783,
+          "std": 0.13796473633169967
+        },
+        "filter_compaction_ms": {
+          "max": 0.8433279991149902,
+          "mean": 0.2809141330420971,
+          "median": 0.2659039944410324,
+          "min": 0.19776000082492828,
+          "p10": 0.22571520507335663,
+          "p90": 0.3279327988624573,
+          "p95": 0.3763536110520363,
+          "std": 0.08640615116228764
+        },
+        "filter_culling_ms": {
+          "max": 2.3781440258026123,
+          "mean": 1.0944889605045318,
+          "median": 1.0001919865608215,
+          "min": 0.8869119882583618,
+          "p10": 0.9268127858638764,
+          "p90": 1.4923200488090516,
+          "p95": 1.622068840265274,
+          "std": 0.24056263894895188
+        },
+        "filter_id_output_ms": {
+          "max": 0.08508999997047795,
+          "mean": 0.028715219998881974,
+          "median": 0.02711500002305911,
+          "min": 0.005009999995309045,
+          "p10": 0.007731000005151145,
+          "p90": 0.05428510004321652,
+          "p95": 0.0658049999742616,
+          "std": 0.018086448872129225
+        },
+        "filter_metadata_index_ms": {
+          "max": 0.34089601039886475,
+          "mean": 0.13830410711467267,
+          "median": 0.13593600690364838,
+          "min": 0.0713919997215271,
+          "p10": 0.1145792007446289,
+          "p90": 0.15620160400867464,
+          "p95": 0.16979360282421113,
+          "std": 0.03112612145242751
+        },
+        "filter_retained_index_d2h_ms": {
+          "max": 0.46886399388313293,
+          "mean": 0.1632627198845148,
+          "median": 0.1562880054116249,
+          "min": 0.11801599711179733,
+          "p10": 0.12969279736280442,
+          "p90": 0.19177279919385912,
+          "p95": 0.20363039374351502,
+          "std": 0.03891572271083119
+        },
+        "filter_selected_id_h2d_ms": {
+          "max": 0.4152959883213043,
+          "mean": 0.2874763739109039,
+          "median": 0.28302399814128876,
+          "min": 0.18460799753665924,
+          "p10": 0.2579007983207703,
+          "p90": 0.3248543977737427,
+          "p95": 0.3370576024055481,
+          "std": 0.03115326401785991
+        },
+        "filter_total_ms": {
+          "max": 3.5993950000374753,
+          "mean": 2.2401883000005305,
+          "median": 2.1281709999811937,
+          "min": 1.8682909999370167,
+          "p10": 2.015432499990766,
+          "p90": 2.6546100000246042,
+          "p95": 2.7528924500700214,
+          "std": 0.272633553231975
+        },
+        "full_property_h2d_ms": {
+          "max": 0.09766299990587868,
+          "mean": 0.03500402999937554,
+          "median": 0.03402549998554605,
+          "min": 0.029330000074878626,
+          "p10": 0.03059709995341109,
+          "p90": 0.03765289994817068,
+          "p95": 0.042016099962438616,
+          "std": 0.006721111417697487
+        },
+        "gpu_slot_index_ms": {
+          "max": 0.3223710000384017,
+          "mean": 0.06741731333174054,
+          "median": 0.06249100005106811,
+          "min": 0.03587100002278021,
+          "p10": 0.04259200002252328,
+          "p90": 0.08301190008523918,
+          "p95": 0.10998554994330337,
+          "std": 0.03339666809818596
+        },
+        "host_gather_ms": {
+          "max": 0.07626599995091965,
+          "mean": 0.03070232667558533,
+          "median": 0.029950500049835682,
+          "min": 0.02447000008487521,
+          "p10": 0.02682000001641427,
+          "p90": 0.03393000005189606,
+          "p95": 0.03847100004463755,
+          "std": 0.004795775225454956
+        },
+        "rasterization_ms": {
+          "max": 2.89900803565979,
+          "mean": 1.3081253337860108,
+          "median": 1.2341760396957397,
+          "min": 0.9919040203094482,
+          "p10": 1.1031231522560119,
+          "p90": 1.6514687776565553,
+          "p95": 1.779289644956589,
+          "std": 0.24797505687121937
+        },
+        "residency_lookup_ms": {
+          "max": 0.38959300002261443,
+          "mean": 0.1601077633309463,
+          "median": 0.1634234999983164,
+          "min": 0.03326099999867438,
+          "p10": 0.04845089999889751,
+          "p90": 0.29050080003116946,
+          "p95": 0.36905740001884624,
+          "std": 0.09765412244195898
+        },
+        "selected_gpu_gather_ms": {
+          "max": 1.1895290000438763,
+          "mean": 0.14022746333542577,
+          "median": 0.10237800000822972,
+          "min": 0.07858100002522406,
+          "p10": 0.0848029000508177,
+          "p90": 0.1827948000595826,
+          "p95": 0.3727386500713693,
+          "std": 0.12474733382967848
+        },
+        "selected_id_preparation_ms": {
+          "max": 0.1950119999492017,
+          "mean": 0.12898672000119404,
+          "median": 0.1299104999930023,
+          "min": 0.08444100001270272,
+          "p10": 0.10543539999616769,
+          "p90": 0.1545551000162959,
+          "p95": 0.16129180001485113,
+          "std": 0.019833660582718987
+        },
+        "semantic_selection_ms": {
+          "max": 8.99723999998514,
+          "mean": 6.586360990003944,
+          "median": 6.577262500059078,
+          "min": 4.963993000046685,
+          "p10": 6.308082500004275,
+          "p90": 7.151894199967046,
+          "p95": 7.3636119000127565,
+          "std": 0.5660592606553765
+        },
+        "spt_cut_ms": {
+          "max": 6.11938999998074,
+          "mean": 5.079755086660877,
+          "median": 5.116861499971037,
+          "min": 3.631178999967233,
+          "p10": 4.7866739999108185,
+          "p90": 5.498946099953629,
+          "p95": 5.650239400017654,
+          "std": 0.452508434644989
+        },
+        "total_frame_ms": {
+          "max": 15.4791690000593,
+          "mean": 12.46484345333594,
+          "median": 12.517916000035711,
+          "min": 9.721725999952469,
+          "p10": 11.443776000089656,
+          "p90": 13.492391799888992,
+          "p95": 13.822599850027474,
+          "std": 0.9312063548433908
+        },
+        "upper_traversal_ms": {
+          "max": 3.1356929999901695,
+          "mean": 1.182345246662256,
+          "median": 1.0963060000221958,
+          "min": 1.0005809999711346,
+          "p10": 1.0491955000134112,
+          "p90": 1.3371556000379319,
+          "p95": 1.4626699000302779,
+          "std": 0.26518650506790475
+        }
+      },
+      "warmup_population": {
+        "all_processes": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 41847396.0,
+          "h2d_rows": 454863.0,
+          "hit_or_reuse_rate": 0.19435809967109283,
+          "hits": 109734.0,
+          "loads": 454863.0,
+          "misses": 454863.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        },
+        "per_process": [
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "bottleneck_decomposition": {
+        "fraction_of_mean_frame": {
+          "assembly": 0.012305600359907513,
+          "other": 0.09049465941151863,
+          "pre_materialization_filter": 0.18995638018392652,
+          "rasterization": 0.1097912060588103,
+          "residency_gather_h2d": 0.049118876057232336,
+          "semantic_selection": 0.5483332779286048
+        },
+        "mean_ms": {
+          "assembly": 0.14788259666640138,
+          "other": 1.0875198955605896,
+          "pre_materialization_filter": 2.282801483337001,
+          "rasterization": 1.3194162144263586,
+          "residency_gather_h2d": 0.5902862700096042,
+          "semantic_selection": 6.58959714333605
+        },
+        "ranking": [
+          "semantic_selection",
+          "pre_materialization_filter",
+          "rasterization",
+          "other",
+          "residency_gather_h2d",
+          "assembly"
+        ]
+      },
+      "cold_start": {
+        "cold_initialization_total_ms": {
+          "max": 3175.970651000057,
+          "mean": 3159.860096666686,
+          "median": 3153.6244760000045,
+          "min": 3149.9851629999966,
+          "p10": 3150.713025599998,
+          "p90": 3171.5014160000464,
+          "p95": 3173.7360335000517,
+          "std": 11.488359919918322
+        },
+        "definition": "first frame of the existing warmup after fresh process/scene construction",
+        "first_frame_h2d_bytes": {
+          "max": 185656.0,
+          "mean": 185656.0,
+          "median": 185656.0,
+          "min": 185656.0,
+          "p10": 185656.0,
+          "p90": 185656.0,
+          "p95": 185656.0,
+          "std": 0.0
+        },
+        "first_frame_h2d_ms": {
+          "max": 21.4620429999286,
+          "mean": 21.35996433329031,
+          "median": 21.38572599994859,
+          "min": 21.232123999993746,
+          "p10": 21.262844399984715,
+          "p90": 21.446779599932597,
+          "p95": 21.454411299930598,
+          "std": 0.09561532037116195
+        },
+        "first_frame_raster_ms": {
+          "max": 285.244873046875,
+          "mean": 276.51898193359375,
+          "median": 273.84527587890625,
+          "min": 270.466796875,
+          "p10": 271.1424926757812,
+          "p90": 282.96495361328124,
+          "p95": 284.10491333007815,
+          "std": 6.3224157769842675
+        },
+        "first_frame_total_ms": {
+          "max": 552.6278689999344,
+          "mean": 542.1486799999306,
+          "median": 545.8129249999502,
+          "min": 528.005245999907,
+          "p10": 531.5667817999156,
+          "p90": 551.2648801999376,
+          "p95": 551.946374599936,
+          "std": 10.380700342960084
+        },
+        "gpu_cache_allocation_ms": {
+          "max": 0.42491199997130025,
+          "mean": 0.35433633331649617,
+          "median": 0.3334880000238627,
+          "min": 0.30460899995432555,
+          "p10": 0.310384799968233,
+          "p90": 0.40662719998181274,
+          "p95": 0.4157695999765565,
+          "std": 0.051278278078744674
+        },
+        "host_store_initialization_ms": {
+          "max": 116.04372800002238,
+          "mean": 113.16716766668833,
+          "median": 113.90871000003244,
+          "min": 109.54906500001016,
+          "p10": 110.42099400001462,
+          "p90": 115.6167244000244,
+          "p95": 115.83022620002339,
+          "std": 2.7027856796322838
+        },
+        "process_replicates": 3,
+        "scene_load_total_ms": {
+          "max": 2968.300212000031,
+          "mean": 2959.50384500001,
+          "median": 2960.8264940000026,
+          "min": 2949.384828999996,
+          "p10": 2951.6731619999973,
+          "p90": 2966.8054684000253,
+          "p95": 2967.552840200028,
+          "std": 7.778602222010069
+        },
+        "skybox_transfer_ms": {
+          "max": 2.0987560000094163,
+          "mean": 2.030945000039234,
+          "median": 2.0134340001050077,
+          "min": 1.9806450000032783,
+          "p10": 1.9872028000236241,
+          "p90": 2.0816916000285346,
+          "p95": 2.0902238000189755,
+          "std": 0.049783052133799126
+        }
+      },
+      "cold_warm_steady_residency": {
+        "combined_warmup_and_measured": {
+          "evictions": 0.0,
+          "h2d_bytes": 41847396.0,
+          "hit_or_reuse_rate": 0.9267598272428266,
+          "hits": 5755704.0,
+          "requests": 6210567.0
+        },
+        "steady_measured": {
+          "capacity_rows": 160000,
+          "evictions": 0.0,
+          "h2d_bytes": 0.0,
+          "h2d_rows": 0.0,
+          "hit_or_reuse_rate": 1.0,
+          "hits": 5645970.0,
+          "loads": 0.0,
+          "misses": 0.0,
+          "occupancy_rows": {
+            "max": 151621.0,
+            "mean": 151621.0,
+            "median": 151621.0,
+            "min": 151621.0,
+            "p10": 151621.0,
+            "p90": 151621.0,
+            "p95": 151621.0,
+            "std": 0.0
+          },
+          "requests": 5645970.0,
+          "zero_transfer_frames": 300
+        },
+        "warmup_including_cold": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 41847396.0,
+          "h2d_rows": 454863.0,
+          "hit_or_reuse_rate": 0.19435809967109283,
+          "hits": 109734.0,
+          "loads": 454863.0,
+          "misses": 454863.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        }
+      },
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "counts": {
+        "backend_survivors": {
+          "max": 46173.0,
+          "mean": 16856.6,
+          "median": 17551.0,
+          "min": 1782.0,
+          "p10": 3249.0000000000036,
+          "p90": 30912.600000000384,
+          "p95": 46173.0,
+          "std": 12819.218885719987
+        },
+        "candidate_spt_count": {
+          "max": 23.0,
+          "mean": 22.4,
+          "median": 22.0,
+          "min": 22.0,
+          "p10": 22.0,
+          "p90": 23.0,
+          "p95": 23.0,
+          "std": 0.4898979485566356
+        },
+        "materialization_hierarchy_rows": {
+          "max": 50936.0,
+          "mean": 18819.9,
+          "median": 19205.0,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34800.80000000041,
+          "p95": 50936.0,
+          "std": 14109.709015071856
+        },
+        "materialization_skybox_rows": {
+          "max": 138.0,
+          "mean": 22.0,
+          "median": 0.0,
+          "min": 0.0,
+          "p10": 0.0,
+          "p90": 54.300000000002115,
+          "p95": 138.0,
+          "std": 41.262573841194154
+        },
+        "materialization_total_rows": {
+          "max": 51074.0,
+          "mean": 18841.9,
+          "median": 19227.5,
+          "min": 2018.0,
+          "p10": 3721.700000000004,
+          "p90": 34814.60000000041,
+          "p95": 51074.0,
+          "std": 14138.333716884743
+        },
+        "ratios_of_means": {
+          "materialized_over_backend": 1.1177758266791644,
+          "semantic_over_backend": 34.54148523427026,
+          "semantic_over_materialized": 30.901979099772312
+        },
+        "semantic_hierarchy_rows": {
+          "max": 499030.0,
+          "mean": 482252.0,
+          "median": 496155.5,
+          "min": 364357.0,
+          "p10": 474437.8000000003,
+          "p90": 498480.10000000003,
+          "p95": 499030.0,
+          "std": 39462.728935034385
+        },
+        "semantic_skybox_rows": {
+          "max": 100000.0,
+          "mean": 100000.0,
+          "median": 100000.0,
+          "min": 100000.0,
+          "p10": 100000.0,
+          "p90": 100000.0,
+          "p95": 100000.0,
+          "std": 0.0
+        },
+        "semantic_total_rows": {
+          "max": 599030.0,
+          "mean": 582252.0,
+          "median": 596155.5,
+          "min": 464357.0,
+          "p10": 574437.8000000003,
+          "p90": 598480.1,
+          "p95": 599030.0,
+          "std": 39462.728935034385
+        }
+      },
+      "fps": 83.21195757514934,
+      "frame_count": 300,
+      "label": "Fast + 160k cache",
+      "memory": {
+        "compact_culling_gpu_bytes": 17599984.0,
+        "frame_local_index_bytes": {
+          "max": 407488.0,
+          "mean": 150559.2,
+          "median": 153640.0,
+          "min": 16144.0,
+          "p10": 29773.60000000003,
+          "p90": 278406.4000000033,
+          "p95": 407488.0,
+          "std": 112877.67212057485
+        },
+        "frame_local_property_bytes": {
+          "max": 9397616.0,
+          "mean": 3466909.6,
+          "median": 3537860.0,
+          "min": 371312.0,
+          "p10": 684792.8000000007,
+          "p90": 6405886.400000076,
+          "p95": 9397616.0,
+          "std": 2601453.403906793
+        },
+        "hierarchy_metadata_cpu_bytes": 38458208.0,
+        "hierarchy_metadata_gpu_bytes": 0.0,
+        "host_pinned_bytes": 0.0,
+        "host_property_store_bytes": 101199908.0,
+        "peak_frame_total_torch_allocated_bytes": 113722368.0,
+        "peak_frame_total_torch_reserved_bytes": 140509184.0,
+        "peak_process_rss_bytes": 2000576512.0,
+        "peak_whole_device_vram_bytes": 1870528512.0,
+        "persistent_dynamic_property_bytes": {
+          "max": 14720000.0,
+          "mean": 14720000.0,
+          "median": 14720000.0,
+          "min": 14720000.0,
+          "p10": 14720000.0,
+          "p90": 14720000.0,
+          "p95": 14720000.0,
+          "std": 0.0
+        },
+        "persistent_gaussian_property_bytes": {
+          "max": 23920000.0,
+          "mean": 23920000.0,
+          "median": 23920000.0,
+          "min": 23920000.0,
+          "p10": 23920000.0,
+          "p90": 23920000.0,
+          "p95": 23920000.0,
+          "std": 0.0
+        },
+        "persistent_skybox_gpu_bytes": 9200000.0,
+        "persistent_total_gpu_bytes": 41519984.0,
+        "process_rss_bytes": {
+          "max": 2001240064.0,
+          "mean": 1977891976.5333333,
+          "median": 1968930816.0,
+          "min": 1949937664.0,
+          "p10": 1964175360.0,
+          "p90": 2001235968.0,
+          "p95": 2001240064.0,
+          "std": 15137491.950949386
+        },
+        "rasterizer_temporary_peak_increment_bytes": 60142080.0,
+        "residency_maps_gpu_bytes": 0.0,
+        "residency_metadata_cpu_bytes": {
+          "max": 11767480.0,
+          "mean": 11510551.2,
+          "median": 11513632.0,
+          "min": 11376136.0,
+          "p10": 11389765.6,
+          "p90": 11638398.400000004,
+          "p95": 11767480.0,
+          "std": 112877.67212057485
+        },
+        "selected_materialization_index_bytes": {
+          "max": 5509432.0,
+          "mean": 4959310.4,
+          "median": 5075088.0,
+          "min": 3747144.0,
+          "p10": 4723737.600000002,
+          "p90": 5318192.8000000045,
+          "p95": 5509432.0,
+          "std": 445212.57550325326
+        },
+        "selection_metadata_gpu_bytes": 0.0,
+        "steady_torch_allocated_bytes": {
+          "max": 82998784.0,
+          "mean": 68876697.6,
+          "median": 67988736.0,
+          "min": 62908416.0,
+          "p10": 62967398.4,
+          "p90": 72513740.80000027,
+          "p95": 82998784.0,
+          "std": 5441004.77551511
+        }
+      },
+      "process_replicates": 3,
+      "replicate_mean_frame_ms": [
+        12.0597194700008,
+        11.925898750001807,
+        12.06689259000541
+      ],
+      "replicate_mean_std_ms": 0.06484057514877128,
+      "residency": {
+        "capacity_rows": 160000,
+        "evictions": 0.0,
+        "h2d_bytes": 0.0,
+        "h2d_rows": 0.0,
+        "hit_or_reuse_rate": 1.0,
+        "hits": 5645970.0,
+        "loads": 0.0,
+        "misses": 0.0,
+        "occupancy_rows": {
+          "max": 151621.0,
+          "mean": 151621.0,
+          "median": 151621.0,
+          "min": 151621.0,
+          "p10": 151621.0,
+          "p90": 151621.0,
+          "p95": 151621.0,
+          "std": 0.0
+        },
+        "requests": 5645970.0,
+        "zero_transfer_frames": 300
+      },
+      "timing": {
+        "assembly_ms": {
+          "max": 0.7010360000094806,
+          "mean": 0.14788259666640138,
+          "median": 0.07798249998813844,
+          "min": 0.06026100004419277,
+          "p10": 0.06301889995938836,
+          "p90": 0.24468569994269274,
+          "p95": 0.3608912000288458,
+          "std": 0.11957801471005106
+        },
+        "cache_management_ms": {
+          "max": 0.4112830000622125,
+          "mean": 0.17633128000170473,
+          "median": 0.1711505000798752,
+          "min": 0.0947409999980664,
+          "p10": 0.10540869993747037,
+          "p90": 0.26469900005849933,
+          "p95": 0.3189508499872318,
+          "std": 0.06537332859823315
+        },
+        "camera_preparation_ms": {
+          "max": 1.3818699999319506,
+          "mean": 0.5150643800038779,
+          "median": 0.46721399996840773,
+          "min": 0.41404499995678634,
+          "p10": 0.4319458999930248,
+          "p90": 0.6278016999885957,
+          "p95": 0.8612529500283019,
+          "std": 0.15459404856933417
+        },
+        "filter_compaction_ms": {
+          "max": 0.7519999742507935,
+          "mean": 0.28517088035742444,
+          "median": 0.2740959972143173,
+          "min": 0.204352006316185,
+          "p10": 0.2291104018688202,
+          "p90": 0.32857599258422854,
+          "p95": 0.38850721269845967,
+          "std": 0.07879469204842432
+        },
+        "filter_culling_ms": {
+          "max": 4.564864158630371,
+          "mean": 1.120068585673968,
+          "median": 1.0035039782524109,
+          "min": 0.8945279717445374,
+          "p10": 0.9315455913543701,
+          "p90": 1.4887904286384583,
+          "p95": 1.6326272010803224,
+          "std": 0.3122274364188922
+        },
+        "filter_id_output_ms": {
+          "max": 0.08978099992873467,
+          "mean": 0.031794110001707544,
+          "median": 0.03225550000252042,
+          "min": 0.004930000045533234,
+          "p10": 0.008401099967159098,
+          "p90": 0.05954810006869596,
+          "p95": 0.07140889998140665,
+          "std": 0.019948380513999855
+        },
+        "filter_metadata_index_ms": {
+          "max": 0.34486401081085205,
+          "mean": 0.13516906661291916,
+          "median": 0.13462400436401367,
+          "min": 0.05116799846291542,
+          "p10": 0.11249919980764389,
+          "p90": 0.1538080006837845,
+          "p95": 0.1613696061074734,
+          "std": 0.026653242679754132
+        },
+        "filter_retained_index_d2h_ms": {
+          "max": 0.5301759839057922,
+          "mean": 0.16893909322718778,
+          "median": 0.16606400161981583,
+          "min": 0.11609599739313126,
+          "p10": 0.1316064029932022,
+          "p90": 0.20497920364141464,
+          "p95": 0.22254240289330485,
+          "std": 0.04557619624302933
+        },
+        "filter_selected_id_h2d_ms": {
+          "max": 0.521727979183197,
+          "mean": 0.28911701346437135,
+          "median": 0.28459200263023376,
+          "min": 0.2131199985742569,
+          "p10": 0.25672960877418516,
+          "p90": 0.32390720546245577,
+          "p95": 0.3576240032911301,
+          "std": 0.038990178038137514
+        },
+        "filter_total_ms": {
+          "max": 5.581217999974797,
+          "mean": 2.282801483337001,
+          "median": 2.1689480000190997,
+          "min": 1.8755099999907543,
+          "p10": 2.0203536000394706,
+          "p90": 2.6690547000157494,
+          "p95": 2.815952850045278,
+          "std": 0.3329874309290153
+        },
+        "full_property_h2d_ms": {
+          "max": 0.06856999993942736,
+          "mean": 0.03439033666874517,
+          "median": 0.03371650001326998,
+          "min": 0.029410000024654437,
+          "p10": 0.030690900007357413,
+          "p90": 0.03739209997775106,
+          "p95": 0.04361099990433104,
+          "std": 0.004805228659052547
+        },
+        "gpu_slot_index_ms": {
+          "max": 0.27052799998728005,
+          "mean": 0.06486049666780976,
+          "median": 0.06214149993866158,
+          "min": 0.03638000009686948,
+          "p10": 0.0423859999727938,
+          "p90": 0.08480120004605851,
+          "p95": 0.10032005000084612,
+          "std": 0.024142123646164866
+        },
+        "host_gather_ms": {
+          "max": 0.055992000056903635,
+          "mean": 0.02900378000352551,
+          "median": 0.028475499959768058,
+          "min": 0.022650000005342008,
+          "p10": 0.025456000059875805,
+          "p90": 0.03234400004430427,
+          "p95": 0.03688250001800952,
+          "std": 0.003762412747030743
+        },
+        "rasterization_ms": {
+          "max": 2.7778561115264893,
+          "mean": 1.3194162144263586,
+          "median": 1.2191199660301208,
+          "min": 0.971231997013092,
+          "p10": 1.092796766757965,
+          "p90": 1.7256991863250735,
+          "p95": 1.8477327823638916,
+          "std": 0.26806750816741304
+        },
+        "residency_lookup_ms": {
+          "max": 0.41478899993308005,
+          "mean": 0.16431146666794424,
+          "median": 0.16649400004098425,
+          "min": 0.03260100004354172,
+          "p10": 0.04796300001999043,
+          "p90": 0.3376128999661888,
+          "p95": 0.37280029997646125,
+          "std": 0.10008463648175862
+        },
+        "selected_gpu_gather_ms": {
+          "max": 0.5568230000108088,
+          "mean": 0.12138890999987477,
+          "median": 0.10375649998195513,
+          "min": 0.08063199993557646,
+          "p10": 0.08578000005172726,
+          "p90": 0.15848520000645297,
+          "p95": 0.18828269995765373,
+          "std": 0.06384388351593893
+        },
+        "selected_id_preparation_ms": {
+          "max": 0.199747000010575,
+          "mean": 0.13438920333707452,
+          "median": 0.13341349995243945,
+          "min": 0.09222300002420525,
+          "p10": 0.10878110001613095,
+          "p90": 0.15572199997677671,
+          "p95": 0.16729069998859813,
+          "std": 0.018665395962810236
+        },
+        "semantic_selection_ms": {
+          "max": 9.657609999976557,
+          "mean": 6.58959714333605,
+          "median": 6.577168499973141,
+          "min": 4.97709500007204,
+          "p10": 6.219464400032848,
+          "p90": 7.129830499934543,
+          "p95": 7.271106399991822,
+          "std": 0.5681081768443254
+        },
+        "spt_cut_ms": {
+          "max": 7.526621000010891,
+          "mean": 5.092117543332127,
+          "median": 5.129605499973877,
+          "min": 3.68007499992018,
+          "p10": 4.8295604999793795,
+          "p90": 5.526336999969317,
+          "p95": 5.605296850023933,
+          "std": 0.46339492403946564
+        },
+        "total_frame_ms": {
+          "max": 15.836100999990776,
+          "mean": 12.017503603336005,
+          "median": 12.021260000040002,
+          "min": 9.233939999944596,
+          "p10": 11.00409400000899,
+          "p90": 12.998228800017841,
+          "p95": 13.657322249957817,
+          "std": 0.9715181961435635
+        },
+        "upper_traversal_ms": {
+          "max": 2.674438999974882,
+          "mean": 1.1800132733333157,
+          "median": 1.1037445000283697,
+          "min": 0.9989830000449729,
+          "p10": 1.0468816999946284,
+          "p90": 1.3472612999294142,
+          "p95": 1.5170716000341147,
+          "std": 0.23486039678276446
+        }
+      },
+      "warmup_population": {
+        "all_processes": {
+          "evictions": 0.0,
+          "frames": 30,
+          "h2d_bytes": 41847396.0,
+          "h2d_rows": 454863.0,
+          "hit_or_reuse_rate": 0.19435809967109283,
+          "hits": 109734.0,
+          "loads": 454863.0,
+          "misses": 454863.0,
+          "requests": 564597.0,
+          "zero_transfer_frames": 0
+        },
+        "per_process": [
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          },
+          {
+            "cold_first_frame": {
+              "evictions": 0.0,
+              "frames": 1,
+              "h2d_bytes": 185656.0,
+              "h2d_rows": 2018.0,
+              "hit_or_reuse_rate": 0.0,
+              "hits": 0.0,
+              "loads": 2018.0,
+              "misses": 2018.0,
+              "requests": 2018.0,
+              "zero_transfer_frames": 0
+            },
+            "complete_warmup": {
+              "evictions": 0.0,
+              "frames": 10,
+              "h2d_bytes": 13949132.0,
+              "h2d_rows": 151621.0,
+              "hit_or_reuse_rate": 0.19435809967109283,
+              "hits": 36578.0,
+              "loads": 151621.0,
+              "misses": 151621.0,
+              "requests": 188199.0,
+              "zero_transfer_frames": 0
+            },
+            "final_occupancy_rows": 151621.0,
+            "frames_to_95_percent_final_occupancy": 9,
+            "frames_to_final_occupancy": 10,
+            "warm_navigation_after_cold": {
+              "evictions": 0.0,
+              "frames": 9,
+              "h2d_bytes": 13763476.0,
+              "h2d_rows": 149603.0,
+              "hit_or_reuse_rate": 0.19646473055789795,
+              "hits": 36578.0,
+              "loads": 149603.0,
+              "misses": 149603.0,
+              "requests": 186181.0,
+              "zero_transfer_frames": 0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "git_commit": "25bbca34c2a4951bb2ff29cf7a251b6cbc55cd6a",
+    "git_dirty": true,
+    "gpu": {
+      "available": false
+    },
+    "gsplat_version": "1.5.3",
+    "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+    "python_version": "3.12.12",
+    "timestamp_utc": "2026-08-20T13:59:58.430315+00:00",
+    "torch_cuda_version": "12.9",
+    "torch_version": "2.11.0.dev20260128+cu129"
+  },
+  "quality": {
+    "alpha_bitwise_exact": true,
+    "backend_false_negatives_zero": true,
+    "backend_projection_ids_exact": true,
+    "cache_history_independent": true,
+    "fast_materialization_ids_cpu_reference_exact": true,
+    "global_node_to_gpu_slot_exact": true,
+    "no_stale_slot_reads": true,
+    "rgb_bitwise_exact": true,
+    "semantic_selected_ids_exact": true,
+    "surviving_properties_bitwise_exact": true
+  },
+  "recomputed_reduced_cache_trace": {
+    "capacity_rows": 160000,
+    "maximum_single_frame_materialized_hierarchy_rows": 50936.0,
+    "trajectory_union_rows_from_zero_eviction_warmup_occupancy": 151621,
+    "union_headroom_fraction": 0.055262793412522014,
+    "union_headroom_rows": 8379,
+    "zero_evictions": true
+  },
+  "run_provenance": [
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "e9905abf30c9a67549de872cc284321d7042f8245228e17723edaaf9ccf85c52",
+      "replicate": 1,
+      "summary_sha256": "2ad3a83b352ec4f7ac883fabfa90471f71f0f2cd196fac5053ba0a4085fd65fe",
+      "warmup_sha256": "25313e697e11868a6c83cc168681e973c3a7062954a9abc8bd9d8226f745e379"
+    },
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "2cab0187061c843c017cb05f7729dcaaf6e294c368cda0ff1808785d26f78b46",
+      "replicate": 2,
+      "summary_sha256": "26052fe32b30516a9b469e2ed564d60e384a1c7d60fc156be8838fd9f9d151b0",
+      "warmup_sha256": "0978a961e230139f6db3b8f993ed7036015d7cd839303e1a2b01a205c6d03500"
+    },
+    {
+      "configuration_id": "ALOD-HIER-LOD-FRUSTUM",
+      "frames_sha256": "9d50a8fb3905dc45930e635ba7703100330ee6f91a610c48ce8f53dee1be8189",
+      "replicate": 3,
+      "summary_sha256": "9c40d28c4f410fd0a5ffd293b49a488653a7475c6a513842a7d20e2eac569034",
+      "warmup_sha256": "e631223da18d35d6dfc68cef887d543e06bc707a756c9e29bf2b8da7e996e28c"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "7d170518a81c86d45bdbb89e3ef806c814c428d9b8115331fb496c9985918711",
+      "replicate": 1,
+      "summary_sha256": "b6e7e044868ca68b023baaf2d1f82b47ade5a62dc27cfe0728813ad21ea36c09",
+      "warmup_sha256": "1c9148448b23f3fb5926dbb1d57dd86e90af412407de373edeeb806f0eda423e"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "8ce986ba3bc970ad17462024a2fa48588df0f12a4b66cd66a26e6742fd2eed0d",
+      "replicate": 2,
+      "summary_sha256": "8839c7a3d291b8c0be6f40af939c33fea90a5f94828f994a82c3177002b66875",
+      "warmup_sha256": "1ac9136c0ee99dd6f48cce95b81c90b4547fb0d5d4229f275c27ba6de00bb46b"
+    },
+    {
+      "configuration_id": "ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "b6f91d8bd1dfbd4f5e378e66a7786b38ed8ba54b2055f5357dea480f04d04694",
+      "replicate": 3,
+      "summary_sha256": "19cc84edeaf20a43eed82465a612c3755277b7d25fd10fd9058460a958693aab",
+      "warmup_sha256": "099407338d881b8048b97acee9432a78c86f8ddc3055570a87bef8a57685d25f"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "4835749549bcbdb541f757c4be5282ebcb61bd1f88b7aa02545f17de352a674e",
+      "replicate": 1,
+      "summary_sha256": "4762203a6d9c89a89b377a75dd9b4137f89d40300ad1ecfbb98fd1986f888b06",
+      "warmup_sha256": "014aef982aba5b728b2d051fb7b03371576d44420c4fcfbf966a8c6e01544c6e"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "52e0feba30a57f11088665ca28fb6556e76bd6b45c00b96a60857d86fdf828bb",
+      "replicate": 2,
+      "summary_sha256": "02342c10145ea32533a7efecdddeca0136e794cbaa0c29942bc84cd0fa6dde33",
+      "warmup_sha256": "68a0155de60fb9ef391d5dcf0b84b33db947fe938ad667e9b701916b78da53e1"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION",
+      "frames_sha256": "a829a323824eb7c8432226d8d183cdd9d06465a4544f980586854c5d0f2ea91c",
+      "replicate": 3,
+      "summary_sha256": "394d9489e72368cad0bfc9711332c3fb10cc438c7d643ea6c8eef048a23e309a",
+      "warmup_sha256": "efb5b89111ae7fee0535d565b1657f19633d80ac1bae96f1286b65f9948999fb"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "62a63cb3372e8fa0861ca8ddaf920c8b8f14db4d216c1c42e25929015afee1a3",
+      "replicate": 1,
+      "summary_sha256": "34c531834106abb8ff3ebbecf8304f1644c98615f6f463c4937bc3e59f087a1b",
+      "warmup_sha256": "f04dbe9e9de4c8256584c217c147d86867eaad8c7a91bfa99889e2426f33d74c"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "fe5c4e582170752e2b073352db2e018adb4342c8c63b31836bb4d8b1e330dfdf",
+      "replicate": 2,
+      "summary_sha256": "1cf0374ecbc59a15f08a67424a1163003768b1bab7f9f5514b36d9ed8c04a387",
+      "warmup_sha256": "1af35c209101064ec8664924ff5c9b39fb6fae47054702477965e65166190c96"
+    },
+    {
+      "configuration_id": "ALOD-HOST-BOUNDED-CACHE-REDUCED",
+      "frames_sha256": "e147f184338d26871fbadd8775589aa8d46f58c2cb17fc3b50b900b2ad55fd13",
+      "replicate": 3,
+      "summary_sha256": "abd13d08aeee06752c525b62afc9874bcb9184c9e26437f829449463f518dace",
+      "warmup_sha256": "c6fb4951c88248a8a97c3cf3afe5b311870b2b8c5dba656bd528d58c7a4a2d25"
+    }
+  ],
+  "schema_version": 1,
+  "status": "PASS-ALOD-MATERIALIZATION-AWARE-BENCHMARK",
+  "trajectory": {
+    "camera_count": 10,
+    "id": "alod_run005_frozen_evaluation_v1",
+    "resolution": [
+      960,
+      540
+    ],
+    "sha256": "c6d607b8baee0cc30f3c74121e9d19ba045a820fc87c8550a11c3dbc0c92968d"
+  },
+  "weak_lod_oracle": true
+}

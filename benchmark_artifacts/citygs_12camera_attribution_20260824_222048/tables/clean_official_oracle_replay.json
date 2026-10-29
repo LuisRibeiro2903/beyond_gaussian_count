@@ -1,0 +1,1286 @@
+[
+  {
+    "camera_index": 0,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.022206358582925887,
+        "count": 3,
+        "max": 3.155421998599195,
+        "mean": 3.108746666839579,
+        "median": 3.1413710003107553,
+        "min": 3.029447001608787,
+        "std_sample": 0.06903394322731533
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.004622059547020975,
+        "count": 3,
+        "max": 11.588159561157227,
+        "mean": 11.550890604654947,
+        "median": 11.574784278869629,
+        "min": 11.489727973937988,
+        "std_sample": 0.05338890419584028
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.009077159099037821,
+        "count": 3,
+        "max": 17.194857999129454,
+        "mean": 17.085978999602958,
+        "median": 17.154675999336177,
+        "min": 16.90840300034324,
+        "std_sample": 0.1550921497422151
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.16129794108012585,
+        "count": 3,
+        "max": 0.35469300019030925,
+        "mean": 0.3038563330240625,
+        "median": 0.29997499950695783,
+        "min": 0.2569009993749205,
+        "std_sample": 0.049011400900938334
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.005522361196003953,
+        "count": 3,
+        "max": 12.443420999261434,
+        "mean": 12.365995999668181,
+        "median": 12.34022499920684,
+        "min": 12.314342000536271,
+        "std_sample": 0.06828949645850767
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.04536735289278344,
+        "count": 3,
+        "max": 1.6849120002007112,
+        "mean": 1.6112363330951969,
+        "median": 1.6100659995572641,
+        "min": 1.5387309995276155,
+        "std_sample": 0.07309752731720416
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.04629673842272663,
+        "count": 3,
+        "max": 1.3531650001823436,
+        "mean": 1.3073800000711344,
+        "median": 1.330219000010402,
+        "min": 1.2387560000206577,
+        "std_sample": 0.060527429882397635
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 5.091038440068563,
+    "historical_minus_clean_replay_cuda_ms": 0.14147218068440814,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.007635106806011328,
+      "count": 3,
+      "max": 11.79417610168457,
+      "mean": 11.692362785339355,
+      "median": 11.655424118041992,
+      "min": 11.627488136291504,
+      "std_sample": 0.08927243868069808
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.013901178478739716,
+      "count": 3,
+      "max": 17.33721099981267,
+      "mean": 17.071675333227176,
+      "median": 16.99753499997314,
+      "min": 16.88027999989572,
+      "std_sample": 0.2373164057382893
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.008633329204118783,
+      "count": 3,
+      "max": 12.425197000084154,
+      "mean": 12.308933999975125,
+      "median": 12.284785999781889,
+      "min": 12.216819000059331,
+      "std_sample": 0.10626707937355588
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0013307426615184691,
+      "count": 3,
+      "max": 6.469639678001403,
+      "mean": 6.459852164586384,
+      "median": 6.456390728950501,
+      "min": 6.453526086807251,
+      "std_sample": 0.008596400862517528
+    },
+    "selected_gaussian_count": 1957671
+  },
+  {
+    "camera_index": 131,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.004403628016972952,
+        "count": 3,
+        "max": 14.326873000754858,
+        "mean": 14.278197666499182,
+        "median": 14.30051199895388,
+        "min": 14.207207999788807,
+        "std_sample": 0.06287587127607362
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.01156205254794045,
+        "count": 3,
+        "max": 19.657888412475586,
+        "mean": 19.44372304280599,
+        "median": 19.463680267333984,
+        "min": 19.2096004486084,
+        "std_sample": 0.2248093475485234
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.011213482953737747,
+        "count": 3,
+        "max": 36.96429099909437,
+        "mean": 36.60219699910764,
+        "median": 36.68596199895546,
+        "min": 36.15633799927309,
+        "std_sample": 0.41043811211884446
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.03275487987644195,
+        "count": 3,
+        "max": 0.266851000560564,
+        "mean": 0.2585996662674006,
+        "median": 0.2590219992271159,
+        "min": 0.24992599901452195,
+        "std_sample": 0.008470401004676683
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.01451670744604421,
+        "count": 3,
+        "max": 21.056112000223948,
+        "mean": 20.767116999801754,
+        "median": 20.790683998711756,
+        "min": 20.454555000469554,
+        "std_sample": 0.3014701619838934
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.03688124699902661,
+        "count": 3,
+        "max": 1.607666999916546,
+        "mean": 1.5568823328067083,
+        "median": 1.5684049994888483,
+        "min": 1.4945749990147306,
+        "std_sample": 0.05741976186466496
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.03776916224131762,
+        "count": 3,
+        "max": 1.340815999355982,
+        "mean": 1.2982826665393077,
+        "median": 1.3093830002617324,
+        "min": 1.2446490000002086,
+        "std_sample": 0.04903504866761357
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 11.64020795027415,
+    "historical_minus_clean_replay_cuda_ms": -9.241579055786131,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.0031109120940500806,
+      "count": 3,
+      "max": 10.238271713256836,
+      "mean": 10.202143987019857,
+      "median": 10.189408302307129,
+      "min": 10.178751945495605,
+      "std_sample": 0.03173797311446038
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.005816965385664035,
+      "count": 3,
+      "max": 18.35851600026217,
+      "mean": 18.240950333468692,
+      "median": 18.21204099996976,
+      "min": 18.15229400017415,
+      "std_sample": 0.10610697669140422
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.003113406128562265,
+      "count": 3,
+      "max": 10.790183000153775,
+      "mean": 10.766288000165028,
+      "median": 10.780710000290128,
+      "min": 10.727971000051184,
+      "std_sample": 0.03351982704158017
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0009524560876095719,
+      "count": 3,
+      "max": 7.809754891395569,
+      "mean": 7.80351509253184,
+      "median": 7.805498213768005,
+      "min": 7.795292172431946,
+      "std_sample": 0.007432505454635123
+    },
+    "selected_gaussian_count": 4545269
+  },
+  {
+    "camera_index": 262,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.018321232231536238,
+        "count": 3,
+        "max": 5.7614209999883315,
+        "mean": 5.650962333068795,
+        "median": 5.635333000100218,
+        "min": 5.556132999117835,
+        "std_sample": 0.10353259323581722
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.017794929281446138,
+        "count": 3,
+        "max": 20.478656768798828,
+        "mean": 20.067541758219402,
+        "median": 19.889535903930664,
+        "min": 19.83443260192871,
+        "std_sample": 0.35710048643998155
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.02087228045004409,
+        "count": 3,
+        "max": 29.414429000098608,
+        "mean": 28.72337099991758,
+        "median": 28.41328300019086,
+        "min": 28.34240099946328,
+        "std_sample": 0.599522254980943
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.11605184381622784,
+        "count": 3,
+        "max": 0.5004169997846475,
+        "mean": 0.4456503332524638,
+        "median": 0.43888899926969316,
+        "min": 0.39764500070305075,
+        "std_sample": 0.051718542871264817
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.020531201918156265,
+        "count": 3,
+        "max": 21.925220000412082,
+        "mean": 21.422918667061214,
+        "median": 21.236789001704892,
+        "min": 21.106746999066672,
+        "std_sample": 0.43983826882967286
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.041554896946953586,
+        "count": 3,
+        "max": 1.7277879996981937,
+        "mean": 1.6494899997875716,
+        "median": 1.6203609993681312,
+        "min": 1.6003210002963897,
+        "std_sample": 0.06854438695620303
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.019081956283698177,
+        "count": 3,
+        "max": 1.2273709999135463,
+        "mean": 1.2038396665351077,
+        "median": 1.202675999593339,
+        "min": 1.181472000098438,
+        "std_sample": 0.022971615889404714
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 9.458533109029135,
+    "historical_minus_clean_replay_cuda_ms": -7.122550010681154,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.0021846859760943456,
+      "count": 3,
+      "max": 12.970239639282227,
+      "mean": 12.944991747538248,
+      "median": 12.95030403137207,
+      "min": 12.91443157196045,
+      "std_sample": 0.028280741931503844
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.006068934307510766,
+      "count": 3,
+      "max": 20.80125400016186,
+      "mean": 20.656553333234722,
+      "median": 20.587700999840308,
+      "min": 20.580704999701993,
+      "std_sample": 0.12536326519899407
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.004072854332804396,
+      "count": 3,
+      "max": 13.711102999877767,
+      "mean": 13.650947666519642,
+      "median": 13.640290999774152,
+      "min": 13.601448999907007,
+      "std_sample": 0.05559832135047058
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0015405090123945862,
+      "count": 3,
+      "max": 10.627686710357667,
+      "mean": 10.609008649190267,
+      "median": 10.602004165649413,
+      "min": 10.597335071563721,
+      "std_sample": 0.016343273436649722
+    },
+    "selected_gaussian_count": 4405467
+  },
+  {
+    "camera_index": 392,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.07724871875284665,
+        "count": 3,
+        "max": 6.230008000784437,
+        "mean": 5.730307334185151,
+        "median": 5.573577000177465,
+        "min": 5.387337001593551,
+        "std_sample": 0.4426588996258432
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.0007328502211966547,
+        "count": 3,
+        "max": 10.381759643554688,
+        "mean": 10.376959800720215,
+        "median": 10.380928039550781,
+        "min": 10.368191719055176,
+        "std_sample": 0.007604757285306603
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.023754410618441593,
+        "count": 3,
+        "max": 18.7802999989799,
+        "mean": 18.314839999826898,
+        "median": 18.245774001115933,
+        "min": 17.918445999384858,
+        "std_sample": 0.43505822976694686
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.09842288225146997,
+        "count": 3,
+        "max": 0.3052560005016858,
+        "mean": 0.27427333285838057,
+        "median": 0.26174399863521103,
+        "min": 0.25581999943824485,
+        "std_sample": 0.02699477194463862
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.0021963874175887116,
+        "count": 3,
+        "max": 11.130846000014571,
+        "mean": 11.108449999179962,
+        "median": 11.112053998658666,
+        "min": 11.08244999886665,
+        "std_sample": 0.024398459807112204
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.038455627287349775,
+        "count": 3,
+        "max": 1.5413510009238962,
+        "mean": 1.4760826664617828,
+        "median": 1.4486589989246568,
+        "min": 1.4382379995367955,
+        "std_sample": 0.05676368486677175
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.024777035579394976,
+        "count": 3,
+        "max": 1.2360950004222104,
+        "mean": 1.2018093336034024,
+        "median": 1.1869150002894457,
+        "min": 1.1824180000985507,
+        "std_sample": 0.029777272618340466
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 1.9328172906239818,
+    "historical_minus_clean_replay_cuda_ms": 0.129760106404623,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.004288850109892839,
+      "count": 3,
+      "max": 10.555808067321777,
+      "mean": 10.506719907124838,
+      "median": 10.497119903564453,
+      "min": 10.467231750488281,
+      "std_sample": 0.04506174682828564
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.003278481295051732,
+      "count": 3,
+      "max": 17.981952999889472,
+      "mean": 17.93550299983811,
+      "median": 17.95516599986513,
+      "min": 17.869389999759733,
+      "std_sample": 0.05880121110231347
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.00476048888182977,
+      "count": 3,
+      "max": 11.121456999717338,
+      "mean": 11.086544666492651,
+      "median": 11.1123469996528,
+      "min": 11.025830000107817,
+      "std_sample": 0.052777372622747405
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0010896516882804557,
+      "count": 3,
+      "max": 8.450197095870971,
+      "mean": 8.444142510096233,
+      "median": 8.448676176071167,
+      "min": 8.433554258346557,
+      "std_sample": 0.009201174142207126
+    },
+    "selected_gaussian_count": 3823434
+  },
+  {
+    "camera_index": 523,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.015637443237225983,
+        "count": 3,
+        "max": 5.391755999880843,
+        "mean": 5.2972659996157745,
+        "median": 5.262884998955997,
+        "min": 5.237157000010484,
+        "std_sample": 0.08283569638147882
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.0008120228354992499,
+        "count": 3,
+        "max": 11.446144104003906,
+        "mean": 11.43666140238444,
+        "median": 11.436256408691406,
+        "min": 11.427583694458008,
+        "std_sample": 0.00928683022060904
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.0019452494051700948,
+        "count": 3,
+        "max": 19.075007001447375,
+        "mean": 19.03229600126603,
+        "median": 19.012521001059213,
+        "min": 19.009360001291498,
+        "std_sample": 0.03702256247548392
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.14225527252391948,
+        "count": 3,
+        "max": 0.3040770006919047,
+        "mean": 0.2692140005819965,
+        "median": 0.2753429998847423,
+        "min": 0.22822200116934255,
+        "std_sample": 0.03829711102004653
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.0051275794323389235,
+        "count": 3,
+        "max": 12.312730999838095,
+        "mean": 12.24604066737811,
+        "median": 12.237337001351989,
+        "min": 12.188054000944248,
+        "std_sample": 0.06279254625363402
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.034838085439416064,
+        "count": 3,
+        "max": 1.5251190015987959,
+        "mean": 1.4889893342721432,
+        "median": 1.5122990007512271,
+        "min": 1.4295500004664063,
+        "std_sample": 0.05187353764575217
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.05906265699476156,
+        "count": 3,
+        "max": 1.2968970004294533,
+        "mean": 1.2197753336901467,
+        "median": 1.2082220000593225,
+        "min": 1.154207000581664,
+        "std_sample": 0.07204317214441196
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 2.1158483568827293,
+    "historical_minus_clean_replay_cuda_ms": 0.09865601857503314,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.004574911564339561,
+      "count": 3,
+      "max": 11.595871925354004,
+      "mean": 11.535317420959473,
+      "median": 11.510944366455078,
+      "min": 11.499135971069336,
+      "std_sample": 0.05277305706747509
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.019658157094504667,
+      "count": 3,
+      "max": 19.51293699994494,
+      "mean": 19.0908900000674,
+      "median": 18.965019999996002,
+      "min": 18.794713000261254,
+      "std_sample": 0.37529171469523315
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.0067766162671689814,
+      "count": 3,
+      "max": 12.263031000202318,
+      "mean": 12.167947333485548,
+      "median": 12.124714000037784,
+      "min": 12.116097000216541,
+      "std_sample": 0.0824575098381536
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0011185901577058922,
+      "count": 3,
+      "max": 9.332608366012574,
+      "mean": 9.32081304550171,
+      "median": 9.317002925872803,
+      "min": 9.31282784461975,
+      "std_sample": 0.010426169734514896
+    },
+    "selected_gaussian_count": 4256076
+  },
+  {
+    "camera_index": 654,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.020298237700333305,
+        "count": 3,
+        "max": 4.474429000765667,
+        "mean": 4.384490333904978,
+        "median": 4.382577000797028,
+        "min": 4.296465000152239,
+        "std_sample": 0.08899742699241699
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.002621106216762782,
+        "count": 3,
+        "max": 10.91209602355957,
+        "mean": 10.887935956319174,
+        "median": 10.895263671875,
+        "min": 10.85644817352295,
+        "std_sample": 0.028538436622823214
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.0024916098260585884,
+        "count": 3,
+        "max": 17.524386999866692,
+        "mean": 17.490545666078106,
+        "median": 17.50587799870118,
+        "min": 17.441371999666444,
+        "std_sample": 0.04357961544472667
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.08021731419377232,
+        "count": 3,
+        "max": 0.28160699912405107,
+        "mean": 0.2626323330332525,
+        "median": 0.2663289997144602,
+        "min": 0.23996100026124623,
+        "std_sample": 0.021067660376371863
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.0024016225117458882,
+        "count": 3,
+        "max": 11.678609998853062,
+        "mean": 11.651146665826673,
+        "median": 11.652155999399838,
+        "min": 11.622673999227118,
+        "std_sample": 0.027981656120302383
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.049812562959914944,
+        "count": 3,
+        "max": 1.5006269986770349,
+        "mean": 1.454908666346455,
+        "median": 1.4927510001143673,
+        "min": 1.3713480002479628,
+        "std_sample": 0.07247272954330868
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.04433655747358872,
+        "count": 3,
+        "max": 1.2264220003999071,
+        "mean": 1.1922763333132025,
+        "median": 1.2190199995529838,
+        "min": 1.1313869999867165,
+        "std_sample": 0.05286142817634042
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 1.609531704584759,
+    "historical_minus_clean_replay_cuda_ms": 0.13806947072346887,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.005783481906156644,
+      "count": 3,
+      "max": 11.09932804107666,
+      "mean": 11.026005427042643,
+      "median": 10.995200157165527,
+      "min": 10.983488082885742,
+      "std_sample": 0.06376870288448608
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.02235380789019579,
+      "count": 3,
+      "max": 17.931509999925765,
+      "mean": 17.48577800011238,
+      "median": 17.32434900031876,
+      "min": 17.201475000092614,
+      "std_sample": 0.390873722225124
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.006304544919378792,
+      "count": 3,
+      "max": 11.711432000083732,
+      "mean": 11.636506999972577,
+      "median": 11.633275999884063,
+      "min": 11.564812999949936,
+      "std_sample": 0.07336288108599286
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0007708439245658076,
+      "count": 3,
+      "max": 9.286350364685058,
+      "mean": 9.278404251734415,
+      "median": 9.276380157470703,
+      "min": 9.272482233047485,
+      "std_sample": 0.007152201547115032
+    },
+    "selected_gaussian_count": 3241519
+  },
+  {
+    "camera_index": 785,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.007876935595890491,
+        "count": 3,
+        "max": 16.363204000299447,
+        "mean": 16.219048000493785,
+        "median": 16.174099000636488,
+        "min": 16.11984100054542,
+        "std_sample": 0.127756396526546
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.014026769556848784,
+        "count": 3,
+        "max": 24.1180477142334,
+        "mean": 23.865493138631184,
+        "median": 23.992639541625977,
+        "min": 23.48579216003418,
+        "std_sample": 0.3347557726161354
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.01157077620720709,
+        "count": 3,
+        "max": 43.484424999405746,
+        "mean": 43.15579566597686,
+        "median": 43.40178399979777,
+        "min": 42.58117799872707,
+        "std_sample": 0.4993460536949759
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.033131571208987284,
+        "count": 3,
+        "max": 0.25571700098225847,
+        "mean": 0.24758733343333006,
+        "median": 0.24773199947958346,
+        "min": 0.23931299983814824,
+        "std_sample": 0.008202957368089653
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.016483632777213993,
+        "count": 3,
+        "max": 25.735458000781364,
+        "mean": 25.463724666527316,
+        "median": 25.67541799908213,
+        "min": 24.98029799971846,
+        "std_sample": 0.41973468654312207
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.01644771180273009,
+        "count": 3,
+        "max": 1.4922269983799197,
+        "mean": 1.4730229989557604,
+        "median": 1.481038998463191,
+        "min": 1.4458030000241706,
+        "std_sample": 0.024227857765617537
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.02623157319231517,
+        "count": 3,
+        "max": 1.2529139985417714,
+        "mean": 1.2254356655224303,
+        "median": 1.2333069989836076,
+        "min": 1.1900859990419121,
+        "std_sample": 0.03214510535262508
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 11.540768114725749,
+    "historical_minus_clean_replay_cuda_ms": 354.22572390238446,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.00441784784657129,
+      "count": 3,
+      "max": 380.0122985839844,
+      "mean": 378.0912170410156,
+      "median": 377.2795104980469,
+      "min": 376.9818420410156,
+      "std_sample": 1.6703494690121694
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.00354912846763485,
+      "count": 3,
+      "max": 432.74409100013145,
+      "mean": 430.99867499995526,
+      "median": 430.36055499987924,
+      "min": 429.8913789998551,
+      "std_sample": 1.5296696669552419
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.003742913354682962,
+      "count": 3,
+      "max": 397.69284200019683,
+      "mean": 396.00123166655976,
+      "median": 395.3807099996993,
+      "min": 394.93014299978313,
+      "std_sample": 1.4821982984756679
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0010395409369440844,
+      "count": 3,
+      "max": 12.334549140930175,
+      "mean": 12.324725023905435,
+      "median": 12.329392309188842,
+      "min": 12.31023362159729,
+      "std_sample": 0.01281205619892886
+    },
+    "selected_gaussian_count": 5285212
+  },
+  {
+    "camera_index": 916,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.026059636727658483,
+        "count": 3,
+        "max": 4.465472999072517,
+        "mean": 4.354617665740079,
+        "median": 4.359695998573443,
+        "min": 4.2386839995742775,
+        "std_sample": 0.11347975445703062
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.003581470306968326,
+        "count": 3,
+        "max": 7.871840000152588,
+        "mean": 7.84112008412679,
+        "median": 7.834752082824707,
+        "min": 7.816768169403076,
+        "std_sample": 0.02808273875467308
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.02455123362954957,
+        "count": 3,
+        "max": 14.669709000372677,
+        "mean": 14.278986666492225,
+        "median": 14.175271999192773,
+        "min": 13.991978999911225,
+        "std_sample": 0.3505667376422738
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.18830734719254794,
+        "count": 3,
+        "max": 0.3625860008469317,
+        "mean": 0.2991310011566384,
+        "median": 0.27977300123893656,
+        "min": 0.25503400138404686,
+        "std_sample": 0.056328565290857564
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.006032851188539199,
+        "count": 3,
+        "max": 8.46775200079719,
+        "mean": 8.409176000592803,
+        "median": 8.380440000109957,
+        "min": 8.379336000871263,
+        "std_sample": 0.05073130742981159
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.12819916613865592,
+        "count": 3,
+        "max": 1.7364840005029691,
+        "mean": 1.5151930001593428,
+        "median": 1.436239999748068,
+        "min": 1.3728550002269913,
+        "std_sample": 0.1942464791595561
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.11352136280870871,
+        "count": 3,
+        "max": 1.3738979996560374,
+        "mean": 1.2160619990027044,
+        "median": 1.1564669985091314,
+        "min": 1.1178209988429444,
+        "std_sample": 0.13804901538666958
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 1.5151888910929365,
+    "historical_minus_clean_replay_cuda_ms": 0.13797330856323242,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.02534148462433883,
+      "count": 3,
+      "max": 8.212575912475586,
+      "mean": 7.9790933926900225,
+      "median": 7.862688064575195,
+      "min": 7.862016201019287,
+      "std_sample": 0.20220207252701777
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.11762341477854811,
+      "count": 3,
+      "max": 17.012401000101818,
+      "mean": 14.97942800006058,
+      "median": 14.031265000085114,
+      "min": 13.894617999994807,
+      "std_sample": 1.761931472796523
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.02388594275701082,
+      "count": 3,
+      "max": 8.647113000279205,
+      "mean": 8.415122000163441,
+      "median": 8.305241000016395,
+      "min": 8.293012000194722,
+      "std_sample": 0.20100312238916634
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0036283736323744335,
+      "count": 3,
+      "max": 6.352431998252869,
+      "mean": 6.3259311930338535,
+      "median": 6.3130176067352295,
+      "min": 6.312343974113464,
+      "std_sample": 0.022952841941018976
+    },
+    "selected_gaussian_count": 2965440
+  },
+  {
+    "camera_index": 1047,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.0322717645031969,
+        "count": 3,
+        "max": 4.468545999770868,
+        "mean": 4.367950332986463,
+        "median": 4.428469999766094,
+        "min": 4.206834999422426,
+        "std_sample": 0.14096146450779962
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.011985388895875776,
+        "count": 3,
+        "max": 31.017696380615234,
+        "mean": 30.640693028767902,
+        "median": 30.620319366455078,
+        "min": 30.2840633392334,
+        "std_sample": 0.3672406219889331
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.01006538229561753,
+        "count": 3,
+        "max": 38.898585000424646,
+        "mean": 38.4855916666614,
+        "median": 38.427871999374474,
+        "min": 38.13031800018507,
+        "std_sample": 0.3873721929979792
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.08721685118359666,
+        "count": 3,
+        "max": 0.27382600092096254,
+        "mean": 0.24959100058670933,
+        "median": 0.24325000049429946,
+        "min": 0.23169700034486596,
+        "std_sample": 0.021768541154936014
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.013477893380000482,
+        "count": 3,
+        "max": 33.064731000195025,
+        "mean": 32.66506500040123,
+        "median": 32.73730900036753,
+        "min": 32.19315500064113,
+        "std_sample": 0.44025626332619316
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.028612799921653373,
+        "count": 3,
+        "max": 1.4837279995845165,
+        "mean": 1.4525763332737067,
+        "median": 1.4686169997730758,
+        "min": 1.4053840004635276,
+        "std_sample": 0.04156227599488946
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.028380373724811756,
+        "count": 3,
+        "max": 1.240477999090217,
+        "mean": 1.2029853326869973,
+        "median": 1.1947909988521133,
+        "min": 1.1736870001186617,
+        "std_sample": 0.034141173327123985
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 14.760638612111409,
+    "historical_minus_clean_replay_cuda_ms": 317.88224601745605,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.007891436288973604,
+      "count": 3,
+      "max": 350.3857727050781,
+      "mean": 348.52293904622394,
+      "median": 349.81903076171875,
+      "min": 345.364013671875,
+      "std_sample": 2.750346568729107
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.005302654774423528,
+      "count": 3,
+      "max": 373.0753410000034,
+      "mean": 371.87842166652746,
+      "median": 372.957488999873,
+      "min": 369.602434999706,
+      "std_sample": 1.9719428881550978
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.009408273186790916,
+      "count": 3,
+      "max": 367.21168400026727,
+      "mean": 365.1522413335139,
+      "median": 367.0587340002385,
+      "min": 361.186306000036,
+      "std_sample": 3.4354520412347047
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.00028063882412276606,
+      "count": 3,
+      "max": 15.884214391708374,
+      "mean": 15.880054416656494,
+      "median": 15.880597763061523,
+      "min": 15.875351095199585,
+      "std_sample": 0.004456559798496016
+    },
+    "selected_gaussian_count": 2964347
+  },
+  {
+    "camera_index": 1177,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.014009054726960419,
+        "count": 3,
+        "max": 4.508219999479479,
+        "mean": 4.444860667111546,
+        "median": 4.442618001121446,
+        "min": 4.383744000733714,
+        "std_sample": 0.062268296339279446
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.006035195165695843,
+        "count": 3,
+        "max": 5.633024215698242,
+        "mean": 5.5960001945495605,
+        "median": 5.5880961418151855,
+        "min": 5.566880226135254,
+        "std_sample": 0.0337729533213785
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.009583313063693158,
+        "count": 3,
+        "max": 12.008806999801891,
+        "mean": 11.91674966685241,
+        "median": 11.952490000112448,
+        "min": 11.788952000642894,
+        "std_sample": 0.11420194275910779
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.04116874121523806,
+        "count": 3,
+        "max": 0.2704979997361079,
+        "mean": 0.2591586665706321,
+        "median": 0.25765999998839106,
+        "min": 0.24931799998739734,
+        "std_sample": 0.010669236077732519
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.008791616940795546,
+        "count": 3,
+        "max": 6.0847969998576446,
+        "mean": 6.025913000485161,
+        "median": 6.010828001308255,
+        "min": 5.9821140002895845,
+        "std_sample": 0.05297751881882546
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.021511077636739193,
+        "count": 3,
+        "max": 1.4813919988228008,
+        "mean": 1.4459759992557035,
+        "median": 1.4334419993247138,
+        "min": 1.4230939996195957,
+        "std_sample": 0.03110450198085097
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.03443834096317385,
+        "count": 3,
+        "max": 1.2320739988354035,
+        "mean": 1.1868173326850713,
+        "median": 1.1757819993363228,
+        "min": 1.1525959998834878,
+        "std_sample": 0.04087201996401302
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 1.6781279762585957,
+    "historical_minus_clean_replay_cuda_ms": 0.14877859751383493,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.028537796624635202,
+      "count": 3,
+      "max": 5.934048175811768,
+      "mean": 5.7447787920633955,
+      "median": 5.65334415435791,
+      "min": 5.646944046020508,
+      "std_sample": 0.16394332882142265
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.08013682384048199,
+      "count": 3,
+      "max": 13.884440999845538,
+      "mean": 12.775290666771374,
+      "median": 12.574900000345224,
+      "min": 11.86653100012336,
+      "std_sample": 1.0237712176740112
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.025317075869841277,
+      "count": 3,
+      "max": 6.271214999742369,
+      "mean": 6.0931019999467635,
+      "median": 6.005725000250095,
+      "min": 6.002365999847825,
+      "std_sample": 0.15425952561533382
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.0016521911600582248,
+      "count": 3,
+      "max": 3.9253276777267456,
+      "mean": 3.917872218290965,
+      "median": 3.9146057677268984,
+      "min": 3.9136832094192506,
+      "std_sample": 0.00647307384529804
+    },
+    "selected_gaussian_count": 3310269
+  },
+  {
+    "camera_index": 1308,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.005988037024916636,
+        "count": 3,
+        "max": 7.664979999390198,
+        "mean": 7.6216096658754395,
+        "median": 7.625849999385537,
+        "min": 7.573998998850584,
+        "std_sample": 0.04563848086872464
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.0009631508827863153,
+        "count": 3,
+        "max": 14.307744026184082,
+        "mean": 14.292095820109049,
+        "median": 14.286687850952148,
+        "min": 14.281855583190918,
+        "std_sample": 0.013765444706004637
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.007096273118174274,
+        "count": 3,
+        "max": 24.51589900010731,
+        "mean": 24.352685000242975,
+        "median": 24.37050300068222,
+        "min": 24.171652999939397,
+        "std_sample": 0.1728133039225901
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.06229024527879152,
+        "count": 3,
+        "max": 0.2606010002637049,
+        "mean": 0.24353666716100028,
+        "median": 0.23843000053602736,
+        "min": 0.23157900068326853,
+        "std_sample": 0.015169958731838119
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.004372169781573868,
+        "count": 3,
+        "max": 15.34081700083334,
+        "mean": 15.273044667386179,
+        "median": 15.271006001057685,
+        "min": 15.20731100026751,
+        "std_sample": 0.06677634436737376
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.04210320100653563,
+        "count": 3,
+        "max": 1.5101019998837728,
+        "mean": 1.458030666981358,
+        "median": 1.4736470002389979,
+        "min": 1.3903430008213036,
+        "std_sample": 0.06138775824560933
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.040172423214134945,
+        "count": 3,
+        "max": 1.2495009996200679,
+        "mean": 1.2144939998203579,
+        "median": 1.2352169997029705,
+        "min": 1.158764000138035,
+        "std_sample": 0.048789166951810944
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 3.0598749351501446,
+    "historical_minus_clean_replay_cuda_ms": 0.14507738749186316,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.005043009215003027,
+      "count": 3,
+      "max": 14.494527816772461,
+      "mean": 14.437173207600912,
+      "median": 14.4617280960083,
+      "min": 14.355263710021973,
+      "std_sample": 0.0728067975245262
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.006239660471944449,
+      "count": 3,
+      "max": 24.13972299973466,
+      "mean": 24.044026666463953,
+      "median": 24.121236999690154,
+      "min": 23.87111999996705,
+      "std_sample": 0.15002656277711338
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.005267495814480782,
+      "count": 3,
+      "max": 15.25183699959598,
+      "mean": 15.189904666537283,
+      "median": 15.218312999877526,
+      "min": 15.099564000138344,
+      "std_sample": 0.08001275925334723
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.001531009524469952,
+      "count": 3,
+      "max": 11.252023687362671,
+      "mean": 11.232220884958904,
+      "median": 11.223588771820069,
+      "min": 11.22105019569397,
+      "std_sample": 0.017196637155822394
+    },
+    "selected_gaussian_count": 5902505
+  },
+  {
+    "camera_index": 1439,
+    "clean_official_oracle_replay": {
+      "active_set_assembly_time_ms": {
+        "coefficient_of_variation": 0.017862810730132957,
+        "count": 3,
+        "max": 9.627871000702726,
+        "mean": 9.464461999717363,
+        "median": 9.475250999457785,
+        "min": 9.290263998991577,
+        "std_sample": 0.16906189336348693
+      },
+      "cuda_rasterization_time_ms": {
+        "coefficient_of_variation": 0.023115009527376093,
+        "count": 3,
+        "max": 26.862144470214844,
+        "mean": 26.449525197347004,
+        "median": 26.739295959472656,
+        "min": 25.747135162353516,
+        "std_sample": 0.6113810269312501
+      },
+      "end_to_end_frame_time_ms": {
+        "coefficient_of_variation": 0.024347712007289146,
+        "count": 3,
+        "max": 39.855753999290755,
+        "mean": 39.16004366631872,
+        "median": 39.551154999571736,
+        "min": 38.073222000093665,
+        "std_sample": 0.9534574653803956
+      },
+      "lod_selection_time_ms": {
+        "coefficient_of_variation": 0.05823538466107582,
+        "count": 3,
+        "max": 0.2892600004997803,
+        "mean": 0.2763493333380514,
+        "median": 0.28146899967396166,
+        "min": 0.2583189998404123,
+        "std_sample": 0.016093309727773286
+      },
+      "render_call_time_ms": {
+        "coefficient_of_variation": 0.025998138356735527,
+        "count": 3,
+        "max": 28.732060998663655,
+        "mean": 28.20684933370406,
+        "median": 28.519466000943794,
+        "min": 27.369021001504734,
+        "std_sample": 0.7333255715852315
+      },
+      "selection_time_ms": {
+        "coefficient_of_variation": 0.04803721337985745,
+        "count": 3,
+        "max": 1.5564379991701571,
+        "mean": 1.488732332897295,
+        "median": 1.4958219999243738,
+        "min": 1.4139369995973539,
+        "std_sample": 0.07151455274088034
+      },
+      "visibility_time_ms": {
+        "coefficient_of_variation": 0.05838175564717355,
+        "count": 3,
+        "max": 1.2671779986703768,
+        "mean": 1.2123829995592434,
+        "median": 1.2375030000839615,
+        "min": 1.1324679999233922,
+        "std_sample": 0.07078104803105507
+      }
+    },
+    "clean_replay_minus_isolated_graphdeco_gpu_ms": 12.453465795516966,
+    "historical_minus_clean_replay_cuda_ms": -9.06588808695475,
+    "historical_official_cuda_rasterization_ms": {
+      "coefficient_of_variation": 0.002861301636983787,
+      "count": 3,
+      "max": 17.425472259521484,
+      "mean": 17.383637110392254,
+      "median": 17.396799087524414,
+      "min": 17.32863998413086,
+      "std_sample": 0.04973982932069747
+    },
+    "historical_official_end_to_end_ms": {
+      "coefficient_of_variation": 0.0019255103947811462,
+      "count": 3,
+      "max": 28.88428500000373,
+      "mean": 28.851945333220403,
+      "median": 28.88375399970755,
+      "min": 28.787796999949933,
+      "std_sample": 0.055554720648773266
+    },
+    "historical_official_render_call_ms": {
+      "coefficient_of_variation": 0.0034593437939931444,
+      "count": 3,
+      "max": 18.3337449998362,
+      "mean": 18.281990333131642,
+      "median": 18.300731999715936,
+      "min": 18.211493999842787,
+      "std_sample": 0.0632436898007616
+    },
+    "isolated_graphdeco_gpu_time_ms": {
+      "coefficient_of_variation": 0.00034940935115720636,
+      "count": 3,
+      "max": 13.999990358352662,
+      "mean": 13.996059401830038,
+      "median": 13.99760479927063,
+      "min": 13.99058304786682,
+      "std_sample": 0.004890354034351152
+    },
+    "selected_gaussian_count": 6211124
+  }
+]

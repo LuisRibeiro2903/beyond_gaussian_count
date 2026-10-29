@@ -1,0 +1,498 @@
+{
+  "campaign_id": "ALOD-EXT-FORMAL-RUN009-001",
+  "status": "PASS-ALOD-EXT-FORMAL-RUN009",
+  "immutable_after_finalization": true,
+  "file_count": 98,
+  "files": [
+    {
+      "path": "ALOD-EXT-FORMAL-RUN009.json",
+      "size_bytes": 222,
+      "sha256": "36c8071bf68b517640aef731e6754b2ba750ef0af48e0954a4a471c499188311"
+    },
+    {
+      "path": "checks/cache_sizing.json",
+      "size_bytes": 31861,
+      "sha256": "67b8a156532681f1b245a38a6cedf3478b8704b130d7c64f75c55117b34b8aff"
+    },
+    {
+      "path": "checks/correctness.json",
+      "size_bytes": 18039,
+      "sha256": "f3a6dfa52514e863ccc2b18bb70048389e7251475582c6798c039adce0e7b2ff"
+    },
+    {
+      "path": "checks/formal_run_schedule.json",
+      "size_bytes": 21046,
+      "sha256": "83e2f00a54c9a515e9016ee1cf0efc571ab1406d1cb91fde8aefe460d0c0e1cb"
+    },
+    {
+      "path": "checks/post_filter_trace.npz",
+      "size_bytes": 798503157,
+      "sha256": "023eac53d043cad176d8ea2f7d0e2222979f9311e4977875fe9db2a19c9f341a"
+    },
+    {
+      "path": "checks/regression_tests.json",
+      "size_bytes": 685,
+      "sha256": "08a274ec82095fecfe454755a445416bd3200481c95f7f3199a0b6a3f88718b3"
+    },
+    {
+      "path": "provenance.json",
+      "size_bytes": 642,
+      "sha256": "94a5a988d254e087154553e5fb811a5cfdf21c4b1e50cf78788d096707062179"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/cold_start.json",
+      "size_bytes": 9078,
+      "sha256": "d9ec22635c1af8973a67cfb8444683289b984783d054a7e63ca0d841a8212e2c"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/frames.jsonl",
+      "size_bytes": 532167,
+      "sha256": "5181e10842c5e3939b085b38755ead9baedfd089e5ed1d2a046c95bfd9bcafab"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/resolved_config.json",
+      "size_bytes": 5420,
+      "sha256": "ec3c4ccef0f9954c7b09df435fe294dca2c1185e128966e4f534fb158078d434"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/summary.json",
+      "size_bytes": 23083,
+      "sha256": "2a6cde6f5b5854ab9aa710c37b08377079f1308a64df4185f134f3c93170c7ff"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 67728,
+      "sha256": "07f6a46195ca013e88658e5896a40e682bed25ddcefd4d19dcab59d8b11ca8de"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-02/cold_start.json",
+      "size_bytes": 9083,
+      "sha256": "a55c5a7a8c7d5a4fa1a8e1b684de23e53f8e7e622c46cb4af875993c12927166"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-02/frames.jsonl",
+      "size_bytes": 532218,
+      "sha256": "6b7ebba7d911236893d00d3ef7fdd1a928123bd40e3144978feb515abd8978db"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-02/resolved_config.json",
+      "size_bytes": 5420,
+      "sha256": "ec3c4ccef0f9954c7b09df435fe294dca2c1185e128966e4f534fb158078d434"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-02/summary.json",
+      "size_bytes": 23090,
+      "sha256": "50de8d7fc651b27bd5273a9c96968ee0c63df2f923ca2ee1ba1404cac4b56ac1"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 67731,
+      "sha256": "69b30844dc8c2c97a7f9c2c48b28a98d403b892364cbf852bf812acb9f274e5f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-03/cold_start.json",
+      "size_bytes": 9078,
+      "sha256": "fe94f18a29d009b8b10e444198b671d80ca36b9954bf40f129d71b397a62a896"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-03/frames.jsonl",
+      "size_bytes": 532154,
+      "sha256": "57fe6a69598cbf478b4e76c5e24a345993e944245cee2d45042dda9963edb95b"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-03/resolved_config.json",
+      "size_bytes": 5420,
+      "sha256": "ec3c4ccef0f9954c7b09df435fe294dca2c1185e128966e4f534fb158078d434"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-03/summary.json",
+      "size_bytes": 23082,
+      "sha256": "edfeeb67cfa400a9f8d50de01569fd3457866990bba1c36e1ef32b3d85f64983"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 67721,
+      "sha256": "fb94190de7e65f0a0c5486078e75678e9c22c3e5717ea6109c58d28a624e004f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-01/cold_start.json",
+      "size_bytes": 9189,
+      "sha256": "9874af62b4ddf2ac1d74e23c3c661a942ad0b55a30386d68102f10d0bac36de7"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-01/frames.jsonl",
+      "size_bytes": 541039,
+      "sha256": "a632645aff58843d05b8039d61225ce19d280cec7d787361a39442b7fdd5ba5f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-01/resolved_config.json",
+      "size_bytes": 5411,
+      "sha256": "15a738dcc5c8b068f4f10fa22c92ad4046c5e1d93c1fe880856f1f303889cc1f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-01/summary.json",
+      "size_bytes": 23353,
+      "sha256": "1de63acc66a9ab3dbf7dc7c7ea164bd305cb40b57c6f2baa8376f9b95f69262d"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 69002,
+      "sha256": "bcfdfc01787b7b7b3c4b01d6a947c670a63daad6d6550fd6ce78cad6361e4aed"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-02/cold_start.json",
+      "size_bytes": 9186,
+      "sha256": "bcbc20148119723c88b2913bc81c8c48046feb3859f1c0386777128f3cff2aa7"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-02/frames.jsonl",
+      "size_bytes": 541169,
+      "sha256": "4e8d43a1b97db7d98e92c4637e80e84412bba8b7fcba7e1ccefd37ac67681cf6"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-02/resolved_config.json",
+      "size_bytes": 5411,
+      "sha256": "15a738dcc5c8b068f4f10fa22c92ad4046c5e1d93c1fe880856f1f303889cc1f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-02/summary.json",
+      "size_bytes": 23353,
+      "sha256": "3f100c23db39b7b73f2483424fa596e2ca174a0d51b6f5373b279dcb2120a702"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 68995,
+      "sha256": "05eb435d07270101e4ae69d4a1ca02616922a1568dae32f148ac5639e30d7af0"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-03/cold_start.json",
+      "size_bytes": 9192,
+      "sha256": "d48c8fb7fa40ab79f0ed70f804bdd86689f0377c3de3e28cc95edbec3514bacc"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-03/frames.jsonl",
+      "size_bytes": 541138,
+      "sha256": "7248920b484025d7a2a3f241f1e6dd8c3cdc936483160b0f18f488ff408d1793"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-03/resolved_config.json",
+      "size_bytes": 5411,
+      "sha256": "15a738dcc5c8b068f4f10fa22c92ad4046c5e1d93c1fe880856f1f303889cc1f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-03/summary.json",
+      "size_bytes": 23363,
+      "sha256": "242d6b37543036e628ae6d717e8aa2e472a3a76950e2ee0ed62d0f9888ad2629"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 68985,
+      "sha256": "803495cf4acb7715ea431ba9662ed60dac095721497e86f7262a9f2a77644370"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-01/cold_start.json",
+      "size_bytes": 9195,
+      "sha256": "765fda5aa1cc4f4b9543d672600c9b40f5cdac8b12a34b07be1a9a11ee3bf9dd"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-01/frames.jsonl",
+      "size_bytes": 541037,
+      "sha256": "f4b2636fe71b79c9013a1dca0defb81d1b9dcc267b38dc27dbf691507b9b7c6c"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-01/resolved_config.json",
+      "size_bytes": 5428,
+      "sha256": "e61900e788e5a502373b7cca822509c8ba3a9b3077d1b0d5c3c27c7ef8a52d47"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-01/summary.json",
+      "size_bytes": 23357,
+      "sha256": "d1ae8bec02b71671239ae5f5594c8c0d72ff4317d67c368d51413b228c3fa64a"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 68946,
+      "sha256": "3c6ae778417ad6e3acb62de48b1226a1cf89d8c2c0be0040395b3bcf7c624dc0"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-02/cold_start.json",
+      "size_bytes": 9185,
+      "sha256": "a343d6fd6e69ca1036fe35239e1df38c6298841cf5e2a2770387f9bb7d1666b3"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-02/frames.jsonl",
+      "size_bytes": 541124,
+      "sha256": "20ba9fbf80fb87104b7b5e418979c4191b30f2bae29786b8c6d071ebbaf3cc7d"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-02/resolved_config.json",
+      "size_bytes": 5428,
+      "sha256": "e61900e788e5a502373b7cca822509c8ba3a9b3077d1b0d5c3c27c7ef8a52d47"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-02/summary.json",
+      "size_bytes": 23343,
+      "sha256": "edc3561898b5c2cfec6007c7980385aaf2589383a888b51ef852b4d2834e388c"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 68958,
+      "sha256": "9c6fa715430c18589ffb0a00aadd6f5b4746e51fca57ad9e3e90f3be6576fdab"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-03/cold_start.json",
+      "size_bytes": 9188,
+      "sha256": "7a385cf58f4d36b7ce29728b267e552a5dc495a94cd1b98d4065a90b47ae8d67"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-03/frames.jsonl",
+      "size_bytes": 541080,
+      "sha256": "17ef69bbf23818d3f376a45a323306148aad308e1b715b3e7e914048836abdb7"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-03/resolved_config.json",
+      "size_bytes": 5428,
+      "sha256": "e61900e788e5a502373b7cca822509c8ba3a9b3077d1b0d5c3c27c7ef8a52d47"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-03/summary.json",
+      "size_bytes": 23353,
+      "sha256": "efdeb455c1b17fa8a391cd84b17e5614c651f2d75268d09cf9217a18d4c3369c"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 68959,
+      "sha256": "1bfed9b217d3ea037a3b61c135a5bf2725bd740e6d6d5d775c76bdb9ed2cd3c4"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-01/cold_start.json",
+      "size_bytes": 9195,
+      "sha256": "4db84c1733cd033959da7a1359687824d21bd40421247fda183d3d4f06bb13f0"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-01/frames.jsonl",
+      "size_bytes": 541369,
+      "sha256": "f78e8c22738c95b4ea8d407dcf854fdacf753d87665a6e7f7091ec4b7fe1f21f"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-01/resolved_config.json",
+      "size_bytes": 5432,
+      "sha256": "d68d50806618084f6813cc62b44f6ebf3c420b1b02582d87ea222d7e6b864c53"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-01/summary.json",
+      "size_bytes": 23361,
+      "sha256": "af15bd90f19e0517df95bef26d3102f520a747d9242773c5ee2e4c54156c4f6a"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 69048,
+      "sha256": "9c10943a3fc1b114b06e04545f4647f2d4cde73e5bdc779c47243a3f1a2dfc24"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-02/cold_start.json",
+      "size_bytes": 9200,
+      "sha256": "db1d5afb39cf10ceb3b15630d0b3661529f1e9963e18d2fe461bb6197a73560a"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-02/frames.jsonl",
+      "size_bytes": 541372,
+      "sha256": "b1e3262be4379b1a69409b9f404dc31b0511332b0b653960193bbccb74997965"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-02/resolved_config.json",
+      "size_bytes": 5432,
+      "sha256": "d68d50806618084f6813cc62b44f6ebf3c420b1b02582d87ea222d7e6b864c53"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-02/summary.json",
+      "size_bytes": 23370,
+      "sha256": "7e3e820461d5280cd5908054e80f47119d53f1b21b79c993196953a862643306"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 69036,
+      "sha256": "64671bf5803f8157cbe43a12b7b9da9b412a33351c53510393eca1833c5f3aeb"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-03/cold_start.json",
+      "size_bytes": 9208,
+      "sha256": "a2dbcd1c4b75270aff54cd6c93c6d6edb7f29a30130e14299bc081ef639216ea"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-03/frames.jsonl",
+      "size_bytes": 541333,
+      "sha256": "b9a326471b10f000749c59c85d50e021b5ab01aa14651b2a054d96a4430ee156"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-03/resolved_config.json",
+      "size_bytes": 5432,
+      "sha256": "d68d50806618084f6813cc62b44f6ebf3c420b1b02582d87ea222d7e6b864c53"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-03/summary.json",
+      "size_bytes": 23379,
+      "sha256": "a49caf17727dbce1016f2319acb9c2fde78af586fc90479a4097d6b9ce08e489"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 69042,
+      "sha256": "2de6140c6444115d47adb92dce2755c75f0a7e0897fe12a8ede6f4fa51a7450e"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-01/cold_start.json",
+      "size_bytes": 9126,
+      "sha256": "c5cb8fd7af7f08b825d2839f0b203805abf92b445902f4070893da07f7fa29d5"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-01/frames.jsonl",
+      "size_bytes": 539061,
+      "sha256": "0df14005e9211309d693b286ffaddbf0d6c7c2855380b9c0c88dbd85faa7e67e"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-01/resolved_config.json",
+      "size_bytes": 5351,
+      "sha256": "6b7ab018c9214ba96ebe87874c21259973f12c2bffbb28df2c07228ba1cded92"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-01/summary.json",
+      "size_bytes": 23271,
+      "sha256": "273c838f7e477360dbf22874af19aa3199b1a895929a124691378d5c259f88b5"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 68507,
+      "sha256": "28b068a1d92deddda0e23c44ec79090015625ee42500bdd452ce588230e038d1"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-02/cold_start.json",
+      "size_bytes": 9130,
+      "sha256": "822d0edf134c0bbc95061eeb490af7cb95bebd47532ef717bd46685fb96260ba"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-02/frames.jsonl",
+      "size_bytes": 539070,
+      "sha256": "db2b15d1686a4883b3a0c606eb9ba40c3c6c9d16b98f62beea3db95e3f71ab26"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-02/resolved_config.json",
+      "size_bytes": 5351,
+      "sha256": "6b7ab018c9214ba96ebe87874c21259973f12c2bffbb28df2c07228ba1cded92"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-02/summary.json",
+      "size_bytes": 23282,
+      "sha256": "b550f0e6f6bc62a252f88e08862136a3f37b43fe8feac394a183ad6f6f4c5481"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 68520,
+      "sha256": "c5984e1960c26e649bbaa6aac92643bc3b031ca992289fadf3054f5250bc9308"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-03/cold_start.json",
+      "size_bytes": 9131,
+      "sha256": "7925ec7422f0ae4c2485c5fe35ff078234661c23ee74dd9d07f03913dbaff511"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-03/frames.jsonl",
+      "size_bytes": 539094,
+      "sha256": "0344bdbb47cddfac356f1ee5d427f815f382292a6d90728eb1b1d49378a2aef7"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-03/resolved_config.json",
+      "size_bytes": 5351,
+      "sha256": "6b7ab018c9214ba96ebe87874c21259973f12c2bffbb28df2c07228ba1cded92"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-03/summary.json",
+      "size_bytes": 23282,
+      "sha256": "9e9c345763378bb2805cfdbbf027fb1b73924eb30fa0c1fe9cb35b52d49a8283"
+    },
+    {
+      "path": "runs/ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 68539,
+      "sha256": "b0f1d91269ed7686970f82ab550de48e9b0250cca2b6736c5808f47abd6fd040"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-01/cold_start.json",
+      "size_bytes": 9034,
+      "sha256": "99ea9b454beebce65faea4b1abf821890ac76809e1c21d61105c9d0e8c129ee9"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-01/frames.jsonl",
+      "size_bytes": 528054,
+      "sha256": "c1f1f6c9c9b56788c9ee353684c37b73a21660f813801b23177bdad9acd643b5"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-01/resolved_config.json",
+      "size_bytes": 5425,
+      "sha256": "9c244fb8b9a18f2b869ba340d4f6615e27343c561952525a1a2771af7db4e814"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-01/summary.json",
+      "size_bytes": 23029,
+      "sha256": "2c1a6ee463126332b0ad01d00b1394193a87324cd9906d149ee677c613ecd409"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-01/warmup_frames.jsonl",
+      "size_bytes": 67403,
+      "sha256": "eb17168c916ed6bec43508a145c2fbd4768fc7b18d58a1cb04ac0d45a69904b3"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-02/cold_start.json",
+      "size_bytes": 9034,
+      "sha256": "683d30292fdf265f61cf63717eddc036b962b96a290451338ca555abeb2a1ddc"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-02/frames.jsonl",
+      "size_bytes": 528187,
+      "sha256": "333b53df337993c2b8c1ac7cf9cc17c067b564d9eaa88b67b4c16317343e2a7e"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-02/resolved_config.json",
+      "size_bytes": 5425,
+      "sha256": "9c244fb8b9a18f2b869ba340d4f6615e27343c561952525a1a2771af7db4e814"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-02/summary.json",
+      "size_bytes": 23032,
+      "sha256": "ea8983f4e4afc767edcaabca7c200eee1405ba09b5e802176a875a5be953bf00"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-02/warmup_frames.jsonl",
+      "size_bytes": 67408,
+      "sha256": "14b63b059481c586f4a9c97ad598a262a07c14266bb3ecfdc96c40b5fe245988"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-03/cold_start.json",
+      "size_bytes": 9036,
+      "sha256": "63712c8fbbdfdf6e404748f5b2e9a6754cc56facd7cdceb8f467373d58ca83be"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-03/frames.jsonl",
+      "size_bytes": 528099,
+      "sha256": "661c89ff150eaccd297a89cfeb9e12483c274d4652269506038537d24663bca5"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-03/resolved_config.json",
+      "size_bytes": 5425,
+      "sha256": "9c244fb8b9a18f2b869ba340d4f6615e27343c561952525a1a2771af7db4e814"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-03/summary.json",
+      "size_bytes": 23034,
+      "sha256": "a31a78ebd33fe75e269b490da04bfd79310023e85c84431a4d278c43668aac1f"
+    },
+    {
+      "path": "runs/ALOD-EXT-ROW-LRU-PRACTICAL/replicate-03/warmup_frames.jsonl",
+      "size_bytes": 67408,
+      "sha256": "9b257e1084a589a09e67093896576886e97d8342681ec901a75eca57f6d63b9f"
+    },
+    {
+      "path": "tables/formal_summary.json",
+      "size_bytes": 71576,
+      "sha256": "b950be3598955de7d302ade898ee6360024256c0b66a5355b9f71bbf1d6a01df"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "candidates": [
+    {
+      "SPT_count": 199,
+      "SPT_coverage": 0.9941582843412803,
+      "SPT_root_volume": 0.1,
+      "SPT_size": {
+        "maximum": 289639,
+        "mean": 23151.67336683417,
+        "median": 2263.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 72409.0,
+        "p95": 72409.0,
+        "p99": 144819.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 782,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4607183,
+      "headroom_rows": 1083090,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.062499581917697666,
+      "official_print_coverage": 0.9941155959256474,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861753344,
+      "required_reduced_cache_rows": 516910,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0004491880026762374,
+        "isolated_process_wall_seconds": 0.1784869949988206,
+        "source_structural_precompute_seconds": 0.17695124899910297
+      },
+      "upper_hierarchy_fraction": 0.00588465675712709,
+      "upper_hierarchy_rows": 27271
+    },
+    {
+      "SPT_count": 329,
+      "SPT_coverage": 0.990650492905548,
+      "SPT_root_volume": 0.05,
+      "SPT_size": {
+        "maximum": 144819,
+        "mean": 13954.185410334347,
+        "median": 4523.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 36205.0,
+        "p95": 72409.0,
+        "p99": 72410.44
+      },
+      "below_or_equal_min_SPT_size_candidates": 1482,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4590927,
+      "headroom_rows": 1211524,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.03124968306664178,
+      "official_print_coverage": 0.9905801685760793,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861966336,
+      "required_reduced_cache_rows": 388476,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0005042949997005053,
+        "isolated_process_wall_seconds": 0.14022972399834543,
+        "source_structural_precompute_seconds": 0.1387925909984915
+      },
+      "upper_hierarchy_fraction": 0.00942050016669346,
+      "upper_hierarchy_rows": 43657
+    },
+    {
+      "SPT_count": 527,
+      "SPT_coverage": 0.9856641466643505,
+      "SPT_root_volume": 0.025,
+      "SPT_size": {
+        "maximum": 144819,
+        "mean": 8667.588235294117,
+        "median": 2263.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 25343.00000000062,
+        "p95": 36204.4,
+        "p99": 72409.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 2388,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4567819,
+      "headroom_rows": 1188218,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.03124968306664178,
+      "official_print_coverage": 0.9855520712732552,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861569024,
+      "required_reduced_cache_rows": 411782,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0007612989975314122,
+        "isolated_process_wall_seconds": 0.1530817319980997,
+        "source_structural_precompute_seconds": 0.15139344300041557
+      },
+      "upper_hierarchy_fraction": 0.0144495717218841,
+      "upper_hierarchy_rows": 66963
+    },
+    {
+      "SPT_count": 961,
+      "SPT_coverage": 0.9767177248554514,
+      "SPT_root_volume": 0.01,
+      "SPT_size": {
+        "maximum": 72411,
+        "mean": 4710.05098855359,
+        "median": 2261.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 9051.0,
+        "p95": 18101.0,
+        "p99": 36203.8
+      },
+      "below_or_equal_min_SPT_size_candidates": 4214,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4526359,
+      "headroom_rows": 1218732,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.01562516520994205,
+      "official_print_coverage": 0.9765152260434034,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861503488,
+      "required_reduced_cache_rows": 381268,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0009005259998957627,
+        "isolated_process_wall_seconds": 0.13785358399763936,
+        "source_structural_precompute_seconds": 0.13596359800067148
+      },
+      "upper_hierarchy_fraction": 0.023489643966505942,
+      "upper_hierarchy_rows": 108857
+    },
+    {
+      "SPT_count": 1493,
+      "SPT_coverage": 0.9668917657746499,
+      "SPT_root_volume": 0.005,
+      "SPT_size": {
+        "maximum": 36205,
+        "mean": 3001.221031480241,
+        "median": 1131.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 9049.0,
+        "p95": 9051.0,
+        "p99": 18101.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 5541,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": true,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4480823,
+      "headroom_rows": 1208870,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.007812474712763972,
+      "official_print_coverage": 0.9665803663184452,
+      "passes_all_nonstability_criteria": true,
+      "peak_RSS_bytes": 861732864,
+      "required_reduced_cache_rows": 391130,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0011354130001564045,
+        "isolated_process_wall_seconds": 0.13818490400080918,
+        "source_structural_precompute_seconds": 0.13607550500091747
+      },
+      "upper_hierarchy_fraction": 0.03343040035561271,
+      "upper_hierarchy_rows": 154925
+    },
+    {
+      "SPT_count": 2561,
+      "SPT_coverage": 0.9458316385265808,
+      "SPT_root_volume": 0.002,
+      "SPT_size": {
+        "maximum": 18103,
+        "mean": 1711.5286997266692,
+        "median": 1129.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 4525.0,
+        "p95": 4525.0,
+        "p99": 9051.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 7232,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": false,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": true
+      },
+      "flattened_SPT_rows": 4383225,
+      "headroom_rows": 1128306,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.003906345248589039,
+      "official_print_coverage": 0.9453092380633608,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861474816,
+      "required_reduced_cache_rows": 471694,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.0014158820013108198,
+        "isolated_process_wall_seconds": 0.14604057900214684,
+        "source_structural_precompute_seconds": 0.14359767999849282
+      },
+      "upper_hierarchy_fraction": 0.05472098535794858,
+      "upper_hierarchy_rows": 253591
+    },
+    {
+      "SPT_count": 3540,
+      "SPT_coverage": 0.9164463327978284,
+      "SPT_root_volume": 0.001,
+      "SPT_size": {
+        "maximum": 18101,
+        "mean": 1199.7305084745763,
+        "median": 565.0,
+        "minimum": 281,
+        "p10": 281.0,
+        "p90": 2263.0,
+        "p95": 4525.0,
+        "p99": 9049.0
+      },
+      "below_or_equal_min_SPT_size_candidates": 9583,
+      "cache_feasible": true,
+      "criteria": {
+        "cache_feasible_strict": true,
+        "comfortable_cache_headroom": true,
+        "coverage": false,
+        "nondegenerate_count": true,
+        "nondegenerate_largest_fraction": true,
+        "not_overpartitioned_count": true,
+        "not_overpartitioned_median": false
+      },
+      "flattened_SPT_rows": 4247046,
+      "headroom_rows": 991150,
+      "hierarchy_rows": 4634255,
+      "largest_SPT_fraction_of_hierarchy": 0.0039059136797608245,
+      "official_print_coverage": 0.9157468150273999,
+      "passes_all_nonstability_criteria": false,
+      "peak_RSS_bytes": 861798400,
+      "required_reduced_cache_rows": 608850,
+      "timing": {
+        "HSPT_structural_construction_seconds": 0.001907331999973394,
+        "isolated_process_wall_seconds": 0.16624173800300923,
+        "source_structural_precompute_seconds": 0.1632240079998155
+      },
+      "upper_hierarchy_fraction": 0.0843175440281124,
+      "upper_hierarchy_rows": 390749
+    }
+  ],
+  "hierarchy": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-002/output/scaffold/point_cloud/iteration_30000/hierarchy.dhier",
+    "rows": 4634255,
+    "sha256": "c1487170a0b1e53314b70df36bc5cc8aa0da4304c5a3d21b67e3ffc3dcecadf3"
+  },
+  "method": "source-faithful structural HSPT sweep; no training/cameras/rendering",
+  "official_source": {
+    "checkout_clean": true,
+    "commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "files": {
+      "/home/luis/tese/LoDOfGaussians/Docs/Hyperparameters.md": "cec03b731ee57de55b44344d768c291930f8fca37f340811d522e39f6004215a",
+      "/home/luis/tese/LoDOfGaussians/configs/MatrixCity.json": "c3db41104e1859baf675cb2d29e5bf81cf0e60ccde25bd1d5682a63b899388d5",
+      "/home/luis/tese/LoDOfGaussians/scene/gaussian_model.py": "f92239232c38b30c77d0c8dfcb462177ba4187eb78548411f9c60dab8ccbcae6",
+      "/home/luis/tese/LoDOfGaussians/train.py": "07eb139c5e5a7ac7e54a069dd201ca242ad210a9b12dec5c2e2530df4de78b52",
+      "/home/luis/tese/LoDOfGaussians/train_hierarchy.py": "6981b40cadeba89d13b5b5d69104158c8441196e31e9c105f8728ecdad64e38c"
+    }
+  },
+  "policy": {
+    "comfortable_headroom_fraction": 0.1,
+    "coverage_minimum": 0.95,
+    "max_overpartition_spts": 4525,
+    "min_spt_size": 256,
+    "nondegenerate_max_largest_fraction": 0.25,
+    "nondegenerate_min_spts": 16,
+    "overpartition_min_median_multiple": 4,
+    "reduced_cache_rows": 1600000,
+    "required_reduced_cache_rows_formula": "skybox_rows + upper_hierarchy_rows + maximum_complete_SPT_rows + reserve_rows",
+    "reserve_rows": 100000,
+    "selection_rule": "largest SPT_root_volume in a stable regime passing every criterion",
+    "skybox_rows": 100000,
+    "stability_rule": "selected candidate and immediate tested neighbors must each pass all non-stability criteria; adjacent SPT-count and maximum-size ratios must remain within [0.5, 2.0]",
+    "strict_cache_inequality": "required_reduced_cache_rows < reduced_cache_rows"
+  },
+  "scene_statistics": {
+    "bounding_box_diagonal": 43.096598744644,
+    "bounding_box_max": [
+      2.247859001159668,
+      7.537418842315674,
+      4.595996379852295
+    ],
+    "bounding_box_min": [
+      -9.529629707336426,
+      -4.344106197357178,
+      -35.12096405029297
+    ],
+    "bounding_box_side_lengths": [
+      11.777488708496094,
+      11.881525039672852,
+      39.716960430145264
+    ],
+    "bounding_box_volume": 5557.774071450086,
+    "hierarchy_position_component_max": 7.537418842315674,
+    "hierarchy_position_component_min": -35.12096405029297,
+    "root_activated_scale_volume": 53.10844802856445,
+    "root_position": [
+      -2.7335550785064697,
+      1.4789838790893555,
+      -3.2508745193481445
+    ]
+  },
+  "schema_version": 1
+}

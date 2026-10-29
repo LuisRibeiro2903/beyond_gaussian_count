@@ -1,0 +1,143 @@
+{
+  "all_alpha_finite": true,
+  "all_rgb_finite": true,
+  "alpha_range": [
+    0.6249589920043945,
+    0.9999006390571594
+  ],
+  "backend": "graphdeco",
+  "backend_gpu_time_ms": {
+    "count": 100,
+    "max": 9.522944450378418,
+    "mean": 9.317002925872803,
+    "median": 9.314976215362549,
+    "min": 9.229087829589844,
+    "p95": 9.383545398712158,
+    "p99": 9.466014842987061,
+    "std_population": 0.04638716951072407,
+    "std_sample": 0.04662085950111686
+  },
+  "backend_input_and_internal_work": {
+    "call": "preconstructed GaussianRasterizer.__call__ only",
+    "camera_input": "official transposed world-view and full-projection matrices",
+    "color_input": "degree-2 SH coefficients; SH evaluated internally",
+    "internal_work": [
+      "covariance construction",
+      "SH evaluation",
+      "camera-space projection",
+      "frustum rejection",
+      "tile overlap generation",
+      "duplicated-instance sorting",
+      "alpha compositing"
+    ],
+    "opacity_input": "activated opacity column; compositing internally",
+    "rotation_input": "pre-normalized wxyz quaternion",
+    "scale_input": "activated positive scales; covariance constructed internally"
+  },
+  "backend_synchronized_wall_time_ms": {
+    "count": 100,
+    "max": 10.164277000512811,
+    "mean": 9.97784592995231,
+    "median": 9.974706499633612,
+    "min": 9.845188000326743,
+    "p95": 10.05646345029163,
+    "p99": 10.141550559546886,
+    "std_population": 0.05388464403423808,
+    "std_sample": 0.054156104916190974
+  },
+  "backend_throughput_equivalent": 107.33065213740088,
+  "camera_id": "viser_000523",
+  "camera_index": 523,
+  "case": "representative_lod",
+  "gaussian_count": 4256076,
+  "input_file_sha256": "3edbd339e8a3510ffaa964ccb2ad4a346c3d718ee86e4ff5d846aac802b7a9d0",
+  "input_tensor_sha256": {
+    "means": "7c523594fa73a5d63510839506c36932d4238d5543cec52865c5f0611f60877e",
+    "opacities": "26795926acb04e0764791d50bfa956d3bd6ff8ebe553af36da33eea4143086d4",
+    "quats": "43e362dce4686f89c2c8d704a1c833335e8eef7079087fc9718718e16178b8ad",
+    "scales": "e0115895d95fe66b2a72ef3d7a6928f7bf496299b3733307cc79abd3684cc48e",
+    "sh_coefficients": "255757ba08349a5a38bf6988b9b966b6131891b4f5224f53d0157f5cda1240e6"
+  },
+  "measured_diagnostics": {
+    "duplicated_sorted_instance_count": "not exposed by pinned public GraphDECO API",
+    "input_gaussian_count": 4256076,
+    "maximum_radius": 4741.0,
+    "positive_radii_projected_gaussian_count": 1365632,
+    "tile_intersection_count": "not exposed by pinned public GraphDECO API",
+    "tiles_touched": "not exposed by pinned public GraphDECO API"
+  },
+  "measured_render_count": 100,
+  "memory": {
+    "after_measured_series": {
+      "torch_current_allocated_bytes": 790983168,
+      "torch_current_reserved_bytes": 2153775104,
+      "torch_peak_allocated_bytes": 1690493440,
+      "torch_peak_reserved_bytes": 2153775104
+    },
+    "allocator_semantics": "PyTorch allocator counters; GraphDECO custom extension behavior may not be representation-neutral",
+    "before_measured_series_after_peak_reset": {
+      "torch_current_allocated_bytes": 749075456,
+      "torch_current_reserved_bytes": 2153775104,
+      "torch_peak_allocated_bytes": 749075456,
+      "torch_peak_reserved_bytes": 2153775104
+    },
+    "whole_device_after": {
+      "memory_clock_mhz": 14801,
+      "name": "NVIDIA GeForce RTX 5080",
+      "nvidia_smi_raw": "NVIDIA GeForce RTX 5080, 66, 2820, 14801, P1, 2883, 16303",
+      "pstate": "P1",
+      "sm_clock_mhz": 2820,
+      "temperature_c": 66,
+      "whole_device_total_bytes": 17094934528,
+      "whole_device_used_bytes": 3023044608
+    },
+    "whole_device_before": {
+      "memory_clock_mhz": 14801,
+      "name": "NVIDIA GeForce RTX 5080",
+      "nvidia_smi_raw": "NVIDIA GeForce RTX 5080, 49, 2640, 14801, P1, 2883, 16303",
+      "pstate": "P1",
+      "sm_clock_mhz": 2640,
+      "temperature_c": 49,
+      "whole_device_total_bytes": 17094934528,
+      "whole_device_used_bytes": 3023044608
+    }
+  },
+  "record_kind": "CITYGS-BACKEND-MICROBENCH-repeat",
+  "repeat": 3,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "rgb_range": [
+    0.005852436646819115,
+    1.187729835510254
+  ],
+  "sh_degree": 2,
+  "timing_semantics": {
+    "backend_gpu_time_ms": "CUDA events enclosing only one direct backend rasterization invocation; end event synchronized",
+    "backend_synchronized_wall_time_ms": "CPU perf_counter enclosing event record, backend call, end-event record, and end-event synchronization",
+    "excluded": [
+      "scene and PLY loading",
+      "activation/conversion",
+      "camera construction",
+      "visibility and LoD selection",
+      "active-set gather and concatenation",
+      "canonical input loading and hashing",
+      "host-to-device transfer",
+      "rasterizer/static argument construction",
+      "warmup",
+      "diagnostic reduction",
+      "alpha sanity render",
+      "image transfer and serialization"
+    ]
+  },
+  "warmup_diagnostics": {
+    "duplicated_sorted_instance_count": "not exposed by pinned public GraphDECO API",
+    "input_gaussian_count": null,
+    "maximum_radius": 4741.0,
+    "positive_radii_projected_gaussian_count": 1365632,
+    "tile_intersection_count": "not exposed by pinned public GraphDECO API",
+    "tiles_touched": "not exposed by pinned public GraphDECO API"
+  },
+  "warmup_render_count": 10
+}

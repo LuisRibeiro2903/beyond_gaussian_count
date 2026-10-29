@@ -1,0 +1,19 @@
+{
+  "additional_rows_for_cap": 100000,
+  "all_attributes_finite": true,
+  "bytes": 1102741912,
+  "gate": "PASS",
+  "gaussians": 4241315,
+  "growth_headroom_rows": 7658685,
+  "headroom_ratio_of_cap": 0.63822375,
+  "nodes": 4241315,
+  "path": "/home/luis/tese/runs/alod/ALOD-PREV-US3D-SCIART-01/ALOD-PREV-US3D-SCIART-01-TRAIN-001/output/scaffold/point_cloud/iteration_30000/hierarchy.dhier",
+  "reachable_non_skybox_nodes": 4241315,
+  "sh_degree": 3,
+  "sha256": "092bb311d1ec67f13fd86fac61f0345763ba4d8f099c2691f7184bcae9427f39",
+  "skybox_reserved_field_valid": true,
+  "skybox_rows": 0,
+  "skybox_topology_sentinel_valid": true,
+  "total_rows_for_cap": 4341315,
+  "tree_links_valid": true
+}

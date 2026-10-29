@@ -1,0 +1,21 @@
+{
+  "active_size": 1099999,
+  "bytes": 127599896,
+  "checked_edges": 999998,
+  "expected_nodes": 999999,
+  "gaussians": 1099999,
+  "maximum_traversed_depth": 23,
+  "mismatch_counts": {},
+  "mismatches": [],
+  "node_rows": 1099999,
+  "nodes": 1099999,
+  "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+  "reachable_nodes": 999999,
+  "root": 100000,
+  "roots": [
+    100000
+  ],
+  "sh_degree": 1,
+  "skybox_rows": 100000,
+  "valid": true
+}

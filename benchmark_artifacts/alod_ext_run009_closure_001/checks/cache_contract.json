@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "campaign_id": "ALOD-EXT-RUN009-CLOSURE-001",
+  "status": "FROZEN-BEFORE-CLOSURE-BENCHMARKS",
+  "policy_unchanged": true,
+  "entry_identity": "One hierarchy Gaussian property row keyed by immutable global_node_id; the 100000-row skybox prefix is separately persistent and is not a dynamic-cache entry.",
+  "entry_granularity": {
+    "rows_per_entry": 1,
+    "bytes_per_row": 92,
+    "properties": [
+      "means: 3 float32",
+      "quats: 4 float32",
+      "scales: 3 float32",
+      "opacities: 1 float32",
+      "SH degree 1 colors: 12 float32"
+    ]
+  },
+  "hit_definition": "A requested hierarchy global_node_id is a resident hit when global_to_slot[id] is non-negative at frame entry.",
+  "miss_definition": "A requested hierarchy global_node_id is a miss when global_to_slot[id] is negative at frame entry; every miss gathers and transfers one complete 92-byte property row.",
+  "insertion": "Misses fill free slots first, then selected eviction slots, preserving one slot per missed row; requested output order is restored by ordered slot lookup and GPU gather.",
+  "eviction": "Deterministic row LRU by last_used_frame; rows hit by the current request are protected; ties are broken by ascending slot index. The reported eviction count is evicted rows, and an eviction event is a frame with a nonzero evicted-row count.",
+  "capacity_semantics": "Capacity counts dynamic hierarchy rows only. A bounded cache must hold the complete largest current-frame hierarchy request because current hits are protected and every requested row must be simultaneously addressable.",
+  "infeasible_capacity": "Any capacity below the maximum single-frame hierarchy materialization request raises AlodCacheCapacityError. For the canonical Run009 trace the minimum feasible capacity is 1599906 rows.",
+  "initial_state": "A fresh process constructs an empty dynamic cache (all global_to_slot and slot_to_global mappings are -1) and separately uploads the full skybox before warm-up.",
+  "warmup": {
+    "frames": 10,
+    "sequence": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "sequence_definition": "The first ten cameras of the selected trajectory order, once.",
+    "cache_survives_into_measured_frames": true,
+    "measured_sequence_restarts_after_warmup": true,
+    "measured_start_camera_index": 0
+  },
+  "transfer_accounting": {
+    "formal_reported_total": "Measured/steady-state dynamic hierarchy full-property H2D rows and bytes only.",
+    "excluded_from_formal_reported_total": [
+      "all ten warm-up frames",
+      "the one-time persistent skybox upload (100000 rows, 9200000 property bytes)",
+      "compact culling metadata uploaded during scene construction",
+      "selected semantic ID H2D traffic used by the CUDA filter",
+      "retained-index D2H traffic from the CUDA filter",
+      "GPU-to-GPU cache copies and selected-row gathers",
+      "allocator/runtime transfers not represented as explicit property-row uploads"
+    ],
+    "closure_definitions": {
+      "warmup": "Sum of alod_h2d_rows/bytes over the ten recorded warm-up frames.",
+      "steady_state": "Sum over the measured trajectory after warm-up; matches historical formal transfer accounting.",
+      "cold_inclusive": "Warm-up plus measured dynamic hierarchy property H2D from an empty dynamic cache. It still excludes separately persistent skybox and metadata/ID traffic and is labelled accordingly."
+    }
+  },
+  "source_locations": [
+    "gs_framework/scene_runtime/alod/residency.py:393",
+    "gs_framework/scene_runtime/alod/host_scene.py:165",
+    "gs_framework/benchmarks/benchmark_real_scene.py:1958"
+  ]
+}

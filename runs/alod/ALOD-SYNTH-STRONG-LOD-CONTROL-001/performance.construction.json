@@ -1,0 +1,509 @@
+{
+  "aggregation": {
+    "covariance": "weighted mixture moment matching",
+    "opacity": "clip(sum child projected mass / parent area, 1e-4, 0.999)",
+    "position_and_sh": "normalized weighted mean",
+    "weights": "activated_opacity * (sx*sy + sx*sz + sy*sz)"
+  },
+  "artifact_role": "scientific-performance-scale",
+  "covariance_eigendecomposition_max_absolute_reconstruction_error": 0.0,
+  "experiment_id": "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+  "file_bytes": 133234712,
+  "grid": {
+    "leaf_count": 524288,
+    "nx": 1024,
+    "ny": 512
+  },
+  "hierarchy_rows": 1048575,
+  "maximum_depth": 19,
+  "path": "/home/luis/tese/runs/alod/ALOD-SYNTH-STRONG-LOD-CONTROL-001/performance.dhier",
+  "root_global_node_id": 100000,
+  "sha256": "c74f075421b16583bebb2ead0f457e59f705e1276730ce28c6e06166de39da1a",
+  "skybox_rows": 100000,
+  "split_axes": [
+    "x",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y",
+    "x",
+    "y"
+  ],
+  "structure": {
+    "by_depth": [
+      {
+        "depth": 0,
+        "max_extent_6sigma": 110.85132613212167,
+        "median_extent_6sigma": 110.85132613212167,
+        "median_parent_child_extent_ratio": 1.99999597041554,
+        "median_scale": [
+          18.47522102202028,
+          9.23762912291352,
+          0.014
+        ],
+        "min_extent_6sigma": 110.85132613212167,
+        "node_count": 1,
+        "position_max": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 1,
+        "max_extent_6sigma": 55.42577473748112,
+        "median_extent_6sigma": 55.42577473748112,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          9.23762912291352,
+          9.23762912291352,
+          0.014
+        ],
+        "min_extent_6sigma": 55.42577473748112,
+        "node_count": 2,
+        "position_max": [
+          16.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          -16.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 2,
+        "max_extent_6sigma": 55.42577473748112,
+        "median_extent_6sigma": 55.42577473748112,
+        "median_parent_child_extent_ratio": 1.9999838818732452,
+        "median_scale": [
+          4.618851785076027,
+          9.23762912291352,
+          0.014
+        ],
+        "min_extent_6sigma": 55.42577473748112,
+        "node_count": 4,
+        "position_max": [
+          24.0,
+          0.0,
+          0.0
+        ],
+        "position_min": [
+          -24.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 3,
+        "max_extent_6sigma": 27.71311071045616,
+        "median_extent_6sigma": 27.71311071045616,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          4.618851785076027,
+          4.618851785076027,
+          0.014
+        ],
+        "min_extent_6sigma": 27.71311071045616,
+        "node_count": 8,
+        "position_max": [
+          24.0,
+          8.0,
+          0.0
+        ],
+        "position_min": [
+          -24.0,
+          -8.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 4,
+        "max_extent_6sigma": 27.71311071045616,
+        "median_extent_6sigma": 27.71311071045616,
+        "median_parent_child_extent_ratio": 1.9999355308701094,
+        "median_scale": [
+          2.3095003382766586,
+          4.618851785076027,
+          0.014
+        ],
+        "min_extent_6sigma": 27.71311071045616,
+        "node_count": 16,
+        "position_max": [
+          28.0,
+          8.0,
+          0.0
+        ],
+        "position_min": [
+          -28.0,
+          -8.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 5,
+        "max_extent_6sigma": 13.857002029659952,
+        "median_extent_6sigma": 13.857002029659952,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          2.3095003382766586,
+          2.3095003382766586,
+          0.014
+        ],
+        "min_extent_6sigma": 13.857002029659952,
+        "node_count": 32,
+        "position_max": [
+          28.0,
+          12.0,
+          0.0
+        ],
+        "position_min": [
+          -28.0,
+          -12.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 6,
+        "max_extent_6sigma": 13.857002029659952,
+        "median_extent_6sigma": 13.857002029659952,
+        "median_parent_child_extent_ratio": 1.9997421774996094,
+        "median_scale": [
+          1.1548990486185362,
+          2.3095003382766586,
+          0.014
+        ],
+        "min_extent_6sigma": 13.857002029659952,
+        "node_count": 64,
+        "position_max": [
+          30.0,
+          12.0,
+          0.0
+        ],
+        "position_min": [
+          -30.0,
+          -12.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 7,
+        "max_extent_6sigma": 6.929394291711217,
+        "median_extent_6sigma": 6.929394291711217,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          1.1548990486185362,
+          1.1548990486185362,
+          0.014
+        ],
+        "min_extent_6sigma": 6.929394291711217,
+        "node_count": 128,
+        "position_max": [
+          30.0,
+          14.0,
+          0.0
+        ],
+        "position_min": [
+          -30.0,
+          -14.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 8,
+        "max_extent_6sigma": 6.929394291711217,
+        "median_extent_6sigma": 6.929394291711217,
+        "median_parent_child_extent_ratio": 1.9989695733525803,
+        "median_scale": [
+          0.5777471873579308,
+          1.1548990486185362,
+          0.014
+        ],
+        "min_extent_6sigma": 6.929394291711217,
+        "node_count": 256,
+        "position_max": [
+          31.0,
+          14.0,
+          0.0
+        ],
+        "position_min": [
+          -31.0,
+          -14.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 9,
+        "max_extent_6sigma": 3.466483124147585,
+        "median_extent_6sigma": 3.466483124147585,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.5777471873579308,
+          0.5777471873579308,
+          0.014
+        ],
+        "min_extent_6sigma": 3.466483124147585,
+        "node_count": 512,
+        "position_max": [
+          31.0,
+          15.0,
+          0.0
+        ],
+        "position_min": [
+          -31.0,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 10,
+        "max_extent_6sigma": 3.466483124147585,
+        "median_extent_6sigma": 3.466483124147585,
+        "median_parent_child_extent_ratio": 1.99589204640212,
+        "median_scale": [
+          0.2894681545524481,
+          0.5777471873579308,
+          0.014
+        ],
+        "min_extent_6sigma": 3.466483124147585,
+        "node_count": 1024,
+        "position_max": [
+          31.5,
+          15.0,
+          0.0
+        ],
+        "position_min": [
+          -31.5,
+          -15.0,
+          0.0
+        ]
+      },
+      {
+        "depth": 11,
+        "max_extent_6sigma": 1.7368089273146887,
+        "median_extent_6sigma": 1.7368089273146887,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.2894681545524481,
+          0.2894681545524481,
+          0.014
+        ],
+        "min_extent_6sigma": 1.7368089273146887,
+        "node_count": 2048,
+        "position_max": [
+          31.5,
+          15.5,
+          0.0
+        ],
+        "position_min": [
+          -31.5,
+          -15.5,
+          0.0
+        ]
+      },
+      {
+        "depth": 12,
+        "max_extent_6sigma": 1.7368089273146887,
+        "median_extent_6sigma": 1.7368089273146887,
+        "median_parent_child_extent_ratio": 1.9837844233071542,
+        "median_scale": [
+          0.1459171425844133,
+          0.2894681545524481,
+          0.014
+        ],
+        "min_extent_6sigma": 1.7368089273146887,
+        "node_count": 4096,
+        "position_max": [
+          31.75,
+          15.5,
+          0.0
+        ],
+        "position_min": [
+          -31.75,
+          -15.5,
+          0.0
+        ]
+      },
+      {
+        "depth": 13,
+        "max_extent_6sigma": 0.8755028555064798,
+        "median_extent_6sigma": 0.8755028555064798,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.1459171425844133,
+          0.1459171425844133,
+          0.014
+        ],
+        "min_extent_6sigma": 0.8755028555064798,
+        "node_count": 8192,
+        "position_max": [
+          31.75,
+          15.75,
+          0.0
+        ],
+        "position_min": [
+          -31.75,
+          -15.75,
+          0.0
+        ]
+      },
+      {
+        "depth": 14,
+        "max_extent_6sigma": 0.8755028555064798,
+        "median_extent_6sigma": 0.8755028555064798,
+        "median_parent_child_extent_ratio": 1.9383709608105735,
+        "median_scale": [
+          0.07527823390595717,
+          0.1459171425844133,
+          0.014
+        ],
+        "min_extent_6sigma": 0.8755028555064798,
+        "node_count": 16384,
+        "position_max": [
+          31.875,
+          15.75,
+          0.0
+        ],
+        "position_min": [
+          -31.875,
+          -15.75,
+          0.0
+        ]
+      },
+      {
+        "depth": 15,
+        "max_extent_6sigma": 0.451669403435743,
+        "median_extent_6sigma": 0.451669403435743,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.07527823390595717,
+          0.07527823390595717,
+          0.014
+        ],
+        "min_extent_6sigma": 0.451669403435743,
+        "node_count": 32768,
+        "position_max": [
+          31.875,
+          15.875,
+          0.0
+        ],
+        "position_min": [
+          -31.875,
+          -15.875,
+          0.0
+        ]
+      },
+      {
+        "depth": 16,
+        "max_extent_6sigma": 0.451669403435743,
+        "median_extent_6sigma": 0.451669403435743,
+        "median_parent_child_extent_ratio": 1.7940878209763185,
+        "median_scale": [
+          0.041959057425066164,
+          0.07527823390595717,
+          0.014
+        ],
+        "min_extent_6sigma": 0.451669403435743,
+        "node_count": 65536,
+        "position_max": [
+          31.9375,
+          15.875,
+          0.0
+        ],
+        "position_min": [
+          -31.9375,
+          -15.875,
+          0.0
+        ]
+      },
+      {
+        "depth": 17,
+        "max_extent_6sigma": 0.25175434455039697,
+        "median_extent_6sigma": 0.25175434455039697,
+        "median_parent_child_extent_ratio": 1.0,
+        "median_scale": [
+          0.041959057425066164,
+          0.041959057425066164,
+          0.014
+        ],
+        "min_extent_6sigma": 0.25175434455039697,
+        "node_count": 131072,
+        "position_max": [
+          31.9375,
+          15.9375,
+          0.0
+        ],
+        "position_min": [
+          -31.9375,
+          -15.9375,
+          0.0
+        ]
+      },
+      {
+        "depth": 18,
+        "max_extent_6sigma": 0.25175434455039697,
+        "median_extent_6sigma": 0.25175434455039697,
+        "median_parent_child_extent_ratio": 1.4985377651809342,
+        "median_scale": [
+          0.028,
+          0.041959057425066164,
+          0.014
+        ],
+        "min_extent_6sigma": 0.25175434455039697,
+        "node_count": 262144,
+        "position_max": [
+          31.96875,
+          15.9375,
+          0.0
+        ],
+        "position_min": [
+          -31.96875,
+          -15.9375,
+          0.0
+        ]
+      },
+      {
+        "depth": 19,
+        "max_extent_6sigma": 0.168,
+        "median_extent_6sigma": 0.168,
+        "median_parent_child_extent_ratio": null,
+        "median_scale": [
+          0.028,
+          0.028,
+          0.014
+        ],
+        "min_extent_6sigma": 0.168,
+        "node_count": 524288,
+        "position_max": [
+          31.96875,
+          15.96875,
+          0.0
+        ],
+        "position_min": [
+          -31.96875,
+          -15.96875,
+          0.0
+        ]
+      }
+    ]
+  },
+  "total_rows": 1148575
+}

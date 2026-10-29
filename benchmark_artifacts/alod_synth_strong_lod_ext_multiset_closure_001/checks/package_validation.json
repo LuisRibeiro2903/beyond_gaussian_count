@@ -1,0 +1,19 @@
+{
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "checks": {
+    "all_camera_gate_passed": true,
+    "bounded_capacity_matches_correctness": true,
+    "campaign_id_exact": true,
+    "duplicate_gate_passed": true,
+    "execution_code_hashes_match": true,
+    "natural_regression_passed": true,
+    "raw_frame_count_exact": true,
+    "required_frame_metrics_present": true,
+    "schedule_complete": true,
+    "zero_bounded_evictions": true
+  },
+  "excluded_attempt_path": "attempts/instrumentation_missing_001",
+  "first_timing_attempt_excluded": true,
+  "schema_version": 1,
+  "status": "PASS-PACKAGE-VALIDATION"
+}

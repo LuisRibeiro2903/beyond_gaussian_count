@@ -1,0 +1,53 @@
+{
+  "configuration_id": "FLAT-CITYGS-FULL",
+  "description": "Feasibility attempt for the author-provided CityGaussian fused PLY as one flat fully resident scene.",
+  "record_kind_default": "feasibility_result",
+  "representation_type": "flat",
+  "asset_role": "author_provided_citygaussian_fused_ply",
+  "asset_env_var": "GS_FRAMEWORK_FLAT_CITYGS_FULL_ASSET",
+  "checkpoint_type": "gaussian_ply",
+  "training_source": "author-provided",
+  "scene_type": "flat",
+  "camera_path": "../camera_paths/citygaussian_23m_navigation_v1.json",
+  "trajectory_id": "citygaussian_23m_navigation_v1",
+  "trajectory_source": "results/camera_paths/realmc_aerial_nav_v1.json",
+  "trajectory_notes": "Manual Viser-export trajectory authored for the larger CityGaussian MatrixCity aerial asset.",
+  "width": 1920,
+  "height": 1080,
+  "sh_degree": 3,
+  "render_mode": "RGB",
+  "background": [0.0, 0.0, 0.0],
+  "near_plane": 0.01,
+  "far_plane": 10000000000.0,
+  "radius_clip": 0.0,
+  "eps2d": 0.3,
+  "rasterize_mode": "classic",
+  "camera_model": "pinhole",
+  "packed": false,
+  "warmup_frames": 0,
+  "measured_frames": 1,
+  "num_repeat": 1,
+  "timing_policy": {
+    "cuda_synchronize": true,
+    "cuda_events": false,
+    "first_frame_initialization_excluded_by_warmup": false
+  },
+  "output_policy": {
+    "write_frames_jsonl": false,
+    "write_summary_json": false,
+    "write_resolved_config_json": true,
+    "write_images": false
+  },
+  "disabled_runtime_components": [
+    "partitioning",
+    "blocks",
+    "pre_rasterization_visibility_selection",
+    "lod",
+    "host_residency",
+    "gpu_cache",
+    "hierarchy",
+    "citygaussian_runtime_selection",
+    "precision_or_representation_reduction",
+    "flashgs"
+  ]
+}

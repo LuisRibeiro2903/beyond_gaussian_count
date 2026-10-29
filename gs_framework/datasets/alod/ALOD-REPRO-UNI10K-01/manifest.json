@@ -1,0 +1,65 @@
+{
+  "counts": {
+    "aerial_images": 10063,
+    "camera_id_counts": {
+      "1": 3752,
+      "2": 3750,
+      "3": 1868,
+      "4": 693
+    },
+    "evaluation_images": 1258,
+    "first_sorted_name": "aerial/DJI_0068_frame_000001.jpg",
+    "ground_images": 0,
+    "image_files": 10063,
+    "last_sorted_name": "aerial/DJI_0152_frame_001821.jpg",
+    "llff_hold": 8,
+    "ordered_name_sha256": "4ab0a20a45c660d34c34373ca66551b3e65d2c690f2285c07266d93e02808dca",
+    "registered_image_semantic_sha256": "9ef953c0140b23ea6b10872c7b9caefdec5f310911b454cabf6df260a59c3386",
+    "registered_images": 10063,
+    "source_observations_removed": 103463577,
+    "source_track_entries_removed": 58437562,
+    "sparse_point_semantic_sha256": "d349a266a262c14a8b92362b09f7f3f911cb6fb122d23f1c5a1711e5424a4971",
+    "sparse_points": 6170655,
+    "train_images": 8805,
+    "xyz_max": [
+      153.76522818026098,
+      132.1664074109937,
+      83.8690161648228
+    ],
+    "xyz_min": [
+      -131.19884661609456,
+      -52.38049229165783,
+      -137.2042401558771
+    ]
+  },
+  "dataset_id": "ALOD-REPRO-UNI10K-01",
+  "output": {
+    "cameras_bin_sha256": "27ece35cb6a83765ce087bec423b88e93a65d284bd1a83350a737856d59b6ed3",
+    "images_bin_sha256": "0b761aa09d3cd27b06089fbc76d1054968bdbf25d70a03534a9e6f890bdbf8a0",
+    "points3D_bin_sha256": "d52f523867ff49e4995d49274f786cd862dfd1518466f67058edbf2fa2cbe035",
+    "points3D_ply_sha256": "3fb4c01d56ca464c746a975bc3039737c9bde30d081f8e40fa5a1b592e632818",
+    "root": "/home/luis/tese/data/uni10k/ALOD-REPRO-UNI10K-01"
+  },
+  "schema_version": 1,
+  "source": {
+    "cameras_bin_sha256": "27ece35cb6a83765ce087bec423b88e93a65d284bd1a83350a737856d59b6ed3",
+    "commit": "811af1acf8d274ac5d59b498a89ba9dd8c523f86",
+    "images_bin_sha256": "4adc77686ae12285e0ce1acd48ec7999c4f51b36ec22899aea3267207c8a201e",
+    "points3D_bin_sha256": "fc4370502ef1f2be4147dde005c58f13f86dd891131436dd0c3bf07e9d027341",
+    "repository": "mattia-durso/Uni10K",
+    "root": "/home/luis/tese/data/uni10k/source"
+  },
+  "transformation": {
+    "cameras": "byte-identical cameras.bin",
+    "images": "byte-identical files exposed through a directory symlink",
+    "registered_images": "identical headers/names with unused 2D observations removed",
+    "sparse_points": "identical id/XYZ/RGB/error with unused tracks removed; binary PLY emitted from XYZ/RGB"
+  },
+  "validation": {
+    "camera_binary_identical": true,
+    "image_count_matches_registered": true,
+    "registered_image_semantics_identical": true,
+    "sparse_point_semantics_identical": true,
+    "status": "PASS"
+  }
+}

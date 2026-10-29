@@ -1,0 +1,8 @@
+GPU: NVIDIA GeForce RTX 5080
+Compute capability: 12.0 (sm_120)
+Driver: 591.74
+Reported total device memory: 17,094,934,528 bytes (16,303 MiB via nvidia-smi)
+
+Per-process nvidia-smi snapshots, including temperature, SM clock, memory clock, P-state, and whole-device memory, are preserved in every cases/*/*/repeat_*/repeat.json under memory.whole_device_before and memory.whole_device_after.
+
+Across formal runs NVML was available. Observed fields are retained raw; no missing thermal or clock value is inferred.

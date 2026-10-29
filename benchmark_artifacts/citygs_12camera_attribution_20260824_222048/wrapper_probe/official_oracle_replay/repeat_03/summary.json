@@ -1,0 +1,160 @@
+{
+  "all_rgb_finite": true,
+  "alpha_saved_for_oracle_frames": false,
+  "configuration_id": "OFFICIAL-CITYGS-LOD-RELEASE",
+  "end_to_end_fps": 38.548247679192976,
+  "load_time_ms": 13677.286607000497,
+  "measured_frame_count": 12,
+  "memory_after_load": {
+    "torch_current_allocated_bytes": 3914141696,
+    "torch_current_reserved_bytes": 4668260352,
+    "torch_peak_allocated_bytes": 7662961664,
+    "torch_peak_reserved_bytes": 8531214336,
+    "whole_device_total_bytes": 17094934528,
+    "whole_device_used_bytes": 5617221632
+  },
+  "memory_after_run": {
+    "torch_current_allocated_bytes": 3914142208,
+    "torch_current_reserved_bytes": 11410604032,
+    "torch_peak_allocated_bytes": 7283820032,
+    "torch_peak_reserved_bytes": 11410604032,
+    "whole_device_total_bytes": 17094934528,
+    "whole_device_used_bytes": 12359565312
+  },
+  "memory_after_warmup_peak_reset": {
+    "torch_current_allocated_bytes": 3914142208,
+    "torch_current_reserved_bytes": 5163188224,
+    "torch_peak_allocated_bytes": 3914142208,
+    "torch_peak_reserved_bytes": 5163188224,
+    "whole_device_total_bytes": 17094934528,
+    "whole_device_used_bytes": 6112149504
+  },
+  "record_kind": "official_citygaussian_repeat_summary",
+  "repeat": 3,
+  "resident_gaussian_count": 25494686,
+  "selected_gaussian_count": {
+    "max": 6211124.0,
+    "mean": 4072361.0833333335,
+    "min": 1957671.0,
+    "std_population": 1225459.940230773
+  },
+  "timing": {
+    "active_set_assembly_time_ms": {
+      "max": 16.363204000299447,
+      "mean": 7.090123666633493,
+      "min": 3.1413710003107553,
+      "std_population": 4.06056027975806
+    },
+    "cuda_rasterization_time_ms": {
+      "max": 30.620319366455078,
+      "mean": 16.14026669661204,
+      "min": 5.633024215698242,
+      "std_population": 7.657267008690871
+    },
+    "end_to_end_frame_time_ms": {
+      "max": 43.484424999405746,
+      "mean": 25.94151641657542,
+      "min": 12.008806999801891,
+      "std_population": 10.681634225369372
+    },
+    "lod_selection_time_ms": {
+      "max": 0.5004169997846475,
+      "mean": 0.28781391696005204,
+      "min": 0.22822200116934255,
+      "std_population": 0.07223318450711676
+    },
+    "render_call_time_ms": {
+      "max": 32.73730900036753,
+      "mean": 17.296553333229287,
+      "min": 6.0847969998576446,
+      "std_population": 8.168509885758082
+    },
+    "selection_time_ms": {
+      "max": 1.7364840005029691,
+      "mean": 1.554839416712639,
+      "min": 1.4458030000241706,
+      "std_population": 0.09196543600788216
+    },
+    "visibility_time_ms": {
+      "max": 1.3738979996560374,
+      "mean": 1.267025499752587,
+      "min": 1.1900859990419121,
+      "std_population": 0.05655503111223521
+    }
+  },
+  "timing_semantics": {
+    "active_set_assembly_time_ms": "released per-level get_feats, concatenation, and render-input tensor views/casts",
+    "cuda_rasterization_time_ms": "CUDA events around GaussianRasterizer invocation",
+    "end_to_end_frame_time_ms": "selection start through synchronized rendered output; excludes load, warmup, checks, serialization, and image writes",
+    "render_call_time_ms": "GraphDECO rasterizer setup and synchronized call",
+    "selection_time_ms": "synchronized visibility plus released Nyquist LoD selection"
+  },
+  "warmup_policy": "one deterministic render of trajectory frame 0, excluded",
+  "warmup_record": {
+    "active_set_assembly_time_ms": 3.2758889992692275,
+    "cuda_rasterization_time_ms": 14.453472137451172,
+    "end_to_end_frame_time_ms": 86.8445599990082,
+    "fallback_changed_mask": false,
+    "lod_selection_time_ms": 0.8526100009476067,
+    "nearest_cell_id": 31,
+    "radii_visible_gaussian_count": 1274328,
+    "render_call_time_ms": 15.560283000013442,
+    "selected_cell_count_by_level": [
+      3,
+      0,
+      6
+    ],
+    "selected_gaussian_count_by_cell": {
+      "24": 79447,
+      "25": 231991,
+      "26": 213629,
+      "27": 287765,
+      "30": 7261,
+      "31": 478616,
+      "32": 313073,
+      "33": 345329,
+      "5": 560
+    },
+    "selected_gaussian_count_by_level": [
+      486437,
+      0,
+      1471234
+    ],
+    "selected_level_label_by_cell": {
+      "24": "light_75_vq",
+      "25": "light_75_vq",
+      "26": "light_75_vq",
+      "27": "light_75_vq",
+      "30": "light_50_vq",
+      "31": "light_50_vq",
+      "32": "light_75_vq",
+      "33": "light_75_vq",
+      "5": "light_50_vq"
+    },
+    "selected_lod_by_cell": {
+      "24": 2,
+      "25": 2,
+      "26": 2,
+      "27": 2,
+      "30": 0,
+      "31": 0,
+      "32": 2,
+      "33": 2,
+      "5": 0
+    },
+    "selection_time_ms": 68.00838799972553,
+    "total_selected_gaussian_count": 1957671,
+    "visibility_time_ms": 67.15577799877792,
+    "visible_cell_ids": [
+      5,
+      24,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33
+    ]
+  }
+}

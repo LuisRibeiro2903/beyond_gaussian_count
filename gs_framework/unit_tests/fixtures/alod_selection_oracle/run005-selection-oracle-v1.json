@@ -1,0 +1,95 @@
+{
+  "asset_sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c",
+  "cameras": [
+    {
+      "camera_stable_id": "eval-0000-img-000001-cam-0001",
+      "ordered_selected_global_ids_sha256": "4f62b3ef15e767c218374bea91ad7826e1e560cadd2fa16483a8de76369cee17",
+      "pre_raster_bundle_sha256": "e178712079c84ddb40c9b4ec67b8b07fccb81f63de5fc5a52a0c99ea2f77e3a6",
+      "selected_hierarchy_count": 364357,
+      "sorted_selected_global_ids_sha256": "ba5572ea58e82145ba7109a12314922da269a113ba6dddaf68a4c2437c5ae60a"
+    },
+    {
+      "camera_stable_id": "eval-0002-img-000101-cam-0001",
+      "ordered_selected_global_ids_sha256": "92b50aa4a64e758a929d58a9cdea8bcd375ec28dbfee35b6cc8c4e1d83357874",
+      "pre_raster_bundle_sha256": "0a8e2425da68a0d957d20e563859e5e5c2e9168f8a131e62021ba2bca0d2eedb",
+      "selected_hierarchy_count": 498419,
+      "sorted_selected_global_ids_sha256": "f311dcce60b6227870282d6cd5e88c2440c325f6dc36ed704d246dd4acdffc34"
+    },
+    {
+      "camera_stable_id": "eval-0004-img-000201-cam-0001",
+      "ordered_selected_global_ids_sha256": "29caceb3b90ec5e1b2176d4fc0ae44798f392c2617001f6086f1c8114ab0deaa",
+      "pre_raster_bundle_sha256": "7010b1346ec85bc1dc2b053848d8a7734e04affeb798a5a2590f271fe5f2c8fb",
+      "selected_hierarchy_count": 496102,
+      "sorted_selected_global_ids_sha256": "2de1d7bd8faf144732fb73ad9c98442dc59b713f75e05e56bee28c385cc03dcf"
+    },
+    {
+      "camera_stable_id": "eval-0006-img-000301-cam-0001",
+      "ordered_selected_global_ids_sha256": "ed06954feed0cf1bbe217ec5212183eddea9cc7bbf81860c893281ee90b02491",
+      "pre_raster_bundle_sha256": "d0925be485465034fe651b0eed3e47fa5721fce65097ceaab8d14c8fa9fab6f4",
+      "selected_hierarchy_count": 486669,
+      "sorted_selected_global_ids_sha256": "9c302f81fa1e2943cfad679df2a3dc08bbee6d8b74490b99955300ae3a581e94"
+    },
+    {
+      "camera_stable_id": "eval-0007-img-000351-cam-0001",
+      "ordered_selected_global_ids_sha256": "ac77061045f3f3ff41abeeae180ab6c7eaa091d282220a47f4344e8e764a6c34",
+      "pre_raster_bundle_sha256": "760797e7d91f350aa000e7d03659880c5ea584eae98200c4efc2ff83e2ad8ab4",
+      "selected_hierarchy_count": 498032,
+      "sorted_selected_global_ids_sha256": "227dd7d7ecfe4994acbf578e2832b531764a04fc2a8d9ce06e617558c6b4fbc7"
+    },
+    {
+      "camera_stable_id": "eval-0008-img-000401-cam-0001",
+      "ordered_selected_global_ids_sha256": "c929d0f6a5a0d827c8010f826b20cfb4feba3b18cc712f9a9ab0960f63da1909",
+      "pre_raster_bundle_sha256": "0855dd6084ca14c365d7c40070da0b6ea749a6be1a79bfd86f0d7a14afc0f278",
+      "selected_hierarchy_count": 494619,
+      "sorted_selected_global_ids_sha256": "6a4cb8d0f5051a7beea2506b013eb754e1d3b3fb4773722649715f9a21c8e4bc"
+    },
+    {
+      "camera_stable_id": "eval-0009-img-000451-cam-0001",
+      "ordered_selected_global_ids_sha256": "226f6745001646b32ba06becaa1337f536c18b4b8a4f23163cc8e358d7f32a37",
+      "pre_raster_bundle_sha256": "b5f355400d22324b10f1604ce6a6cc4475e55fe1d93428d9d2feb1485bc3792e",
+      "selected_hierarchy_count": 497768,
+      "sorted_selected_global_ids_sha256": "aaac9678f54bf372a2452938e7c70c168e194cf24296d741fa75ddf23ad72770"
+    },
+    {
+      "camera_stable_id": "eval-0010-img-000501-cam-0001",
+      "ordered_selected_global_ids_sha256": "eff7e7d4cede11434d524f1b094e114d4b0e70a1e4084661bd596808d3ad6dfd",
+      "pre_raster_bundle_sha256": "c483fd9ad09efeb9cb74d06c467f3cec62e41c35d77988fbe63fe83eb7ca744b",
+      "selected_hierarchy_count": 499030,
+      "sorted_selected_global_ids_sha256": "65369c79b06e0241b89931d8b7d57085a18a5ad75b6d3250c756adb8c75c5d74"
+    },
+    {
+      "camera_stable_id": "eval-0012-img-000601-cam-0001",
+      "ordered_selected_global_ids_sha256": "4b99fb6eb26765bae669d70704ab6538ea2a3b05ef011fde02d7759bf8760477",
+      "pre_raster_bundle_sha256": "959516d5796dd8a15b7313c2096bfa43d74c66163e67fce3235ddd15b4c7e3b6",
+      "selected_hierarchy_count": 491315,
+      "sorted_selected_global_ids_sha256": "6cdacd574b46346326b678ed9ea4c46495826923f3f4272a2f31e835b97c86bb"
+    },
+    {
+      "camera_stable_id": "eval-0014-img-000701-cam-0001",
+      "ordered_selected_global_ids_sha256": "06e08d013326634c6ac9adfabf9c2c88316007394bdb6c10faf44fc8b9a4cc94",
+      "pre_raster_bundle_sha256": "9efe397124f7f57daca3ab6eb676674765a9f45669408e164b8aed6620297ec5",
+      "selected_hierarchy_count": 496209,
+      "sorted_selected_global_ids_sha256": "f6583b59727d06557bc233e72581b91e5e012255ab795e5dafa447ede88eadd3"
+    }
+  ],
+  "deterministic_semantic_manifest_sha256": "20bb87caf1694ede18ac2d2a71cdc146c002325ddbf8f6060625f18feda70591",
+  "external_manifest": "/home/luis/tese/runs/alod/oracles/ALOD-RUN005-SELECTION-ORACLE-001/manifest.json",
+  "hspt_structural_array_hashes": {
+    "spt_max": "c81aceed7821cfcd2ccc7bd99b5ad074bf4a1d19c72a8946aeae0ff2d7548a45",
+    "spt_min": "8842d3e96b9181ba8837c430474e8db27036b0d4172db4b59b45e04ad6fce9f8",
+    "spt_root_global_node_ids": "0193ccb725fef4de20b6a8e5ce567ff6ac468fb3f914f2464e13643e1e4544e6",
+    "spt_sizes": "24654d14e688394445339cc29fddb0bb8ffcd4beed369672245e54488856f08b",
+    "spt_starts": "c0da2eed26d2c09c4b07c3979e4e9831b54829d7103b941009e7af6d826cd338",
+    "spt_to_global_node_id": "7de0b5581154b03a24e75331db9fa035ecf56e5ceaa18568f45a5c8f58e54c6e",
+    "upper_min_distance_squared": "9fba6f3a071004749bb502b9c22fca3d1e52a5487438132cef237eed3c5d78ab",
+    "upper_to_global_node_id": "5f364afaaffc7054dab7214bd9ad019b52d80a8e5229ce782cc8255f5f15f1a2",
+    "upper_tree_log_scaling": "7632b5be2b91bf7fa348e0b47571402040c1e50517aac01dbc0d27638bd89c46",
+    "upper_tree_nodes": "6a8b82043cb012ea148c75f6c5f55ff2594b61f4a5b54a615e19f65bed6292e0",
+    "upper_tree_xyz": "e8f7db072b14c5454aa273b8a91784e513961ec5cc60cae9e798e0a4d490f53b"
+  },
+  "instrumentation_hook_sha256": "f85336b80f0a05270c84b6803c31d4f6766e904934027ef115f4df1125260b48",
+  "instrumentation_patch_sha256": "930b3945b89a4f33128197e0e4b0603561aad1e7869324042fc65201d0ba3dbd",
+  "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "oracle_id": "ALOD-RUN005-SELECTION-ORACLE-001",
+  "schema_version": "alod_selection_oracle_locator.v1"
+}

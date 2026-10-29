@@ -1,0 +1,1610 @@
+{
+  "campaign_id": "ALOD-EXT-NATURAL-PREVIOUS-COMPLETION-001",
+  "classification": "project-specific ALOD-EXT policy-completion experiment; not released ALoD and not paper Render Full",
+  "correctness_reuse": {
+    "authority": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/checks/natural_regression_summary.json",
+    "authority_sha256": "a9076839adf7ac8906e00933e592f9076dc70305e15b447199f0effdbb797d65",
+    "campus_correctness_sha256": "8aee50f44585dfb101de410f1a9e0a38af98f3d0312b4fc5ca42087e91c08566",
+    "correctness_json_byte_exact": true,
+    "sciart_correctness_sha256": "5f5e48120180892c4736211f1fd43584d9188cfaed1c20d94c3f6aef027b4f9e",
+    "status": "PASS-ALOD-EXT-MULTISET-NATURAL-REGRESSION",
+    "trace_npz_byte_exact": true
+  },
+  "datasets": {
+    "campus": {
+      "bounded_capacity_rows": 621377,
+      "camera_count": 24,
+      "dataset_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+      "fastest_ext_policy": "bounded",
+      "lod_class": "VALID-NONTRIVIAL-LOD",
+      "modes": {
+        "bounded": {
+          "camera_ids": [
+            "eval-0000-img-002008-cam-0001",
+            "eval-0001-img-002148-cam-0001",
+            "eval-0002-img-002211-cam-0001",
+            "eval-0003-img-002529-cam-0001",
+            "eval-0004-img-003364-cam-0001",
+            "eval-0005-img-007320-cam-0001",
+            "eval-0006-img-007489-cam-0001",
+            "eval-0007-img-007826-cam-0001",
+            "eval-0008-img-008670-cam-0001",
+            "eval-0009-img-008740-cam-0001",
+            "eval-0010-img-012859-cam-0001",
+            "eval-0011-img-012919-cam-0001",
+            "eval-0012-img-013209-cam-0001",
+            "eval-0013-img-014063-cam-0001",
+            "eval-0014-img-018146-cam-0001",
+            "eval-0015-img-018210-cam-0001",
+            "eval-0016-img-018515-cam-0001",
+            "eval-0017-img-019381-cam-0001",
+            "eval-0018-img-023361-cam-0001",
+            "eval-0019-img-023507-cam-0001",
+            "eval-0020-img-023567-cam-0001",
+            "eval-0021-img-023863-cam-0001",
+            "eval-0022-img-024693-cam-0001",
+            "eval-0023-img-024753-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 162370800,
+          "cold_inclusive_dynamic_property_h2d_rows": 1764900,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_cache_hit_count": {
+              "maximum": 296134.0,
+              "mean": 138620.08333333334,
+              "median": 116541.5,
+              "minimum": 10297.0,
+              "p95": 293676.0
+            },
+            "alod_cache_miss_count": {
+              "maximum": 22297.0,
+              "mean": 3327.125,
+              "median": 557.0,
+              "minimum": 0.0,
+              "p95": 20026.0
+            },
+            "alod_h2d_bytes": {
+              "maximum": 2051324.0,
+              "mean": 306095.5,
+              "median": 51244.0,
+              "minimum": 0.0,
+              "p95": 1842392.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 22297.0,
+              "mean": 3327.125,
+              "median": 557.0,
+              "minimum": 0.0,
+              "p95": 20026.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_requested_rows": {
+              "maximum": 305112.0,
+              "mean": 141947.20833333334,
+              "median": 118978.5,
+              "minimum": 12537.0,
+              "p95": 294238.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 1.0,
+              "mean": 0.9693524693042145,
+              "median": 0.9952146713359151,
+              "minimum": 0.8213288665549973,
+              "p95": 1.0
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 313555.0,
+              "mean": 146633.20833333334,
+              "median": 126183.5,
+              "minimum": 17951.0,
+              "p95": 304977.0
+            }
+          },
+          "fps_from_mean_end_to_end": 15.22832947953862,
+          "measured_frames": 72,
+          "pooled_measured_cache_hit_rate": 0.9765608282187069,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 66.46766391637964,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 65.03966054197008,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 65.49392929249127,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 22038876,
+          "steady_dynamic_property_h2d_rows": 239553,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": 3.631180999946082,
+              "mean": 1.2891499723082234,
+              "median": 1.15169749915367,
+              "minimum": 0.48374500329373404,
+              "p95": 2.2015936005118424
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 5.506472996785305,
+              "mean": 0.45148056915422785,
+              "median": 0.410640499467263,
+              "minimum": 0.04035900201415643,
+              "p95": 0.8654312985527216
+            },
+            "alod_host_gather_ms": {
+              "maximum": 0.8505539990437683,
+              "mean": 0.2615929997268217,
+              "median": 0.14154500058793928,
+              "minimum": 0.041041999793378636,
+              "p95": 0.8129124513288843
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 79.10783500119578,
+              "mean": 49.850305333317614,
+              "median": 48.700840499805054,
+              "minimum": 36.68782699969597,
+              "p95": 66.47745900045267
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 3.4596050027175806,
+              "mean": 2.01762661132913,
+              "median": 1.9595485009631375,
+              "minimum": 1.027517002512468,
+              "p95": 3.0162839970216737
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 65.59598700187053,
+              "mean": 44.36275294453177,
+              "median": 43.832387500515324,
+              "minimum": 33.20036900186096,
+              "p95": 61.82911645009882
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.006483001925516874,
+              "mean": 0.0019595000190343447,
+              "median": 0.0018280006770510226,
+              "minimum": 0.001086998963728547,
+              "p95": 0.0026639503630576655
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 0.9107810001296457,
+              "mean": 0.3501201253533913,
+              "median": 0.3129070009890711,
+              "minimum": 0.23725499704596587,
+              "p95": 0.5970070507828498
+            },
+            "alod_total_selection_ms": {
+              "maximum": 8.967784997366834,
+              "mean": 6.7571126110629445,
+              "median": 6.744800000888063,
+              "minimum": 5.6613119995745365,
+              "p95": 7.4622559499403
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 96.62694500002544,
+              "mean": 65.66708458361366,
+              "median": 64.66308149902034,
+              "minimum": 48.899540001002606,
+              "p95": 80.60277699951257
+            },
+            "frame_time_ms": {
+              "maximum": 6.870449000416556,
+              "mean": 3.4820746114342507,
+              "median": 3.3313169988105074,
+              "minimum": 2.466537000145763,
+              "p95": 4.533125848865893
+            },
+            "preparation_time_ms": {
+              "maximum": 92.09828000166453,
+              "mean": 62.185009972179415,
+              "median": 61.12679450052383,
+              "minimum": 46.25515800216817,
+              "p95": 77.1720804483266
+            },
+            "rasterization_time_ms": {
+              "maximum": 6.582143783569336,
+              "mean": 3.30313331551022,
+              "median": 3.1623520851135254,
+              "minimum": 2.3410561084747314,
+              "p95": 4.310598397254944
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 140331924,
+          "warmup_dynamic_property_h2d_rows": 1525347,
+          "warmup_frames": 30
+        },
+        "nocache": {
+          "camera_ids": [
+            "eval-0000-img-002008-cam-0001",
+            "eval-0001-img-002148-cam-0001",
+            "eval-0002-img-002211-cam-0001",
+            "eval-0003-img-002529-cam-0001",
+            "eval-0004-img-003364-cam-0001",
+            "eval-0005-img-007320-cam-0001",
+            "eval-0006-img-007489-cam-0001",
+            "eval-0007-img-007826-cam-0001",
+            "eval-0008-img-008670-cam-0001",
+            "eval-0009-img-008740-cam-0001",
+            "eval-0010-img-012859-cam-0001",
+            "eval-0011-img-012919-cam-0001",
+            "eval-0012-img-013209-cam-0001",
+            "eval-0013-img-014063-cam-0001",
+            "eval-0014-img-018146-cam-0001",
+            "eval-0015-img-018210-cam-0001",
+            "eval-0016-img-018515-cam-0001",
+            "eval-0017-img-019381-cam-0001",
+            "eval-0018-img-023361-cam-0001",
+            "eval-0019-img-023507-cam-0001",
+            "eval-0020-img-023567-cam-0001",
+            "eval-0021-img-023863-cam-0001",
+            "eval-0022-img-024693-cam-0001",
+            "eval-0023-img-024753-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 4035599964,
+          "cold_inclusive_dynamic_property_h2d_rows": 43865217,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_cache_hit_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_cache_miss_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_h2d_bytes": {
+              "maximum": 42368484.0,
+              "mean": 39575314.166666664,
+              "median": 39981820.0,
+              "minimum": 32278108.0,
+              "p95": 42333984.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 460527.0,
+              "mean": 430166.4583333333,
+              "median": 434585.0,
+              "minimum": 350849.0,
+              "p95": 460152.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_requested_rows": {
+              "maximum": 460527.0,
+              "mean": 430166.4583333333,
+              "median": 434585.0,
+              "minimum": 350849.0,
+              "p95": 460152.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 313555.0,
+              "mean": 146633.20833333334,
+              "median": 126183.5,
+              "minimum": 17951.0,
+              "p95": 304977.0
+            }
+          },
+          "fps_from_mean_end_to_end": 11.080376605303496,
+          "measured_frames": 72,
+          "pooled_measured_cache_hit_rate": null,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 91.6587931246795,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 89.1018759578704,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 89.98825100055303,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 2849422620,
+          "steady_dynamic_property_h2d_rows": 30971985,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 10.259609000058845,
+              "mean": 3.298979916558488,
+              "median": 3.0645349997939775,
+              "minimum": 2.2817440003564116,
+              "p95": 3.8792434999777474
+            },
+            "alod_host_gather_ms": {
+              "maximum": 12.273774002096616,
+              "mean": 8.522253611115755,
+              "median": 8.441675499852863,
+              "minimum": 6.918462000612635,
+              "p95": 9.815957000500932
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.0012219970813021064,
+              "mean": 0.0008210134486337969,
+              "median": 0.0008074985089479014,
+              "minimum": 0.0005389993020799011,
+              "p95": 0.001106997297029011
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 0.9968500016839243,
+              "mean": 0.6290726249871013,
+              "median": 0.599766499362886,
+              "minimum": 0.49580300037632696,
+              "p95": 0.7916752014352825
+            },
+            "alod_total_selection_ms": {
+              "maximum": 9.081320000404958,
+              "mean": 6.788368986033472,
+              "median": 6.773400000383845,
+              "minimum": 5.523223997442983,
+              "p95": 7.478609201461951
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 105.44554299849551,
+              "mean": 90.24964002770099,
+              "median": 90.54581900090852,
+              "minimum": 71.61309799630544,
+              "p95": 98.09698365170334
+            },
+            "frame_time_ms": {
+              "maximum": 12.468018001527525,
+              "mean": 4.072452888623149,
+              "median": 3.7395465005829465,
+              "minimum": 2.5862969996524043,
+              "p95": 6.200860050557822
+            },
+            "preparation_time_ms": {
+              "maximum": 95.42541900009383,
+              "mean": 86.17718713907783,
+              "median": 86.48670299953665,
+              "minimum": 69.01946699872497,
+              "p95": 93.51036084826774
+            },
+            "rasterization_time_ms": {
+              "maximum": 11.956064224243164,
+              "mean": 3.8556862241692014,
+              "median": 3.5512479543685913,
+              "minimum": 2.4320321083068848,
+              "p95": 5.929681491851808
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 1186177344,
+          "warmup_dynamic_property_h2d_rows": 12893232,
+          "warmup_frames": 30
+        },
+        "previous": {
+          "camera_ids": [
+            "eval-0000-img-002008-cam-0001",
+            "eval-0001-img-002148-cam-0001",
+            "eval-0002-img-002211-cam-0001",
+            "eval-0003-img-002529-cam-0001",
+            "eval-0004-img-003364-cam-0001",
+            "eval-0005-img-007320-cam-0001",
+            "eval-0006-img-007489-cam-0001",
+            "eval-0007-img-007826-cam-0001",
+            "eval-0008-img-008670-cam-0001",
+            "eval-0009-img-008740-cam-0001",
+            "eval-0010-img-012859-cam-0001",
+            "eval-0011-img-012919-cam-0001",
+            "eval-0012-img-013209-cam-0001",
+            "eval-0013-img-014063-cam-0001",
+            "eval-0014-img-018146-cam-0001",
+            "eval-0015-img-018210-cam-0001",
+            "eval-0016-img-018515-cam-0001",
+            "eval-0017-img-019381-cam-0001",
+            "eval-0018-img-023361-cam-0001",
+            "eval-0019-img-023507-cam-0001",
+            "eval-0020-img-023567-cam-0001",
+            "eval-0021-img-023863-cam-0001",
+            "eval-0022-img-024693-cam-0001",
+            "eval-0023-img-024753-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 1009831560,
+          "cold_inclusive_dynamic_property_h2d_rows": 10976430,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_cache_hit_count": {
+              "maximum": 143338.0,
+              "mean": 35761.291666666664,
+              "median": 13529.0,
+              "minimum": 1.0,
+              "p95": 119719.0
+            },
+            "alod_cache_miss_count": {
+              "maximum": 243284.0,
+              "mean": 106185.91666666667,
+              "median": 114692.5,
+              "minimum": 267.0,
+              "p95": 224627.0
+            },
+            "alod_h2d_bytes": {
+              "maximum": 22382128.0,
+              "mean": 9769104.333333334,
+              "median": 10551710.0,
+              "minimum": 24564.0,
+              "p95": 20665684.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 243284.0,
+              "mean": 106185.91666666667,
+              "median": 114692.5,
+              "minimum": 267.0,
+              "p95": 224627.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": 143338.0,
+              "mean": 35761.291666666664,
+              "median": 13529.0,
+              "minimum": 1.0,
+              "p95": 119719.0
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": 305112.0,
+              "mean": 138232.04166666666,
+              "median": 118978.5,
+              "minimum": 12537.0,
+              "p95": 294238.0
+            },
+            "alod_requested_rows": {
+              "maximum": 305112.0,
+              "mean": 141947.20833333334,
+              "median": 118978.5,
+              "minimum": 12537.0,
+              "p95": 294238.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 0.9792605250893274,
+              "mean": 0.24712501455964642,
+              "median": 0.08671435748001351,
+              "minimum": 1.2659189305516875e-05,
+              "p95": 0.8682515230025909
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 329025.0,
+              "mean": 158787.33333333334,
+              "median": 138579.0,
+              "minimum": 25423.0,
+              "p95": 317324.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 560527.0,
+              "mean": 530166.4583333334,
+              "median": 534585.0,
+              "minimum": 450849.0,
+              "p95": 560152.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 313555.0,
+              "mean": 146633.20833333334,
+              "median": 126183.5,
+              "minimum": 17951.0,
+              "p95": 304977.0
+            }
+          },
+          "fps_from_mean_end_to_end": 14.967286286154392,
+          "measured_frames": 72,
+          "pooled_measured_cache_hit_rate": 0.25193374414725195,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 67.37822562490692,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 66.13266337490131,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 66.92624720805422,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 703375512,
+          "steady_dynamic_property_h2d_rows": 7645386,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": 1.5375110015156679,
+              "mean": 0.7343874722209875,
+              "median": 0.7505759986088378,
+              "minimum": 0.1411849989381153,
+              "p95": 1.2793779007552082
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 8.874844999809284,
+              "mean": 1.6198762501112975,
+              "median": 1.419077001628466,
+              "minimum": 0.3178000006300863,
+              "p95": 2.833073150031851
+            },
+            "alod_host_gather_ms": {
+              "maximum": 6.116617998486618,
+              "mean": 2.545866569511822,
+              "median": 2.624024500619271,
+              "minimum": 0.07667099998798221,
+              "p95": 5.044974602242291
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 60.77377000110573,
+              "mean": 48.02607368062834,
+              "median": 48.054061000584625,
+              "minimum": 36.557052000716794,
+              "p95": 51.85933134998777
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 3.0860590013617184,
+              "mean": 1.9900073611501687,
+              "median": 1.9681609992403537,
+              "minimum": 1.0143899999093264,
+              "p95": 2.9062151510515832
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 55.05872199864825,
+              "mean": 42.91851436103874,
+              "median": 43.314098998962436,
+              "minimum": 33.188509001774946,
+              "p95": 46.79772630024672
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.0027850001060869545,
+              "mean": 0.001968514021023616,
+              "median": 0.0019149993022438139,
+              "minimum": 0.0013370008673518896,
+              "p95": 0.0026052986868307926
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 6.325475998892216,
+              "mean": 0.4450273748564844,
+              "median": 0.33110699951066636,
+              "minimum": 0.23827800032449886,
+              "p95": 0.6075949990190568
+            },
+            "alod_total_selection_ms": {
+              "maximum": 8.126235999952769,
+              "mean": 6.744856138892727,
+              "median": 6.707617001666222,
+              "minimum": 5.618281997158192,
+              "p95": 7.341029649978736
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 80.14327899945783,
+              "mean": 66.81237873595416,
+              "median": 66.5889564970712,
+              "minimum": 47.94625000067754,
+              "p95": 77.51705304999632
+            },
+            "frame_time_ms": {
+              "maximum": 14.161266000883188,
+              "mean": 3.9487619722725262,
+              "median": 3.5920210011681775,
+              "minimum": 2.458199000102468,
+              "p95": 5.566791549608754
+            },
+            "preparation_time_ms": {
+              "maximum": 75.62630800020997,
+              "mean": 62.86361676368162,
+              "median": 62.88792099985585,
+              "minimum": 45.405438999296166,
+              "p95": 69.3125270496239
+            },
+            "rasterization_time_ms": {
+              "maximum": 13.412416458129883,
+              "mean": 3.757135977347692,
+              "median": 3.4208799600601196,
+              "minimum": 2.341279983520508,
+              "p95": 5.32144470214844
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 306456048,
+          "warmup_dynamic_property_h2d_rows": 3331044,
+          "warmup_frames": 30
+        }
+      },
+      "previous_comparison": {
+        "previous_cold_h2d_reduction_vs_released_fraction": 0.7497691622043041,
+        "previous_frame_time_ratio_vs_bounded": 1.01744091670283,
+        "previous_frame_time_reduction_vs_released_fraction": 0.25969368170945684,
+        "previous_minus_bounded_ms": 1.1452941523404974,
+        "previous_speedup_vs_released": 1.3507921995169796,
+        "previous_steady_h2d_reduction_vs_released_fraction": 0.7531515658424863
+      },
+      "workload_funnel": {
+        "materialized_over_semantic": 0.29950467600781044,
+        "mean_materialized_rows": 158787.33333333334,
+        "mean_packed_survivors": 146633.20833333334,
+        "mean_semantic_rows": 530166.4583333334,
+        "survivors_over_semantic": 0.27657956483007107
+      }
+    },
+    "sciart": {
+      "bounded_capacity_rows": 2666887,
+      "camera_count": 21,
+      "dataset_id": "ALOD-PREV-US3D-SCIART-01",
+      "fastest_ext_policy": "bounded",
+      "lod_class": "VALID-WEAK-LOD",
+      "modes": {
+        "bounded": {
+          "camera_ids": [
+            "eval-0000-img-000001-cam-0001",
+            "eval-0001-img-000010-cam-0001",
+            "eval-0002-img-000006-cam-0001",
+            "eval-0003-img-000007-cam-0001",
+            "eval-0004-img-000009-cam-0001",
+            "eval-0005-img-000005-cam-0001",
+            "eval-0006-img-000008-cam-0001",
+            "eval-0007-img-000011-cam-0001",
+            "eval-0008-img-000002-cam-0001",
+            "eval-0009-img-000003-cam-0001",
+            "eval-0010-img-000004-cam-0001",
+            "eval-0011-img-000012-cam-0001",
+            "eval-0012-img-000013-cam-0001",
+            "eval-0013-img-000014-cam-0001",
+            "eval-0014-img-000015-cam-0001",
+            "eval-0015-img-000016-cam-0001",
+            "eval-0016-img-000018-cam-0001",
+            "eval-0017-img-000019-cam-0001",
+            "eval-0018-img-000017-cam-0001",
+            "eval-0019-img-000020-cam-0001",
+            "eval-0020-img-000021-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 696879852,
+          "cold_inclusive_dynamic_property_h2d_rows": 7574781,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_cache_hit_count": {
+              "maximum": 1815040.0,
+              "mean": 746895.7142857143,
+              "median": 695926.0,
+              "minimum": 53455.0,
+              "p95": 1508954.0
+            },
+            "alod_cache_miss_count": {
+              "maximum": 68457.0,
+              "mean": 8265.904761904761,
+              "median": 93.0,
+              "minimum": 0.0,
+              "p95": 23826.0
+            },
+            "alod_h2d_bytes": {
+              "maximum": 6298044.0,
+              "mean": 760463.2380952381,
+              "median": 8556.0,
+              "minimum": 0.0,
+              "p95": 2191992.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 68457.0,
+              "mean": 8265.904761904761,
+              "median": 93.0,
+              "minimum": 0.0,
+              "p95": 23826.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_requested_rows": {
+              "maximum": 1815040.0,
+              "mean": 755161.619047619,
+              "median": 705082.0,
+              "minimum": 53455.0,
+              "p95": 1528406.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 1.0,
+              "mean": 0.9822196721888741,
+              "median": 0.9998726379823665,
+              "minimum": 0.7278516993118472,
+              "p95": 1.0
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 1797919.0,
+              "mean": 732242.7619047619,
+              "median": 698633.0,
+              "minimum": 59326.0,
+              "p95": 1519112.0
+            }
+          },
+          "fps_from_mean_end_to_end": 2.729109905106839,
+          "measured_frames": 63,
+          "pooled_measured_cache_hit_rate": 0.9890541249006678,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 369.93538761955625,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 363.1356650477669,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 366.1884510947857,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 47909184,
+          "steady_dynamic_property_h2d_rows": 520752,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": 15.68378700176254,
+              "mean": 7.602941015994431,
+              "median": 6.843017999926815,
+              "minimum": 2.2652289990219288,
+              "p95": 14.931983599308294
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 2.122789002896752,
+              "mean": 0.5422268733950443,
+              "median": 0.5719520013371948,
+              "minimum": 0.047354998969240114,
+              "p95": 1.3237452003522776
+            },
+            "alod_host_gather_ms": {
+              "maximum": 8.071129999734694,
+              "mean": 0.8094030636129901,
+              "median": 0.142529999720864,
+              "minimum": 0.05335300011211075,
+              "p95": 3.177129202231298
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 354.87307400035206,
+              "mean": 300.7909901904881,
+              "median": 298.9800360010122,
+              "minimum": 275.99348399962764,
+              "p95": 325.44748959735443
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 26.456119998329086,
+              "mean": 10.132468110867425,
+              "median": 9.578591001627501,
+              "minimum": 3.9690609992248937,
+              "p95": 16.558665600678065
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 310.37844700040296,
+              "mean": 280.7258198251172,
+              "median": 279.8213959977147,
+              "minimum": 265.6243880010152,
+              "p95": 292.37952820039936
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.003272998583270237,
+              "mean": 0.0024064125711216575,
+              "median": 0.0023409993445966393,
+              "minimum": 0.0018120008462574333,
+              "p95": 0.003140698026982136
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 10.556340002949582,
+              "mean": 1.2058453969421818,
+              "median": 0.591275002079783,
+              "minimum": 0.30593400151701644,
+              "p95": 5.246175699721788
+            },
+            "alod_total_selection_ms": {
+              "maximum": 32.21829600079218,
+              "mean": 28.69385617472405,
+              "median": 28.58963100152323,
+              "minimum": 27.59142400100245,
+              "p95": 29.62911600006919
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 505.9747660016001,
+              "mean": 366.4198345873696,
+              "median": 360.5729920018348,
+              "minimum": 315.2516190020833,
+              "p95": 439.5771686013176
+            },
+            "frame_time_ms": {
+              "maximum": 89.0374629998405,
+              "mean": 9.821867698129997,
+              "median": 5.284291997668333,
+              "minimum": 2.2831569986010436,
+              "p95": 49.50492409916476
+            },
+            "preparation_time_ms": {
+              "maximum": 427.8786639988539,
+              "mean": 356.5979668892396,
+              "median": 354.99138299928745,
+              "minimum": 312.6797840013751,
+              "p95": 401.83990060031647
+            },
+            "rasterization_time_ms": {
+              "maximum": 85.89584350585938,
+              "mean": 9.402345256199913,
+              "median": 5.050303936004639,
+              "minimum": 2.1559040546417236,
+              "p95": 47.72466239929197
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 648970668,
+          "warmup_dynamic_property_h2d_rows": 7054029,
+          "warmup_frames": 30
+        },
+        "nocache": {
+          "camera_ids": [
+            "eval-0000-img-000001-cam-0001",
+            "eval-0001-img-000010-cam-0001",
+            "eval-0002-img-000006-cam-0001",
+            "eval-0003-img-000007-cam-0001",
+            "eval-0004-img-000009-cam-0001",
+            "eval-0005-img-000005-cam-0001",
+            "eval-0006-img-000008-cam-0001",
+            "eval-0007-img-000011-cam-0001",
+            "eval-0008-img-000002-cam-0001",
+            "eval-0009-img-000003-cam-0001",
+            "eval-0010-img-000004-cam-0001",
+            "eval-0011-img-000012-cam-0001",
+            "eval-0012-img-000013-cam-0001",
+            "eval-0013-img-000014-cam-0001",
+            "eval-0014-img-000015-cam-0001",
+            "eval-0015-img-000016-cam-0001",
+            "eval-0016-img-000018-cam-0001",
+            "eval-0017-img-000019-cam-0001",
+            "eval-0018-img-000017-cam-0001",
+            "eval-0019-img-000020-cam-0001",
+            "eval-0020-img-000021-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 20921084832,
+          "cold_inclusive_dynamic_property_h2d_rows": 227403096,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_cache_hit_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_cache_miss_count": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_h2d_bytes": {
+              "maximum": 227499900.0,
+              "mean": 225278735.23809522,
+              "median": 225858620.0,
+              "minimum": 222032892.0,
+              "p95": 227349480.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 2472825.0,
+              "mean": 2448681.904761905,
+              "median": 2454985.0,
+              "minimum": 2413401.0,
+              "p95": 2471190.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_requested_rows": {
+              "maximum": 2472825.0,
+              "mean": 2448681.904761905,
+              "median": 2454985.0,
+              "minimum": 2413401.0,
+              "p95": 2471190.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 1797919.0,
+              "mean": 732242.7619047619,
+              "median": 698633.0,
+              "minimum": 59326.0,
+              "p95": 1519112.0
+            }
+          },
+          "fps_from_mean_end_to_end": 1.9190684318696207,
+          "measured_frames": 63,
+          "pooled_measured_cache_hit_rate": null,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 522.4180471424396,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 523.7865946184597,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 517.0538383326424,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 14192560320,
+          "steady_dynamic_property_h2d_rows": 154266960,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": null,
+              "mean": null,
+              "median": null,
+              "minimum": null,
+              "p95": null
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 46.59834500125726,
+              "mean": 16.4560392063683,
+              "median": 14.053967999643646,
+              "minimum": 12.977743997907965,
+              "p95": 35.05790879971755
+            },
+            "alod_host_gather_ms": {
+              "maximum": 98.93851900051231,
+              "mean": 68.22151055582383,
+              "median": 67.59475099897827,
+              "minimum": 58.28576900239568,
+              "p95": 77.43142020008236
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.0018020000425167382,
+              "mean": 0.001029238139005703,
+              "median": 0.0009840005077421665,
+              "minimum": 0.0006209993443917483,
+              "p95": 0.0015428980987053365
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 19.875238998793066,
+              "mean": 3.336357396850843,
+              "median": 2.6729140008683316,
+              "minimum": 1.9264750008005649,
+              "p95": 4.18352859742299
+            },
+            "alod_total_selection_ms": {
+              "maximum": 34.24156499750097,
+              "mean": 29.352748809273297,
+              "median": 29.02866599833942,
+              "minimum": 27.571893002459547,
+              "p95": 32.319124198693316
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 644.6394720005628,
+              "mean": 521.0861600311806,
+              "median": 515.7254069963528,
+              "minimum": 488.56873900149367,
+              "p95": 572.4512898974353
+            },
+            "frame_time_ms": {
+              "maximum": 102.54709299988463,
+              "mean": 11.625965920670534,
+              "median": 5.897978000575677,
+              "minimum": 2.5463190031587146,
+              "p95": 56.98968350188806
+            },
+            "preparation_time_ms": {
+              "maximum": 573.8856860007218,
+              "mean": 509.46019411051003,
+              "median": 508.5608730005333,
+              "minimum": 485.42437099968083,
+              "p95": 535.2763493996463
+            },
+            "rasterization_time_ms": {
+              "maximum": 98.9097900390625,
+              "mean": 11.14623240819053,
+              "median": 5.520287990570068,
+              "minimum": 2.3981120586395264,
+              "p95": 54.922809982299796
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 6728524512,
+          "warmup_dynamic_property_h2d_rows": 73136136,
+          "warmup_frames": 30
+        },
+        "previous": {
+          "camera_ids": [
+            "eval-0000-img-000001-cam-0001",
+            "eval-0001-img-000010-cam-0001",
+            "eval-0002-img-000006-cam-0001",
+            "eval-0003-img-000007-cam-0001",
+            "eval-0004-img-000009-cam-0001",
+            "eval-0005-img-000005-cam-0001",
+            "eval-0006-img-000008-cam-0001",
+            "eval-0007-img-000011-cam-0001",
+            "eval-0008-img-000002-cam-0001",
+            "eval-0009-img-000003-cam-0001",
+            "eval-0010-img-000004-cam-0001",
+            "eval-0011-img-000012-cam-0001",
+            "eval-0012-img-000013-cam-0001",
+            "eval-0013-img-000014-cam-0001",
+            "eval-0014-img-000015-cam-0001",
+            "eval-0015-img-000016-cam-0001",
+            "eval-0016-img-000018-cam-0001",
+            "eval-0017-img-000019-cam-0001",
+            "eval-0018-img-000017-cam-0001",
+            "eval-0019-img-000020-cam-0001",
+            "eval-0020-img-000021-cam-0001"
+          ],
+          "cold_inclusive_dynamic_property_h2d_bytes": 3867272256,
+          "cold_inclusive_dynamic_property_h2d_rows": 42035568,
+          "counts": {
+            "alod_assembled_renderer_occurrence_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_cache_eviction_count": {
+              "maximum": 0.0,
+              "mean": 0.0,
+              "median": 0.0,
+              "minimum": 0.0,
+              "p95": 0.0
+            },
+            "alod_cache_hit_count": {
+              "maximum": 1233816.0,
+              "mean": 282163.71428571426,
+              "median": 142558.0,
+              "minimum": 619.0,
+              "p95": 984327.0
+            },
+            "alod_cache_miss_count": {
+              "maximum": 1268274.0,
+              "mean": 472997.90476190473,
+              "median": 373723.0,
+              "minimum": 95.0,
+              "p95": 1197709.0
+            },
+            "alod_h2d_bytes": {
+              "maximum": 116681208.0,
+              "mean": 43515807.23809524,
+              "median": 34382516.0,
+              "minimum": 8740.0,
+              "p95": 110189228.0
+            },
+            "alod_h2d_rows": {
+              "maximum": 1268274.0,
+              "mean": 472997.90476190473,
+              "median": 373723.0,
+              "minimum": 95.0,
+              "p95": 1197709.0
+            },
+            "alod_materialization_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_previous_intersection_rows": {
+              "maximum": 1233816.0,
+              "mean": 282163.71428571426,
+              "median": 142558.0,
+              "minimum": 619.0,
+              "p95": 984327.0
+            },
+            "alod_previous_working_set_rows": {
+              "maximum": 1815040.0,
+              "mean": 726773.2380952381,
+              "median": 682025.0,
+              "minimum": 53455.0,
+              "p95": 1528406.0
+            },
+            "alod_requested_rows": {
+              "maximum": 1815040.0,
+              "mean": 755161.619047619,
+              "median": 705082.0,
+              "minimum": 53455.0,
+              "p95": 1528406.0
+            },
+            "alod_retention_ratio": {
+              "maximum": 0.9982228042278553,
+              "mean": 0.40730771541843813,
+              "median": 0.3568081161103366,
+              "minimum": 0.0024608118691436453,
+              "p95": 0.9311370876011584
+            },
+            "alod_semantic_selected_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "alod_unique_materialization_rows": {
+              "maximum": 1827559.0,
+              "mean": 767118.0476190476,
+              "median": 720556.0,
+              "minimum": 67264.0,
+              "p95": 1543734.0
+            },
+            "alod_unique_semantic_rows": {
+              "maximum": 2572825.0,
+              "mean": 2548681.904761905,
+              "median": 2554985.0,
+              "minimum": 2513401.0,
+              "p95": 2571190.0
+            },
+            "backend_projection_survivor_count": {
+              "maximum": 1797919.0,
+              "mean": 732242.7619047619,
+              "median": 698633.0,
+              "minimum": 59326.0,
+              "p95": 1519112.0
+            }
+          },
+          "fps_from_mean_end_to_end": 2.6391582739173,
+          "measured_frames": 63,
+          "pooled_measured_cache_hit_rate": 0.3736467892019835,
+          "replicate_count": 3,
+          "replicates": [
+            {
+              "mean_end_to_end_frame_time_ms": 381.89678357108886,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-01"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 377.0508717156883,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-02"
+            },
+            {
+              "mean_end_to_end_frame_time_ms": 377.77840985637295,
+              "run_dir": "/home/luis/tese/benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-03"
+            }
+          ],
+          "steady_dynamic_property_h2d_bytes": 2741495856,
+          "steady_dynamic_property_h2d_rows": 29798868,
+          "timings_ms": {
+            "alod_cache_management_ms": {
+              "maximum": 13.3713360010006,
+              "mean": 4.204479825444102,
+              "median": 3.996774001279846,
+              "minimum": 0.5012759975215886,
+              "p95": 7.7764773996023
+            },
+            "alod_h2d_transfer_ms": {
+              "maximum": 42.278412998712156,
+              "mean": 6.8745581270449625,
+              "median": 4.013574998680269,
+              "minimum": 0.3576739982236177,
+              "p95": 19.296160000521922
+            },
+            "alod_host_gather_ms": {
+              "maximum": 40.80170499946689,
+              "mean": 13.000750825518654,
+              "median": 8.996501001092838,
+              "minimum": 0.06088899681344628,
+              "p95": 36.95073589697131
+            },
+            "alod_materialization_filter_ms": {
+              "maximum": 344.09796000181814,
+              "mean": 301.0529615552052,
+              "median": 295.91163499935647,
+              "minimum": 280.8868399988569,
+              "p95": 326.23000540006615
+            },
+            "alod_materialization_occurrence_propagation_ms": {
+              "maximum": 21.036268000898417,
+              "mean": 10.142621777915684,
+              "median": 9.52042800054187,
+              "minimum": 3.9812380018702243,
+              "p95": 17.182171199601726
+            },
+            "alod_materialization_unique_extraction_ms": {
+              "maximum": 303.12651400163304,
+              "mean": 281.48521063462437,
+              "median": 279.5787830000336,
+              "minimum": 269.6422109984269,
+              "p95": 293.4345600002416
+            },
+            "alod_occurrence_reindex_ms": {
+              "maximum": 0.004370998794911429,
+              "mean": 0.0026375236634593752,
+              "median": 0.002595999831100926,
+              "minimum": 0.00163400181918405,
+              "p95": 0.0034720997064141557
+            },
+            "alod_pre_raster_assembly_ms": {
+              "maximum": 10.548054000537377,
+              "mean": 1.094987984071763,
+              "median": 0.6256269989535213,
+              "minimum": 0.2831800011335872,
+              "p95": 4.094006597006226
+            },
+            "alod_total_selection_ms": {
+              "maximum": 33.38064999843482,
+              "mean": 29.105744967911583,
+              "median": 28.961935997358523,
+              "minimum": 27.867859000252793,
+              "p95": 30.498619902937207
+            },
+            "end_to_end_frame_time_ms": {
+              "maximum": 553.7842689991521,
+              "mean": 378.90868838105,
+              "median": 365.5739560017537,
+              "minimum": 321.51697800145485,
+              "p95": 450.83319830009714
+            },
+            "frame_time_ms": {
+              "maximum": 81.1364200017124,
+              "mean": 9.378311920521636,
+              "median": 5.499467999470653,
+              "minimum": 2.1931049996055663,
+              "p95": 38.55910309866882
+            },
+            "preparation_time_ms": {
+              "maximum": 479.2212649990688,
+              "mean": 369.5303764605284,
+              "median": 360.3838369999721,
+              "minimum": 319.1058470001735,
+              "p95": 434.63167709778645
+            },
+            "rasterization_time_ms": {
+              "maximum": 78.23817443847656,
+              "mean": 8.99324183236985,
+              "median": 5.255040168762207,
+              "minimum": 2.078847885131836,
+              "p95": 37.17224950790402
+            }
+          },
+          "warmup_dynamic_property_h2d_bytes": 1125776400,
+          "warmup_dynamic_property_h2d_rows": 12236700,
+          "warmup_frames": 30
+        }
+      },
+      "previous_comparison": {
+        "previous_cold_h2d_reduction_vs_released_fraction": 0.8151495351672784,
+        "previous_frame_time_ratio_vs_bounded": 1.0340834545917643,
+        "previous_frame_time_reduction_vs_released_fraction": 0.2728482975668036,
+        "previous_minus_bounded_ms": 12.488853793680391,
+        "previous_speedup_vs_released": 1.3752288506700845,
+        "previous_steady_h2d_reduction_vs_released_fraction": 0.806835708696146
+      },
+      "workload_funnel": {
+        "materialized_over_semantic": 0.3009861866974376,
+        "mean_materialized_rows": 767118.0476190476,
+        "mean_packed_survivors": 732242.7619047619,
+        "mean_semantic_rows": 2548681.904761905,
+        "survivors_over_semantic": 0.28730253098146713
+      }
+    }
+  },
+  "four_workload_comparison": {
+    "campus": {
+      "bounded_ms": 65.66708458361366,
+      "fastest_ext_policy": "bounded",
+      "lod_class": "VALID-NONTRIVIAL-LOD",
+      "previous_ms": 66.81237873595416,
+      "released_ms": 90.24964002770099
+    },
+    "run009": {
+      "authority": "/home/luis/tese/benchmark_artifacts/alod_ext_formal_run009_001/tables/formal_summary.json",
+      "authority_sha256": "b950be3598955de7d302ade898ee6360024256c0b66a5355b9f71bbf1d6a01df",
+      "bounded_ms": 73.4803928685281,
+      "fastest_ext_policy": "previous",
+      "lod_class": "VALID-WEAK-LOD (historical context)",
+      "previous_ms": 71.65719767137804,
+      "released_ms": 186.7740320748466
+    },
+    "sciart": {
+      "bounded_ms": 366.4198345873696,
+      "fastest_ext_policy": "bounded",
+      "lod_class": "VALID-WEAK-LOD",
+      "previous_ms": 378.90868838105,
+      "released_ms": 521.0861600311806
+    },
+    "synthetic_strong_control": {
+      "authority": "/home/luis/tese/benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/tables/aggregate.json",
+      "authority_sha256": "3690d4f0972e1eb9e13fcbeaac81c9883ed024d3096c9c864c62613c40c62980",
+      "bounded_ms": 15.160741480018865,
+      "fastest_ext_policy": "previous",
+      "lod_class": "STRONG CONTROL",
+      "previous_ms": 9.577479799994157,
+      "released_ms": 17.678528746661566
+    }
+  },
+  "interpretation": "bounded is faster than previous on both rerun natural trajectories; the synthetic previous-over-bounded observation does not appear on these natural workloads",
+  "protocol_sha256": "dc7fbfcfaba96790cd3b9a37dc170c41ef8f0da4d9c94a4bb689ce87b1c33e5b",
+  "schema_version": 1,
+  "status": "PASS-ALOD-EXT-NATURAL-PREVIOUS-COMPLETION"
+}

@@ -1,0 +1,29 @@
+{
+  "camera_stable_id": "eval-0023-img-024753-cam-0001",
+  "payload_mode": "full",
+  "pre_raster_tensor_hashes": {
+    "background": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+    "intrinsics": "58a3f8544494afe846d3a61a6309a8953823db99314f1ff7d8c052e9e97f553b",
+    "means": "3ceb2cab9bb5542d0e1ab961abd36dccb8efb111602e74a571c44ea55ff9fb58",
+    "opacities": "f31d7220512b9b21774136fe0d5be1cb11c1076f8d06a3d909d16e2ae1a9bfd9",
+    "quaternions": "c8513af4d36899ba2b50debcffad3cc23559e88c41b645d6e9ee0567790259bb",
+    "scales": "f766f1a906f85821cedc525eca3655a112649e7e9342638390cec86ed05d0a78",
+    "sh_features": "bf7e892102a7fd061f5e71c2caa255fec669051c4777445a4cb3415047d376b8",
+    "view_matrices": "0e470c38c6d4e4f8b54afaf8cb0e3cacfaa62463f0f57228a332450552333270"
+  },
+  "raster_global_ids_ordered_sha256": "14e59786ff6ff5f882b835f89da3d5eb23ded4843be8e1f32e238f4d101a1d9f",
+  "render_sha256": "414bee6290f028445bc5bac83b5d967cb9f6e97bab8af7b1c4f1bade0ef61261",
+  "schema_version": "alod_selection_oracle_attempt_complete.v1",
+  "selected_hierarchy_ordered_sha256": "ba468d6660cca0d15b32cf81ea96f38e7af7041563e86a34ef178df48ea5a55f",
+  "selected_hierarchy_sorted_sha256": "1038ec2a51f75e9f8147ee0a6e2da407d674329962f4cb5da8c7023ec5937512",
+  "stage_json_sha256": {
+    "asset": "406109603d2a0d6fb9d57e3213921bb724b58387e2b17dd0de178b8c17d8e6c1",
+    "camera": "06ddbaa456bf7147959d234f9882858f61ec74d7a79b91a1ef007aea7848ec2d",
+    "hspt": "066f1b4248b2a57187220221e9ecd0d630c7ec31a7cdbc9c3378d828432606d0",
+    "pre_raster": "0ee90308ea1c78cd9ff9ccdf05fe122ab6a770bfd1343782c2a4bcacc595c7eb",
+    "render": "6defcb087115b5b72b3b5d8416fea91ef0a5c13c915949c52733008a8b55b501",
+    "spt_cut": "785a3c8c93cfbc5163de63e5466e73dfcb3e63345b3c64c428d345f52e34ff8e",
+    "upper_traversal": "51d6fb686a18cc3ac03b63482ee430bcb92c0ac63f526125ed68670fb16d92c6",
+    "working_set": "06100612b6c7b27b2f6f7a26644dfbb5d8a513d7e62b002e6f94becf047bf066"
+  }
+}

@@ -1,0 +1,1720 @@
+{
+  "audit_date": "2026-10-17",
+  "scope": "artifact reanalysis; existing GPU gates reused, not rerun",
+  "script_sha256": "00f28f213a90b8484a68a23ee6876dc2ce4067337241aed7670818a793354921",
+  "root_head_at_audit": "1c750fe80968c428b5670e3f02ff56e09576af2e",
+  "implementation_head_at_audit": "d9cdd17c0e6a7cc3222a1ac044cccd51f5db1d22",
+  "manifests": {
+    "benchmark_artifacts/alod_ext_prevalence_association_001": {
+      "verified_entries": 100,
+      "sha256": "ca029d63de49935781a7497a3dd53fbe633b91975208761137a8478481e8d442"
+    },
+    "benchmark_artifacts/alod_ext_natural_previous_completion_001": {
+      "verified_entries": 95,
+      "sha256": "e9bc9e44f90070637bca27ac7aff7be14c14d54c2b084b5adc0b879325cac516"
+    },
+    "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001": {
+      "verified_entries": 44,
+      "sha256": "15c28c260f35fd61790b017c56284d1a4e9848eb89afaa5e3eeddb26b7e6cf15"
+    }
+  },
+  "datasets": {
+    "campus": {
+      "camera_count": 24,
+      "camera_ids": [
+        "eval-0000-img-002008-cam-0001",
+        "eval-0001-img-002148-cam-0001",
+        "eval-0002-img-002211-cam-0001",
+        "eval-0003-img-002529-cam-0001",
+        "eval-0004-img-003364-cam-0001",
+        "eval-0005-img-007320-cam-0001",
+        "eval-0006-img-007489-cam-0001",
+        "eval-0007-img-007826-cam-0001",
+        "eval-0008-img-008670-cam-0001",
+        "eval-0009-img-008740-cam-0001",
+        "eval-0010-img-012859-cam-0001",
+        "eval-0011-img-012919-cam-0001",
+        "eval-0012-img-013209-cam-0001",
+        "eval-0013-img-014063-cam-0001",
+        "eval-0014-img-018146-cam-0001",
+        "eval-0015-img-018210-cam-0001",
+        "eval-0016-img-018515-cam-0001",
+        "eval-0017-img-019381-cam-0001",
+        "eval-0018-img-023361-cam-0001",
+        "eval-0019-img-023507-cam-0001",
+        "eval-0020-img-023567-cam-0001",
+        "eval-0021-img-023863-cam-0001",
+        "eval-0022-img-024693-cam-0001",
+        "eval-0023-img-024753-cam-0001"
+      ],
+      "totals": {
+        "semantic_rows": 12723995,
+        "materialized_rows": 3810896,
+        "packed_projection_survivors": 3519197,
+        "semantic_hierarchy_rows": 10323995,
+        "materialized_hierarchy_rows": 3406733
+      },
+      "means": {
+        "semantic_rows": 530166.4583333334,
+        "materialized_rows": 158787.33333333334,
+        "packed_projection_survivors": 146633.20833333334,
+        "semantic_hierarchy_rows": 430166.4583333333,
+        "materialized_hierarchy_rows": 141947.20833333334
+      },
+      "materialized_percent": 29.950467600781042,
+      "survivors_percent": 27.657956483007105,
+      "historical_difference_max": 0,
+      "trace_duplicate_count": 0,
+      "correctness_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/checks/campus_regression.json",
+      "correctness_sha256": "8aee50f44585dfb101de410f1a9e0a38af98f3d0312b4fc5ca42087e91c08566",
+      "trace_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/traces/campus_regression_trace.npz",
+      "trace_sha256": "3a3e9a2a6f35c711cde25dcb88a62f8296ae934e0ce97b8098356ed380d5f7f4",
+      "inputs": {
+        "asset": {
+          "path": "/home/luis/tese/runs/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-TRAIN-001/output/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-TRAIN-001.dhier",
+          "sha256": "8743b7d34f4c61b638f5e6528539b8dca021b9752ddd88d076a66608641815c4"
+        },
+        "camera_path": {
+          "path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+          "sha256": "96e363f578e09d9861473fa6587509ae3f858ef1c60dda0d3e4e63372d5b5aa9"
+        },
+        "oracle_manifest": {
+          "path": "/home/luis/tese/runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/semantic-manifest.json",
+          "sha256": "171bb1c12b48402ebd78465fe466def2d1b929580f6ecf5b06e262feba2801d6"
+        }
+      }
+    },
+    "sciart": {
+      "camera_count": 21,
+      "camera_ids": [
+        "eval-0000-img-000001-cam-0001",
+        "eval-0001-img-000010-cam-0001",
+        "eval-0002-img-000006-cam-0001",
+        "eval-0003-img-000007-cam-0001",
+        "eval-0004-img-000009-cam-0001",
+        "eval-0005-img-000005-cam-0001",
+        "eval-0006-img-000008-cam-0001",
+        "eval-0007-img-000011-cam-0001",
+        "eval-0008-img-000002-cam-0001",
+        "eval-0009-img-000003-cam-0001",
+        "eval-0010-img-000004-cam-0001",
+        "eval-0011-img-000012-cam-0001",
+        "eval-0012-img-000013-cam-0001",
+        "eval-0013-img-000014-cam-0001",
+        "eval-0014-img-000015-cam-0001",
+        "eval-0015-img-000016-cam-0001",
+        "eval-0016-img-000018-cam-0001",
+        "eval-0017-img-000019-cam-0001",
+        "eval-0018-img-000017-cam-0001",
+        "eval-0019-img-000020-cam-0001",
+        "eval-0020-img-000021-cam-0001"
+      ],
+      "totals": {
+        "semantic_rows": 53522320,
+        "materialized_rows": 16109479,
+        "packed_projection_survivors": 15377098,
+        "semantic_hierarchy_rows": 51422320,
+        "materialized_hierarchy_rows": 15858394
+      },
+      "means": {
+        "semantic_rows": 2548681.904761905,
+        "materialized_rows": 767118.0476190476,
+        "packed_projection_survivors": 732242.7619047619,
+        "semantic_hierarchy_rows": 2448681.904761905,
+        "materialized_hierarchy_rows": 755161.619047619
+      },
+      "materialized_percent": 30.098618669743765,
+      "survivors_percent": 28.73025309814672,
+      "historical_difference_max": 0,
+      "trace_duplicate_count": 0,
+      "correctness_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/checks/sciart_regression.json",
+      "correctness_sha256": "5f5e48120180892c4736211f1fd43584d9188cfaed1c20d94c3f6aef027b4f9e",
+      "trace_source": "benchmark_artifacts/alod_synth_strong_lod_ext_multiset_closure_001/traces/sciart_regression_trace.npz",
+      "trace_sha256": "22c9afc830be33c46f77e61a1623428d262d37302593532b13c52444691f8ef9",
+      "inputs": {
+        "asset": {
+          "path": "/home/luis/tese/runs/alod/ALOD-PREV-US3D-SCIART-01/ALOD-PREV-US3D-SCIART-01-TRAIN-001/output/ALOD-PREV-US3D-SCIART-01-TRAIN-001.dhier",
+          "sha256": "acc49a863e022a6871391a224dfa01e2de24133a168c3e4498c2c8b83afa3010"
+        },
+        "camera_path": {
+          "path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+          "sha256": "b43b3d018a926497e73e0634775bcad7835a54cc0a4ea3e4b18fb790da509def"
+        },
+        "oracle_manifest": {
+          "path": "/home/luis/tese/runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/semantic-manifest.json",
+          "sha256": "5bf84d3ee1a6a1f88210ed6f0e260fcf9617bccc37b0eae9660d16c77ee55cac"
+        }
+      }
+    }
+  },
+  "timings": {
+    "historical/campus/nocache": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/nocache/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/nocache/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/nocache/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 23.33459197183806,
+        "preparation_time_ms": 19.88469294378269,
+        "alod_total_selection_ms": 6.433959527890289,
+        "alod_materialization_filter_ms": 0.0,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 8.101057957699393,
+        "alod_h2d_transfer_ms": 2.794075708152377,
+        "alod_residency_lookup_ms": 0.12126706981992659,
+        "alod_cache_management_ms": null,
+        "alod_pre_raster_assembly_ms": 0.5097123472902846,
+        "alod_selected_gpu_gather_ms": null,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 3.44989902805537,
+        "rasterization_time_ms": 3.3325933284229703
+      },
+      "replicate_means_ms": [
+        23.360078915478272,
+        23.928835165255197,
+        22.714861834780702
+      ],
+      "steady_h2d_bytes": 2849422620,
+      "cold_inclusive_h2d_bytes": 4035599964,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:05:37.567078+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "none",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_nocache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_env_var": "GS_FRAMEWORK_ALOD_FORMAL_DHIER_ASSET",
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-NOCACHE",
+        "description": "Released Evaluator (No Cache) under the frozen natural-dataset workload.",
+        "disabled_runtime_components": [
+          "prematerialization_culling",
+          "cuda_materialization_filter",
+          "bounded_gpu_cache",
+          "exact_row_reuse",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_dhier_host_nocache",
+        "scene_type": "alod_host_nocache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "b842e7b2bb54d76cd28a565b607d726f899c3c6ce69ffaa29172f426586155d3"
+    },
+    "historical/campus/previous": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/previous/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/previous/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/previous/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 19.067132958500427,
+        "preparation_time_ms": 15.635004917486286,
+        "alod_total_selection_ms": 6.4442248603882035,
+        "alod_materialization_filter_ms": 2.4432308887804135,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 2.2731836537180548,
+        "alod_h2d_transfer_ms": 1.3859206113314333,
+        "alod_residency_lookup_ms": 0.688154708162377,
+        "alod_cache_management_ms": 0.5683425972367533,
+        "alod_pre_raster_assembly_ms": 0.358722514041195,
+        "alod_selected_gpu_gather_ms": 0.5015250687089671,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 3.43212804101414,
+        "rasterization_time_ms": 3.318084441953235
+      },
+      "replicate_means_ms": [
+        19.481722999747337,
+        18.651766334490578,
+        19.06790954126336
+      ],
+      "steady_h2d_bytes": 703375512,
+      "cold_inclusive_h2d_bytes": 1009831560,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:05:43.833958+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_previous_reuse",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-PREVIOUS",
+        "description": "Established CUDA conservative filter plus exact previous-working-set property reuse.",
+        "disabled_runtime_components": [
+          "bounded_gpu_cache",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_previous_reuse",
+        "scene_type": "alod_host_previous_reuse",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "cb4d47a77b581f97783fa4168989ae496be0d77b79f17fb7c7cd5ef6fa2af7c7"
+    },
+    "historical/campus/bounded": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/bounded/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/bounded/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-CAMPUS-001/bounded/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 17.29173498622711,
+        "preparation_time_ms": 14.063081097143973,
+        "alod_total_selection_ms": 6.416729069112787,
+        "alod_materialization_filter_ms": 2.4698781516134556,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 0.21440522181769162,
+        "alod_h2d_transfer_ms": 0.30333170919523883,
+        "alod_residency_lookup_ms": 1.25041147273603,
+        "alod_cache_management_ms": 1.04121990362829,
+        "alod_pre_raster_assembly_ms": 0.29780113962058546,
+        "alod_selected_gpu_gather_ms": 0.22331947063018256,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 3.2286538890831356,
+        "rasterization_time_ms": 3.1198764310942755
+      },
+      "replicate_means_ms": [
+        17.20352375074678,
+        17.574518164716817,
+        17.097163043217734
+      ],
+      "steady_h2d_bytes": 22038876,
+      "cold_inclusive_h2d_bytes": 162370800,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:05:50.214015+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "cache_capacity_rows": 621377,
+          "mode": "host_bounded_cache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-BOUNDED",
+        "description": "Established CUDA conservative filter plus union-covering deterministic row-LRU cache.",
+        "disabled_runtime_components": [
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_bounded_cache_practical",
+        "scene_type": "alod_host_bounded_cache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "28779ce1f0891faa230c16a08389dc51500a462fdc4fc90003dcbd53d8bc0c92"
+    },
+    "final/campus/nocache": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/nocache/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 90.24964002770099,
+        "preparation_time_ms": 86.17718713907783,
+        "alod_total_selection_ms": 6.788368986033472,
+        "alod_materialization_filter_ms": 0.0,
+        "alod_materialization_unique_extraction_ms": 0.0,
+        "alod_materialization_occurrence_propagation_ms": 0.0,
+        "alod_host_gather_ms": 8.522253611115755,
+        "alod_h2d_transfer_ms": 3.298979916558488,
+        "alod_residency_lookup_ms": 0.13667293044111123,
+        "alod_cache_management_ms": null,
+        "alod_pre_raster_assembly_ms": 0.6290726249871013,
+        "alod_selected_gpu_gather_ms": null,
+        "alod_occurrence_reindex_ms": 0.0008210134486337969,
+        "frame_time_ms": 4.072452888623149,
+        "rasterization_time_ms": 3.8556862241692014
+      },
+      "replicate_means_ms": [
+        91.6587931246795,
+        89.1018759578704,
+        89.98825100055303
+      ],
+      "steady_h2d_bytes": 2849422620,
+      "cold_inclusive_h2d_bytes": 4035599964,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:16:14.938591+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "none",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_nocache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_env_var": "GS_FRAMEWORK_ALOD_FORMAL_DHIER_ASSET",
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-NOCACHE",
+        "description": "Released Evaluator (No Cache) under the frozen natural-dataset workload.",
+        "disabled_runtime_components": [
+          "prematerialization_culling",
+          "cuda_materialization_filter",
+          "bounded_gpu_cache",
+          "exact_row_reuse",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_dhier_host_nocache",
+        "scene_type": "alod_host_nocache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "b842e7b2bb54d76cd28a565b607d726f899c3c6ce69ffaa29172f426586155d3"
+    },
+    "final/campus/previous": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/previous/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 66.81237873595416,
+        "preparation_time_ms": 62.86361676368162,
+        "alod_total_selection_ms": 6.744856138892727,
+        "alod_materialization_filter_ms": 48.02607368062834,
+        "alod_materialization_unique_extraction_ms": 42.91851436103874,
+        "alod_materialization_occurrence_propagation_ms": 1.9900073611501687,
+        "alod_host_gather_ms": 2.545866569511822,
+        "alod_h2d_transfer_ms": 1.6198762501112975,
+        "alod_residency_lookup_ms": 0.9893545556628346,
+        "alod_cache_management_ms": 0.7343874722209875,
+        "alod_pre_raster_assembly_ms": 0.4450273748564844,
+        "alod_selected_gpu_gather_ms": 0.5755579308647106,
+        "alod_occurrence_reindex_ms": 0.001968514021023616,
+        "frame_time_ms": 3.9487619722725262,
+        "rasterization_time_ms": 3.757135977347692
+      },
+      "replicate_means_ms": [
+        67.37822562490692,
+        66.13266337490131,
+        66.92624720805422
+      ],
+      "steady_h2d_bytes": 703375512,
+      "cold_inclusive_h2d_bytes": 1009831560,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:16:26.694158+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_previous_reuse",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-PREVIOUS",
+        "description": "Established CUDA conservative filter plus exact previous-working-set property reuse.",
+        "disabled_runtime_components": [
+          "bounded_gpu_cache",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_previous_reuse",
+        "scene_type": "alod_host_previous_reuse",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "cb4d47a77b581f97783fa4168989ae496be0d77b79f17fb7c7cd5ef6fa2af7c7"
+    },
+    "final/campus/bounded": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/campus/bounded/replicate-03"
+      ],
+      "measured_frames": 72,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 65.66708458361366,
+        "preparation_time_ms": 62.185009972179415,
+        "alod_total_selection_ms": 6.7571126110629445,
+        "alod_materialization_filter_ms": 49.850305333317614,
+        "alod_materialization_unique_extraction_ms": 44.36275294453177,
+        "alod_materialization_occurrence_propagation_ms": 2.01762661132913,
+        "alod_host_gather_ms": 0.2615929997268217,
+        "alod_h2d_transfer_ms": 0.45148056915422785,
+        "alod_residency_lookup_ms": 1.275303194486494,
+        "alod_cache_management_ms": 1.2891499723082234,
+        "alod_pre_raster_assembly_ms": 0.3501201253533913,
+        "alod_selected_gpu_gather_ms": 0.2557805832010571,
+        "alod_occurrence_reindex_ms": 0.0019595000190343447,
+        "frame_time_ms": 3.4820746114342507,
+        "rasterization_time_ms": 3.30313331551022
+      },
+      "replicate_means_ms": [
+        66.46766391637964,
+        65.03966054197008,
+        65.49392929249127
+      ],
+      "steady_h2d_bytes": 22038876,
+      "cold_inclusive_h2d_bytes": 162370800,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:16:35.959507+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 9600.0,
+          "target_granularity": 0.0027701877932439297
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "cache_capacity_rows": 621377,
+          "mode": "host_bounded_cache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+        "camera_resolution_scale": 1.0,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-CAMPUS-001-BOUNDED",
+        "description": "Established CUDA conservative filter plus union-covering deterministic row-LRU cache.",
+        "disabled_runtime_components": [
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 1075,
+        "measured_frames": 24,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_bounded_cache_practical",
+        "scene_type": "alod_host_bounded_cache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-EVAL-24-PUBLIC-HELDOUT-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1436
+      },
+      "resolved_config_sha256": "28779ce1f0891faa230c16a08389dc51500a462fdc4fc90003dcbd53d8bc0c92"
+    },
+    "historical/sciart/nocache": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/nocache/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/nocache/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/nocache/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 129.6228867431637,
+        "preparation_time_ms": 124.03681939527843,
+        "alod_total_selection_ms": 28.142847699835706,
+        "alod_materialization_filter_ms": 0.0,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 61.65267182361623,
+        "alod_h2d_transfer_ms": 13.691852730098327,
+        "alod_residency_lookup_ms": 0.6812479527619121,
+        "alod_cache_management_ms": null,
+        "alod_pre_raster_assembly_ms": 2.3279855566446686,
+        "alod_selected_gpu_gather_ms": null,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 5.586067347885257,
+        "rasterization_time_ms": 5.425500968145946
+      },
+      "replicate_means_ms": [
+        131.54319247336215,
+        128.20984370981543,
+        129.11562404631348
+      ],
+      "steady_h2d_bytes": 14192560320,
+      "cold_inclusive_h2d_bytes": 20921084832,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:06:49.061070+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "none",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_nocache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_env_var": "GS_FRAMEWORK_ALOD_FORMAL_DHIER_ASSET",
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-NOCACHE",
+        "description": "Released Evaluator (No Cache) under the frozen natural-dataset workload.",
+        "disabled_runtime_components": [
+          "prematerialization_culling",
+          "cuda_materialization_filter",
+          "bounded_gpu_cache",
+          "exact_row_reuse",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_dhier_host_nocache",
+        "scene_type": "alod_host_nocache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "100a6dba1c8d252b70f0f2c0aadcf3cf158311f994a2fd39bc91190ff067ce12"
+    },
+    "historical/sciart/previous": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/previous/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/previous/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/previous/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 74.00858079315171,
+        "preparation_time_ms": 69.34499182453793,
+        "alod_total_selection_ms": 27.91610906350552,
+        "alod_materialization_filter_ms": 4.992126207244361,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 13.615404905673737,
+        "alod_h2d_transfer_ms": 5.35627028425335,
+        "alod_residency_lookup_ms": 5.254123428982446,
+        "alod_cache_management_ms": 3.9636086345010897,
+        "alod_pre_raster_assembly_ms": 0.6260501268404787,
+        "alod_selected_gpu_gather_ms": 2.013999921415696,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 4.663588968613777,
+        "rasterization_time_ms": 4.52383035515982
+      },
+      "replicate_means_ms": [
+        72.44771228371454,
+        74.50286009545727,
+        75.07517000028331
+      ],
+      "steady_h2d_bytes": 2741495856,
+      "cold_inclusive_h2d_bytes": 3867272256,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:07:11.210395+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_previous_reuse",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-PREVIOUS",
+        "description": "Established CUDA conservative filter plus exact previous-working-set property reuse.",
+        "disabled_runtime_components": [
+          "bounded_gpu_cache",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_previous_reuse",
+        "scene_type": "alod_host_previous_reuse",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "0cad2fe4dd0419214afc4a93399bdc94fcb3ba78f55d3118a54232a5b21348d2"
+    },
+    "historical/sciart/bounded": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/bounded/replicate-01",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/bounded/replicate-02",
+        "benchmark_artifacts/alod_ext_prevalence_association_001/runs/ALOD-EXT-PREVALENCE-SCIART-001/bounded/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 62.625081445615265,
+        "preparation_time_ms": 57.48469757178562,
+        "alod_total_selection_ms": 27.840413777056032,
+        "alod_materialization_filter_ms": 5.310728779434049,
+        "alod_materialization_unique_extraction_ms": null,
+        "alod_materialization_occurrence_propagation_ms": null,
+        "alod_host_gather_ms": 0.45148239726023304,
+        "alod_h2d_transfer_ms": 0.4323734130362965,
+        "alod_residency_lookup_ms": 7.643592716213168,
+        "alod_cache_management_ms": 7.214816586744587,
+        "alod_pre_raster_assembly_ms": 0.5536938731979933,
+        "alod_selected_gpu_gather_ms": 0.9632016809764392,
+        "alod_occurrence_reindex_ms": null,
+        "frame_time_ms": 5.140383873829648,
+        "rasterization_time_ms": 4.999554531914847
+      },
+      "replicate_means_ms": [
+        65.52465176320679,
+        62.50987604878554,
+        59.84071652485346
+      ],
+      "steady_h2d_bytes": 47909184,
+      "cold_inclusive_h2d_bytes": 696879852,
+      "environment": {
+        "git_commit": "bc4246a3f9309e59c49b805f32024952278f31cc",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-23T23:07:30.668114+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "cache_capacity_rows": 2666887,
+          "mode": "host_bounded_cache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-BOUNDED",
+        "description": "Established CUDA conservative filter plus union-covering deterministic row-LRU cache.",
+        "disabled_runtime_components": [
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_bounded_cache_practical",
+        "scene_type": "alod_host_bounded_cache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "af7451043fd0a917a2652ecf8fb9e9af94f47893183e0d09e88cb933885963ba"
+    },
+    "final/sciart/nocache": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/nocache/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 521.0861600311806,
+        "preparation_time_ms": 509.46019411051003,
+        "alod_total_selection_ms": 29.352748809273297,
+        "alod_materialization_filter_ms": 0.0,
+        "alod_materialization_unique_extraction_ms": 0.0,
+        "alod_materialization_occurrence_propagation_ms": 0.0,
+        "alod_host_gather_ms": 68.22151055582383,
+        "alod_h2d_transfer_ms": 16.4560392063683,
+        "alod_residency_lookup_ms": 0.7578436193326192,
+        "alod_cache_management_ms": null,
+        "alod_pre_raster_assembly_ms": 3.336357396850843,
+        "alod_selected_gpu_gather_ms": null,
+        "alod_occurrence_reindex_ms": 0.001029238139005703,
+        "frame_time_ms": 11.625965920670534,
+        "rasterization_time_ms": 11.14623240819053
+      },
+      "replicate_means_ms": [
+        522.4180471424396,
+        523.7865946184597,
+        517.0538383326424
+      ],
+      "steady_h2d_bytes": 14192560320,
+      "cold_inclusive_h2d_bytes": 20921084832,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:18:05.782336+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "none",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_nocache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_env_var": "GS_FRAMEWORK_ALOD_FORMAL_DHIER_ASSET",
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-NOCACHE",
+        "description": "Released Evaluator (No Cache) under the frozen natural-dataset workload.",
+        "disabled_runtime_components": [
+          "prematerialization_culling",
+          "cuda_materialization_filter",
+          "bounded_gpu_cache",
+          "exact_row_reuse",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_dhier_host_nocache",
+        "scene_type": "alod_host_nocache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "100a6dba1c8d252b70f0f2c0aadcf3cf158311f994a2fd39bc91190ff067ce12"
+    },
+    "final/sciart/previous": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/previous/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 378.90868838105,
+        "preparation_time_ms": 369.5303764605284,
+        "alod_total_selection_ms": 29.105744967911583,
+        "alod_materialization_filter_ms": 301.0529615552052,
+        "alod_materialization_unique_extraction_ms": 281.48521063462437,
+        "alod_materialization_occurrence_propagation_ms": 10.142621777915684,
+        "alod_host_gather_ms": 13.000750825518654,
+        "alod_h2d_transfer_ms": 6.8745581270449625,
+        "alod_residency_lookup_ms": 5.36186958751863,
+        "alod_cache_management_ms": 4.204479825444102,
+        "alod_pre_raster_assembly_ms": 1.094987984071763,
+        "alod_selected_gpu_gather_ms": 2.463444364929317,
+        "alod_occurrence_reindex_ms": 0.0026375236634593752,
+        "frame_time_ms": 9.378311920521636,
+        "rasterization_time_ms": 8.99324183236985
+      },
+      "replicate_means_ms": [
+        381.89678357108886,
+        377.0508717156883,
+        377.77840985637295
+      ],
+      "steady_h2d_bytes": 2741495856,
+      "cold_inclusive_h2d_bytes": 3867272256,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:18:40.797150+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "mode": "host_previous_reuse",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-PREVIOUS",
+        "description": "Established CUDA conservative filter plus exact previous-working-set property reuse.",
+        "disabled_runtime_components": [
+          "bounded_gpu_cache",
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_previous_reuse",
+        "scene_type": "alod_host_previous_reuse",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "0cad2fe4dd0419214afc4a93399bdc94fcb3ba78f55d3118a54232a5b21348d2"
+    },
+    "final/sciart/bounded": {
+      "sources": [
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-01",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-02",
+        "benchmark_artifacts/alod_ext_natural_previous_completion_001/runs/sciart/bounded/replicate-03"
+      ],
+      "measured_frames": 63,
+      "warmup_frames": 30,
+      "means_ms": {
+        "end_to_end_frame_time_ms": 366.4198345873696,
+        "preparation_time_ms": 356.5979668892396,
+        "alod_total_selection_ms": 28.69385617472405,
+        "alod_materialization_filter_ms": 300.7909901904881,
+        "alod_materialization_unique_extraction_ms": 280.7258198251172,
+        "alod_materialization_occurrence_propagation_ms": 10.132468110867425,
+        "alod_host_gather_ms": 0.8094030636129901,
+        "alod_h2d_transfer_ms": 0.5422268733950443,
+        "alod_residency_lookup_ms": 7.242725841183168,
+        "alod_cache_management_ms": 7.602941015994431,
+        "alod_pre_raster_assembly_ms": 1.2058453969421818,
+        "alod_selected_gpu_gather_ms": 1.5769092061086594,
+        "alod_occurrence_reindex_ms": 0.0024064125711216575,
+        "frame_time_ms": 9.821867698129997,
+        "rasterization_time_ms": 9.402345256199913
+      },
+      "replicate_means_ms": [
+        369.93538761955625,
+        363.1356650477669,
+        366.1884510947857
+      ],
+      "steady_h2d_bytes": 47909184,
+      "cold_inclusive_h2d_bytes": 696879852,
+      "environment": {
+        "git_commit": "fd34041a8d45965d392f0bcc2030cc073f9a3de6",
+        "git_dirty": true,
+        "gpu": {
+          "available": true,
+          "capability": [
+            12,
+            0
+          ],
+          "name": "NVIDIA GeForce RTX 5080",
+          "total_memory_bytes": 17094475776
+        },
+        "gsplat_version": "1.5.3",
+        "python_executable": "/home/luis/miniconda3/envs/nerfstudio2/bin/python",
+        "python_version": "3.12.12",
+        "timestamp_utc": "2026-09-26T18:19:11.335971+00:00",
+        "torch_cuda_version": "12.9",
+        "torch_version": "2.11.0.dev20260128+cu129"
+      },
+      "configuration": {
+        "alod": {
+          "distance_multiplier": 1.0,
+          "frustum_enabled": true,
+          "materialization_filter": "conservative_pinhole_gpu",
+          "min_spt_size": 100,
+          "root_global_node_id": 100000,
+          "selection_mode": "lod",
+          "skybox_count": 100000,
+          "spt_root_volume": 1228800.0,
+          "target_granularity": 0.0005407377082833597
+        },
+        "alod_host": {
+          "activation_chunk_rows": 131072,
+          "cache_capacity_rows": 2666887,
+          "mode": "host_bounded_cache",
+          "pin_memory": false,
+          "validate_mappings": false,
+          "validate_properties": false
+        },
+        "asset_role": "ALOD-PREV-US3D-SCIART-01",
+        "background": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "camera_model": "pinhole",
+        "camera_path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+        "camera_resolution_scale": 0.25,
+        "checkpoint_type": "dhier",
+        "configuration_id": "ALOD-EXT-PREVALENCE-SCIART-001-BOUNDED",
+        "description": "Established CUDA conservative filter plus union-covering deterministic row-LRU cache.",
+        "disabled_runtime_components": [
+          "async_transfer",
+          "prefetching",
+          "optimized_selector"
+        ],
+        "eps2d": 0.3,
+        "far_plane": 10000000000.0,
+        "height": 912,
+        "measured_frames": 21,
+        "near_plane": 0.01,
+        "num_repeat": 1,
+        "output_policy": {
+          "write_frames_jsonl": true,
+          "write_images": false,
+          "write_resolved_config_json": true,
+          "write_summary_json": true
+        },
+        "packed": true,
+        "radius_clip": 0.0,
+        "rasterize_mode": "classic",
+        "record_kind_default": "formal_benchmark",
+        "record_warmup_frames": true,
+        "render_mode": "RGB",
+        "representation_type": "alod_ext_cuda_prematerialization_bounded_cache_practical",
+        "scene_type": "alod_host_bounded_cache",
+        "sh_degree": 1,
+        "timing_policy": {
+          "cuda_events": true,
+          "cuda_synchronize": true,
+          "first_frame_initialization_excluded_by_warmup": true
+        },
+        "training_source": "pinned_official_alod_source_commit_73f547341547ae021ff036ad74fdf73a1240b450",
+        "trajectory_id": "ALOD-PREV-US3D-SCIART-01-EVAL-21-PUBLIC-VAL-V1",
+        "trajectory_notes": "Complete frozen held-out split in recorded canonical order.",
+        "warmup_frames": 10,
+        "width": 1216
+      },
+      "resolved_config_sha256": "af7451043fd0a917a2652ecf8fb9e9af94f47893183e0d09e88cb933885963ba"
+    }
+  },
+  "cross_campaign": {
+    "campus/nocache": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows"
+      ]
+    },
+    "campus/previous": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows",
+        "alod_cache_hit_count",
+        "alod_cache_miss_count",
+        "alod_cache_eviction_count"
+      ]
+    },
+    "campus/bounded": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows",
+        "alod_cache_hit_count",
+        "alod_cache_miss_count",
+        "alod_cache_eviction_count"
+      ]
+    },
+    "sciart/nocache": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows"
+      ]
+    },
+    "sciart/previous": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows",
+        "alod_cache_hit_count",
+        "alod_cache_miss_count",
+        "alod_cache_eviction_count"
+      ]
+    },
+    "sciart/bounded": {
+      "configurations_identical": true,
+      "transfer_and_cache_counts_identical": true,
+      "fields": [
+        "alod_h2d_bytes",
+        "alod_h2d_rows",
+        "alod_requested_rows",
+        "alod_cache_hit_count",
+        "alod_cache_miss_count",
+        "alod_cache_eviction_count"
+      ]
+    }
+  },
+  "historical_implementation": {
+    "/home/luis/tese/gs_framework/benchmarks/benchmark_real_scene.py": "f83670e2c3f97b5932009af8412766b12675dfdc509947379c39ca38f9190873",
+    "/home/luis/tese/gs_framework/configs/alod/ALOD-EXT-PREVALENCE-ASSOCIATION-001.json": "7ea720ae072812cbde2ffbc03ed32dc140af795e1649eae58f1859f862c6fb5e",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/host_scene.py": "894ebc4cf44d817d67786100c2aa9322973be4ee0132feff131f00bc33ee7d6d",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/materialization.py": "351aa70af87efa43773bf4a8351b8ab1774b47830f0ec78dbbe5ea350a069330",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/residency.py": "66e2fa2ac5d8329e906a25a90ddb68f31ebcbe9964ca2a74f7a4df126a708f79",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/selection.py": "f893713fd0f51d8e4defe962052bf5b03682df09b8c527dc763b7b3bc122d55e",
+    "/home/luis/tese/gs_framework/scripts/alod/alod_ext_prevalence_association.py": "5e2fed852d3d3f1043759de1f28d43de9911dd4554f1cc5aeef8b74e9f7fa350"
+  },
+  "final_implementation": {
+    "/home/luis/tese/gs_framework/scripts/alod/alod_ext_prevalence_association.py": "9c132e919c486d040e1de32dffa75fa693e9a0d78445e2245365e6dd828652cf",
+    "/home/luis/tese/gs_framework/benchmarks/benchmark_real_scene.py": "c789d854ec06ed629582d00fb46173b59102d885aa6d9611aa072d069c9c22c0",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/selection.py": "f893713fd0f51d8e4defe962052bf5b03682df09b8c527dc763b7b3bc122d55e",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/materialization.py": "b3b40be33c5c02cc3140e87417a8dbd46f201d3c90e283373156d7b4fdfabbb2",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/host_scene.py": "b1fe33752ec72870e0f11411dfadca69332c98d84b491a08146a7f517bb093fa",
+    "/home/luis/tese/gs_framework/scene_runtime/alod/residency.py": "297d026cc121c5be2b6e7f491e500c56bd1be126bb557b3c576d0fe6c3c7a473",
+    "/home/luis/tese/gs_framework/scene_runtime/types.py": "821db12c83e329ca3081197f1270172be4ea0cd62f0aaf105e67488ebde38f8d"
+  },
+  "status": "PASS-ALOD-CAMPUS-SCIART-PROVENANCE-CLOSURE",
+  "new_gpu_executions": 0
+}

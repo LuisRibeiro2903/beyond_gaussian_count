@@ -1,0 +1,22 @@
+{
+  "camera_stable_id": "eval-0008-img-000401-cam-0001",
+  "quality_evaluation_performed": false,
+  "rendered_rgb_chw": {
+    "byte_count": 6220800,
+    "device_during_official_execution": "cuda:0",
+    "dtype": "float32",
+    "element_count": 1555200,
+    "finite_count": 1555200,
+    "max": 0.8688080310821533,
+    "min": 0.03977058082818985,
+    "payload_file_sha256": "0c5bd94b00b01099012ed0492502f755cb3349736a07725553d8b1458be82180",
+    "payload_path": "payloads/render/rendered_rgb_chw.npy",
+    "raw_cpu_c_order_sha256": "fbb837845c417477eac0a19929fb0f292087d92f3da3a0dd618b1f7b746459e5",
+    "shape": [
+      3,
+      540,
+      960
+    ]
+  },
+  "schema_version": "alod_selection_oracle_render.v1"
+}

@@ -1,0 +1,12 @@
+diff --git a/submodules/gaussianhierarchy/CMakeLists.txt b/submodules/gaussianhierarchy/CMakeLists.txt
+--- a/submodules/gaussianhierarchy/CMakeLists.txt
++++ b/submodules/gaussianhierarchy/CMakeLists.txt
+@@ -39,7 +39,7 @@ target_include_directories(GaussianHierarchy PRIVATE dependencies/eigen)
+ target_include_directories(GaussianHierarchy PRIVATE dependencies/glm ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES})
+ 
+ set_property(TARGET GaussianHierarchy PROPERTY CXX_STANDARD 17)
+-set_target_properties(GaussianHierarchy PROPERTIES CUDA_ARCHITECTURES "70;75;86")
++set_target_properties(GaussianHierarchy PROPERTIES CUDA_ARCHITECTURES "120")
+ set(CMAKE_CUDA_STANDARD 17)
+ 
+ target_include_directories(GaussianHierarchy

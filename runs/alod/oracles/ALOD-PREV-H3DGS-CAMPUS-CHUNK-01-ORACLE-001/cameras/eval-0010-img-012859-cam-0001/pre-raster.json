@@ -1,0 +1,178 @@
+{
+  "camera_stable_id": "eval-0010-img-012859-cam-0001",
+  "counts": {
+    "hierarchy_selected_raster_rows": 457758,
+    "skybox_raster_rows": 100000,
+    "total_raster_gaussians": 557758
+  },
+  "global_node_id_contract": "raster_global_node_ids[row] is the serialized source row",
+  "pre_raster_bundle_sha256": "b1cbcbc42874a52e7bd53540f22996e0d795fd1075a6340ff63f2e503754104d",
+  "raster_global_node_ids": {
+    "canonical_encoding": "little-endian signed int64, contiguous C order",
+    "count": 557758,
+    "max": 1143220,
+    "min": 0,
+    "ordered_sha256": "0f2dc531807434bd57874b19cf36396d582fa3b72edbc33bfae12b8c809fb379",
+    "runtime_array": {
+      "byte_count": 4462064,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 557758,
+      "finite_count": null,
+      "max": 1143220.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "0f2dc531807434bd57874b19cf36396d582fa3b72edbc33bfae12b8c809fb379",
+      "shape": [
+        557758
+      ]
+    },
+    "sorted_sha256": "d604749fa6b14000ed92ccda8d0fd578a7fd9e4b1f5a7b47aa3f5f98c7ac8485",
+    "unique_count": 557758
+  },
+  "rasterization_arguments": {
+    "height": 1075,
+    "packed": true,
+    "render_mode": "RGB",
+    "sh_degree": 1,
+    "width": 1436
+  },
+  "row_correspondence": {
+    "hierarchy_selected_rows": 457758,
+    "mapping": "raster row -> raster_global_node_ids[row] -> serialized .dhier row",
+    "skybox_rows": 100000,
+    "stored_tensor_exact_equality": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "tensor_row_count_agreement": {
+      "features_dc": true,
+      "features_rest": true,
+      "log_scales": true,
+      "means": true,
+      "opacity_logits": true,
+      "raw_quaternions": true
+    },
+    "total_raster_rows": 557758,
+    "valid": true
+  },
+  "schema_version": "alod_selection_oracle_pre_raster.v1",
+  "tensors": {
+    "background": {
+      "byte_count": 12,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 3,
+      "finite_count": 3,
+      "max": 0.0,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "shape": [
+        3
+      ]
+    },
+    "intrinsics": {
+      "byte_count": 36,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 9,
+      "finite_count": 9,
+      "max": 721.9727172851562,
+      "min": 0.0,
+      "raw_cpu_c_order_sha256": "58a3f8544494afe846d3a61a6309a8953823db99314f1ff7d8c052e9e97f553b",
+      "shape": [
+        1,
+        3,
+        3
+      ]
+    },
+    "means": {
+      "byte_count": 6693096,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1673274,
+      "finite_count": 1673274,
+      "max": 6763.2431640625,
+      "min": -6861.27294921875,
+      "raw_cpu_c_order_sha256": "66bb10ed4a30a29b1af05cab1f89f251612c1bbe3b78b5083c3013e4a2170860",
+      "shape": [
+        557758,
+        3
+      ]
+    },
+    "opacities": {
+      "byte_count": 2231032,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 557758,
+      "finite_count": 557758,
+      "max": 0.9999899864196777,
+      "min": 0.002662127837538719,
+      "raw_cpu_c_order_sha256": "c262ee0b9f7ba5d4e0a1d0b51daec889493b27cbbfb13aac559151b9421527ea",
+      "shape": [
+        557758
+      ]
+    },
+    "quaternions": {
+      "byte_count": 8924128,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 2231032,
+      "finite_count": 2231032,
+      "max": 1.0,
+      "min": -0.9991145730018616,
+      "raw_cpu_c_order_sha256": "128b50b028c49282be1058a55deadd2e0ecf54ebc1d55c34de67b8d2d9a470d6",
+      "shape": [
+        557758,
+        4
+      ]
+    },
+    "scales": {
+      "byte_count": 6693096,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1673274,
+      "finite_count": 1673274,
+      "max": 432.96514892578125,
+      "min": 1.013421226277178e-12,
+      "raw_cpu_c_order_sha256": "0bfb60b642c5c9513a7e802c8e65bde464058117195d4ead72f6d4aad9b7102f",
+      "shape": [
+        557758,
+        3
+      ]
+    },
+    "sh_features": {
+      "byte_count": 26772384,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 6693096,
+      "finite_count": 6693096,
+      "max": 9.485243797302246,
+      "min": -8.855384826660156,
+      "raw_cpu_c_order_sha256": "5a03e21cbdd22f483e595557c4be3b86fdb23cd5b00f54a90f697fda2fae0381",
+      "shape": [
+        557758,
+        4,
+        3
+      ]
+    },
+    "view_matrices": {
+      "byte_count": 64,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 16,
+      "finite_count": 16,
+      "max": 5.748225212097168,
+      "min": -23.51340675354004,
+      "raw_cpu_c_order_sha256": "ab32d5a517fcbdb092a3976e0f5cb4fef5c005f5b25976f71f4c036f66a36021",
+      "shape": [
+        1,
+        4,
+        4
+      ]
+    }
+  }
+}

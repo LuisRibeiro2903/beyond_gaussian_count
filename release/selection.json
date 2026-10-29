@@ -1,0 +1,44 @@
+{
+  "source_directories": [
+    "alod_dhier",
+    "alod_reference",
+    "alod_selection_oracle",
+    "scene_runtime",
+    "scripts",
+    "benchmarks",
+    "configs",
+    "unit_tests",
+    "integration_tests",
+    "specs",
+    "patches"
+  ],
+  "benchmark_packages": [
+    "alod_ext_formal_run009_001",
+    "alod_ext_natural_previous_completion_001",
+    "alod_ext_prevalence_association_001",
+    "alod_ext_run009_closure_001",
+    "alod_faithful_reproduction_001",
+    "alod_synth_strong_lod_control_001",
+    "alod_synth_strong_lod_ext_multiset_closure_001",
+    "citygs_12camera_attribution_20260824_222048",
+    "citygs_backend_microbench_20260824_213420",
+    "citygs_canonical_20260824_135615",
+    "citygs_official_clean_full_20260825_163319",
+    "citygs_official_parity_20260824_191215"
+  ],
+  "run_metadata_roots": [
+    "ALOD-SYNTH-STRONG-LOD-CONTROL-001",
+    "ALOD-REPRO-UNI10K-01/ALOD-REPRO-UNI10K-TRAIN-001-PREFLIGHT-RUN005-CLOSURE",
+    "ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009",
+    "ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005",
+    "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-TRAIN-001",
+    "ALOD-PREV-US3D-SCIART-01/ALOD-PREV-US3D-SCIART-01-TRAIN-001"
+  ],
+  "oracle_metadata_ids": [
+    "ALOD-RUN005-SELECTION-ORACLE-001",
+    "ALOD-MIXED-RUN009-SELECTION-ORACLE-001",
+    "ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001",
+    "ALOD-PREV-US3D-SCIART-01-ORACLE-001"
+  ],
+  "selection": "Code dependencies plus numerical packages directly referenced by full dissertation; no full vendor tree, imagery, checkpoints, binary oracle payloads, personal files, or thesis fonts. Historical evidence may reference omitted files."
+}

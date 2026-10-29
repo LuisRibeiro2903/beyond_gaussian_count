@@ -1,0 +1,373 @@
+{
+  "asset_path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+  "asset_sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+  "asset_size": 820424744,
+  "attribute_validation": {
+    "activated_opacity_range": {
+      "above_one_count": 0,
+      "below_zero_count": 0,
+      "expected": "inclusive [0, 1]",
+      "invalid_count": 0,
+      "invalid_global_node_id_examples": []
+    },
+    "profile": "strict",
+    "quaternion_norms": {
+      "count": 7072627,
+      "max": 4.8242316246032715,
+      "mean": 1.0501936025164942,
+      "min": 0.6309993267059326,
+      "nonzero_count": 7072627,
+      "p50": 1.0098270177841187,
+      "p95": 1.2802547812461849,
+      "p99": 1.706421313285829,
+      "std": 0.13589945141147586,
+      "zero_count": 0
+    },
+    "serialized_representation": {
+      "activated_opacities": "serialized activated/pre-clamp float32; creator interior merging may exceed 1; sigmoid is not applied by parser",
+      "log_scales": "raw float32; exp is not applied by parser",
+      "positions": "raw world-space float32",
+      "rotations": "raw float32; not normalized by parser",
+      "sh_coefficients": "raw float32"
+    },
+    "valid": true
+  },
+  "attributes": {
+    "activated_opacities": {
+      "byte_size": 28290508,
+      "dtype": "float32",
+      "element_count": 7072627,
+      "finite": true,
+      "finite_count": 7072627,
+      "max": 0.9999990463256836,
+      "min": 0.00021062402811367065,
+      "offset": 282905088,
+      "raw_sha256": "e646959413d23bae0e58df86c50b29c8624ff6298f8c88afb954ca7e88691ae6",
+      "shape": [
+        7072627,
+        1
+      ]
+    },
+    "log_scales": {
+      "byte_size": 84871524,
+      "dtype": "float32",
+      "element_count": 21217881,
+      "finite": true,
+      "finite_count": 21217881,
+      "max": 2.6311872005462646,
+      "min": -24.45345687866211,
+      "offset": 198033564,
+      "raw_sha256": "320924ed1ca5cc63a3fabe6cf19fab42b7e13b6a8846281ee49f7a1e07f1b048",
+      "shape": [
+        7072627,
+        3
+      ]
+    },
+    "positions": {
+      "byte_size": 84871524,
+      "dtype": "float32",
+      "element_count": 21217881,
+      "finite": true,
+      "finite_count": 21217881,
+      "max": 217.07737731933594,
+      "min": -219.12342834472656,
+      "offset": 8,
+      "raw_sha256": "fd18e4ba7db1a48680adb34f6cea7892067b427c2ce80a07bbb5f18ee9489d3a",
+      "shape": [
+        7072627,
+        3
+      ]
+    },
+    "rotations": {
+      "byte_size": 113162032,
+      "dtype": "float32",
+      "element_count": 28290508,
+      "finite": true,
+      "finite_count": 28290508,
+      "max": 4.812437057495117,
+      "min": -2.486165761947632,
+      "offset": 84871532,
+      "raw_sha256": "b5a8a88b837c65568eb6600617c973cd93d1e0dc39fa49aecc2a2add381dbaa7",
+      "shape": [
+        7072627,
+        4
+      ]
+    },
+    "sh_coefficients": {
+      "byte_size": 339486096,
+      "dtype": "float32",
+      "element_count": 84871524,
+      "finite": true,
+      "finite_count": 84871524,
+      "max": 7.553922653198242,
+      "min": -5.340964317321777,
+      "offset": 311195596,
+      "raw_sha256": "5f954aad8d7f346f994b736fd8ce64b987db2c363d3ff9436755c9119b27f884",
+      "shape": [
+        7072627,
+        4,
+        3
+      ]
+    }
+  },
+  "format": {
+    "actual_file_bytes": 820424744,
+    "bytes_per_gaussian_attributes": 92,
+    "bytes_per_node_metadata": 24,
+    "expected_file_bytes": 820424744,
+    "gaussian_count": 7072627,
+    "header_and_count_bytes": 12,
+    "node_count": 7072627,
+    "sh_coefficients_per_gaussian": 4,
+    "sh_degree": 1,
+    "total_attribute_bytes": 650681684,
+    "total_metadata_bytes": 169743048
+  },
+  "hierarchy": {
+    "binary_tree_child_counts": [
+      0,
+      2
+    ],
+    "byte_size": 169743048,
+    "creator_initial_leaf_first_child_quirk": {
+      "allowed_range_when_nonzero": [
+        1,
+        7072627
+      ],
+      "enabled": false,
+      "occurrence_count": 0,
+      "traversed": false
+    },
+    "cycles": 0,
+    "depth_histogram": {
+      "0": 1,
+      "1": 2,
+      "10": 1024,
+      "11": 2048,
+      "12": 4096,
+      "13": 8192,
+      "14": 16384,
+      "15": 32768,
+      "16": 65534,
+      "17": 131058,
+      "18": 261972,
+      "19": 521854,
+      "2": 4,
+      "20": 1015816,
+      "21": 1713342,
+      "22": 1142342,
+      "23": 624104,
+      "24": 389524,
+      "25": 266156,
+      "26": 187934,
+      "27": 140386,
+      "28": 107458,
+      "29": 84392,
+      "3": 8,
+      "30": 65366,
+      "31": 49956,
+      "32": 38074,
+      "33": 28478,
+      "34": 21094,
+      "35": 15128,
+      "36": 10738,
+      "37": 7732,
+      "38": 5532,
+      "39": 4016,
+      "4": 16,
+      "40": 2944,
+      "41": 2138,
+      "42": 1492,
+      "43": 992,
+      "44": 596,
+      "45": 402,
+      "46": 218,
+      "47": 110,
+      "48": 72,
+      "49": 30,
+      "5": 32,
+      "50": 12,
+      "51": 14,
+      "52": 16,
+      "53": 26,
+      "54": 32,
+      "55": 12,
+      "6": 64,
+      "7": 128,
+      "8": 256,
+      "9": 512
+    },
+    "depth_mismatches": 0,
+    "dtype": "int32",
+    "duplicate_ownership": 0,
+    "duplicate_reachability": 0,
+    "edge_count": 6972626,
+    "field_order": [
+      "depth",
+      "parent",
+      "child_count",
+      "first_child",
+      "next_sibling",
+      "max_side_or_index"
+    ],
+    "global_node_id_contract": "serialized_row_index",
+    "hierarchy_node_count": 6972627,
+    "interior_count": 3486313,
+    "issues": {
+      "counts": {
+        "depth_mismatch": 0,
+        "parent_mismatch": 0
+      },
+      "examples": [],
+      "examples_truncated": false,
+      "total": 0
+    },
+    "leaf_count": 3486314,
+    "max_depth": 55,
+    "max_side_or_index": {
+      "max": 0,
+      "min": 0,
+      "semantic_status": "decoded raw; not used for topology"
+    },
+    "minimum_depth": 0,
+    "offset": 650681696,
+    "parent_mismatches": 0,
+    "profile": "strict",
+    "raw_sha256": "16eba40864d56bb66db647c7c6a30f3e09de544e818e82d9265ebb337b0feaea",
+    "reachable_count": 6972627,
+    "root_count": 1,
+    "root_examples": [
+      100000
+    ],
+    "root_global_id": 100000,
+    "shape": [
+      7072627,
+      6
+    ],
+    "skybox": {
+      "count": 100000,
+      "reserved_field_zero": true,
+      "topology_fields_valid": true,
+      "topology_sentinel": -99
+    },
+    "stored_depth_histogram": {
+      "0": 1,
+      "1": 2,
+      "10": 1024,
+      "11": 2048,
+      "12": 4096,
+      "13": 8192,
+      "14": 16384,
+      "15": 32768,
+      "16": 65534,
+      "17": 131058,
+      "18": 261972,
+      "19": 521854,
+      "2": 4,
+      "20": 1015816,
+      "21": 1713342,
+      "22": 1142342,
+      "23": 624104,
+      "24": 389524,
+      "25": 266156,
+      "26": 187934,
+      "27": 140386,
+      "28": 107458,
+      "29": 84392,
+      "3": 8,
+      "30": 65366,
+      "31": 49956,
+      "32": 38074,
+      "33": 28478,
+      "34": 21094,
+      "35": 15128,
+      "36": 10738,
+      "37": 7732,
+      "38": 5532,
+      "39": 4016,
+      "4": 16,
+      "40": 2944,
+      "41": 2138,
+      "42": 1492,
+      "43": 992,
+      "44": 596,
+      "45": 402,
+      "46": 218,
+      "47": 110,
+      "48": 72,
+      "49": 30,
+      "5": 32,
+      "50": 12,
+      "51": 14,
+      "52": 16,
+      "53": 26,
+      "54": 32,
+      "55": 12,
+      "6": 64,
+      "7": 128,
+      "8": 256,
+      "9": 512
+    },
+    "topology_validation_performed": true,
+    "unreachable_nodes": 0,
+    "valid": true
+  },
+  "identity": {
+    "global_node_id": "serialized row/index",
+    "not_serialized_identities": [
+      "upper_tree_local_id",
+      "spt_id",
+      "cache_slot",
+      "frame_local_gaussian_index"
+    ]
+  },
+  "official_load_stages": {
+    "GaussianModel.create_from_hier_stored": [
+      "positions, SH, log scales, and raw rotations remain unchanged",
+      "activated opacity is clamped in-place to [0, 0.99999] then inverse_sigmoid is applied",
+      "the creator's ellipse-area merge can serialize interior opacity values above 1 before that clamp",
+      "node metadata column 5 is set to zero",
+      "when a scaffold path is supplied, external skybox attributes/nodes are prepended and hierarchy links are offset"
+    ],
+    "GaussianModel_render_ready_views": [
+      "get_scaling applies exp",
+      "get_rotation applies torch.nn.functional.normalize",
+      "get_opacity applies sigmoid to stored opacity logits"
+    ],
+    "native_dynamic_loader": "exact raw numeric load; no activation transform",
+    "serialized": {
+      "opacity": "activated opacity",
+      "rotation": "raw, not normalized",
+      "scale": "log scale"
+    }
+  },
+  "platform_assumption": {
+    "cross_endian_supported": false,
+    "decoded_byte_order": "explicit little-endian",
+    "format_has_endianness_marker": false,
+    "label": "PINNED-ASSET PLATFORM ASSUMPTION",
+    "native_scalar_widths": {
+      "float": 32,
+      "int": 32
+    },
+    "producer_consumer_platform": "validated x86-64 Linux"
+  },
+  "provenance": {
+    "fidelity_notes": [
+      "project parser is an independent binary-format implementation",
+      "official native loader is used only by separate oracle tooling",
+      "Run005 is a correctness-patched local reproduction, not a bit-identical pinned-source reproduction"
+    ],
+    "inspector_project_commit": "b3b66353737265da138910b17a5d3ac7856086bf",
+    "inspector_project_dirty": true,
+    "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450"
+  },
+  "schema_version": "alod_dhier_inspection.v1",
+  "validation": {
+    "format_valid": true,
+    "numeric_valid": true,
+    "overall_valid": true,
+    "topology_requested": true,
+    "topology_valid": true
+  }
+}

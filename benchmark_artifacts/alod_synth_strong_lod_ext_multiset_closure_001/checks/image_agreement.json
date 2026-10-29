@@ -1,0 +1,21 @@
+{
+  "alpha": {
+    "all_bitwise_equal": true,
+    "maximum_absolute_error": 0.0,
+    "maximum_camera_mean_absolute_error": 0.0
+  },
+  "bounds": {
+    "bitwise_required": false,
+    "maximum_absolute_error_max": 0.01,
+    "mean_absolute_error_max": 1e-06
+  },
+  "camera_count": 25,
+  "campaign_id": "ALOD-SYNTH-STRONG-LOD-EXT-MULTISET-CLOSURE-001",
+  "rgb": {
+    "all_bitwise_equal": true,
+    "maximum_absolute_error": 0.0,
+    "maximum_camera_mean_absolute_error": 0.0
+  },
+  "schema_version": 1,
+  "status": "PASS-IMAGE-AGREEMENT"
+}

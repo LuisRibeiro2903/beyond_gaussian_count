@@ -1,0 +1,85 @@
+{
+  "camera_fixture": {
+    "camera_count": 16,
+    "diagnostic_evaluation_indices": [
+      6,
+      9,
+      10,
+      13,
+      15,
+      22,
+      24,
+      25,
+      32,
+      35,
+      37,
+      48,
+      50,
+      52,
+      58,
+      65
+    ],
+    "path": "/home/luis/tese/gs_framework/datasets/alod/ALOD-REPRO-MC-MIXED-01/formal_evaluation_cameras.json"
+  },
+  "classification": {
+    "bfs": "minimal source-faithful full-hierarchy reconstruction using released BFS traversal primitive and identical LoD/frustum predicates",
+    "hspt": "exact released evaluator cut path"
+  },
+  "hierarchy": {
+    "path": "/home/luis/tese/runs/alod/ALOD-REPRO-MC-MIXED-01/ALOD-FORMAL-TRAIN-009/output/ALOD-REPRO-MC-MIXED-01-FORMAL-TRAIN-009.dhier",
+    "sha256": "38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b",
+    "skybox_rows_excluded_from_cut": 100000,
+    "total_rows": 7072627
+  },
+  "identity": {
+    "all_exact_order": false,
+    "all_exact_sets": false,
+    "jaccard": {
+      "maximum": 0.3072882838264033,
+      "mean": 0.09702102555478437,
+      "median": 0.02442084022130908,
+      "minimum": 0.006147166539954935,
+      "p95": 0.2814169578058553
+    },
+    "selected_count_delta_bfs_minus_hspt": {
+      "maximum": -2379475.0,
+      "mean": -3099291.0625,
+      "median": -3322418.5,
+      "minimum": -3415241.0,
+      "p95": -2475733.0
+    }
+  },
+  "memory": {
+    "bfs_full_hierarchy_logical_gpu_metadata_bytes": 396067112,
+    "bfs_over_hspt_logical_gpu_ratio": 4.732813334674229,
+    "hspt_logical_gpu_metadata_bytes": 83685344,
+    "process_peak_rss_bytes": 2602639360,
+    "torch_allocated_after_hspt_bytes": 83698176,
+    "torch_allocated_with_bfs_bytes": 479933952,
+    "torch_reserved_after_hspt_bytes": 536870912,
+    "torch_reserved_with_bfs_bytes": 488636416
+  },
+  "official_source_clean": true,
+  "official_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+  "paper_comparability": "trend-only: local Run009 proxy, RTX 5080, and reconstructed BFS entry point differ from the paper assets/harness/GPU",
+  "status": "PASS-ALOD-REPRO-HSPT-BFS",
+  "timing": {
+    "bfs_over_hspt_ratio_of_means": 2.5429524299996698,
+    "bfs_per_camera_median_ms": {
+      "maximum": 113.72698200284503,
+      "mean": 91.54399087492493,
+      "median": 89.93303250099416,
+      "minimum": 72.67046999913873,
+      "p95": 112.8599910025514
+    },
+    "hspt_per_camera_median_ms": {
+      "maximum": 46.62210099922959,
+      "mean": 35.99909687454783,
+      "median": 34.301745996344835,
+      "minimum": 28.65723099966999,
+      "p95": 45.17816575389588
+    },
+    "repetitions_per_camera_after_one_warmup": 5,
+    "synchronization": "torch.cuda.synchronize before and after each cut"
+  }
+}

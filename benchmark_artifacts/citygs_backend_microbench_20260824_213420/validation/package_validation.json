@@ -1,0 +1,21 @@
+{
+  "attribution": "The previous high-level runtime gap cannot yet be attributed primarily to the rasterizer.",
+  "campaign_id": "citygs_backend_microbench_20260824_213420",
+  "errors": [],
+  "expected_backends": [
+    "graphdeco",
+    "gsplat"
+  ],
+  "expected_cases": [
+    "finest_flat",
+    "representative_lod"
+  ],
+  "image_sanity_gate": true,
+  "input_hash_parity": true,
+  "max_across_process_gpu_time_cv": 0.027425980705106972,
+  "measured_samples_per_repetition": 100,
+  "outcome_classification": "B \u2014 the direct gap is materially smaller than the prior flat runtime gap",
+  "repetitions_per_backend_case": 3,
+  "status": "pass",
+  "validated_measured_samples": 1200
+}

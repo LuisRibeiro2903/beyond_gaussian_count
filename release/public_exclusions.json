@@ -1,0 +1,1927 @@
+{
+  "files": [
+    {
+      "path": "gs_framework/datasets/alod/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01/evaluation-cameras.json",
+      "fields": [
+        "cameras.[].camera_center",
+        "cameras.[].qvec_world_to_camera",
+        "cameras.[].rotation_world_to_camera",
+        "cameras.[].tvec_world_to_camera"
+      ],
+      "sha256": "96e363f578e09d9861473fa6587509ae3f858ef1c60dda0d3e4e63372d5b5aa9",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "gs_framework/datasets/alod/ALOD-PREV-US3D-SCIART-01/evaluation-cameras.json",
+      "fields": [
+        "cameras.[].camera_center",
+        "cameras.[].qvec_world_to_camera",
+        "cameras.[].rotation_world_to_camera",
+        "cameras.[].tvec_world_to_camera"
+      ],
+      "sha256": "b43b3d018a926497e73e0634775bcad7835a54cc0a4ea3e4b18fb790da509def",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0009-img-000003-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9d121c7f15ccb58354b95e02050144ec8a079d0f312bf111e5c7ed3d75759bda",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0009-img-000003-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8f274a9a071aa0cf4de6babeeadf3041247d8cc25e071e53c406dbbe149d9ba6",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0010-img-000004-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "8f6a52b689b3ac3ef415f3bf437648328db5a4bafd31e2bca989e7cfc57225f8",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0010-img-000004-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "3a8e7701c8d07d05e6eeb1e53b94610d0abfed5c28b374aad5d6efe659be8034",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0000-img-000001-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c1b22fd8163bcc7743a00eb87c75cb077bff26b3528f639cd7de181504bd5ca7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0000-img-000001-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "5d536a54664cb3d69478a43f5ffc4e23186c9f43cd298b85b537e985453c6c6c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0011-img-000012-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f6f73b9aff04ad61b34d8f03da1d8acb918a9e12c55c858853199de4fac93145",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0011-img-000012-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "37a8656a83e690f4e4b94fd27458119a83771ee5ef19d888808de4955b1b38b1",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0019-img-000020-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "69847931707697a7054598325303c9507f9339c4f194037ca1343d8f3523206e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0019-img-000020-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "1336c60fdd0e50527bb0a811f72ac73371a1def269d41e71313930681c3a9a83",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0006-img-000008-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "e512d5b0476041b0886a9587aed4f15c59bb268d8e8b642a8f0e11c975962352",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0006-img-000008-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "3429609e9a8aa72ab108b1e759a4b8cd188ece55af63b45e10c6d22d15dcc52c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0012-img-000013-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "40d917e9217468dfdd358e6a4c7c69cb96b44fe47cd70f480d407b5a22ba9209",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0012-img-000013-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "c6c8399ca6c31be3b51f8d2d5b4bbbf6cc620017cfccdca57431955d1bfa7b63",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0007-img-000011-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "4f5d86941a6eed514dd07975fabc3422c32c6f316aec05afe13c5e9d0648d7d2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0007-img-000011-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "4adf4bb0a8982cd80d00b4eee6d0ced1d962f1b780c8d5b09fcfa9770deeccca",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0020-img-000021-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "914931bdecd1d78623c47705e592ef4be65ce039d2da12c53e9b52970fde5e0c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0020-img-000021-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "02d15a9ae2bf77b5fe1c8b6a4756faafa2a388ebdd4ddda591581b794e73bfc0",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0004-img-000009-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9d9b8e4e498a2ebf8bd14e2c26adaee4d0048f236f9e8a4072cf60dd286c6183",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0004-img-000009-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "e4f065d5750438d99d5791ac58d8aa57d14e2db47a5be14a053d89c7f564d0c1",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0014-img-000015-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "e3ebdd8ddf3fb6c99b16133b23737fabc08a994176b9b9d609c6ff9e22588084",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0014-img-000015-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "407d21c4efac82d77ff847ef204ed15c74b7224f10226eac1aee7fa337be1f3b",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0002-img-000006-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a7623df49ead1dc93c58ea8be56704bc688cdfc718ad9b39dd2862681ffd3e22",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0002-img-000006-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b465498aa8a2e93c22cacf29d2adb67307bd9eaa81ae5396d9fabf006e21a9ae",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0016-img-000018-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7845558ee67cbc539011b526b75c3f0dcef117ee017de8e5f869a19862020cc2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0016-img-000018-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "cdcd091e8a3440797025534a85a20a3418650bd916470d4be5e2af45ced38994",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0018-img-000017-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "17e67aaea5394c49452ddd009f1899341dcc3dde70cf1c93bfde44c50fb1e622",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0018-img-000017-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9a5dd2d9d0886ad0b16ca85cb8024a763338b6ee554fc3a214f8f9482dfbdeae",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0013-img-000014-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "2243b73e356a4b8179a53be9ed32d4768d05fd31f1512233d171f8cb39f8da8a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0013-img-000014-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "66e1c5334235227fd81a352c036cb5d4e6da94d5285c938ba671ad110a65898f",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0015-img-000016-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c2c2cf24e0ddd4eec0cd914658a44a1d537fe7792ed7bfd6c49920b59f73cc70",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0015-img-000016-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "ee279de829712881971eb63d1ebc028b2a28be212581dcec434811146e7ba6ec",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0001-img-000010-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "d3c71db5fbf6ae70a983778ed67bda9ab3c338ff9238bc6ac61436d224cb9f18",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0001-img-000010-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "a14402f6819c348bff0e8f1aa65a182a83e85a1f4e575e2e947f843f1b6c12a2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0008-img-000002-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "4f9633ec715f7a421c0ffb9dddb6f74f2b67c5966b7f0bb43c7795f977936975",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0008-img-000002-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8bd4fccc22a88e821303007e087979fc1df30bfc8d329564fddd317fcd7c8a45",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0017-img-000019-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f5e5051fc2fad6ba3b63bd01d9c67b72ded812aa4d891badc0db6cd8ce8f9597",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0017-img-000019-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "e43b37c908ec7d05c668f1cd9c862de4cb6992bfb0ebf273c8ef7194ac70905f",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0005-img-000005-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ecf5de1a447ac042da23e24d89209f693f70dc813e31570385419a3979e3b468",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0005-img-000005-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b295357882f0c2b1f5bbdc8dbea300f193400ed7ea15bddf77684d178320f109",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0003-img-000007-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "35e81843208ac0245e0c5db90f49b57e3205ae1523a0ecd6f960ef92d68a6923",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/attempts/eval-0003-img-000007-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "823b26e3566c0d74a4ab32bb06d1a30ae1c7969077a37ee7abbfbf40043be49b",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0009-img-000003-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9d121c7f15ccb58354b95e02050144ec8a079d0f312bf111e5c7ed3d75759bda",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0009-img-000003-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "1d177f1cb69fa57aa2a389b54d3f4df1589eee7ca6061869197c43d3fba8dfd2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0010-img-000004-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "8f6a52b689b3ac3ef415f3bf437648328db5a4bafd31e2bca989e7cfc57225f8",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0010-img-000004-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "3332835da3560211273ba935dc2fcc223a62cdbd0aff0318aeea01c7ee40c18b",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0000-img-000001-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c1b22fd8163bcc7743a00eb87c75cb077bff26b3528f639cd7de181504bd5ca7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0000-img-000001-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "29be4ae87bbf87e5c692afff8b6796ec22d685d19b454b7b447c52b276e7670a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0011-img-000012-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f6f73b9aff04ad61b34d8f03da1d8acb918a9e12c55c858853199de4fac93145",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0011-img-000012-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "7cac1b62ed1a911942ec94a50d320474a0f72db16860609fdd0e1e26d06de165",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0019-img-000020-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "69847931707697a7054598325303c9507f9339c4f194037ca1343d8f3523206e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0019-img-000020-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9c9bd4193d5a74e30c54a83f21ccbc30cc9e802a008fe99fadebc585dd395c03",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0006-img-000008-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "e512d5b0476041b0886a9587aed4f15c59bb268d8e8b642a8f0e11c975962352",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0006-img-000008-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "f056ce3083537353ec87d728681681eda237ceab44ec3e27773e78ab74cd7e33",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0012-img-000013-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "40d917e9217468dfdd358e6a4c7c69cb96b44fe47cd70f480d407b5a22ba9209",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0012-img-000013-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "7fa2b3fd1b54c29a423feddbeb321d5acd0978403cabb233d1619a169b8f14d9",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0007-img-000011-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "4f5d86941a6eed514dd07975fabc3422c32c6f316aec05afe13c5e9d0648d7d2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0007-img-000011-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "42549b573e7d51cfb795e2d234715642da6a3c34c2660b02df872f8774bf771e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0020-img-000021-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "914931bdecd1d78623c47705e592ef4be65ce039d2da12c53e9b52970fde5e0c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0020-img-000021-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b26fbdb59eb83b665bd06bc509d827adf33d652c68c1323741b3971fba04f5eb",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0004-img-000009-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9d9b8e4e498a2ebf8bd14e2c26adaee4d0048f236f9e8a4072cf60dd286c6183",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0004-img-000009-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "965146a532d2dcb3067a5e506084e19716667a613ffaa77e905208c550cbf241",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0014-img-000015-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "e3ebdd8ddf3fb6c99b16133b23737fabc08a994176b9b9d609c6ff9e22588084",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0014-img-000015-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "31cb7d13c4145dd300ca8fa0bfcddc89d248a4f19c378006a2173a5f7bd1758f",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0002-img-000006-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a7623df49ead1dc93c58ea8be56704bc688cdfc718ad9b39dd2862681ffd3e22",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0002-img-000006-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b4bc00a6a044ada1f66ec159bf5492b4f425ba8a7b7d2fe48e1055317ea02b62",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0016-img-000018-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7845558ee67cbc539011b526b75c3f0dcef117ee017de8e5f869a19862020cc2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0016-img-000018-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "1b74ad2c8268c3f394078e8b047b9f39f38461f5fdfbdda4a15ae1494fede1a2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0018-img-000017-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "17e67aaea5394c49452ddd009f1899341dcc3dde70cf1c93bfde44c50fb1e622",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0018-img-000017-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "bf746ed2d1410cb516760fe978ef0c69c8168c03501835e44df982f955542501",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0013-img-000014-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "2243b73e356a4b8179a53be9ed32d4768d05fd31f1512233d171f8cb39f8da8a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0013-img-000014-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "19426134c39738178f59b28e2c553b72321b10e50d29bd74b7dbca25fa8278e5",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0015-img-000016-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c2c2cf24e0ddd4eec0cd914658a44a1d537fe7792ed7bfd6c49920b59f73cc70",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0015-img-000016-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "5f2cff0569c357091dca7cf3952474717923711c1b290b6ad85a7aee6d32ec22",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0001-img-000010-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "d3c71db5fbf6ae70a983778ed67bda9ab3c338ff9238bc6ac61436d224cb9f18",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0001-img-000010-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "27409749ee2f6cfca77fd23eba096e3a79d87b36e9e78f56cf2d818b38e68216",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0008-img-000002-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "4f9633ec715f7a421c0ffb9dddb6f74f2b67c5966b7f0bb43c7795f977936975",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0008-img-000002-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "cbee2d6b05b5dbc89bd67b0290241c7e61c2faffb005053cf823d13101029da9",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0017-img-000019-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f5e5051fc2fad6ba3b63bd01d9c67b72ded812aa4d891badc0db6cd8ce8f9597",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0017-img-000019-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "49f5fbdd44a818b9ea358cbb0b7b13ec39bbf3453c4b9925595bc102238da34e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0005-img-000005-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ecf5de1a447ac042da23e24d89209f693f70dc813e31570385419a3979e3b468",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0005-img-000005-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9d7e56d4759560a0ac44e7b2165cf5ef1228863a0118d35e526a229a0eb313ca",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0003-img-000007-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "35e81843208ac0245e0c5db90f49b57e3205ae1523a0ecd6f960ef92d68a6923",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-US3D-SCIART-01-ORACLE-001/cameras/eval-0003-img-000007-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "6ebdf8e31c4353fb47baf459a0f5592dbc89f80f7985613e1c4466cb4e799cc3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0011-img-012919-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "3a4c33b4f7d1db449e33944bf58f0b09ba1c65abc75317ef5268f1fb62c1ecd3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0011-img-012919-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "303d1d9f9e25cdab39bd1f99e06224dcfc9e4d57903d4daea86827d2c9f2765c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0008-img-008670-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c555059beab38f7c6ae457672f32456e36b57e5fab6fce7dafa147f70213ccdf",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0008-img-008670-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "e81a2e685da8f2510bc935a075ee06b549583416d5ca09e600a8a0fd389b7474",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0007-img-007826-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ca4f8f3ad07602b97fb404464c59bc3371efced045b0b79c1aedb0b02393f2ac",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0007-img-007826-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "e9a3a3bd4141d26d238f116521d7566a0211a6b8950bb8aa62a127d45a361ede",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0006-img-007489-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "bdc45df386198fb7e0ca1613fba7b9efb02c28da210cecc2406d334adb737097",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0006-img-007489-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "79ae03f633e5c7fb659db74d8bdff6b263637545131f7a65d8666d43892047a0",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0003-img-002529-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "929b6e849f2080c7a6ace8fd9e69ec3f845df8086443d784756d82e1a673e453",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0003-img-002529-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "e113e78ad53edc444db180f94ae9c7968d1c17cfc4230437824b061ee9d68d99",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0014-img-018146-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ca145d1f1f3c0caa0d7c7b4e22002c93c90eeddaf174694c60ebfd0358823781",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0014-img-018146-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "c1f512ed64dbd187c6ac17b2b71ee516cd1edafdfb8415256610207a25a30020",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0019-img-023507-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "2fb34cb18176fab5c75a24222cc83ecee2c782f39bb5930ec8673e9d876ec6a0",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0019-img-023507-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "2907877fcb3fabcd0dd8b15551c592118f28ba2c19c574b7d1ff3c11014a0165",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0002-img-002211-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "971b5cdc9fffdb2868dfcc185a6b027b6c30dec9b3cd5be749eec79e4e67c5c2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0002-img-002211-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "86a6f97d13f030b8c87b3e607416c688724a28406a40602edc6f74f5fb58a33c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0012-img-013209-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a56f652b1927a433ec9836ac6c726950ca00558e5e24d173ad6fabe67ced5ed4",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0012-img-013209-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "ed38670ea18fb6b33c19b1bc6c4cbce9a49baa83d7fb122e4022f344f24c0be4",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0021-img-023863-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9e9cc493db18ee993107b9494857df0698b5935138f80ecff6a61c50159b18ef",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0021-img-023863-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "16ec579be728c4a8f7f32bb21c1d11999dd95f03f822cb7992a19095af54fc2e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0017-img-019381-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "d0f1921de7d92164a04cb767bf2c96bc563689265588a7f503896dc6721388ec",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0017-img-019381-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9f73e29a82e5651ccada999f7aac8d8cb24b31b605412a74225bccc24f7536e3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0004-img-003364-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7845ad5d158c836cabf010a4232d25ce289ba82ef94a047c6d491cfe3437063d",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0004-img-003364-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9710c76c8a9c8405beed2b26593dbb79300d40668696f0d01cd74cd215f7f476",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0001-img-002148-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "1e94331561ef94f5c756b1a4e9479e2af53eb3b5e44a65b66ee55fa4b6ec6dc1",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0001-img-002148-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "72f5bdd54b9dcb18985600c3fc432bd71ba5bdc13801f4f122e507440c849fc7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0005-img-007320-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b05fd149de6528cc9b791985a1ff07126fe6ffd6ee9e434cba5b21b1817c4981",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0005-img-007320-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "dfae6cac0b42a33809a694f0e73b3506e69ee677d29c648e23a31f8a430f75a7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0023-img-024753-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "06ddbaa456bf7147959d234f9882858f61ec74d7a79b91a1ef007aea7848ec2d",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0023-img-024753-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "be6fc64e48d50cac60c71c7cf6184cfdae02acb3bcffb0bba087c854a9172693",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0020-img-023567-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7e731b571eca34d48a67e6ec8a9f428222bc598c7932fae9b8049370f6891377",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0020-img-023567-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "4e37451a842eb19259e01047105190b9a07119aef734ed34c137b6ff23315ce6",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0000-img-002008-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c1b257e759e3affffccf7705b6f32be0ed04de9eca695987389e240084b7678b",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0000-img-002008-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "4224c87becdc394aadfa9bf6b13b31664ccb39cba82febe8ebe8149b4cfe3d99",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0022-img-024693-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a2e9deed266d068bf89714e917cc73d056a29bc73ecac62f065dbd8d66b7aaed",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0022-img-024693-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8ac3ce34726f16cae52f12b2555a85aae05fbc96674757415c6249d12004556a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0016-img-018515-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f1c926954fc03a2e768c08db98af7a7dd6fb6b4878c82ac7275497faaaa58c7c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0016-img-018515-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8027eb98c73b4e792e805f59cb5a497c5fd5f68608f31e3efa1215dd03e733b4",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0013-img-014063-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b3eff1e47c927bb8e6673107bd03c021c74e4d2868679c10bb249828850ddf01",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0013-img-014063-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "732f7e95e1418ce3971fb111a00a468e98ad87a27e1e9bb305b3b4532a129eee",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0009-img-008740-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "197eb0ebbd675d0a683eca6944843c44972b1f7491fb690980b3ec83d2370b97",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0009-img-008740-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "06f244d7af5587e32b648c55e2b9db6956bf37723b6d39873be016a041ae6ec7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0010-img-012859-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b6d842a996703e116192150be6613c140ae1325ce09b388db3a4bc0ddc0234ec",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0010-img-012859-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "74f84e4c52a5c9ec59705fb1344a3a75d0ebf63c2accbb0651d6758699eac52e",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0015-img-018210-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "8434945eb429e7ab4de29c850725b34a0edf3cbaa426bff52cc2a18aa5cd17ab",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0015-img-018210-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9adbff268ded053cee677ea4309d052107f11a754bd652ea4099a137f1f13b52",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0018-img-023361-cam-0001/cold-02/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c782b682959f07fa0c466a726d6faeb715992ad329087abacac810e2f20e1f21",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/attempts/eval-0018-img-023361-cam-0001/cold-02/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "da2a7d7f9a1ed8d932ef8f354d99989e0e255b36feb89b1670f6eecdb1231338",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0011-img-012919-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "3a4c33b4f7d1db449e33944bf58f0b09ba1c65abc75317ef5268f1fb62c1ecd3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0011-img-012919-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "9b97fdbb7839f2b61781ede25470ddcf6f9d891c68abcba0794d0d83642a7020",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0008-img-008670-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c555059beab38f7c6ae457672f32456e36b57e5fab6fce7dafa147f70213ccdf",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0008-img-008670-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "404ac93536f18975d3b3129bc97332057c52cee9e1166fc16eb001e118a292e5",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0007-img-007826-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ca4f8f3ad07602b97fb404464c59bc3371efced045b0b79c1aedb0b02393f2ac",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0007-img-007826-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "6bd01032bf440bd1c3b0f100bd9d18fba7bed1cb4aa45d646f193782991fcbbe",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0006-img-007489-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "bdc45df386198fb7e0ca1613fba7b9efb02c28da210cecc2406d334adb737097",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0006-img-007489-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "0152b6542b0ad890231a96e3b0204fbb93656a9dfa4bbaf443db6fc483ea4507",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0003-img-002529-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "929b6e849f2080c7a6ace8fd9e69ec3f845df8086443d784756d82e1a673e453",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0003-img-002529-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8482442a75d479d22e9bb851d140b103589ca3e754351d33eb2160857672fd50",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0014-img-018146-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "ca145d1f1f3c0caa0d7c7b4e22002c93c90eeddaf174694c60ebfd0358823781",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0014-img-018146-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b5ab3a395316a113947f8306e6ee990afc0df71e5d016bbe42da8df277ac5cb6",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0019-img-023507-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "2fb34cb18176fab5c75a24222cc83ecee2c782f39bb5930ec8673e9d876ec6a0",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0019-img-023507-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "d7b754399d31331b8c1a41e541bb175603d4ec4eb28c84db101a8be828270bd7",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0002-img-002211-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "971b5cdc9fffdb2868dfcc185a6b027b6c30dec9b3cd5be749eec79e4e67c5c2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0002-img-002211-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "6b1117a227b6fb66bc6579a782441966e2b4f4c60129f140f996fe5fcd8f4bda",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0012-img-013209-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a56f652b1927a433ec9836ac6c726950ca00558e5e24d173ad6fabe67ced5ed4",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0012-img-013209-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "8bbbab55d5a208f2148b8d819e701b23bd64a9fe47f1c474d5f46399f796f018",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0021-img-023863-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "9e9cc493db18ee993107b9494857df0698b5935138f80ecff6a61c50159b18ef",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0021-img-023863-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "99f958415456cd0e44f4151b877ce7f3a5b40e96ff5eea180ac27e309163aba5",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0017-img-019381-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "d0f1921de7d92164a04cb767bf2c96bc563689265588a7f503896dc6721388ec",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0017-img-019381-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "d6303136e58b62eea8f04097361af3a60f0bcea0e87efc0be0882e5f8d79dcd6",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0004-img-003364-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7845ad5d158c836cabf010a4232d25ce289ba82ef94a047c6d491cfe3437063d",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0004-img-003364-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "61d4e6269cf6193e9d363623034d808d41591c20fcd8a61fc935d8e88e9c8525",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0001-img-002148-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "1e94331561ef94f5c756b1a4e9479e2af53eb3b5e44a65b66ee55fa4b6ec6dc1",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0001-img-002148-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "516da7b3eb4f95cd54ab23e2e0e390437d7ca36fe8223a0d9112bfba2ea907f3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0005-img-007320-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b05fd149de6528cc9b791985a1ff07126fe6ffd6ee9e434cba5b21b1817c4981",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0005-img-007320-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "ea90291b4ae35a3616b8c6ed9d0465c93a09939c8d384abc1fd1d0f4bbc317bb",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0023-img-024753-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "06ddbaa456bf7147959d234f9882858f61ec74d7a79b91a1ef007aea7848ec2d",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0023-img-024753-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "51d6fb686a18cc3ac03b63482ee430bcb92c0ac63f526125ed68670fb16d92c6",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0020-img-023567-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "7e731b571eca34d48a67e6ec8a9f428222bc598c7932fae9b8049370f6891377",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0020-img-023567-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "6f077c10a25d3ebc7232646601c2cc54349871887aa544dfb009d6f1ccde6ec3",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0000-img-002008-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c1b257e759e3affffccf7705b6f32be0ed04de9eca695987389e240084b7678b",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0000-img-002008-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "06a41d3591f114002963888c77456324f3f87bf0e8f2a74307fccacbab267399",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0022-img-024693-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "a2e9deed266d068bf89714e917cc73d056a29bc73ecac62f065dbd8d66b7aaed",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0022-img-024693-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "5970272a1852e5854b261b2ef2f1f02c09f4477b1d5b5cee03db850b6f653e19",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0016-img-018515-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "f1c926954fc03a2e768c08db98af7a7dd6fb6b4878c82ac7275497faaaa58c7c",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0016-img-018515-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "f58d7cd3c9f47c5ebda5ca379a28c2e929bca9fcba8a9fa952e5cc7f479dc8b1",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0013-img-014063-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b3eff1e47c927bb8e6673107bd03c021c74e4d2868679c10bb249828850ddf01",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0013-img-014063-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "285de8866ba94d68f46c2db210d93c7d2859dfca1001197872732ced5a54774a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0009-img-008740-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "197eb0ebbd675d0a683eca6944843c44972b1f7491fb690980b3ec83d2370b97",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0009-img-008740-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "b18a4c70251b6c2f1355a80725b295a7ac321f05cdcf6501ef9b1b8dad274c45",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0010-img-012859-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "b6d842a996703e116192150be6613c140ae1325ce09b388db3a4bc0ddc0234ec",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0010-img-012859-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "90915fe0ffc2a536aec19e8d7bebd21f80145248281ae9d9cd0afc4797dcd09a",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0015-img-018210-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "8434945eb429e7ab4de29c850725b34a0edf3cbaa426bff52cc2a18aa5cd17ab",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0015-img-018210-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "75f18be354e4f4eef92728546f461e7bf5714f8be9212423c4f89fcc1389eaf2",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0018-img-023361-cam-0001/camera.json",
+      "fields": [
+        "effective_official_runtime_camera.full_projection_transform",
+        "effective_official_runtime_camera.world_view_transform",
+        "frozen_dataset_camera.camera_center",
+        "frozen_dataset_camera.qvec_world_to_camera",
+        "frozen_dataset_camera.rotation_world_to_camera",
+        "frozen_dataset_camera.tvec_world_to_camera"
+      ],
+      "sha256": "c782b682959f07fa0c466a726d6faeb715992ad329087abacac810e2f20e1f21",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/oracles/ALOD-PREV-H3DGS-CAMPUS-CHUNK-01-ORACLE-001/cameras/eval-0018-img-023361-cam-0001/upper-traversal.json",
+      "fields": [
+        "lod.camera_center"
+      ],
+      "sha256": "55f2b2a7636196af6f352cb45d61b2e60e1be55f72e9825235bf7bdbc19b6556",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    },
+    {
+      "path": "runs/alod/ALOD-PREV-US3D-SCIART-01/ALOD-PREV-US3D-SCIART-01-TRAIN-001/evaluation-cameras.json",
+      "fields": [
+        "cameras.[].camera_center",
+        "cameras.[].qvec_world_to_camera",
+        "cameras.[].rotation_world_to_camera",
+        "cameras.[].tvec_world_to_camera"
+      ],
+      "sha256": "b43b3d018a926497e73e0634775bcad7835a54cc0a4ea3e4b18fb790da509def",
+      "reason": "Campus/Sci-Art source camera calibration or pose payload; redistribution permission not established; regenerate locally from original data."
+    }
+  ]
+}

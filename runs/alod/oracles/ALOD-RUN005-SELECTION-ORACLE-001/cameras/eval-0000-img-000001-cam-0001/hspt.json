@@ -1,0 +1,246 @@
+{
+  "arrays": {
+    "spt_max": {
+      "byte_count": 3994852,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 998713,
+      "finite_count": 998713,
+      "max": 999999995904.0,
+      "min": 2.719041585922241,
+      "payload_file_sha256": "32f3c84a91f7fac4444f6de771e82b53f8eaacd1a121e484aec70327fdf27024",
+      "payload_path": "payloads/hspt/spt_max.npy",
+      "raw_cpu_c_order_sha256": "c81aceed7821cfcd2ccc7bd99b5ad074bf4a1d19c72a8946aeae0ff2d7548a45",
+      "shape": [
+        998713
+      ]
+    },
+    "spt_min": {
+      "byte_count": 3994852,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 998713,
+      "finite_count": 998713,
+      "max": 10691.6748046875,
+      "min": -1000000000.0,
+      "payload_file_sha256": "746d8db9dddd0b1206a2e52237bcf581621ca7722acaa7965359435a875131fd",
+      "payload_path": "payloads/hspt/spt_min.npy",
+      "raw_cpu_c_order_sha256": "8842d3e96b9181ba8837c430474e8db27036b0d4172db4b59b45e04ad6fce9f8",
+      "shape": [
+        998713
+      ]
+    },
+    "spt_root_global_node_ids": {
+      "byte_count": 184,
+      "device_during_official_execution": null,
+      "dtype": "int64",
+      "element_count": 23,
+      "finite_count": null,
+      "max": 765430.0,
+      "min": 100444.0,
+      "payload_file_sha256": "919ba4fc72072c07938462f3f1a77140c1f2fdf22cf7394cf7b13deed25ad0a3",
+      "payload_path": "payloads/hspt/spt_root_global_node_ids.npy",
+      "raw_cpu_c_order_sha256": "0193ccb725fef4de20b6a8e5ce567ff6ac468fb3f914f2464e13643e1e4544e6",
+      "shape": [
+        23
+      ]
+    },
+    "spt_sizes": {
+      "byte_count": 92,
+      "device_during_official_execution": null,
+      "dtype": "int32",
+      "element_count": 23,
+      "finite_count": null,
+      "max": 249619.0,
+      "min": 111.0,
+      "payload_file_sha256": "684beacf2adb39a437777c1de5bbc55b6c54b79b47c73d08b61f564292cf211d",
+      "payload_path": "payloads/hspt/spt_sizes.npy",
+      "raw_cpu_c_order_sha256": "24654d14e688394445339cc29fddb0bb8ffcd4beed369672245e54488856f08b",
+      "shape": [
+        23
+      ]
+    },
+    "spt_starts": {
+      "byte_count": 96,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 24,
+      "finite_count": null,
+      "max": 998713.0,
+      "min": 0.0,
+      "payload_file_sha256": "1c9060f3bb9b7f52f8a7a8dde57003f9aeff7d7125aa09b0dca3e59723608e5b",
+      "payload_path": "payloads/hspt/spt_starts.npy",
+      "raw_cpu_c_order_sha256": "c0da2eed26d2c09c4b07c3979e4e9831b54829d7103b941009e7af6d826cd338",
+      "shape": [
+        24
+      ]
+    },
+    "spt_to_global_node_id": {
+      "byte_count": 3994852,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 998713,
+      "finite_count": null,
+      "max": 1099998.0,
+      "min": 100444.0,
+      "payload_file_sha256": "e236fc9965b3363561bacfcee5f6d857065cc20b69c85a6e62adc09f25ac298a",
+      "payload_path": "payloads/hspt/spt_to_global_node_id.npy",
+      "raw_cpu_c_order_sha256": "7de0b5581154b03a24e75331db9fa035ecf56e5ceaa18568f45a5c8f58e54c6e",
+      "shape": [
+        998713
+      ]
+    },
+    "upper_min_distance_squared": {
+      "byte_count": 5236,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 1309,
+      "finite_count": 1309,
+      "max": 999999995904.0,
+      "min": 222390.90625,
+      "payload_file_sha256": "9399307bfe7d71259ce2e73b54c4add653919909b1c621ae6857e4ba934be155",
+      "payload_path": "payloads/hspt/upper_min_distance_squared.npy",
+      "raw_cpu_c_order_sha256": "9fba6f3a071004749bb502b9c22fca3d1e52a5487438132cef237eed3c5d78ab",
+      "shape": [
+        1309
+      ]
+    },
+    "upper_to_global_node_id": {
+      "byte_count": 5236,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 1309,
+      "finite_count": null,
+      "max": 1043270.0,
+      "min": 100000.0,
+      "payload_file_sha256": "9948bc85aee3b405fd23833dd7cdb0613f347418ef89deae87aed78e11bf387a",
+      "payload_path": "payloads/hspt/upper_to_global_node_id.npy",
+      "raw_cpu_c_order_sha256": "5f364afaaffc7054dab7214bd9ad019b52d80a8e5229ce782cc8255f5f15f1a2",
+      "shape": [
+        1309
+      ]
+    },
+    "upper_tree_log_scaling": {
+      "byte_count": 15708,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 3927,
+      "finite_count": 3927,
+      "max": 4.362783432006836,
+      "min": -2.70550274848938,
+      "payload_file_sha256": "6db91119d859728d7ffd0d4432a4db0ec32e8bfaa7c1a35df104a76bf7a6a762",
+      "payload_path": "payloads/hspt/upper_tree_log_scaling.npy",
+      "raw_cpu_c_order_sha256": "7632b5be2b91bf7fa348e0b47571402040c1e50517aac01dbc0d27638bd89c46",
+      "shape": [
+        1309,
+        3
+      ]
+    },
+    "upper_tree_nodes": {
+      "byte_count": 31416,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "int32",
+      "element_count": 7854,
+      "finite_count": null,
+      "max": 1043270.0,
+      "min": -1.0,
+      "payload_file_sha256": "90c3908b6f446df85a245b258d07a707254d404a0c478891479f67e73193bc21",
+      "payload_path": "payloads/hspt/upper_tree_nodes.npy",
+      "raw_cpu_c_order_sha256": "6a8b82043cb012ea148c75f6c5f55ff2594b61f4a5b54a615e19f65bed6292e0",
+      "shape": [
+        1309,
+        6
+      ]
+    },
+    "upper_tree_xyz": {
+      "byte_count": 15708,
+      "device_during_official_execution": "cuda:0",
+      "dtype": "float32",
+      "element_count": 3927,
+      "finite_count": 3927,
+      "max": 169.29473876953125,
+      "min": -305.63848876953125,
+      "payload_file_sha256": "1cd7df5061be6ed3dbcc7d04096beaab0bfdf6cb87d3f3aa380e88668eeabb5d",
+      "payload_path": "payloads/hspt/upper_tree_xyz.npy",
+      "raw_cpu_c_order_sha256": "e8f7db072b14c5454aa273b8a91784e513961ec5cc60cae9e798e0a4d490f53b",
+      "shape": [
+        1309,
+        3
+      ]
+    }
+  },
+  "configuration": {
+    "SPT_root_volume": 150.0,
+    "base_focal_length_original_colmap_pixels": 2317.6449482429634,
+    "conceptual_target_granularity_pixels": 2.0,
+    "min_SPT_size_effective_evaluation_default": 100,
+    "min_SPT_size_training_not_used": 256,
+    "resolved_target_granularity": 0.0008629449482830516,
+    "use_bounding_spheres": false
+  },
+  "counts": {
+    "flattened_spt_metadata_rows": 998713,
+    "maximum_spt_size": 249619,
+    "minimum_spt_size": 111,
+    "spt_count": 23,
+    "total_hspt_metadata_rows": 1000022,
+    "upper_hierarchy_rows": 1309
+  },
+  "global_node_id_contract": "serialized .dhier row index",
+  "mappings": {
+    "spt_id": "interval index into SPT_starts",
+    "spt_local_to_global": "SPT_gaussian_indices[SPT_starts[spt_id] + local_index]",
+    "spt_roots": "SPT_gaussian_indices[SPT_starts[:-1]]",
+    "upper_local_id": "row index into upper_tree_nodes",
+    "upper_local_to_global": "upper_tree_nodes[:, 5]"
+  },
+  "schema_version": "alod_selection_oracle_hspt.v1",
+  "spt_size_histogram": {
+    "111": 1,
+    "113": 1,
+    "115": 1,
+    "117": 1,
+    "123": 1,
+    "124477": 1,
+    "124969": 1,
+    "1517": 1,
+    "16203": 1,
+    "16309": 1,
+    "1721": 1,
+    "248047": 1,
+    "249619": 1,
+    "32427": 1,
+    "32591": 1,
+    "3645": 1,
+    "3703": 1,
+    "62773": 1,
+    "62875": 1,
+    "7739": 1,
+    "7829": 1,
+    "829": 1,
+    "861": 1
+  },
+  "upper_hierarchy_depth_distribution": {
+    "0": 1,
+    "1": 2,
+    "10": 4,
+    "11": 4,
+    "12": 8,
+    "13": 16,
+    "14": 22,
+    "15": 44,
+    "16": 88,
+    "17": 176,
+    "18": 352,
+    "19": 496,
+    "2": 4,
+    "20": 64,
+    "3": 4,
+    "4": 4,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 4,
+    "9": 4
+  }
+}

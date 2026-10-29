@@ -1,0 +1,239 @@
+{
+  "fidelity_classification": "correctness patch required for structurally valid local reproduction; not bit-identical pinned-source reproduction",
+  "final_hierarchy": {
+    "all_attributes_finite": true,
+    "bytes": 127599896,
+    "independent_checked_edges": 999998,
+    "independent_mismatch_counts": {},
+    "independent_valid": true,
+    "path": "/home/luis/tese/runs/alod/ALOD-ORACLE-MC-AERIAL-TEST-01/ALOD-SMOKE-TRAIN-005/output/final.dhier",
+    "reachable_non_skybox_nodes": 999999,
+    "rows": 1099999,
+    "sh_degree": 1,
+    "sha256": "6c37ee8eb88b3b126ec8a6bf35e5bb754a2d1983cd53d3b9b6b39358cc6c923c"
+  },
+  "official_failure_evidence": {
+    "deep_descendant_case": "C_deep_interior_sibling",
+    "depth_mismatches": 4355,
+    "minimal_capacity_case": "A2_leaf_sibling_real_capacity",
+    "official_synthetic_failing_cases": [
+      "A_leaf_sibling",
+      "A2_leaf_sibling_real_capacity",
+      "C_deep_interior_sibling",
+      "D_multiple_independent",
+      "E_interacting_ancestor_descendant",
+      "F_respawn_target"
+    ],
+    "parent_mismatch_node": 1099901,
+    "parent_mismatches": 1,
+    "run004_status": "FAILED-ALOD-FINAL-BARRIER"
+  },
+  "patch": {
+    "algorithm_patch_sha256": "a7412fff7315153774c93b504105804c2a182308807a2c6ec8de34672b9cd7d6",
+    "algorithm_source_files_changed": [
+      "scene/gaussian_model.py"
+    ],
+    "instrumentation_patch_sha256": "98fa8f6c6d0cdde9a96d03ad04b1485efd8576c9e841a921b5a4661da3ef79d7",
+    "instrumentation_source_files_changed": [
+      "train_hierarchy.py"
+    ],
+    "name": "ALOD-RELOCATE-TOPOLOGY-FIX",
+    "official_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "strategy": "bounded forward traversal from affected parent and respawn roots reconstructs only reciprocal parent and stored depth metadata; no global repair in the algorithm"
+  },
+  "principal_status": "PASS-ALOD-FIRST-DHIER",
+  "protected_state": {
+    "alod_official_history_sha256": "1bbcac8c21a82f9891d22e8293ec4787e4e68c5cb399a066cf6ecbb02fc977bd",
+    "canonical_source_commit": "73f547341547ae021ff036ad74fdf73a1240b450",
+    "content_manifest_fingerprint_algorithm": "sha256(canonical JSON of relative path, kind, byte length, file sha256 or symlink target)",
+    "nerfstudio2_history_sha256": "02a7a389b7f8b0622bceb935f69173b1b8861bb08e97211fc0700e5387be76d4",
+    "prior_run004_audit_fingerprint_reference": "52e324356d7ab9351d9300cdaf6839d9533549e5981da6895cb78f7a570c048f",
+    "run004_fingerprint_after": "01656f76544110efdda28d43ffc0c45006dbfa2da3ae5db2852246b656578d7f",
+    "run004_fingerprint_before": "01656f76544110efdda28d43ffc0c45006dbfa2da3ae5db2852246b656578d7f",
+    "run004_unchanged": true
+  },
+  "resources": {
+    "minimum_system_available_ram_bytes": 27032604672,
+    "nonterminal_events": [
+      {
+        "enforcement": "log-derived-diagnostic",
+        "event": "diagnostic",
+        "threshold": "fine_node_count",
+        "timestamp": 1786116419.578998,
+        "value": 1099999
+      }
+    ],
+    "peak_output_directory_bytes_during_fine": 359239230,
+    "peak_process_group_rss_bytes": 13859332096,
+    "peak_pytorch_memory_log_bytes": 663828480,
+    "peak_swap_growth_bytes": 0,
+    "peak_whole_device_vram_bytes": 3473932288,
+    "process_vram_attribution": "unavailable; never substituted with whole-device usage",
+    "resource_policy_abort": null,
+    "samples": 341
+  },
+  "root_cause": {
+    "add_new_gs_cause_excluded": true,
+    "depth_propagation_bug": "official lines 1769-1775 update only immediate children after interior-sibling promotion; descendants below that level retain stale depths",
+    "hspt_cause_excluded": true,
+    "mutation": "GaussianModel.relocate_gs",
+    "sentinel_index_bug": "a leaf sibling has first_child=0; official lines 1769-1775 dereference node 0 and then its -99 next_sibling as a Python negative index, matching Run004 row 1099901 at capacity 1100000",
+    "serialization_cause_excluded": true
+  },
+  "run005": {
+    "all_mutation_validations_passed": true,
+    "coarse_ply_sha256": "ffcbd2b12d60cbfd2260845e432421ee2af2f552d10818c0ae8d1f067ab4d143",
+    "initial_dhier_sha256": "a7862de91cd3620ab7be1296a50b9030aa1c2cca2b4fe15d79abaf55f4664d17",
+    "monitor_abort_reason": null,
+    "monitor_exit_status": 0,
+    "mutation_validations": [
+      {
+        "all_valid": true,
+        "events": [
+          {
+            "changed_row_count": 169140,
+            "checked_edges": 999998,
+            "duration_seconds": 1.1840992850002294,
+            "mismatch_counts": {},
+            "mutation": "add_new_gs",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          },
+          {
+            "changed_row_count": 95622,
+            "checked_edges": 55664,
+            "duration_seconds": 2.4298194849998254,
+            "mismatch_counts": {},
+            "mutation": "relocate_gs",
+            "reachable_nodes": 95622,
+            "scope": "affected-subtrees"
+          },
+          {
+            "changed_row_count": 245619,
+            "checked_edges": 999998,
+            "duration_seconds": 1.2222536439999203,
+            "mismatch_counts": {},
+            "mutation": "scheduled-densification-complete",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          }
+        ],
+        "iteration": 2000
+      },
+      {
+        "all_valid": true,
+        "events": [
+          {
+            "changed_row_count": 0,
+            "checked_edges": 999998,
+            "duration_seconds": 1.259465136000017,
+            "mismatch_counts": {},
+            "mutation": "add_new_gs",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          },
+          {
+            "changed_row_count": 22666,
+            "checked_edges": 14228,
+            "duration_seconds": 0.23755901200001972,
+            "mismatch_counts": {},
+            "mutation": "relocate_gs",
+            "reachable_nodes": 22666,
+            "scope": "affected-subtrees"
+          },
+          {
+            "changed_row_count": 22666,
+            "checked_edges": 999998,
+            "duration_seconds": 1.221040045999871,
+            "mismatch_counts": {},
+            "mutation": "scheduled-densification-complete",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          }
+        ],
+        "iteration": 4000
+      },
+      {
+        "all_valid": true,
+        "events": [
+          {
+            "changed_row_count": 0,
+            "checked_edges": 999998,
+            "duration_seconds": 1.1791997459999948,
+            "mismatch_counts": {},
+            "mutation": "add_new_gs",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          },
+          {
+            "changed_row_count": 9060,
+            "checked_edges": 5568,
+            "duration_seconds": 0.12316377099978126,
+            "mismatch_counts": {},
+            "mutation": "relocate_gs",
+            "reachable_nodes": 9060,
+            "scope": "affected-subtrees"
+          },
+          {
+            "changed_row_count": 9060,
+            "checked_edges": 999998,
+            "duration_seconds": 1.173267807999764,
+            "mismatch_counts": {},
+            "mutation": "scheduled-densification-complete",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          }
+        ],
+        "iteration": 6000
+      },
+      {
+        "all_valid": true,
+        "events": [
+          {
+            "changed_row_count": 0,
+            "checked_edges": 999998,
+            "duration_seconds": 1.1965357909998602,
+            "mismatch_counts": {},
+            "mutation": "add_new_gs",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          },
+          {
+            "changed_row_count": 5909,
+            "checked_edges": 3542,
+            "duration_seconds": 0.10640702900036558,
+            "mismatch_counts": {},
+            "mutation": "relocate_gs",
+            "reachable_nodes": 5909,
+            "scope": "affected-subtrees"
+          },
+          {
+            "changed_row_count": 5909,
+            "checked_edges": 999998,
+            "duration_seconds": 1.186249767999925,
+            "mismatch_counts": {},
+            "mutation": "scheduled-densification-complete",
+            "reachable_nodes": 999999,
+            "scope": "global"
+          }
+        ],
+        "iteration": 8000
+      }
+    ],
+    "rejected_run004_final_reused": false,
+    "source_run": "ALOD-SMOKE-TRAIN-004",
+    "training_seconds_reported_by_source": 1722.64
+  },
+  "run_id": "ALOD-SMOKE-TRAIN-005",
+  "schema_version": 1,
+  "tests": {
+    "differential_gate": "PASS",
+    "official_reproducer_gate": "PASS",
+    "patched_failing_cases": [],
+    "patched_reproducer_gate": "PASS",
+    "properties_forward_topology_and_respawn_preserved": true,
+    "real_cuda_mutation_gate": "PASS",
+    "real_deep_descendant_levels": 3,
+    "real_skybox_rows_unchanged": true
+  }
+}

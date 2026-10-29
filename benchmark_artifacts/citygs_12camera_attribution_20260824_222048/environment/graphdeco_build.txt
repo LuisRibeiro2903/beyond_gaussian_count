@@ -1,0 +1,32 @@
+Backend: pinned GraphDECO diff-gaussian-rasterization
+Source checkout: /home/luis/tese/CityGaussian_official_parity/submodules/diff-gaussian-rasterization
+Source commit: 59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d
+Binary: /home/luis/tese/CityGaussian_official_parity/.official_extensions/diff_gaussian_rasterization/_C.cpython-310-x86_64-linux-gnu.so
+Binary SHA-256: cc2ada2c5875c272771ebe4624208c0a5f4004fc150cc9914d553274d02fffd8
+Binary size: 2,041,816 bytes
+Python/PyTorch environment: /home/luis/miniconda3/envs/citygs; Python 3.10; torch 2.11.0+cu128
+Extension compiler: /home/luis/miniconda3/envs/nerfstudio2/bin/nvcc, CUDA 12.9.86
+
+Build-command authority: environment/graphdeco_build.ninja
+Host release flags include -DNDEBUG and -O2.
+CUDA flags include -gencode=arch=compute_120,code=sm_120 and do not include -G.
+No debug build flag is present.
+The binary links libcudart.so.12 and executed through CUDA events on the RTX 5080; no CPU fallback was used.
+
+CUDA 12.9 cuobjdump --list-elf:
+ELF file 1: _C.cpython-310-x86_64-linux-gnu.1.sm_120.cubin
+ELF file 2: _C.cpython-310-x86_64-linux-gnu.2.sm_120.cubin
+ELF file 3: _C.cpython-310-x86_64-linux-gnu.3.sm_120.cubin
+ELF file 4: _C.cpython-310-x86_64-linux-gnu.4.sm_120.cubin
+
+CUDA 12.9 cuobjdump --list-ptx:
+No PTX file found.
+
+Conclusion: the measured GraphDECO binary contains native sm_120 cubins and is not using a PTX-only compatibility path.
+
+Source difference from the pinned submodule:
+- cuda_rasterizer/rasterizer_impl.h adds #include <cstdint>.
+- No kernel, launch configuration, arithmetic, culling, sorting, or blending logic differs.
+- This is the previously recorded CUDA 12.9 include-only compatibility change.
+
+The extension was already correctly built for sm_120 before this microbenchmark and was not rebuilt or optimized for the campaign.
