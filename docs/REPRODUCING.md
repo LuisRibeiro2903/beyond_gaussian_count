@@ -25,6 +25,26 @@ The figures check 126 saved input records, and the natural-table verifier checks
 preserved numerical evidence, not new GPU performance measurements. The figures
 use bundled DejaVu Sans instead of the dissertation's excluded font.
 
+## Recorded execution paths
+
+Absolute paths in the saved results, camera/oracle fixtures and complete
+`v1.0.0` record describe the original execution environment. They may identify
+local experiment directories, external model files, Python/Conda environments
+or build locations. Readers do not need to recreate those directories or the
+original username. Use the portable commands below and supply paths to your
+own separately acquired inputs; compare their hashes with the recorded input
+identities.
+
+These records remain unchanged, including their path strings: result files
+are byte-identical to the pinned evidence, and manifests seal historical
+configurations and source files with SHA-256. Editing a recorded path could
+break verification or obscure which environment produced a measurement.
+Paths alone do not supply an external asset or establish its identity. This
+also applies to historical runnable configurations: inspect their recorded
+protocol, then provide local input paths for a new experiment rather than
+editing the archived record. See the [publication audit](PUBLICATION_AUDIT_1.1.2.md)
+for scope, privacy findings and retained-history limits.
+
 ## Focused runtime tests
 
 Install PyTorch separately for your platform. For CPU-only tests:
@@ -98,7 +118,7 @@ The trained `.dhier` file is external. The required file identity is
 `asset.sha256` in [the formal result record](../results/alod_exec/matrixcity_formal.json):
 `38f4abdc0d47f2d20316de33f4fff87086e038a57daac0f2feaf98fa9178eb7b`.
 Check your acquired file with `sha256sum /path/to/Run009.dhier` before running.
-The [archived Run009 training record](https://github.com/LuisRibeiro2903/beyound_gaussian_count/blob/v1.0.0/gs_framework/docs/results/alod_formal_mixed_training_run009.md)
+The [archived Run009 training record](https://github.com/LuisRibeiro2903/beyond_gaussian_count/blob/v1.0.0/gs_framework/docs/results/alod_formal_mixed_training_run009.md)
 documents how the original hierarchy was produced; repeating training does not
 guarantee the same bytes. These presets fix the hierarchy layout, scene scale,
 selection settings and cache capacity. An arbitrary `.dhier` or a camera-path

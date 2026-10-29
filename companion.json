@@ -1,9 +1,9 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "evidence": {
     "tag": "v1.0.0",
     "commit": "42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c",
-    "url": "https://github.com/LuisRibeiro2903/beyound_gaussian_count/tree/v1.0.0",
+    "url": "https://github.com/LuisRibeiro2903/beyond_gaussian_count/tree/v1.0.0",
     "purpose": "Complete audited numerical, protocol, provenance and auxiliary-code record; kept intact.",
     "manifest_sha256": "bca167e1737be522a3bb89309f90f8f3c5bbb807ac26fdd20f00b10e1a326e29"
   },
@@ -108,7 +108,7 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "2ea67e4e67eb3632d0d97c72d8dd2f4f58b6b4f2a7b666ad16016f96c6c085af",
+      "sha256": "e51e484eaba29fec522907016dfdfb3048598622966698d23ee98130089206e8",
       "license_expression": "MIT",
       "archived_source": "CITATION.cff"
     },
@@ -120,7 +120,7 @@
     },
     {
       "path": "LICENSE.md",
-      "sha256": "9a96368e75af73815cf01d7b946200d7b38f931a624a56a0126a14013000a6ba",
+      "sha256": "d3ac3368f3a1e3fec887a26d66811cd3fd08a1cd4ef34e03c8282a6b37a985c5",
       "license_expression": "MIT",
       "archived_source": "LICENSE.md"
     },
@@ -168,7 +168,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "9ce26c80a38c637825a5f99baffad3a78ae6a29d0c0d42587181c45582089a65",
+      "sha256": "fbab972b62611dd277e2d92b088a650ed92def26d707afc926c6d1c7a4aee55c",
       "license_expression": "MIT",
       "archived_source": "README.md"
     },
@@ -189,13 +189,18 @@
       "license_expression": "MIT"
     },
     {
+      "path": "docs/PUBLICATION_AUDIT_1.1.2.md",
+      "sha256": "17ae652b7cbf301a52b37e27585527edda043ddf9cce539a317d68b7f2f64fd3",
+      "license_expression": "MIT"
+    },
+    {
       "path": "docs/RELEASING.md",
-      "sha256": "de2eb1782da5abd3d1e8b96c71d5bb3307ed5984f075f281d2a7a032d8fe8453",
+      "sha256": "aaa27b9a90ce56773bee2ecaf29155bb750098d0230a710f806866c38f358a7e",
       "license_expression": "MIT"
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "94f13343ab4d12b79d188e981398388b8e44c8f6ca2184e805906bc259dbae05",
+      "sha256": "1d00959a5f1f79440c3ca9ac7abdcdcaa64847101f2f4473dfe8c02e6f5d46a2",
       "license_expression": "MIT",
       "archived_source": "docs/REPRODUCING.md"
     },
@@ -1118,22 +1123,17 @@
   "validation": {
     "status": "PASS",
     "date": "2026-10-29",
-    "tested_state": "The 1.1.1 working-tree file inventory identified by this manifest; the final commit also records this validation metadata.",
+    "tested_state": "The proposed 1.1.2 reader inventory identified by this manifest; no publication or GPU campaign rerun.",
     "previous_validation": {
-      "tag": "v1.1.0",
-      "commit": "7ebd4e8034a68d99161491932ce78ef2a0b36e8e",
+      "tag": "v1.1.1",
+      "commit": "be099fae09c89a78178d1e0df210899f8e6f9a5b",
       "path": "companion.json"
-    },
-    "software": {
-      "matplotlib": "3.10.8",
-      "numpy": "1.26.4",
-      "python": "3.12.12"
     },
     "checks": [
       {
         "check": "Reader integrity and unchanged original results",
         "status": "PASS",
-        "classified_files": 172,
+        "classified_files": 173,
         "unchanged_result_records": 13
       },
       {
@@ -1144,42 +1144,42 @@
         "table_statistics_checked": 876
       },
       {
-        "check": "Figure generation and published preview provenance",
+        "check": "Whole reachable-history publication gate",
+        "status": "PASS",
+        "classified_files": 173,
+        "reachable_commits_scanned": 6,
+        "excluded_camera_payloads": 183,
+        "scope": "Working tree plus all public-ref history before the patch commit; repeated after commit creation."
+      },
+      {
+        "check": "Independent Gitleaks history scan",
+        "status": "PASS",
+        "version": "8.30.1",
+        "reachable_commits_scanned": 6,
+        "findings": 0,
+        "scope": "Default ruleset, all refs and full history, archive depth 2, full redaction; repeated after commit creation."
+      },
+      {
+        "check": "All pinned archive file hashes",
+        "status": "PASS",
+        "archive_files_verified": 3063
+      },
+      {
+        "check": "Figure generation and preview provenance",
         "status": "PASS",
         "evidence_files_verified": 126,
         "vector_figures": 5,
         "png_previews": 1,
-        "existing_pdfs_byte_identical_to_previous_generation": true
+        "outputs_byte_identical_to_previous_generation": true
       },
       {
-        "check": "Focused unit suite with pinned official-source reference",
+        "check": "Repository links, citation/version agreement and local Markdown file links",
         "status": "PASS",
-        "run": 199,
-        "skipped": 1,
-        "failures": 0,
-        "errors": 0,
-        "skip_reason": "CUDA unavailable"
+        "anonymous_public_links_checked": 6,
+        "local_markdown_file_links_checked": 46
       },
       {
-        "check": "Three documented camera-sample commands",
-        "status": "PASS",
-        "scope": "Argument parsing, real config/camera loading and routing to camera_sample_validation; GPU scene execution mocked. Both ALoD commands use identical frozen camera IDs, per-camera resolutions and intrinsics."
-      },
-      {
-        "check": "Whole reachable-history publication gate",
-        "status": "PASS",
-        "classified_files": 172,
-        "reachable_commits_scanned": 5,
-        "excluded_camera_payloads": 183,
-        "scope": "Working tree plus reachable history before the documentation-update commit."
-      },
-      {
-        "check": "Documentation links, release metadata and research-overview claims",
-        "status": "PASS",
-        "scope": "Local Markdown file targets, archived Run009 training target, version agreement, preview output hash, and qualitative claims checked against canonical result records."
-      },
-      {
-        "check": "Runtime, configurations, numerical results and pinned evidence unchanged from v1.1.0",
+        "check": "Existing tags, licences, results, runtime, configs, fixtures, source snapshots and workflows preserved",
         "status": "PASS"
       },
       {
@@ -1187,16 +1187,23 @@
         "status": "PASS"
       }
     ],
-    "gpu_scope": "No GPU rendering or formal campaign rerun; GPU access is unavailable in this session.",
     "external_checks": {
-      "github_ci": "Not verified; the GitHub connector cannot access this repository.",
-      "repository_rename": "Not performed; an authenticated GitHub admin session is required."
-    }
+      "repository": "Renamed repository verified public; anonymous corrected links return HTTP 200.",
+      "github_ci": "Not run for this unpublished local patch.",
+      "publication": "No commit or tag pushed; v1.1.2 is proposed."
+    },
+    "software": {
+      "python": "3.12.12",
+      "numpy": "1.26.4",
+      "matplotlib": "3.10.8",
+      "gitleaks": "8.30.1"
+    },
+    "gpu_scope": "No GPU measurements or runtime tests rerun; documentation and metadata only. Previous release validation remains available via previous_validation."
   },
   "reader_update": {
-    "base_tag": "v1.1.0",
-    "base_commit": "7ebd4e8034a68d99161491932ce78ef2a0b36e8e",
-    "scope": "Research overview, metric glossary, ALoD-Exec sample commands, generated timing preview, and release/citation guidance. Runtime source, configurations, result records and pinned evidence are unchanged.",
+    "base_tag": "v1.1.1",
+    "base_commit": "be099fae09c89a78178d1e0df210899f8e6f9a5b",
+    "scope": "Corrected repository URLs, completed-rename release guidance and historical-path privacy/provenance audit. Runtime, configs, fixtures, result bytes and pinned evidence unchanged.",
     "archived_source_note": "File archived_source fields name historical predecessors; only the results inventory claims byte identity with that archive."
   }
 }

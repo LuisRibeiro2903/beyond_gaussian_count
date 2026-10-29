@@ -67,14 +67,14 @@ and external inputs for real-scene experiments. Read the
 
 ## Detailed evidence
 
-The [complete audited record at v1.0.0](https://github.com/LuisRibeiro2903/beyound_gaussian_count/tree/v1.0.0)
+The [complete audited record at v1.0.0](https://github.com/LuisRibeiro2903/beyond_gaussian_count/tree/v1.0.0)
 preserves the full numerical traces, protocols, validation reports, historical
 source snapshots, auxiliary tools and development documentation. The analysis
 commands read those records from the pinned Git revision without expanding
 thousands of files into this working tree. Standard Git clones include it.
 
 For a shallow clone, fetch it once with `git fetch origin tag v1.0.0`.
-For a ZIP download, also obtain the [full-record ZIP](https://github.com/LuisRibeiro2903/beyound_gaussian_count/archive/refs/tags/v1.0.0.zip)
+For a ZIP download, also obtain the [full-record ZIP](https://github.com/LuisRibeiro2903/beyond_gaussian_count/archive/refs/tags/v1.0.0.zip)
 and set `BEYOND_EVIDENCE_DIR` to its extracted root. The expected revision is
 `42af4e9ec5fb9bb4c75ef3229b6bbb517fb28a6c`.
 
@@ -96,5 +96,5 @@ Original contributions use MIT. Upstream-derived portions retain their
 noncommercial/research, share-alike or Apache terms; see [LICENSE.md](LICENSE.md)
 and [NOTICE](NOTICE). Citation metadata are in [CITATION.cff](CITATION.cff).
 Cite an immutable release tag and its full commit in the dissertation. See
-[release and citation notes](docs/RELEASING.md) for the repository rename and
-publication steps. No DOI is claimed.
+[release and citation notes](docs/RELEASING.md) for publication steps and the
+historical-path audit. No DOI is claimed.

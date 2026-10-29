@@ -33,4 +33,4 @@ combined expression records all applicable terms, not a choice between them.
 Full upstream repositories, imagery, trained models and binary oracle payloads
 are external. Campus/Sci-Art raw camera payloads are also excluded because
 redistribution rights have not been established. See [NOTICE](NOTICE) and
-[the completed redistribution review](https://github.com/LuisRibeiro2903/beyound_gaussian_count/blob/v1.0.0/docs/LICENSE_REVIEW.md).
+[the completed redistribution review](https://github.com/LuisRibeiro2903/beyond_gaussian_count/blob/v1.0.0/docs/LICENSE_REVIEW.md).
