@@ -40,7 +40,21 @@ python -m unittest unit_tests.test_alod_dhier_format unit_tests.test_alod_select
 ```
 
 The broader `python -m unittest discover -s unit_tests` suite additionally needs
-the runtime dependencies below. Integration tests require external assets and
+the runtime dependencies below. Six official-source oracle tests also need one
+pinned upstream source file; obtain it separately into ignored local storage:
+
+```bash
+python tools/fetch_citygaussian_reference.py
+export GS_FRAMEWORK_CITYGAUSSIAN_REFERENCE_REPO="$PWD/local/reference-citygaussian"
+cd gs_framework
+python -m unittest discover -s unit_tests
+```
+
+The downloader verifies the exact pinned source SHA-256 before using it.
+Without the explicit reference setting, those six tests are skipped rather
+than searching a developer's filesystem. With that reference, the validated
+suite runs 220 tests with two skips; without it there are eight skips.
+Integration tests require external assets and
 are not equivalent to the synthetic unit tests. Original validation reports
 are scientific evidence, not a claim that every gate has been rerun at release.
 

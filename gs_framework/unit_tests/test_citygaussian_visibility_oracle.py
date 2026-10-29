@@ -1,13 +1,13 @@
 import math
 import json
 import unittest
+import os
 from pathlib import Path
 
 import numpy as np
 import torch
 
 from scripts.extract_citygaussian_cell_oracle import (
-    DEFAULT_REFERENCE_REPO,
     OfficialVisibilityFunction,
     OracleCamera,
     _camera_to_official,
@@ -18,11 +18,15 @@ from scripts.extract_citygaussian_cell_oracle import (
 
 
 def _visibility_function():
-    namespace = _load_in_frustum_source_slice(DEFAULT_REFERENCE_REPO / "utils" / "large_utils.py")
+    configured = os.environ.get("GS_FRAMEWORK_CITYGAUSSIAN_REFERENCE_REPO")
+    if not configured:
+        raise unittest.SkipTest("Official-source oracle requires GS_FRAMEWORK_CITYGAUSSIAN_REFERENCE_REPO; see docs/REPRODUCING.md")
+    source = Path(configured) / "utils" / "large_utils.py"
+    namespace = _load_in_frustum_source_slice(source)
     return OfficialVisibilityFunction(
         fn=namespace["in_frustum"],
         method="source_slice_exec",
-        source_path=str(DEFAULT_REFERENCE_REPO / "utils" / "large_utils.py"),
+        source_path=str(source),
     )
 
 

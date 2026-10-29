@@ -15291,6 +15291,11 @@
       "basis": "Original project code, documentation, generated measurement/provenance record or packaging metadata; external data are not sublicensed"
     },
     {
+      "path": "tools/fetch_citygaussian_reference.py",
+      "license_expression": "MIT",
+      "basis": "Original project code, documentation, generated measurement/provenance record or packaging metadata; external data are not sublicensed"
+    },
+    {
       "path": "tools/patches/viser_mouse_look.patch",
       "license_expression": "MIT AND Apache-2.0",
       "basis": "gsplat/nerfview/Viser-derived helper or patch; original notices and project changes recorded in NOTICE"

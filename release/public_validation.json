@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "date": "2026-10-29",
-  "status": "FINAL_CLEAN_CHECKOUT_VALIDATION_IN_PROGRESS",
+  "status": "PASS",
   "author_decisions": {
     "original_contributions": "MIT; explicitly authorized by author",
     "private_history_replacement": "explicitly authorized; complete old history backed up locally"
@@ -62,5 +62,113 @@
     "Five historical natural-association source versions were not recovered",
     "Upstream-derived components retain their original noncommercial or research terms",
     "No GitHub visibility change or DOI creation"
-  ]
+  ],
+  "clean_checkout_tested_commit": "d1fa77204afb049f0d365948400ef663fd0e2bc4",
+  "final_clean_checkout_checks": [
+    {
+      "check": "Clone cleaned history with no inherited workspace files",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": ""
+    },
+    {
+      "check": "Preserved export and original trace identities",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "PASS: 3062 packaged files; 415 original trace hashes.\nThis checks release integrity, not GPU measurements or redistribution rights."
+    },
+    {
+      "check": "Whole public tree and reachable-history gate",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "{\n  \"status\": \"PASS\",\n  \"classified_files\": 3065,\n  \"reachable_commits_scanned\": 1,\n  \"excluded_camera_payloads\": 183,\n  \"credential_patterns\": [\n    \"private key\",\n    \"GitHub token\",\n    \"AWS access key\",\n    \"Hugging Face token\",\n    \"Google API key\"\n  ]\n}"
+    },
+    {
+      "check": "Independent natural ALoD-Exec table verification",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "{\n  \"status\": \"PASS\",\n  \"fresh_process_records\": 18,\n  \"measured_frames\": 405,\n  \"table_statistics_checked\": 876,\n  \"scope\": \"saved numerical evidence; no GPU, camera payload or scene required\"\n}"
+    },
+    {
+      "check": "Regenerate five figures directly from compressed evidence",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "Verified 126 evidence files; generated five vector figures."
+    },
+    {
+      "check": "Full CPU unit suite in independently installed environment",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "Cleanup metadata written to /tmp/tmpozo76esm/metadata.json\nBounds-valid Gaussians: 2/2; excluded from bounds: 0 (0.00%).\nCleanup metadata written to /tmp/tmptg5rd33j/metadata.json\nBounds-valid Gaussians: 3/4; excluded from bounds: 1 (25.00%).\n..................................................s...................................................s../tmp/beyond-gaussian-count-evidence-env/lib/python3.12/site-packages/websockets/connection.py:8: DeprecationWarning: websockets.connection was renamed to websockets.protocol and Connection was renamed to Protocol\n  warnings.warn(  # deprecated in 11.0 - 2023-04-02\n/tmp/beyond-gaussian-count-evidence-env/lib/python3.12/site-packages/websockets/legacy/__init__.py:6: DeprecationWarning: websockets.legacy is deprecated; see https://websockets.readthedocs.io/en/stable/howto/upgrade.html for upgrade instructions\n  warnings.warn(  # deprecated in 14.0 - 2024-11-09\n...................................................................................................................\n----------------------------------------------------------------------\nRan 220 tests in 1.331s\n\nOK (skipped=2)"
+    },
+    {
+      "check": "Benchmark CLI import and argument contract",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "          {ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL,ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE,ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM,ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL,ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS,ALOD-EXT-ROW-LRU-PRACTICAL,ALOD-HIER-FINEST-RESIDENT,ALOD-HIER-LOD-FRUSTUM,ALOD-HIER-LOD-RESIDENT,ALOD-HOST-BOUNDED-CACHE,ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-REDUCED,ALOD-HOST-NOCACHE,ALOD-HOST-PREVIOUS-REUSE,ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION,ALOD-REPRO-HOST-NOCACHE,ALOD-REPRO-NOFRUSTUM,ALOD-REPRO-PREVIOUS-REUSE,CG-FINEST-FLAT,CG-FIXED-FINEST-ALL,CG-FIXED-FINEST-VISIBILITY,CG-FUSED-CELLS-ALL,CG-FUSED-VISIBILITY,CG-LOD-RELEASE,FLAT-CITYGS-FULL,FLAT-REAL-FIT}\n                               [--asset ASSET]\n                               [--lod-finest-asset LOD_FINEST_ASSET]\n                               [--lod-middle-asset LOD_MIDDLE_ASSET]\n                               [--lod-coarsest-asset LOD_COARSEST_ASSET]\n                               [--camera-path CAMERA_PATH] --output-dir\n                               OUTPUT_DIR [--max-frames MAX_FRAMES]\n                               [--num-warmup NUM_WARMUP]\n                               [--num-repeat NUM_REPEAT]\n                               [--sample-frames SAMPLE_FRAMES] [--formal]\n                               [--device-index DEVICE_INDEX]\n                               [--log-gpu-events] [--record-warmup-frames]\n\nRun canonical flat real-scene gsplat benchmark configurations.\n\noptions:\n  -h, --help            show this help message and exit\n  --config-id {ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL,ALOD-EXT-PREMATERIALIZATION-CUDA-LARGE,ALOD-EXT-PREMATERIALIZATION-CUDA-MINIMUM,ALOD-EXT-PREMATERIALIZATION-CUDA-PRACTICAL,ALOD-EXT-PREMATERIALIZATION-CUDA-PREVIOUS,ALOD-EXT-ROW-LRU-PRACTICAL,ALOD-HIER-FINEST-RESIDENT,ALOD-HIER-LOD-FRUSTUM,ALOD-HIER-LOD-RESIDENT,ALOD-HOST-BOUNDED-CACHE,ALOD-HOST-BOUNDED-CACHE-FAST-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-PREMATERIALIZATION,ALOD-HOST-BOUNDED-CACHE-REDUCED,ALOD-HOST-NOCACHE,ALOD-HOST-PREVIOUS-REUSE,ALOD-HOST-PREVIOUS-REUSE-FAST-PREMATERIALIZATION,ALOD-REPRO-HOST-NOCACHE,ALOD-REPRO-NOFRUSTUM,ALOD-REPRO-PREVIOUS-REUSE,CG-FINEST-FLAT,CG-FIXED-FINEST-ALL,CG-FIXED-FINEST-VISIBILITY,CG-FUSED-CELLS-ALL,CG-FUSED-VISIBILITY,CG-LOD-RELEASE,FLAT-CITYGS-FULL,FLAT-REAL-FIT}\n  --asset ASSET         External checkpoint or PLY path.\n  --lod-finest-asset LOD_FINEST_ASSET\n                        Released light_50_vq PLY path.\n  --lod-middle-asset LOD_MIDDLE_ASSET\n                        Released light_66_vq PLY path.\n  --lod-coarsest-asset LOD_COARSEST_ASSET\n                        Released light_75_vq PLY path.\n  --camera-path CAMERA_PATH\n                        Override tracked camera path.\n  --output-dir OUTPUT_DIR\n  --max-frames MAX_FRAMES\n                        Measured-frame cap for short validation.\n  --num-warmup NUM_WARMUP\n                        Override warmup frame count.\n  --num-repeat NUM_REPEAT\n                        Override repeat count.\n  --sample-frames SAMPLE_FRAMES\n                        Render an evenly spaced non-formal camera sample\n                        instead of the default run.\n  --formal              Use record_kind=formal_benchmark.\n  --device-index DEVICE_INDEX\n  --log-gpu-events\n  --record-warmup-frames\n                        Write warmup_frames.jsonl for cold-to-steady cache\n                        characterization."
+    },
+    {
+      "check": "Restore exact archived traces",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "Restored 415 traces; 0 already matched."
+    },
+    {
+      "check": "Idempotent restoration",
+      "passed": true,
+      "actual_exit": 0,
+      "expected_exit": 0,
+      "output": "Restored 0 traces; 415 already matched."
+    },
+    {
+      "check": "Refuse overwrite of changed restored trace",
+      "passed": true,
+      "actual_exit": 1,
+      "expected_exit": 1,
+      "output": "Refusing to overwrite changed trace: /tmp/beyond-public-clean-t1gd_uk_/repo/benchmark_artifacts/alod_ext_formal_run009_001/runs/ALOD-EXT-PREMATERIALIZATION-CPU-PRACTICAL/replicate-01/frames.jsonl"
+    },
+    {
+      "check": "Detect archived trace tampering",
+      "passed": true,
+      "actual_exit": 1,
+      "expected_exit": 1,
+      "output": "Traceback (most recent call last):\n  File \"/tmp/beyond-public-clean-t1gd_uk_/repo/tools/verify_release.py\", line 36, in <module>\n    main()\n  File \"/tmp/beyond-public-clean-t1gd_uk_/repo/tools/verify_release.py\", line 28, in main\n    if not path.is_file() or digest(path, True) != item['sha256']:\n                             ^^^^^^^^^^^^^^^^^^\n  File \"/tmp/beyond-public-clean-t1gd_uk_/repo/tools/verify_release.py\", line 14, in digest\n    for block in iter(lambda: handle.read(1024 * 1024), b''):\n  File \"/tmp/beyond-public-clean-t1gd_uk_/repo/tools/verify_release.py\", line 14, in <lambda>\n    for block in iter(lambda: handle.read(1024 * 1024), b''):\n                              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 324, in read\n    return self._buffer.read(size)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/_compression.py\", line 68, in readinto\n    data = self.read(len(byte_view))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 527, in read\n    if not self._read_gzip_header():\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 496, in _read_gzip_header\n    last_mtime = _read_gzip_header(self._fp)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 456, in _read_gzip_header\n    raise BadGzipFile('Not a gzipped file (%r)' % magic)\ngzip.BadGzipFile: Not a gzipped file (b'ch')"
+    },
+    {
+      "check": "Detect numerical table byte tampering",
+      "passed": true,
+      "actual_exit": 1,
+      "expected_exit": 1,
+      "output": "FAILED\nbenchmark_artifacts/citygs_canonical_20260824_135615/tables/config_summary.json"
+    },
+    {
+      "check": "All tracked Python/JSON parse; public navigation resolves",
+      "passed": true
+    }
+  ],
+  "checks_passed": 13,
+  "all_checks_passed": true,
+  "independently_installed_environment": {
+    "python": "Python 3.12.3",
+    "requirements": [
+      "requirements-evidence.txt",
+      "torch==2.11.0 from CPU index",
+      "requirements-runtime.txt"
+    ],
+    "freeze": "reproduction/environments/tested-cpu-freeze.txt"
+  },
+  "dataset_exclusion_history": {
+    "reachable_history_verified_clean": true,
+    "excluded_source_payload_files": 183,
+    "backup_verified_outside_public_repository": true
+  },
+  "tested_source_note": "Final publication-record commit may change release metadata; implementation and scientific evidence are unchanged from the clean checkout tested here."
 }

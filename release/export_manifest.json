@@ -12,9 +12,9 @@
       "path": ".github/workflows/check.yml",
       "source_path": null,
       "source_sha256": null,
-      "sha256": "6c1f2e750f86cb064ff24e2be44fc2b482899fb8e33c160da3dae6480c715508",
-      "bytes": 925,
-      "transformation": "Authored for public companion packaging; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained"
+      "sha256": "311324c95829c97d627081b90e776155126d25b05a4aa6bd1ed8dfdf8799dccf",
+      "bytes": 1093,
+      "transformation": "Authored for public companion packaging; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained"
     },
     {
       "path": ".gitignore",
@@ -10052,9 +10052,9 @@
       "path": "docs/REPRODUCING.md",
       "source_path": null,
       "source_sha256": null,
-      "sha256": "51a1d41654261d5c0b66085c006ea6debf32a8e823210fe8656189ff1881002e",
-      "bytes": 5730,
-      "transformation": "authored for companion packaging; no historical experiment change; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained"
+      "sha256": "7deafdd5b6cae5297fb0107ba3dc80197c38ccd17ccc8afd8a34d385b8c0cf99",
+      "bytes": 6351,
+      "transformation": "authored for companion packaging; no historical experiment change; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained; public release packaging or portability update; original source_sha256 retained"
     },
     {
       "path": "duplicate_gsplat_checkpoint.py",
@@ -12620,9 +12620,9 @@
       "path": "gs_framework/unit_tests/test_citygaussian_visibility_oracle.py",
       "source_path": "gs_framework/unit_tests/test_citygaussian_visibility_oracle.py",
       "source_sha256": "bcd6af6e85d37e93b82d6b7c80ed52592eb7254d5866df90578266d74693ec94",
-      "sha256": "bcd6af6e85d37e93b82d6b7c80ed52592eb7254d5866df90578266d74693ec94",
-      "bytes": 9341,
-      "transformation": "none"
+      "sha256": "698460c1c224a3c8c0796b7e0a5ca3353cb6597469c892bb6e4b038b26e03963",
+      "bytes": 9524,
+      "transformation": "none; public release packaging or portability update; original source_sha256 retained"
     },
     {
       "path": "gs_framework/unit_tests/test_citygaussian_visibility_runtime.py",
@@ -24423,6 +24423,14 @@
       "sha256": "cb9d95052e1d923a468aef57ca297b0a7344fb5c13165f20676c582beaa4bcb5",
       "bytes": 4456,
       "transformation": "Authored for public companion packaging; public release packaging or portability update; original source_sha256 retained"
+    },
+    {
+      "path": "tools/fetch_citygaussian_reference.py",
+      "source_path": null,
+      "source_sha256": null,
+      "sha256": "c9117927ddb9e30ed8475825042315fd94bb819b81590f793a181d418bd5efac",
+      "bytes": 1472,
+      "transformation": "Authored for public companion packaging"
     },
     {
       "path": "tools/patches/viser_mouse_look.patch",
